@@ -184,7 +184,7 @@
     function toggleLang() {
         currentLang = currentLang === 'ru' ? 'en' : 'ru';
         filterLang = currentLang; // STRICT SYNCHRONIZATION!
-        els.langLabel.textContent = currentLang.toUpperCase();
+        if (els.langLabel) els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
         
         if (els.tabRu) els.tabRu.classList.toggle('active', currentLang === 'ru');
         if (els.tabEn) els.tabEn.classList.toggle('active', currentLang === 'en');
@@ -200,7 +200,7 @@
             loadQuizQuestion();
         }
         savePreferences();
-        showToast(currentLang === 'ru' ? '🇷🇺 Язык изменён: Русский' : '🇬🇧 Language switched: English');
+        showToast(currentLang === 'ru' ? 'Язык: Русский' : 'Language: English');
     }
 
     function t(key) {
@@ -208,6 +208,8 @@
     }
 
     function updateUILanguage() {
+        if (els.langLabel) els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
+
         // Logo
         if ($('logoTitle')) $('logoTitle').textContent = t('logoTitle');
         if ($('logoSubtitle')) $('logoSubtitle').textContent = t('logoSubtitle');
@@ -279,8 +281,8 @@
         if ($('suggestWordLabel')) $('suggestWordLabel').innerHTML = t('suggestWordLabel');
         if ($('suggestWordInput')) $('suggestWordInput').placeholder = t('suggestWordPlaceholder');
         if ($('suggestLangLabel')) $('suggestLangLabel').textContent = t('suggestLangLabel');
-        if ($('optLangRu')) $('optLangRu').textContent = currentLang === 'ru' ? 'Русский 🇷🇺' : 'Russian 🇷🇺';
-        if ($('optLangEn')) $('optLangEn').textContent = currentLang === 'ru' ? 'Английский 🇬🇧' : 'English 🇬🇧';
+        if ($('optLangRu')) $('optLangRu').textContent = currentLang === 'ru' ? 'Русский язык' : 'Russian';
+        if ($('optLangEn')) $('optLangEn').textContent = currentLang === 'ru' ? 'Английский язык' : 'English';
         if ($('suggestSynonymLabel')) $('suggestSynonymLabel').innerHTML = t('suggestSynonymLabel');
         if ($('suggestSynonymInput')) $('suggestSynonymInput').placeholder = t('suggestSynonymPlaceholder');
         if ($('suggestTypeLabel')) $('suggestTypeLabel').textContent = t('suggestTypeLabel');
