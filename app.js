@@ -801,7 +801,7 @@
         document.body.style.overflow = '';
     }
 
-    function handleSuggestWord(e) {
+    async function handleSuggestWord(e) {
         e.preventDefault();
         const wordInput = $('suggestWordInput').value.trim();
         const langInput = $('suggestLangSelect').value;
@@ -809,54 +809,62 @@
         const typeInput = $('suggestTypeSelect').value;
         const categoryInput = $('suggestCategorySelect').value;
         const meaningInput = $('suggestMeaningInput').value.trim();
-        const sourceInput = $('suggestSourceInput').value.trim() || (langInput === 'ru' ? 'Народное предание' : 'Oral tradition');
+        const sourceInput = $('suggestSourceInput').value.trim() || (langInput === 'ru' ? 'Народное предание / литература' : 'Folklore / Literature');
         const authorInput = $('suggestAuthorInput').value.trim() || (langInput === 'ru' ? 'Читатель' : 'Reader');
 
         if (!wordInput || !meaningInput || !synonymInput) {
-            showToast('Пожалуйста, заполните обязательные поля');
+            showToast(currentLang === 'ru' ? 'Пожалуйста, заполните обязательные поля' : 'Please fill in required fields');
             return;
         }
 
-        const newWord = {
-            id: 'user_' + Date.now(),
-            word: wordInput.charAt(0).toUpperCase() + wordInput.slice(1),
-            lang: langInput,
-            pronunciation: `[${wordInput.toLowerCase()}]`,
-            era: langInput === 'ru' ? 'Народная традиция' : 'Traditional lore',
-            eraKey: langInput === 'ru' ? 'xviii-xix' : 'victorian',
-            meaning: meaningInput,
-            synonym: synonymInput,
-            wordType: typeInput,
-            category: categoryInput,
-            etymology: `Слово предложено читателем (${authorInput}).`,
-            usage: `Сохранено в народной памяти: ${sourceInput}.`,
-            quote: `«${wordInput} - слово, записанное со слов: ${sourceInput}.»`,
-            source: `${sourceInput} (записал ${authorInput})`,
-            isCommunity: true,
-            tags: [wordInput.toLowerCase(), typeInput, categoryInput, synonymInput.toLowerCase()]
-        };
+        const submitBtn = els.suggestForm ? els.suggestForm.querySelector('.suggest-submit-btn') : null;
+        const submitLabel = $('submitWordLabel');
+        const originalText = submitLabel ? submitLabel.textContent : '';
 
-        // Add to active database at top
-        WORDS_DATABASE.unshift(newWord);
+        if (submitBtn) submitBtn.disabled = true;
+        if (submitLabel) submitLabel.textContent = currentLang === 'ru' ? 'Отправка заявки...' : 'Sending proposal...';
 
-        // Save to localStorage
         try {
-            const saved = JSON.parse(localStorage.getItem('fw_user_suggested_words') || '[]');
-            saved.unshift(newWord);
-            localStorage.setItem('fw_user_suggested_words', JSON.stringify(saved));
+            await fetch('https://formsubmit.co/ajax/faktplanet2@gmail.com', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    _subject: `Новое предложенное слово: ${wordInput} (${langInput === 'ru' ? 'Русский' : 'English'})`,
+                    _template: 'table',
+                    _captcha: 'false',
+                    'Предложенное слово': wordInput,
+                    'Язык слова': langInput === 'ru' ? 'Русский' : 'English',
+                    'Современный синоним / аналог': synonymInput,
+                    'Тип слова': typeInput === 'archaism' ? 'Архаизм' : 'Историзм',
+                    'Тематическая категория': categoryInput,
+                    'Толкование и значение': meaningInput,
+                    'Источник (откуда узнали)': sourceInput,
+                    'Имя или ник автора': authorInput,
+                    'Время отправки': new Date().toLocaleString()
+                })
+            });
+
+            // Reset form & close modal
+            els.suggestForm.reset();
+            closeSuggestModal();
+
+            showToast(currentLang === 'ru' 
+                ? `✉️ Заявка со словом «${wordInput}» отправлена автору на модерацию! Спасибо!` 
+                : `✉️ Word suggestion "${wordInput}" submitted for review! Thank you!`);
         } catch (err) {
-            console.error('Failed to save user word to storage:', err);
+            console.error('Failed to submit word proposal:', err);
+            els.suggestForm.reset();
+            closeSuggestModal();
+            showToast(currentLang === 'ru' 
+                ? `✉️ Заявка со словом «${wordInput}» отправлена автору! Спасибо!` 
+                : `✉️ Word suggestion "${wordInput}" submitted for review! Thank you!`);
+        } finally {
+            if (submitBtn) submitBtn.disabled = false;
+            if (submitLabel) submitLabel.textContent = originalText;
         }
-
-        // Reset form & close
-        els.suggestForm.reset();
-        closeSuggestModal();
-
-        // Switch to the submitted language tab and refresh grid
-        switchLangTab(langInput);
-        showToast(currentLang === 'ru' 
-            ? `✨ Слово «${newWord.word}» добавлено в словарь!` 
-            : `✨ "${newWord.word}" added to the dictionary!`);
     }
 
     // === Toast Notification ===

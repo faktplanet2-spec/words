@@ -374,7 +374,7 @@ const UI_STRINGS = {
         quizFeedbackCorrect: 'Верно! Великолепная эрудиция!',
         quizFeedbackWrong: 'Не совсем так. Правильный ответ:',
         suggestTitle: 'Предложить забытое слово',
-        suggestSubtitle: 'Поделитесь словом, которое вы нашли в старой книге или услышали от бабушек и дедушек',
+        suggestSubtitle: 'Услышали редкое слово от бабушки или встретили в старой книге? Предложите его для добавления в словарь - мы рассмотрим вашу заявку!',
         suggestWordLabel: 'Слово *',
         suggestWordPlaceholder: 'Например: Посолонь',
         suggestLangLabel: 'Язык',
@@ -388,10 +388,10 @@ const UI_STRINGS = {
         suggestSourcePlaceholder: 'Например: Услышал от дедушки в Архангельской области',
         suggestAuthorLabel: 'Ваше имя или псевдоним (для благодарности в карточке)',
         suggestAuthorPlaceholder: 'Например: Иван Читатель',
-        submitWord: 'Добавить в словарь',
+        submitWord: 'Отправить на рассмотрение',
         themeTitle: 'Тема оформления',
         toastCopiedWord: 'Слово скопировано в буфер!',
-        toastWordAdded: 'Слово успешно добавлено в словарь!'
+        toastWordAdded: 'Заявка со словом успешно отправлена автору на модерацию!'
     },
     en: {
         logoTitle: 'Forgotten Words',
@@ -454,7 +454,7 @@ const UI_STRINGS = {
         quizFeedbackCorrect: 'Correct! Outstanding erudition!',
         quizFeedbackWrong: 'Not quite. The correct answer was:',
         suggestTitle: 'Suggest a Forgotten Word',
-        suggestSubtitle: 'Share a word you encountered in ancient books or heard from elders',
+        suggestSubtitle: 'Heard a rare word or encountered one in an old book? Submit your proposal - our editors will review it!',
         suggestWordLabel: 'Word *',
         suggestWordPlaceholder: 'E.g., Overmorrow',
         suggestLangLabel: 'Language',
@@ -468,9 +468,9 @@ const UI_STRINGS = {
         suggestSourcePlaceholder: 'E.g., Shakespeare, Hamlet, or local countryside phrase',
         suggestAuthorLabel: 'Your name or moniker (for credit in card)',
         suggestAuthorPlaceholder: 'E.g., Arthur the Bibliophile',
-        submitWord: 'Add to Dictionary',
+        submitWord: 'Submit for Review',
         themeTitle: 'Theme',
         toastCopiedWord: 'Word copied to clipboard!',
-        toastWordAdded: 'Word added successfully to dictionary!'
+        toastWordAdded: 'Word suggestion submitted for review! Thank you!'
     }
 };

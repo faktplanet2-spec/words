@@ -298,69 +298,69 @@
             <div class="suggest-container">
                 <div class="suggest-header">
                     <div class="suggest-icon">✍️</div>
-                    <h2 class="suggest-title" id="suggestTitle">Предложить забытое слово</h2>
-                    <p class="suggest-desc" id="suggestDesc">Услышали редкое слово от бабушки или встретили в старой книге? Добавьте его в словарь!</p>
+                    <h2 class="suggest-title" id="suggestTitle">Suggest a Forgotten Word</h2>
+                    <p class="suggest-desc" id="suggestDesc">Heard a rare word or encountered one in an old book? Submit your proposal - our editors will review it!</p>
                 </div>
 
                 <form class="suggest-form" id="suggestForm">
                     <div class="form-row">
                         <div class="form-group flex-1">
-                            <label for="suggestWordInput" id="suggestWordLabel">Слово <span class="required">*</span></label>
-                            <input type="text" id="suggestWordInput" required placeholder="Например: Посолонь">
+                            <label for="suggestWordInput" id="suggestWordLabel">Word <span class="required">*</span></label>
+                            <input type="text" id="suggestWordInput" required placeholder="E.g., Overmorrow">
                         </div>
                         <div class="form-group">
-                            <label for="suggestLangSelect" id="suggestLangLabel">Язык</label>
+                            <label for="suggestLangSelect" id="suggestLangLabel">Language</label>
                             <select id="suggestLangSelect">
+                                <option value="en" id="optLangEn">English</option>
                                 <option value="ru" id="optLangRu">Русский язык</option>
-                                <option value="en" id="optLangEn">English language</option>
                             </select>
                         </div>
                     </div>
 
                     <div class="form-row">
                         <div class="form-group flex-1">
-                            <label for="suggestSynonymInput" id="suggestSynonymLabel">Современный аналог <span class="required">*</span></label>
-                            <input type="text" id="suggestSynonymInput" required placeholder="Например: По ходу солнца / по часовой стрелке">
+                            <label for="suggestSynonymInput" id="suggestSynonymLabel">Modern equivalent <span class="required">*</span></label>
+                            <input type="text" id="suggestSynonymInput" required placeholder="E.g., The day after tomorrow">
                         </div>
                         <div class="form-group">
-                            <label for="suggestTypeSelect" id="suggestTypeLabel">Тип слова</label>
+                            <label for="suggestTypeSelect" id="suggestTypeLabel">Word type</label>
                             <select id="suggestTypeSelect">
-                                <option value="archaism" id="optTypeArchaism">🏛️ Архаизм (есть синоним)</option>
-                                <option value="historicism" id="optTypeHistoricism">📜 Историзм (ушедшая реалия)</option>
+                                <option value="archaism" id="optTypeArchaism">🏛️ Archaism (has synonym)</option>
+                                <option value="historicism" id="optTypeHistoricism">📜 Historicism (extinct reality)</option>
                             </select>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="suggestCategorySelect" id="suggestCategoryLabel">Тематическая категория</label>
+                        <label for="suggestCategorySelect" id="suggestCategoryLabel">Thematic category</label>
                         <select id="suggestCategorySelect">
-                            <option value="nature_body" id="optCatNature">🌿 Человек и природа</option>
-                            <option value="household" id="optCatHousehold">🥣 Быт и утварь</option>
-                            <option value="clothing" id="optCatClothing">👗 Одежда и ткани</option>
-                            <option value="professions" id="optCatProf">🔨 Профессии и чины</option>
-                            <option value="military" id="optCatMilitary">⚔️ Военное дело</option>
-                            <option value="measures_money" id="optCatMoney">⚖️ Меры и деньги</option>
-                            <option value="speech_mind" id="optCatSpeech">💬 Речь и мысли</option>
+                            <option value="nature_body" id="optCatNature">🌿 Nature & Human</option>
+                            <option value="household" id="optCatHousehold">🥣 Daily Life & Household</option>
+                            <option value="clothing" id="optCatClothing">👗 Attire & Textiles</option>
+                            <option value="professions" id="optCatProf">🔨 Trades & Titles</option>
+                            <option value="military" id="optCatMilitary">⚔️ Martial & Armor</option>
+                            <option value="measures_money" id="optCatMoney">⚖️ Weights & Coinage</option>
+                            <option value="speech_mind" id="optCatSpeech">💬 Mind & Rhetoric</option>
                         </select>
                     </div>
 
                     <div class="form-group">
-                        <label for="suggestMeaningInput" id="suggestMeaningLabel">Подробное толкование и значение <span class="required">*</span></label>
-                        <textarea id="suggestMeaningInput" rows="3" required placeholder="Что означало это слово, как использовалось в старину..."></textarea>
+                        <label for="suggestMeaningInput" id="suggestMeaningLabel">Detailed meaning & definition <span class="required">*</span></label>
+                        <textarea id="suggestMeaningInput" rows="3" required placeholder="What this word meant and how it was used in old times..."></textarea>
                     </div>
 
                     <div class="form-group">
-                        <label for="suggestSourceInput" id="suggestSourceLabel">Откуда вы узнали это слово? (книга, бабушка, диалект)</label>
-                        <input type="text" id="suggestSourceInput" placeholder="Например: Услышал от дедушки в Архангельской области">
+                        <label for="suggestSourceInput" id="suggestSourceLabel">Where did you discover this word? (book, folklore, elder)</label>
+                        <input type="text" id="suggestSourceInput" placeholder="E.g., Shakespeare, Hamlet, or local countryside phrase">
                     </div>
 
                     <div class="form-group">
-                        <label for="suggestAuthorInput" id="suggestAuthorLabel">Ваше имя или псевдоним (для благодарности в карточке)</label>
-                        <input type="text" id="suggestAuthorInput" placeholder="Например: Иван Смирнов">
+                        <label for="suggestAuthorInput" id="suggestAuthorLabel">Your name or moniker (for credit in card)</label>
+                        <input type="text" id="suggestAuthorInput" placeholder="E.g., Arthur the Bibliophile">
                     </div>
 
                     <button type="submit" class="btn btn-primary btn-lg suggest-submit-btn">
-                        <span>🚀</span> <span id="submitWordLabel">Добавить в словарь</span>
+                        <span>✉️</span> <span id="submitWordLabel">Submit for Review</span>
                     </button>
                 </form>
             </div>
