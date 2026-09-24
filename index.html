@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="sepia">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Забытые Слова — Словарь старинных слов | Forgotten Words</title>
+    <meta name="description" content="Интерактивный словарь забытых и устаревших слов из классической литературы. Современные синонимы, архаизмы и историзмы, тематические подборки и увлекательная викторина.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Decorative particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-inner">
+            <a href="#" class="logo" id="logo">
+                <span class="logo-icon">📜</span>
+                <div class="logo-text">
+                    <span class="logo-title" id="logoTitle">Забытые Слова</span>
+                    <span class="logo-subtitle" id="logoSubtitle">Словарь редких слов</span>
+                </div>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#word-of-day" class="nav-link active" data-section="word-of-day" id="navWordOfDay">Слово дня</a>
+                <a href="#dictionary" class="nav-link" data-section="dictionary" id="navDictionary">Словарь</a>
+                <button class="nav-link nav-btn" id="navQuizBtn"><span>🎯</span> <span id="navQuiz">Викторина</span></button>
+                <button class="nav-link nav-btn" id="navSuggestBtn"><span>✍️</span> <span id="navSuggest">Предложить слово</span></button>
+                <a href="#about" class="nav-link" data-section="about" id="navAbout">О проекте</a>
+            </nav>
+            <div class="header-actions">
+                <button class="lang-toggle" id="langToggle" title="Switch language">
+                    <span class="lang-label" id="langLabel">RU</span>
+                </button>
+                <button class="theme-toggle" id="themeToggle" title="Сменить тему оформления (Тёмная / Пергамент / Светлая)">
+                    <span class="theme-icon" id="themeIcon">🌙</span>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero / Word of the Day Section -->
+    <section class="hero" id="word-of-day">
+        <div class="hero-bg-ornament"></div>
+        <div class="container">
+            <div class="hero-badge">
+                <span class="hero-badge-icon">✦</span>
+                <span id="heroDateLabel">Слово дня</span>
+                <span class="hero-badge-date" id="heroDate"></span>
+            </div>
+            <div class="word-card-hero" id="wordOfDayCard">
+                <div class="word-card-hero-inner">
+                    <div class="word-meta-badges">
+                        <span class="word-era-badge" id="wodEra"></span>
+                        <span class="word-type-badge" id="wodType"></span>
+                        <span class="word-category-badge" id="wodCategory"></span>
+                    </div>
+                    <h1 class="word-main" id="wodWord"></h1>
+                    <p class="word-transcription" id="wodTranscription"></p>
+                    
+                    <!-- Modern Synonym Highlight Box -->
+                    <div class="word-synonym-pill" id="wodSynonymWrap">
+                        <span class="synonym-pill-icon">✨</span>
+                        <span class="synonym-pill-label" id="wodSynonymLabel">Современный аналог:</span>
+                        <span class="synonym-pill-value" id="wodSynonym"></span>
+                    </div>
+
+                    <p class="word-meaning" id="wodMeaning"></p>
+                    <blockquote class="word-quote" id="wodQuote">
+                        <p id="wodQuoteText"></p>
+                        <cite id="wodQuoteSource"></cite>
+                    </blockquote>
+                    <div class="word-actions">
+                        <button class="btn btn-outline" id="randomWordBtn">
+                            <span>🎲</span> <span id="randomBtnLabel">Случайное слово</span>
+                        </button>
+                        <button class="btn btn-primary" id="heroQuizBtn">
+                            <span>🎯</span> <span id="heroQuizLabel">Викторина</span>
+                        </button>
+                        <button class="btn btn-ghost" id="shareBtn">
+                            <span>📋</span> <span id="shareBtnLabel">Копировать слово</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="statTotal">0</span>
+                    <span class="stat-label" id="statTotalLabel">слов в словаре</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" id="statEras">6</span>
+                    <span class="stat-label" id="statErasLabel">эпох</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label" id="statLangsLabel">языка</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dictionary Section -->
+    <section class="dictionary-section" id="dictionary">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" id="dictTitle">Словарь</h2>
+                <p class="section-desc" id="dictDesc">Исследуйте слова, которые когда-то звучали в каждом доме</p>
+            </div>
+
+            <!-- Language Tabs -->
+            <div class="lang-tabs" id="langTabs">
+                <button class="lang-tab active" data-lang="ru" id="tabRu">
+                    <span class="lang-tab-flag">🇷🇺</span>
+                    <span class="lang-tab-label" id="tabRuLabel">Русские слова</span>
+                </button>
+                <button class="lang-tab" data-lang="en" id="tabEn">
+                    <span class="lang-tab-flag">🇬🇧</span>
+                    <span class="lang-tab-label" id="tabEnLabel">English words</span>
+                </button>
+            </div>
+
+            <!-- Search & Multi-Filters -->
+            <div class="search-bar" id="searchBar">
+                <div class="search-input-wrap">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Поиск слова или современного синонима..." autocomplete="off">
+                    <button class="search-clear" id="searchClear" aria-label="Очистить">&times;</button>
+                </div>
+
+                <div class="filters">
+                    <!-- Word Type Filter: Archaisms vs Historicisms -->
+                    <div class="filter-group">
+                        <label class="filter-label" id="filterTypeLabel">Тип слова:</label>
+                        <div class="filter-chips" id="typeFilter">
+                            <button class="chip active" data-type="all" id="chipAllTypes">Все слова</button>
+                            <button class="chip" data-type="archaism" id="chipArchaism">🏛️ Архаизмы (есть синоним)</button>
+                            <button class="chip" data-type="historicism" id="chipHistoricism">📜 Историзмы (ушедшее явление)</button>
+                        </div>
+                    </div>
+
+                    <!-- Thematic Categories Filter -->
+                    <div class="filter-group">
+                        <label class="filter-label" id="filterCategoryLabel">Тематика:</label>
+                        <div class="filter-chips" id="categoryFilter">
+                            <button class="chip active" data-category="all" id="chipAllCategories">Все темы</button>
+                            <button class="chip" data-category="clothing">👗 Одежда и ткани</button>
+                            <button class="chip" data-category="professions">🔨 Профессии и чины</button>
+                            <button class="chip" data-category="measures_money">⚖️ Меры и деньги</button>
+                            <button class="chip" data-category="military">⚔️ Военное дело</button>
+                            <button class="chip" data-category="household">🥣 Быт и утварь</button>
+                            <button class="chip" data-category="nature_body">🌿 Человек и природа</button>
+                            <button class="chip" data-category="speech_mind">💬 Речь и мысли</button>
+                        </div>
+                    </div>
+
+                    <!-- Era Filter -->
+                    <div class="filter-group">
+                        <label class="filter-label" id="filterEraLabel">Эпоха:</label>
+                        <div class="filter-chips" id="eraFilter">
+                            <button class="chip active" data-era="all" id="chipAllEras">Все</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Words Grid -->
+            <div class="words-grid" id="wordsGrid"></div>
+
+            <!-- Empty state -->
+            <div class="empty-state hidden" id="emptyState">
+                <span class="empty-icon">📭</span>
+                <p id="emptyText">Слов не найдено. Попробуйте другой запрос или сбросьте фильтры.</p>
+            </div>
+
+            <!-- Load more -->
+            <div class="load-more-wrap" id="loadMoreWrap">
+                <button class="btn btn-outline btn-lg" id="loadMoreBtn">
+                    <span id="loadMoreLabel">Показать ещё</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title" id="aboutTitle">О проекте</h2>
+                    <p id="aboutP1">
+                        <strong>Забытые Слова</strong> — это интерактивный словарь устаревших и вышедших из употребления слов русского и английского языков.
+                    </p>
+                    <p id="aboutP2">
+                        Мы собираем архаизмы, историзмы и редкие слова из классической литературы — от Пушкина и Достоевского до Шекспира и Диккенса — и объясняем их живым, понятным языком, подбирая современные синонимы.
+                    </p>
+                    <p id="aboutP3">
+                        Каждый день мы показываем новое забытое слово, чтобы вы могли расширить свой словарный запас и взглянуть на мир глазами прошлых поколений.
+                    </p>
+                </div>
+                <div class="about-features">
+                    <div class="feature-card">
+                        <span class="feature-icon">✨</span>
+                        <h3 id="feat1Title">Современные аналоги</h3>
+                        <p id="feat1Desc">К каждому слову подобран понятный синоним из сегодняшнего языка</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🌍</span>
+                        <h3 id="feat2Title">Два богатых языка</h3>
+                        <p id="feat2Desc">Более 2 000 русских и английских старинных слов без смешивания</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">📜</span>
+                        <h3 id="feat3Title">Архаизмы и историзмы</h3>
+                        <p id="feat3Desc">Чёткое разделение слов на заменённые и исчезнувшие явления</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🎯</span>
+                        <h3 id="feat4Title">Викторины и игры</h3>
+                        <p id="feat4Desc">Проверьте себя в игре «Угадай значение» или подберите синоним</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <p class="footer-copy" id="footerCopy">© 2026 Забытые Слова. Сохраняем язык прошлого для будущего.</p>
+                <div class="footer-links">
+                    <button class="footer-btn" id="footerSuggestBtn">✍️ Предложить своё слово</button>
+                    <button class="footer-btn" id="footerQuizBtn">🎯 Пройти викторину</button>
+                </div>
+                <p class="footer-made" id="footerMade">Сделано с ❤️ для любителей словесности</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Word Detail Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="wordModal">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-content" id="modalContent"></div>
+        </div>
+    </div>
+
+    <!-- Interactive Quiz Modal -->
+    <div class="modal-overlay" id="quizModalOverlay">
+        <div class="modal quiz-modal" id="quizModal">
+            <button class="modal-close" id="quizModalClose">&times;</button>
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <div class="quiz-badge">🎯 <span id="quizBadgeTitle">Викторина</span></div>
+                    <div class="quiz-stats">
+                        <span class="quiz-stat-pill">🔥 <span id="quizStreakLabel">Серия:</span> <strong id="quizStreak">0</strong></span>
+                        <span class="quiz-stat-pill">⭐ <span id="quizScoreLabel">Счёт:</span> <strong id="quizScore">0</strong></span>
+                    </div>
+                </div>
+
+                <div class="quiz-modes">
+                    <button class="quiz-mode-btn active" data-mode="meaning" id="quizModeMeaning">Угадай значение</button>
+                    <button class="quiz-mode-btn" data-mode="synonym" id="quizModeSynonym">Подбери синоним</button>
+                </div>
+
+                <div class="quiz-card">
+                    <div class="quiz-word-meta">
+                        <span class="word-era-badge" id="quizWordEra"></span>
+                        <span class="word-type-badge" id="quizWordType"></span>
+                    </div>
+                    <h2 class="quiz-word-main" id="quizWordText"></h2>
+                    <p class="quiz-word-pronunciation" id="quizWordPron"></p>
+                    <p class="quiz-prompt" id="quizPrompt">Выберите верное толкование:</p>
+                </div>
+
+                <div class="quiz-options" id="quizOptions"></div>
+
+                <div class="quiz-feedback hidden" id="quizFeedback">
+                    <div class="quiz-feedback-banner" id="quizFeedbackBanner"></div>
+                    <div class="quiz-explanation" id="quizExplanation"></div>
+                    <button class="btn btn-primary btn-lg quiz-next-btn" id="quizNextBtn">
+                        <span id="quizNextLabel">Следующее слово →</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Suggest Word Modal -->
+    <div class="modal-overlay" id="suggestModalOverlay">
+        <div class="modal suggest-modal" id="suggestModal">
+            <button class="modal-close" id="suggestModalClose">&times;</button>
+            <div class="suggest-container">
+                <div class="suggest-header">
+                    <div class="suggest-icon">✍️</div>
+                    <h2 class="suggest-title" id="suggestTitle">Предложить забытое слово</h2>
+                    <p class="suggest-desc" id="suggestDesc">Услышали редкое слово от бабушки или встретили в старой книге? Добавьте его в словарь!</p>
+                </div>
+
+                <form class="suggest-form" id="suggestForm">
+                    <div class="form-row">
+                        <div class="form-group flex-1">
+                            <label for="suggestWordInput" id="suggestWordLabel">Слово <span class="required">*</span></label>
+                            <input type="text" id="suggestWordInput" required placeholder="Например: Посолонь">
+                        </div>
+                        <div class="form-group">
+                            <label for="suggestLangSelect" id="suggestLangLabel">Язык</label>
+                            <select id="suggestLangSelect">
+                                <option value="ru" id="optLangRu">Русский 🇷🇺</option>
+                                <option value="en" id="optLangEn">English 🇬🇧</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group flex-1">
+                            <label for="suggestSynonymInput" id="suggestSynonymLabel">Современный аналог <span class="required">*</span></label>
+                            <input type="text" id="suggestSynonymInput" required placeholder="Например: По ходу солнца / по часовой стрелке">
+                        </div>
+                        <div class="form-group">
+                            <label for="suggestTypeSelect" id="suggestTypeLabel">Тип слова</label>
+                            <select id="suggestTypeSelect">
+                                <option value="archaism" id="optTypeArchaism">🏛️ Архаизм (есть синоним)</option>
+                                <option value="historicism" id="optTypeHistoricism">📜 Историзм (ушедшая реалия)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="suggestCategorySelect" id="suggestCategoryLabel">Тематическая категория</label>
+                        <select id="suggestCategorySelect">
+                            <option value="nature_body" id="optCatNature">🌿 Человек и природа</option>
+                            <option value="household" id="optCatHousehold">🥣 Быт и утварь</option>
+                            <option value="clothing" id="optCatClothing">👗 Одежда и ткани</option>
+                            <option value="professions" id="optCatProf">🔨 Профессии и чины</option>
+                            <option value="military" id="optCatMilitary">⚔️ Военное дело</option>
+                            <option value="measures_money" id="optCatMoney">⚖️ Меры и деньги</option>
+                            <option value="speech_mind" id="optCatSpeech">💬 Речь и мысли</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="suggestMeaningInput" id="suggestMeaningLabel">Подробное толкование и значение <span class="required">*</span></label>
+                        <textarea id="suggestMeaningInput" rows="3" required placeholder="Что означало это слово, как использовалось в старину..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="suggestSourceInput" id="suggestSourceLabel">Откуда вы узнали это слово? (книга, бабушка, диалект)</label>
+                        <input type="text" id="suggestSourceInput" placeholder="Например: Услышал от дедушки в Архангельской области">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="suggestAuthorInput" id="suggestAuthorLabel">Ваше имя или псевдоним (для благодарности в карточке)</label>
+                        <input type="text" id="suggestAuthorInput" placeholder="Например: Иван Смирнов">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg suggest-submit-btn">
+                        <span>🚀</span> <span id="submitWordLabel">Добавить в словарь</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="words_ru.js"></script>
+    <script src="words_en.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
