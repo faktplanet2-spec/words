@@ -1,13 +1,13 @@
 // =============================================
-//  FORGOTTEN WORDS — Word Database & UI Strings
+//  FORGOTTEN WORDS - Word Database & UI Strings
 //  Dynamically maps RU_WORDS (1028) and EN_WORDS (1013)
 //  with Modern Synonyms, Archaisms/Historicisms, and Categories
 // =============================================
 
 const RU_ERA_MAP = {
     'a': { key: 'ancient-rus', name: 'Древняя Русь' },
-    'x': { key: 'xv-xvii', name: 'XV–XVII век' },
-    'v': { key: 'xviii-xix', name: 'XVIII–XIX век' }
+    'x': { key: 'xv-xvii', name: 'XV-XVII век' },
+    'v': { key: 'xviii-xix', name: 'XVIII-XIX век' }
 };
 
 const EN_ERA_MAP = {
@@ -187,7 +187,7 @@ function analyzeWord(word, pronunciation, eraKey, meaning, lang) {
         synonym = EN_CURATED_SYNONYMS[wLow];
     } else {
         // Extract natural first segment or full meaning
-        let firstClause = meaning.split(/[;(—]/)[0].trim();
+        let firstClause = meaning.split(/[;(\-—]/)[0].trim();
         if (firstClause.endsWith('.')) {
             firstClause = firstClause.slice(0, -1).trim();
         }
@@ -304,8 +304,8 @@ if (typeof window !== 'undefined' && window.localStorage) {
 // Era labels for filters (bilingual)
 const ERA_LABELS = {
     'ancient-rus':  { ru: 'Древняя Русь', en: 'Ancient Rus' },
-    'xv-xvii':      { ru: 'XV–XVII век', en: '15th–17th Century' },
-    'xviii-xix':    { ru: 'XVIII–XIX век', en: '18th–19th Century' },
+    'xv-xvii':      { ru: 'XV-XVII век', en: '15th-17th Century' },
+    'xviii-xix':    { ru: 'XVIII-XIX век', en: '18th-19th Century' },
     'medieval':     { ru: 'Средневековье', en: 'Medieval England' },
     'elizabethan':  { ru: 'Елизаветинская эпоха', en: 'Elizabethan Era' },
     'victorian':    { ru: 'Викторианская эпоха', en: 'Victorian Era' }
@@ -339,8 +339,8 @@ const UI_STRINGS = {
         notFound: 'Слов не найдено. Попробуйте другой запрос или сбросьте фильтры.',
         showMore: 'Показать ещё',
         aboutTitle: 'О проекте',
-        aboutP1: '<strong>Забытые Слова</strong> — это интерактивный словарь устаревших и вышедших из употребления слов русского и английского языков.',
-        aboutP2: 'Мы собираем архаизмы, историзмы и редкие слова из классической литературы — от Пушкина и Достоевского до Шекспира и Диккенса — и объясняем их живым, понятным языком, подбирая современные синонимы.',
+        aboutP1: '<strong>Забытые Слова</strong> - это интерактивный словарь устаревших и вышедших из употребления слов русского и английского языков.',
+        aboutP2: 'Мы собираем архаизмы, историзмы и редкие слова из классической литературы - от Пушкина и Достоевского до Шекспира и Диккенса - и объясняем их живым, понятным языком, подбирая современные синонимы.',
         aboutP3: 'Каждый день мы показываем новое забытое слово, чтобы вы могли расширить свой словарный запас и взглянуть на мир глазами прошлых поколений.',
         feat1Title: 'Современные аналоги',
         feat1Desc: 'К каждому слову подобран понятный синоним из сегодняшнего языка',
@@ -420,7 +420,7 @@ const UI_STRINGS = {
         showMore: 'Show More',
         aboutTitle: 'About the Project',
         aboutP1: '<strong>Forgotten Words</strong> is an interactive dictionary of archaic and obsolete words from the Russian and English languages.',
-        aboutP2: 'We collect archaisms, historicisms, and rare words from classical literature — from Pushkin and Dostoevsky to Shakespeare and Dickens — and pair each with clear modern equivalents.',
+        aboutP2: 'We collect archaisms, historicisms, and rare words from classical literature - from Pushkin and Dostoevsky to Shakespeare and Dickens - and pair each with clear modern equivalents.',
         aboutP3: 'Every day we feature a new forgotten word, so you can expand your vocabulary and see the world through the eyes of past generations.',
         feat1Title: 'Modern Counterparts',
         feat1Desc: 'Every archaic word includes a direct contemporary synonym',

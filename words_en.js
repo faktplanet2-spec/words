@@ -1,5 +1,5 @@
 // =============================================
-//  FORGOTTEN WORDS — English Words Database (1013 words)
+//  FORGOTTEN WORDS - English Words Database (1013 words)
 //  Compact format: [word, pronunciation, eraKey, meaning, etymology, quote, source]
 //  Era keys: m=medieval, e=elizabethan, t=victorian
 // =============================================
@@ -10,7 +10,7 @@ const EN_WORDS = [
     "/fɔːrˈsuːθ/",
     "m",
     "In truth, indeed. Often used ironically even in its own era",
-    "From OE \"forsōþ\" — for + sōþ (truth). Related to \"soothe\"",
+    "From OE \"forsōþ\" - for + sōþ (truth). Related to \"soothe\"",
     "\"Forsooth, a great arithmetician, one Michael Cassio\"",
     "Shakespeare, \"Othello\""
   ],
@@ -28,7 +28,7 @@ const EN_WORDS = [
     "/mɪˈθɪŋks/",
     "e",
     "It seems to me. \"Me\" is the object (dative), not the subject",
-    "From OE \"mē þyncþ\" — it seems to me. Impersonal construction",
+    "From OE \"mē þyncþ\" - it seems to me. Impersonal construction",
     "\"The lady doth protest too much, methinks\"",
     "Shakespeare, \"Hamlet\""
   ],
@@ -37,7 +37,7 @@ const EN_WORDS = [
     "/kwoʊθ/",
     "m",
     "Said (defective verb, always precedes its subject: \"quoth he\")",
-    "From OE \"cwæþ,\" past tense of \"cweþan\" — to say",
+    "From OE \"cwæþ,\" past tense of \"cweþan\" - to say",
     "\"Quoth the Raven, 'Nevermore'\"",
     "Edgar Allan Poe, \"The Raven\""
   ],
@@ -46,8 +46,8 @@ const EN_WORDS = [
     "/pərˈtʃæns/",
     "e",
     "Perhaps, possibly, by chance",
-    "From Anglo-French \"par chance\" — by chance",
-    "\"To sleep, perchance to dream — ay, there's the rub\"",
+    "From Anglo-French \"par chance\" - by chance",
+    "\"To sleep, perchance to dream - ay, there's the rub\"",
     "Shakespeare, \"Hamlet\""
   ],
   [
@@ -55,7 +55,7 @@ const EN_WORDS = [
     "/fɔːrˈseɪk/",
     "m",
     "To abandon, renounce, give up entirely",
-    "From OE \"forsacan\" — to oppose, refuse. \"For-\" (away) + \"sacan\" (strive)",
+    "From OE \"forsacan\" - to oppose, refuse. \"For-\" (away) + \"sacan\" (strive)",
     "\"Forsake me not in mine old age\"",
     "King James Bible, Psalms"
   ],
@@ -63,9 +63,9 @@ const EN_WORDS = [
     "Anon",
     "/əˈnɒn/",
     "m",
-    "Soon, shortly; at another time. \"Ever and anon\" — now and then",
-    "From OE \"on ān\" — into one (moment), implying \"at once\"",
-    "\"But come, anon — more of this matter\"",
+    "Soon, shortly; at another time. \"Ever and anon\" - now and then",
+    "From OE \"on ān\" - into one (moment), implying \"at once\"",
+    "\"But come, anon - more of this matter\"",
     "Shakespeare, \"Hamlet\""
   ],
   [
@@ -73,7 +73,7 @@ const EN_WORDS = [
     "/neɪ/",
     "m",
     "No; or rather, and more than that. Emphatic negative",
-    "From Old Norse \"nei\" — no, from ne (not) + ei (ever)",
+    "From Old Norse \"nei\" - no, from ne (not) + ei (ever)",
     "\"Let your communication be, Yea, yea; Nay, nay\"",
     "King James Bible, Matthew 5:37"
   ],
@@ -100,7 +100,7 @@ const EN_WORDS = [
     "/hɑːrk/",
     "m",
     "Listen! Pay attention! (imperative)",
-    "From ME \"herkien\" — to listen. Related to \"hearken\"",
+    "From ME \"herkien\" - to listen. Related to \"hearken\"",
     "\"Hark! The herald angels sing\"",
     "Charles Wesley, Christmas hymn"
   ],
@@ -118,7 +118,7 @@ const EN_WORDS = [
     "/ɡrəˈmɜːr.si/",
     "m",
     "An exclamation of grateful thanks or surprise",
-    "From Old French \"grand merci\" — great thanks",
+    "From Old French \"grand merci\" - great thanks",
     "\"Grammercy, gentle knight! Your valor has saved my honor\"",
     "From medieval romances"
   ],
@@ -127,7 +127,7 @@ const EN_WORDS = [
     "/suːθ/",
     "m",
     "Truth, reality. \"In sooth\" = in truth. \"Soothsayer\" = truth-teller",
-    "From OE \"sōþ\" — true. Cognate with Old Norse \"sannr\"",
+    "From OE \"sōþ\" - true. Cognate with Old Norse \"sannr\"",
     "\"In sooth, I know not why I am so sad\"",
     "Shakespeare, \"Merchant of Venice\""
   ],
@@ -136,7 +136,7 @@ const EN_WORDS = [
     "/ˌɡeɪnˈseɪ/",
     "m",
     "To deny, contradict, speak against",
-    "ME \"gainsayen\" — \"gain-\" (against, from ON \"gegn\") + \"say\"",
+    "ME \"gainsayen\" - \"gain-\" (against, from ON \"gegn\") + \"say\"",
     "\"This truth cannot be gainsaid, for the evidence is plain\"",
     "From legal proceedings"
   ],
@@ -145,7 +145,7 @@ const EN_WORDS = [
     "/wiːn/",
     "m",
     "To think, believe, suppose, expect",
-    "From OE \"wēnan\" — to think, hope. Related to Ger. \"wähnen\"",
+    "From OE \"wēnan\" - to think, hope. Related to Ger. \"wähnen\"",
     "\"I ween that danger lies ahead, though none can say for certain\"",
     "From medieval narratives"
   ],
@@ -154,7 +154,7 @@ const EN_WORDS = [
     "/wɛns/",
     "m",
     "From where; from what source. \"From whence\" is redundant",
-    "From ME \"whennes,\" from OE \"hwanon\" — from where",
+    "From ME \"whennes,\" from OE \"hwanon\" - from where",
     "\"Return from whence you came\"",
     "John Milton, \"Paradise Lost\""
   ],
@@ -172,7 +172,7 @@ const EN_WORDS = [
     "/ˈðɪð.ər/",
     "m",
     "To that place; to there. Counterpart of \"hither\"",
-    "From OE \"þider\" — to that place. Related to \"there\"",
+    "From OE \"þider\" - to that place. Related to \"there\"",
     "\"Go thither and report what thou dost find\"",
     "From medieval instructions"
   ],
@@ -181,7 +181,7 @@ const EN_WORDS = [
     "/ˈwɪð.ər/",
     "m",
     "To where; to what place or end",
-    "From OE \"hwider\" — to where. Part of hither/thither/whither trio",
+    "From OE \"hwider\" - to where. Part of hither/thither/whither trio",
     "\"Whither thou goest, I will go\"",
     "King James Bible, Ruth 1:16"
   ],
@@ -190,8 +190,8 @@ const EN_WORDS = [
     "/hɛns/",
     "m",
     "From here; from this time; therefore",
-    "From ME \"hennes,\" from OE \"heonan\" — from here",
-    "\"Get thee hence!\" — Go away from here",
+    "From ME \"hennes,\" from OE \"heonan\" - from here",
+    "\"Get thee hence!\" - Go away from here",
     "Shakespeare, various plays"
   ],
   [
@@ -199,7 +199,7 @@ const EN_WORDS = [
     "/ðɛns/",
     "m",
     "From that place; from that time; as a consequence",
-    "From ME \"thennes\" — from there. Related to \"then\"",
+    "From ME \"thennes\" - from there. Related to \"then\"",
     "\"He departed thence and went into a desert place\"",
     "King James Bible"
   ],
@@ -217,7 +217,7 @@ const EN_WORDS = [
     "/ˌðɛnsˈfɔːrθ/",
     "m",
     "From that time forward, after that point",
-    "From \"thence\" + \"forth\" — from that point onward",
+    "From \"thence\" + \"forth\" - from that point onward",
     "\"Thenceforth the kingdom knew peace for a generation\"",
     "From historical chronicles"
   ],
@@ -225,8 +225,8 @@ const EN_WORDS = [
     "Betwixt",
     "/bɪˈtwɪkst/",
     "m",
-    "Between. \"Betwixt and between\" — in an intermediate state",
-    "From OE \"betweohs\" — by + tweohs (two). \"-t\" added by analogy",
+    "Between. \"Betwixt and between\" - in an intermediate state",
+    "From OE \"betweohs\" - by + tweohs (two). \"-t\" added by analogy",
     "\"There is not much difference betwixt the two of them\"",
     "Defoe, \"Robinson Crusoe\""
   ],
@@ -244,7 +244,7 @@ const EN_WORDS = [
     "/ˈjɒn.dər/",
     "m",
     "Over there; at a distance but within sight",
-    "From OE \"geond\" — beyond. Related to \"yon\"",
+    "From OE \"geond\" - beyond. Related to \"yon\"",
     "\"What light through yonder window breaks?\"",
     "Shakespeare, \"Romeo and Juliet\""
   ],
@@ -253,7 +253,7 @@ const EN_WORDS = [
     "/ˈfɔːrt.naɪt/",
     "m",
     "A period of two weeks (fourteen nights)",
-    "From OE \"fēowertīene niht\" — fourteen nights",
+    "From OE \"fēowertīene niht\" - fourteen nights",
     "\"I shall return within a fortnight\"",
     "Jane Austen, \"Pride and Prejudice\""
   ],
@@ -262,7 +262,7 @@ const EN_WORDS = [
     "/ˈsɛn.aɪt/",
     "m",
     "A period of seven nights; one week",
-    "From OE \"seofon nihta\" — seven nights. Germanic time-counting",
+    "From OE \"seofon nihta\" - seven nights. Germanic time-counting",
     "\"A sennight hence I shall expect thy answer\"",
     "From medieval correspondence"
   ],
@@ -271,7 +271,7 @@ const EN_WORDS = [
     "/ɛər/",
     "m",
     "Before (in time). Conjunction and preposition",
-    "From OE \"ǣr\" — before. Cognate with ON \"ár\" (early)",
+    "From OE \"ǣr\" - before. Cognate with ON \"ár\" (early)",
     "\"I must be cruel only to be kind; ere all is done\"",
     "Shakespeare, \"Hamlet\""
   ],
@@ -289,7 +289,7 @@ const EN_WORDS = [
     "/ˈmɒr.oʊ/",
     "m",
     "The next day; tomorrow. \"Good morrow\" = good morning",
-    "From ME \"morwe,\" from OE \"morgen\" — morning",
+    "From ME \"morwe,\" from OE \"morgen\" - morning",
     "\"Good morrow, cousin. Is the day so young?\"",
     "Shakespeare, \"Romeo and Juliet\""
   ],
@@ -298,7 +298,7 @@ const EN_WORDS = [
     "/jɔːr/",
     "m",
     "Long ago, in times past. \"Of yore\" = of old",
-    "From OE \"geāra\" — formerly. Related to \"year\"",
+    "From OE \"geāra\" - formerly. Related to \"year\"",
     "\"In days of yore, when knights rode forth to battle\"",
     "From medieval romances"
   ],
@@ -306,8 +306,8 @@ const EN_WORDS = [
     "Thrice",
     "/θraɪs/",
     "m",
-    "Three times. Once/twice/thrice — only \"thrice\" is archaic",
-    "From ME \"thries,\" from OE \"þriwa\" — three times",
+    "Three times. Once/twice/thrice - only \"thrice\" is archaic",
+    "From ME \"thries,\" from OE \"þriwa\" - three times",
     "\"Thrice the brinded cat hath mew'd\"",
     "Shakespeare, \"Macbeth\""
   ],
@@ -325,7 +325,7 @@ const EN_WORDS = [
     "/ˈiːv.ən.taɪd/",
     "m",
     "Evening, the time of evening",
-    "From OE \"ǣfentīd\" — evening + time/tide",
+    "From OE \"ǣfentīd\" - evening + time/tide",
     "\"At eventide the shepherds brought their flocks home\"",
     "From pastoral poetry"
   ],
@@ -343,7 +343,7 @@ const EN_WORDS = [
     "/ˈvɑːr.lɪt/",
     "m",
     "Originally a page or attendant; later a rogue or scoundrel",
-    "From OF \"vaslet\" — young man. Same root as \"valet\"",
+    "From OF \"vaslet\" - young man. Same root as \"valet\"",
     "\"Away, you varlet! You are not worth the dust\"",
     "Shakespeare, \"Taming of the Shrew\""
   ],
@@ -361,7 +361,7 @@ const EN_WORDS = [
     "/ˈkɒks.koʊm/",
     "e",
     "A vain, conceited man. Also: a jester's cap shaped like a rooster's comb",
-    "From \"cock's comb\" — rooster's crest. Extended to mean a fop",
+    "From \"cock's comb\" - rooster's crest. Extended to mean a fop",
     "\"He is a most notable coxcomb, full of his own importance\"",
     "Shakespeare, \"Twelfth Night\""
   ],
@@ -370,7 +370,7 @@ const EN_WORDS = [
     "/sweɪn/",
     "m",
     "A young lover or suitor; a country youth courting a maiden",
-    "From OE \"swān\" — swineherd. From ON \"sveinn\" — boy",
+    "From OE \"swān\" - swineherd. From ON \"sveinn\" - boy",
     "\"The swain declared his love beneath the evening skies\"",
     "From pastoral poetry"
   ],
@@ -379,7 +379,7 @@ const EN_WORDS = [
     "/neɪv/",
     "m",
     "Originally: a boy, servant. Later: a dishonest, unscrupulous person",
-    "From OE \"cnafa\" — boy, servant. Cognate with Ger. \"Knabe\"",
+    "From OE \"cnafa\" - boy, servant. Cognate with Ger. \"Knabe\"",
     "\"The knave of hearts, he stole the tarts\"",
     "Nursery rhyme / playing cards"
   ],
@@ -388,7 +388,7 @@ const EN_WORDS = [
     "/wɛntʃ/",
     "m",
     "Originally: a girl, young woman. Later: a woman of low morals",
-    "From OE \"wencel\" — child. Semantic deterioration over time",
+    "From OE \"wencel\" - child. Semantic deterioration over time",
     "\"A likely wench, fair-spoken and well-mannered\"",
     "Shakespeare, comedies"
   ],
@@ -397,7 +397,7 @@ const EN_WORDS = [
     "/tʃɜːrl/",
     "m",
     "A rude, ill-bred person. Originally: a peasant, a man of low birth",
-    "From OE \"ceorl\" — man, peasant. Related to \"Carl/Charles\"",
+    "From OE \"ceorl\" - man, peasant. Related to \"Carl/Charles\"",
     "\"The churl refused to share his bread with the traveler\"",
     "From medieval tales"
   ],
@@ -415,7 +415,7 @@ const EN_WORDS = [
     "/ˈpɒp.ɪn.dʒeɪ/",
     "e",
     "A vain, talkative person. Originally: a parrot or its image used as a target",
-    "From OF \"papegai\" — parrot. Arabic \"babaḡā\" via Spanish",
+    "From OF \"papegai\" - parrot. Arabic \"babaḡā\" via Spanish",
     "\"A certain lord, neat, trimly dress'd, fresh as a popinjay\"",
     "Shakespeare, \"Henry IV\""
   ],
@@ -424,7 +424,7 @@ const EN_WORDS = [
     "/ˈdʒæk.ə.neɪps/",
     "e",
     "An impudent, mischievous person; a monkey",
-    "Possibly from \"Jack Napes\" (Jack of Naples) — a monkey nickname",
+    "Possibly from \"Jack Napes\" (Jack of Naples) - a monkey nickname",
     "\"That jackanapes has been making sport of us all day\"",
     "From Elizabethan descriptions"
   ],
@@ -433,7 +433,7 @@ const EN_WORDS = [
     "/ˈskʌl.jən/",
     "e",
     "The lowest kitchen servant; one who scours pots and dishes",
-    "From OF \"escouvillon\" — dish-mop. Related to Lat. \"scopa\" — broom",
+    "From OF \"escouvillon\" - dish-mop. Related to Lat. \"scopa\" - broom",
     "\"You base football-player! You scullion! You rampallian!\"",
     "Shakespeare, \"Henry IV, Part 2\""
   ],
@@ -451,8 +451,8 @@ const EN_WORDS = [
     "/ˈjoʊ.mən/",
     "m",
     "A freeholder; a man of modest means who farms his own land",
-    "From ME \"yoman\" — possibly \"young man.\" Respectable common farmer",
-    "\"A yeoman's service\" — loyal, dependable work",
+    "From ME \"yoman\" - possibly \"young man.\" Respectable common farmer",
+    "\"A yeoman's service\" - loyal, dependable work",
     "From medieval social descriptions"
   ],
   [
@@ -460,7 +460,7 @@ const EN_WORDS = [
     "/ɪˈskwaɪər/",
     "m",
     "A young nobleman serving as a knight's attendant; later a courtesy title",
-    "From OF \"escuier\" — shield-bearer. Lat. \"scutarius\"",
+    "From OF \"escuier\" - shield-bearer. Lat. \"scutarius\"",
     "\"The esquire bore his master's shield and lance\"",
     "From chivalric romances"
   ],
@@ -469,7 +469,7 @@ const EN_WORDS = [
     "/liːdʒ/",
     "m",
     "A feudal lord to whom allegiance is owed; or a loyal subject",
-    "From OF \"lige\" — bound by feudal obligation. Germanic origin",
+    "From OF \"lige\" - bound by feudal obligation. Germanic origin",
     "\"My liege, your loyal servant awaits your command\"",
     "From feudal court language"
   ],
@@ -478,7 +478,7 @@ const EN_WORDS = [
     "/ˈfɪz.ɪk/",
     "e",
     "Medicine, medical treatment; the art of healing",
-    "From Lat. \"physica\" — natural science. Later narrowed to medicine",
+    "From Lat. \"physica\" - natural science. Later narrowed to medicine",
     "\"The physick did him more harm than good\"",
     "From medical records"
   ],
@@ -487,7 +487,7 @@ const EN_WORDS = [
     "/pleɪɡ/",
     "m",
     "A deadly epidemic disease; a curse or torment. \"A plague upon it!\"",
-    "From Lat. \"plaga\" — blow, wound. Via OF \"plage\"",
+    "From Lat. \"plaga\" - blow, wound. Via OF \"plage\"",
     "\"A plague o' both your houses!\"",
     "Shakespeare, \"Romeo and Juliet\""
   ],
@@ -496,7 +496,7 @@ const EN_WORDS = [
     "/pɒks/",
     "e",
     "Disease marked by skin eruptions; a curse. \"A pox on you!\"",
-    "Plural of \"pock\" — pustule. OE \"pocc\"",
+    "Plural of \"pock\" - pustule. OE \"pocc\"",
     "\"A pox upon this howling! They are louder than the weather\"",
     "Shakespeare, \"The Tempest\""
   ],
@@ -505,7 +505,7 @@ const EN_WORDS = [
     "/ˈdrɒp.si/",
     "m",
     "Edema; swelling caused by fluid accumulation in body tissues",
-    "From OF \"idropisie,\" from Lat./Gk. \"hydrōps\" — water",
+    "From OF \"idropisie,\" from Lat./Gk. \"hydrōps\" - water",
     "\"The poor man suffered from the dropsy and could scarcely walk\"",
     "From medical descriptions"
   ],
@@ -514,7 +514,7 @@ const EN_WORDS = [
     "/ˈeɪ.ɡjuː/",
     "m",
     "A fever with chills and sweating, especially malaria",
-    "From OF \"ague\" — acute (fever). Lat. \"acuta\" — sharp",
+    "From OF \"ague\" - acute (fever). Lat. \"acuta\" - sharp",
     "\"The ague struck him down and he shook with cold sweats\"",
     "From medical records"
   ],
@@ -523,7 +523,7 @@ const EN_WORDS = [
     "/kənˈsʌmp.ʃən/",
     "t",
     "Tuberculosis; the disease that \"consumed\" the body",
-    "From Lat. \"consumptio\" — wasting away. The body wastes away",
+    "From Lat. \"consumptio\" - wasting away. The body wastes away",
     "\"She died of consumption, pale and wasted to nothing\"",
     "From Victorian novels"
   ],
@@ -532,7 +532,7 @@ const EN_WORDS = [
     "/ˈæp.ə.plɛk.si/",
     "e",
     "A stroke; sudden loss of consciousness from cerebral hemorrhage",
-    "From Gk. \"apoplēxia\" — being struck down",
+    "From Gk. \"apoplēxia\" - being struck down",
     "\"He was seized with apoplexy and fell senseless to the floor\"",
     "From medical descriptions"
   ],
@@ -541,7 +541,7 @@ const EN_WORDS = [
     "/ˈpɒt.ɪdʒ/",
     "m",
     "A thick soup or stew of boiled vegetables and grain",
-    "From OF \"potage\" — what goes in a pot. Related to \"pot-au-feu\"",
+    "From OF \"potage\" - what goes in a pot. Related to \"pot-au-feu\"",
     "\"Jacob gave Esau bread and pottage of lentils\"",
     "King James Bible, Genesis"
   ],
@@ -550,7 +550,7 @@ const EN_WORDS = [
     "/miːd/",
     "m",
     "An alcoholic drink made from fermented honey and water",
-    "From OE \"medu\" — honey wine. Cognate with Sanskrit \"madhu\"",
+    "From OE \"medu\" - honey wine. Cognate with Sanskrit \"madhu\"",
     "\"They drank mead in the great hall until the torches burned low\"",
     "From Anglo-Saxon descriptions"
   ],
@@ -559,7 +559,7 @@ const EN_WORDS = [
     "/ˈpɒs.ɪt/",
     "e",
     "A warm drink of milk curdled with wine or ale, often spiced",
-    "ME \"posset\" — origin uncertain. Medieval medicinal/comfort drink",
+    "ME \"posset\" - origin uncertain. Medieval medicinal/comfort drink",
     "\"She made a posset of hot milk and sack to cure his cold\"",
     "From household recipe books"
   ],
@@ -568,7 +568,7 @@ const EN_WORDS = [
     "/ˈmɑːrtʃ.peɪn/",
     "e",
     "Marzipan; a confection of almond paste and sugar",
-    "From It. \"marzapane\" — almond paste. Medieval luxury food",
+    "From It. \"marzapane\" - almond paste. Medieval luxury food",
     "\"Good thou, save me a piece of marchpane\"",
     "Shakespeare, \"Romeo and Juliet\""
   ],
@@ -577,7 +577,7 @@ const EN_WORDS = [
     "/sæk/",
     "e",
     "A dry white wine from Spain or the Canary Islands",
-    "From Fr. \"vin sec\" — dry wine. Falstaff's favorite drink",
+    "From Fr. \"vin sec\" - dry wine. Falstaff's favorite drink",
     "\"A good sherris-sack hath a two-fold operation in it\"",
     "Shakespeare, \"Henry IV, Part 2\""
   ],
@@ -586,8 +586,8 @@ const EN_WORDS = [
     "/ˈɡruː.əl/",
     "m",
     "A thin porridge made by boiling oatmeal in water or milk",
-    "From OF \"gruel\" — coarsely ground grain. Food of the poor",
-    "\"Please, sir, I want some more\" — asking for more gruel",
+    "From OF \"gruel\" - coarsely ground grain. Food of the poor",
+    "\"Please, sir, I want some more\" - asking for more gruel",
     "Dickens, \"Oliver Twist\""
   ],
   [
@@ -604,7 +604,7 @@ const EN_WORDS = [
     "/ˈhæɡ.ɪs/",
     "m",
     "Scottish dish of sheep organs mixed with oatmeal in a stomach casing",
-    "From ME \"hagese\" — possibly from \"hag\" (to chop)",
+    "From ME \"hagese\" - possibly from \"hag\" (to chop)",
     "\"Fair fa' your honest, sonsie face, great chieftain o' the puddin-race!\"",
     "Robert Burns, \"Address to a Haggis\""
   ],
@@ -613,7 +613,7 @@ const EN_WORDS = [
     "/ˈwɒs.eɪl/",
     "m",
     "A hot spiced drink; a toast to health; festive drinking",
-    "From ON \"ves heill\" — be healthy. Anglo-Saxon drinking toast",
+    "From ON \"ves heill\" - be healthy. Anglo-Saxon drinking toast",
     "\"Here we come a-wassailing among the leaves so green\"",
     "Traditional Christmas carol"
   ],
@@ -622,16 +622,16 @@ const EN_WORDS = [
     "/ˈvɪt.əlz/",
     "m",
     "Food, provisions, supplies for eating",
-    "From Lat. \"victualia\" — provisions. Spelling changed but pronunciation preserved",
-    "\"Lay in victuals for a month — we may be besieged\"",
+    "From Lat. \"victualia\" - provisions. Spelling changed but pronunciation preserved",
+    "\"Lay in victuals for a month - we may be besieged\"",
     "From military descriptions"
   ],
   [
     "Doublet",
     "/ˈdʌb.lɪt/",
     "e",
-    "A close-fitting padded jacket worn by men from the 15th–17th century",
-    "From OF \"doublet\" — something doubled (lined/padded)",
+    "A close-fitting padded jacket worn by men from the 15th-17th century",
+    "From OF \"doublet\" - something doubled (lined/padded)",
     "\"He wore a doublet of fine silk with silver buttons\"",
     "From costume descriptions"
   ],
@@ -640,7 +640,7 @@ const EN_WORDS = [
     "/ˈdʒɜːr.kɪn/",
     "e",
     "A sleeveless leather jacket worn over the doublet",
-    "Origin uncertain. Possibly from Dutch \"jurk\" — dress",
+    "Origin uncertain. Possibly from Dutch \"jurk\" - dress",
     "\"His leather jerkin was worn and patched from years of use\"",
     "From Elizabethan descriptions"
   ],
@@ -649,7 +649,7 @@ const EN_WORDS = [
     "/ˈkɜːr.təl/",
     "m",
     "A woman's long gown or a man's tunic; a basic garment",
-    "From OE \"cyrtel\" — short garment. Related to \"short\"",
+    "From OE \"cyrtel\" - short garment. Related to \"short\"",
     "\"She wore a kirtle of blue wool with a leather belt\"",
     "From medieval descriptions"
   ],
@@ -658,7 +658,7 @@ const EN_WORDS = [
     "/ˈwɪm.pəl/",
     "m",
     "A cloth headdress covering head, chin, and neck; worn by nuns",
-    "From OE \"wimpel\" — veil, head covering",
+    "From OE \"wimpel\" - veil, head covering",
     "\"The nun adjusted her wimple before entering the chapel\"",
     "From medieval descriptions"
   ],
@@ -667,7 +667,7 @@ const EN_WORDS = [
     "/ˈɡɔːr.dʒɪt/",
     "m",
     "Armor piece protecting the throat; later an ornamental collar",
-    "From OF \"gorgete\" — throat piece. From \"gorge\" — throat",
+    "From OF \"gorgete\" - throat piece. From \"gorge\" - throat",
     "\"His gorget saved him from the sword blow to his neck\"",
     "From chivalric descriptions"
   ],
@@ -676,7 +676,7 @@ const EN_WORDS = [
     "/ˈfɑːr.ðɪŋ.ɡeɪl/",
     "e",
     "A hooped petticoat that held skirts out from the body",
-    "From Sp. \"verdugado\" — rod. Stiffened with whalebone or wire",
+    "From Sp. \"verdugado\" - rod. Stiffened with whalebone or wire",
     "\"Her farthingale was so wide she could barely pass through the door\"",
     "From Elizabethan court descriptions"
   ],
@@ -694,7 +694,7 @@ const EN_WORDS = [
     "/ˈbɔːl.drɪk/",
     "m",
     "A shoulder belt for carrying a sword or bugle",
-    "From OE \"bealdric\" — possibly from \"bold\" + \"ric\" (power)",
+    "From OE \"bealdric\" - possibly from \"bold\" + \"ric\" (power)",
     "\"His baldric bore a fine sword with a jeweled hilt\"",
     "From chivalric romances"
   ],
@@ -703,7 +703,7 @@ const EN_WORDS = [
     "/ˈpɔːl.fri/",
     "m",
     "A small, gentle riding horse, especially for women",
-    "From OF \"palefrei,\" from Lat. \"paraveredus\" — extra post-horse",
+    "From OF \"palefrei,\" from Lat. \"paraveredus\" - extra post-horse",
     "\"The lady rode upon a white palfrey with silken reins\"",
     "From Chaucer, \"Canterbury Tales\""
   ],
@@ -712,7 +712,7 @@ const EN_WORDS = [
     "/ˈdɛs.tri.ər/",
     "m",
     "A knight's war horse; a heavy battle charger",
-    "From OF \"destrier\" — led by the right hand (squire's duty)",
+    "From OF \"destrier\" - led by the right hand (squire's duty)",
     "\"The destrier was trained for battle and feared no noise\"",
     "From chivalric romances"
   ],
@@ -721,7 +721,7 @@ const EN_WORDS = [
     "/ˈtrɛn.tʃər/",
     "m",
     "A wooden plate or board for serving food; a thick slice of bread used as a plate",
-    "From OF \"trencheoir\" — cutting board. From \"trenchier\" — to cut",
+    "From OF \"trencheoir\" - cutting board. From \"trenchier\" - to cut",
     "\"He piled the trencher high with meat and bread\"",
     "From medieval feast descriptions"
   ],
@@ -730,7 +730,7 @@ const EN_WORDS = [
     "/ˈtʃænd.lər/",
     "m",
     "A maker or seller of candles; later a dealer in ship supplies",
-    "From OF \"chandelier\" — candle holder. Lat. \"candela\" — candle",
+    "From OF \"chandelier\" - candle holder. Lat. \"candela\" - candle",
     "\"The chandler's shop smelled of beeswax and tallow\"",
     "From guild descriptions"
   ],
@@ -739,7 +739,7 @@ const EN_WORDS = [
     "/ˈkɔːrd.weɪ.nər/",
     "m",
     "A shoemaker who works with new leather (not a cobbler who repairs)",
-    "From OF \"cordouanier\" — worker of Cordovan leather (from Córdoba)",
+    "From OF \"cordouanier\" - worker of Cordovan leather (from Córdoba)",
     "\"The cordwainer crafted fine leather shoes for the gentry\"",
     "From guild records"
   ],
@@ -748,7 +748,7 @@ const EN_WORDS = [
     "/ˈflɛtʃ.ər/",
     "m",
     "A maker of arrows; one who feathers (fletches) arrows",
-    "From OF \"flechier\" — arrow maker. \"Flèche\" — arrow",
+    "From OF \"flechier\" - arrow maker. \"Flèche\" - arrow",
     "\"The fletcher selected goose feathers for the war arrows\"",
     "From military supply records"
   ],
@@ -757,7 +757,7 @@ const EN_WORDS = [
     "/ˈkuː.pər/",
     "m",
     "A barrel maker; one who makes and repairs wooden casks",
-    "From Lat. \"cupa\" — barrel, tub. Via MLat. \"cuparius\"",
+    "From Lat. \"cupa\" - barrel, tub. Via MLat. \"cuparius\"",
     "\"The cooper hammered iron hoops around the oak barrel\"",
     "From craft descriptions"
   ],
@@ -766,7 +766,7 @@ const EN_WORDS = [
     "/ˈfær.i.ər/",
     "m",
     "A blacksmith who shoes horses; a horse doctor",
-    "From Lat. \"ferrarius\" — ironworker. \"Ferrum\" — iron",
+    "From Lat. \"ferrarius\" - ironworker. \"Ferrum\" - iron",
     "\"The farrier heated the horseshoe in the forge\"",
     "From rural descriptions"
   ],
@@ -775,7 +775,7 @@ const EN_WORDS = [
     "/ˈhoʊ.ʒər/",
     "m",
     "A maker or seller of stockings and socks",
-    "From OE \"hosa\" — leg covering. \"Hosiery\" — stockings collectively",
+    "From OE \"hosa\" - leg covering. \"Hosiery\" - stockings collectively",
     "\"The hosier sold fine silk stockings to the ladies of the court\"",
     "From trade descriptions"
   ],
@@ -784,7 +784,7 @@ const EN_WORDS = [
     "/ˈhæb.ər.dæʃ.ər/",
     "m",
     "A seller of small articles: buttons, thread, needles, ribbons",
-    "Origin uncertain. Possibly from AF \"hapertas\" — a type of fabric",
+    "Origin uncertain. Possibly from AF \"hapertas\" - a type of fabric",
     "\"The haberdasher displayed ribbons and buttons in his window\"",
     "From trade descriptions"
   ],
@@ -793,7 +793,7 @@ const EN_WORDS = [
     "/əˈpɒθ.ɪ.kər.i/",
     "e",
     "A pharmacist; one who prepares and sells medicines",
-    "From Lat. \"apothecarius\" — storekeeper. Gk. \"apothēkē\" — storehouse",
+    "From Lat. \"apothecarius\" - storekeeper. Gk. \"apothēkē\" - storehouse",
     "\"The apothecary mixed herbs and compounds by candlelight\"",
     "Shakespeare, \"Romeo and Juliet\""
   ],
@@ -811,7 +811,7 @@ const EN_WORDS = [
     "/ˈmɜːr.sər/",
     "m",
     "A dealer in fine fabrics, especially silk and velvet",
-    "From OF \"mercier\" — merchant. Lat. \"merx\" — goods",
+    "From OF \"mercier\" - merchant. Lat. \"merx\" - goods",
     "\"The mercer sold fine silks imported from the Orient\"",
     "From trade guild records"
   ],
@@ -820,7 +820,7 @@ const EN_WORDS = [
     "/ˈskrɪv.ən.ər/",
     "m",
     "A professional writer or copyist; a notary",
-    "From OF \"escrivain\" — writer. Lat. \"scribere\" — to write",
+    "From OF \"escrivain\" - writer. Lat. \"scribere\" - to write",
     "\"The scrivener copied the contract in his careful hand\"",
     "From legal descriptions"
   ],
@@ -829,7 +829,7 @@ const EN_WORDS = [
     "/ˈtɪŋ.kər/",
     "m",
     "An itinerant mender of pots and pans; a clumsy repairer",
-    "From ME \"tinkere\" — possibly from the tinkling sound of hammering",
+    "From ME \"tinkere\" - possibly from the tinkling sound of hammering",
     "\"The tinker went from village to village mending kettles\"",
     "From descriptions of itinerant trades"
   ],
@@ -838,7 +838,7 @@ const EN_WORDS = [
     "/ˈdreɪ.meɪ.kər/",
     "t",
     "A maker of drays (low carts without sides for heavy loads)",
-    "From OE \"dræge\" — something drawn/dragged",
+    "From OE \"dræge\" - something drawn/dragged",
     "\"The draymaker built sturdy carts for the breweries\"",
     "From industrial descriptions"
   ],
@@ -847,7 +847,7 @@ const EN_WORDS = [
     "/ˈɒs.lər/",
     "m",
     "A person who looks after horses at an inn; a stable hand",
-    "From OF \"hostelier\" — innkeeper. Later narrowed to horse care",
+    "From OF \"hostelier\" - innkeeper. Later narrowed to horse care",
     "\"The ostler rubbed down the horses and filled the manger\"",
     "From travel descriptions"
   ],
@@ -865,7 +865,7 @@ const EN_WORDS = [
     "/ˌrɛz.əˈrɛk.ʃən.ɪst/",
     "t",
     "A body snatcher; one who dug up corpses for medical study",
-    "From \"resurrection\" — raising the dead. Euphemistic term",
+    "From \"resurrection\" - raising the dead. Euphemistic term",
     "\"The resurrectionists prowled the graveyards at midnight\"",
     "From Victorian crime reports"
   ],
@@ -874,7 +874,7 @@ const EN_WORDS = [
     "/rɒθ/",
     "m",
     "Angry, wrathful, furious",
-    "From OE \"wrāþ\" — angry. Related to \"writhe\" and \"wreath\"",
+    "From OE \"wrāþ\" - angry. Related to \"writhe\" and \"wreath\"",
     "\"The king was exceeding wroth, and his anger burned\"",
     "King James Bible, Esther"
   ],
@@ -892,7 +892,7 @@ const EN_WORDS = [
     "/fɔːrˈseɪ.kən/",
     "m",
     "Abandoned, deserted, left behind",
-    "Past participle of \"forsake.\" OE \"forsacan\" — to reject",
+    "Past participle of \"forsake.\" OE \"forsacan\" - to reject",
     "\"He felt utterly forsaken, without friend or hope\"",
     "From literary descriptions"
   ],
@@ -910,7 +910,7 @@ const EN_WORDS = [
     "/fɔːrˈlɔːrn/",
     "m",
     "Pitifully sad and lonely; desolate. \"Forlorn hope\" = desperate venture",
-    "From OE \"forloren\" — lost. Past participle of \"forleosan\" — to lose",
+    "From OE \"forloren\" - lost. Past participle of \"forleosan\" - to lose",
     "\"She looked so forlorn standing alone in the rain\"",
     "From literary descriptions"
   ],
@@ -919,7 +919,7 @@ const EN_WORDS = [
     "/ˈdoʊl.fəl/",
     "m",
     "Expressing grief; mournful, sorrowful",
-    "From OF \"dol\" — grief. Lat. \"dolus\" — pain",
+    "From OF \"dol\" - grief. Lat. \"dolus\" - pain",
     "\"A doleful cry echoed through the empty halls of the castle\"",
     "From Gothic literature"
   ],
@@ -928,7 +928,7 @@ const EN_WORDS = [
     "/ˈmɜːrθ.fəl/",
     "m",
     "Full of mirth; joyful, merry, cheerful",
-    "From OE \"myrgþ\" — joy, pleasure. Related to \"merry\"",
+    "From OE \"myrgþ\" - joy, pleasure. Related to \"merry\"",
     "\"The mirthful company laughed and sang through the night\"",
     "From feast descriptions"
   ],
@@ -946,8 +946,8 @@ const EN_WORDS = [
     "/ˈmɛl.ən.kɒl.i/",
     "e",
     "Deep sadness; one of the four humors (black bile)",
-    "From Gk. \"melankholía\" — black + bile. Humoral medicine",
-    "\"I have of late — but wherefore I know not — lost all my mirth\"",
+    "From Gk. \"melankholía\" - black + bile. Humoral medicine",
+    "\"I have of late - but wherefore I know not - lost all my mirth\"",
     "Shakespeare, \"Hamlet\""
   ],
   [
@@ -964,7 +964,7 @@ const EN_WORDS = [
     "/əˈɡɒɡ/",
     "e",
     "Very eager, excited, full of anticipation",
-    "From OF \"en gogues\" — in merriment, in fun",
+    "From OF \"en gogues\" - in merriment, in fun",
     "\"The whole town was agog with the news of the king's visit\"",
     "From period descriptions"
   ],
@@ -973,7 +973,7 @@ const EN_WORDS = [
     "/bɪˈkwiːð/",
     "m",
     "To leave (property) to someone by will; to hand down",
-    "From OE \"becwethan\" — to say, declare (one's will). Related to \"quoth\"",
+    "From OE \"becwethan\" - to say, declare (one's will). Related to \"quoth\"",
     "\"I bequeath my estate to my eldest son\"",
     "From legal wills"
   ],
@@ -982,7 +982,7 @@ const EN_WORDS = [
     "/bɪˈsiːtʃ/",
     "m",
     "To implore urgently; to beg earnestly",
-    "From ME \"bisechen\" — \"be-\" (thoroughly) + \"sechen\" (to seek)",
+    "From ME \"bisechen\" - \"be-\" (thoroughly) + \"sechen\" (to seek)",
     "\"I beseech you, hear my plea before you pass judgment\"",
     "Shakespeare, \"Merchant of Venice\""
   ],
@@ -991,7 +991,7 @@ const EN_WORDS = [
     "/smaɪt/",
     "m",
     "To strike with a heavy blow; to afflict. Past tense: \"smote\"",
-    "From OE \"smītan\" — to strike. Related to Ger. \"schmeißen\"",
+    "From OE \"smītan\" - to strike. Related to Ger. \"schmeißen\"",
     "\"The Lord shall smite thee with madness and blindness\"",
     "King James Bible, Deuteronomy"
   ],
@@ -1000,7 +1000,7 @@ const EN_WORDS = [
     "/ˈtær.i/",
     "m",
     "To stay, wait, linger; to be slow in going",
-    "From ME \"tarien\" — to delay. Origin uncertain",
+    "From ME \"tarien\" - to delay. Origin uncertain",
     "\"Tarry a while, and let us talk before you go\"",
     "Shakespeare, various plays"
   ],
@@ -1009,7 +1009,7 @@ const EN_WORDS = [
     "/dɒf/",
     "m",
     "To remove (a hat or clothing). Opposite of \"don\"",
-    "Contraction of \"do off\" — to take off",
+    "Contraction of \"do off\" - to take off",
     "\"He doffed his hat and bowed to the lady\"",
     "From polite society descriptions"
   ],
@@ -1018,8 +1018,8 @@ const EN_WORDS = [
     "/dɒn/",
     "m",
     "To put on (clothing). Opposite of \"doff\"",
-    "Contraction of \"do on\" — to put on",
-    "\"Don your armor, knights — we ride to battle at dawn\"",
+    "Contraction of \"do on\" - to put on",
+    "\"Don your armor, knights - we ride to battle at dawn\"",
     "From chivalric descriptions"
   ],
   [
@@ -1027,7 +1027,7 @@ const EN_WORDS = [
     "/ɡɜːrd/",
     "m",
     "To encircle, bind around; to prepare. \"Gird your loins\" = get ready",
-    "From OE \"gyrdan\" — to encircle. Related to \"girdle\" and \"garden\"",
+    "From OE \"gyrdan\" - to encircle. Related to \"girdle\" and \"garden\"",
     "\"Gird up now thy loins like a man\"",
     "King James Bible, Job 38:3"
   ],
@@ -1045,7 +1045,7 @@ const EN_WORDS = [
     "/rɛnd/",
     "m",
     "To tear violently; to split apart with force",
-    "From OE \"rendan\" — to tear. Related to \"rind\"",
+    "From OE \"rendan\" - to tear. Related to \"rind\"",
     "\"He rent his garments in grief when he heard the news\"",
     "King James Bible"
   ],
@@ -1054,7 +1054,7 @@ const EN_WORDS = [
     "/ˈsʌn.dər/",
     "m",
     "To split, separate, break apart. \"Asunder\" = into pieces",
-    "From OE \"sundrian\" — to separate. Related to \"south\" (apart)",
+    "From OE \"sundrian\" - to separate. Related to \"south\" (apart)",
     "\"What God hath joined together, let not man put asunder\"",
     "Wedding ceremony text"
   ],
@@ -1063,7 +1063,7 @@ const EN_WORDS = [
     "/əˈlaɪt/",
     "m",
     "To descend, dismount, get down from; to come to rest",
-    "From OE \"ālīhtan\" — to dismount. \"A-\" + \"light\" (= not heavy)",
+    "From OE \"ālīhtan\" - to dismount. \"A-\" + \"light\" (= not heavy)",
     "\"The rider alighted from his horse at the inn door\"",
     "From travel descriptions"
   ],
@@ -1072,7 +1072,7 @@ const EN_WORDS = [
     "/əˈbaɪd/",
     "m",
     "To dwell, remain, stay; to endure, tolerate",
-    "From OE \"ābīdan\" — to wait, remain. \"A-\" + \"bīdan\" (wait)",
+    "From OE \"ābīdan\" - to wait, remain. \"A-\" + \"bīdan\" (wait)",
     "\"Abide with me; fast falls the eventide\"",
     "Henry F. Lyte, hymn"
   ],
@@ -1081,7 +1081,7 @@ const EN_WORDS = [
     "/əˈseɪ/",
     "m",
     "To attempt, try; to test the quality of metals",
-    "From OF \"assaier\" — to try. Lat. \"exagium\" — weighing",
+    "From OF \"assaier\" - to try. Lat. \"exagium\" - weighing",
     "\"He assayed to cross the river but the current was too strong\"",
     "From adventure narratives"
   ],
@@ -1090,7 +1090,7 @@ const EN_WORDS = [
     "/sʌp/",
     "m",
     "To eat supper; to take liquid food. \"To sup\" = to dine",
-    "From OE \"sūpan\" — to sip, drink. Related to \"sip\" and \"soup\"",
+    "From OE \"sūpan\" - to sip, drink. Related to \"sip\" and \"soup\"",
     "\"Come, let us sup together before the fire\"",
     "From medieval invitations"
   ],
@@ -1099,7 +1099,7 @@ const EN_WORDS = [
     "/ˈhɑːr.kən/",
     "m",
     "To listen attentively; to give heed",
-    "From OE \"heorcnian\" — to listen. Related to \"hark\"",
+    "From OE \"heorcnian\" - to listen. Related to \"hark\"",
     "\"Hearken unto my voice, O Lord, and answer me\"",
     "King James Bible, Psalms"
   ],
@@ -1107,8 +1107,8 @@ const EN_WORDS = [
     "Wend",
     "/wɛnd/",
     "m",
-    "To go, travel, make one's way. \"Wend one's way\" — to journey",
-    "From OE \"wendan\" — to turn, go. Past tense became \"went\"!",
+    "To go, travel, make one's way. \"Wend one's way\" - to journey",
+    "From OE \"wendan\" - to turn, go. Past tense became \"went\"!",
     "\"They wended their way through the dark forest\"",
     "From narrative descriptions"
   ],
@@ -1116,7 +1116,7 @@ const EN_WORDS = [
     "Smote",
     "/smoʊt/",
     "m",
-    "Past tense of \"smite\" — struck, hit with great force",
+    "Past tense of \"smite\" - struck, hit with great force",
     "Past tense of OE \"smītan.\" Now replaced by \"struck\"",
     "\"He smote the dragon with his mighty sword\"",
     "From legend narratives"
@@ -1126,7 +1126,7 @@ const EN_WORDS = [
     "/bɪˈɡɒn/",
     "e",
     "Go away! Leave! (imperative command to depart)",
-    "From \"be\" + \"gone\" — be gone from here",
+    "From \"be\" + \"gone\" - be gone from here",
     "\"Begone, foul fiend! Trouble me no more!\"",
     "From dramatic speeches"
   ],
@@ -1135,7 +1135,7 @@ const EN_WORDS = [
     "/ˌɪm.pɔːrˈtjuːn/",
     "e",
     "To beg persistently and urgently; to pester with requests",
-    "From Lat. \"importunus\" — unsuitable, persistent",
+    "From Lat. \"importunus\" - unsuitable, persistent",
     "\"She importuned him daily until he granted her request\"",
     "From literary descriptions"
   ],
@@ -1144,7 +1144,7 @@ const EN_WORDS = [
     "/ˈfɜːr.mə.mənt/",
     "m",
     "The sky, the vault of heaven; the heavens above",
-    "From Lat. \"firmamentum\" — support, strengthening",
+    "From Lat. \"firmamentum\" - support, strengthening",
     "\"God called the firmament Heaven\"",
     "King James Bible, Genesis 1:8"
   ],
@@ -1153,8 +1153,8 @@ const EN_WORDS = [
     "/fɛn/",
     "m",
     "A marshy, boggy area; low-lying wet ground",
-    "From OE \"fenn\" — mud, mire, marsh. Related to Ger. \"Fenn\"",
-    "\"The fen was treacherous — many a traveler was lost in its depths\"",
+    "From OE \"fenn\" - mud, mire, marsh. Related to Ger. \"Fenn\"",
+    "\"The fen was treacherous - many a traveler was lost in its depths\"",
     "From geographical descriptions"
   ],
   [
@@ -1162,7 +1162,7 @@ const EN_WORDS = [
     "/deɪl/",
     "m",
     "A valley, especially a broad one. Common in English place names",
-    "From OE \"dæl\" — valley. Cognate with Ger. \"Tal.\" Yorkshire Dales",
+    "From OE \"dæl\" - valley. Cognate with Ger. \"Tal.\" Yorkshire Dales",
     "\"Through hill and dale the travelers made their weary way\"",
     "From travel narratives"
   ],
@@ -1171,7 +1171,7 @@ const EN_WORDS = [
     "/liː/",
     "m",
     "A meadow, grassland, open field. Poetic word for pasture",
-    "From OE \"lēah\" — field, clearing. Related to many \"-ley\" place names",
+    "From OE \"lēah\" - field, clearing. Related to many \"-ley\" place names",
     "\"The sheep grazed peacefully upon the lea\"",
     "From pastoral poetry"
   ],
@@ -1180,7 +1180,7 @@ const EN_WORDS = [
     "/ɡlɛn/",
     "m",
     "A narrow valley, especially in Scotland or Ireland",
-    "From Scottish/Irish Gaelic \"gleann\" — valley",
+    "From Scottish/Irish Gaelic \"gleann\" - valley",
     "\"Down in the glen, by the rushing burn, stood a lonely cottage\"",
     "From Scottish literature"
   ],
@@ -1189,7 +1189,7 @@ const EN_WORDS = [
     "/mɪər/",
     "m",
     "A lake, pool, or body of standing water",
-    "From OE \"mere\" — lake, sea. Cognate with Lat. \"mare\" — sea",
+    "From OE \"mere\" - lake, sea. Cognate with Lat. \"mare\" - sea",
     "\"The monster rose from the mere in the dead of night\"",
     "Beowulf legend"
   ],
@@ -1198,7 +1198,7 @@ const EN_WORDS = [
     "/tɔːr/",
     "m",
     "A high, craggy hill or rocky peak",
-    "From OE \"torr\" — high rock. Possibly Celtic origin",
+    "From OE \"torr\" - high rock. Possibly Celtic origin",
     "\"Upon the tor stood the ruins of an ancient castle\"",
     "From descriptions of Dartmoor"
   ],
@@ -1207,7 +1207,7 @@ const EN_WORDS = [
     "/noʊl/",
     "m",
     "A small, rounded hill; a mound",
-    "From OE \"cnoll\" — hilltop, summit. Related to \"knell\"",
+    "From OE \"cnoll\" - hilltop, summit. Related to \"knell\"",
     "\"From the grassy knoll they surveyed the valley below\"",
     "From landscape descriptions"
   ],
@@ -1216,7 +1216,7 @@ const EN_WORDS = [
     "/kɒps/",
     "m",
     "A small group of trees; a thicket",
-    "From OF \"copeiz\" — cut wood. Related to \"coppice\" (managed woodland)",
+    "From OF \"copeiz\" - cut wood. Related to \"coppice\" (managed woodland)",
     "\"The fox disappeared into the copse beyond the field\"",
     "From hunting descriptions"
   ],
@@ -1234,7 +1234,7 @@ const EN_WORDS = [
     "/ˈvɛr.ɪ.li/",
     "m",
     "Truly, indeed, in truth (emphatic assertion)",
-    "From ME \"verray\" — true. OF \"verai.\" Lat. \"verus\"",
+    "From ME \"verray\" - true. OF \"verai.\" Lat. \"verus\"",
     "\"Verily, verily, I say unto you\"",
     "King James Bible, John 6:47"
   ],
@@ -1243,7 +1243,7 @@ const EN_WORDS = [
     "/pərˈæd.vɛn.tʃər/",
     "m",
     "Perhaps, possibly; by chance",
-    "From OF \"par aventure\" — by chance",
+    "From OF \"par aventure\" - by chance",
     "\"Peradventure there be fifty righteous within the city\"",
     "King James Bible, Genesis 18:24"
   ],
@@ -1252,7 +1252,7 @@ const EN_WORDS = [
     "/wɒnt/",
     "m",
     "Accustomed; a habit. \"As was his wont\" = as was his custom",
-    "From OE \"gewunod\" — accustomed. Related to Ger. \"gewohnt\"",
+    "From OE \"gewunod\" - accustomed. Related to Ger. \"gewohnt\"",
     "\"He was wont to speak little, but every word carried weight\"",
     "From biographical descriptions"
   ],
@@ -1261,7 +1261,7 @@ const EN_WORDS = [
     "/dɜːrθ/",
     "m",
     "A scarcity, lack, shortage; originally: famine",
-    "From OE \"dēorþ\" — costliness. Related to \"dear\" (= expensive)",
+    "From OE \"dēorþ\" - costliness. Related to \"dear\" (= expensive)",
     "\"There was a dearth of food in the land after the flood\"",
     "King James Bible"
   ],
@@ -1270,7 +1270,7 @@ const EN_WORDS = [
     "/wiːl/",
     "m",
     "Well-being, prosperity, happiness. \"The common weal\" = public welfare",
-    "From OE \"wela\" — wealth, well-being. Opposite of \"woe\"",
+    "From OE \"wela\" - wealth, well-being. Opposite of \"woe\"",
     "\"For the weal of the kingdom, we must make this sacrifice\"",
     "From political speeches"
   ],
@@ -1279,7 +1279,7 @@ const EN_WORDS = [
     "/woʊ/",
     "m",
     "Grief, sorrow, distress. \"Woe is me!\" = I am sorrowful",
-    "From OE \"wā\" — grief. Cognate with Lat. \"vae\" — alas",
+    "From OE \"wā\" - grief. Cognate with Lat. \"vae\" - alas",
     "\"Woe unto them that call evil good, and good evil\"",
     "King James Bible, Isaiah 5:20"
   ],
@@ -1288,7 +1288,7 @@ const EN_WORDS = [
     "/ˈvæl.ər/",
     "m",
     "Great bravery, especially in battle; heroic courage",
-    "From OF \"valour,\" Lat. \"valor\" — worth, strength",
+    "From OF \"valour,\" Lat. \"valor\" - worth, strength",
     "\"His valour in battle was unmatched by any knight\"",
     "From chivalric romances"
   ],
@@ -1297,7 +1297,7 @@ const EN_WORDS = [
     "/nɛl/",
     "m",
     "The sound of a bell, especially for a funeral; a signal of death",
-    "From OE \"cnyll\" — sound of a bell. Related to \"knoll\"",
+    "From OE \"cnyll\" - sound of a bell. Related to \"knoll\"",
     "\"The knell of parting day, the lowing herd winds slowly o'er the lea\"",
     "Thomas Gray, \"Elegy\""
   ],
@@ -1306,7 +1306,7 @@ const EN_WORDS = [
     "/beɪn/",
     "m",
     "A cause of death, ruin, or woe; poison (original meaning)",
-    "From OE \"bana\" — killer, murderer. \"Wolfsbane\" = wolf poison",
+    "From OE \"bana\" - killer, murderer. \"Wolfsbane\" = wolf poison",
     "\"He was the bane of my existence\"",
     "From literary descriptions"
   ],
@@ -1334,7 +1334,7 @@ const EN_WORDS = [
     "t",
     "Foolish, silly behavior; clowning around",
     "From \"Tom Fool\" (generic name for a fool) + \"-ery\"",
-    "\"Enough of this tomfoolery — we have serious work to do\"",
+    "\"Enough of this tomfoolery - we have serious work to do\"",
     "From Victorian scolding"
   ],
   [
@@ -1351,7 +1351,7 @@ const EN_WORDS = [
     "/kərˈfʌf.əl/",
     "t",
     "A fuss, commotion, disorder",
-    "From Scots \"curfuffle\" — to disorder. Gaelic \"car\" — twist",
+    "From Scots \"curfuffle\" - to disorder. Gaelic \"car\" - twist",
     "\"There was quite a kerfuffle when the cat got into the kitchen\"",
     "From British dialect usage"
   ],
@@ -1360,7 +1360,7 @@ const EN_WORDS = [
     "/əˈsaɪz/",
     "m",
     "A court session; a regulation fixing prices and standards",
-    "From OF \"assise\" — session, sitting. Lat. \"assidēre\" — to sit beside",
+    "From OF \"assise\" - session, sitting. Lat. \"assidēre\" - to sit beside",
     "\"The justices arrived for the county assize\"",
     "From legal descriptions"
   ],
@@ -1369,7 +1369,7 @@ const EN_WORDS = [
     "/rɪt/",
     "m",
     "A written command issued by a court; a legal document",
-    "From OE \"writ\" — something written. From \"wrītan\" — to write",
+    "From OE \"writ\" - something written. From \"wrītan\" - to write",
     "\"The sheriff served the writ upon the debtor\"",
     "From legal proceedings"
   ],
@@ -1378,7 +1378,7 @@ const EN_WORDS = [
     "/ˈfiː.əl.ti/",
     "m",
     "Loyalty sworn to a feudal lord; faithful allegiance",
-    "From OF \"feaulté,\" Lat. \"fidelitas\" — faithfulness",
+    "From OF \"feaulté,\" Lat. \"fidelitas\" - faithfulness",
     "\"He swore fealty to his liege lord upon bended knee\"",
     "From feudal ceremonies"
   ],
@@ -1387,7 +1387,7 @@ const EN_WORDS = [
     "/fiːf/",
     "m",
     "A feudal estate held from a lord in exchange for service",
-    "From OF \"fief\" — estate. Germanic origin, related to \"fee\"",
+    "From OF \"fief\" - estate. Germanic origin, related to \"fee\"",
     "\"The lord granted him a fief of three hundred acres\"",
     "From feudal descriptions"
   ],
@@ -1396,7 +1396,7 @@ const EN_WORDS = [
     "/buːn/",
     "m",
     "A favor, gift, or blessing; something beneficial",
-    "From ON \"bón\" — prayer, petition. The gift granted upon request",
+    "From ON \"bón\" - prayer, petition. The gift granted upon request",
     "\"Grant me this boon, my lord, and I shall serve you faithfully\"",
     "From chivalric romances"
   ],
@@ -1405,7 +1405,7 @@ const EN_WORDS = [
     "/ˈiː.dɪkt/",
     "m",
     "An official order or proclamation issued by authority",
-    "From Lat. \"edictum\" — proclamation. \"E-\" (out) + \"dicere\" (say)",
+    "From Lat. \"edictum\" - proclamation. \"E-\" (out) + \"dicere\" (say)",
     "\"The king issued an edict banning all foreign merchants\"",
     "From royal proclamations"
   ],
@@ -1414,7 +1414,7 @@ const EN_WORDS = [
     "/ˈsɜːrf.dəm/",
     "m",
     "The condition of being a serf; feudal bondage to the land",
-    "From OF \"serf,\" Lat. \"servus\" — slave. \"-dom\" = condition",
+    "From OF \"serf,\" Lat. \"servus\" - slave. \"-dom\" = condition",
     "\"Serfdom bound the peasant to the land of his lord\"",
     "From feudal descriptions"
   ],
@@ -1423,7 +1423,7 @@ const EN_WORDS = [
     "/taɪð/",
     "m",
     "A tenth part; a tax of one-tenth paid to the church",
-    "From OE \"tēoþa\" — tenth. Related to \"ten\"",
+    "From OE \"tēoþa\" - tenth. Related to \"ten\"",
     "\"Every farmer paid his tithe to the parish church\"",
     "From church financial records"
   ],
@@ -1441,7 +1441,7 @@ const EN_WORDS = [
     "/feɪn/",
     "m",
     "Gladly, willingly; eager, inclined",
-    "From OE \"fægen\" — glad, joyful. Cognate with Ger. dialectal \"feigen\"",
+    "From OE \"fægen\" - glad, joyful. Cognate with Ger. dialectal \"feigen\"",
     "\"I would fain go with thee, but duty keeps me here\"",
     "From literary descriptions"
   ],
@@ -1450,7 +1450,7 @@ const EN_WORDS = [
     "/bɪˈhɛst/",
     "m",
     "A command, order; an authoritative request",
-    "From OE \"behǣs\" — promise, vow. \"Be-\" + \"hǣs\" (command)",
+    "From OE \"behǣs\" - promise, vow. \"Be-\" + \"hǣs\" (command)",
     "\"At the king's behest, the army marched northward\"",
     "From historical narratives"
   ],
@@ -1459,7 +1459,7 @@ const EN_WORDS = [
     "/bɪˈsɛt/",
     "m",
     "To surround, harass from all sides; to trouble persistently",
-    "From OE \"besettan\" — to surround. \"Be-\" + \"set\"",
+    "From OE \"besettan\" - to surround. \"Be-\" + \"set\"",
     "\"Beset by enemies on every side, they made their last stand\"",
     "From battle descriptions"
   ],
@@ -1468,7 +1468,7 @@ const EN_WORDS = [
     "/bɪˈtroʊθ/",
     "m",
     "To formally promise in marriage; to engage",
-    "From ME \"bitreuthien\" — to pledge truth (troth)",
+    "From ME \"bitreuthien\" - to pledge truth (troth)",
     "\"She was betrothed to the prince in her sixteenth year\"",
     "From marriage descriptions"
   ],
@@ -1477,7 +1477,7 @@ const EN_WORDS = [
     "/bɪˈmoʊn/",
     "m",
     "To express great sadness or grief over; to lament",
-    "From OE \"bemǣnan\" — to lament. \"Be-\" (about) + \"moan\"",
+    "From OE \"bemǣnan\" - to lament. \"Be-\" (about) + \"moan\"",
     "\"He bemoaned his fate and cursed the day he was born\"",
     "From literary descriptions"
   ],
@@ -1486,7 +1486,7 @@ const EN_WORDS = [
     "/bɪˈwɪtʃt/",
     "e",
     "Under a magical spell; enchanted, fascinated",
-    "From \"be-\" + \"witch\" — affected by witchcraft",
+    "From \"be-\" + \"witch\" - affected by witchcraft",
     "\"The prince was bewitched and slept for a hundred years\"",
     "From fairy tales"
   ],
@@ -1495,7 +1495,7 @@ const EN_WORDS = [
     "/jeɪ/",
     "m",
     "Yes; indeed; moreover. The affirmative vote",
-    "From OE \"gēa\" — yes. Cognate with Ger. \"ja\"",
+    "From OE \"gēa\" - yes. Cognate with Ger. \"ja\"",
     "\"Let your yea be yea, and your nay be nay\"",
     "King James Bible"
   ],
@@ -1504,7 +1504,7 @@ const EN_WORDS = [
     "/loʊ/",
     "m",
     "Look! Behold! See! (drawing attention)",
-    "From OE \"lā\" — exclamation to attract attention",
+    "From OE \"lā\" - exclamation to attract attention",
     "\"Lo, the star which they saw in the east went before them\"",
     "King James Bible, Matthew 2:9"
   ],
@@ -1513,7 +1513,7 @@ const EN_WORDS = [
     "/əˈlæs/",
     "m",
     "An exclamation of grief, pity, or sorrow",
-    "From OF \"helas\" — \"hé\" (ah) + \"las\" (weary). Lat. \"lassus\" — tired",
+    "From OF \"helas\" - \"hé\" (ah) + \"las\" (weary). Lat. \"lassus\" - tired",
     "\"Alas, poor Yorick! I knew him, Horatio\"",
     "Shakespeare, \"Hamlet\""
   ],
@@ -1522,7 +1522,7 @@ const EN_WORDS = [
     "/ˈprɛs.toʊ/",
     "e",
     "Quickly, immediately; used by magicians performing tricks",
-    "From It. \"presto\" — quick. Lat. \"praestus\" — ready",
+    "From It. \"presto\" - quick. Lat. \"praestus\" - ready",
     "\"Hey presto! The rabbit appeared from the hat!\"",
     "From stage magic"
   ],
@@ -1531,7 +1531,7 @@ const EN_WORDS = [
     "/pɛlf/",
     "m",
     "Money, riches (contemptuous); ill-gotten gains",
-    "From OF \"pelfre\" — booty, spoils. Related to \"pilfer\"",
+    "From OF \"pelfre\" - booty, spoils. Related to \"pilfer\"",
     "\"He cared for nothing but pelf and worldly gain\"",
     "From morality tales"
   ],
@@ -1540,7 +1540,7 @@ const EN_WORDS = [
     "/θrɔːl/",
     "m",
     "A slave, bondsman; the state of being enslaved; spellbound",
-    "From OE \"þrǣl,\" from ON \"þræll\" — slave",
+    "From OE \"þrǣl,\" from ON \"þræll\" - slave",
     "\"He held the audience in thrall with his magnificent voice\"",
     "From literary descriptions"
   ],
@@ -1549,7 +1549,7 @@ const EN_WORDS = [
     "/ˈwɛl.kɪn/",
     "m",
     "The sky, the heavens, the vault of heaven",
-    "From OE \"wolcen\" — cloud, sky. Cognate with Ger. \"Wolke\" — cloud",
+    "From OE \"wolcen\" - cloud, sky. Cognate with Ger. \"Wolke\" - cloud",
     "\"The shout echoed through the welkin\"",
     "From literary descriptions"
   ],
@@ -1558,8 +1558,8 @@ const EN_WORDS = [
     "/liːtʃ/",
     "m",
     "A physician, healer (original meaning); the bloodsucking worm",
-    "From OE \"lǣce\" — healer. The worm was named after the doctor, not vice versa!",
-    "\"Send for the leech — the knight is gravely wounded\"",
+    "From OE \"lǣce\" - healer. The worm was named after the doctor, not vice versa!",
+    "\"Send for the leech - the knight is gravely wounded\"",
     "From medieval medical descriptions"
   ],
   [
@@ -1576,7 +1576,7 @@ const EN_WORDS = [
     "/riːv/",
     "m",
     "An official appointed by a lord to oversee his estates and agricultural workers.",
-    "From OE \"gerēfa\" — high official, magistrate (root of sheriff = shire-reeve).",
+    "From OE \"gerēfa\" - high official, magistrate (root of sheriff = shire-reeve).",
     "\"The reeve was a slender choleric man; his beard was shaved as close as any can.\"",
     "Chaucer, \"The Canterbury Tales\""
   ],
@@ -1603,7 +1603,7 @@ const EN_WORDS = [
     "/ˈkæs.tə.lən/",
     "m",
     "The governor or warden of a medieval castle.",
-    "From Latin \"castellanus\" — of a castle, from \"castellum.\"",
+    "From Latin \"castellanus\" - of a castle, from \"castellum.\"",
     "\"The castellan stood upon the battlements, surveying the advancing siege engines.\"",
     "Froissart, \"Chronicles\""
   ],
@@ -1729,7 +1729,7 @@ const EN_WORDS = [
     "/ˈhɛr.i.ət/",
     "m",
     "A feudal tribute of the best beast or chattel paid to the lord on the death of a tenant.",
-    "From OE \"heregeatu\" — military equipment (\"here\" army + \"geatu\" gear).",
+    "From OE \"heregeatu\" - military equipment (\"here\" army + \"geatu\" gear).",
     "\"The reeve claimed the black ox as heriot upon old Walter's death.\"",
     "Manorial court records"
   ],
@@ -1756,7 +1756,7 @@ const EN_WORDS = [
     "/ˈfræŋk.plɛdʒ/",
     "m",
     "A medieval system where members of a tithing (ten households) were mutually responsible for each other.",
-    "From Anglo-French \"franc-plege\" — free pledge (mistranslation of OE \"friðborh\" peace pledge).",
+    "From Anglo-French \"franc-plege\" - free pledge (mistranslation of OE \"friðborh\" peace pledge).",
     "\"The view of frankpledge was held twice a year before the royal sheriff.\"",
     "Legal court rolls"
   ],
@@ -1774,7 +1774,7 @@ const EN_WORDS = [
     "/ˌwɪt.ən.ə.ɡəˈmoʊt/",
     "m",
     "The national council of wise men and nobles in Anglo-Saxon England.",
-    "From OE \"witenagemōt\" — meeting of wise men (\"witan\" wise + \"mōt\" meeting).",
+    "From OE \"witenagemōt\" - meeting of wise men (\"witan\" wise + \"mōt\" meeting).",
     "\"The witenagemot met at Winchester to elect the young prince to the throne.\"",
     "Anglo-Saxon Chronicles"
   ],
@@ -1783,8 +1783,8 @@ const EN_WORDS = [
     "/θeɪn/",
     "m",
     "A member of the aristocratic warrior class in Anglo-Saxon England holding land by military service.",
-    "From OE \"þegn\" — servant, attendant, warrior. Cognate with Ger. \"Degen.\"",
-    "\"By the pricking of my thumbs, something wicked this way comes — Thane of Cawdor!\"",
+    "From OE \"þegn\" - servant, attendant, warrior. Cognate with Ger. \"Degen.\"",
+    "\"By the pricking of my thumbs, something wicked this way comes - Thane of Cawdor!\"",
     "Shakespeare, \"Macbeth\""
   ],
   [
@@ -1792,7 +1792,7 @@ const EN_WORDS = [
     "/ˈɔːl.dər.mən/",
     "m",
     "Originally an Anglo-Saxon nobleman of high rank governing a shire; later a town magistrate.",
-    "From OE \"ealdorman\" — elder man (\"eald\" old + \"man\").",
+    "From OE \"ealdorman\" - elder man (\"eald\" old + \"man\").",
     "\"The alderman led the men of Wessex to battle against the Danish host.\"",
     "Chronicle of Aethelweard"
   ],
@@ -1801,7 +1801,7 @@ const EN_WORDS = [
     "/muːt/",
     "m",
     "A public assembly or court of law for debate in Anglo-Saxon England.",
-    "From OE \"mōt\" — meeting, assembly. Root of \"meet\" and \"moot point.\"",
+    "From OE \"mōt\" - meeting, assembly. Root of \"meet\" and \"moot point.\"",
     "\"All the freemen of the hundred were summoned to the moot under the great oak.\"",
     "Records of Hampshire"
   ],
@@ -1855,7 +1855,7 @@ const EN_WORDS = [
     "/ˈsɜːr.koʊt/",
     "m",
     "A loose tunic worn over armor, often embroidered with heraldic arms.",
-    "From OF \"surcote\" — over-coat (\"sur\" above + \"coat\").",
+    "From OF \"surcote\" - over-coat (\"sur\" above + \"coat\").",
     "\"His surcoat bore three golden leopards passant upon a field of gules.\"",
     "Heraldic records"
   ],
@@ -1882,7 +1882,7 @@ const EN_WORDS = [
     "/ˈbæs.ɪ.nɛt/",
     "m",
     "An open-faced medieval helmet with a pointed skull, later fitted with a movable visor.",
-    "From OF \"bacinet\" — small basin, diminutive of \"bacin.\"",
+    "From OF \"bacinet\" - small basin, diminutive of \"bacin.\"",
     "\"He unclasped his bascinet and drank greedily of the mountain spring.\"",
     "Chronicles of Froissart"
   ],
@@ -1909,7 +1909,7 @@ const EN_WORDS = [
     "/ˈvæm.breɪs/",
     "m",
     "Plate armor protecting the forearm from wrist to elbow.",
-    "From Anglo-French \"avant-bras\" — fore-arm (\"avant\" before + \"bras\" arm).",
+    "From Anglo-French \"avant-bras\" - fore-arm (\"avant\" before + \"bras\" arm).",
     "\"The stroke of the broadsword shattered his vambrace but left the bone whole.\"",
     "Chivalric romances"
   ],
@@ -1963,7 +1963,7 @@ const EN_WORDS = [
     "/ˈbʌk.lər/",
     "m",
     "A small, round shield gripped in the fist, used in hand-to-hand swordsmanship.",
-    "From OF \"bocler\" — bossed shield, from \"bocle\" (shield boss, Latin \"buccula\").",
+    "From OF \"bocler\" - bossed shield, from \"bocle\" (shield boss, Latin \"buccula\").",
     "\"Swashing and swashbuckling with sword and buckler in every alleyway.\"",
     "Shakespeare, \"Romeo and Juliet\""
   ],
@@ -1972,7 +1972,7 @@ const EN_WORDS = [
     "/ˈkleɪ.mɔːr/",
     "m",
     "A large Scottish two-handed broadsword, or later a basket-hilted broadsword.",
-    "From Scottish Gaelic \"claidheamh mòr\" — great sword.",
+    "From Scottish Gaelic \"claidheamh mòr\" - great sword.",
     "\"The Highland chief swung his great claymore with both hands, cleaving shields asunder.\"",
     "Highland chronicles"
   ],
@@ -1999,7 +1999,7 @@ const EN_WORDS = [
     "/ˈhæl.bərd/",
     "m",
     "A combined spear and battleaxe mounted on a long six-foot pole.",
-    "From Middle Dutch \"hellembaerde\" — helmet-cleaver (\"helm\" + \"baard\" axe).",
+    "From Middle Dutch \"hellembaerde\" - helmet-cleaver (\"helm\" + \"baard\" axe).",
     "\"The halberdiers guarded the portal with crossed pikes of gleaming steel.\"",
     "Shakespeare, \"Hamlet\""
   ],
@@ -2053,7 +2053,7 @@ const EN_WORDS = [
     "/mɪˈθɛɡ.lɪn/",
     "m",
     "A spiced, medicinal variety of mead flavored with herbs, cinnamon, and cloves.",
-    "From Welsh \"meddyglyn\" — medicinal liquor (\"meddyg\" physician + \"llyn\" drink).",
+    "From Welsh \"meddyglyn\" - medicinal liquor (\"meddyg\" physician + \"llyn\" drink).",
     "\"A warm posset of sweet metheglin comforted the traveler after his dreary ride.\"",
     "Early English domestic receipts"
   ],
@@ -2107,7 +2107,7 @@ const EN_WORDS = [
     "/ʃɒp/",
     "m",
     "An Old English oral bard who recited heroic alliterative poetry in the Anglo-Saxon mead-hall.",
-    "From OE \"scop\" — poet, creator, maker. Related to \"shape.\"",
+    "From OE \"scop\" - poet, creator, maker. Related to \"shape.\"",
     "\"The scop raised his voice above the murmuring warriors, chanting of the dragon's hoard.\"",
     "Old English poetic commentaries"
   ],
@@ -2125,7 +2125,7 @@ const EN_WORDS = [
     "/ˈbiː.dəl/",
     "m",
     "A ceremonial parish officer who kept order during church services and punished petty offenders.",
-    "From OE \"bydel\" — messenger, herald. Related to \"bid\" (to command).",
+    "From OE \"bydel\" - messenger, herald. Related to \"bid\" (to command).",
     "\"Mr. Bumble the beadle walked with great dignity, brandishing his gold-headed cane.\"",
     "Charles Dickens, \"Oliver Twist\""
   ],
@@ -2197,7 +2197,7 @@ const EN_WORDS = [
     "/ˈbɛl.dəm/",
     "e",
     "An old woman; a hag; an eccentric crone. Originally \"grandmother\" (ironic deterioration).",
-    "From Anglo-French \"bele-dame\" — fair lady. Used ironically as a term of contempt.",
+    "From Anglo-French \"bele-dame\" - fair lady. Used ironically as a term of contempt.",
     "\"Have I not reason, beldams as you are, saucy and overbold?\"",
     "Shakespeare, \"Macbeth\""
   ],
@@ -2206,7 +2206,7 @@ const EN_WORDS = [
     "/vɪˈrɑː.ɡoʊ/",
     "e",
     "A domineering, violent, bad-tempered woman; a fierce Amazonian warrior woman.",
-    "From Latin \"virago\" — female warrior, heroic maiden, from \"vir\" (man).",
+    "From Latin \"virago\" - female warrior, heroic maiden, from \"vir\" (man).",
     "\"I am not yet so low but that my nails can reach unto thine eyes, thou termagant virago!\"",
     "Shakespeare, \"Midsummer Night's Dream\""
   ],
@@ -2242,7 +2242,7 @@ const EN_WORDS = [
     "/ˈwɒn.tən/",
     "e",
     "Unruly, playful; promiscuous; capricious; luxuriously luxuriant without discipline.",
-    "From ME \"wantowen\" — ill-brought-up (\"wan-\" un- + \"towen\" trained, disciplined).",
+    "From ME \"wantowen\" - ill-brought-up (\"wan-\" un- + \"towen\" trained, disciplined).",
     "\"Like flies to wanton boys are we to the gods; they kill us for their sport.\"",
     "Shakespeare, \"King Lear\""
   ],
@@ -2305,7 +2305,7 @@ const EN_WORDS = [
     "/ˌmæl.əˈpɜːrt/",
     "e",
     "Impudent, saucy, boldly disrespectful in speech.",
-    "From OF \"malapert\" — unskillful, foolish (\"mal-\" bad + \"apert\" open, clever).",
+    "From OF \"malapert\" - unskillful, foolish (\"mal-\" bad + \"apert\" open, clever).",
     "\"Peace, thou malapert boy! Knowest thou to whom thou speakest?\"",
     "Shakespeare, \"Twelfth Night\""
   ],
@@ -2368,7 +2368,7 @@ const EN_WORDS = [
     "/ˈpær.ə.mʊər/",
     "e",
     "An illicit lover, mistress, or secret sweetheart of a married person.",
-    "From Anglo-French \"par amour\" — through love (Latin \"per amorem\").",
+    "From Anglo-French \"par amour\" - through love (Latin \"per amorem\").",
     "\"He kept a fair paramour in a cottage secluded within the forest.\"",
     "Chaucer, \"Reeve's Tale\""
   ],
@@ -2404,7 +2404,7 @@ const EN_WORDS = [
     "/pɒmˈæn.dər/",
     "e",
     "A perforated ball containing ambergris, cloves, and perfumes carried as a charm against pestilence.",
-    "From OF \"pomme d'ambre\" — apple of ambergris.",
+    "From OF \"pomme d'ambre\" - apple of ambergris.",
     "\"He held a pomander of silver filigree to his nose as he passed the open sewers of the city.\"",
     "Elizabethan plague tracts"
   ],
@@ -2521,7 +2521,7 @@ const EN_WORDS = [
     "/ˈpɒp.i.kɒk/",
     "t",
     "Senseless talk, complete rubbish, nonsense.",
-    "From Dutch dialect \"poppekak\" — soft doll-dung (\"pop\" doll + \"kak\" excrement).",
+    "From Dutch dialect \"poppekak\" - soft doll-dung (\"pop\" doll + \"kak\" excrement).",
     "\"Pure unadulterated poppycock! That man hasn't spoken a grain of truth all year.\"",
     "Victorian political journalism"
   ],
@@ -2755,7 +2755,7 @@ const EN_WORDS = [
     "/ˈpæns.neɪ/",
     "t",
     "Eyeglasses without sidepieces, clipped onto the bridge of the nose by a spring.",
-    "From French \"pincer\" (to pinch) + \"nez\" (nose) — literally \"pinch-nose.\"",
+    "From French \"pincer\" (to pinch) + \"nez\" (nose) - literally \"pinch-nose.\"",
     "\"The inspector adjusted his pince-nez and studied the smudged footprints in the snow.\"",
     "Conan Doyle, \"Sherlock Holmes\""
   ],
@@ -2827,7 +2827,7 @@ const EN_WORDS = [
     "/ɪnˈtriːt/",
     "m",
     "To ask earnestly; to beg; to treat or manage.",
-    "From Anglo-Norman \"entreter\" — to deal with, handle (Latin \"intractare\").",
+    "From Anglo-Norman \"entreter\" - to deal with, handle (Latin \"intractare\").",
     "\"I entreat your honor to have patience with an old servant.\"",
     "Shakespeare, \"Measure for Measure\""
   ],
@@ -2845,7 +2845,7 @@ const EN_WORDS = [
     "/dɪˈskraɪ/",
     "m",
     "To catch sight of, discern from a distance, or detect by careful looking.",
-    "From OF \"descrier\" — to proclaim, shout out upon sighting something.",
+    "From OF \"descrier\" - to proclaim, shout out upon sighting something.",
     "\"From the maintop, the lookout descried the white cliffs of Dover on the horizon.\"",
     "Hakluyt, \"Voyages\""
   ],
@@ -2854,7 +2854,7 @@ const EN_WORDS = [
     "/ɪˈspaɪ/",
     "m",
     "To catch sight of; to glimpse something hidden or distant.",
-    "From OF \"espiier\" — to watch, spy (from Germanic *spehon).",
+    "From OF \"espiier\" - to watch, spy (from Germanic *spehon).",
     "\"He espied his enemy advancing through the mist between the trees.\"",
     "Malory, \"Le Morte d'Arthur\""
   ],
@@ -2890,7 +2890,7 @@ const EN_WORDS = [
     "/bɪˈweɪl/",
     "m",
     "To express deep regret, sorrow, or grief over; to lament loudly.",
-    "From ME \"bewailen\" — \"be-\" + \"wail\" (from Old Norse \"væla\" to lament).",
+    "From ME \"bewailen\" - \"be-\" + \"wail\" (from Old Norse \"væla\" to lament).",
     "\"She bewept her dead lord and bewailed the fall of her ancient house.\"",
     "Chaucer, \"Troilus and Criseyde\""
   ],
@@ -2908,7 +2908,7 @@ const EN_WORDS = [
     "/blɛntʃ/",
     "m",
     "To flinch, shrink back, or turn pale from fear, pain, or astonishment.",
-    "From OE \"blencan\" — to deceive, flinch. Cognate with \"blink.\"",
+    "From OE \"blencan\" - to deceive, flinch. Cognate with \"blink.\"",
     "\"If he but blench, I know my course!\"",
     "Shakespeare, \"Hamlet\""
   ],
@@ -2917,7 +2917,7 @@ const EN_WORDS = [
     "/kweɪl/",
     "m",
     "To feel fear or apprehension; to cower, shrink, or lose courage.",
-    "From ME \"qualen\" — to die, sicken (from OE \"cwelan\" to perish).",
+    "From ME \"qualen\" - to die, sicken (from OE \"cwelan\" to perish).",
     "\"The stoutest hearts quailed before the terrible thunder of the bombardment.\"",
     "Military histories"
   ],
@@ -2926,7 +2926,7 @@ const EN_WORDS = [
     "/fɔːn/",
     "m",
     "To court favor by groveling, flattering, and servile cringing (like a dog).",
-    "From OE \"fagnian\" — to rejoice, be glad (from \"fægen\" glad).",
+    "From OE \"fagnian\" - to rejoice, be glad (from \"fægen\" glad).",
     "\"He hated those fawning courtiers who changed their smiles with every wind of fortune.\"",
     "Shakespeare, \"Julius Caesar\""
   ],
@@ -2935,7 +2935,7 @@ const EN_WORDS = [
     "/ʌpˈbreɪd/",
     "m",
     "To reproach severely, find fault with, or scold sharply for a wrongdoing.",
-    "From OE \"upbregdan\" — to lift up, brandish, bring forward as a reproach.",
+    "From OE \"upbregdan\" - to lift up, brandish, bring forward as a reproach.",
     "\"She upbraided him for his reckless squandering of the family patrimony.\"",
     "Milton, \"Paradise Lost\""
   ],
@@ -2944,7 +2944,7 @@ const EN_WORDS = [
     "/trəˈdjuːs/",
     "e",
     "To slander, speak falsely and maliciously of; to expose to public shame.",
-    "From Latin \"traducere\" — to lead across, display to ridicule, defame.",
+    "From Latin \"traducere\" - to lead across, display to ridicule, defame.",
     "\"I will not suffer my good name to be traduced by anonymous scribblers in the gazette.\"",
     "Elizabethan letters"
   ],
@@ -2953,7 +2953,7 @@ const EN_WORDS = [
     "/vaɪˈtjuː.pə.reɪt/",
     "t",
     "To blame, insult, or criticize in a passionate and abusive manner.",
-    "From Latin \"vituperare\" — to blame, find fault (\"vitium\" fault + \"parare\" prepare).",
+    "From Latin \"vituperare\" - to blame, find fault (\"vitium\" fault + \"parare\" prepare).",
     "\"The editor vituperated his political rivals in columns of unbridled invective.\"",
     "Victorian journalism"
   ],
@@ -2980,7 +2980,7 @@ const EN_WORDS = [
     "/ˌdɛb.əˈnɛər/",
     "m",
     "Gentle, gracious, courteous, charming, confident, and dashing in manners.",
-    "From OF \"debonaire\" — of good stock, gentle (\"de bon aire\" of good lineage).",
+    "From OF \"debonaire\" - of good stock, gentle (\"de bon aire\" of good lineage).",
     "\"A knight of noble bearing, debonair and courteous to all women and pilgrims.\"",
     "Chaucer, \"Book of the Duchess\""
   ],
@@ -2989,7 +2989,7 @@ const EN_WORDS = [
     "/blaɪð/",
     "m",
     "Joyous, merry, cheerful, carefree, lighthearted.",
-    "From OE \"blīþe\" — happy, joyous, friendly. Cognate with German \"blöde\" (anciently kind).",
+    "From OE \"blīþe\" - happy, joyous, friendly. Cognate with German \"blöde\" (anciently kind).",
     "\"Hail to thee, blithe Spirit! Bird thou never wert...\"",
     "Shelley, \"To a Skylark\""
   ],
@@ -2998,7 +2998,7 @@ const EN_WORDS = [
     "/ˈwɪn.səm/",
     "m",
     "Attractive, charming, pleasing, endearing, sweetly winning.",
-    "From OE \"wynsum\" — delightful, pleasant (from \"wyn\" joy, bliss + \"-some\").",
+    "From OE \"wynsum\" - delightful, pleasant (from \"wyn\" joy, bliss + \"-some\").",
     "\"Her winsome smile and gentle voice softened the hardest hearts in the assembly.\"",
     "Victorian romances"
   ],
@@ -3025,7 +3025,7 @@ const EN_WORDS = [
     "/ˈsæt.ər.naɪn/",
     "e",
     "Gloomy, dark, morose, cold, and slow in temperament (influenced by the planet Saturn).",
-    "From Medieval Latin \"Saturninus\" — born under the influence of the cold planet Saturn.",
+    "From Medieval Latin \"Saturninus\" - born under the influence of the cold planet Saturn.",
     "\"He had a saturnine complexion and rarely smiled even at the wittiest jest.\"",
     "Bronte, \"Wuthering Heights\""
   ],
@@ -3034,7 +3034,7 @@ const EN_WORDS = [
     "/ˈtʃɜːr.lɪʃ/",
     "m",
     "Rude, surly, ungracious, boorish, ill-mannered.",
-    "From OE \"ceorlic\" — rustic, characteristic of a peasant/churl.",
+    "From OE \"ceorlic\" - rustic, characteristic of a peasant/churl.",
     "\"It would be churlish in the extreme to refuse the hospitality of an ancient host.\"",
     "Stevenson, \"Treasure Island\""
   ],
@@ -3115,7 +3115,7 @@ const EN_WORDS = [
     "/dʒʌsˈtɪʃ.i.ər/",
     "m",
     "The chief royal judicial and political officer of the realm in Norman and Angevin England.",
-    "From Medieval Latin \"justitiarius\" — judge, officer of justice.",
+    "From Medieval Latin \"justitiarius\" - judge, officer of justice.",
     "\"In the king's absence beyond the sea, the Chief Justiciar governed the realm.\"",
     "Chronica Majora of Matthew Paris"
   ],
@@ -3133,7 +3133,7 @@ const EN_WORDS = [
     "/ˈpɜːr.swɪ.vənt/",
     "m",
     "A junior officer of arms attending on the heralds; a royal messenger.",
-    "From OF \"poursuivant\" — follower, attendant, from \"poursuivre\" (to pursue).",
+    "From OF \"poursuivant\" - follower, attendant, from \"poursuivre\" (to pursue).",
     "\"The pursuivant bore the king's letters under the signet ring to the northern shires.\"",
     "Tudor heraldic rolls"
   ],
@@ -3160,7 +3160,7 @@ const EN_WORDS = [
     "/ˈkætʃ.poʊl/",
     "m",
     "A sheriff's officer or petty bailiff who arrested debtors, carrying a pole with an iron collar.",
-    "From Anglo-Norman \"cachepol\" — catch-fowl (\"chacier\" to chase + \"pol\" chicken).",
+    "From Anglo-Norman \"cachepol\" - catch-fowl (\"chacier\" to chase + \"pol\" chicken).",
     "\"The terrified debtor fled down the alley, pursued by two burly catchpoles.\"",
     "Jacobean city comedies"
   ],
@@ -3205,7 +3205,7 @@ const EN_WORDS = [
     "/ˌkɒm.pɜːrˈɡeɪ.ʃən/",
     "m",
     "Acquittal from a criminal charge by the sworn oaths of twelve reputable neighbors (\"oath-helpers\").",
-    "From Latin \"compurgare\" — to purify thoroughly (\"com-\" + \"purgare\" cleanse).",
+    "From Latin \"compurgare\" - to purify thoroughly (\"com-\" + \"purgare\" cleanse).",
     "\"The defendant cleared himself of the theft by the compurgation of twelve honest burgesses.\"",
     "Medieval borough customs"
   ],
@@ -3232,7 +3232,7 @@ const EN_WORDS = [
     "/pɔːrtˈkʌl.ɪs/",
     "m",
     "A heavy sliding iron or oak grille dropped vertically to bar a castle gateway.",
-    "From OF \"porte coleice\" — sliding door (\"porte\" door + \"coleice\" sliding).",
+    "From OF \"porte coleice\" - sliding door (\"porte\" door + \"coleice\" sliding).",
     "\"The chains shrieked as the iron portcullis crashed down, trapping the intruders.\"",
     "Scott, \"Marmion\""
   ],
@@ -3304,7 +3304,7 @@ const EN_WORDS = [
     "/ˈtsvaɪˌhɛn.dər/",
     "m",
     "The German two-handed sword of the Renaissance with side-rings and parrying hooks.",
-    "From German \"Zweihänder\" — two-hander (\"zwei\" two + \"Hand\" hand).",
+    "From German \"Zweihänder\" - two-hander (\"zwei\" two + \"Hand\" hand).",
     "\"The doppelner mercenary carried a six-foot Zweihänder across his broad shoulder.\"",
     "Military accounts of the Italian Wars"
   ],
@@ -3340,7 +3340,7 @@ const EN_WORDS = [
     "/ˈrɒn.dəl/",
     "m",
     "A medieval dagger with circular disc-shaped guards at both the pommel and hand-guard.",
-    "From OF \"rondel\" — circular, from \"rond\" (round).",
+    "From OF \"rondel\" - circular, from \"rond\" (round).",
     "\"A stout steel rondel hung from his girdle on a braided leather cord.\"",
     "Armory of the Royal Armouries"
   ],
@@ -3376,7 +3376,7 @@ const EN_WORDS = [
     "/ˈmɔːr.nɪŋ.stɑːr/",
     "m",
     "A spiked club or mace with sharp steel spikes radiating from a heavy metal ball.",
-    "Translation of German \"Morgenstern\" — named for its star-like radial spikes.",
+    "Translation of German \"Morgenstern\" - named for its star-like radial spikes.",
     "\"A blow from the iron morningstar crushed the shield as though it were dry kindling.\"",
     "Medieval chronicles"
   ],
@@ -3385,7 +3385,7 @@ const EN_WORDS = [
     "/ˈɑːr.kwɪ.bəs/",
     "e",
     "An early portable muzzle-loading firearm with a matchlock mechanism.",
-    "From Middle Dutch \"hakebus\" — hook-gun (\"haak\" hook + \"bus\" gun, box).",
+    "From Middle Dutch \"hakebus\" - hook-gun (\"haak\" hook + \"bus\" gun, box).",
     "\"A company of Spanish arquebusiers opened fire from the hedgerow with deadly effect.\"",
     "Chronicles of the Low Countries"
   ],
@@ -3421,7 +3421,7 @@ const EN_WORDS = [
     "/ˈtæs.ɪts/",
     "m",
     "Steel plates suspended from the fauld to protect the upper thigh.",
-    "From OF \"tassette\" — small purse or pocket, from \"tasse.\"",
+    "From OF \"tassette\" - small purse or pocket, from \"tasse.\"",
     "\"The knight adjusted his articulated tassets before swinging into the heavy war-saddle.\"",
     "Tournament rules of Henry VIII"
   ],
@@ -3430,7 +3430,7 @@ const EN_WORDS = [
     "/ˈæv.ən.teɪl/",
     "m",
     "A curtain of chain mail attached to the rim of a bascinet helmet to protect the throat and neck.",
-    "From OF \"esventail\" — air-hole, breathing vent, from \"esventer\" (to fan).",
+    "From OF \"esventail\" - air-hole, breathing vent, from \"esventer\" (to fan).",
     "\"His silvered aventail fell in graceful folds over his quilted aketon.\"",
     "Sir Gawain and the Green Knight"
   ],
@@ -3439,7 +3439,7 @@ const EN_WORDS = [
     "/ˈrɪər.breɪs/",
     "m",
     "Armor designed to protect the upper arm between the shoulder and the elbow.",
-    "From Anglo-Norman \"rere-bras\" — rear-arm (\"rere\" behind + \"bras\" arm).",
+    "From Anglo-Norman \"rere-bras\" - rear-arm (\"rere\" behind + \"bras\" arm).",
     "\"The blow glanced off the steel rerebrace, leaving the limb unharmed.\"",
     "Tournament rolls"
   ],
@@ -3484,7 +3484,7 @@ const EN_WORDS = [
     "/ˈtɒn.ʃər/",
     "m",
     "The shaving of the crown of the head as a symbol of clerical or monastic dedication.",
-    "From Latin \"tonsura\" — a shearing, clipping, from \"tondere\" (to clip).",
+    "From Latin \"tonsura\" - a shearing, clipping, from \"tondere\" (to clip).",
     "\"The young novice knelt before the abbot to receive the holy tonsure of the order.\"",
     "Bede, \"Ecclesiastical History\""
   ],
@@ -3493,7 +3493,7 @@ const EN_WORDS = [
     "/ˈbriː.vi.ər.i/",
     "m",
     "A liturgical book containing the daily prayers, hymns, and readings of the Divine Office.",
-    "From Latin \"breviarium\" — summary, abridgment, from \"brevis\" (short).",
+    "From Latin \"breviarium\" - summary, abridgment, from \"brevis\" (short).",
     "\"The priest paced the cloister garth, reading his hours from a small leather breviary.\"",
     "Chaucerian tales"
   ],
@@ -3547,7 +3547,7 @@ const EN_WORDS = [
     "/ʃrɪft/",
     "m",
     "Confession made to a priest, followed by priestly absolution. \"Short shrift.\"",
-    "From OE \"scrift\" — confession, penalty imposed by a priest, from \"scrīfan\" (to decree, shrive).",
+    "From OE \"scrift\" - confession, penalty imposed by a priest, from \"scrīfan\" (to decree, shrive).",
     "\"Make short shrift; he longs to see your head. Dispatch, my lord.\"",
     "Shakespeare, \"Richard III\""
   ],
@@ -3556,7 +3556,7 @@ const EN_WORDS = [
     "/əˈnæθ.ɪ.mə/",
     "m",
     "A solemn ecclesiastical curse accompanied by excommunication from the Church.",
-    "From Greek \"anathema\" — something devoted to evil, set apart for destruction.",
+    "From Greek \"anathema\" - something devoted to evil, set apart for destruction.",
     "\"The Pope pronounced the dread sentence of anathema upon the defiant emperor.\"",
     "Papal bulls of the 13th century"
   ],
@@ -3565,7 +3565,7 @@ const EN_WORDS = [
     "/ˈwɒs.təl.brɛd/",
     "m",
     "The finest, whitest wheat bread of medieval England, baked for the nobility.",
-    "From OF \"gastel\" — cake, fine loaf (Modern French \"gâteau\"), from Germanic.",
+    "From OF \"gastel\" - cake, fine loaf (Modern French \"gâteau\"), from Germanic.",
     "\"She fed her lap-dogs with roast meat and wastel-bread dipped in fresh milk.\"",
     "Chaucer, \"Prologue of the Prioress\""
   ],
@@ -3583,7 +3583,7 @@ const EN_WORDS = [
     "/ˌɒn.trəˈmeɪ/",
     "m",
     "A decorative, theatrical dish or pageant served between courses at a great feast.",
-    "From French \"entremets\" — between courses (\"entre\" between + \"mets\" dishes).",
+    "From French \"entremets\" - between courses (\"entre\" between + \"mets\" dishes).",
     "\"The entremet featured a pastry castle from which live songbirds flew forth.\"",
     "Accounts of the Feast of the Pheasant"
   ],
@@ -3718,7 +3718,7 @@ const EN_WORDS = [
     "/ˈrɒk.ə.lɔːr/",
     "t",
     "A knee-length cloak with buttons down the front, named after the Duke of Roquelaure.",
-    "Named after Antoine-Gaston de Roquelaure (1656–1738).",
+    "Named after Antoine-Gaston de Roquelaure (1656-1738).",
     "\"Throwing his heavy roquelaure about his shoulders, he stepped out into the foggy London street.\"",
     "Dickens, \"A Tale of Two Cities\""
   ],
@@ -3853,7 +3853,7 @@ const EN_WORDS = [
     "/ˈkæs.tɪ.ɡeɪt/",
     "e",
     "To punish, criticize, or reprimand severely; to scourge.",
-    "From Latin \"castigare\" — to make pure, chastise (\"castus\" pure + \"agere\" drive).",
+    "From Latin \"castigare\" - to make pure, chastise (\"castus\" pure + \"agere\" drive).",
     "\"The schoolmaster castigated the truant with six stinging strokes of the birch.\"",
     "Victorian school narratives"
   ],
@@ -3880,7 +3880,7 @@ const EN_WORDS = [
     "/reɪz/",
     "m",
     "To completely destroy, level to the ground, or demolish a town, fortress, or building.",
-    "From OF \"raser\" — to scrape clean, shave (Latin \"radere\" to scrape).",
+    "From OF \"raser\" - to scrape clean, shave (Latin \"radere\" to scrape).",
     "\"The conqueror razed the rebellious fortress until not one stone stood upon another.\"",
     "Gibbon, \"Decline and Fall\""
   ],
@@ -3889,7 +3889,7 @@ const EN_WORDS = [
     "/kwɛl/",
     "m",
     "To put an end to rebellion or disorder, typically by force; to suppress.",
-    "From OE \"cwellan\" — to kill, slay. Cognate with German \"quälen\" (to torment).",
+    "From OE \"cwellan\" - to kill, slay. Cognate with German \"quälen\" (to torment).",
     "\"The king sent three thousand archers to quell the peasant uprising in Kent.\"",
     "Holinshed, \"Chronicles\""
   ],
@@ -3898,7 +3898,7 @@ const EN_WORDS = [
     "/əˈbæʃ/",
     "m",
     "To make someone feel embarrassed, disconcerted, or ashamed.",
-    "From Anglo-Norman \"abaissier\" — to lose one's composure, from OF \"esbaïr\" (to astonish).",
+    "From Anglo-Norman \"abaissier\" - to lose one's composure, from OF \"esbaïr\" (to astonish).",
     "\"The impudent fellow was completely abashed by the lady's icy rebuke.\"",
     "Milton, \"Paradise Lost\""
   ],
@@ -3916,7 +3916,7 @@ const EN_WORDS = [
     "/əbˈsiː.kwi.əs/",
     "e",
     "Obedient or attentive to an excessive or servile degree; fawningly submissive.",
-    "From Latin \"obsequiosus\" — compliant, from \"obsequi\" (to follow, comply).",
+    "From Latin \"obsequiosus\" - compliant, from \"obsequi\" (to follow, comply).",
     "\"An obsequious shopkeeper who rubbed his hands and bowed at every syllable.\"",
     "Dickens, \"Nicholas Nickleby\""
   ],
@@ -3925,7 +3925,7 @@ const EN_WORDS = [
     "/ˈbʌk.səm/",
     "m",
     "Originally obedient, pliant, gracious; later plump, healthy-looking, full-bosomed, and cheerful.",
-    "From ME \"buhsum\" — pliant, yielding (from OE \"būgan\" to bend + \"-some\").",
+    "From ME \"buhsum\" - pliant, yielding (from OE \"būgan\" to bend + \"-some\").",
     "\"A buxom barmaid with rosy cheeks and a laugh that rang above the clatter of tankards.\"",
     "Washington Irving, \"Sketch Book\""
   ],
@@ -3979,7 +3979,7 @@ const EN_WORDS = [
     "/ˌpɜːr.tɪˈneɪ.ʃəs/",
     "e",
     "Holding firmly to an opinion or course of action; stubbornly resolute.",
-    "From Latin \"pertinax\" — tenacious, persistent (\"per-\" thorough + \"tenax\" holding).",
+    "From Latin \"pertinax\" - tenacious, persistent (\"per-\" thorough + \"tenax\" holding).",
     "\"With pertinacious stubbornness, the old antiquary defended his pet theory.\"",
     "Walter Scott, \"The Antiquary\""
   ],
@@ -3997,7 +3997,7 @@ const EN_WORDS = [
     "/ˈbeɪl.fʊl/",
     "m",
     "Threatening harm; menacing, baneful, full of deadly malice.",
-    "From OE \"bealuful\" — full of evil, ruin, destruction (\"bealu\" evil + \"ful\").",
+    "From OE \"bealuful\" - full of evil, ruin, destruction (\"bealu\" evil + \"ful\").",
     "\"He cast a baleful glare at his accusers as the iron gyves were locked upon his wrists.\"",
     "Milton, \"Paradise Lost\""
   ],
@@ -4006,7 +4006,7 @@ const EN_WORDS = [
     "/pərˈnɪʃ.əs/",
     "e",
     "Having a harmful, destructive, or fatal effect, especially in a gradual or subtle way.",
-    "From Latin \"perniciosus\" — ruinous, destructive (\"per-\" intensive + \"nex\" death).",
+    "From Latin \"perniciosus\" - ruinous, destructive (\"per-\" intensive + \"nex\" death).",
     "\"A pernicious doctrine that has corrupted the loyalty of thousands.\"",
     "Shakespeare, \"Henry VIII\""
   ],
@@ -4015,7 +4015,7 @@ const EN_WORDS = [
     "/ɪnˈɛk.sər.ə.bəl/",
     "e",
     "Impossible to stop, prevent, or persuade by plea; relentless.",
-    "From Latin \"inexorabilis\" — not to be moved by prayer (\"in-\" not + \"exorare\" to prevail upon).",
+    "From Latin \"inexorabilis\" - not to be moved by prayer (\"in-\" not + \"exorare\" to prevail upon).",
     "\"The inexorable march of time had turned the proudest palaces to dust.\"",
     "Gibbon, \"Decline and Fall\""
   ],
@@ -4042,7 +4042,7 @@ const EN_WORDS = [
     "/ˈiː.θər/",
     "m",
     "The clear upper sky, the air of the heavens beyond the clouds; divine atmosphere.",
-    "From Greek \"aither\" — upper air, pure light, from \"aithein\" (to burn, shine).",
+    "From Greek \"aither\" - upper air, pure light, from \"aithein\" (to burn, shine).",
     "\"The eagle soared into the pure azure of the boundless aether.\"",
     "Milton, \"Paradise Lost\""
   ],
@@ -4051,7 +4051,7 @@ const EN_WORDS = [
     "/ˈmeɪl.strɒm/",
     "e",
     "A powerful, destructive whirlpool in a sea or river; a state of confused turmoil.",
-    "From early Dutch \"maelstrom\" — grinding stream (\"malen\" to grind + \"stroom\" stream).",
+    "From early Dutch \"maelstrom\" - grinding stream (\"malen\" to grind + \"stroom\" stream).",
     "\"The fishing skiff was drawn inexorably toward the roaring vortex of the maelstrom.\"",
     "Poe, \"A Descent into the Maelström\""
   ],
@@ -4060,7 +4060,7 @@ const EN_WORDS = [
     "/maɪˈæz.mə/",
     "t",
     "An unwholesome atmosphere or vapor rising from swamps and sewers, once thought to cause disease.",
-    "From Greek \"miasma\" — pollution, stain, defilement, from \"miainein\" (to pollute).",
+    "From Greek \"miasma\" - pollution, stain, defilement, from \"miainein\" (to pollute).",
     "\"A deadly miasma hung over the stagnant fens as night fell.\"",
     "Dickens, \"Great Expectations\""
   ],
@@ -4069,7 +4069,7 @@ const EN_WORDS = [
     "/ˈkɒm.plɪn/",
     "m",
     "The final church service of the day in Christian monastic tradition, said before retiring.",
-    "From OF \"complie,\" from Late Latin \"completa\" (hora) — the completed hour.",
+    "From OF \"complie,\" from Late Latin \"completa\" (hora) - the completed hour.",
     "\"The tolling of the compline bell called the weary monks to their final prayers of the day.\"",
     "Monastic chronicles"
   ],
@@ -4240,7 +4240,7 @@ const EN_WORDS = [
     "/skwaɪər/",
     "m",
     "A young nobleman serving a knight as armor-bearer before knighthood; later a country gentleman.",
-    "From OF \"escuier\" — shield-bearer (Latin \"scutarius,\" from \"scutum\" shield).",
+    "From OF \"escuier\" - shield-bearer (Latin \"scutarius,\" from \"scutum\" shield).",
     "\"The squire polished his master's helm and fed the war-horses before dawn.\"",
     "Chaucer, \"Canterbury Tales\""
   ],
@@ -4303,7 +4303,7 @@ const EN_WORDS = [
     "/ˈɡliː.mən/",
     "m",
     "An itinerant minstrel or entertainer in Anglo-Saxon and early medieval England.",
-    "From OE \"glīwman\" — man of glee, music, or mirth (\"glīw\" joy + \"man\").",
+    "From OE \"glīwman\" - man of glee, music, or mirth (\"glīw\" joy + \"man\").",
     "\"The gleeman played his harp beside the roaring hearth, singing of battles won.\"",
     "Old English poetic fragments"
   ],
@@ -4321,7 +4321,7 @@ const EN_WORDS = [
     "/ˈɒs.ti.ər.i/",
     "m",
     "The lowest of the minor orders in the medieval Church; a door-keeper or porter.",
-    "From Latin \"ostiarius\" — doorkeeper, from \"ostium\" (door, entrance).",
+    "From Latin \"ostiarius\" - doorkeeper, from \"ostium\" (door, entrance).",
     "\"The ostiary opened the heavy oak church door at the first stroke of Prime.\"",
     "Ordination records of York"
   ],
@@ -4339,7 +4339,7 @@ const EN_WORDS = [
     "/ˈθjʊər.ɪ.fər/",
     "m",
     "The acolyte or altar server who carries the thurible (censer) in liturgical processions.",
-    "From Latin \"thurifer\" — incense-bearer (\"thus\" incense + \"ferre\" to carry).",
+    "From Latin \"thurifer\" - incense-bearer (\"thus\" incense + \"ferre\" to carry).",
     "\"The thurifer swung the smoking censer, filling the sanctuary with clouds of fragrance.\"",
     "Ceremonial of the Mass"
   ],
@@ -4348,7 +4348,7 @@ const EN_WORDS = [
     "/ˈkruː.sɪ.fər/",
     "m",
     "The person appointed to carry the processional cross at the head of a religious procession.",
-    "From Latin \"crucifer\" — cross-bearer (\"crux\" cross + \"ferre\" to carry).",
+    "From Latin \"crucifer\" - cross-bearer (\"crux\" cross + \"ferre\" to carry).",
     "\"Behind the crucifer walked the long train of choirboys chanting the litany.\"",
     "Cathedral processionals"
   ],
@@ -4375,7 +4375,7 @@ const EN_WORDS = [
     "/ˈsɪŋk.tʃər/",
     "m",
     "A rope, cord, or belt worn around the waist to secure a monastic habit or clerical alb.",
-    "From Latin \"cinctura\" — a girding, from \"cingere\" (to gird).",
+    "From Latin \"cinctura\" - a girding, from \"cingere\" (to gird).",
     "\"A knotted white hemp cincture bound the coarse brown robe about his loins.\"",
     "Franciscan annals"
   ],
@@ -4393,7 +4393,7 @@ const EN_WORDS = [
     "/ˈɡrædʒ.ʊ.əl/",
     "m",
     "A liturgical book containing the musical chants of the Mass; the chant sung after the Epistle.",
-    "From Medieval Latin \"graduale,\" from Latin \"gradus\" (step — sung from the pulpit steps).",
+    "From Medieval Latin \"graduale,\" from Latin \"gradus\" (step - sung from the pulpit steps).",
     "\"The cantor sang the gradual in a clear, resonant tenor from the lectern steps.\"",
     "Liturgical treatises"
   ],
@@ -4429,7 +4429,7 @@ const EN_WORDS = [
     "/praɪm/",
     "m",
     "The liturgical office appointed for the first hour of the day (approximately 6:00 a.m.).",
-    "From Latin \"prima\" (hora) — the first hour.",
+    "From Latin \"prima\" (hora) - the first hour.",
     "\"After the office of Prime, the monks repaired to the chapter-house for the daily reading.\"",
     "Monastic customaries"
   ],
@@ -4438,7 +4438,7 @@ const EN_WORDS = [
     "/tɜːrs/",
     "m",
     "The liturgical service appointed for the third hour of the day (approximately 9:00 a.m.).",
-    "From Latin \"tertia\" (hora) — the third hour.",
+    "From Latin \"tertia\" (hora) - the third hour.",
     "\"The bell for Terce chimed sweetly across the dewy monastery orchard.\"",
     "Horarium of Fountains Abbey"
   ],
@@ -4447,7 +4447,7 @@ const EN_WORDS = [
     "/sɛkst/",
     "m",
     "The liturgical service of the Divine Office appointed for the sixth hour (noon).",
-    "From Latin \"sexta\" (hora) — the sixth hour.",
+    "From Latin \"sexta\" (hora) - the sixth hour.",
     "\"At Sext the laborers laid down their spades and ate their mid-day crust in the shade.\"",
     "Monastic labor accounts"
   ],
@@ -4456,7 +4456,7 @@ const EN_WORDS = [
     "/noʊnz/",
     "m",
     "The liturgical hour appointed for the ninth hour of the day (approximately 3:00 p.m.).",
-    "From Latin \"nona\" (hora) — the ninth hour. Root of the word \"noon\"!",
+    "From Latin \"nona\" (hora) - the ninth hour. Root of the word \"noon\"!",
     "\"The bell for Nones was rung, recalling the hour of the Saviour's death on Calvary.\"",
     "Breviary rubrics"
   ],
@@ -4474,7 +4474,7 @@ const EN_WORDS = [
     "/ˈɪn.tər.dɪkt/",
     "m",
     "A papal decree prohibiting church services, sacraments, and Christian burial in a rebellious country.",
-    "From Latin \"interdictum\" — prohibition, from \"interdicere\" (to forbid).",
+    "From Latin \"interdictum\" - prohibition, from \"interdicere\" (to forbid).",
     "\"Under the dread papal interdict of King John, all church bells fell silent throughout England.\"",
     "Chronicles of Roger of Wendover"
   ],
@@ -4492,7 +4492,7 @@ const EN_WORDS = [
     "/kwɜːrn/",
     "m",
     "A primitive stone hand-mill for grinding grain between two circular stones.",
-    "From OE \"cweorn\" — mill. Cognate with German \"Kurne.\"",
+    "From OE \"cweorn\" - mill. Cognate with German \"Kurne.\"",
     "\"She ground a measure of barley in the stone querne for the morning bread.\"",
     "Early English domestic records"
   ],
@@ -4519,7 +4519,7 @@ const EN_WORDS = [
     "/ˈdʒɪp.saɪər/",
     "m",
     "A pouch or purse worn suspended from the girdle in the 14th and 15th centuries.",
-    "From OF \"gibeciere\" — game-bag, from \"gibe\" (bundle, game).",
+    "From OF \"gibeciere\" - game-bag, from \"gibe\" (bundle, game).",
     "\"An anelace and a gipsire all of silk hung at his girdle, white as morning milk.\"",
     "Chaucer, \"Canterbury Tales\""
   ],
@@ -4699,7 +4699,7 @@ const EN_WORDS = [
     "/ˈwaɪ.ləm/",
     "m",
     "Formerly, once upon a time; at an earlier period.",
-    "From OE \"hwīlum\" — at times, formerly, dative plural of \"hwīl\" (while/time).",
+    "From OE \"hwīlum\" - at times, formerly, dative plural of \"hwīl\" (while/time).",
     "\"A clerk there was of Oxenford also, that unto logic hadde long y-go, and whilom was full poor.\"",
     "Chaucer, \"Canterbury Tales\""
   ],
@@ -4734,7 +4734,7 @@ const EN_WORDS = [
     "Gadzooks",
     "/ɡædˈzuːks/",
     "e",
-    "A mild 17th-century oath expressing astonishment (contraction of \"God's hooks\" — the crucifixion nails).",
+    "A mild 17th-century oath expressing astonishment (contraction of \"God's hooks\" - the crucifixion nails).",
     "Euphemistic corruption of \"by God's hooks\" (the nails of the Cross).",
     "\"Gadzooks! What magnificent horses you have brought to the fair!\"",
     "Restoration comedies"
@@ -5023,7 +5023,7 @@ const EN_WORDS = [
     "/ˈwɒp.ən.teɪk/",
     "m",
     "An administrative division of several northern English shires, corresponding to a hundred.",
-    "From Old Norse \"vápnatak\" — weapon-taking (the touching of weapons as a sign of assent).",
+    "From Old Norse \"vápnatak\" - weapon-taking (the touching of weapons as a sign of assent).",
     "\"The bailiff summoned the freeholders of the wapentake to the moot-hill.\"",
     "Yorkshire Assize Rolls"
   ],
@@ -5032,7 +5032,7 @@ const EN_WORDS = [
     "/ˌfræŋk.ælˈmɔɪn/",
     "m",
     "A tenure by which religious houses held land free of earthly service in exchange for prayers.",
-    "From Anglo-French \"franc aumoigne\" — free alms.",
+    "From Anglo-French \"franc aumoigne\" - free alms.",
     "\"The abbey held the meadow in pure and perpetual frankalmoign.\"",
     "Charters of Fountains Abbey"
   ],
@@ -5086,7 +5086,7 @@ const EN_WORDS = [
     "/ɛsˈtoʊ.vərz/",
     "m",
     "The legal right of a tenant to take necessary timber from the lord's woods for fuel and repairs.",
-    "From OF \"estovoir\" — to be necessary, from Latin \"est opus.\"",
+    "From OF \"estovoir\" - to be necessary, from Latin \"est opus.\"",
     "\"The cottar was granted common of estovers for firewood and repair of his hedge.\"",
     "Blackstone, \"Commentaries\""
   ],
@@ -5176,7 +5176,7 @@ const EN_WORDS = [
     "/ˈkɑːr.nɪ.fɛks/",
     "m",
     "A public executioner or tormentor in medieval Latin and English legal documents.",
-    "From Latin \"carnifex\" — flesh-maker, executioner (\"caro\" flesh + \"facere\" to make).",
+    "From Latin \"carnifex\" - flesh-maker, executioner (\"caro\" flesh + \"facere\" to make).",
     "\"The sentence was delivered into the hands of the carnifex for swift execution.\"",
     "Medieval chronicle records"
   ],
@@ -5302,7 +5302,7 @@ const EN_WORDS = [
     "/ˈpoʊl.æks/",
     "m",
     "A massive medieval knightly weapon combining an axe, hammer, and top-spike on a stout pole.",
-    "From \"poll\" (head) + \"axe\" — axe with a hammer-head (poll), later influenced by \"pole.\"",
+    "From \"poll\" (head) + \"axe\" - axe with a hammer-head (poll), later influenced by \"pole.\"",
     "\"The knights met on foot in the tournament lists, armed with heavy steel poleaxes.\"",
     "Chivalric duel records of Burgundy"
   ],
@@ -5347,7 +5347,7 @@ const EN_WORDS = [
     "/ˌbɛk.dəˈkɔːr.bɪn/",
     "m",
     "A pole weapon featuring a sharp beak-like hook resembling a raven's bill (\"raven's beak\").",
-    "From French \"bec de corbin\" — crow's beak (\"bec\" beak + \"corbin\" raven).",
+    "From French \"bec de corbin\" - crow's beak (\"bec\" beak + \"corbin\" raven).",
     "\"With the spiked point of the bec-de-corbin, he punctured the visor of his adversary.\"",
     "Burgundian tournament records"
   ],
@@ -5365,7 +5365,7 @@ const EN_WORDS = [
     "/ˌɡuː.dənˈdɑːx/",
     "m",
     "A Flemish club-polearm with a steel spike, famous for defeating French knights at Courtrai (1302).",
-    "From Flemish \"goedendag\" — literally \"good day\" (ironic morning greeting of rebels).",
+    "From Flemish \"goedendag\" - literally \"good day\" (ironic morning greeting of rebels).",
     "\"The Flemish weavers stood firm with their goedendags, routing the flower of French chivalry.\"",
     "Chronicles of Flanders"
   ],
@@ -5383,7 +5383,7 @@ const EN_WORDS = [
     "/ˈkæl.ɪ.vər/",
     "e",
     "A lightweight, standardized-caliber matchlock firearm, lighter than the heavy musket.",
-    "Corruption of \"caliber\" (from French \"pièce de calibre\" — gun of standard bore).",
+    "Corruption of \"caliber\" (from French \"pièce de calibre\" - gun of standard bore).",
     "\"A company of sixty shot, armed with calivers and flasks of fine priming powder.\"",
     "Elizabethan muster books"
   ],
@@ -5446,7 +5446,7 @@ const EN_WORDS = [
     "/ˈbɜːr.ɡə.nɛt/",
     "e",
     "A light, open-faced Renaissance helmet with a crest, cheek-pieces, and an umbrella-like brim.",
-    "From French \"bourguignotte\" — Burgundian helmet (from \"Bourgogne\" Burgundy).",
+    "From French \"bourguignotte\" - Burgundian helmet (from \"Bourgogne\" Burgundy).",
     "\"The Spanish captain wore an engraved steel burgonet adorned with a sweeping scarlet plume.\"",
     "Renaissance armory records"
   ],
@@ -5581,7 +5581,7 @@ const EN_WORDS = [
     "/ˈlɛk.tər/",
     "m",
     "A minor cleric appointed to read the sacred lessons in church services and refectories.",
-    "From Latin \"lector\" — reader, from \"legere\" (to read).",
+    "From Latin \"lector\" - reader, from \"legere\" (to read).",
     "\"The lector climbed into the stone pulpit and read from the Homilies of Saint Gregory during dinner.\"",
     "Customs of Cluny"
   ],
@@ -5635,7 +5635,7 @@ const EN_WORDS = [
     "/ˈkɜːr.fjuː/",
     "m",
     "An evening bell rung to signal the extinguishing of domestic hearth fires (\"cover fire\").",
-    "From OF \"couvre-feu\" — cover fire (\"couvrir\" to cover + \"feu\" fire).",
+    "From OF \"couvre-feu\" - cover fire (\"couvrir\" to cover + \"feu\" fire).",
     "\"The curfew tolls the knell of parting day; the lowing herd wind slowly o'er the lea.\"",
     "Thomas Gray, \"Elegy Written in a Country Churchyard\""
   ],
@@ -5653,7 +5653,7 @@ const EN_WORDS = [
     "/ˌæb.səˈluː.ʃən/",
     "m",
     "The formal release from guilt or penalty of sin pronounced by a priest in the sacrament of penance.",
-    "From Latin \"absolutio\" — acquittal, freeing, from \"absolvere\" (to set free).",
+    "From Latin \"absolutio\" - acquittal, freeing, from \"absolvere\" (to set free).",
     "\"The dying knight bowed his head and received solemn absolution from the prior.\"",
     "Malory, \"Le Morte d'Arthur\""
   ],
@@ -5914,7 +5914,7 @@ const EN_WORDS = [
     "/əˈfɪərd/",
     "e",
     "Frightened, afraid, seized with terror.",
-    "From OE \"āfǣran\" — to terrify, frighten (\"ā-\" intensive + \"fǣran\" to frighten).",
+    "From OE \"āfǣran\" - to terrify, frighten (\"ā-\" intensive + \"fǣran\" to frighten).",
     "\"Be not afeared; the isle is full of noises, sounds and sweet airs, that give delight and hurt not.\"",
     "Shakespeare, \"The Tempest\""
   ],
@@ -6040,7 +6040,7 @@ const EN_WORDS = [
     "/ˈɡɒs.ɪp/",
     "e",
     "Originally a godparent (god-sibling); a close female friend invited to a birth; later a talebearer.",
-    "From OE \"godsibb\" — god-related (\"god\" + \"sibb\" relative, kin).",
+    "From OE \"godsibb\" - god-related (\"god\" + \"sibb\" relative, kin).",
     "\"My noble gossips, ye have been too prodigal in gifts to my little daughter.\"",
     "Shakespeare, \"Henry VIII\""
   ],
@@ -6157,7 +6157,7 @@ const EN_WORDS = [
     "/kwiːn/",
     "m",
     "A disreputable, ill-behaved woman or jade (distinct from queen, though originally cognate!).",
-    "From OE \"cwene\" — woman (cognate with \"cwen\" queen, which had a long vowel).",
+    "From OE \"cwene\" - woman (cognate with \"cwen\" queen, which had a long vowel).",
     "\"Away, you scold! Away, you scurvy quean! You shall not cross my threshold again!\"",
     "Elizabethan comedy"
   ],
@@ -6301,7 +6301,7 @@ const EN_WORDS = [
     "/ˈæɡ.lɪt/",
     "e",
     "The metal tag on the end of a lace or point, often wrought into decorative figures of gold.",
-    "From OF \"aguillette\" — little needle, diminutive of \"aguille\" (needle).",
+    "From OF \"aguillette\" - little needle, diminutive of \"aguille\" (needle).",
     "\"Why, give him gold enough and marry him to a puppet or an aglet-baby.\"",
     "Shakespeare, \"Taming of the Shrew\""
   ],
@@ -6311,7 +6311,7 @@ const EN_WORDS = [
     "e",
     "Laces tipped with metal aglets used to tie doublets to hose or fasten garments.",
     "From OF \"point\" (stitch, fastening). \"Their points being broken, down fell their hose.\"",
-    "\"Their points being broken — down fell their hose!\"",
+    "\"Their points being broken - down fell their hose!\"",
     "Shakespeare, \"Henry IV, Part 1\""
   ],
   [
@@ -6454,7 +6454,7 @@ const EN_WORDS = [
     "/ˈbɪl.ən.dər/",
     "t",
     "A small two-masted merchant vessel used on European canals and coastal waters.",
-    "From Dutch \"bijlander\" — by-lander (hugging the land).",
+    "From Dutch \"bijlander\" - by-lander (hugging the land).",
     "\"The bilander was moored against the canal quay, unloading Dutch cheeses.\"",
     "Maritime history of the Low Countries"
   ],
@@ -6517,7 +6517,7 @@ const EN_WORDS = [
     "/ˈfæð.əm/",
     "m",
     "A traditional unit of length equal to six feet (the span of a man's outstretched arms), used for water depth.",
-    "From OE \"fæþm\" — embrace, outstretched arms. Cognate with German \"Faden.\"",
+    "From OE \"fæþm\" - embrace, outstretched arms. Cognate with German \"Faden.\"",
     "\"Full fathom five thy father lies; of his bones are coral made.\"",
     "Shakespeare, \"The Tempest\""
   ],
@@ -6535,7 +6535,7 @@ const EN_WORDS = [
     "/ˈæs.trə.leɪb/",
     "m",
     "An ancient astronomical instrument used by navigators to calculate latitude by observing star altitudes.",
-    "From Greek \"astrolabon\" — star-taking (\"astron\" star + \"lambanein\" to take).",
+    "From Greek \"astrolabon\" - star-taking (\"astron\" star + \"lambanein\" to take).",
     "\"Chaucer composed a learned Treatise on the Astrolabe for his young son Lewis in 1391.\"",
     "Geoffrey Chaucer"
   ],
@@ -6598,7 +6598,7 @@ const EN_WORDS = [
     "/ˈlɑːr.bərd/",
     "m",
     "The left-hand side of a ship looking forward; renamed \"port\" in the 1840s to avoid confusion with starboard.",
-    "From ME \"laddebord\" — loading side (from \"lade\" to load + \"board\").",
+    "From ME \"laddebord\" - loading side (from \"lade\" to load + \"board\").",
     "\"Hard-a-larboard! Keep her clear of the jagged reef on the weather bow!\"",
     "Nautical orders of Drake's navy"
   ],
@@ -6616,7 +6616,7 @@ const EN_WORDS = [
     "/əˈbæft/",
     "m",
     "Toward the stern or rear end of a ship; behind. \"Abaft the beam.\"",
-    "From OE \"onbæftan\" — on + by + after/behind.",
+    "From OE \"onbæftan\" - on + by + after/behind.",
     "\"The mainmast went over the side, falling abaft the deckhouse with a resounding crash.\"",
     "Defoe, \"Captain Singleton\""
   ],
@@ -6714,7 +6714,7 @@ const EN_WORDS = [
     "Drayman",
     "/ˈdreɪ.mən/",
     "t",
-    "A driver of a dray — a heavy, low, flat cart used for hauling beer barrels from breweries.",
+    "A driver of a dray - a heavy, low, flat cart used for hauling beer barrels from breweries.",
     "From \"dray\" (low carriage, OE \"dræge\" what is dragged) + \"man.\"",
     "\"Two burly draymen lowered the three-hundred-pound hogsheads into the publican's cellar with ropes.\"",
     "Mayhew, \"London Labour\""
@@ -6742,7 +6742,7 @@ const EN_WORDS = [
     "/ˈmɪl.ɪ.nər/",
     "e",
     "A person who makes and sells women's hats, ribbons, and finery (originally from Milan, Italy).",
-    "Originally \"Milaner\" — dealer in fine Milanese goods (silks, ribbons, gloves).",
+    "Originally \"Milaner\" - dealer in fine Milanese goods (silks, ribbons, gloves).",
     "\"The milliner's parlor was fragrant with lavender and filled with straw bonnets trimmed with silk violets.\"",
     "Austen, \"Pride and Prejudice\""
   ],
@@ -6769,7 +6769,7 @@ const EN_WORDS = [
     "/dɪˈsɛm.bəl/",
     "e",
     "To conceal one's true motives, feelings, or beliefs; to put on a false appearance.",
-    "From Latin \"dissimulare\" — to hide, dissimulate (\"dis-\" + \"similis\" like).",
+    "From Latin \"dissimulare\" - to hide, dissimulate (\"dis-\" + \"similis\" like).",
     "\"He had learned at court to smile upon those he hated and dissemble his inner ambition.\"",
     "Shakespeare, \"Othello\""
   ],
@@ -6778,7 +6778,7 @@ const EN_WORDS = [
     "/bɪˈhuːv/",
     "m",
     "To be appropriate, incumbent, or morally necessary for someone. \"It behooves you to speak.\"",
-    "From OE \"behōfian\" — to be necessary (related to \"behoof\").",
+    "From OE \"behōfian\" - to be necessary (related to \"behoof\").",
     "\"It behooves every honest citizen to assist the magistrates in keeping the peace.\"",
     "Defoe, \"Journal of the Plague Year\""
   ],
@@ -6787,7 +6787,7 @@ const EN_WORDS = [
     "/bɪˈtaɪd/",
     "m",
     "To happen, occur, or befall someone. \"Woe betide him!\"",
-    "From ME \"bityden\" — \"be-\" + \"tide\" (to happen, from OE \"tīd\" time/occasion).",
+    "From ME \"bityden\" - \"be-\" + \"tide\" (to happen, from OE \"tīd\" time/occasion).",
     "\"Woe betide the traveler who crosses the forest after the curfew bell has tolled!\"",
     "Traditional ballads"
   ],
@@ -6796,7 +6796,7 @@ const EN_WORDS = [
     "/tʃaɪd/",
     "m",
     "To scold, rebuke, or express disapproval to someone; to fret loudly.",
-    "From OE \"cīdan\" — to contend, quarrel, scold. Past tense \"chid\" or \"chided.\"",
+    "From OE \"cīdan\" - to contend, quarrel, scold. Past tense \"chid\" or \"chided.\"",
     "\"The master chid the careless apprentice for spilling ink upon the legal ledger.\"",
     "Shakespeare, \"Henry IV\""
   ],
@@ -6814,7 +6814,7 @@ const EN_WORDS = [
     "/fɔːrˈswɛər/",
     "m",
     "To agree to give up or do without something; to swear falsely; to perjure oneself.",
-    "From OE \"forswerian\" — to swear falsely (\"for-\" away/badly + \"swerian\" swear).",
+    "From OE \"forswerian\" - to swear falsely (\"for-\" away/badly + \"swerian\" swear).",
     "\"I have foresworn his company, for he is a companion of thieves and cutpurses.\"",
     "Shakespeare, \"Henry IV\""
   ],
@@ -6823,7 +6823,7 @@ const EN_WORDS = [
     "/ɪmˈbaɪb/",
     "e",
     "To drink in; to absorb liquid; to assimilate ideas or principles.",
-    "From Latin \"imbibere\" — to drink in (\"in-\" + \"bibere\" to drink).",
+    "From Latin \"imbibere\" - to drink in (\"in-\" + \"bibere\" to drink).",
     "\"He imbibed a deep glass of Madeira before answering the commissioner's queries.\"",
     "Dickens, \"Pickwick Papers\""
   ],
@@ -6841,7 +6841,7 @@ const EN_WORDS = [
     "/ˈʌl.jʊ.leɪt/",
     "t",
     "To howl or wail as an expression of strong grief, sorrow, or triumph.",
-    "From Latin \"ululare\" — to howl, wail (echoic/onomatopoeic).",
+    "From Latin \"ululare\" - to howl, wail (echoic/onomatopoeic).",
     "\"The mournful ululations of the hired keeners echoed across the Irish peat-bog.\"",
     "Victorian anthropological accounts"
   ],
@@ -6850,7 +6850,7 @@ const EN_WORDS = [
     "/kiːn/",
     "t",
     "To make a loud wailing lament for the dead, especially in Irish and Scottish tradition.",
-    "From Irish \"caoinim\" — I wail, lament for the dead.",
+    "From Irish \"caoinim\" - I wail, lament for the dead.",
     "\"The women sat about the corpse, keening until the dawn broke over the mountains.\"",
     "Synge, \"Riders to the Sea\""
   ],
@@ -6868,7 +6868,7 @@ const EN_WORDS = [
     "/ˌkaʊˈtaʊ/",
     "t",
     "To act in an excessively subservient or fawning manner; originally the Chinese ritual prostration.",
-    "From Chinese \"kòu tóu\" — knock head (touching the forehead to the ground in homage).",
+    "From Chinese \"kòu tóu\" - knock head (touching the forehead to the ground in homage).",
     "\"The ambitious clerk was forever kowtowing to the directors of the company.\"",
     "Victorian satires"
   ],
@@ -6877,7 +6877,7 @@ const EN_WORDS = [
     "/rɪˈvɪər/",
     "e",
     "To feel deep respect or veneration for someone holy, noble, or ancient.",
-    "From Latin \"revereri\" — to stand in awe of (\"re-\" intensive + \"vereri\" to fear).",
+    "From Latin \"revereri\" - to stand in awe of (\"re-\" intensive + \"vereri\" to fear).",
     "\"The villagers revered the memory of the saintly parson who had served them forty years.\"",
     "Goldsmith, \"The Deserted Village\""
   ],
@@ -6886,7 +6886,7 @@ const EN_WORDS = [
     "/ˈvɛn.ə.reɪt/",
     "e",
     "To regard with great respect; to revere due to age, character, or holiness.",
-    "From Latin \"venerari\" — to worship, adore, from \"venus\" (love, beauty, grace).",
+    "From Latin \"venerari\" - to worship, adore, from \"venus\" (love, beauty, grace).",
     "\"The ancient oak was venerated by the countryfolk as the meeting-place of their forefathers.\"",
     "Wordsworth, \"The Prelude\""
   ],
@@ -6895,7 +6895,7 @@ const EN_WORDS = [
     "/lɔːd/",
     "m",
     "To praise, extol, or acclaim a person or achievement highly.",
-    "From Latin \"laudare\" — to praise, from \"laus\" (praise, glory).",
+    "From Latin \"laudare\" - to praise, from \"laus\" (praise, glory).",
     "\"The poets of the court lauded the Queen's virtues in allegorical verses.\"",
     "Spenser, \"The Faerie Queene\""
   ],
@@ -6904,7 +6904,7 @@ const EN_WORDS = [
     "/kəˈlʌm.ni.eɪt/",
     "e",
     "To make false and defamatory statements about someone maliciously; to slander.",
-    "From Latin \"calumniari\" — to attack with false accusations, from \"calumnia\" (slander).",
+    "From Latin \"calumniari\" - to attack with false accusations, from \"calumnia\" (slander).",
     "\"He had been wickedly calumniated by rivals who envied his sudden rise at court.\"",
     "Clarendon, \"History of the Rebellion\""
   ],
@@ -6913,7 +6913,7 @@ const EN_WORDS = [
     "/kənˈtɛm/",
     "e",
     "To treat or regard with contempt, scorn, or disdain.",
-    "From Latin \"contemnere\" — to despise, scorn (\"con-\" intensive + \"temnere\" to despise).",
+    "From Latin \"contemnere\" - to despise, scorn (\"con-\" intensive + \"temnere\" to despise).",
     "\"The haughty nobleman contemned the petitions of the starving artisans.\"",
     "Milton, \"Samson Agonistes\""
   ],
@@ -6922,7 +6922,7 @@ const EN_WORDS = [
     "/dɪˈraɪd/",
     "e",
     "To express contempt for; to laugh at someone or something with cruel ridicule.",
-    "From Latin \"deridere\" — to mock, laugh at (\"de-\" down + \"ridere\" to laugh).",
+    "From Latin \"deridere\" - to mock, laugh at (\"de-\" down + \"ridere\" to laugh).",
     "\"The critics derided the young poet's first volume as clumsy and bombastic.\"",
     "Byron, \"English Bards and Scotch Reviewers\""
   ],
@@ -6931,7 +6931,7 @@ const EN_WORDS = [
     "/twɪt/",
     "e",
     "To tease, taunt, or reproach someone with a past fault or embarrassing secret.",
-    "Shortened from OE \"ætwītan\" — to reproach with, blame (\"æt-\" at + \"wītan\" to blame).",
+    "Shortened from OE \"ætwītan\" - to reproach with, blame (\"æt-\" at + \"wītan\" to blame).",
     "\"She was forever twitting her brother about his awkward dancing at the assembly ball.\"",
     "Jane Austen, \"Pride and Prejudice\""
   ],
@@ -6940,7 +6940,7 @@ const EN_WORDS = [
     "/sleɪ/",
     "m",
     "To kill someone violently in battle; to put to death.",
-    "From OE \"slēan\" — to strike, kill (cognate with German \"schlagen\"). Past tense \"slew.\"",
+    "From OE \"slēan\" - to strike, kill (cognate with German \"schlagen\"). Past tense \"slew.\"",
     "\"Saint George slew the dragon with his spear and delivered the maiden from the cave.\"",
     "The Golden Legend"
   ],
@@ -7048,7 +7048,7 @@ const EN_WORDS = [
     "/rɪˈfræk.tər.i/",
     "e",
     "Stubborn, unmanageable, resisting authority, rebellious against discipline.",
-    "From Latin \"refractarius\" — stubborn, obstinate, from \"refringere\" (to break back).",
+    "From Latin \"refractarius\" - stubborn, obstinate, from \"refringere\" (to break back).",
     "\"The refractory schoolboy refused to recite his Greek verbs, defying the master's rod.\"",
     "Victorian school chronicles"
   ],
@@ -7057,7 +7057,7 @@ const EN_WORDS = [
     "/ˌkɒn.tjuːˈmeɪ.ʃəs/",
     "e",
     "Stubbornly disobedient to authority, especially in contempt of a court of law.",
-    "From Latin \"contumax\" — insolent, stubborn, from \"tumere\" (to swell with pride).",
+    "From Latin \"contumax\" - insolent, stubborn, from \"tumere\" (to swell with pride).",
     "\"The contumacious witness was committed to the Fleet Prison for refusing to answer the interrogation.\"",
     "Chancery court records"
   ],
@@ -7102,7 +7102,7 @@ const EN_WORDS = [
     "/ˈkwɛr.ʊ.ləs/",
     "e",
     "Complaining in a petulant, whining, or fretful manner.",
-    "From Latin \"querulus\" — full of complaints, from \"queri\" (to complain).",
+    "From Latin \"querulus\" - full of complaints, from \"queri\" (to complain).",
     "\"His querulous voice droned on through the afternoon, lamenting every draft in the room.\"",
     "Dickens, \"Bleak House\""
   ],
@@ -7120,7 +7120,7 @@ const EN_WORDS = [
     "/ˈskʌr.ɪ.ləs/",
     "e",
     "Coarsely abusive, vulgar, foul-mouthed, and offensively low in language.",
-    "From Latin \"scurrilis\" — buffoon-like, from \"scurra\" (buffoon, jester).",
+    "From Latin \"scurrilis\" - buffoon-like, from \"scurra\" (buffoon, jester).",
     "\"An anonymous pamphlet of the most scurrilous character was circulated against the candidate.\"",
     "Victorian election accounts"
   ],
@@ -7174,7 +7174,7 @@ const EN_WORDS = [
     "/ˈsɔːr.dɪd/",
     "e",
     "Involving ignoble actions and motives; morally base, vile, dirty, and squalid.",
-    "From Latin \"sordidus\" — dirty, foul, mean, from \"sordere\" (to be dirty).",
+    "From Latin \"sordidus\" - dirty, foul, mean, from \"sordere\" (to be dirty).",
     "\"The miser lived in sordid squalor, counting his golden guineas behind bolted shutters.\"",
     "Dickens, \"Our Mutual Friend\""
   ],
@@ -7210,7 +7210,7 @@ const EN_WORDS = [
     "/ˈspɪn.i/",
     "m",
     "A small area of trees and brushwood, especially one planted to shelter game.",
-    "From OF \"espinei\" — thorny place, from Latin \"spinetum\" (thorn-hedge, from \"spina\" thorn).",
+    "From OF \"espinei\" - thorny place, from Latin \"spinetum\" (thorn-hedge, from \"spina\" thorn).",
     "\"A fox broke cover from the birch spinney and dashed across the open stubble.\"",
     "Surtees, \"Handley Cross\""
   ],
@@ -7237,7 +7237,7 @@ const EN_WORDS = [
     "/slaʊ/",
     "m",
     "A swamp, bog, or deep muddy place. \"The Slough of Despond.\"",
-    "From OE \"slōh\" — muddy ditch, swamp.",
+    "From OE \"slōh\" - muddy ditch, swamp.",
     "\"The cart was stuck fast to the axles in the deep mire of the village slough.\"",
     "Bunyan, \"The Pilgrim's Progress\""
   ],
@@ -7255,7 +7255,7 @@ const EN_WORDS = [
     "/woʊld/",
     "m",
     "A high, open, uncultivated tract of rolling country; the Yorkshire or Cotswold Wolds.",
-    "From OE \"wald\" — forest, open upland. Cognate with German \"Wald\" (forest).",
+    "From OE \"wald\" - forest, open upland. Cognate with German \"Wald\" (forest).",
     "\"The chilly wind blew unchecked across the lonely chalk wolds of Yorkshire.\"",
     "Tennyson, \"In Memoriam\""
   ],
@@ -7273,7 +7273,7 @@ const EN_WORDS = [
     "/ˈbær.oʊ/",
     "m",
     "An ancient prehistoric burial mound of earth and stones (tumulus).",
-    "From OE \"beorg\" — hill, mound, mountain. Cognate with German \"Berg.\"",
+    "From OE \"beorg\" - hill, mound, mountain. Cognate with German \"Berg.\"",
     "\"The treasure of the ancient kings lay hidden within the stone chamber of the barrow.\"",
     "Epic of Beowulf"
   ],
@@ -7318,7 +7318,7 @@ const EN_WORDS = [
     "/bɛk/",
     "m",
     "A brook, stream, or rocky mountain stream in northern England.",
-    "From Old Norse \"bekkr\" — stream, brook. Characteristic of Cumberland dialect.",
+    "From Old Norse \"bekkr\" - stream, brook. Characteristic of Cumberland dialect.",
     "\"The trout darted into the shadowed pool beneath the waterfall of the mountain beck.\"",
     "Wordsworth, \"The Prelude\""
   ],
@@ -7327,7 +7327,7 @@ const EN_WORDS = [
     "/nɛs/",
     "m",
     "A headland, cape, or promontory of land jutting into the sea (common in place-names: Dungeness, Sheerness).",
-    "From OE \"næs\" — nose, headland. Cognate with \"nose.\"",
+    "From OE \"næs\" - nose, headland. Cognate with \"nose.\"",
     "\"The lighthouse flashed its warning beacon from the rocky cliff of the stormy ness.\"",
     "Nautical charts of the North Sea"
   ],
@@ -7336,7 +7336,7 @@ const EN_WORDS = [
     "/ˈzɛf.ər/",
     "m",
     "A soft, gentle, mild western breeze.",
-    "From Greek \"Zephyros\" — the god of the west wind.",
+    "From Greek \"Zephyros\" - the god of the west wind.",
     "\"A gentle zephyr rippled the surface of the lily-covered lake on that summer eve.\"",
     "Shakespeare, \"Cymbeline\""
   ],
@@ -7345,7 +7345,7 @@ const EN_WORDS = [
     "/ˈbɔːr.i.əs/",
     "e",
     "The god of the cold north wind; the north wind personified.",
-    "From Greek \"Boreas\" — the north wind.",
+    "From Greek \"Boreas\" - the north wind.",
     "\"Fierce Boreas with his icy breath stripped the remaining leaves from the forest boughs.\"",
     "Spenser, \"Shepheardes Calender\""
   ],
@@ -7561,7 +7561,7 @@ const EN_WORDS = [
     "/ˈbæn.ʃiː/",
     "e",
     "A female spirit in Irish folklore whose mournful wailing foretells a death in a family.",
-    "From Irish \"bean sí\" — woman of the fairy mounds (\"bean\" woman + \"sí\" fairy).",
+    "From Irish \"bean sí\" - woman of the fairy mounds (\"bean\" woman + \"sí\" fairy).",
     "\"The banshee's keening wail rose from the river marsh at midnight.\"",
     "Irish folklore collections"
   ],
@@ -7678,7 +7678,7 @@ const EN_WORDS = [
     "/ˈbæs.ɪ.lɪsk/",
     "m",
     "A mythical reptile whose deadly glance or breath was fatal to all who looked upon it.",
-    "From Greek \"basiliskos\" — little king (\"basileus\" king), from crown-like mark on head.",
+    "From Greek \"basiliskos\" - little king (\"basileus\" king), from crown-like mark on head.",
     "\"The prince held up his polished steel buckler to turn the death-ray of the basilisk.\"",
     "Pliny / Renaissance bestiaries"
   ],
@@ -7705,7 +7705,7 @@ const EN_WORDS = [
     "/ˌʊər.əˈbɒr.əs/",
     "e",
     "An ancient symbol depicting a serpent or dragon eating its own tail, symbolizing eternity and cyclical rebirth.",
-    "From Greek \"ouroboros\" — tail-devourer (\"oura\" tail + \"bora\" food/eating).",
+    "From Greek \"ouroboros\" - tail-devourer (\"oura\" tail + \"bora\" food/eating).",
     "\"The alchemical crest bore the ouroboros encircled around the philosopher's stone.\"",
     "Hermetic manuscripts"
   ],
@@ -7741,7 +7741,7 @@ const EN_WORDS = [
     "/kaɪˈmɪər.ə/",
     "m",
     "A fire-breathing monster composed of lion, goat, and serpent; an impossible illusion.",
-    "From Greek \"chimaira\" — she-goat.",
+    "From Greek \"chimaira\" - she-goat.",
     "\"All his hopes of royal patronage were but empty chimeras and smoke.\"",
     "Milton, \"Comus\""
   ],
@@ -7750,7 +7750,7 @@ const EN_WORDS = [
     "/ˈɡɑːr.ɡɔɪl/",
     "m",
     "A carved grotesque beast projecting from a cathedral gutter to spout rainwater clear of walls.",
-    "From OF \"gargouille\" — throat, waterspout (echoic of gurgling).",
+    "From OF \"gargouille\" - throat, waterspout (echoic of gurgling).",
     "\"Grotesque granite gargoyles grinned down from the rain-washed towers of Notre-Dame.\"",
     "Victor Hugo, \"The Hunchback of Notre-Dame\""
   ],
@@ -7912,7 +7912,7 @@ const EN_WORDS = [
     "/ˈbæk.ə.nəl/",
     "e",
     "A wild, drunken, riotous feast or party.",
-    "From Latin \"Bacchanalia\" — the feast of Bacchus, god of wine.",
+    "From Latin \"Bacchanalia\" - the feast of Bacchus, god of wine.",
     "\"The festival ended in an untamed bacchanal of songs and dancing in the vineyard.\"",
     "Dryden, \"Alexander's Feast\""
   ],
@@ -7921,7 +7921,7 @@ const EN_WORDS = [
     "/ˌdɪθ.ɪˈræm.bɪk/",
     "e",
     "Wildly enthusiastic, passionate, or unrestrained in speech or style.",
-    "From Greek \"dithyrambos\" — a passionate wild choral hymn to Dionysus.",
+    "From Greek \"dithyrambos\" - a passionate wild choral hymn to Dionysus.",
     "\"He broke into a dithyrambic eulogy celebrating the genius of his poetic master.\"",
     "Victorian literary reviews"
   ],
@@ -7984,7 +7984,7 @@ const EN_WORDS = [
     "/ˈæs.fə.dɛl/",
     "e",
     "An immortal flower said to carpet the Elysian Fields in Greek mythology.",
-    "From Greek \"asphodelos\" — flower of the underworld meadows.",
+    "From Greek \"asphodelos\" - flower of the underworld meadows.",
     "\"The pale shades of ancient heroes wandered through meadows of blossoming asphodel.\"",
     "Milton, \"Comus\""
   ],
@@ -8155,7 +8155,7 @@ const EN_WORDS = [
     "/ˈtoʊ.di/",
     "t",
     "A servile sycophant or flatterer who grovels for favors.",
-    "Shortening of \"toad-eater\" — a charlatan's assistant who ate supposed poisonous toads to show master's cure.",
+    "Shortening of \"toad-eater\" - a charlatan's assistant who ate supposed poisonous toads to show master's cure.",
     "\"The wealthy lord was surrounded by fawning toadies laughing at his dullest jokes.\"",
     "Thackeray, \"Book of Snobs\""
   ],
@@ -8164,7 +8164,7 @@ const EN_WORDS = [
     "/ˈsɪk.ə.fænt/",
     "e",
     "A servile, self-seeking flatterer who acts obsequiously toward someone important.",
-    "From Greek \"sykophantes\" — informer, false accuser (\"sykon\" fig + \"phainein\" to show).",
+    "From Greek \"sykophantes\" - informer, false accuser (\"sykon\" fig + \"phainein\" to show).",
     "\"The court swarmed with flatterers and sycophants vying for royal favors.\"",
     "Bacon, \"Essays\""
   ],
@@ -8759,7 +8759,7 @@ const EN_WORDS = [
     "e",
     "Suddenly breaking off speech in the middle of a sentence, leaving it dramatically unfinished.",
     "From Greek \"aposiopesis\" (becoming silent, from \"siopan\" to be silent).",
-    "\"I will have such revenges on you both that all the world shall— I will do such things—\"",
+    "\"I will have such revenges on you both that all the world shall- I will do such things-\"",
     "Shakespeare, \"King Lear\""
   ],
   [
@@ -8902,7 +8902,7 @@ const EN_WORDS = [
     "/ˈkɔːr.bəl/",
     "m",
     "A projecting stone or timber bracket jutting from a wall to support an overhanging arch or parapet.",
-    "From OF \"corbel,\" diminutive of \"corp\" (crow, raven, Latin \"corvus\" — like a crow's beak).",
+    "From OF \"corbel,\" diminutive of \"corp\" (crow, raven, Latin \"corvus\" - like a crow's beak).",
     "\"Carved granite corbels representing snarling lions supported the castle parapet.\"",
     "Gothic architecture surveys"
   ],

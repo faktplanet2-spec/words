@@ -1,5 +1,5 @@
 /* =============================================
-   FORGOTTEN WORDS — Design System & Styles
+   FORGOTTEN WORDS - Design System & Styles
    ============================================= */
 
 /* === CSS Variables / Design Tokens === */
@@ -73,46 +73,9 @@
     --particle-color: rgba(212, 168, 83, 0.06);
 
     --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
-    --shadow-card-hover: 0 8px 40px rgba(212, 168, 83, 0.1);
 }
 
-/* === Light Theme (Pure, Crisp & Clean) === */
-[data-theme="light"] {
-    --bg-primary: #f8fafc;
-    --bg-secondary: #f1f5f9;
-    --bg-tertiary: #e2e8f0;
-    --bg-card: #ffffff;
-    --bg-card-hover: #ffffff;
-    --bg-glass: rgba(255, 255, 255, 0.85);
-    --bg-input: #f1f5f9;
 
-    --text-primary: #0f172a;
-    --text-secondary: #475569;
-    --text-muted: #64748b;
-    --text-accent: #b45309;
-
-    --accent: #b45309;
-    --accent-light: #d97706;
-    --accent-glow: rgba(180, 83, 9, 0.12);
-    --accent-gradient: linear-gradient(135deg, #b45309 0%, #92400e 100%);
-
-    --border-color: rgba(0, 0, 0, 0.1);
-    --border-subtle: rgba(0, 0, 0, 0.05);
-
-    --era-badge-bg: rgba(180, 83, 9, 0.08);
-    --era-badge-text: #92400e;
-
-    --quote-bg: #f8fafc;
-    --quote-border: #b45309;
-
-    --header-bg: rgba(255, 255, 255, 0.92);
-    --modal-bg: #ffffff;
-
-    --particle-color: rgba(180, 83, 9, 0.06);
-
-    --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
-    --shadow-card-hover: 0 12px 32px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.06);
-}
 
 /* === Vintage Sepia / Old Parchment & Papyrus Theme === */
 [data-theme="sepia"] {
@@ -1367,7 +1330,7 @@ body {
     font-size: 0.85rem !important;
 }
 
-/* === Word Meta Badges (Hero & Modal) — Perfectly Leveled & Aligned === */
+/* === Word Meta Badges (Hero & Modal) - Perfectly Leveled & Aligned === */
 .word-meta-badges {
     display: flex;
     align-items: center;
@@ -1423,31 +1386,6 @@ body {
     color: var(--text-secondary);
     border-color: var(--border-color);
     letter-spacing: 0.01em;
-}
-
-/* Light Theme Badges */
-[data-theme="light"] .word-era-badge {
-    background: rgba(139, 105, 20, 0.1);
-    color: #8b6914;
-    border-color: rgba(139, 105, 20, 0.25);
-}
-
-[data-theme="light"] .word-type-badge {
-    background: rgba(37, 99, 235, 0.08);
-    color: #1d4ed8;
-    border-color: rgba(37, 99, 235, 0.25);
-}
-
-[data-theme="light"] .word-type-badge.historicism {
-    background: rgba(217, 119, 6, 0.1);
-    color: #b45309;
-    border-color: rgba(217, 119, 6, 0.25);
-}
-
-[data-theme="light"] .word-category-badge {
-    background: rgba(0, 0, 0, 0.04);
-    color: var(--text-secondary);
-    border-color: rgba(0, 0, 0, 0.12);
 }
 
 /* Sepia / Papyrus Theme Badges */
@@ -1575,15 +1513,6 @@ body {
     border: 1px solid rgba(245, 158, 11, 0.25);
 }
 
-[data-theme="light"] .card-type-archaism {
-    background: rgba(37, 99, 235, 0.08);
-    color: #1d4ed8;
-}
-
-[data-theme="light"] .card-type-historicism {
-    background: rgba(217, 119, 6, 0.1);
-    color: #b45309;
-}
 
 .card-community-badge {
     background: rgba(234, 179, 8, 0.15);
@@ -2011,209 +1940,6 @@ body {
     background: var(--accent);
 }
 
-/* =========================================================
-   === PURE CRISP & MODERN LIGHT DESIGN SYSTEM ===
-   ========================================================= */
-[data-theme="light"] body {
-    background-color: #f8fafc;
-    background-image: 
-        radial-gradient(circle at 50% 0%, #ffffff 0%, transparent 70%),
-        radial-gradient(ellipse at 100% 100%, rgba(226, 232, 240, 0.6) 0%, transparent 60%),
-        radial-gradient(ellipse at 0% 100%, rgba(226, 232, 240, 0.6) 0%, transparent 60%);
-    color: #0f172a;
-}
-
-[data-theme="light"] .header {
-    background: rgba(255, 255, 255, 0.94);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
-}
-
-[data-theme="light"] .logo-title {
-    color: #0f172a;
-    font-weight: 700;
-}
-
-[data-theme="light"] .hero-badge {
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-    color: #475569;
-}
-
-[data-theme="light"] .hero-badge-date {
-    color: #0f172a;
-    font-weight: 700;
-}
-
-[data-theme="light"] .theme-toggle,
-[data-theme="light"] .lang-toggle {
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    color: #0f172a;
-}
-
-[data-theme="light"] .word-card-hero-inner {
-    border: 1px solid rgba(0, 0, 0, 0.09);
-    background: #ffffff;
-    box-shadow: 
-        0 16px 48px rgba(0, 0, 0, 0.06),
-        0 2px 6px rgba(0, 0, 0, 0.03);
-}
-
-[data-theme="light"] .word-main {
-    color: #0f172a;
-    text-shadow: none;
-}
-
-[data-theme="light"] .word-transcription {
-    color: #92400e;
-    font-style: italic;
-}
-
-[data-theme="light"] .word-meaning {
-    color: #334155;
-}
-
-[data-theme="light"] .word-synonym-pill {
-    background: rgba(180, 83, 9, 0.07);
-    border: 1px solid rgba(180, 83, 9, 0.22);
-    box-shadow: 0 2px 12px rgba(180, 83, 9, 0.06);
-}
-
-[data-theme="light"] .synonym-pill-value {
-    color: #92400e;
-}
-
-[data-theme="light"] .word-quote {
-    background: #f1f5f9;
-    border-left: 3px solid #b45309;
-    color: #334155;
-}
-
-[data-theme="light"] .word-quote cite {
-    color: #64748b;
-}
-
-[data-theme="light"] .word-card {
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    background: #ffffff;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
-}
-
-[data-theme="light"] .word-card:hover {
-    border-color: #b45309;
-    box-shadow: 0 12px 30px rgba(180, 83, 9, 0.12);
-}
-
-[data-theme="light"] .word-card-title {
-    color: #0f172a;
-}
-
-[data-theme="light"] .word-card-meaning {
-    color: #475569;
-}
-
-[data-theme="light"] .chip {
-    background: #f1f5f9;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    color: #334155;
-    border-radius: 9999px;
-}
-
-[data-theme="light"] .chip:hover {
-    background: #e2e8f0;
-    color: #0f172a;
-    border-color: #b45309;
-}
-
-[data-theme="light"] .chip.active {
-    background: linear-gradient(135deg, #b45309 0%, #92400e 100%);
-    color: #ffffff;
-    border-color: #92400e;
-    box-shadow: 0 2px 10px rgba(180, 83, 9, 0.22);
-}
-
-[data-theme="light"] .lang-tab {
-    background: #f1f5f9;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    color: #334155;
-    border-radius: 9999px;
-}
-
-[data-theme="light"] .lang-tab.active {
-    background: linear-gradient(135deg, #b45309 0%, #92400e 100%);
-    color: #ffffff;
-    border-color: #92400e;
-    box-shadow: 0 4px 15px rgba(180, 83, 9, 0.2);
-}
-
-[data-theme="light"] .search-bar {
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    border-radius: 28px;
-    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.04);
-}
-
-[data-theme="light"] .search-input-wrap input {
-    background: #f8fafc;
-    border: 1.5px solid rgba(0, 0, 0, 0.1);
-    border-radius: 9999px;
-    color: #0f172a;
-}
-
-[data-theme="light"] .modal {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 32px;
-    background: #ffffff;
-    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.14);
-}
-
-[data-theme="light"] .modal-content h2 {
-    color: #0f172a;
-}
-
-[data-theme="light"] .quiz-card {
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    border-radius: 28px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
-}
-
-[data-theme="light"] .quiz-opt-btn {
-    background: #f8fafc;
-    border: 1.5px solid rgba(0, 0, 0, 0.1);
-    color: #0f172a;
-}
-
-[data-theme="light"] .quiz-opt-btn:hover:not(:disabled) {
-    border-color: #b45309;
-    background: #f1f5f9;
-}
-
-[data-theme="light"] .btn-primary {
-    background: linear-gradient(135deg, #b45309 0%, #92400e 100%);
-    color: #ffffff;
-    box-shadow: 0 3px 12px rgba(180, 83, 9, 0.22);
-}
-
-[data-theme="light"] .btn-primary:hover {
-    background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
-    box-shadow: 0 6px 20px rgba(180, 83, 9, 0.32);
-}
-
-[data-theme="light"] .btn-outline {
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    color: #334155;
-    background: #ffffff;
-}
-
-[data-theme="light"] .btn-outline:hover {
-    border-color: #b45309;
-    color: #0f172a;
-    background: #f8fafc;
-}
 
 /* =========================================================
    === AUTHENTIC PAPYRUS & ANCIENT PARCHMENT DESIGN SYSTEM ===

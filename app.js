@@ -1,17 +1,17 @@
 // =============================================
-//  FORGOTTEN WORDS — Application Logic
+//  FORGOTTEN WORDS - Application Logic
 //  Full features: Modern Synonyms, Archaisms/Historicisms,
 //  Thematic Categories, Interactive Quiz, Suggest Word Form,
-//  and Three-state Themes (Dark / Sepia / Light).
+//  and Two Themes (Vintage Papyrus / Dark Manuscript).
 // =============================================
 
 (function () {
     'use strict';
 
     // === State ===
-    let currentLang = 'ru';           // UI language ('ru' or 'en')
-    let currentTheme = 'sepia';       // 'sepia' (Papyrus default), 'dark', 'light'
-    let filterLang = 'ru';            // Active language tab: 'ru' or 'en'
+    let currentLang = 'en';           // UI language ('en' default, or 'ru')
+    let currentTheme = 'sepia';       // 'sepia' (Papyrus default) or 'dark'
+    let filterLang = 'en';            // Active language tab: 'en' default
     let filterType = 'all';            // 'all', 'archaism', 'historicism'
     let filterCategory = 'all';        // 'all', 'clothing', 'professions', etc.
     let filterEra = 'all';            // 'all' or specific era key
@@ -128,7 +128,7 @@
     function loadPreferences() {
         const savedTheme = localStorage.getItem('fw-theme');
         const savedLang = localStorage.getItem('fw-lang');
-        if (savedTheme && ['dark', 'sepia', 'light'].includes(savedTheme)) {
+        if (savedTheme && ['dark', 'sepia'].includes(savedTheme)) {
             currentTheme = savedTheme;
         } else {
             currentTheme = 'sepia'; // Authentic Papyrus default
@@ -137,11 +137,11 @@
             currentLang = savedLang;
             filterLang = savedLang;
         } else {
-            currentLang = 'ru';
-            filterLang = 'ru';
+            currentLang = 'en'; // English default
+            filterLang = 'en';
         }
         applyTheme(currentTheme);
-        els.langLabel.textContent = currentLang.toUpperCase();
+        els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
         if (els.tabRu) els.tabRu.classList.toggle('active', filterLang === 'ru');
         if (els.tabEn) els.tabEn.classList.toggle('active', filterLang === 'en');
     }
@@ -151,33 +151,27 @@
         localStorage.setItem('fw-lang', currentLang);
     }
 
-    // === Three-State Theme Toggle (Sepia -> Dark -> Light) ===
+    // === Two-State Theme Toggle (Sepia <-> Dark) ===
     function applyTheme(theme) {
+        if (theme !== 'dark') theme = 'sepia';
         document.documentElement.setAttribute('data-theme', theme);
         currentTheme = theme;
         if (theme === 'sepia') {
             els.themeIcon.textContent = '📜';
-            els.themeToggle.title = currentLang === 'ru' ? 'Тема: Винтажный папирус / пергамент' : 'Theme: Vintage Papyrus / Parchment';
-        } else if (theme === 'dark') {
-            els.themeIcon.textContent = '🌙';
-            els.themeToggle.title = currentLang === 'ru' ? 'Тема: Тёмная (ночной манускрипт)' : 'Theme: Dark Manuscript';
+            els.themeToggle.title = currentLang === 'ru' ? 'Тема: Винтажный папирус (нажмите для тёмной)' : 'Theme: Vintage Papyrus (click for Dark mode)';
         } else {
-            els.themeIcon.textContent = '☀️';
-            els.themeToggle.title = currentLang === 'ru' ? 'Тема: Светлая' : 'Theme: Light';
+            els.themeIcon.textContent = '🌙';
+            els.themeToggle.title = currentLang === 'ru' ? 'Тема: Тёмная (нажмите для папируса)' : 'Theme: Dark mode (click for Papyrus)';
         }
     }
 
     function cycleTheme() {
-        let newTheme = 'sepia';
-        if (currentTheme === 'sepia') newTheme = 'dark';
-        else if (currentTheme === 'dark') newTheme = 'light';
-        else newTheme = 'sepia';
-
+        let newTheme = currentTheme === 'sepia' ? 'dark' : 'sepia';
         applyTheme(newTheme);
         savePreferences();
         showToast(currentLang === 'ru' 
-            ? (newTheme === 'sepia' ? '📜 Винтажный папирус' : newTheme === 'dark' ? '🌙 Тёмная тема' : '☀️ Светлая тема')
-            : (newTheme === 'sepia' ? '📜 Vintage Papyrus' : newTheme === 'dark' ? '🌙 Dark theme' : '☀️ Light theme'));
+            ? (newTheme === 'sepia' ? '📜 Винтажный папирус' : '🌙 Тёмная тема')
+            : (newTheme === 'sepia' ? '📜 Vintage Papyrus' : '🌙 Dark theme'));
     }
 
     // === Language Toggle: 100% TRANSLATION OF ENTIRE APP ===
@@ -377,7 +371,7 @@
         }
 
         els.wodQuoteText.textContent = w.quote;
-        els.wodQuoteSource.textContent = '— ' + w.source;
+        els.wodQuoteSource.textContent = '- ' + w.source;
 
         // Animate entrance
         const card = document.querySelector('.word-card-hero');
@@ -641,7 +635,7 @@
 
             <blockquote class="word-quote">
                 <p>${w.quote}</p>
-                <cite>— ${w.source}</cite>
+                <cite>- ${w.source}</cite>
             </blockquote>
 
             <div class="word-etymology">
@@ -786,7 +780,7 @@
 
         // Explanation reveal
         els.quizExplanation.innerHTML = `
-            <p><strong>${word.word}</strong> — ${word.meaning}</p>
+            <p><strong>${word.word}</strong> - ${word.meaning}</p>
             ${word.synonym ? `<p>✨ <em>${currentLang === 'ru' ? 'Современный аналог' : 'Modern equivalent'}:</em> <strong>${word.synonym}</strong></p>` : ''}
             <blockquote style="margin-top: 8px; font-style: italic; color: var(--text-muted); font-size: 0.88rem;">${word.quote} (${word.source})</blockquote>
         `;
@@ -836,7 +830,7 @@
             category: categoryInput,
             etymology: `Слово предложено читателем (${authorInput}).`,
             usage: `Сохранено в народной памяти: ${sourceInput}.`,
-            quote: `«${wordInput} — слово, записанное со слов: ${sourceInput}.»`,
+            quote: `«${wordInput} - слово, записанное со слов: ${sourceInput}.»`,
             source: `${sourceInput} (записал ${authorInput})`,
             isCommunity: true,
             tags: [wordInput.toLowerCase(), typeInput, categoryInput, synonymInput.toLowerCase()]
