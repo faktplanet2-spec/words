@@ -356,25 +356,62 @@ body {
 .header-actions {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
 }
 
-.action-group {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 3px;
+.header-pill {
+    height: 38px;
+    padding: 0 12px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-full);
+    background: var(--bg-input);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all var(--transition-fast);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    white-space: nowrap;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
 }
 
-.action-label {
-    font-size: 0.65rem;
+.header-pill:hover {
+    border-color: var(--accent);
+    background: var(--accent-glow);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px var(--accent-glow);
+}
+
+.pill-icon {
+    font-size: 0.92rem;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pill-tag {
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.06em;
     color: var(--text-muted);
-    line-height: 1;
-    padding-left: 4px;
     user-select: none;
+    line-height: 1;
+}
+
+.pill-val {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1;
+}
+
+.font-pill {
+    cursor: default;
+    padding-right: 10px;
 }
 
 .font-select-wrap {
@@ -383,47 +420,29 @@ body {
     align-items: center;
 }
 
-.font-select-icon {
-    position: absolute;
-    left: 10px;
-    font-size: 0.85rem;
-    pointer-events: none;
-    z-index: 2;
-}
-
 .font-select {
     appearance: none;
     -webkit-appearance: none;
-    height: 38px;
-    padding: 0 24px 0 28px;
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-full);
-    background: var(--bg-input);
+    height: 34px;
+    background: transparent;
+    border: none;
+    outline: none;
     color: var(--text-primary);
-    font-family: var(--font-body);
-    font-size: 0.84rem;
+    font-family: inherit;
+    font-size: 0.85rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all var(--transition-fast);
-    outline: none;
-    min-width: 140px;
-    max-width: 165px;
+    padding: 0 18px 0 2px;
+    max-width: 140px;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
-.font-select:hover,
-.font-select:focus {
-    border-color: var(--accent);
-    background: var(--accent-glow);
-    box-shadow: 0 0 0 2px var(--accent-glow);
-}
-
 .font-select-arrow {
     position: absolute;
-    right: 8px;
+    right: 0;
     pointer-events: none;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     color: var(--text-muted);
     transition: transform var(--transition-fast);
 }
@@ -440,47 +459,17 @@ body {
     font-size: 0.95rem;
 }
 
-.lang-toggle,
-.theme-toggle {
-    height: 38px;
-    padding: 0 0.9rem;
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-full);
-    background: var(--bg-input);
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-    transition: all var(--transition-fast);
-    color: var(--text-primary);
-    font-family: var(--font-body);
-    font-size: 0.84rem;
-    font-weight: 600;
-    white-space: nowrap;
-}
-
-.theme-toggle:hover,
-.lang-toggle:hover {
-    border-color: var(--accent);
-    background: var(--accent-glow);
-    transform: translateY(-1px);
-}
-
-.lang-flag-icon,
-.theme-icon {
-    font-size: 0.95rem;
-    line-height: 1;
-    transition: transform var(--transition-base);
-}
-
-.theme-toggle:hover .theme-icon {
+.theme-toggle:hover .pill-icon {
     transform: rotate(20deg);
 }
 
-.theme-label-text {
-    font-size: 0.84rem;
-    font-weight: 600;
+/* Theme accent highlights for pill tags */
+[data-theme="sepia"] .pill-tag {
+    color: #8c5324;
+}
+
+[data-theme="dark"] .pill-tag {
+    color: #df9e38;
 }
 
 .lang-label {
@@ -1555,49 +1544,32 @@ body {
 @media (max-width: 768px) {
     .header-inner {
         padding: 0 12px;
-        min-height: 68px;
+        height: 64px;
     }
 
     .header-actions {
         gap: 6px;
     }
 
-    .action-group {
-        gap: 2px;
-    }
-
-    .action-label {
-        font-size: 0.58rem;
-        padding-left: 2px;
-    }
-
-    .font-select {
-        min-width: 105px;
-        max-width: 120px;
+    .header-pill {
         height: 34px;
-        padding: 0 18px 0 24px;
-        font-size: 0.78rem;
-    }
-
-    .font-select-icon {
-        left: 6px;
-        font-size: 0.75rem;
-    }
-
-    .font-select-arrow {
-        right: 6px;
-    }
-
-    .lang-toggle,
-    .theme-toggle {
-        height: 34px;
-        padding: 0 0.6rem;
-        font-size: 0.78rem;
+        padding: 0 8px;
         gap: 4px;
     }
 
-    .theme-label-text {
+    .pill-tag {
         display: none;
+    }
+
+    .pill-val {
+        font-size: 0.8rem;
+    }
+
+    .font-select {
+        height: 32px;
+        max-width: 105px;
+        font-size: 0.8rem;
+        padding: 0 14px 0 2px;
     }
 
     .nav {

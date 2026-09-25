@@ -33,19 +33,17 @@
             </nav>
             <div class="header-actions">
                 <!-- Group 1: Language / Язык -->
-                <div class="action-group">
-                    <span class="action-label" id="langGroupLabel">Language</span>
-                    <button class="lang-toggle" id="langToggle" title="Switch language / Сменить язык">
-                        <span class="lang-flag-icon">🌐</span>
-                        <span class="lang-label" id="langLabel">English</span>
-                    </button>
-                </div>
+                <button class="header-pill lang-toggle" id="langToggle" title="Switch language / Сменить язык">
+                    <span class="pill-icon">🌐</span>
+                    <span class="pill-tag" id="langGroupLabel">Language:</span>
+                    <span class="pill-val" id="langLabel">English</span>
+                </button>
 
                 <!-- Group 2: Font / Шрифт -->
-                <div class="action-group">
-                    <span class="action-label" id="fontGroupLabel">Font</span>
+                <div class="header-pill font-pill">
+                    <span class="pill-icon">🔤</span>
+                    <span class="pill-tag" id="fontGroupLabel">Font:</span>
                     <div class="font-select-wrap">
-                        <span class="font-select-icon">🔤</span>
                         <select class="font-select" id="fontSelect" title="Choose font / Выбрать шрифт">
                             <option value="bebas" style="font-family: 'Bebas Neue', sans-serif;">Bebas Neue (Default)</option>
                             <option value="playfair" style="font-family: 'Playfair Display', serif;">Playfair Display</option>
@@ -75,13 +73,11 @@
                 </div>
 
                 <!-- Group 3: Theme / Тема -->
-                <div class="action-group">
-                    <span class="action-label" id="themeGroupLabel">Theme</span>
-                    <button class="theme-toggle" id="themeToggle" title="Theme: Vintage Papyrus / Dark">
-                        <span class="theme-icon" id="themeIcon">📜</span>
-                        <span class="theme-label-text" id="themeLabelText">Papyrus</span>
-                    </button>
-                </div>
+                <button class="header-pill theme-toggle" id="themeToggle" title="Theme: Vintage Papyrus / Dark">
+                    <span class="pill-icon" id="themeIcon">📜</span>
+                    <span class="pill-tag" id="themeGroupLabel">Theme:</span>
+                    <span class="pill-val" id="themeLabelText">Papyrus</span>
+                </button>
 
                 <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Меню">
                     <span></span><span></span><span></span>

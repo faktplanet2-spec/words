@@ -397,9 +397,9 @@ const UI_STRINGS = {
         heroSearchPlaceholder: 'Поиск слова или современного синонима (например: Шуйца, Посолонь)...',
         liveSearchSeeAll: 'Показать все результаты в словаре',
         liveSearchNone: 'Забытых слов по такому запросу не найдено',
-        actionLangLabel: 'Язык',
-        actionFontLabel: 'Шрифт',
-        actionThemeLabel: 'Тема',
+        actionLangLabel: 'Язык:',
+        actionFontLabel: 'Шрифт:',
+        actionThemeLabel: 'Тема:',
         themePapyrus: 'Папирус',
         themeDark: 'Тёмная'
     },
@@ -487,9 +487,9 @@ const UI_STRINGS = {
         heroSearchPlaceholder: 'Search by archaic word or modern synonym (e.g. Anon, Perchance)...',
         liveSearchSeeAll: 'View all matching words in dictionary',
         liveSearchNone: 'No forgotten words found matching this query',
-        actionLangLabel: 'Language',
-        actionFontLabel: 'Font',
-        actionThemeLabel: 'Theme',
+        actionLangLabel: 'Language:',
+        actionFontLabel: 'Font:',
+        actionThemeLabel: 'Theme:',
         themePapyrus: 'Papyrus',
         themeDark: 'Dark'
     }
