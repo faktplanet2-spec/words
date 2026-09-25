@@ -36,8 +36,7 @@
         themeToggle: $('themeToggle'),
         themeIcon: $('themeIcon'),
         themeLabelText: $('themeLabelText'),
-        langToggle: $('langToggle'),
-        langLabel: $('langLabel'),
+        langSelect: $('langSelect'),
         fontSelect: $('fontSelect'),
         langGroupLabel: $('langGroupLabel'),
         fontGroupLabel: $('fontGroupLabel'),
@@ -214,12 +213,12 @@
         } else {
             currentTheme = 'sepia'; // Authentic Papyrus default
         }
-        if (savedLang && ['ru', 'en'].includes(savedLang)) {
+        if (savedLang && ['ru', 'en', 'es', 'de', 'it', 'fr'].includes(savedLang)) {
             currentLang = savedLang;
             filterLang = savedLang;
         } else {
-            currentLang = 'en'; // English default
-            filterLang = 'en';
+            currentLang = 'ru'; // Russian default
+            filterLang = 'ru';
         }
         const VALID_FONTS = [
             'bebas', 'playfair', 'cormorant', 'ebgaramond', 'cinzel',
@@ -236,7 +235,7 @@
 
         applyTheme(currentTheme);
         applyFont(currentFont);
-        if (els.langLabel) els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
+        if (els.langSelect) els.langSelect.value = currentLang;
         $$('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === filterLang));
     }
 
@@ -288,13 +287,19 @@
             : (newTheme === 'sepia' ? '📜 Vintage Papyrus' : '🌙 Dark theme'));
     }
 
-    // === Language Toggle: 100% TRANSLATION OF ENTIRE APP ===
-    function toggleLang() {
-        currentLang = currentLang === 'ru' ? 'en' : 'ru';
-        filterLang = currentLang; // STRICT SYNCHRONIZATION!
-        if (els.langLabel) els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
-        
-        $$('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === currentLang));
+    // === Language Selector: 100% TRANSLATION OF ENTIRE APP ===
+    function setLanguage(lang) {
+        if (!['ru', 'en', 'es', 'de', 'it', 'fr'].includes(lang)) lang = 'ru';
+        currentLang = lang;
+
+        // Synchronize dictionary tab if words exist for this language
+        const hasWords = WORDS_DATABASE.some(w => w.lang === lang);
+        if (hasWords) {
+            filterLang = lang;
+            $$('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
+        }
+
+        if (els.langSelect) els.langSelect.value = currentLang;
 
         updateUILanguage();
         buildTypeFilters();
@@ -307,15 +312,28 @@
             loadQuizQuestion();
         }
         savePreferences();
-        showToast(currentLang === 'ru' ? 'Язык: Русский' : 'Language: English');
+
+        const langName = els.langSelect && els.langSelect.options[els.langSelect.selectedIndex] 
+            ? els.langSelect.options[els.langSelect.selectedIndex].text 
+            : currentLang;
+        showToast((t('actionLangLabel') || 'Language:') + ' ' + langName);
     }
 
     function t(key) {
-        return (UI_STRINGS[currentLang] && UI_STRINGS[currentLang][key]) || key;
+        if (UI_STRINGS[currentLang] && UI_STRINGS[currentLang][key]) {
+            return UI_STRINGS[currentLang][key];
+        }
+        if (UI_STRINGS['ru'] && UI_STRINGS['ru'][key]) {
+            return UI_STRINGS['ru'][key];
+        }
+        if (UI_STRINGS['en'] && UI_STRINGS['en'][key]) {
+            return UI_STRINGS['en'][key];
+        }
+        return key;
     }
 
     function updateUILanguage() {
-        if (els.langLabel) els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
+        if (els.langSelect) els.langSelect.value = currentLang;
         if (els.langGroupLabel) els.langGroupLabel.textContent = t('actionLangLabel');
         if (els.fontGroupLabel) els.fontGroupLabel.textContent = t('actionFontLabel');
         if (els.themeGroupLabel) els.themeGroupLabel.textContent = t('actionThemeLabel');
@@ -537,13 +555,14 @@
         `;
     }
 
-    // === Dynamic Thematic Category Filters ===
+    // === Dynamic Category Filters ===
     function buildCategoryFilters() {
         if (!els.categoryFilter) return;
         let html = `<button class="chip ${filterCategory === 'all' ? 'active' : ''}" data-category="all">${t('allCategories')}</button>`;
         for (const [key, info] of Object.entries(THEMATIC_CATEGORIES)) {
             if (key === 'all') continue;
-            html += `<button class="chip ${filterCategory === key ? 'active' : ''}" data-category="${key}">${info[currentLang]}</button>`;
+            const label = info[currentLang] || info['en'] || info['ru'] || key;
+            html += `<button class="chip ${filterCategory === key ? 'active' : ''}" data-category="${key}">${label}</button>`;
         }
         els.categoryFilter.innerHTML = html;
     }
@@ -555,7 +574,8 @@
         const wordsForLang = WORDS_DATABASE.filter(w => w.lang === filterLang);
         const uniqueEras = [...new Set(wordsForLang.map(w => w.eraKey))];
         uniqueEras.forEach(eraKey => {
-            const label = ERA_LABELS[eraKey] ? ERA_LABELS[eraKey][currentLang] : eraKey;
+            const eraObj = ERA_LABELS[eraKey];
+            const label = eraObj ? (eraObj[currentLang] || eraObj['en'] || eraObj['ru']) : eraKey;
             html += `<button class="chip ${filterEra === eraKey ? 'active' : ''}" data-era="${eraKey}">${label}</button>`;
         });
         els.eraFilter.innerHTML = html;
@@ -563,10 +583,6 @@
 
     // === Language Tabs (Strict Separation & Synchronization) ===
     function switchLangTab(lang) {
-        if (lang === 'ru' || lang === 'en') {
-            currentLang = lang;
-            if (els.langLabel) els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
-        }
         filterLang = lang;
         filterEra = 'all';
         filterType = 'all';
@@ -574,7 +590,6 @@
 
         $$('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
 
-        updateUILanguage();
         buildTypeFilters();
         buildCategoryFilters();
         buildEraFilters();
@@ -585,7 +600,6 @@
         if (els.quizModalOverlay && els.quizModalOverlay.classList.contains('open')) {
             loadQuizQuestion();
         }
-        savePreferences();
     }
 
     // === Live Search Dropdown ===
@@ -1167,8 +1181,12 @@
             });
         }
 
-        // Language toggle (UI)
-        if (els.langToggle) els.langToggle.addEventListener('click', toggleLang);
+        // Language selection (like fonts)
+        if (els.langSelect) {
+            els.langSelect.addEventListener('change', (e) => {
+                setLanguage(e.target.value);
+            });
+        }
 
         // Mobile menu
         els.mobileMenuBtn.addEventListener('click', () => {
