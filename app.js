@@ -158,16 +158,17 @@
                     );
                     if (!exists) {
                         WORDS_DATABASE.unshift({
+                            id: 'db_' + (dbWord.id || Math.random()),
                             word: dbWord.word,
-                            transcription: dbWord.transcription || '',
+                            pronunciation: dbWord.transcription || `[${dbWord.word}]`,
                             meaning: dbWord.meaning,
-                            modernSynonym: dbWord.modern_synonym || '',
-                            era: dbWord.era || '',
-                            eraName: dbWord.era_name || '',
-                            type: dbWord.type || '',
-                            category: dbWord.category || '',
-                            categoryName: dbWord.category_name || '',
-                            source: dbWord.source || '',
+                            synonym: dbWord.modern_synonym || '',
+                            era: dbWord.era_name || dbWord.era || 'Историческая эпоха',
+                            eraKey: dbWord.era || 'middle-ages',
+                            wordType: dbWord.type || 'archaism',
+                            category: dbWord.category || 'speech_mind',
+                            source: dbWord.source || 'Классический источник',
+                            quote: `«${dbWord.word}»`,
                             lang: dbWord.lang || 'ru'
                         });
                         addedCount++;
@@ -473,6 +474,109 @@
         }
     }
 
+    // === Multilingual Word Content Adaptation (All 6 Languages: ru, en, de, es, it, fr) ===
+    const transCache = {};
+    try {
+        const saved = localStorage.getItem('fw_trans_cache');
+        if (saved) Object.assign(transCache, JSON.parse(saved));
+    } catch (e) {}
+
+    function saveTransCache() {
+        try {
+            const keys = Object.keys(transCache);
+            if (keys.length > 500) {
+                for (let i = 0; i < 100; i++) delete transCache[keys[i]];
+            }
+            localStorage.setItem('fw_trans_cache', JSON.stringify(transCache));
+        } catch (e) {}
+    }
+
+    function getWordMeaning(w, lang) {
+        if (!w) return '';
+        const l = lang || currentLang;
+        if (w.meanings && w.meanings[l]) {
+            return w.meanings[l];
+        }
+        if (l === 'ru' && (w.lang === 'ru' || !w.meanings)) return w.meaning || '';
+        if (l === 'en' && w.lang === 'en') return w.meaning || '';
+        const cacheKey = `${l}:m:${w.meaning}`;
+        if (transCache[cacheKey]) return transCache[cacheKey];
+        return w.meaning || '';
+    }
+
+    function getWordSynonym(w, lang) {
+        if (!w) return '';
+        const l = lang || currentLang;
+        if (w.synonyms && w.synonyms[l]) {
+            return w.synonyms[l];
+        }
+        if (l === 'ru' && (w.lang === 'ru' || !w.synonyms)) return w.synonym || '';
+        if (l === 'en' && w.lang === 'en') return w.synonym || '';
+        const cacheKey = `${l}:s:${w.synonym}`;
+        if (transCache[cacheKey]) return transCache[cacheKey];
+        return w.synonym || '';
+    }
+
+    function getWordEtymology(w, lang) {
+        if (!w) return '';
+        const l = lang || currentLang;
+        if (w.etymologies && w.etymologies[l]) {
+            return w.etymologies[l];
+        }
+        if (l === 'ru' && (w.lang === 'ru' || !w.etymologies)) return w.etymology || '';
+        if (l === 'en' && w.lang === 'en') return w.etymology || '';
+        const cacheKey = `${l}:e:${w.etymology}`;
+        if (transCache[cacheKey]) return transCache[cacheKey];
+        return w.etymology || '';
+    }
+
+    function hasNativeTranslation(w, field, lang) {
+        if (!w) return false;
+        const l = lang || currentLang;
+        if (field === 'meaning') {
+            return !!(w.meanings && w.meanings[l]) || (l === 'ru' && w.lang === 'ru') || (l === 'en' && w.lang === 'en');
+        }
+        if (field === 'synonym') {
+            return !!(w.synonyms && w.synonyms[l]) || (l === 'ru' && w.lang === 'ru') || (l === 'en' && w.lang === 'en');
+        }
+        if (field === 'etymology') {
+            return !!(w.etymologies && w.etymologies[l]) || (l === 'ru' && w.lang === 'ru') || (l === 'en' && w.lang === 'en');
+        }
+        return false;
+    }
+
+    async function adaptElementText(element, rawText, targetLang, fieldType = 'meaning') {
+        if (!element || !rawText || !targetLang) return;
+        if (targetLang === 'ru' && /[\u0400-\u04FF]/.test(rawText)) return;
+        if (targetLang === 'en' && !/[\u0400-\u04FF]/.test(rawText) && !/[àáâäçéèêëíïñóöôùúüß]/i.test(rawText)) return;
+
+        const cacheKey = `${targetLang}:${fieldType === 'synonym' ? 's' : (fieldType === 'etymology' ? 'e' : 'm')}:${rawText}`;
+        if (transCache[cacheKey]) {
+            element.textContent = transCache[cacheKey];
+            return;
+        }
+
+        try {
+            const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLang}&dt=t&q=${encodeURIComponent(rawText)}`;
+            const res = await fetch(url);
+            if (res.ok) {
+                const data = await res.json();
+                if (data && data[0]) {
+                    const translated = data[0].map(s => s[0]).join('');
+                    if (translated) {
+                        transCache[cacheKey] = translated;
+                        saveTransCache();
+                        if (element.dataset.origText === rawText && currentLang === targetLang) {
+                            element.textContent = translated;
+                        }
+                    }
+                }
+            }
+        } catch (e) {
+            // Silently fallback to current text
+        }
+    }
+
     // === Word of the Day (Strictly by Language Tab) ===
     function getWordOfDay() {
         const pool = WORDS_DATABASE.filter(w => w.lang === filterLang);
@@ -491,36 +595,49 @@
         if (!w) return;
         currentHeroWord = w;
         const today = new Date();
-        els.heroDate.textContent = today.toLocaleDateString(currentLang === 'ru' ? 'ru-RU' : 'en-US', {
+        const localeMap = { ru: 'ru-RU', en: 'en-US', de: 'de-DE', es: 'es-ES', it: 'it-IT', fr: 'fr-FR' };
+        els.heroDate.textContent = today.toLocaleDateString(localeMap[currentLang] || 'en-US', {
             day: 'numeric', month: 'long', year: 'numeric'
         });
         els.wodWord.textContent = w.word;
         els.wodTranscription.textContent = w.pronunciation;
-        els.wodMeaning.textContent = w.meaning;
+
+        // Adapted meaning in active language
+        const meaning = getWordMeaning(w, currentLang);
+        els.wodMeaning.textContent = meaning;
+        els.wodMeaning.dataset.origText = w.meaning;
+        if (!hasNativeTranslation(w, 'meaning', currentLang)) {
+            adaptElementText(els.wodMeaning, w.meaning, currentLang, 'meaning');
+        }
 
         // Era badge
         els.wodEra.textContent = ERA_LABELS[w.eraKey]
-            ? ERA_LABELS[w.eraKey][currentLang]
+            ? (ERA_LABELS[w.eraKey][currentLang] || ERA_LABELS[w.eraKey]['en'] || w.era)
             : w.era;
 
         // Type badge (Archaism vs Historicism)
         const typeInfo = WORD_TYPES[w.wordType] || WORD_TYPES['archaism'];
-        els.wodType.textContent = typeInfo[currentLang];
+        els.wodType.textContent = typeInfo[currentLang] || typeInfo['en'];
         els.wodType.className = 'word-type-badge ' + (w.wordType === 'historicism' ? 'historicism' : 'archaism');
 
         // Category badge
         const catInfo = THEMATIC_CATEGORIES[w.category];
         if (catInfo) {
-            els.wodCategory.textContent = catInfo[currentLang];
+            els.wodCategory.textContent = catInfo[currentLang] || catInfo['en'];
             els.wodCategory.style.display = 'inline-flex';
         } else {
             els.wodCategory.style.display = 'none';
         }
 
-        // Modern synonym pill highlight (untruncated full designation)
-        if (w.synonym) {
+        // Modern synonym pill highlight in active language
+        const synonym = getWordSynonym(w, currentLang);
+        if (synonym || w.synonym) {
             els.wodSynonymWrap.style.display = 'inline-flex';
-            els.wodSynonym.textContent = w.synonym;
+            els.wodSynonym.textContent = synonym || w.synonym;
+            els.wodSynonym.dataset.origText = w.synonym;
+            if (!hasNativeTranslation(w, 'synonym', currentLang) && w.synonym) {
+                adaptElementText(els.wodSynonym, w.synonym, currentLang, 'synonym');
+            }
         } else {
             els.wodSynonymWrap.style.display = 'none';
         }
@@ -614,10 +731,14 @@
 
         const matches = WORDS_DATABASE.filter(w => {
             if (filterLang && w.lang !== filterLang) return false;
+            const meaning = getWordMeaning(w, currentLang);
+            const synonym = getWordSynonym(w, currentLang);
             return (
                 w.word.toLowerCase().includes(query) ||
                 (w.synonym && w.synonym.toLowerCase().includes(query)) ||
+                (synonym && synonym.toLowerCase().includes(query)) ||
                 w.meaning.toLowerCase().includes(query) ||
+                (meaning && meaning.toLowerCase().includes(query)) ||
                 (w.tags && w.tags.some(t => t.toLowerCase().includes(query)))
             );
         });
@@ -635,20 +756,21 @@
         const topMatches = matches.slice(0, 6);
         let html = '<div class="live-search-list">';
         topMatches.forEach(w => {
-            const isRu = w.lang === 'ru';
-            const typeLabel = w.wordType === 'historicism' 
-                ? (isRu ? 'Историзм' : 'Historicism')
-                : (isRu ? 'Архаизм' : 'Archaism');
+            const typeInfo = WORD_TYPES[w.wordType] || WORD_TYPES['archaism'];
+            const typeLabel = typeInfo[currentLang] || typeInfo['en'];
+            const eraLabel = ERA_LABELS[w.eraKey] ? (ERA_LABELS[w.eraKey][currentLang] || w.era) : w.era;
+            const meaning = getWordMeaning(w, currentLang);
+            const synonym = getWordSynonym(w, currentLang);
             html += `
                 <div class="live-search-item" data-word="${encodeURIComponent(w.word)}" data-lang="${w.lang}">
                     <div class="live-item-header">
                         <span class="live-item-word">${w.word}</span>
                         <span class="live-item-transcription">${w.pronunciation || ''}</span>
                         <span class="live-item-type ${w.wordType}">${typeLabel}</span>
-                        <span class="live-item-era">${w.era}</span>
+                        <span class="live-item-era">${eraLabel}</span>
                     </div>
-                    ${w.synonym ? `<div class="live-item-synonym">✨ <strong>${w.synonym}</strong></div>` : ''}
-                    <div class="live-item-meaning">${w.meaning}</div>
+                    ${(synonym || w.synonym) ? `<div class="live-item-synonym">✨ <strong>${synonym || w.synonym}</strong></div>` : ''}
+                    <div class="live-item-meaning">${meaning}</div>
                 </div>
             `;
         });
@@ -702,13 +824,17 @@
             // Era filter
             if (filterEra !== 'all' && w.eraKey !== filterEra) return false;
 
-            // Search query (matches word, synonym, meaning, or tags)
+            // Search query (matches word, synonym, meaning, or tags in both original and active languages)
             if (searchQuery) {
                 const q = searchQuery.toLowerCase();
+                const meaning = getWordMeaning(w, currentLang);
+                const synonym = getWordSynonym(w, currentLang);
                 return (
                     w.word.toLowerCase().includes(q) ||
                     (w.synonym && w.synonym.toLowerCase().includes(q)) ||
+                    (synonym && synonym.toLowerCase().includes(q)) ||
                     w.meaning.toLowerCase().includes(q) ||
+                    (meaning && meaning.toLowerCase().includes(q)) ||
                     (w.tags && w.tags.some(tag => tag.toLowerCase().includes(q)))
                 );
             }
@@ -778,17 +904,20 @@
         card.dataset.id = w.id;
 
         const eraLabel = ERA_LABELS[w.eraKey]
-            ? ERA_LABELS[w.eraKey][currentLang]
+            ? (ERA_LABELS[w.eraKey][currentLang] || ERA_LABELS[w.eraKey]['en'] || w.era)
             : w.era;
 
         const isHistoricism = w.wordType === 'historicism';
-        const typeLabel = isHistoricism 
-            ? (currentLang === 'ru' ? 'Историзм' : 'Historicism')
-            : (currentLang === 'ru' ? 'Архаизм' : 'Archaism');
+        const typeInfo = WORD_TYPES[w.wordType] || WORD_TYPES['archaism'];
+        const typeLabel = typeInfo[currentLang] || typeInfo['en'];
 
         const communityBadge = w.isCommunity 
             ? `<span class="card-community-badge">🌟 ${currentLang === 'ru' ? 'Народное' : 'Community'}</span>` 
             : '';
+
+        const meaning = getWordMeaning(w, currentLang);
+        const synonym = getWordSynonym(w, currentLang);
+        const synLabelPrefix = currentLang === 'ru' ? 'Аналог: ' : (currentLang === 'de' ? 'Entsprechung: ' : (currentLang === 'es' ? 'Equivalente: ' : (currentLang === 'fr' ? 'Équivalent : ' : (currentLang === 'it' ? 'Equivalente: ' : 'Equivalent: '))));
 
         card.innerHTML = `
             <div class="word-card-header">
@@ -807,18 +936,28 @@
 
             <p class="word-card-pronunciation">${w.pronunciation}</p>
 
-            ${w.synonym ? `
+            ${(synonym || w.synonym) ? `
             <div class="word-card-synonym">
                 <span>🔄</span>
-                <span>${currentLang === 'ru' ? 'Аналог: ' : 'Equivalent: '}<strong>${w.synonym}</strong></span>
+                <span>${synLabelPrefix}<strong class="card-synonym-text" data-orig-text="${w.synonym}">${synonym || w.synonym}</strong></span>
             </div>` : ''}
 
-            <p class="word-card-meaning">${w.meaning}</p>
+            <p class="word-card-meaning" data-orig-text="${w.meaning}">${meaning}</p>
             <div class="word-card-footer">
                 <span class="word-card-source">${w.source}</span>
                 <span class="word-card-arrow">→</span>
             </div>
         `;
+
+        // Async adaptation for non-native translations
+        if (!hasNativeTranslation(w, 'meaning', currentLang)) {
+            const mEl = card.querySelector('.word-card-meaning');
+            if (mEl) adaptElementText(mEl, w.meaning, currentLang, 'meaning');
+        }
+        if (!hasNativeTranslation(w, 'synonym', currentLang) && w.synonym) {
+            const sEl = card.querySelector('.card-synonym-text');
+            if (sEl) adaptElementText(sEl, w.synonym, currentLang, 'synonym');
+        }
 
         // Quick copy button (copies exclusively w.word)
         const copyBtn = card.querySelector('.word-quick-copy');
@@ -836,17 +975,21 @@
     // === Word Details Modal ===
     function openModal(w) {
         const eraLabel = ERA_LABELS[w.eraKey]
-            ? ERA_LABELS[w.eraKey][currentLang]
+            ? (ERA_LABELS[w.eraKey][currentLang] || ERA_LABELS[w.eraKey]['en'] || w.era)
             : w.era;
 
         const isHistoricism = w.wordType === 'historicism';
         const typeInfo = WORD_TYPES[w.wordType] || WORD_TYPES['archaism'];
-        const typeDesc = currentLang === 'ru' ? typeInfo.descRu : typeInfo.descEn;
+        const typeDesc = currentLang === 'ru' ? typeInfo.descRu : (typeInfo['desc' + currentLang.toUpperCase()] || typeInfo.descEn);
+
+        const meaning = getWordMeaning(w, currentLang);
+        const synonym = getWordSynonym(w, currentLang);
+        const etymology = getWordEtymology(w, currentLang);
 
         els.modalContent.innerHTML = `
             <div class="word-meta-badges">
                 <span class="word-era-badge">${eraLabel}</span>
-                <span class="word-type-badge ${isHistoricism ? 'historicism' : 'archaism'}">${typeInfo[currentLang]}</span>
+                <span class="word-type-badge ${isHistoricism ? 'historicism' : 'archaism'}">${typeInfo[currentLang] || typeInfo['en']}</span>
                 ${w.isCommunity ? `<span class="card-community-badge">🌟 ${currentLang === 'ru' ? 'Добавлено читателем' : 'Community Contribution'}</span>` : ''}
             </div>
 
@@ -859,17 +1002,17 @@
 
             <p class="word-transcription">${w.pronunciation}</p>
 
-            ${w.synonym ? `
+            ${(synonym || w.synonym) ? `
             <div class="modal-synonym-box">
                 <span style="font-size: 1.5rem;">✨</span>
                 <div>
                     <div class="modal-synonym-title">${t('synonymLabel')}</div>
-                    <div class="modal-synonym-text">${w.synonym}</div>
+                    <div class="modal-synonym-text" data-orig-text="${w.synonym}">${synonym || w.synonym}</div>
                     <small style="color: var(--text-muted); font-size: 0.8rem;">${typeDesc}</small>
                 </div>
             </div>` : ''}
 
-            <p class="word-meaning">${w.meaning}</p>
+            <p class="word-meaning" data-orig-text="${w.meaning}">${meaning}</p>
 
             <blockquote class="word-quote">
                 <p>${w.quote}</p>
@@ -878,7 +1021,7 @@
 
             <div class="word-etymology">
                 <h4>📜 ${t('etymology')}</h4>
-                <p>${w.etymology}</p>
+                <p class="modal-etymology-text" data-orig-text="${w.etymology}">${etymology}</p>
             </div>
 
             <div class="word-usage">
@@ -886,6 +1029,19 @@
                 <p>${w.usage}</p>
             </div>
         `;
+
+        if (!hasNativeTranslation(w, 'meaning', currentLang)) {
+            const mEl = els.modalContent.querySelector('.word-meaning');
+            if (mEl) adaptElementText(mEl, w.meaning, currentLang, 'meaning');
+        }
+        if (!hasNativeTranslation(w, 'synonym', currentLang) && w.synonym) {
+            const sEl = els.modalContent.querySelector('.modal-synonym-text');
+            if (sEl) adaptElementText(sEl, w.synonym, currentLang, 'synonym');
+        }
+        if (!hasNativeTranslation(w, 'etymology', currentLang) && w.etymology) {
+            const eEl = els.modalContent.querySelector('.modal-etymology-text');
+            if (eEl) adaptElementText(eEl, w.etymology, currentLang, 'etymology');
+        }
 
         const modalCopy = els.modalContent.querySelector('#modalCopyBtn');
         if (modalCopy) {
@@ -932,18 +1088,18 @@
         els.quizWordText.textContent = targetWord.word;
         els.quizWordPron.textContent = targetWord.pronunciation;
         els.quizWordEra.textContent = ERA_LABELS[targetWord.eraKey]
-            ? ERA_LABELS[targetWord.eraKey][currentLang]
+            ? (ERA_LABELS[targetWord.eraKey][currentLang] || ERA_LABELS[targetWord.eraKey]['en'] || targetWord.era)
             : targetWord.era;
-        els.quizWordType.textContent = (WORD_TYPES[targetWord.wordType] || WORD_TYPES['archaism'])[currentLang];
+        els.quizWordType.textContent = (WORD_TYPES[targetWord.wordType] || WORD_TYPES['archaism'])[currentLang] || 'Archaism';
 
         if (quizMode === 'synonym') {
-            els.quizPrompt.textContent = currentLang === 'ru'
+            els.quizPrompt.textContent = t('quizPromptSynonym') || (currentLang === 'ru'
                 ? 'Подберите верный современный синоним:'
-                : 'Select the correct modern equivalent:';
+                : 'Select the correct modern equivalent:');
         } else {
-            els.quizPrompt.textContent = currentLang === 'ru'
+            els.quizPrompt.textContent = t('quizPromptMeaning') || (currentLang === 'ru'
                 ? 'Выберите правильное значение слова:'
-                : 'Choose the correct meaning of this word:';
+                : 'Choose the correct meaning of this word:');
         }
 
         // Generate 3 distractors from the same language
@@ -957,12 +1113,19 @@
             }
         }
 
-        // Build 4 choices
+        // Build 4 choices with localized text
+        const getChoiceText = (item) => {
+            if (quizMode === 'synonym') {
+                return getWordSynonym(item, currentLang) || item.synonym;
+            }
+            return getWordMeaning(item, currentLang) || item.meaning;
+        };
+
         const choices = [
-            { isCorrect: true, text: quizMode === 'synonym' ? targetWord.synonym : targetWord.meaning },
-            { isCorrect: false, text: quizMode === 'synonym' ? distractors[0].synonym : distractors[0].meaning },
-            { isCorrect: false, text: quizMode === 'synonym' ? distractors[1].synonym : distractors[1].meaning },
-            { isCorrect: false, text: quizMode === 'synonym' ? distractors[2].synonym : distractors[2].meaning }
+            { isCorrect: true, text: getChoiceText(targetWord) },
+            { isCorrect: false, text: getChoiceText(distractors[0]) },
+            { isCorrect: false, text: getChoiceText(distractors[1]) },
+            { isCorrect: false, text: getChoiceText(distractors[2]) }
         ];
 
         // Shuffle choices
@@ -1000,26 +1163,30 @@
             quizScore += 10;
             quizStreak += 1;
             els.quizFeedbackBanner.className = 'quiz-feedback-banner correct';
-            els.quizFeedbackBanner.textContent = currentLang === 'ru' 
+            els.quizFeedbackBanner.textContent = t('quizFeedbackCorrect') || (currentLang === 'ru' 
                 ? '🎉 Великолепно! Правильный ответ!' 
-                : '🎉 Splendid! That is correct!';
-            showToast('🔥 ' + (currentLang === 'ru' ? 'Серия: ' : 'Streak: ') + quizStreak);
+                : '🎉 Splendid! That is correct!');
+            showToast('🔥 ' + (t('streak') || 'Streak') + ': ' + quizStreak);
         } else {
             clickedBtn.classList.add('wrong');
             quizStreak = 0;
             els.quizFeedbackBanner.className = 'quiz-feedback-banner wrong';
-            els.quizFeedbackBanner.textContent = currentLang === 'ru' 
+            els.quizFeedbackBanner.textContent = t('quizFeedbackWrong') || (currentLang === 'ru' 
                 ? 'Не совсем так, но это отличный повод запомнить!' 
-                : 'Not quite, but now you know the ancient word!';
+                : 'Not quite, but now you know the ancient word!');
         }
 
         els.quizScore.textContent = quizScore;
         els.quizStreak.textContent = quizStreak;
 
-        // Explanation reveal
+        // Explanation reveal in active language
+        const wordMeaning = getWordMeaning(word, currentLang);
+        const wordSynonym = getWordSynonym(word, currentLang);
+        const synLabelPrefix = currentLang === 'ru' ? 'Современный аналог' : (currentLang === 'de' ? 'Moderne Entsprechung' : (currentLang === 'es' ? 'Equivalente moderno' : (currentLang === 'fr' ? 'Équivalent moderne' : (currentLang === 'it' ? 'Equivalente moderno' : 'Modern equivalent'))));
+
         els.quizExplanation.innerHTML = `
-            <p><strong>${word.word}</strong> - ${word.meaning}</p>
-            ${word.synonym ? `<p>✨ <em>${currentLang === 'ru' ? 'Современный аналог' : 'Modern equivalent'}:</em> <strong>${word.synonym}</strong></p>` : ''}
+            <p><strong>${word.word}</strong> - ${wordMeaning}</p>
+            ${(wordSynonym || word.synonym) ? `<p>✨ <em>${synLabelPrefix}:</em> <strong>${wordSynonym || word.synonym}</strong></p>` : ''}
             <blockquote style="margin-top: 8px; font-style: italic; color: var(--text-muted); font-size: 0.88rem;">${word.quote} (${word.source})</blockquote>
         `;
 

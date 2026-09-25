@@ -3,9 +3,10 @@ const path = require('path');
 
 const rootDir = path.join(__dirname, '..');
 
-// Load words_ru.js
+// Load words_ru.js, words_en.js, words_extra.js, data.js
 const ruCode = fs.readFileSync(path.join(rootDir, 'words_ru.js'), 'utf8');
 const enCode = fs.readFileSync(path.join(rootDir, 'words_en.js'), 'utf8');
+const extraCode = fs.readFileSync(path.join(rootDir, 'words_extra.js'), 'utf8');
 const dataCode = fs.readFileSync(path.join(rootDir, 'data.js'), 'utf8');
 
 // Evaluate in a unified context
@@ -13,9 +14,11 @@ const context = {};
 const evalFn = new Function('ctx', `
   ${ruCode}
   ${enCode}
+  ${extraCode}
   ${dataCode}
   ctx.RU_WORDS = RU_WORDS;
   ctx.EN_WORDS = EN_WORDS;
+  ctx.EXTRA_WORDS = EXTRA_WORDS;
   ctx.WORDS_DATABASE = WORDS_DATABASE;
   ctx.ERA_LABELS = ERA_LABELS;
   ctx.UI_STRINGS = UI_STRINGS;
