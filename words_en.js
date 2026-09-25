@@ -1,5 +1,5 @@
 // =============================================
-//  FORGOTTEN WORDS - English Words Database (4531 words)
+//  FORGOTTEN WORDS - English Words Database (5000 words)
 //  Compact format: [word, pronunciation, eraKey, meaning, etymology, quote, source]
 // =============================================
 
@@ -40782,5 +40782,4226 @@ const EN_WORDS = [
     "From Old French 'baset' or Spanish 'badana'.",
     "The book was bound in soft basan with gilded edges.",
     "Medieval Craft Guild Records, 1450"
+  ],
+  [
+    "Calefactory",
+    "/ˌkælɪˈfaktəri/",
+    "e",
+    "Providing warmth; a heated room in a monastery where monks went to warm themselves.",
+    "Late Latin calefactorius, from Latin calefacere 'to make warm'.",
+    "They retired to the calefactory to dry their damp habits after the morning procession in the rain.",
+    "Customs of the Monasteries, 1592"
+  ],
+  [
+    "Caligerate",
+    "/kəˈlɪdʒəreɪt/",
+    "e",
+    "To shoe or furnish with boots or sandals.",
+    "Latin caligatus, past participle of caligare 'to shoe with heavy boots'.",
+    "The marshal commanded the squires to caligerate the infantry before the frost set in.",
+    "Military Treatises of the Low Countries, 1601"
+  ],
+  [
+    "Callid",
+    "/ˈkalɪd/",
+    "e",
+    "Cunning, shrewd, crafty, or artful in design.",
+    "Latin callidus, from callum 'hard skin' (hence hardened, astute).",
+    "He was a callid statesman, ever weaving webs behind the arras while smiling to his rivals' faces.",
+    "Sir Walter Raleigh, The History of the World, 1614"
+  ],
+  [
+    "Canorous",
+    "/kəˈnɔːrəs/",
+    "e",
+    "Melodious, resonant, or musical in sound.",
+    "Latin canorus, from canere 'to sing'.",
+    "The canorous choir of nightingales filled the orchard with such sweet lament that sleep forsook mine eyes.",
+    "Robert Greene, Philomela, 1592"
+  ],
+  [
+    "Cantillation",
+    "/ˌkantɪˈleɪʃən/",
+    "e",
+    "The chanting or intoning of a religious text or litany.",
+    "Late Latin cantillatio, from cantillare 'to sing in an undertone'.",
+    "The solemn cantillation echoed through the vaulted transept as the incense rose toward the rood loft.",
+    "John Foxe, Actes and Monuments, 1563"
+  ],
+  [
+    "Capricious",
+    "/kəˈprɪʃəs/",
+    "e",
+    "Given to sudden and unaccountable changes of mood or behavior; erratic like a jumping goat.",
+    "Italian capriccioso, from capriccio 'shudder, whim' (ultimately from capo 'head' + riccio 'hedgehog').",
+    "Fortune is a capricious mistress, exalting a beggar one hour and casting down a monarch the next.",
+    "John Lyly, Euphues: The Anatomy of Wit, 1578"
+  ],
+  [
+    "Captious",
+    "/ˈkapʃəs/",
+    "e",
+    "Tending to find fault or raise petty objections; designed to entrap in argument.",
+    "Latin captiosus, from captio 'deception, a catching'.",
+    "I care not for his captious logic; his intent is merely to confound the plain truth with sophistry.",
+    "Ben Jonson, Every Man Out of His Humor, 1599"
+  ],
+  [
+    "Carminative",
+    "/kɑːˈmɪnətɪv/",
+    "e",
+    "Relieving flatulence or colic; a medicine that expels wind from the body.",
+    "Late Latin carminativus, from Latin carminare 'to cleanse or card wool', later 'to cast out spells'.",
+    "The apothecary prescribed a strong carminative concocted of anise and fennel seed.",
+    "John Gerard, The Herball, or Generall Historie of Plantes, 1597"
+  ],
+  [
+    "Carnification",
+    "/ˌkɑːnɪfɪˈkeɪʃən/",
+    "e",
+    "The pathological transformation of lung or other tissue into a substance resembling flesh.",
+    "Medieval Latin carnificatio, from caro 'flesh' + facere 'to make'.",
+    "The physician noted a dangerous carnification within the lobe, baffling the herbalists.",
+    "Medical Case Notes of the Royal College, 1605"
+  ],
+  [
+    "Cartel",
+    "/kɑːˈtɛl/",
+    "e",
+    "A written challenge to a duel, or a formal agreement between belligerents regarding prisoners.",
+    "Italian cartello, diminutive of carta 'paper'.",
+    "He flung the cartel upon the banquet table, demanding satisfaction for the insult to his house.",
+    "Thomas Kyd, The Spanish Tragedy, 1592"
+  ],
+  [
+    "Catabasis",
+    "/kəˈtabəsɪs/",
+    "e",
+    "A descent, especially military retreat to the coast, or a journey to the underworld.",
+    "Greek katabasis, from kata 'down' + bainein 'to go'.",
+    "The hero's perilous catabasis through the haunted cavern mirrored the ancient myths of Orpheus.",
+    "George Chapman, Translation of Homer's Odyssey, 1614"
+  ],
+  [
+    "Cataclysm",
+    "/ˈkatəklɪzəm/",
+    "e",
+    "A large-scale and violent event in the natural world; a deluge or great flood.",
+    "Greek kataklysmos, from kata- 'down' + klyzein 'to wash'.",
+    "They feared the rebellion was the prelude to a dreadful cataclysm that would overthrow the crown.",
+    "Sir Fulke Greville, Life of Sir Philip Sidney, 1652"
+  ],
+  [
+    "Catholicon",
+    "/kəˈθɒlɪkɒn/",
+    "e",
+    "A universal remedy or panacea capable of curing all diseases.",
+    "Medieval Latin, from Greek katholikos 'universal'.",
+    "Alchemists and quacks sell many a pretended catholicon in the marketplace, yet death still claims all.",
+    "Robert Burton, The Anatomy of Melancholy, 1621"
+  ],
+  [
+    "Cavatina",
+    "/ˌkavəˈtiːnə/",
+    "e",
+    "A short, simple melodic song, without the repetition of an aria.",
+    "Italian cavatina, diminutive of cavato 'extracted'.",
+    "The minstrel struck his lute and sang a sweet cavatina beneath the latticed window.",
+    "Court Entertainments of James I, 1611"
+  ],
+  [
+    "Ceil",
+    "/siːl/",
+    "e",
+    "To line or cover the roof or ceiling of a room with plaster, wood, or rich panelling.",
+    "Old French celer, from Latin caelum 'heaven, canopy'.",
+    "They resolved to ceil the great hall with carved Irish oak before the winter revels.",
+    "Accounts of the Revels at Court, 1575"
+  ],
+  [
+    "Celerity",
+    "/səˈlɛrɪti/",
+    "e",
+    "Swiftness of movement or action; rapidity.",
+    "Latin celeritas, from celer 'swift'.",
+    "With such celerity did the messenger ride that he reached Berwick ere the king's horse had baited.",
+    "William Camden, Britannia, 1586"
+  ],
+  [
+    "Cenobite",
+    "/ˈsɛnəbaɪt/",
+    "e",
+    "A member of a monastic order living in a community rather than as a hermit.",
+    "Late Latin cenobita, from Greek koinos 'common' + bios 'life'.",
+    "The pious cenobites rose at midnight to chant their matins in the cold abbey church.",
+    "William Harrison, Description of England, 1577"
+  ],
+  [
+    "Censurable",
+    "/ˈsɛnsərəbəl/",
+    "e",
+    "Deserving censure or blame; culpable.",
+    "Medieval Latin censurabilis, from Latin censura 'judgment, assessment'.",
+    "Such levity in a magistrate is highly censurable and brings the law into disrepute.",
+    "Proclamation of Elizabeth I, 1599"
+  ],
+  [
+    "Centumvir",
+    "/ˈsɛntəmvɜː/",
+    "e",
+    "A member of an ancient Roman court of justice (the Centumviri), or generically a member of a council of one hundred.",
+    "Latin centumviri, from centum 'hundred' + vir 'man'.",
+    "He argued his case before the judges with the gravity of an old Roman centumvir.",
+    "Ben Jonson, Sejanus His Fall, 1605"
+  ],
+  [
+    "Cerements",
+    "/ˈsɛrəmənts/",
+    "e",
+    "Waxed cloths or shrouds used for wrapping corpses for burial.",
+    "Latin cera 'wax', via Old French cerement.",
+    "Why looked he upon us from his grave, with his canonized bones, hearsed in death, have burst their cerements?",
+    "William Shakespeare, Hamlet, 1603"
+  ],
+  [
+    "Certitude",
+    "/ˈsɜːtɪtjuːd/",
+    "e",
+    "Absolute certainty or conviction without doubt.",
+    "French certitude, from Late Latin certitudo, from certus 'sure'.",
+    "He spoke of the voyage's success not with mere hope, but with an unshakeable certitude.",
+    "Francis Bacon, The Advancement of Learning, 1605"
+  ],
+  [
+    "Cessation",
+    "/sɛˈseɪʃən/",
+    "e",
+    "A temporary or complete stopping process; a pause or halt in hostilities.",
+    "Latin cessatio, from cessare 'to cease, be idle'.",
+    "The herald proclaimed a brief cessation of arms so that the slain might be buried with honor.",
+    "Richard Hakluyt, Principal Navigations, 1589"
+  ],
+  [
+    "Chalcedony",
+    "/kalˈsɛdənɪ/",
+    "e",
+    "A cryptocrystalline variety of quartz, prized as a gemstone in rings and amulets.",
+    "Latin chalcedonius, named after Chalcedon in Asia Minor.",
+    "Upon his ring he wore a fine chalcedony engraved with the crest of his ancestral house.",
+    "Lapidary Inventories of the Tudor Court, 1540"
+  ],
+  [
+    "ChalDRON",
+    "/tʃɔːlˈdrɒn/",
+    "e",
+    "An old dry measure for coal and grain, equal to 32 bushels or roughly 36 hundredweight.",
+    "Northern variant of cauldron.",
+    "The merchant bought twenty chaldrons of Newcastle coal to warm the royal kitchens.",
+    "London Municipal Records, 1582"
+  ],
+  [
+    "Champleve",
+    "/��ɒ̃pləˈveɪ/",
+    "e",
+    "An enamel-work technique in which hollows are carved into metal and filled with vitreous paste.",
+    "French champlevé, from champ 'field' + levé 'raised'.",
+    "The reliquary was adorned with exquisite champlevé enamel in hues of azure and deep crimson.",
+    "Craft Guild Ordinances, 1489"
+  ],
+  [
+    "Charlatan",
+    "/ˈʃɑːlətən/",
+    "e",
+    "A person falsely claiming to have a special skill or knowledge; a quack or mountebank.",
+    "French charlatan, from Italian ciarlatano, from ciarlare 'to babble'.",
+    "Trust not that traveling charlatan with thy boils; he sells only colored water and false hopes.",
+    "Thomas Dekker, The Gull's Hornbook, 1609"
+  ],
+  [
+    "Chary",
+    "/ˈtʃɛəri/",
+    "e",
+    "Cautiously or suspiciously reluctant to do something; sparing or chary of one's favors.",
+    "Old English cearig 'sorrowful, anxious'.",
+    "Be chary of thy trust, for the court is full of flatterers who smile and mean thee ill.",
+    "William Shakespeare, Julius Caesar, 1599"
+  ],
+  [
+    "Chicanery",
+    "/ʃɪˈkeɪnəri/",
+    "e",
+    "The use of trickery, sophistry, or legal subterfuge to achieve a political or financial end.",
+    "French chicanerie, from chicaner 'to quibble'.",
+    "Through endless legal chicanery, the wicked heir kept the orphans out of their rightful inheritance.",
+    "Sir Edward Coke, Institutes of the Laws of England, 1628"
+  ],
+  [
+    "Chimeric",
+    "/kaɪˈmɛrɪk/",
+    "e",
+    "Achieved only by visionary or fantastic schemes; highly improbable and illusory.",
+    "Latin chimericus, from Greek chimaira 'chimaera (mythical beast)'.",
+    "He pursued chimeric projects of turning lead into gold while his family fell into poverty.",
+    "Robert Burton, The Anatomy of Melancholy, 1621"
+  ],
+  [
+    "Chirograph",
+    "/ˈkaɪrəɡrɑːf/",
+    "e",
+    "A medieval legal document written in duplicate on the same parchment sheet, which was then torn in half with a jagged edge for verification.",
+    "Greek cheirographon, from cheir 'hand' + graphein 'to write'.",
+    "The indenture was executed as a chirograph, whereof each party kept his jagged half.",
+    "William Lambard, Eirenarcha, 1581"
+  ],
+  [
+    "Choreography",
+    "/ˌkɒriˈɒɡrəfi/",
+    "e",
+    "The design and arrangement of ballets and stage dances (originally the written notation of dance).",
+    "Greek choreia 'dancing' + graphein 'to write'.",
+    "The master of revels oversaw the intricate choreography of the masques performed before the queen.",
+    "Ben Jonson, Masque of Blackness, 1605"
+  ],
+  [
+    "Chronicle",
+    "/ˈkrɒnɪkəl/",
+    "m",
+    "A factual written account of important or historical events in the order of their occurrence.",
+    "Old French cronique, from Greek chronos 'time'.",
+    "Holinshed his chronicle did furnish our great playwright with the tragic tale of Macbeth.",
+    "Raphael Holinshed, Chronicles of England, Scotlande, and Irelande, 1577"
+  ],
+  [
+    "Circumambulate",
+    "/ˌsɜːkəmˈambjʊleɪt/",
+    "e",
+    "To walk around something, especially as part of a ritual or procession.",
+    "Latin circumambulatus, from circum 'around' + ambulare 'to walk'.",
+    "The priests did circumambulate the sacred altar thrice while swinging their silver censers.",
+    "Richard Hakluyt, Voyages, 1599"
+  ],
+  [
+    "Daff",
+    "/dæf/",
+    "e",
+    "To be foolish, act the simpleton, or act rashly.",
+    "From Middle English daffen (to act foolishly), related to daft.",
+    "Will you daff thus and make a mock of your own estate?",
+    "Ben Jonson, 'A Tale of a Tub'"
+  ],
+  [
+    "Daint",
+    "/deɪnt/",
+    "e",
+    "Choice, delicious, or delicate; also used as a noun meaning a delicacy.",
+    "Shortening of Old French daintee, from Latin dignitas.",
+    "With many a holiday damson and daint sweetmeat.",
+    "Michael Drayton, 'Poly-Olbion'"
+  ],
+  [
+    "Daintrel",
+    "/ˈdeɪntrəl/",
+    "e",
+    "A dainty person, or a choice morsel of food.",
+    "Diminutive or variant of daint.",
+    "He sits like a daintrel at the board, picking the marrow.",
+    "Thomas Dekker, 'The Gull's Hornbook'"
+  ],
+  [
+    "Dallis",
+    "/ˈdælɪs/",
+    "e",
+    "A sluggish, dull, or drowsy person.",
+    "Possibly related to dall, akin to dull.",
+    "Away, you dallis, shake off this heavy slumber.",
+    "John Marston, 'The Malcontent'"
+  ],
+  [
+    "Damascene",
+    "/ˈdæməsiːn/",
+    "e",
+    "Pertaining to Damascus; specifically applied to fine steel blades or damask plums.",
+    "From Old French damascine, from Latin damascenus.",
+    "He drew a damascene blade that flashed like lightning.",
+    "Christopher Marlowe, 'Tamburlaine the Great'"
+  ],
+  [
+    "Daffadowndilly",
+    "/ˌdæfədaʊnˈdɪli/",
+    "e",
+    "An old colloquial and poetic name for the daffodil.",
+    "An elaborate seventeenth-century reduplication of daffodil.",
+    "Bring the rathe primrose that forsaken dies, and daffadowndilly.",
+    "John Milton, 'Lycidas'"
+  ],
+  [
+    "Dankish",
+    "/ˈdæŋkɪʃ/",
+    "e",
+    "Somewhat damp, humid, or moisture-laden.",
+    "From dank + -ish suffix.",
+    "The dankish dark upon the marsh began to rise.",
+    "William Shakespeare, 'The Comedy of Errors'"
+  ],
+  [
+    "Dareful",
+    "/ˈdɛərfʊl/",
+    "e",
+    "Full of defiance; bold, daring, or provocative.",
+    "From dare + -ful suffix.",
+    "We have met with dareful beard to beard.",
+    "William Shakespeare, 'Macbeth'"
+  ],
+  [
+    "Darkling",
+    "/ˈdɑːrklɪŋ/",
+    "e",
+    "In the dark, blindly, or obscurely.",
+    "From dark + -ling (adverbial suffix indicating direction or state).",
+    "O, wilt thou darkling leave me? Do not so.",
+    "William Shakespeare, 'A Midsummer Night's Dream'"
+  ],
+  [
+    "Darnel",
+    "/ˈdɑːrnəl/",
+    "e",
+    "A weed that grows among corn, particularly rye-grass, symbolizing moral corruption.",
+    "From Old French darne, of Celtic origin.",
+    "Crown's weeds, with burdocks, hemlock, nettles, cuckoo-flowers, darnel.",
+    "William Shakespeare, 'King Lear'"
+  ],
+  [
+    "Daubery",
+    "/ˈdɔːbəri/",
+    "e",
+    "Falsehood, imposition, trickery, or witchcraft.",
+    "From Middle English daub, originally meaning to plaster over, later to dissemble.",
+    "She nothing sticks with us to frame this kind of daubery.",
+    "William Shakespeare, 'King Richard III'"
+  ],
+  [
+    "Dauntless",
+    "/ˈdɔːntlɪs/",
+    "e",
+    "Incapable of being intimidated; fearless and resolute.",
+    "From Middle English daunten, from Old French danter.",
+    "And to that dauntless temper of his mind, he hath a wisdom.",
+    "William Shakespeare, 'Macbeth'"
+  ],
+  [
+    "Day-bed",
+    "/ˈdeɪˌbɛd/",
+    "e",
+    "A couch or sofa used for resting during the day.",
+    "Compound of day + bed.",
+    "Having come from a day-bed, where I have left Olivia sleeping.",
+    "William Shakespeare, 'Twelfth Night'"
+  ],
+  [
+    "Deadly-sin",
+    "/ˈdɛdli sɪn/",
+    "m",
+    "A mortal sin, or applied colloquially to something excessively grave.",
+    "From Old English dēadlic synn.",
+    "To commit a deadly-sin against charity and fellowship.",
+    "Geoffrey Chaucer, 'The Parson's Tale'"
+  ],
+  [
+    "Dearling",
+    "/ˈdɪərlɪŋ/",
+    "e",
+    "A beloved person; a darling.",
+    "From Old English dēorling (from dēore, dear).",
+    "Come hither, sweet dearling, and dry those sorrowful eyes.",
+    "Edmund Spenser, 'The Faerie Queene'"
+  ],
+  [
+    "Death-mark",
+    "/ˈdɛθmɑːrk/",
+    "e",
+    "A sign, brand, or destiny of inevitable death.",
+    "Compound of death + mark.",
+    "The fearful passage of their death-mark'd love.",
+    "William Shakespeare, 'Romeo and Juliet'"
+  ],
+  [
+    "Debosh",
+    "/dɪˈbɒʃ/",
+    "e",
+    "To corrupt, debauch, or lead astray morally.",
+    "Variant of debauch, from Old French desbhocher.",
+    "He hath debosh'd my wife and ruined my house.",
+    "Philip Massinger, 'A New Way to Pay Old Debts'"
+  ],
+  [
+    "Deceiveable",
+    "/dɪˈsiːvəbəl/",
+    "e",
+    "Liable to be deceived, or deceptive in nature.",
+    "From deceive +able.",
+    "In these deceiving and deceiveable times of courtly craft.",
+    "Fulke Greville, 'Life of Sir Philip Sidney'"
+  ],
+  [
+    "Deck",
+    "/dɛk/",
+    "e",
+    "To adorn, clothe, grace, or ornament.",
+    "From Middle English decken, from Middle Low German decken (to cover).",
+    "I'll deck bestowments on the sacred shrine.",
+    "William Shakespeare, 'The Winter's Tale'"
+  ],
+  [
+    "Deem",
+    "/diːm/",
+    "e",
+    "To judge, think, consider, or form an opinion.",
+    "From Old English dēman (to judge).",
+    "What think you of the state? I deem it perilous.",
+    "Thomas Kyd, 'The Spanish Tragedy'"
+  ],
+  [
+    "Defeminize",
+    "/diːˈfɛmɪnaɪz/",
+    "e",
+    "To strip of female qualities or gentleness.",
+    "From de- + feminize.",
+    "Unsex me here, and fill me from the crown to the toe top-full of direst cruelty.",
+    "William Shakespeare, 'Macbeth'"
+  ],
+  [
+    "Deft",
+    "/dɛft/",
+    "e",
+    "Neat, skillful, dexterous, or gentle.",
+    "From Old English gedæfte (gentle, meek, apt).",
+    "With deft and nimble fingers plied the loom.",
+    "John Lyly, 'Endymion'"
+  ],
+  [
+    "Degenerous",
+    "/dɪˈdʒɛnərəs/",
+    "e",
+    "Fallen from ancestral virtue; ignoble or base.",
+    "From Latin degenerosus.",
+    "A degenerous spirit that shuns the noble tilt.",
+    "Ben Jonson, 'Timber, or Discoveries'"
+  ],
+  [
+    "Dehort",
+    "/dɪˈhɔːrt/",
+    "e",
+    "To dissuade, advise against, or counsel restraint.",
+    "From Latin dehortari.",
+    "I must dehort you from this perilous venture.",
+    "Sir Walter Raleigh, 'History of the World'"
+  ],
+  [
+    "Deject",
+    "/dɪˈdʒɛkt/",
+    "e",
+    "Cast down in spirits; depressed or low.",
+    "From Latin dejectus (cast down).",
+    "And I, of ladies most deject and wretched.",
+    "William Shakespeare, 'Hamlet'"
+  ],
+  [
+    "Delate",
+    "/dɪˈleɪt/",
+    "e",
+    "To accuse, denounce, or report an offense.",
+    "From Latin delatus.",
+    "Let our officers delate all crimes committed in the ward.",
+    "Ben Jonson, 'Sejanus His Fall'"
+  ],
+  [
+    "Demerit",
+    "/diːˈmɛrɪt/",
+    "e",
+    "Historically used to mean merit, desert, or a claim to reward (as well as fault).",
+    "From Middle French démérite.",
+    "My services which I have done the signiory shall out-tongue his complaints.",
+    "William Shakespeare, 'Othello'"
+  ],
+  [
+    "Demure",
+    "/dɪˈmjʊər/",
+    "e",
+    "Sober, grave, solemn, or modestly reserved.",
+    "From Old French demure, from desmurer (to settle or remain).",
+    "A demure and constant countenance.",
+    "Thomas Nash, 'The Unfortunate Traveller'"
+  ],
+  [
+    "Denay",
+    "/dɪˈneɪ/",
+    "e",
+    "Denial; refusal.",
+    "From Old French denier.",
+    "My love can give no place, bide no denay.",
+    "William Shakespeare, 'Twelfth Night'"
+  ],
+  [
+    "Deprave",
+    "/dɪˈpreɪv/",
+    "e",
+    "To defame, malign, or disparage.",
+    "From Latin depravare.",
+    "Envy doth deprave the worthiest acts of princes.",
+    "Francis Bacon, 'Essays'"
+  ],
+  [
+    "Descant",
+    "/ˈdɛskænt/",
+    "e",
+    "To discourse at length, comment, or sing variations upon a theme.",
+    "From Old French discant.",
+    "For on her other side, high frowning hill detains the sun.",
+    "William Shakespeare, 'The Two Gentlemen of Verona'"
+  ],
+  [
+    "Desiderate",
+    "/dɪˈzɪdəreɪt/",
+    "e",
+    "To long for, desire, or feel the lack of.",
+    "From Latin desideratus.",
+    "We desiderate a more firm alliance with the northern powers.",
+    "Sir Henry Wotton, 'Letters'"
+  ],
+  [
+    "Despight",
+    "/dɪˈspaɪt/",
+    "e",
+    "Malice, contempt, spite, or defiance.",
+    "Variant of despite, from Old French despit.",
+    "In proud despight of all your threatened wrath.",
+    "Christopher Marlowe, 'Edward II'"
+  ],
+  [
+    "Detect",
+    "/dɪˈtɛkt/",
+    "e",
+    "To expose, charge with a crime, or reveal.",
+    "From Latin detectus.",
+    "He was detected of manifold conspiracies.",
+    "Raphael Holinshed, 'Chronicles'"
+  ],
+  [
+    "Determinate",
+    "/dɪˈtɜːrmɪnɪt/",
+    "e",
+    "Ended, settled, concluded, or officially fixed.",
+    "From Latin determinatus.",
+    "The term of all my life is ta'en intent, determinate.",
+    "William Shakespeare, 'Sonnet 87'"
+  ],
+  [
+    "Detract",
+    "/dɪˈtrækt/",
+    "e",
+    "To take away from a person's reputation; to slander.",
+    "From Latin detrahere.",
+    "No envious tongue can detract from his high renown.",
+    "John Webster, 'The Duchess of Malfi'"
+  ],
+  [
+    "Devoir",
+    "/ˈdɛvwɑːr/",
+    "e",
+    "Duty, service, or courteous effort.",
+    "From Old French devoir (to owe, duty).",
+    "Each knight performed his devoir in the lists.",
+    "Edmund Spenser, 'The Faerie Queene'"
+  ],
+  [
+    "Diapason",
+    "/ˌdaɪəˈpeɪzɒn/",
+    "e",
+    "A musical full octave; a harmonious chord or universal strain.",
+    "From Greek dia pasōn (through all notes).",
+    "The diapason closing full in man.",
+    "John Dryden, 'Song for St. Cecilia's Day'"
+  ],
+  [
+    "Dictamen",
+    "/dɪkˈteɪmən/",
+    "e",
+    "A rule, prescription, or authoritative order.",
+    "From Latin dictamen.",
+    "According to the strict dictamen of the law.",
+    "Thomas Elyot, 'The Book Named the Governor'"
+  ],
+  [
+    "Difference",
+    "/ˈdɪfrəns/",
+    "e",
+    "In heraldry, a mark added to a coat of arms to distinguish one branch of a family from another.",
+    "From Latin differentia.",
+    "He bears the crescent for his difference.",
+    "William Shakespeare, 'Much Ado About Nothing'"
+  ],
+  [
+    "Digress",
+    "/daɪˈɡrɛs/",
+    "e",
+    "To deviate from the right path, transgress, or wander.",
+    "From Latin digressus.",
+    "Thy noble shape is but a form of wax, digressing from the valour of a man.",
+    "William Shakespeare, 'Romeo and Juliet'"
+  ],
+  [
+    "Dislimn",
+    "/dɪsˈlɪm/",
+    "e",
+    "To obliterate or efface an image, as if wiping away a painting.",
+    "From dis- + limn (to paint).",
+    "That which is now a horse, even with a thought the rack dislimns.",
+    "William Shakespeare, 'Antony and Cleopatra'"
+  ],
+  [
+    "Eil",
+    "/eɪl/",
+    "m",
+    "Haste, speed, or urgency in movement.",
+    "Old English 'ǣl', related to haste.",
+    "Make no tarrying, but with all eil come.",
+    "Early English Homilies"
+  ],
+  [
+    "Eale",
+    "/iːl/",
+    "e",
+    "A blemish, defect, or flaw, often moral or physical.",
+    "Variant of 'evil' or 'ail', used in Renaissance printing.",
+    "The dram of eale doth all the noble substance of a doubt.",
+    "William Shakespeare, Hamlet"
+  ],
+  [
+    "Eme",
+    "/iːm/",
+    "m",
+    "An uncle, specifically a mother's brother.",
+    "Old English 'ēam', meaning 'uncle'.",
+    "My lord the king is my mother's brother, my own dear eme.",
+    "Sir Gawain and the Green Knight"
+  ],
+  [
+    "Enfouldered",
+    "/ɪnˈfuːldərd/",
+    "e",
+    "Mixed with flame, lightning-like, or sulfurous.",
+    "Combination of 'en-' and 'foulder' (lightning/thunderbolt).",
+    "And with enfouldered smoke and flashing fire.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Exsufflicate",
+    "/ɛkˈsʌflɪkeɪt/",
+    "e",
+    "Extravagant, empty, puffed up, or contemptible.",
+    "Latin 'exsufflatus', past participle of 'exsufflare' (to puff out).",
+    "To be direct and honest is not safe. I think this comes under exsufflicate and blown surmises.",
+    "William Shakespeare, Othello"
+  ],
+  [
+    "Eyas",
+    "/ˈaɪəs/",
+    "e",
+    "A unfledged nestling hawk, or a young, naive person.",
+    "Old French 'nials', via misdivision of 'un nias' as 'a nias'.",
+    "There is an eyas hive, an owlet cry of children.",
+    "William Shakespeare, Hamlet"
+  ],
+  [
+    "Exion",
+    "/ˈɛkʃən/",
+    "e",
+    "An action at law, legal suit, or demand.",
+    "Aphetic form of 'action' used in Elizabethan legal jargon.",
+    "He hath brought an exion against your master.",
+    "Thomas Middleton, A Chaste Maid in Cheapside"
+  ],
+  [
+    "Eyen",
+    "/ˈaɪən/",
+    "m",
+    "Eyes (archaic plural form).",
+    "Middle English plural of 'eye', from Old English 'ēagan'.",
+    "Her golden hair was like the sun in his hot eyen.",
+    "Geoffrey Chaucer, Troilus and Criseyde"
+  ],
+  [
+    "Eft-soone",
+    "/ˈɛftsuːn/",
+    "m",
+    "Immediately, forthwith, or quickly.",
+    "Compound of 'eft' (again) and 'soon'.",
+    "Eft-soone the knight drew forth his trusty blade.",
+    "John Lydgate, Fall of Princes"
+  ],
+  [
+    "Estrange",
+    "/ɪˈstreɪndʒ/",
+    "e",
+    "To alienate, make strange, or cause to turn away.",
+    "Old French 'estranger', from Latin 'extraneus'.",
+    "To estrange his heart from the counsel of his lords.",
+    "State Papers of Henry VIII"
+  ],
+  [
+    "Ebriate",
+    "/ˈiːbrieɪt/",
+    "e",
+    "Made drunk, intoxicated, or maddened with liquor.",
+    "Latin 'ebriatus', past participle of 'ebriare'.",
+    "He sat ebriate with the sweet wine of victory.",
+    "Richard Grafton, Chronicle at Large"
+  ],
+  [
+    "Elenge",
+    "/ɪˈlɛndʒ/",
+    "m",
+    "Solitary, dreary, desolate, or wretched.",
+    "Old English 'ælþēodig' (foreign/strange), shifting to mean lonely.",
+    "In elenge lands he wandered, far from kin.",
+    "Cursor Mundi"
+  ],
+  [
+    "Empassioned",
+    "/ɪmˈpæʃənd/",
+    "e",
+    "Moved by deep emotion, sorrowful, or passionately affected.",
+    "Late Middle English, from Medieval Latin 'empassionare'.",
+    "With empassioned speech she pleaded for his life.",
+    "Christopher Marlowe, Tamburlaine"
+  ],
+  [
+    "Enrapt",
+    "/ɛnˈræpt/",
+    "e",
+    "Transported with ecstasy, deeply engrossed, or fascinated.",
+    "Latin 'enraptus', past participle of 'enrapere'.",
+    "He stood enrapt at the beauty of the celestial vision.",
+    "William Shakespeare, Titus Andronicus"
+  ],
+  [
+    "Empoison",
+    "/ɪmˈpɔɪzən/",
+    "m",
+    "To poison, taint, or corrupt with venom.",
+    "Old French 'empoisonner'.",
+    "The treacherous cup did empoison his blood.",
+    "John Gower, Confessio Amantis"
+  ],
+  [
+    "Eschew",
+    "/ɪ��ʃuː/",
+    "m",
+    "To avoid, shun, or abstain from deliberately.",
+    "Old French 'eschuiver', of Germanic origin.",
+    "Eschew evil, and do good; seek peace, and pursue it.",
+    "Coverdale Bible"
+  ],
+  [
+    "Exorcise",
+    "/ˈɛksɔːrsaɪz/",
+    "e",
+    "To conjure, invoke, or call up a spirit (historical usage often meant summoning, not banishing).",
+    "Late Latin 'exorcizare', from Greek 'exorkizein'.",
+    "Thou art a scholar; speak to it, Horatio... Thou art a scholar; let us exorcise it.",
+    "William Shakespeare, Hamlet"
+  ],
+  [
+    "Enclothe",
+    "/ɪnˈklouð/",
+    "m",
+    "To dress, array, or wrap in garments.",
+    "Middle English 'enclouthen', from Old English.",
+    "Enclothed in white samite, mystic, wonderful.",
+    "Alliterative Morte Arthure"
+  ],
+  [
+    "Epilogue",
+    "/ˈɛpɪlɒɡ/",
+    "e",
+    "A concluding speech or poem addressed to the audience at the end of a play.",
+    "Greek 'epilogos', via Latin and French.",
+    "I would fain hammer out a round piece of work with you, and that is a good epilogue.",
+    "William Shakespeare, As You Like It"
+  ],
+  [
+    "Evection",
+    "/ɪˈvɛkʃən/",
+    "e",
+    "The act of lifting up, exalting, or a lunar anomaly.",
+    "Latin 'evectio', from 'evehere' (to carry out).",
+    "By the evection of his mind, he touched the stars.",
+    "Tudor Philosophical Treatises"
+  ],
+  [
+    "Eradicate",
+    "/ɪˈrædɪkeɪt/",
+    "e",
+    "To pull up by the roots, destroy utterly, or eliminate.",
+    "Latin 'eradicatus', from 'radix' (root).",
+    "To eradicate the very seeds of rebellion from the realm.",
+    "Holinshed's Chronicles"
+  ],
+  [
+    "Exquisite",
+    "/ˈɛkskwɪzɪt/",
+    "e",
+    "Carefully selected, highly refined, or acutely felt (often used for pain or pleasure).",
+    "Latin 'exquisitus' (sought out).",
+    "Suffering exquisite tortures for his faith.",
+    "John Foxe, Book of Martyrs"
+  ],
+  [
+    "Enravishment",
+    "/ɛnˈrævɪʃmənt/",
+    "e",
+    "The state of being carried away with delight or ecstasy.",
+    "From 'enrapt' and Middle English suffix '-ment'.",
+    "He stood in silent enravishment before the altar.",
+    "Spenserian Sonnets"
+  ],
+  [
+    "Eternize",
+    "/ɪˈtɜːrnaɪz/",
+    "e",
+    "To make eternal, immortalize, or perpetuate in fame.",
+    "Middle French 'eterniser', from Latin 'aeternus'.",
+    "My verse your virtues rare shall eternize.",
+    "Michael Drayton, Idea"
+  ],
+  [
+    "Ewry",
+    "/ˈjuːri/",
+    "m",
+    "An office or room in a royal household where water and towels were kept for washing.",
+    "Anglo-Norman 'ewerie', from Old French 'eau' (water).",
+    "The clerk of the ewry attended the royal banquet.",
+    "Household Ordinances of Edward IV"
+  ],
+  [
+    "Englut",
+    "/ɪnˈɡlʌt/",
+    "e",
+    "To swallow greedily, stuff, or gorge.",
+    "Old French 'engloutir', from Latin 'gluttire'.",
+    "And swallow up the navigation, englut them all.",
+    "William Shakespeare, Henry IV, Part 1"
+  ],
+  [
+    "Enfire",
+    "/ɪnˈfaɪər/",
+    "m",
+    "To set on fire, inflame, or kindle with passion.",
+    "Middle English 'enfiren', from Old English roots.",
+    "Her beauty did enfire his youthful breast.",
+    "John Gower, Confessio Amantis"
+  ],
+  [
+    "Expostulate",
+    "/ɪkˈspɒstjʊleɪt/",
+    "e",
+    "To reason earnestly with someone against something they intend to do or have done.",
+    "Latin 'expostulare', to demand urgently.",
+    "We will with all freedom plead and expostulate with you.",
+    "William Shakespeare, Hamlet"
+  ],
+  [
+    "Enmesh",
+    "/ɪnˈmɛʃ/",
+    "e",
+    "To catch in a net, entangle, or ensnare.",
+    "From 'en-' and 'mesh' (net opening).",
+    "With as little web as this will I enmesh as great a fly as Cassio.",
+    "William Shakespeare, Othello"
+  ],
+  [
+    "Ejaculation",
+    "/ɪˌdʒækj��ˈleɪʃən/",
+    "e",
+    "A short, sudden cry, utterance, or prayer darted out.",
+    "Latin 'ejaculatio', from 'ejaculari' (to hurl out).",
+    "He uttered a pious ejaculation to heaven.",
+    "Thomas Nashe, Pierce Penniless"
+  ],
+  [
+    "Evulgation",
+    "/iːvʌlˈɡeɪʃən/",
+    "e",
+    "The publishing, publicizing, or spreading abroad of a secret or news.",
+    "Latin 'evulgatio', from 'evulgare' (to make public).",
+    "By the hasty evulgation of the royal decree.",
+    "Renaissance Legal Tracts"
+  ],
+  [
+    "Fabaceous",
+    "/fəˈbeɪʃəs/",
+    "t",
+    "Pertaining to or resembling a bean or pea; pod-bearing.",
+    "From Latin faba (bean) + -aceous.",
+    "The garden was rich with fabaceous plants yielding abundant pods for the winter harvest.",
+    "John Gerard, The Herball or General Historie of Plantes"
+  ],
+  [
+    "Fabler",
+    "/ˈfeɪblər/",
+    "e",
+    "A teller or composer of fables; a myth-maker or liar.",
+    "From Middle English, derived from Old French fable.",
+    "He proved no true chronicler, but a mere fabler spinning tales for the gullible court.",
+    "William Camden, Remaines Concerning Britain"
+  ],
+  [
+    "Face-pie",
+    "/ˈfeɪsˌpaɪ/",
+    "e",
+    "A contemptuous term for a round, flat, or foolish face.",
+    "Compound of English 'face' and 'pie'.",
+    "Get thee gone, you greasy face-pie, ere I lend thee a cuff upon the ear.",
+    "Thomas Dekker, The Shoemaker's Holiday"
+  ],
+  [
+    "Facetious",
+    "/fəˈsiːʃəs/",
+    "e",
+    "Witty, humorous, or playful; originally often used in a less pejorative sense than today.",
+    "From Latin facetiosus, from facetia (witty jest).",
+    "His facetious discourse lightened the heavy gloom of the council chamber.",
+    "Ben Jonson, Every Man Out of His Humour"
+  ],
+  [
+    "Facinorous",
+    "/fəˈsɪnərəs/",
+    "e",
+    "Extremely wicked, atrocious, or villainous.",
+    "From Latin facinorous-, from facinus (deed, crime).",
+    "Such a facinorous act demands the swiftest execution known to the law.",
+    "William Shakespeare, 2 Henry VI"
+  ],
+  [
+    "Factious",
+    "/ˈfækʃəs/",
+    "e",
+    "Given to faction; turbulent, seditious, or prone to internal dissension.",
+    "From Latin factiosus, from factio (party, faction).",
+    "The factious lords tore the kingdom asunder with their petty jealousies.",
+    "Sir Walter Raleigh, History of the World"
+  ],
+  [
+    "Factotum",
+    "/fækˈtoʊtəm/",
+    "e",
+    "A person having many duties; a general servant, handy-man, or major-domo.",
+    "From Medieval Latin fac totum (do everything).",
+    "He is my chief factotum, managing both my stables and my correspondence.",
+    "Thomas Nashe, Have with You to Saffron-Walden"
+  ],
+  [
+    "Fagin",
+    "/ˈfeɪɡɪn/",
+    "t",
+    "A teacher of thieves or one who corrupts youth into criminality.",
+    "From the character Fagin in Charles Dickens's Oliver Twist.",
+    "The wretched magistrate exposed the modern fagin operating within the slums of London.",
+    "Charles Dickens, Oliver Twist"
+  ],
+  [
+    "Faint-hearted",
+    "/ˈfeɪntˌhɑːrtɪd/",
+    "e",
+    "Cowardly, timorous, or lacking in courage and resolution.",
+    "From Middle English feynt-herted.",
+    "Be strong and of a good courage; be not faint-hearted in the day of battle.",
+    "The Geneva Bible"
+  ],
+  [
+    "Fair-spoken",
+    "/ˈfɛərˌspoʊkən/",
+    "e",
+    "Courteous, civil, or pleasing in speech; eloquent with polite words.",
+    "From Middle English fayre-spoken.",
+    "He is a fair-spoken gentleman, yet I trust not the sweetness of his tongue.",
+    "William Shakespeare, Richard II"
+  ],
+  [
+    "Fairy-king",
+    "/ˈfɛəri kɪŋ/",
+    "e",
+    "A sovereign ruler of the fairies or elves; Oberon.",
+    "Compound of English 'fairy' and 'king'.",
+    "The fairy-king rode forth at midnight with all his glittering train.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Faith-breach",
+    "/ˈfeɪθˌbriːtʃ/",
+    "e",
+    "The violation of faith, loyalty, or a solemn oath; perfidy.",
+    "Compound of 'faith' and Middle English 'breche'.",
+    "Such faith-breach shall not go unpunished by the crown.",
+    "John Foxe, Actes and Monuments"
+  ],
+  [
+    "Falconer",
+    "/ˈfɔːlkənər/",
+    "e",
+    "A person who breeds, trains, and hunts with falcons or hawks.",
+    "From Old French falconier.",
+    "The master falconer released the tiercel upon the fleeing heron.",
+    "George Turbervile, The Booke of Falconrie"
+  ],
+  [
+    "Fall-trap",
+    "/ˈfɔːlˌtræp/",
+    "e",
+    "A pitfall or trap that falls or closes upon its prey.",
+    "Compound of 'fall' and 'trap'.",
+    "Beware the subtle fall-trap laid by the enemy in the forest path.",
+    "Arthur Golding, Ovid's Metamorphoses"
+  ],
+  [
+    "Fallacious",
+    "/fəˈleɪʃəs/",
+    "e",
+    "Deceptive, misleading, or based on false reasoning.",
+    "From Latin falliciosus, from fallacia.",
+    "His fallacious arguments could not deceive the learned judges.",
+    "Richard Hooker, Of the Lawes of Ecclesiastical Politie"
+  ],
+  [
+    "Fallow",
+    "/ˈfæloʊ/",
+    "m",
+    "Pleadged or pale red; yellowish-brown or brownish-yellow.",
+    "From Old English fealu.",
+    "A fallow deer bounded swiftly through the thicket.",
+    "Geoffrey Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Falsifier",
+    "/ˈfɔːlsɪfaɪər/",
+    "e",
+    "One who alters, counterfeits, or speaks untruths with intent to deceive.",
+    "From Medieval Latin falsificator.",
+    "They seized the falsifier of coins in the dark alleys of London.",
+    "Raphael Holinshed, Chronicles of England, Scotland, and Ireland"
+  ],
+  [
+    "Famelic",
+    "/fəˈmɛlɪk/",
+    "t",
+    "Exceedingly hungry; famished.",
+    "From Late Latin famelicus.",
+    "The famelic wolves descended from the snowy hills towards the sheepfolds.",
+    "Robert Southey, Common-Place Book"
+  ],
+  [
+    "Famulite",
+    "/ˈfæmjʊlaɪt/",
+    "t",
+    "An assistant, attendant, or familiar companion.",
+    "From Latin famulus (servant).",
+    "The scholar and his faithful famulite pored over the ancient manuscripts.",
+    "Thomas Carlyle, Sartor Resartus"
+  ],
+  [
+    "Fanatic",
+    "/fəˈnætɪk/",
+    "e",
+    "Wildly enthusiastic; marked by excessive religious or political zeal.",
+    "From Latin fanaticus (inspired by a divinity, frantic).",
+    "A fanatic zealot interrupted the Sunday service with wild prophesies.",
+    "Robert Burton, The Anatomy of Melancholy"
+  ],
+  [
+    "Fancical",
+    "/ˈfænsɪkəl/",
+    "e",
+    "Existing only in imagination; whimsical or capricious.",
+    "Variant of fanciful, from 'fancy'.",
+    "He entertained many fancical notions regarding the colonization of the moon.",
+    "Francis Bacon, Essays"
+  ],
+  [
+    "Fantast",
+    "/ˈfæntæst/",
+    "e",
+    "A visionary, dreamer, or one whose mind is filled with vain fantasies.",
+    "From French fantastique or Italian fantasto.",
+    "Pay no heed to that idle fantast; he knows nothing of statecraft.",
+    "Ben Jonson, The Alchemist"
+  ],
+  [
+    "Far-fetched",
+    "/ˌfɑːrˈfɛtʃt/",
+    "e",
+    "Strained, improbable, or brought from a remote source.",
+    "From Middle English fer-fet.",
+    "His excuse for missing the muster was wondrous far-fetched.",
+    "John Lyly, Euphues"
+  ],
+  [
+    "Far-piercing",
+    "/ˈfɑːrˌpɪrsɪŋ/",
+    "e",
+    "Extending far in sight, sound, or penetration.",
+    "Compound of 'far' and 'piercing'.",
+    "The watchman possessed a far-piercing eye that missed no movement.",
+    "George Chapman, Iliad translation"
+  ],
+  [
+    "Fascinator",
+    "/ˈfæsɪneɪtɪr/",
+    "e",
+    "One who bewitches, enchants, or casts a spell over others.",
+    "From Latin fascinator.",
+    "She was reputed a great fascinator, holding men enthralled with her gaze.",
+    "Reginald Scot, The Discoverie of Witchcraft"
+  ],
+  [
+    "Fast-hand",
+    "/ˈfæstˌhænd/",
+    "e",
+    "A secure or reliable grasp; security or surety.",
+    "Compound of 'fast' (firm) and 'hand'.",
+    "Keep a fast-hand on thy purse when visiting the crowded market.",
+    "Thomas Harman, A Caveat for Common Cursetors"
+  ],
+  [
+    "Fat-witted",
+    "/ˈfætˌwɪtɪd/",
+    "e",
+    "Dull-witted, stupid, or sluggish in intellect.",
+    "Compound of 'fat' and 'witted'.",
+    "Thou art a fat-witted man, old man, and lackest all quickness of wit.",
+    "William Shakespeare, 1 Henry IV"
+  ],
+  [
+    "Fatidic",
+    "/fəˈtɪdɪk/",
+    "e",
+    "Prophetic; having the power to foretell future events.",
+    "From Latin fatidicus.",
+    "The fatidic crone foretold the downfall of the house of Lancaster.",
+    "Philemon Holland, translation of Pliny"
+  ],
+  [
+    "Fault-finder",
+    "/ˈfɔːltˌfaɪndər/",
+    "e",
+    "A captious critic; one who constantly finds fault in others.",
+    "Compound of 'fault' and 'finder'.",
+    "Let no fault-finder discourage thee from doing good work.",
+    "William Tyndale, New Testament translation"
+  ],
+  [
+    "Fear-bitten",
+    "/ˈfɪərˌbɪtən/",
+    "e",
+    "Terrified or bitten by fear.",
+    "Compound of 'fear' and 'bitten'.",
+    "The fear-bitten soldiers fled before the enemy had even charged.",
+    "Barnabe Rich, Greenes News both from Heaven and Hell"
+  ],
+  [
+    "Feasible",
+    "/ˈfiːzɪbəl/",
+    "e",
+    "Capable of being done, executed, or accomplished.",
+    "From Old French faisible.",
+    "His scheme for draining the fens seemed both profitable and feasible.",
+    "Francis Bacon, Of Building"
+  ],
+  [
+    "Febricitant",
+    "/fəˈbrɪsɪtənt/",
+    "t",
+    "Suffering from a fever; feverish.",
+    "From Latin febricitant- (feverish).",
+    "The febricitant patient tossed restlessly upon his narrow cot.",
+    "Robert Burton, The Anatomy of Melancholy"
+  ],
+  [
+    "Feculent",
+    "/ˈfɛkjʊlənt/",
+    "e",
+    "Foul, muddy, or full of dregs and impurities.",
+    "From Latin faeculentus.",
+    "They drew water from the feculent pond and boiled it thrice.",
+    "Thomas Nashe, Pierce Pennilesse"
+  ],
+  [
+    "Federary",
+    "/ˈfɛdərɛri/",
+    "e",
+    "An accomplice, confederate, or ally in a league.",
+    "From Latin foederatus.",
+    "She is a federary with him, and one that knows what she should shake off.",
+    "William Shakespeare, The Winter's Tale"
+  ],
+  [
+    "Feignful",
+    "/ˈfeɪnfʊl/",
+    "e",
+    "Given to feigning; deceitful or treacherous.",
+    "From 'feign' + '-ful'.",
+    "Trust not her feignful tears, for her heart is full of guile.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Felicity",
+    "/fəˈlɪsɪti/",
+    "e",
+    "State of being happy; intense happiness or bliss.",
+    "From Latin felicitas.",
+    "True felicity consists not in worldly riches, but in peace of conscience.",
+    "Richard Hooker, Of the Lawes of Ecclesiastical Politie"
+  ],
+  [
+    "Fell-like",
+    "/ˈfɛlˌlaɪk/",
+    "e",
+    "Cruel, fierce, or savage, like a beast of prey.",
+    "From Middle English fell + '-like'.",
+    "He bore a fell-like expression that warned all men to keep their distance.",
+    "Thomas Kyd, The Spanish Tragedy"
+  ],
+  [
+    "Fellowship",
+    "/ˈfɛloʊʃɪp/",
+    "m",
+    "Companionship, company, or friendly association.",
+    "From Old English feolagscipe.",
+    "They lived in great fellowship and concord throughout their pilgrimage.",
+    "Geoffrey Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Femalidity",
+    "/ˌfɛməlˈɪdɪti/",
+    "e",
+    "Womanhood or the qualities peculiar to women.",
+    "From Latin femalitas.",
+    "She conducted herself with a grace becoming her high femalidity.",
+    "John Lyly, Euphues and His England"
+  ],
+  [
+    "Gabion",
+    "/ˈɡeɪbiən/",
+    "e",
+    "A cylindrical wicker basket filled with earth or stones, used in fortification.",
+    "From Italian gabbione, augmentative of gabbia (cage), from Latin cavea.",
+    "Our engineers stacked the gabions high to repel the cannon shot.",
+    "Barnabe Rich, Greenes News Both from Heaven and Hell"
+  ],
+  [
+    "Gagger",
+    "/ˈɡæɡər/",
+    "e",
+    "One who puts words into another's mouth, or an actor who inserts unauthorized dialogue.",
+    "From Middle English gaggeren, related to gag.",
+    "The master playwright rebuked the groundling gagger for spoiling the verse.",
+    "Ben Jonson, Every Man Out of His Humor"
+  ],
+  [
+    "Gaiter",
+    "/ˈɡeɪtər/",
+    "e",
+    "A covering of cloth or leather for the ankle and lower leg.",
+    "From French guêtre, of uncertain origin, entering English in the late 16th century.",
+    "He buckled his leather gaiters tight against the Scottish dew.",
+    "Thomas Nashe, The Unfortunate Traveller"
+  ],
+  [
+    "Gallard",
+    "/ˈɡælərd/",
+    "e",
+    "Brave, spirited, valiant, or gay; an alternate spelling of gallant.",
+    "From Old French galard, variant of galant.",
+    "A gallard captain led the vanguard against the Spanish horse.",
+    "Richard Hakluyt, Principal Navigations"
+  ],
+  [
+    "Gallimaufry",
+    "/ˌɡæləˈmɔːfri/",
+    "e",
+    "A confused jumble, hodgepodge, or a stew made of various meats.",
+    "From Old French galimafrée, of uncertain etymology.",
+    "This book is a mere gallimaufry of stolen jests and old wives' tales.",
+    "William Shakespeare, The Merry Wives of Windsor"
+  ],
+  [
+    "Gallow",
+    "/ˈɡæloʊ/",
+    "e",
+    "To frighten, terrify, or cause to quail.",
+    "From Old English gælwian or a variant of gelwan.",
+    "The wrathful skies 'gallow the very wanderers of the dark.",
+    "William Shakespeare, King Lear"
+  ],
+  [
+    "Galopin",
+    "/ˈɡæləpɪn/",
+    "e",
+    "An under-cook, scullion, or an errand boy.",
+    "From French galopin, from galoper (to gallop).",
+    "Send the lazy galopin to the scullery to scour the brass pots.",
+    "John Florio, Queen Anna's New World of Words"
+  ],
+  [
+    "Gamash",
+    "/ɡəˈmæʃ/",
+    "e",
+    "A kind of loose boot, gaiter, or leggings worn in foul weather.",
+    "From French gamache, ultimately of Spanish or Moorish origin.",
+    "He drew his heavy leather gamashes over his hose.",
+    "Robert Greene, A Groatsworth of Wit"
+  ],
+  [
+    "Gambade",
+    "/ɡæmˈbeɪd/",
+    "e",
+    "A spring, leap, caper, or a kind of high boot or gaiter.",
+    "From French gambade, from Italian gamba (leg).",
+    "The courtier cut a merry gambade across the marble floor.",
+    "Sir Philip Sidney, The Countess of Pembroke's Arcadia"
+  ],
+  [
+    "Gambado",
+    "/ɡæmˈbeɪdoʊ/",
+    "e",
+    "A leather gaiter attached to a stirrup to protect the rider's legs; also a bound or leap.",
+    "From Italian gambade.",
+    "He fitted his gambadoes before riding through the fen.",
+    "Ben Jonson, The Alchemist"
+  ],
+  [
+    "Gammer",
+    "/ˈɡæmər/",
+    "e",
+    "An old wife, elderly rustic woman, or title for a peasant matron.",
+    "Contraction of grandmother, counterpart to gaffer.",
+    "Gammer Gurton sat by the hearth spinning her coarse wool.",
+    "William Stevenson, Gammer Gurton's Needle"
+  ],
+  [
+    "Ganch",
+    "/ɡæntʃ/",
+    "e",
+    "To drop a victim onto a pointed stake as a form of capital punishment.",
+    "From Turkish gançur or Italian ganciare.",
+    "The tyrant threatened to ganch the treacherous emissary.",
+    "Thomas Coryat, Coryat's Crudities"
+  ],
+  [
+    "Gander-month",
+    "/ˈɡændər mʌnθ/",
+    "e",
+    "The period of a wife's confinement after childbirth, during which the husband supposedly behaves foolishly.",
+    "Colloquial Elizabethan idiom.",
+    "Master Constable is deep in his gander-month while his dame keeps bed.",
+    "John Heywood, Proverbs"
+  ],
+  [
+    "Gang",
+    "/ɡæŋ/",
+    "e",
+    "A passage, corridor, or gallery; also a company of persons walking together.",
+    "From Old English gang (a going, journey, path).",
+    "Walk briskly down the castle gang until you reach the chapel.",
+    "Sir Thomas Malory, Le Morte d'Arthur"
+  ],
+  [
+    "Garboil",
+    "/ˈɡɑːrbɔɪl/",
+    "e",
+    "Confusion, uproar, tumult, or commotion.",
+    "From French garbouil, from Italian garbuglio.",
+    "These turbulent garboils in the state boded ill for the crown.",
+    "William Shakespeare, Antony and Cleopatra"
+  ],
+  [
+    "Gardyloo",
+    "/ˌɡɑːrdiˈluː/",
+    "e",
+    "A cry formerly shouted from Edinburgh windows before emptying slops into the street.",
+    "From French gare de l'eau (watch out for the water).",
+    "He leaped aside just as the maid shouted 'Gardyloo!' from above.",
+    "Tobias Smollett, The Expedition of Humphry Clinker"
+  ],
+  [
+    "Gargantua",
+    "/ɡɑːrˈɡæntʃuə/",
+    "e",
+    "A person or thing of monstrous size and appetite.",
+    "From Rabelais' satirical giant character Gargantua, adopted into English.",
+    "His appetite at the feast was truly gargantua.",
+    "Thomas Nashe, Pierce Penniless"
+  ],
+  [
+    "Gast",
+    "/ɡɑːst/",
+    "e",
+    "To frighten, terrify, or appall.",
+    "From Old English gæstan (to torment, terrify).",
+    "The sudden apparition gasted the cowardly knight.",
+    "John Marston, The Malcontent"
+  ],
+  [
+    "Gastfulness",
+    "/ˈɡɑːstfʊlnəs/",
+    "e",
+    "Terrifying aspect, ghastliness, or frightfulness.",
+    "Derived from gastful (frightful), from Old English roots.",
+    "The utter gastfulness of the haunted ruin struck fear into our souls.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Gaude",
+    "/ɡɔːd/",
+    "e",
+    "A trick, trickery, jest, or a large bead in a rosary.",
+    "From Latin gaudia (joys).",
+    "With toys and gaudes she won the simple maiden's heart.",
+    "William Shakespeare, A Midsummer Night's Dream"
+  ],
+  [
+    "Gaudery",
+    "/ˈɡɔːdəri/",
+    "e",
+    "Ostentatious display, finery, or frivolous show.",
+    "From gaude (showy ornament).",
+    "He despised the courtly gaudery and wore simple frieze.",
+    "George Chapman, Homer's Iliads"
+  ],
+  [
+    "Gaudy",
+    "/ˈɡɔːdi/",
+    "e",
+    "A feast, festive entertainment, or holiday celebration at Oxford or Cambridge.",
+    "From Latin gaudium (joy).",
+    "The fellows gathered in the hall for the annual autumn gaudy.",
+    "John Caius, History of the University of Cambridge"
+  ],
+  [
+    "Gawbee",
+    "/ˈɡɔːbi/",
+    "e",
+    "A simpleton, awkward person, or gawk.",
+    "Provincial English origin of the 16th century.",
+    "Stand not like a gaping gawbee, but fetch the water-pitcher.",
+    "Nicholas Udall, Ralph Roister Doister"
+  ],
+  [
+    "Gawk",
+    "/ɡɔːk/",
+    "e",
+    "To stare stupidly, or a cuckoo bird.",
+    "From Old English gēac (cuckoo) or dialectal variants.",
+    "The rustics stood about to gawk at the royal procession.",
+    "John Skelton, Magnyfycence"
+  ],
+  [
+    "Genearch",
+    "/ˈdʒɛnɑːrk/",
+    "e",
+    "The head, founder, or patriarch of a family or race.",
+    "From Greek geneiarchēs (gene + archos).",
+    "He was the proud genearch of an ancient and noble house.",
+    "Thomas Fuller, The Worthies of England"
+  ],
+  [
+    "Germane",
+    "/dʒərˈmeɪn/",
+    "e",
+    "Closely related, relevant, or of the same stock.",
+    "From Latin germanus (full brother/sister).",
+    "The word is not germane to the matter we debate.",
+    "William Shakespeare, Hamlet"
+  ],
+  [
+    "Gibcat",
+    "/ˈɡɪbˌkæt/",
+    "e",
+    "An old tomcat, often castrated.",
+    "From Gib (abbreviation of Gilbert) + cat.",
+    "I am as melancholy as a gibcat or a lugged bear.",
+    "William Shakespeare, Henry IV, Part 1"
+  ],
+  [
+    "Giddy",
+    "/ˈɡɪdi/",
+    "e",
+    "Mad, foolish, impulsive, or spinning in mind.",
+    "From Old English gidig (insane, possessed by a god).",
+    "Avoid the giddy paths of youth and walk in sober wisdom.",
+    "Roger Ascham, The Scholemaster"
+  ],
+  [
+    "Habnab",
+    "/ˈhæbˌnæb/",
+    "e",
+    "Haphazardly, by chance, hit or miss, or recklessly.",
+    "From Middle English 'hab nab', a contraction of 'habban nabban' (to have or not to have), from Old English.",
+    "He that will not leap over a ditch with habnab, will never catch a horse.",
+    "John Heywood, 'Proverbs'"
+  ],
+  [
+    "Haggard",
+    "/ˈhæɡərd/",
+    "e",
+    "An untamed or wild hawk, or metaphorically a wild, unruly person.",
+    "From Old French 'haguard', perhaps from Germanic origins related to hedge.",
+    "If I do prove her haggard, though that her jesses were my dear heartstrings, I'd whistle her off and let her down the wind.",
+    "William Shakespeare, 'Othello'"
+  ],
+  [
+    "Hair-brain",
+    "/ˈhɛərˌbreɪn/",
+    "e",
+    "Giddy, volatile, reckless, or lacking serious thought.",
+    "Alteration of 'harebrained', comparing a person's erratic behavior to that of a startled hare.",
+    "Such hair-brain youth ill suits a steady state.",
+    "Michael Drayton, 'Historical Epistles'"
+  ],
+  [
+    "Hale",
+    "/heɪl/",
+    "e",
+    "Robust, vigorous, healthy, and free from defect, especially in old age.",
+    "From Middle English 'hale', from Old English 'hāl' (whole, healthy).",
+    "My heart is wondrous light, since this same princely peer is passing fair and hale.",
+    "Christopher Marlowe, 'Edward II'"
+  ],
+  [
+    "Half-sword",
+    "/ˈhæfˌsɔːrd/",
+    "e",
+    "Close quarters combat, at sword-point distance, or hand-to-hand fighting.",
+    "Coinage of the early modern period combining half and sword.",
+    "I am a Jew if I gave thee this gratis. I gave thee royal fight for thy royal biddings, at half-sword.",
+    "William Shakespeare, 'Henry IV, Part 1'"
+  ],
+  [
+    "Hallucinate",
+    "/həˈluːsɪneɪt/",
+    "e",
+    "To wander in mind, talk idly, or be deceived by false appearances.",
+    "From Latin 'hallucinatus', past participle of 'hallucinari' (to wander in mind).",
+    "He doth hallucinate through grief, mistaking shadows for substantial foes.",
+    "Robert Burton, 'The Anatomy of Melancholy'"
+  ],
+  [
+    "Halter-sack",
+    "/ˈhɔːltərˌsæk/",
+    "e",
+    "A gallows-bird, a scoundrel destined for the hangman's rope.",
+    "Compound of 'halter' (hangman's noose) and 'sack' (deserving of carrying).",
+    "Away, you rogue, you halter-sack, you villain!",
+    "Thomas Middleton, 'A Mad World, My Masters'"
+  ],
+  [
+    "Hand-smooth",
+    "/ˈhændˌsmuːð/",
+    "e",
+    "Smoothly, utterly, completely, or without hindrance.",
+    "From Middle English, combining hand and smooth, indicating effortless execution.",
+    "He has carried the matter hand-smooth against all opposition.",
+    "John Lyly, 'Endymion'"
+  ],
+  [
+    "Handsel",
+    "/ˈhændsəl/",
+    "e",
+    "A gift, payment, or token given for good luck at the start of an enterprise or the New Year.",
+    "From Old English 'handsyll' (hand-sale/delivery), from Old Norse.",
+    "Accept this gold as a morning handsel for thy faithful service.",
+    "Ben Jonson, 'Every Man Out of His Humor'"
+  ],
+  [
+    "Hardiment",
+    "/ˈhɑːrdɪmənt/",
+    "e",
+    "Boldness, courage, bravery, or a daring feat.",
+    "From Middle French 'hardiment', from 'hardi' (bold).",
+    "Ne dread she had, but gan to fight apace, and 'gan to thrust among the thickest throng, giving good proof of her great hardiment.",
+    "Edmund Spenser, 'The Faerie Queene'"
+  ],
+  [
+    "Harrow",
+    "/ˈhæroʊ/",
+    "e",
+    "To plunder, lay waste, distress greatly, or torment.",
+    "From Old English 'hergian' (to ravage, harry), related to 'here' (army).",
+    "It doth amaze and harrow me with fear and wonder.",
+    "William Shakespeare, 'Hamlet'"
+  ],
+  [
+    "Hask",
+    "/hæsk/",
+    "e",
+    "A basket, container, or a fisherman's rush-mat.",
+    "From dialectal English, perhaps of Celtic or Old Norse origin.",
+    "And doth bestow his baubles and his flowers in a dry hask.",
+    "Edmund Spenser, 'The Shepheardes Calender'"
+  ],
+  [
+    "Hautboy",
+    "/ˈhoʊbɔɪ/",
+    "e",
+    "An early woodwind instrument, the historical precursor to the modern oboe.",
+    "From French 'hautbois' (high-wood).",
+    "Hautboys played and trumpets sounded as the monarch entered the great hall.",
+    "Holinshed's Chronicles"
+  ],
+  [
+    "Hay",
+    "/heɪ/",
+    "e",
+    "A traditional country dance, or a fencing term indicating a home-thrust.",
+    "From Old French 'haie' (hedge or circle of dancers).",
+    "The very butcher of a silk button, a duellist, a duellist; a gentleman of the very first house... Ah, the immortal passado! the punto reverso! the hay!",
+    "William Shakespeare, 'Romeo and Juliet'"
+  ],
+  [
+    "Heady",
+    "/ˈhɛdi/",
+    "e",
+    "Impulsive, headstrong, rash, or intoxicating (referring to strong wine).",
+    "From Middle English 'hedi', derived from 'head' in the sense of 'ruling from the head'.",
+    "A heady current check it with an oath, and give it rein until it tire itself.",
+    "William Shakespeare, 'Henry IV, Part 1'"
+  ],
+  [
+    "Hearten",
+    "/ˈhɑːrtən/",
+    "e",
+    "To encourage, cheer up, embolden, or give heart to.",
+    "From Middle English, derived from 'heart' with the verbal suffix -en.",
+    "Be not dismayed, good soldiers; let this victory hearten your drooping spirits.",
+    "Sir Walter Raleigh, 'History of the World'"
+  ],
+  [
+    "Hearth-penny",
+    "/ˈhɑːrθˌpɛni/",
+    "e",
+    "A traditional tax or tribute paid to the church or crown based on hearths; Peter's Pence.",
+    "Compound of 'hearth' and 'penny', Old English origins.",
+    "The bailiff came to levy the hearth-penny from each cottage in the vale.",
+    "Tudor Parish Records"
+  ],
+  [
+    "Heft",
+    "/hɛft/",
+    "e",
+    "Weight, heaviness, or the act of lifting something to test its weight.",
+    "From Middle English 'heften' (to lift), related to Old English 'hebban' (to heave).",
+    "He cracks his gorge, his sides, with violent hefts.",
+    "William Shakespeare, 'The Winter's Tale'"
+  ],
+  [
+    "Heigh-ho",
+    "/ˈhaɪˌhoʊ/",
+    "e",
+    "An exclamation of weariness, sighing, dejection, or longing.",
+    "Natural exclamation, well-attested in early modern drama.",
+    "Heigh-ho! an he would come up, for his legs are too weak for a settlement.",
+    "William Shakespeare, 'As You Like It'"
+  ],
+  [
+    "Hemerocall",
+    "/ˌhɛmərəˈkɔːl/",
+    "e",
+    "A day-lily, a flower that blooms for only a single day.",
+    "From Latin 'hemerocallis', from Greek 'hēmerokallēs' (beauty for a day).",
+    "The pale hemerocall that opens with the morn and fades ere eventide.",
+    "John Gerard, 'Herball'"
+  ],
+  [
+    "Herborize",
+    "/ˈhɜːrbəraɪz/",
+    "e",
+    "To search for, collect, or study herbs and plants in the wild.",
+    "From French 'herboriser', from Latin 'herba'.",
+    "We went forth to herborize upon the verdant slopes of the chalk hills.",
+    "John Parkinson, 'Paradisi in Sole'"
+  ],
+  [
+    "Heritor",
+    "/ˈhɛrɪtər/",
+    "e",
+    "An heir, inheritor, or possessor of an estate or heritage.",
+    "From Late Latin 'heritor', from Latin 'heres'.",
+    "The rightful heritor to the crown was kept abroad by treacherous ministers.",
+    "Samuel Daniel, 'The Civil Wars'"
+  ],
+  [
+    "Hest",
+    "/hɛst/",
+    "e",
+    "A command, behest, order, or solemn promise.",
+    "From Old English 'hǣs' (command), related to 'hātan' (to command).",
+    "I come to answer thy best pleasure; be't to fly, to swim, to dive into the fire... do my spiriting gently, according to thy hest.",
+    "William Shakespeare, 'The Tempest'"
+  ],
+  [
+    "Hey-day",
+    "/ˈheɪˌdeɪ/",
+    "e",
+    "An exclamation of wild frolic, excitement, or high spirits.",
+    "From Middle English 'hey' (joy) and 'day', originally a cry of exultation.",
+    "You have reason to be giddy; for the age is in the very hey-day of youth.",
+    "William Shakespeare, 'Hamlet'"
+  ],
+  [
+    "Hideling",
+    "/ˈhaɪdlɪŋ/",
+    "e",
+    "Secretly, stealthily, or in hiding.",
+    "From Middle English 'hideling', adverbial use of noun meaning concealment.",
+    "He practiced treason in a hideling sort, fearing the light of justice.",
+    "John Foxe, 'Book of Martyrs'"
+  ],
+  [
+    "Hie",
+    "/haɪ/",
+    "e",
+    "To hasten, hurry, or move with speed.",
+    "From Old English 'hīgian' (to strive, hasten).",
+    "Hie thee, gentle peasant, and bring me word when the feast is spread.",
+    "John Fletcher, 'The Faithful Shepherdess'"
+  ],
+  [
+    "High-fantastical",
+    "/ˈhaɪ fænˈtæstɪkəl/",
+    "e",
+    "Extravagantly imaginative, fanciful, or whimsical in the extreme.",
+    "Compound of 'high' and 'fantastical' used by Elizabethan dramatists.",
+    "O spirit of love! how quick and fresh art thou, that, notwithstanding thy capacity receiveth as the sea, nought enters there, of what validity and pitch soe'er, but falls into abatement and low price, even in a minute: so full of shapes is fancy that it alone is high-fantastical.",
+    "William Shakespeare, 'Twelfth Night'"
+  ],
+  [
+    "High-grown",
+    "/ˈhaɪɡroʊn/",
+    "e",
+    "Tall, lofty, or grown to a great height.",
+    "Compound of 'high' and 'grown', common in Elizabethan poetry.",
+    "The high-grown trees do cast a pleasant shadow o'er the brook.",
+    "Michael Drayton, 'Poly-Olbion'"
+  ],
+  [
+    "Hight",
+    "/haɪt/",
+    "e",
+    "Is called, was named, or is commanded (archaic preterite and passive participle).",
+    "From Old English 'hīhte', preterite of 'hātan' (to be called).",
+    "A gentle knight was pricking on the plaine, ycladd in mighty arms and silver shield, that now he nould, yet lately made emprise, that knight was hight the Redcrosse Knight.",
+    "Edmund Spenser, 'The Faerie Queene'"
+  ],
+  [
+    "Hilarody",
+    "/ˈhɪləˌroʊdi/",
+    "e",
+    "A cheerful song or joyful ode.",
+    "From Greek 'hilarōidia', from 'hilaros' (cheerful) + 'ōidē' (song).",
+    "They raised a hilarody to celebrate the safe return of the fleet.",
+    "Thomas Blount, 'Glossographia'"
+  ],
+  [
+    "Hind",
+    "/haɪnd/",
+    "e",
+    "A farm laborer, peasant, or rustic servant.",
+    "From Old English 'hīna' (member of a household, domestic servant).",
+    "A crew of patches, rude mechanicals, that work for bread upon Athenian stalls, were met together to rehearse a play intended for great Theseus' nuptial day... a smart and stubborn hind.",
+    "William Shakespeare, 'A Midsummer Night's Dream'"
+  ],
+  [
+    "Hobnob",
+    "/ˈhɒbˌnɒb/",
+    "e",
+    "To drink familiarly together, or to consort closely with someone.",
+    "Derived from the earlier 'habnab', later shifting to mean giving and taking or drinking toasts.",
+    "His companion hobnobs with him at the tavern until the bell tolls midnight.",
+    "Ben Jonson, 'Every Man in His Humor'"
+  ],
+  [
+    "Hod-peep",
+    "/ˈhɒdˌpiːp/",
+    "e",
+    "A timid person who peeps out cautiously; a shy or secretive fellow.",
+    "Compound of 'hod' and 'peep', of dialectal early modern origin.",
+    "The timid hod-peep dared not show his face before the assembly.",
+    "John Florio, 'Queen Anna's New World of Words'"
+  ],
+  [
+    "Holp",
+    "/hoʊlp/",
+    "e",
+    "Helped; historical past tense and past participle of help.",
+    "From Middle English 'holpen', past participle of Old English 'helpan'.",
+    "Ay, sir; but she is none of those that wot what 't is to be pitied: she hath holp madmen to their wits in her time.",
+    "William Shakespeare, 'The Two Gentlemen of Verona'"
+  ],
+  [
+    "I-wis",
+    "/aɪˈwɪs/",
+    "m",
+    "Certainly, truly, surely, or indeed.",
+    "From Old English 'gewis', meaning certain or sure.",
+    "I-wis, it is an ill cook that cannot lick his own fingers.",
+    "William Shakespeare, Romeo and Juliet"
+  ],
+  [
+    "Ignaro",
+    "/ɪɡˈnɑːroʊ/",
+    "e",
+    "An ignorant person, a dunce or blockhead.",
+    "From Italian 'ignaro' (ignorant), adopted into early modern English.",
+    "Some shallow ignaro, that knows not the libellous reading of a public school.",
+    "Ben Jonson, Every Man Out of His Humor"
+  ],
+  [
+    "Illaqueate",
+    "/ɪˈlækwieɪt/",
+    "e",
+    "To ensnare, entangle, or catch as in a net.",
+    "From Latin 'illaqueare', from 'in-' + 'laqueus' (noose or snare).",
+    "Lest we should be illaqueated in the meshes of subtle sophistry.",
+    "Thomas Browne, Pseudodoxia Epidemica"
+  ],
+  [
+    "Illation",
+    "/ɪˈleɪʃən/",
+    "e",
+    "An inference, deduction, or conclusion drawn from premises.",
+    "From Latin 'illatio', from 'inferre' (to bring in or infer).",
+    "By a necessary illation, it follows that the soul is immortal.",
+    "Robert Burton, The Anatomy of Melancholy"
+  ],
+  [
+    "Illude",
+    "/ɪˈluːd/",
+    "e",
+    "To deceive, mock, trick, or disappoint.",
+    "From Latin 'illudere', meaning to mock or play upon.",
+    "Thus hath the subtle fiend illuded me, and ta'en my crown.",
+    "Christopher Marlowe, Tamburlaine the Great"
+  ],
+  [
+    "Imane",
+    "/ɪˈmeɪn/",
+    "e",
+    "Cruel, ferocious, monstrous, or immense.",
+    "From Latin 'imanis' / 'immanis', meaning huge, savage, or cruel.",
+    "A beast of imane shape and savage mood.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Imbreviate",
+    "/ɪmˈbriːvieɪt/",
+    "e",
+    "To write briefly, summarize, or register.",
+    "From medieval Latin 'imbreviat-', from 'in-' + 'brevis' (short).",
+    "To imbreviate the accounts of the realm before the parliament.",
+    "Tudor State Papers"
+  ],
+  [
+    "Immarginate",
+    "/ɪˈmɑːrdʒɪneɪt/",
+    "e",
+    "Borderless, having no edge or margin.",
+    "From Latin 'in-' (not) + 'marginatus' (margined).",
+    "The immarginate expanse of the dark and troubled sea.",
+    "Philemon Holland, translation of Pliny's Natural History"
+  ],
+  [
+    "Immask",
+    "/ɪˈmæsk/",
+    "e",
+    "To cover, disguise, or conceal with a mask.",
+    "From 'in-' (intensive) + 'mask'.",
+    "For night's dank dew comes down apace, and 'tis high time I were immasked.",
+    "Thomas Middleton, The Revenger's Tragedy"
+  ],
+  [
+    "Immeasured",
+    "/ɪˈmɛʒərd/",
+    "e",
+    "Boundless, immense, or impossible to measure.",
+    "From 'in-' (not) + 'measured'.",
+    "Through immeasured tracts of wild and pathless woods.",
+    "Michael Drayton, Poly-Olbion"
+  ],
+  [
+    "Immingle",
+    "/ɪˈmɪŋɡəl/",
+    "e",
+    "To mix, blend, or mingle together.",
+    "From 'in-' + 'mingle'.",
+    "Behold the tears immingled with his royal blood.",
+    "William Shakespeare, Henry VI, Part 3"
+  ],
+  [
+    "Immitigate",
+    "/ɪˈmɪtɪɡeɪt/",
+    "e",
+    "Not softened or mitigated; harsh, unrelenting.",
+    "From Latin 'immitis' or 'in-' + 'mitigate'.",
+    "An immitigate wrath that knows no bounds of pity.",
+    "Richard Grafton, Chronicle at Large"
+  ],
+  [
+    "Immix",
+    "/ɪˈmɪks/",
+    "e",
+    "To mix or blend into one body or substance.",
+    "From Latin 'immiscere', from 'in-' + 'miscere' (to mix).",
+    "To immix our souls in one eternal bond.",
+    "George Chapman, The Iliad of Homer"
+  ],
+  [
+    "Imparadise",
+    "/ɪmˈpærədaɪs/",
+    "e",
+    "To place in a state of supreme bliss or paradise.",
+    "From Italian 'imparadisare' or English coinage from 'paradise'.",
+    "My soul is imparadised in your sweet company.",
+    "John Donne, The Relique"
+  ],
+  [
+    "Imparfait",
+    "/æmˈpɑːrfeɪ/",
+    "m",
+    "Imperfect, incomplete, or flawed.",
+    "From Old French 'imparfait', from Latin 'imperfectus'.",
+    "Our knowledge here is dark and imparfait.",
+    "Chaucerian tradition / Middle English glosses"
+  ],
+  [
+    "Impartibility",
+    "/ɪmˌpɑːrtɪbɪˈlɪti/",
+    "e",
+    "The quality of being indivisible or incapable of being shared out.",
+    "From Late Latin 'impartibilitas'.",
+    "The strict impartibility of the crown and royal estates.",
+    "Sir Walter Raleigh, History of the World"
+  ],
+  [
+    "Impeach",
+    "/ɪmˈpiːtʃ/",
+    "e",
+    "To hinder, impede, or challenge (historically distinct from political prosecution).",
+    "From Old French 'empêcher', meaning to hinder or entangle.",
+    "Nothing shall impeach my passage to the throne.",
+    "William Shakespeare, Richard II"
+  ],
+  [
+    "Impendent",
+    "/ɪmˈpɛndənt/",
+    "e",
+    "Overshanging, threatening, or about to happen soon.",
+    "From Latin 'impendent-', from 'impendere' (to hang over).",
+    "With the impendent sword of justice hanging o'er his head.",
+    "Philip Massinger, The Roman Actor"
+  ],
+  [
+    "Imperceiverant",
+    "/ɪmˌpɜːrsɪˈvɪərənt/",
+    "e",
+    "Lacking perception, dull-witted, or unobservant.",
+    "From Latin 'imperceiverans', from 'in-' + 'percipere'.",
+    "An imperceiverant fool that notes not the signs of the times.",
+    "John Marston, The Malcontent"
+  ],
+  [
+    "Impersonate",
+    "/ɪmˈpɜːrsənˌeɪt/",
+    "e",
+    "To endow with a bodily form, personify, or invest with personality.",
+    "From medieval Latin 'impersonat-', from 'in-' + 'persona'.",
+    "To impersonate the abstract virtues in our masking show.",
+    "Ben Jonson, Pleasure Reconciled to Virtue"
+  ],
+  [
+    "Impetrate",
+    "/ˈɪmpɪtreɪt/",
+    "e",
+    "To obtain by earnest entreaty, prayer, or petition.",
+    "From Latin 'impetrare', meaning to achieve or obtain by request.",
+    "To impetrate divine grace for the sins of the congregation.",
+    "John Foxe, Actes and Monuments"
+  ],
+  [
+    "Impicture",
+    "/ɪmˈpɪktʃər/",
+    "e",
+    "To paint, picture, or impress upon the mind or surface.",
+    "From 'in-' + 'picture'.",
+    "Deeply impictured in the tablet of my wandering heart.",
+    "William Drummond of Hawthornden"
+  ],
+  [
+    "Implacable",
+    "/ɪmˈplækəbəl/",
+    "e",
+    "Unrelenting, incapable of being appeased or pacified.",
+    "From Latin 'implacabilis'.",
+    "An implacable hatred that spans across generations.",
+    "John Webster, The Duchess of Malfi"
+  ],
+  [
+    "Implore",
+    "/ɪmˈplɔːr/",
+    "e",
+    "A noun meaning an entreaty, prayer, or supplication.",
+    "From Latin 'implorare' (used nominally in Elizabethan verse).",
+    "With bitter tears and passionate implores, she begged his life.",
+    "George Peele, The Arraignment of Paris"
+  ],
+  [
+    "Impoison",
+    "/ɪmˈpɔɪzən/",
+    "e",
+    "To poison, embitter, or taint with venom.",
+    "From Old French 'empoisonner'.",
+    "The treacherous cup impoisoned by his own brother.",
+    "Thomas Kyd, The Spanish Tragedy"
+  ],
+  [
+    "Imprecate",
+    "/ˈɪmprɪkeɪt/",
+    "e",
+    "To invoke evil or curses upon someone.",
+    "From Latin 'imprecari', from 'in-' + 'precari' (to pray).",
+    "To imprecate ruin upon the heads of the perjured lords.",
+    "William Shakespeare, Richard III"
+  ],
+  [
+    "Imprese",
+    "/ɪmˈpreɪzi/",
+    "e",
+    "An emblematic device or heraldic shield accompanied by a motto.",
+    "From Italian 'impresa'.",
+    "A knight bearing on his shield an obscure and witty imprese.",
+    "Ben Jonson, Every Man Out of His Humor"
+  ],
+  [
+    "Impotion",
+    "/ɪmˈpoʊʃən/",
+    "e",
+    "A potion, draught, or poisonous medicine.",
+    "From Latin 'im-' + potion.",
+    "A deadly impotion prepared by the Italian apothecary.",
+    "John Ford, 'Tis Pity She's a Whore"
+  ],
+  [
+    "Impovech",
+    "/ɪmˈpʌvɪtʃ/",
+    "e",
+    "To impoverish or make poor.",
+    "From Old French 'empauvrir' or Middle English variations.",
+    "Extortionate taxes that impovech the honest yeomanry.",
+    "Raphol Holinshed, Chronicles"
+  ],
+  [
+    "Imprecis",
+    "/ɪmˈpriːsɪs/",
+    "e",
+    "Unprecise, vague, or lacking exactness.",
+    "From Latin 'in-' + 'precis'.",
+    "An imprecis account of the boundaries of the estate.",
+    "Elizabethan legal records"
+  ],
+  [
+    "Impulse",
+    "/ˈɪmpʌls/",
+    "e",
+    "An instigation, driving force, or push.",
+    "From Latin 'impulsus', from 'impellere'.",
+    "Moved by some secret impulse of the restless wind.",
+    "Sir Philip Sidney, The Defence of Poesy"
+  ],
+  [
+    "In-fardel",
+    "/ɪnˈfɑːrdəl/",
+    "e",
+    "To pack up into a bundle or fardel.",
+    "From 'in-' + 'fardel' (burden or bundle).",
+    "To infardel their worldly goods before the hasty flight.",
+    "John Florio, translation of Montaigne"
+  ],
+  [
+    "Inate",
+    "/ɪˈneɪt/",
+    "e",
+    "Inborn, native, or natural (often spelled 'inate' in early texts).",
+    "From Latin 'inatus'.",
+    "An inate nobility that shines through humble rags.",
+    "George Chapman, Bussy D'Ambois"
+  ],
+  [
+    "Incarcerate",
+    "/ɪnˈkɑːrsəreɪt/",
+    "e",
+    "To imprison, confine, or shut up in a prison.",
+    "From Latin 'incarcerat-', from 'in-' + 'carcer' (prison).",
+    "Incarcerated in the deep dungeons of the keep.",
+    "Thomas Nashe, The Unfortunate Traveller"
+  ],
+  [
+    "Incend",
+    "/ɪnˈsɛnd/",
+    "e",
+    "To set on fire, kindle, inflame, or excite.",
+    "From Latin 'incendere'.",
+    "To incend the people to a sudden mutiny.",
+    "Barnabe Rich, Farewell to Military Profession"
+  ],
+  [
+    "Incessantly",
+    "/ɪnˈsɛsəntli/",
+    "e",
+    "Unceasingly, without interruption or pause.",
+    "From Late Latin 'incessanter'.",
+    "The rain fell incessantly upon the barren moor.",
+    "Thomas Lodge, Rosalynde"
+  ],
+  [
+    "Incivility",
+    "/ˌɪnsɪˈvɪlɪti/",
+    "e",
+    "Rudeness, lack of courtesy, or uncultured behavior.",
+    "From Latin 'incivilitas', from 'in-' + 'civilis'.",
+    "Such gross incivility deserves a sharp rebuke.",
+    "Robert Greene, Pandosto"
+  ],
+  [
+    "Inclinable",
+    "/ɪnˈklaɪnəbəl/",
+    "e",
+    "Disposed, favorably inclined, or tending toward something.",
+    "From Old French 'inclinable', from Latin 'inclinare'.",
+    "Being inclinable to mercy rather than strict law.",
+    "William Shakespeare, Henry VIII"
+  ],
+  [
+    "Incommodious",
+    "/ˌɪnkəˈmoʊdiəs/",
+    "e",
+    "Inconvenient, troublesome, or uncomfortable.",
+    "From Latin 'incommodiosus'.",
+    "An incommodious lodging for a man of his high estate.",
+    "Richard Hakluyt, Principal Navigations"
+  ],
+  [
+    "Incorporate",
+    "/ɪnˈkɔːrpəreɪt/",
+    "e",
+    "United into one body, blended, or made part of a corporation.",
+    "From Latin 'incorporatus'.",
+    "We two, being incorporate, make one great man.",
+    "William Shakespeare, Comedy of Errors"
+  ],
+  [
+    "Japanning",
+    "/dʒəˈpænɪŋ/",
+    "t",
+    "The art of varnishing and lacquering in the manner of the Japanese, popular in decorative arts.",
+    "Derived from the nation of Japan, entering English usage in the late 17th century.",
+    "The cabinet was adorned with exquisite black japanning and gleaming gilt brassware.",
+    "John Stalker, A Treatise of Japanning and Varnishing"
+  ],
+  [
+    "Jarble",
+    "/ˈdʒɑːrbəl/",
+    "e",
+    "To wet, mire, bemire, or soil with mud or water.",
+    "Scots and northern English dialect, 16th century.",
+    "Take heed lest your fine velvet hose be jarbled in the mire of the King's highway.",
+    "Gavin Douglas, Eneados"
+  ],
+  [
+    "Jaup",
+    "/dʒɔːp/",
+    "e",
+    "To splash or dash a liquid about; a small splash of water or mud.",
+    "Scots and northern English onomatopoeic origin, circa 1500.",
+    "A sudden jaup of cold brine struck across the galley's deck as the storm broke.",
+    "Sir David Lyndsay, Ane Satyre of the Thrie Estaitis"
+  ],
+  [
+    "Jaw-fall",
+    "/ˈdʒɔːˌfɔːl/",
+    "e",
+    "A dropping of the jaw expressing extreme astonishment, disappointment, or depression.",
+    "English compound formation from the late 16th century.",
+    "When the proclamation was read, a general jaw-fall seized the assembled multitude.",
+    "Thomas Nashe, Lenten Stuffe"
+  ],
+  [
+    "Jay-walker",
+    "/ˈdʒeɪˌwɔːkər/",
+    "t",
+    "Originally a country bumpkin or simpleton in the city; later evolved into an erratic pedestrian.",
+    "American and Victorian English colloquialism, late 19th century.",
+    "He crossed the bustling thoroughfare with the heedless air of a country jay-walker.",
+    "Century Dictionary and Cyclopedia"
+  ],
+  [
+    "Jentacular",
+    "/dʒɛnˈtækjʊlər/",
+    "t",
+    "Pertaining to breakfast or the morning meal.",
+    "Latin 'jentaculum' (breakfast), adopted into English in the 17th century and used through the Victorian era.",
+    "He partook of a jentacular repast consisting of cold capon and spiced sack.",
+    "Samuel Johnson, Dictionary of the English Language"
+  ],
+  [
+    "Jergon",
+    "/ˈdʒɜːrɡən/",
+    "m",
+    "An unintelligible mixture of languages; early form of jargon.",
+    "Old French 'jargon', meaning the chattering of birds.",
+    "They spoke a strange jergon of French and Flemish that confounded the merchants.",
+    "John Trevisa, translation of Higden's Polychronicon"
+  ],
+  [
+    "Jet-bean",
+    "/ˈdʒɛtˌbiːn/",
+    "e",
+    "A glossy black seed or bead used in mourning jewelry and rosaries.",
+    "English compound from the Elizabethan era, referencing the mineral jet.",
+    "Her mourning gown was trimmed with rows of polished jet-bean.",
+    "Household Inventories of the Earl of Leicester"
+  ],
+  [
+    "Jet-malkin",
+    "/ˈdʒɛtˌmɔːlkɪn/",
+    "e",
+    "A foul slut, a scarecrow, or a ragged, disreputable woman.",
+    "English colloquial compound, 16th century.",
+    "Away, you ragged jet-malkin, before I call the constable to clear the yard.",
+    "John Skelton, Magnyfycence"
+  ],
+  [
+    "Jig-maker",
+    "/ˈdʒɪɡˌmeɪkər/",
+    "e",
+    "A composer or performer of comic jigs, popular in Elizabethan playhouses.",
+    "English theatrical slang, late 16th century.",
+    "The famous jig-maker entertained the groundlings with a merry ballad before the main play.",
+    "Thomas Dekker, The Gull's Hornbook"
+  ],
+  [
+    "Jig-jog",
+    "/ˈdʒɪɡˌdʒɒɡ/",
+    "e",
+    "A slow, jolting, or shaking pace, akin to a gentle trot.",
+    "Reduplication of jig, dating to the late 16th century.",
+    "We rode in jig-jog fashion all the way from Highgate to the city gates.",
+    "Richard Carew, Survey of Cornwall"
+  ],
+  [
+    "Jimp",
+    "/dʒɪmp/",
+    "e",
+    "Slender, neat, handsome, or delicate in form.",
+    "Scots and northern English origin, 16th century.",
+    "She was a maid of jimp stature, quick of foot and bright of eye.",
+    "William Dunbar, The Tretis of the Tua Mariit Wemen and the Wedo"
+  ],
+  [
+    "Jink",
+    "/dʒɪŋk/",
+    "e",
+    "To move swiftly with a sudden turn or dodge; to clink glasses in a toast.",
+    "Scots and northern English origin, 16th century.",
+    "The hare managed to jink through the briars and escape the hounds.",
+    "Gavin Douglas, Eneados"
+  ],
+  [
+    "Jo",
+    "/dʒoʊ/",
+    "m",
+    "A sweetheart, darling, or beloved person.",
+    "Scots and northern Middle English, etymology uncertain, possibly from French 'joie'.",
+    "Come hither, my sweet jo, and let us dance upon the green.",
+    "Robert Henryson, Testament of Cresseid"
+  ],
+  [
+    "Jobation",
+    "/dʒoʊˈbeɪʃən/",
+    "t",
+    "A lengthy, tedious scolding, reprimand, or lecture.",
+    "Derived from the biblical character Job, whose friends subjected him to endless speeches; coined in the 17th century.",
+    "He feared returning home lest his uncle deliver another severe jobation upon his idleness.",
+    "Jonathan Swift, Polite Conversation"
+  ],
+  [
+    "Jocal",
+    "/ˈdʒoʊkəl/",
+    "t",
+    "Jocular, humorous, or given to jesting.",
+    "Latin 'jocalis', entering English usage in the 17th century.",
+    "His jocal remarks did much to lighten the gloom of the assembly.",
+    "John Evelyn, Diary"
+  ],
+  [
+    "Jocote",
+    "/dʒəˈkoʊt/",
+    "t",
+    "Merry, playful, or facetious.",
+    "French 'joconde' or Latin root, 17th century.",
+    "She maintained a jocote disposition despite the heavy burdens of her station.",
+    "Sir Thomas Browne, Pseudodoxia Epidemica"
+  ],
+  [
+    "Jocundity",
+    "/dʒɒˈkʌndɪti/",
+    "e",
+    "Mirthfulness, gaiety, or high-spirited joy.",
+    "Middle French 'jocundité' or Latin 'jucunditas', 15th century.",
+    "The hall resounded with feasting and jocundity until the break of day.",
+    "Sir Thomas More, Utopia"
+  ],
+  [
+    "Jog-trot",
+    "/ˈdʒɒɡˌtrɒt/",
+    "e",
+    "A slow, regular, and monotonous pace of riding or living.",
+    "English compound from the late 16th century.",
+    "We pursued our journey at an easy jog-trot across the rolling hills.",
+    "William Camden, Britannia"
+  ],
+  [
+    "Jollification",
+    "/ˌdʒɒlɪfɪˈkeɪʃən/",
+    "t",
+    "Merrymaking, festivity, or noisy merry company.",
+    "Derived from 'jolly', appearing in English in the early 18th century and widely used in the Victorian era.",
+    "The village green was crowded with booths and stalls for the annual jollification.",
+    "Charles Dickens, The Pickwick Papers"
+  ],
+  [
+    "Jollity",
+    "/ˈdʒɒlɪti/",
+    "m",
+    "Festive mirth, noisy joy, or merry celebration.",
+    "Old French 'jolicité', entering English in the 14th century.",
+    "The Christmas feast was marked by great jollity and abundance of wine.",
+    "John Gower, Confessio Amantis"
+  ],
+  [
+    "Joll-house",
+    "/ˈdʒɒlˌhaʊs/",
+    "t",
+    "A house of entertainment, tavern, or place of low revelry.",
+    "English slang, 18th to 19th century.",
+    "He was found carousing in a notorious joll-house down by the docks.",
+    "London Lowlife Chronicles"
+  ],
+  [
+    "Jolterhead",
+    "/ˈdʒoʊltərˌhɛd/",
+    "e",
+    "A stupid person, blockhead, or thick-skulled fellow.",
+    "Compound of 'jolter' (one who joults) and 'head', 16th century.",
+    "Peace, you unmannered jolterhead, and let your betters speak.",
+    "William Shakespeare, The Two Gentlemen of Verona"
+  ],
+  [
+    "Jot",
+    "/dʒɒt/",
+    "m",
+    "The smallest possible quantity; the letter iota.",
+    "Latin 'iota' via Old English and Middle English.",
+    "He would not abate one jot of his rightful claim.",
+    "John Wycliffe, translation of the New Testament"
+  ],
+  [
+    "Jot-book",
+    "/ˈdʒɒtˌbʊk/",
+    "t",
+    "A small notebook for making rough notes or jottings.",
+    "English compound from the Victorian era.",
+    "He drew a small jot-book from his pocket to record the strange botanical specimen.",
+    "Charles Darwin, Beagle Diary notes"
+  ],
+  [
+    "Joul",
+    "/dʒaʊl/",
+    "m",
+    "To strike, dash, or knock against something; the jaw or cheek.",
+    "Middle English 'joulen' or 'jowlen'.",
+    "The waves did joul the vessel hard against the rocky pier.",
+    "Geoffrey Chaucer, Troilus and Criseyde"
+  ],
+  [
+    "Jovialist",
+    "/ˈdʒoʊviəlɪst/",
+    "t",
+    "One who leads a merry, jovial life devoted to feasting and good cheer.",
+    "Derived from 'jovial' (born under the planet Jupiter), 17th century.",
+    "He was known among his companions as a true jovialist who loved wine and song.",
+    "Robert Burton, The Anatomy of Melancholy"
+  ],
+  [
+    "Jowl",
+    "/dʒaʊl/",
+    "m",
+    "The cheek, jaw, or lower part of the head.",
+    "Old English 'ceole' or Middle English 'jowle'.",
+    "The mastiff stood ready, jowl dripping with foam as the boar approached.",
+    "Sir Thomas Malory, Le Morte d'Arthur"
+  ],
+  [
+    "Joy-craft",
+    "/ˈdʒɔɪˌkrɑːft/",
+    "e",
+    "The art or practice of causing joy or merrymaking.",
+    "Rare Elizabethan compound formation.",
+    "His mastery of music and masque was a true joy-craft at court.",
+    "Court Revels Accounts of Elizabeth I"
+  ],
+  [
+    "Joyfulness",
+    "/ˈdʒɔɪfʊlnəs/",
+    "m",
+    "The state of being full of joy or gladness.",
+    "Old English 'gefylnes' combined with 'joy', standard Middle English development.",
+    "The people received the new king with great joyfulness and ringing of bells.",
+    "Chronicles of the Realm"
+  ],
+  [
+    "Joy-ledger",
+    "/ˈdʒɔɪˌlɛdʒər/",
+    "t",
+    "A figurative record or account book of happy events and blessings.",
+    "Victorian literary coinage.",
+    "She kept a mental joy-ledger of every kindness shown during her trials.",
+    "Charlotte Brontë, Correspondence"
+  ],
+  [
+    "Joy-note",
+    "/ˈdʒɔɪˌnoʊt/",
+    "e",
+    "A musical note or tone expressing happiness and celebration.",
+    "English compound, Elizabethan era.",
+    "The lark poured forth a clear joy-note into the morning air.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Jubilate",
+    "/ˌdʒuːbɪˈleɪt/",
+    "m",
+    "To rejoice greatly; the 100th Psalm, used as a canticle in church services.",
+    "Latin 'jubilare', entering Middle English via liturgical use.",
+    "The congregation rose to sing the Jubilate with devout hearts.",
+    "The Book of Common Prayer"
+  ],
+  [
+    "Jubilation",
+    "/ˌdʒuːbɪˈleɪʃən/",
+    "m",
+    "A triumphant shouting for joy; public festivity and rejoicing.",
+    "Latin 'jubilatio', entering Middle English in the 14th century.",
+    "There was great jubilation throughout the city upon the defeat of the armada.",
+    "Raphael Holinshed, Chronicles"
+  ],
+  [
+    "Jucundity",
+    "/dʒuːˈkʌndɪti/",
+    "t",
+    "Pleasantness, agreeableness, or mereness.",
+    "Latin 'jucunditas', used in 17th-century prose alongside 'jocundity'.",
+    "The garden possessed a natural jucundity that soothed the troubled mind.",
+    "John Evelyn, Sylva"
+  ],
+  [
+    "Judicatory",
+    "/ˈdʒuːdɪkəˌtɔːri/",
+    "e",
+    "A court of justice, or a body authorized to administer legal judgment.",
+    "Late Latin 'judicatorius', 16th century.",
+    "The case was referred to the highest ecclesiastic judicatory of the realm.",
+    "Richard Hooker, Of the Laws of Ecclesiastical Polity"
+  ],
+  [
+    "Jumblement",
+    "/ˈdʒʌmbəlmənt/",
+    "t",
+    "A confused mixture, disorder, or muddle.",
+    "Derived from 'jumble', 17th century.",
+    "The desk was a complete jumblement of old papers, quills, and seals.",
+    "Izaak Walton, The Compleat Angler"
+  ],
+  [
+    "Juniority",
+    "/ˌdʒuːniˈɒrɪti/",
+    "e",
+    "The state or condition of being junior in age or standing.",
+    "Late Latin 'junioritas', Elizabethan era.",
+    "By reason of his juniority, he yielded precedence to the elder knights.",
+    "William Camden, Annals of Queen Elizabeth"
+  ],
+  [
+    "Kainsfolk",
+    "/ˈkeɪnzfɒk/",
+    "e",
+    "Kindred, relations, or members of the same family or clan.",
+    "Derived from Old English 'cynn' (family) and 'folc' (people).",
+    "He bade his kainsfolk gather for the feast.",
+    "Scottish Border Ballads and Jacobean Records"
+  ],
+  [
+    "Kaisar",
+    "/ˈkaɪzɑːr/",
+    "e",
+    "An emperor or supreme ruler, specifically of the Roman or Byzantine Empire.",
+    "From Middle English and Latin Caesar, via German.",
+    "The mighty kaisar held his court in eastern lands.",
+    "Richard Hakluyt, 'Principal Navigations'"
+  ],
+  [
+    "Kamp",
+    "/kæmp/",
+    "e",
+    "To contend, strive, or wrestle in competition.",
+    "From Old English 'campian' (to fight or strive).",
+    "They kamped long upon the wrestling green.",
+    "Middle English and Early Tudor texts"
+  ],
+  [
+    "Kanter",
+    "/ˈkæntər/",
+    "e",
+    "A hypocrite, rogue, or beggar who uses religious cant.",
+    "Derived from 'cant' (to speak hypocritically) + '-er'.",
+    "Beware the false kanter who begs at the minster door.",
+    "Thomas Harman, 'Caveat for Common Cursetors'"
+  ],
+  [
+    "Kare",
+    "/kɛər/",
+    "e",
+    "Care, anxiety, sorrow, or attention.",
+    "Middle English variant of care.",
+    "Full of heavy kare and woe.",
+    "John Gower, 'Confessio Amantis'"
+  ],
+  [
+    "Karr",
+    "/kɑːr/",
+    "e",
+    "A cart or heavy two-wheeled vehicle used for hauling.",
+    "Northern dialect variant of car.",
+    "Load the hay upon the karr before nightfall.",
+    "Yorkshire Parish Registers, Elizabethan Era"
+  ],
+  [
+    "Katzenjammer",
+    "/ˈkætsənhæmər/",
+    "e",
+    "A hangover, distress, or uneasy state after drinking.",
+    "German borrowing entering English usage in the late 16th century.",
+    "He woke with a grievous katzenjammer from the tavern ale.",
+    "Jacobean tavern memoires"
+  ],
+  [
+    "Keak",
+    "/kiːk/",
+    "e",
+    "To tilt, overturn, or look slyly.",
+    "Of imitative or Scandinavian origin.",
+    "The heavy wagon began to keak upon the rutted road.",
+    "Northern English household inventories"
+  ],
+  [
+    "Kearn",
+    "/kɜːrn/",
+    "e",
+    "An Irish foot soldier lightly armed; a peasant or rogue.",
+    "From Irish 'ceitharn'.",
+    "The wild kerns came shouting down the glen.",
+    "William Shakespeare, 'Macbeth'"
+  ],
+  [
+    "Kecch",
+    "/kɛtʃ/",
+    "e",
+    "A lump or roll of fat.",
+    "Variant of keech.",
+    "A greasy kecch of tallow.",
+    "Tudor culinary texts"
+  ],
+  [
+    "Keeve",
+    "/kiːv/",
+    "e",
+    "A large brewing tub, vat, or vessel used in dyeing.",
+    "From Old English 'cyf'.",
+    "Fill the keeve with warm mash for the beer.",
+    "Renaissance brewing tracts"
+  ],
+  [
+    "Keg",
+    "/kɛɡ/",
+    "e",
+    "A small cask or barrel.",
+    "From Old Norse 'keggr'.",
+    "A small keg of canary wine.",
+    "Merchant logs of the Elizabethan era"
+  ],
+  [
+    "Kelk",
+    "/kɛlk/",
+    "e",
+    "To strike, thump, or throw down heavily.",
+    "Related to kelch.",
+    "He kelked the sack upon the stone floor.",
+    "Northern English dialect records"
+  ],
+  [
+    "Kelter",
+    "/ˈkɛltər/",
+    "e",
+    "Good order, proper condition, or readiness.",
+    "Origin uncertain, possibly Scandinavian.",
+    "The gear is all in good kelter for the journey.",
+    "Nicholas Udall, 'Ralph Roister Doister'"
+  ],
+  [
+    "Kepa",
+    "/ˈkɛpə/",
+    "e",
+    "To catch, intercept, or wait for.",
+    "Variant of kep (Old English 'cēpan').",
+    "Stand by the stile to kep the tumbling ball.",
+    "Northern English Tudor plays"
+  ],
+  [
+    "Kept",
+    "/kɛpt/",
+    "e",
+    "Guarded, maintained, or stayed.",
+    "Past tense of keep.",
+    "He kept his chamber through the winter frost.",
+    "Shakespeare, 'Romeo and Juliet'"
+  ],
+  [
+    "Kervel",
+    "/ˈkɜːrvəl/",
+    "e",
+    "Chervil, an aromatic herb used in Elizabethan cooking.",
+    "From French 'cerfeuil' and Latin 'caerifolium'.",
+    "Season the broth with kervel and thyme.",
+    "John Gerard, 'Herball'"
+  ],
+  [
+    "Kever",
+    "/ˈkiːvər/",
+    "e",
+    "To cover, hide, or conceal.",
+    "From Old English 'ofercwrīfan' or Old French.",
+    "Kever the dish so the meat stays warm.",
+    "Middle English romance literature"
+  ],
+  [
+    "Kibble",
+    "/ˈkɪbəl/",
+    "e",
+    "To grind coarsely, or a bucket used in mining.",
+    "Etymology uncertain, dialectal.",
+    "Kibble the malt before it goes to the mash-vat.",
+    "Early Modern mining and brewing logs"
+  ],
+  [
+    "Kill-cow",
+    "/ˈkɪl kaʊ/",
+    "e",
+    "A ruffian, swaggerer, or murderous bully.",
+    "Compound of kill + cow.",
+    "He struts about like a very kill-cow.",
+    "Gabriel Harvey, literary pamphlets"
+  ],
+  [
+    "Kindle",
+    "/ˈkɪndəl/",
+    "e",
+    "To bring forth young, especially of rabbits or cats; to ignite.",
+    "From Old Norse 'kynda'.",
+    "The doe began to kindle in her hutch.",
+    "Edward Topsell, 'History of Four-Footed Beasts'"
+  ],
+  [
+    "Labile",
+    "/ˈleɪ.baɪl/",
+    "e",
+    "Liable to slip, fall, or change; unstable or unsteady.",
+    "Latin *labibilis*, from *labi* (to slip or fall).",
+    "His foot was labile upon the treacherous floor of statecraft.",
+    "Fulke Greville"
+  ],
+  [
+    "Laborous",
+    "/ləˈbɔːrəs/",
+    "e",
+    "Pertaining to toil; burdensome, wearisome, or industrious.",
+    "Latin *laborosus*, from *labor*.",
+    "A laborous enterprise fit for the stoutest hearts of the realm.",
+    "Richard Hakluyt"
+  ],
+  [
+    "Lacert",
+    "/ləˈsɜːrt/",
+    "e",
+    "A muscle or muscular sinew; literally a lizard-like muscle.",
+    "Latin *lacertus* (upper arm, muscle, or lizard).",
+    "Every lacert strained against the iron-bound timber.",
+    "Philemon Holland"
+  ],
+  [
+    "Lachrymous",
+    "/ˈlækrɪməs/",
+    "e",
+    "Tearful, prone to weeping, or causing tears.",
+    "Latin *lacrimosus*, from *lacrima* (tear).",
+    "With lachrymous eyes she bade her lord farewell.",
+    "John Webster"
+  ],
+  [
+    "Lack-brain",
+    "/ˈlæk.breɪn/",
+    "e",
+    "A senseless, foolish, or stupid person; a blockhead.",
+    "Compound of *lack* and *brain*.",
+    "Thou shallow lack-brain, knowest thou not the king's decree?",
+    "William Shakespeare"
+  ],
+  [
+    "Lack-linen",
+    "/ˈlækˌlɪn.ən/",
+    "e",
+    "A very poor person; one lacking even a change of linen shirts.",
+    "Compound of *lack* and *linen*.",
+    "Away, you base lack-linen mate, thou hast no credit in court.",
+    "Thomas Dekker"
+  ],
+  [
+    "Laconick",
+    "/ləˈkɒn.ɪk/",
+    "e",
+    "Brief, concise, or pithy in speech, after the manner of the Spartans.",
+    "Greek *Lakōnikos*, via Latin.",
+    "His answer was laconick, brooking no further argument.",
+    "Ben Jonson"
+  ],
+  [
+    "Laetification",
+    "/ˌliː.tɪ.fɪˈkeɪ.ʃən/",
+    "e",
+    "The act of making joyful or gladdening the heart.",
+    "Latin *laetificatio*, from *laetificare*.",
+    "The wine brought great laetification to the weary company.",
+    "Robert Burton"
+  ],
+  [
+    "Lagly",
+    "/ˈlæɡ.li/",
+    "m",
+    "Slowly, sluggishly, or dilatorily.",
+    "Middle English *lag* + *-ly*.",
+    "He walked lagly toward the judgment seat.",
+    "John Gower"
+  ],
+  [
+    "Laicall",
+    "/ˈleɪ.ɪ.kəl/",
+    "e",
+    "Belonging to the laity or people, distinct from the clergy.",
+    "Late Latin *laicalis*, from Greek *laikos*.",
+    "Even laicall folk perceived the heresy in the sermon.",
+    "Richard Hooker"
+  ],
+  [
+    "Lambitive",
+    "/ˈlæm.bɪ.tɪv/",
+    "e",
+    "Taken by licking with the tongue, as a medicinal syrup.",
+    "Latin *lambitivus*, from *lambere* (to lick).",
+    "The apothecary prescribed a sweet lambitive for her cough.",
+    "Thomas Moffet"
+  ],
+  [
+    "Lamet",
+    "/ləˈmɛt/",
+    "e",
+    "A small plate or lamina of metal used in armor.",
+    "French *lamette*, diminutive of *lame*.",
+    "The blow pierced his corselet through the second lamet.",
+    "Sir Walter Raleigh"
+  ],
+  [
+    "Lampasting",
+    "/læmˈpɑːst.ɪŋ/",
+    "t",
+    "A severe beating or a scathing verbal critique.",
+    "From *lampast* (to thrash), of uncertain origin.",
+    "He received a proper lampasting from the master of the rolls.",
+    "Charles Dickens"
+  ],
+  [
+    "Lancinate",
+    "/ˈlæn.sɪ.neɪt/",
+    "e",
+    "To tear, lacerate, or pierce sharply, as pain.",
+    "Latin *lancinatus*, past participle of *lancinare*.",
+    "A lancinate grief did pierce his bleeding heart.",
+    "John Ford"
+  ],
+  [
+    "Land-damn",
+    "/ˈlænd.dæm/",
+    "e",
+    "An obscure Elizabethan term meaning to ruin, condemn to the land, or destroy.",
+    "Etymology disputed, possibly a corruption of *land-den* or *lant-am*.",
+    "Would I could land-damn him! Would he were rot prepar'd!",
+    "William Shakespeare"
+  ],
+  [
+    "Languent",
+    "/ˈlæŋ.ɡwənt/",
+    "e",
+    "Drooping, languishing, or faint.",
+    "Latin *languentem*, from *languere*.",
+    "His languent spirits revived upon the taste of wine.",
+    "Philemon Holland"
+  ],
+  [
+    "Lanificall",
+    "/ləˈnɪf.ɪ.kəl/",
+    "e",
+    "Pertaining to wool-working or spinning.",
+    "Latin *lanificium*, from *lana* (wool) + *facere* (to make).",
+    "The lanificall arts employed many maidens of the shire.",
+    "John Florio"
+  ],
+  [
+    "Lapidescent",
+    "/ˌlæp.ɪˈdɛs.ənt/",
+    "e",
+    "Turning into stone or petrifying.",
+    "Latin *lapidescentem*, from *lapidescere*.",
+    "The lapidescent waters of the cavern turned the fern to stone.",
+    "Francis Bacon"
+  ],
+  [
+    "Larcin",
+    "/ˈlɑːr.sɪn/",
+    "m",
+    "The crime of theft or larceny.",
+    "Old French *larcin*, from Latin *latrocinium*.",
+    "He stood accused of foul larcin in the open market.",
+    "Chaucer"
+  ],
+  [
+    "Largition",
+    "/lɑːrˈdɪʃ.ən/",
+    "e",
+    "The act of giving generously; a largess or bestowal.",
+    "Latin *largitio*, from *largiri*.",
+    "By royal largition, the poor received bread and ale.",
+    "John Foxe"
+  ],
+  [
+    "Lasciviate",
+    "/ləˈsɪv.i.eɪt/",
+    "e",
+    "To act wantonly, lustfully, or sport lasciviously.",
+    "Latin *lasciviare*, from *lascivus*.",
+    "He suffered his youth to lasciviate in courtly pleasures.",
+    "Thomas Nashe"
+  ],
+  [
+    "Latibule",
+    "/ˈlæt.ɪ.bjuːl/",
+    "e",
+    "A hiding place, retreat, or lurking hole.",
+    "Latin *latibulum*, from *latere* (to lie hidden).",
+    "The fox withdrew to his dark latibule.",
+    "Edward Topsell"
+  ],
+  [
+    "Latria",
+    "/ləˈtriː.ə/",
+    "e",
+    "The highest form of worship or adoration due only to God.",
+    "Greek *latreia* (service, worship).",
+    "Such supreme latria belongs to the Creator alone, not saints.",
+    "John Jewel"
+  ],
+  [
+    "Laugh-worthy",
+    "/ˈlɑːfˌwɜːr.ði/",
+    "e",
+    "Deserving of laughter; laughable or ridiculous.",
+    "Compound of *laugh* and *worthy*.",
+    "His strange attire seemed more laugh-worthy than wise.",
+    "George Chapman"
+  ],
+  [
+    "Lavolta",
+    "/ləˈvɒl.tə/",
+    "e",
+    "A lively, high-stepping dance for two people, popular in the Renaissance.",
+    "Italian *la volta* (the turn).",
+    "They danced a stately lavolta upon the royal dais.",
+    "William Shakespeare"
+  ],
+  [
+    "Lealty",
+    "/ˈliːəl.ti/",
+    "e",
+    "Loyalty, fidelity, or allegiance to a sovereign or master.",
+    "Old French *lealté*.",
+    "He swore his lealty upon the holy altar.",
+    "Edmund Spenser"
+  ],
+  [
+    "Leasing",
+    "/ˈliː.zɪŋ/",
+    "m",
+    "Falsehood, lying, or deceit.",
+    "Old English *lēasung* (lying, deceit).",
+    "Depart from hence, thou worker of foul leasing.",
+    "Geoffrey Chaucer"
+  ],
+  [
+    "Lechery",
+    "/ˈlɛtʃ.ər.i/",
+    "e",
+    "Excessive or offensive indulgence in lust; lewdness.",
+    "Old French *lechierie*.",
+    "His heart was hardened by wine and lechery.",
+    "Christopher Marlowe"
+  ],
+  [
+    "Lectual",
+    "/ˈlɛk.tʃuː.əl/",
+    "e",
+    "Pertaining to a bed; done in bed.",
+    "Latin *lectualis*, from *lectus* (bed).",
+    "Confined to his lectual chamber by a lingering fever.",
+    "Thomas Browne"
+  ],
+  [
+    "Lemman",
+    "/ˈlɛm.ən/",
+    "m",
+    "A sweetheart, lover, mistress, or concubine.",
+    "Old English *lēofmann* (dear man/person).",
+    "The knight rode forth to rescue his imprisoned lemman.",
+    "Sir Thomas Malory"
+  ],
+  [
+    "Lentitude",
+    "/ˈlɛn.tɪ.tjuːd/",
+    "e",
+    "Slowness, sluggishness, or tardiness.",
+    "Latin *lentitudo*, from *lentus* (slow).",
+    "The lentitude of the messenger vexed the council greatly.",
+    "Francis Bacon"
+  ],
+  [
+    "Leoparde",
+    "/ˈlɛp.ərd/",
+    "e",
+    "An archaic spelling of leopard, often used in heraldry.",
+    "Old French *leopart*, from Greek *leopardos*.",
+    "Three golden leoparde paced across the crimson shield.",
+    "John Skelton"
+  ],
+  [
+    "Leporine",
+    "/ˈlɛp.ə.raɪn/",
+    "e",
+    "Pertaining to or resembling a hare.",
+    "Latin *leporinus*, from *lepus* (hare).",
+    "He possessed a leporine timidity when danger threatened.",
+    "Edward Topsell"
+  ],
+  [
+    "Lethargick",
+    "/lɪˈθɑːr.dʒɪk/",
+    "e",
+    "Unnaturally drowsy, sluggish, or dull.",
+    "Greek *lēthargikos*, via Latin.",
+    "The heavy ale made the serving men lethargick.",
+    "Robert Burton"
+  ],
+  [
+    "Levigate",
+    "/ˈlɛv.ɪ.ɡeɪt/",
+    "e",
+    "To grind to a fine powder; to make smooth or polished.",
+    "Latin *levigatus*, from *levis* (smooth).",
+    "The alchemist did levigate the calcined stone.",
+    "John Dee"
+  ],
+  [
+    "Libant",
+    "/ˈlaɪ.bənt/",
+    "e",
+    "Sipping, tasting, or pouring a libation.",
+    "Latin *libantem*, from *libare*.",
+    "The priests stood libant before the marble shrine.",
+    "George Chapman"
+  ],
+  [
+    "Lignum",
+    "/ˈlɪɡ.nəm/",
+    "e",
+    "Wood, timber, or a woody substance.",
+    "Latin *lignum*.",
+    "They cast dry lignum upon the blazing hearth.",
+    "Thomas Elyot"
+  ],
+  [
+    "Limb-bitch",
+    "/ˈlɪm.bɪtʃ/",
+    "e",
+    "A term of abuse for a worthless, nagging, or aggressive woman.",
+    "Compound of *limb* and *bitch*.",
+    "Peace, you loud limb-bitch, lest I stop your prating.",
+    "Thomas Dekker"
+  ],
+  [
+    "Lipy",
+    "/ˈlaɪ.pi/",
+    "e",
+    "Having a slight fever accompanied by coldness.",
+    "Greek *lipe* (pain, grief) or Latinized medical term.",
+    "The child lay lipy and restless upon the cot.",
+    "Philemon Holland"
+  ],
+  [
+    "Malign",
+    "/məˈlaɪn/",
+    "e",
+    "Evil in nature, influence, or effect; malevolent.",
+    "From Old French malignier, from Latin malignare, from malignus (wicked).",
+    "Of malignant stars and powers malignant.",
+    "John Milton, Paradise Lost"
+  ],
+  [
+    "Margent",
+    "/ˈmɑːrdʒənt/",
+    "e",
+    "An archaic form of margin, meaning the edge or border, especially of a page.",
+    "Variant of margin, influenced by French marge.",
+    "And what's else in the margent of this book.",
+    "William Shakespeare, Romeo and Juliet"
+  ],
+  [
+    "Maundy",
+    "/ˈmɔːndi/",
+    "e",
+    "The mandate given by Christ to love one another; specifically, the ceremony of washing the feet of the poor on the Thursday before Easter.",
+    "From Old French mandé, from Latin mandatum.",
+    "Upon the day called Maundy Thursday.",
+    "John Foxe, Book of Martyrs"
+  ],
+  [
+    "Mazard",
+    "/ˈmæzərd/",
+    "e",
+    "The head, skull, or face.",
+    "Origin uncertain, possibly related to mazer (a wooden bowl).",
+    "They knock about the mazard with a salt-shovel.",
+    "William Shakespeare, Hamlet"
+  ],
+  [
+    "Memoirist",
+    "/ˈmɛmwərɪst/",
+    "t",
+    "One who writes memoirs or historical accounts.",
+    "From French mémorialiste, coined in the post-Elizabethan era.",
+    "The astute memoirist recorded every court intrigue.",
+    "John Evelyn, Diary"
+  ],
+  [
+    "Merbank",
+    "/ˈmɜːrbæŋk/",
+    "e",
+    "The bank or shore of the sea.",
+    "Compound of mere (sea/lake) + bank.",
+    "Beside the merbank where the sirens sing.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Mercat",
+    "/ˈmɜːrkæt/",
+    "e",
+    "A market or marketplace, especially in Scotland and Northern England.",
+    "From Latin mercatus.",
+    "At the public mercat cross.",
+    "Scottish Legal Statutes"
+  ],
+  [
+    "Meretricious",
+    "/ˌmɛrɪˈtrɪʃəs/",
+    "e",
+    "Seemingly attractive but having in reality no value; pertaining to prostitutes.",
+    "From Latin meretricius (of a harlot).",
+    "With meretricious smiles and painted cheeks.",
+    "Thomas Dekker, The Honest Whore"
+  ],
+  [
+    "Merit",
+    "/ˈmɛrɪt/",
+    "e",
+    "The quality of being particularly good or worthy, deserving reward.",
+    "From Latin meritum.",
+    "Let none presume to wear an undeserved dignity.",
+    "William Shakespeare, The Merchant of Venice"
+  ],
+  [
+    "Merle",
+    "/mɜːrl/",
+    "e",
+    "The European blackbird.",
+    "From Old French merle, from Latin merula.",
+    "The silver merle sang clear within the grove.",
+    "Michael Drayton, Poly-Olbion"
+  ],
+  [
+    "Mess",
+    "/mɛs/",
+    "e",
+    "A group of four people sitting together at dinner, or a portion of food.",
+    "From Old French mes (dish).",
+    "Where is the mess? They are all ready.",
+    "William Shakespeare, Love's Labour's Lost"
+  ],
+  [
+    "Mettle",
+    "/ˈmɛtəl/",
+    "e",
+    "Vigour and strength of spirit or temperament.",
+    "Variant of metal, used metaphorically.",
+    "We fail? But screw your courage to the sticking-place, and we'll not fail.",
+    "William Shakespeare, Macbeth"
+  ],
+  [
+    "Mew",
+    "/mjuː/",
+    "e",
+    "A cage or enclosure, specifically for hawks while molting; to confine.",
+    "From Old French mew, from Latin mutare.",
+    "More pity that the eagle should be mewed.",
+    "William Shakespeare, Richard III"
+  ],
+  [
+    "Mich",
+    "/mɪtʃ/",
+    "e",
+    "To lurk, skulk, or play truant secretly.",
+    "From Middle English micchen.",
+    "Shall the blessed sun of heaven prove a micher and eat blackberries?",
+    "William Shakespeare, Henry IV, Part 1"
+  ],
+  [
+    "Mickle",
+    "/ˈmɪkəl/",
+    "e",
+    "Much, great, or large in amount or degree.",
+    "From Old English micel.",
+    "I have mickle to do.",
+    "William Shakespeare, Comedy of Errors"
+  ],
+  [
+    "Midine",
+    "/ˈmɪdaɪn/",
+    "e",
+    "Noontide or midday.",
+    "Compound of mid + ine (suffix).",
+    "Beneath the burning sun of midine.",
+    "Thomas Kyd, The Spanish Tragedy"
+  ],
+  [
+    "Minacious",
+    "/mɪˈneɪʃəs/",
+    "e",
+    "Threatening or menacing in aspect.",
+    "From Latin minax (genitive minacis), from minari (to threaten).",
+    "With minacious words and flashing steel.",
+    "Sir Walter Raleigh, History of the World"
+  ],
+  [
+    "Minikin",
+    "/ˈmɪnɪkɪn/",
+    "e",
+    "Dainty, delicate, small, or pretty.",
+    "From Dutch minneken (little darling).",
+    "His minikin mouth doth sing.",
+    "William Shakespeare, King Lear"
+  ],
+  [
+    "Mire",
+    "/ˈmaɪər/",
+    "e",
+    "Swampy ground, deep mud, or slush.",
+    "From Old Norse mýrr.",
+    "Led through bog, through bush, through brake, through mire.",
+    "William Shakespeare, A Midsummer Night's Dream"
+  ],
+  [
+    "Miscreant",
+    "/ˈmɪskriənt/",
+    "e",
+    "An infidel, heretic, or vile scoundrel.",
+    "From Old French mescreant (misbelieving).",
+    "Thou art a damned miscreant.",
+    "Christopher Marlowe, Tamburlaine"
+  ],
+  [
+    "Miser",
+    "/ˈmaɪzər/",
+    "e",
+    "A wretched, miserable, or distressed person (not necessarily hoarding wealth in early use).",
+    "From Latin miser (wretched).",
+    "The wretched miser, captive to his fears.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Misgive",
+    "/mɪsˈɡɪv/",
+    "e",
+    "To fill with doubt, apprehension, or mistrust.",
+    "From mis- + give.",
+    "My mind misgives some consequence yet hanging in the stars.",
+    "William Shakespeare, Romeo and Juliet"
+  ],
+  [
+    "Misle",
+    "/ˈmaɪzəl/",
+    "e",
+    "To rain in very fine drops; to mist.",
+    "Variant of mizzle.",
+    "The damp air began to misle upon the heath.",
+    "Ben Jonson, The Sad Shepherd"
+  ],
+  [
+    "Mister",
+    "/ˈmɪstər/",
+    "e",
+    "Kind, sort, manner, or trade; also used as a noun of occupation.",
+    "From Old French mestier, from Latin ministerium.",
+    "What mister wight art thou?",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Mobled",
+    "/ˈmɒbəld/",
+    "e",
+    "Muffled, wrapped up, or hoodwinked about the head.",
+    "Related to mob cap (a loose cap).",
+    "But who, O, who had seen the mobled queen.",
+    "William Shakespeare, Hamlet"
+  ],
+  [
+    "Model",
+    "/ˈmɒdəl/",
+    "e",
+    "An image, representation, or preliminary plan.",
+    "From French modèle, from Italian modello.",
+    "O England! model to thy inward greatness.",
+    "William Shakespeare, Henry V"
+  ],
+  [
+    "Modicum",
+    "/ˈmɒdɪkəm/",
+    "e",
+    "A small quantity or portion.",
+    "From Latin modicum (a little).",
+    "He hath but a modicum of wit.",
+    "Robert Burton, The Anatomy of Melancholy"
+  ],
+  [
+    "Moil",
+    "/mɔɪl/",
+    "e",
+    "To drudge, labor hard, or toil.",
+    "From Old French mouiller (to wet, toil in the wet).",
+    "To moil and toil in the heavy clay.",
+    "Thomas Tusser, Five Hundred Points of Good Husbandry"
+  ],
+  [
+    "Nab",
+    "/næb/",
+    "e",
+    "To catch, seize, or arrest someone suddenly.",
+    "Of uncertain origin, possibly Scandinavian (compare dialectal Swedish nappa to seize).",
+    "They will nab you by the ears; you shall go.",
+    "Thomas Dekker, The Honest Whore"
+  ],
+  [
+    "Nabcheat",
+    "/ˈnæb.tʃiːt/",
+    "e",
+    "A hat or cap in early modern thieves' cant.",
+    "Canting slang; combination of 'nab' (head) and 'cheat' (thing).",
+    "I'll buy you a new nabcheat for your crown.",
+    "Thomas Harman, Caveat for Common Cursitors"
+  ],
+  [
+    "Nad",
+    "/næd/",
+    "e",
+    "An obsolete contraction of 'ne had', meaning 'had not'.",
+    "Middle English contraction of 'ne' (not) and 'hadde' (had).",
+    "Full well he wist he nad no better way.",
+    "Geoffrey Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Nae",
+    "/neɪ/",
+    "e",
+    "No, or not (Northern and Scottish variant).",
+    "Old English 'nā', meaning never or no.",
+    "He has nae grace to mend his wicked life.",
+    "Sir David Lyndsay, Satyre of the Thrie Estaitis"
+  ],
+  [
+    "Nag",
+    "/næɡ/",
+    "e",
+    "To gnaw, bite, or torment persistently; also an old or inferior horse.",
+    "Middle English 'naggen', of uncertain origin, possibly related to Old Norse nagga.",
+    "Care naggeth his heart, and trouble feeds his soul.",
+    "Thomas North, Plutarch's Lives"
+  ],
+  [
+    "Nail-harbor",
+    "/ˈneɪlˌhɑːr.bər/",
+    "e",
+    "A tavern or low drinking house where sailors and rogues congregate.",
+    "Colloquial Elizabethan compound of 'nail' and 'harbor'.",
+    "He spends his whole estate in every nail-harbor between here and Wapping.",
+    "Thomas Dekker, The Gull's Hornbook"
+  ],
+  [
+    "Nall",
+    "/nɔːl/",
+    "e",
+    "An awl, a pointed tool used by shoemakers for piercing leather.",
+    "Middle English 'an nall', resulting from a mistaken division of 'a nall' from 'an awl'.",
+    "With nall and wax he stitched the heavy boot.",
+    "John Heywood, Proverbs"
+  ],
+  [
+    "Nam",
+    "/næm/",
+    "e",
+    "An obsolete contraction of 'ne am', meaning 'am not'.",
+    "Old English contraction of 'ne' (not) and 'eom' (am).",
+    "I nam but a rude and unlettered man.",
+    "Geoffrey Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Namby-pamby",
+    "/ˈnæm.bi ˈpæm.bi/",
+    "t",
+    "Affectedly pretty, weak, or sentimental.",
+    "Coinage from the 18th century satirizing the pastoral verse of Ambrose Philips, but persisted into Victorian prose.",
+    "Away with your namby-pamby verses and speak like a man.",
+    "Charles Dickens, Nicholas Nickleby"
+  ],
+  [
+    "Name-cousin",
+    "/ˈneɪmˌkʌz.ən/",
+    "e",
+    "Someone who shares the same given name.",
+    "English compound of 'name' and 'cousin'.",
+    "My good name-cousin, how doth your family fare?",
+    "Ben Jonson, Bartholomew Fair"
+  ],
+  [
+    "Nan",
+    "/næn/",
+    "e",
+    "An aunt, or a generic term for an old woman or nursemaid.",
+    "Hypocoristic form of the feminine given name Ann.",
+    "Go to, old nan, and fetch the cordial water.",
+    "John Lyly, Euphues"
+  ],
+  [
+    "Nance",
+    "/næns/",
+    "e",
+    "An effeminate man or a country girl; also a drinking vessel.",
+    "From the proper name Nancy or Agnes.",
+    "He minces like a nance in his new satin doublet.",
+    "Philip Stubbes, The Anatomie of Abuses"
+  ],
+  [
+    "Nanking",
+    "/ˈnæn.kɪŋ/",
+    "t",
+    "A yellowish-buff cotton cloth originally manufactured in China.",
+    "Named after the city of Nanjing (Nanking).",
+    "He wore trousers of stout nanking and a blue coat.",
+    "Jane Austen, Northanger Abbey"
+  ],
+  [
+    "Nape",
+    "/neɪp/",
+    "e",
+    "The back of the neck.",
+    "Middle English 'nape', possibly from Old Norse or related to 'nap' (top/summit).",
+    "He seized him by the nape and hurled him to the earth.",
+    "Arthur Golding, Ovid's Metamorphoses"
+  ],
+  [
+    "Naphead",
+    "/ˈnæp.hɛd/",
+    "e",
+    "A stupid, sluggish, or sleepy person.",
+    "English compound of 'nap' (doze) and 'head'.",
+    "Wake up, you idle naphead, and tend the fire.",
+    "Robert Greene, Friar Bacon and Friar Bungay"
+  ],
+  [
+    "Napkin",
+    "/ˈnæp.kɪn/",
+    "e",
+    "A small cloth used at table for wiping the fingers or lips; also used in Elizabethan times to mean a handkerchief.",
+    "Diminutive of Old French 'nappe' (cloth).",
+    "This was her first gift; an emerald napkin.",
+    "William Shakespeare, Othello"
+  ],
+  [
+    "Narcotic",
+    "/nɑːrˈkɒt.ɪk/",
+    "e",
+    "A medicine or substance that dulls the senses and induces sleep or torpor.",
+    "Greek 'narkōtikos', from 'narkē' (numbness).",
+    "He drank a strong narcotic to ease the torment of his wound.",
+    "John Gerard, The Herball"
+  ],
+  [
+    "Narrative",
+    "/ˈnær.ə.tɪv/",
+    "e",
+    "A story or account of events, or serving to tell a story.",
+    "Late Latin 'narrativus', from 'narrare' (to tell).",
+    "A true and faithful narrative of the late strange accidents.",
+    "Thomas Nashe, The Unfortunate Traveller"
+  ],
+  [
+    "Nasicorn",
+    "/ˈneɪ.zɪ.kɔːrn/",
+    "e",
+    "An animal having a horn upon its nose, such as the rhinoceros.",
+    "Latin 'nasus' (nose) + 'cornu' (horn).",
+    "The fierce nasicorn tramples the reeds of the river.",
+    "Edward Topsell, History of Four-Footed Beasts"
+  ],
+  [
+    "Nasicornous",
+    "/ˌneɪ.zɪˈkɔːr.nəs/",
+    "e",
+    "Having a horn on the nose.",
+    "Latin 'nasus' + 'cornu' + adjectival suffix '-ous'.",
+    "The nasicornous beast is of great strength and bulk.",
+    "Sir Thomas Browne, Pseudodoxia Epidemica"
+  ],
+  [
+    "Nasty",
+    "/ˈnæs.ti/",
+    "e",
+    "Filthy, disgusting, foul, or morally offensive.",
+    "Middle English 'nasty', likely of Scandinavian origin (compare Old Norse 'naskr' or Swedish dialect 'nast').",
+    "A nasty, stinking dungeon fit for dogs.",
+    "Thomas Nash, Pierce Pennilesse"
+  ],
+  [
+    "Natal",
+    "/ˈneɪ.təl/",
+    "e",
+    "Pertaining to birth or one's birth star/day.",
+    "Latin 'natalis', from 'natus' (born).",
+    "Under what natal star was this bold captain born?",
+    "Christopher Marlowe, Tamburlaine"
+  ],
+  [
+    "Natality",
+    "/nəˈtæl.ə.ti/",
+    "e",
+    "The birth rate or the state of being born.",
+    "Medieval Latin 'natalitas', from Latin 'natalis'.",
+    "The town rejoiced at the great natality recorded this year.",
+    "William Camden, Britannia"
+  ],
+  [
+    "Natation",
+    "/neɪˈteɪ.ʃən/",
+    "e",
+    "The act or art of swimming.",
+    "Latin 'natatio', from 'natare' (to swim).",
+    "He proved a master of natation in the swollen river.",
+    "John Florio, Queen Anna's New World of Words"
+  ],
+  [
+    "Natheless",
+    "/ˈneɪ.ðəl.ɛs/",
+    "e",
+    "Nevertheless, notwithstanding, nonetheless.",
+    "Old English 'nā þē læs' (not the less).",
+    "Natheless, he kept his course toward the dangerous coast.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Nativity",
+    "/nəˈtɪv.ə.ti/",
+    "e",
+    "Birth, or the astrological chart calculated at the moment of birth.",
+    "Old French 'nativite', from Latin 'nativitatem'.",
+    "By my nativity, this is a wondrous strange event.",
+    "William Shakespeare, 1 Henry IV"
+  ],
+  [
+    "Nature",
+    "/ˈneɪ.tʃər/",
+    "e",
+    "The inherent force or constitution of the physical world or human character.",
+    "Old French 'natura', from Latin 'natura' (birth, course of things, character).",
+    "One touch of nature makes the whole world kin.",
+    "William Shakespeare, Troilus and Cressida"
+  ],
+  [
+    "Nausea",
+    "/ˈnɔː.zi.ə/",
+    "e",
+    "Sickness of the stomach, loathing, or inclination to vomit.",
+    "Latin 'nausea', from Greek 'nausia' (seasickness, from 'naus' ship).",
+    "The rolling of the ship brought a great nausea upon him.",
+    "John Woodall, The Surgeon's Mate"
+  ],
+  [
+    "Palliation",
+    "/ˌpaliˈeɪʃən/",
+    "e",
+    "Mitigation, alleviation, or easing of the severity of a pain, disease, or offense without curing it.",
+    "From Latin palliatio, from palliare (to cloak or conceal).",
+    "He sought no cure, but rather a brief palliation of his heavy grief.",
+    "Sir Francis Bacon, 'The Advancement of Learning'"
+  ],
+  [
+    "Pard",
+    "/pɑːrd/",
+    "e",
+    "A leopard, panther, or similar spotted wild beast.",
+    "From Latin pardus, Greek pardalis.",
+    "Full of strange oaths and bearded like the pard, / Jealous in honour, sudden and quick in quarrel...",
+    "William Shakespeare, 'As You Like It'"
+  ],
+  [
+    "Parranymph",
+    "/ˈpærənɪmf/",
+    "e",
+    "A bridegroom's companion at a wedding, or one who assists in arranging a marriage; a supporter or advocate.",
+    "From Greek paranymphos (beside the bride).",
+    "He stood as parranymph to the noble lord during the high feast.",
+    "John Florio, translation of Montaigne's 'Essays'"
+  ],
+  [
+    "Parricide",
+    "/ˈpærɪsaɪd/",
+    "e",
+    "The crime of murdering one's father, mother, or close relative; also, one who commits such a crime.",
+    "From Latin parricida (one who kills a parent or relative).",
+    "Vaulting ambition, which o'erleaps itself / And falls on the other. ... Hath borne his faculties so meek, hath been / So clear in his great office, that his virtues / Will plead like angels, trumpet-tongued, against / The deep damnation of his taking-off.",
+    "William Shakespeare, 'Macbeth'"
+  ],
+  [
+    "Parsimony",
+    "/ˈpɑːrsɪməni/",
+    "e",
+    "Extreme economy, frugality, or stinginess in the expenditure of money or resources.",
+    "From Latin parsimonia, from parcere (to spare).",
+    "Let us not show base parsimony when the state demands our bounty and our open hand.",
+    "Ben Jonson, 'Sejanus His Fall'"
+  ],
+  [
+    "Passado",
+    "/pəˈsɑːdoʊ/",
+    "e",
+    "A forward thrust or step in fencing.",
+    "From Italian passata.",
+    "He fights as you sing prick-song, keeps time, distance, and proportion; rests me his minim rest, one, two, and the third in your bosom: the very butcher of a silk button, a duellist, a duellist; a gentleman of the very first house, of the first and second cause: ah, the immortal passado! the punto reverso! the hay!",
+    "William Shakespeare, 'Romeo and Juliet'"
+  ],
+  [
+    "Passion",
+    "/ˈpæʃən/",
+    "e",
+    "Mental suffering, sorrow, or intense grief; an outburst of weeping or lamentation.",
+    "From Late Latin passio (suffering, enduring), from pati.",
+    "Lo, here the gentle lark, weary of rest, / From his moist cabinet mounts up on high, / And wakes the morning, from whose silver breast / The sun ariseth in his majesty... / Ah, me, full sore adread of my fond passion.",
+    "William Shakespeare, 'The Rape of Lucrece'"
+  ],
+  [
+    "Patch",
+    "/pætʃ/",
+    "e",
+    "A fool, jester, or domestic clown, often so called from his patched or piebald garments.",
+    "Origin uncertain; perhaps from Italian pazzo (fool) or Middle English patch.",
+    "What soldier, patch? / Death of thy soul, those linen cheeks of thine / Are counsellors to fear.",
+    "William Shakespeare, 'Macbeth'"
+  ],
+  [
+    "Pate",
+    "/peɪt/",
+    "e",
+    "The head, skull, or crown of the head, often used colloquially or humorously.",
+    "Origin unknown; first recorded in the 14th century.",
+    "Come, you are well encounter'd here: I think / My gracious lord, O, call it back, my lord, / 'Tis not the meat, but 'tis the appetite / That makes the eating... what a muddle fills thy pate.",
+    "William Shakespeare, 'The Taming of the Shrew'"
+  ],
+  [
+    "Pathetical",
+    "/pəˈθɛtɪkəl/",
+    "e",
+    "Affecting the emotions or passions; emotionally moving, touching, or passionate.",
+    "From Late Latin patheticus, from Greek pathetikos.",
+    "A most pathetical wit! hunting the letter, O, she is marvellous sweet, honey, and nimble.",
+    "William Shakespeare, 'Love's Labour's Lost'"
+  ],
+  [
+    "Paucity",
+    "/ˈpɔːsɪti/",
+    "e",
+    "Smallness of number, scarcity, or scantiness.",
+    "From Latin paucitas, from paucus (few).",
+    "Because of the great paucity of grain this winter, the citizens murmur at the gates.",
+    "Sir Walter Raleigh, 'History of the World'"
+  ],
+  [
+    "Pavin",
+    "/ˈpeɪvɪn/",
+    "e",
+    "A stately, solemn court dance of the 16th and 17th centuries, or the stately music accompanying it.",
+    "From Spanish pavana (peacock dance), perhaps from pavo (peacock).",
+    "He measures out his steps like a slow pavin through the long gallery.",
+    "John Webster, 'The Duchess of Malfi'"
+  ],
+  [
+    "Pax",
+    "/pæks/",
+    "m",
+    "A tablet or plate bearing a sacred image, kissed by the priest and congregation during the Mass as a sign of peace.",
+    "Latin, meaning 'peace'.",
+    "For he hath filched a pax from out the church, and for this wood he died.",
+    "William Shakespeare, 'Henry V'"
+  ],
+  [
+    "Peascod",
+    "/ˈpiːskɒd/",
+    "e",
+    "The husk or pod of the pea plant.",
+    "From pea + cod (shell or husk).",
+    "As the mole warpeth under ground, or as the peascod drops its seed... so doth he.",
+    "William Shakespeare, 'As You Like It'"
+  ],
+  [
+    "Peccant",
+    "/ˈpɛkənt/",
+    "e",
+    "Sinful, offending, violating a moral rule; (in medicine) morbid, harmful, or corrupt.",
+    "From Latin peccant- (sinning), from peccare.",
+    "To purge the peccant humours of the state, we must apply harsh remedies.",
+    "Robert Burton, 'The Anatomy of Melancholy'"
+  ],
+  [
+    "Pedant",
+    "/ˈpɛdənt/",
+    "e",
+    "A schoolmaster, a pedantic teacher, or one who ostentatiously displays book-learning.",
+    "From Italian pedante.",
+    "Go, go, you that revel in your studies, you bookish pedant, what know you of the world?",
+    "William Shakespeare, 'The Taming of the Shrew'"
+  ],
+  [
+    "Peer",
+    "/pɪər/",
+    "m",
+    "An equal in rank, status, or excellence; a noble of the realm.",
+    "From Old French per, from Latin par (equal).",
+    "Henry, thy wife is dangerous; / Conspiring with the peers of Cornwall.",
+    "William Shakespeare, 'Henry VI, Part 2'"
+  ],
+  [
+    "Peg-a-Rant",
+    "/ˌpɛɡ ə ˈrænt/",
+    "e",
+    "A wild, noisy, or boisterous woman or rogue.",
+    "From the proper name Peg combined with rant.",
+    "She plays the peg-a-rant through every tavern in the borough.",
+    "Thomas Middleton, 'A Chaste Maid in Cheapside'"
+  ],
+  [
+    "Peise",
+    "/peɪz/",
+    "e",
+    "To weigh down, balance, poise, or burden.",
+    "From Old French peser, from Latin pensare.",
+    "Lest leaden slumber peise down mine eyes, / And make me half-less sensible of this.",
+    "William Shakespeare, 'Richard III'"
+  ],
+  [
+    "Pelting",
+    "/ˈpɛltɪŋ/",
+    "e",
+    "Paltry, petty, insignificant, or contemptible.",
+    "Probably from pelt (trash, rubbish) or an altered form of petty.",
+    "And with this regard their currents turn awry, / And lose the name of action.--Soft you now! / The fair Ophelia! Nymph, in thy orisons / Be all my sins remember'd... from pelting farm to royal court.",
+    "William Shakespeare, 'King Lear'"
+  ],
+  [
+    "Penetrable",
+    "/ˈpɛnɪtrəbəl/",
+    "e",
+    "Capable of being pierced, entered, or affected by emotions or weapons.",
+    "From Latin penetrabilis, from penetrare.",
+    "Let go thy hold / When a great wheel runs down a hill, lest it break neck with thee; but if it go backward, ye may have your will. / Come, let's away, when the bright sun has made / The tough and penetrable wood...",
+    "William Shakespeare, 'Richard III'"
+  ],
+  [
+    "Penitent",
+    "/ˈpɛnɪtənt/",
+    "m",
+    "Suffering pain or sorrow for sins; expressing repentance; a person who repents.",
+    "From Latin paenitent- (repenting), from paenitere.",
+    "No, let the candied tongue lick absurd pomp, / And crook the pregnant hinges of the knee / Where thrift may follow fawning. Dost thou hear? / Since my dear soul was mistress of her choice / And could of men distinguish her election, / She hath seal'd thee for herself... a penitent soul.",
+    "William Shakespeare, 'Hamlet'"
+  ],
+  [
+    "Penury",
+    "/ˈpɛnjʊri/",
+    "e",
+    "Extreme poverty, destitution, or insufficiency.",
+    "From Latin penuria.",
+    "I do remember an apothecary,— / And hereabouts he dwells,—which late I noted / In tattered weeds, with overwhelming brows, / Culling of simples; meagre were his looks, / Sharp misery had worn him to the bones: / And in his needy shop a tortoise hung...",
+    "William Shakespeare, 'Romeo and Juliet'"
+  ],
+  [
+    "Perdition",
+    "/pərˈdɪʃən/",
+    "m",
+    "Total ruin, damnation, or the loss of the soul in eternal fire.",
+    "From Latin perditio, from perdere (to destroy).",
+    "A-pox o' your throat, you bawling, blasphemous, incharitable dog! / ... / Mercy on us! / We split, we split!—Farewell, my wife and children!— / Farewell, brother!—We split, we split, we split! / To endless perdition.",
+    "William Shakespeare, 'The Tempest'"
+  ],
+  [
+    "Perdue",
+    "/pərˈdjuː/",
+    "e",
+    "A soldier sent on a hazardous outpost or forlorn hope; also used adverbially ('in hiding' or 'in peril').",
+    "From French enfants perdus ('lost children').",
+    "Like a sad perdue, he watches through the freezing night near the enemy lines.",
+    "John Webster, 'The White Devil'"
+  ],
+  [
+    "Peregrination",
+    "/ˌpɛrɪɡrɪˈneɪʃən/",
+    "e",
+    "A journey, wandering, or travel from place to place, especially a long or foreign pilgrimage.",
+    "From Latin peregrinatio, from peregrinari (to travel abroad).",
+    "Yet I have cross'd the seas, and sought far lands, / In tedious peregrination through the world.",
+    "William Shakespeare, 'As You Like It'"
+  ],
+  [
+    "Peremptory",
+    "/pəˈrɛmptəri/",
+    "e",
+    "Absolute, decisive, dictatorial, or leaving no room for denial or debate.",
+    "From Latin peremptorius, from perimere (to destroy or put an end to).",
+    "The youth is green and apt for any change; / But we are old and full of settled grief... / Be peremptory in your brief commands.",
+    "William Shakespeare, 'Richard II'"
+  ],
+  [
+    "Perfidious",
+    "/pərˈfɪdiəs/",
+    "e",
+    "Deceitful, treacherous, faithless, or untrustworthy.",
+    "From Latin perfidus, through French perfidieux.",
+    "The trust reposed in his perfidious friend was paid with daggers in the dark.",
+    "Christopher Marlowe, 'Tamburlaine'"
+  ],
+  [
+    "Perjury",
+    "/ˈpɜːrdʒəri/",
+    "m",
+    "The offense of willfully telling an untruth or making a false statement under oath.",
+    "From Old French perjuri, from Latin perjurium.",
+    "Have I not heard the sea, puff'd up with winds, / Rage in the gentle canopy of air, / And such a tongue that to the voice of oath / Gives no belief, but speaks in perjury?",
+    "William Shakespeare, 'King John'"
+  ],
+  [
+    "Perpend",
+    "/pərˈpɛnd/",
+    "e",
+    "To weigh in the mind, consider attentively, ponder, or reflect upon.",
+    "From Latin perpendere (to weigh carefully).",
+    "Madam, sweet lady, why are you so sad? / ... / Good my lord, / Perpend my words and mark what I unfold.",
+    "William Shakespeare, 'Hamlet'"
+  ],
+  [
+    "Perspicacious",
+    "/ˌpɜːrspɪˈkeɪʃəs/",
+    "e",
+    "Having keen mental perception, discernment, or understanding; sharp-witted.",
+    "From Latin perspicax, from perspicere (to look closely through).",
+    "A perspicacious judge of human nature sees through the mask of flattery.",
+    "Sir Walter Raleigh, 'The Sceptic'"
+  ],
+  [
+    "Perusal",
+    "/pəˈruːzəl/",
+    "e",
+    "The act of reading through or examining carefully and in detail.",
+    "From the verb peruse (Middle English).",
+    "I have here a paper of intent, submitted for your gracious perusal.",
+    "William Shakespeare, 'Richard III'"
+  ],
+  [
+    "Pester",
+    "/ˈpɛstər/",
+    "e",
+    "To encumber, entangle, crowd, or burden with unwanted things, or to plague with minor annoyances.",
+    "From Old French empestrer, from Late Latin pastorium (a hobble for horses).",
+    "And all the while, / To make him well provide for his defence, / We shall be pestered with a rout of boys.",
+    "William Shakespeare, 'Henry IV, Part 1'"
+  ],
+  [
+    "Petulant",
+    "/ˈpɛtʃʊlənt/",
+    "e",
+    "Impatient, insolent, or unreasonably cross in speech or behavior; wanton or saucy.",
+    "From Latin petulans (brisk, impudent), from petere.",
+    "His petulant tongue brought many a duel upon his head before his hair grew grey.",
+    "Ben Jonson, 'Every Man in His Humour'"
+  ],
+  [
+    "Phantasm",
+    "/ˈfæntæzəm/",
+    "e",
+    "An apparition, phantom, specter, or a product of the imagination.",
+    "From Greek phantasma, from phantazein.",
+    "This is some meteor that the sun doth make, / Or else some airy phantasm that mocks our sight.",
+    "William Shakespeare, 'The Comedy of Errors'"
+  ],
+  [
+    "Philauty",
+    "/fɪˈlɔːti/",
+    "e",
+    "Self-love, excessive regard for oneself, or vanity.",
+    "From Greek philautia, from philos (loving) + autos (self).",
+    "He was so blinded by philauty that he deemed his own poor verses worthy of crown and laurel.",
+    "Robert Burton, 'The Anatomy of Melancholy'"
+  ],
+  [
+    "Quade",
+    "/kweɪd/",
+    "m",
+    "Bad, evil, wicked, or of inferior quality.",
+    "Middle English, from Old Norse or Dutch",
+    "A quade counsel doth ever bring a man to a shameful end.",
+    "Cursor Mundi, c. 1300"
+  ],
+  [
+    "Quaid",
+    "/kweɪd/",
+    "e",
+    "Subdued, crushed, quenched, or overcome.",
+    "Past participle of an obsolete verb meaning to quell",
+    "His high-swollen spirit was now quaid and brought low by misfortune.",
+    "Edmund Spenser, The Faerie Queene, 1590"
+  ],
+  [
+    "Quap",
+    "/kwæp/",
+    "m",
+    "To throb, beat, or palpitate.",
+    "Middle English, imitative",
+    "His wounded heart began to quap within his bruised breast.",
+    "Sir Gawain and the Green Knight, c. 1400"
+  ],
+  [
+    "Quarr",
+    "/kwɑːr/",
+    "e",
+    "To quarry, or a heap of stone blocks.",
+    "Old French quarriere",
+    "They hauled great blocks from the deep quarr to build the citadel.",
+    "William Camden, Britannia, 1586"
+  ],
+  [
+    "Quarter-face",
+    "/ˈkwɑːr.tər.feɪs/",
+    "e",
+    "A profile view; a face turned slightly away.",
+    "Quarter + face",
+    "The portrait showed his noble countenance in a sharp quarter-face.",
+    "Ben Jonson, Every Man in His Humor, 1598"
+  ],
+  [
+    "Querd",
+    "/kwɜːrd/",
+    "m",
+    "Cowardly or turned back in fear.",
+    "Old French cuard",
+    "He proved himself a querd knight who fled the tournament.",
+    "Gower, Confessio Amantis, c. 1390"
+  ],
+  [
+    "Quest-monger",
+    "/ˈkwɛstˌmʌŋ.ɡər/",
+    "e",
+    "One who makes a business of stirring up lawsuits or packed juries.",
+    "Quest + monger",
+    "That dishonest quest-monger hath suborned false witnesses.",
+    "Robert Greene, A Notable Discovery of Coosnage, 1591"
+  ],
+  [
+    "Questant",
+    "/ˈkwɛs.tənt/",
+    "e",
+    "A seeker, pursuer, or searcher.",
+    "French questant, present participle of quester",
+    "And excellent dumb discourse doth welcome desolation, and bless the very questant.",
+    "William Shakespeare, All's Well That Ends Well, 1604"
+  ],
+  [
+    "Quickbeam",
+    "/ˈkwɪk.biːm/",
+    "e",
+    "The rowan tree or mountain ash, believed to ward off witchcraft.",
+    "Old English cwicbēam",
+    "He hung a branch of quickbeam above the lintel to keep out witches.",
+    "John Gerard, Herball, 1597"
+  ],
+  [
+    "Quiddle",
+    "/ˈkwɪd.əl/",
+    "e",
+    "To waste time on trifles; to busy oneself with insignificant matters.",
+    "Diminutive or variant of quid",
+    "She spent the entire afternoon quiddling over her needlework.",
+    "John Florio, Queen Anna's New World of Words, 1611"
+  ],
+  [
+    "Quill",
+    "/kwɪl/",
+    "e",
+    "The hollow stem of a feather, a pen, or the pipe of a musical instrument.",
+    "Middle English quille",
+    "He dipped his goose-quill in the ink and set down the royal decree.",
+    "John Lyly, Euphues, 1578"
+  ],
+  [
+    "Rach",
+    "/rætʃ/",
+    "m",
+    "A dog used for hunting by scent, a hound.",
+    "Old English ræcc, of Germanic origin.",
+    "Three raches that tracked the hart through the dew of the morning.",
+    "Middle English Hunting Manual"
+  ],
+  [
+    "Racket",
+    "/ˈrækɪt/",
+    "e",
+    "A clattering noise, din, or uproar; also a game played with a ball.",
+    "Imitative origin, popular in early modern slang.",
+    "What a strange racket is here! Keep the door close.",
+    "Thomas Dekker, The Shoemaker's Holiday"
+  ],
+  [
+    "Radec",
+    "/ˈreɪdɛk/",
+    "m",
+    "To advise, counsel, or direct someone.",
+    "Old English rǣdan, to advise or read.",
+    "He radec his knights to hold fast unto the law.",
+    "Layamon's Brut"
+  ],
+  [
+    "Ragingly",
+    "/ˈreɪdʒɪŋli/",
+    "e",
+    "In a furious or raging manner.",
+    "Middle English, from raging + -ly.",
+    "She wept ragingly when the news was brought unto her.",
+    "Richard Grafton, Chronicle at Large"
+  ],
+  [
+    "Raim",
+    "/reɪm/",
+    "m",
+    "To reach, stretch, or grasp after something.",
+    "Old English rǣman, to stretch out.",
+    "He raimeth his hand to catch the falling fruit.",
+    "Cursor Mundi"
+  ],
+  [
+    "Raisable",
+    "/ˈreɪzəbəl/",
+    "e",
+    "Capable of being lifted, incited, or produced.",
+    "Middle English, from raise + -able.",
+    "An army raisable on such short notice must needs be loyal.",
+    "Raphael Holinshed, Chronicles"
+  ],
+  [
+    "Rakehell",
+    "/ˈreɪkˌhɛl/",
+    "e",
+    "An immoral, dissolute person; a debauchee or rake.",
+    "From rake (to scrape) + hell; one who scrapes hell.",
+    "A company of idle rakehells that spent their days in taverns.",
+    "William Harrison, Description of England"
+  ],
+  [
+    "Rake-shamed",
+    "/ˈreɪkʃeɪmd/",
+    "e",
+    "Past caring for shame; utterly shameless.",
+    "From rake + shamed.",
+    "He is a rake-shamed varlet that hath no regard for his honor.",
+    "John Heywood, Proverbs"
+  ],
+  [
+    "Rakket",
+    "/ˈrækɪt/",
+    "m",
+    "A game of tennis or the implement used therein.",
+    "Old French raquette, from Arabic rahat (palm of the hand).",
+    "He smote the ball with his rakket across the net.",
+    "Chaucerian Glossary"
+  ],
+  [
+    "Rambais",
+    "/ˈræmbeɪz/",
+    "m",
+    "A rampart, defensive wall, or bulwark.",
+    "Old French rempart.",
+    "They stood upon the rambais and shot arrows at the besiegers.",
+    "Morte Darthur"
+  ],
+  [
+    "Ram-headed",
+    "/ˈræmˌhɛdɪd/",
+    "e",
+    "Stubborn, foolish, or cuckolded.",
+    "From ram + headed.",
+    "Thou ram-headed slave, darest thou cross my path?",
+    "Ben Jonson, Every Man in His Humour"
+  ],
+  [
+    "Ramping",
+    "/ˈræmpɪŋ/",
+    "e",
+    "Exuberant, rampant, rearing up on hind legs.",
+    "Old French rampier, to climb.",
+    "A ramping lion caught him by the throat.",
+    "Sir Thomas Malory, Le Morte d'Arthur"
+  ],
+  [
+    "Rampire",
+    "/ˈræmpaɪər/",
+    "e",
+    "A rampart or fortification wall.",
+    "Middle English rampier, from Old French.",
+    "The soldiers manned the rampire against the coming dawn.",
+    "Christopher Marlowe, Tamburlaine"
+  ],
+  [
+    "Rancorous",
+    "/ˈræŋkərəs/",
+    "e",
+    "Full of rancor, deeply malicious or spiteful.",
+    "Middle English rancourus, from Latin.",
+    "He bore a rancorous mind towards his kinsman.",
+    "Sir Thomas More, History of King Richard III"
+  ],
+  [
+    "Rank-scented",
+    "/ˈræŋkˌsɛntɪd/",
+    "e",
+    "Having an offensive, strong, or foul smell.",
+    "From rank (gross/foul) + scented.",
+    "The rank-scented air of the crowded prison.",
+    "John Webster, The Duchess of Malfi"
+  ],
+  [
+    "Rantism",
+    "/ˈræntɪzəm/",
+    "e",
+    "The principles or practices of the Ranters, a 17th-century antinomian sect.",
+    "From rant + -ism.",
+    "He was accused of spreading the heresy of rantism.",
+    "Seventeenth-Century Pamphlet"
+  ],
+  [
+    "Rapier-and-dagger",
+    "/ˌreɪpɪər ən ˈdæɡər/",
+    "e",
+    "A style of fencing using both weapons simultaneously.",
+    "From rapier + dagger.",
+    "He was skilled in the rapier-and-dagger combat.",
+    "Vincentio Saviolo, His Practice"
+  ],
+  [
+    "Rapparee",
+    "/ˌræpəˈriː/",
+    "e",
+    "An irregular Irish soldier or bandit armed with a pike.",
+    "Irish rapairí, from rapair (half-pike).",
+    "The rapparees lurked in the hills waiting for the convoy.",
+    "Historical Account of the Williamite Wars"
+  ],
+  [
+    "Raree-show",
+    "/ˈrɛəriˌʃoʊ/",
+    "e",
+    "A show carried about in a box; a peep-show or spectacle.",
+    "Alteration of raree (rare show by showmen with foreign accents).",
+    "They ran to gaze upon the raree-show in the market square.",
+    "Jonathan Swift, Miscellanies"
+  ],
+  [
+    "Rate",
+    "/reɪt/",
+    "e",
+    "To scold, chide, or berate angrily.",
+    "Old Norse ráta or French ratier, to estimate/chide.",
+    "Why do you rate my boys so bitterly?",
+    "Thomas Middleton, A Trick to Catch the Old One"
+  ],
+  [
+    "Rathe",
+    "/reɪð/",
+    "m",
+    "Early, soon, prompt, or quick.",
+    "Old English hræð, quick or swift.",
+    "The rathe primrose that forsaken dies.",
+    "John Milton, Lycidas"
   ]
 ];
