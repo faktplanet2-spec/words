@@ -35,10 +35,13 @@
     const els = {
         themeToggle: $('themeToggle'),
         themeIcon: $('themeIcon'),
+        themeLabelText: $('themeLabelText'),
         langToggle: $('langToggle'),
         langLabel: $('langLabel'),
-        fontToggle: $('fontToggle'),
-        fontLabel: $('fontLabel'),
+        fontSelect: $('fontSelect'),
+        langGroupLabel: $('langGroupLabel'),
+        fontGroupLabel: $('fontGroupLabel'),
+        themeGroupLabel: $('themeGroupLabel'),
         mobileMenuBtn: $('mobileMenuBtn'),
         nav: $('nav'),
         header: $('header'),
@@ -151,7 +154,14 @@
             currentLang = 'en'; // English default
             filterLang = 'en';
         }
-        if (savedFont && ['bebas', 'serif'].includes(savedFont)) {
+        const VALID_FONTS = [
+            'bebas', 'playfair', 'cormorant', 'ebgaramond', 'cinzel',
+            'lora', 'merriweather', 'spectral', 'oldstandard', 'philosopher',
+            'marcellus', 'montserrat', 'oswald', 'raleway', 'robotocondensed',
+            'rubik', 'comfortaa', 'unbounded', 'caveat', 'neucha',
+            'amatic', 'underdog', 'serif'
+        ];
+        if (savedFont && VALID_FONTS.includes(savedFont)) {
             currentFont = savedFont;
         } else {
             currentFont = 'bebas'; // Bebas Neue default
@@ -159,7 +169,7 @@
 
         applyTheme(currentTheme);
         applyFont(currentFont);
-        els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
+        if (els.langLabel) els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
         $$('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === filterLang));
     }
 
@@ -169,41 +179,36 @@
         localStorage.setItem('fw-font', currentFont);
     }
 
-    // === Dynamic Font Switching (Bebas Neue <-> Classic Serif) ===
+    // === Dynamic Font Switching (22 Fonts Supported) ===
     function applyFont(font) {
-        if (font !== 'serif') font = 'bebas';
+        const VALID_FONTS = [
+            'bebas', 'playfair', 'cormorant', 'ebgaramond', 'cinzel',
+            'lora', 'merriweather', 'spectral', 'oldstandard', 'philosopher',
+            'marcellus', 'montserrat', 'oswald', 'raleway', 'robotocondensed',
+            'rubik', 'comfortaa', 'unbounded', 'caveat', 'neucha',
+            'amatic', 'underdog', 'serif'
+        ];
+        if (!VALID_FONTS.includes(font)) font = 'bebas';
         document.documentElement.setAttribute('data-font', font);
         currentFont = font;
-        if (els.fontLabel) {
-            els.fontLabel.textContent = font === 'bebas' ? 'Bebas' : 'Serif';
-        }
-        if (els.fontToggle) {
-            els.fontToggle.title = currentLang === 'ru'
-                ? (font === 'bebas' ? 'Шрифт: Bebas Neue (нажмите для Serif)' : 'Шрифт: Классический Serif (нажмите для Bebas Neue)')
-                : (font === 'bebas' ? 'Font: Bebas Neue (click for Serif)' : 'Font: Classic Serif (click for Bebas Neue)');
+        if (els.fontSelect && els.fontSelect.value !== font) {
+            els.fontSelect.value = font;
         }
     }
 
-    function toggleFont() {
-        const newFont = currentFont === 'bebas' ? 'serif' : 'bebas';
-        applyFont(newFont);
-        savePreferences();
-        showToast(currentLang === 'ru'
-            ? (newFont === 'bebas' ? '🔤 Шрифт: Bebas Neue' : '🔤 Шрифт: Классический Serif')
-            : (newFont === 'bebas' ? '🔤 Font: Bebas Neue' : '🔤 Font: Classic Serif'));
-    }
-
-    // === Two-State Theme Toggle (Sepia <-> Dark) ===
+    // === Two-State Theme Toggle (Papyrus <-> Dark) ===
     function applyTheme(theme) {
         if (theme !== 'dark') theme = 'sepia';
         document.documentElement.setAttribute('data-theme', theme);
         currentTheme = theme;
         if (theme === 'sepia') {
-            els.themeIcon.textContent = '📜';
-            els.themeToggle.title = currentLang === 'ru' ? 'Тема: Винтажный папирус (нажмите для тёмной)' : 'Theme: Vintage Papyrus (click for Dark mode)';
+            if (els.themeIcon) els.themeIcon.textContent = '📜';
+            if (els.themeLabelText) els.themeLabelText.textContent = t('themePapyrus');
+            if (els.themeToggle) els.themeToggle.title = currentLang === 'ru' ? 'Тема: Винтажный папирус (нажмите для тёмной)' : 'Theme: Vintage Papyrus (click for Dark mode)';
         } else {
-            els.themeIcon.textContent = '🌙';
-            els.themeToggle.title = currentLang === 'ru' ? 'Тема: Тёмная (нажмите для папируса)' : 'Theme: Dark mode (click for Papyrus)';
+            if (els.themeIcon) els.themeIcon.textContent = '🌙';
+            if (els.themeLabelText) els.themeLabelText.textContent = t('themeDark');
+            if (els.themeToggle) els.themeToggle.title = currentLang === 'ru' ? 'Тема: Тёмная (нажмите для папируса)' : 'Theme: Dark mode (click for Papyrus)';
         }
     }
 
@@ -244,6 +249,10 @@
 
     function updateUILanguage() {
         if (els.langLabel) els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
+        if (els.langGroupLabel) els.langGroupLabel.textContent = t('actionLangLabel');
+        if (els.fontGroupLabel) els.fontGroupLabel.textContent = t('actionFontLabel');
+        if (els.themeGroupLabel) els.themeGroupLabel.textContent = t('actionThemeLabel');
+        if (els.themeLabelText) els.themeLabelText.textContent = currentTheme === 'sepia' ? t('themePapyrus') : t('themeDark');
 
         // Logo
         if ($('logoTitle')) $('logoTitle').textContent = t('logoTitle');
@@ -1026,13 +1035,21 @@
     // === Event Bindings ===
     function bindEvents() {
         // Theme cycle (dark -> sepia)
-        els.themeToggle.addEventListener('click', cycleTheme);
+        if (els.themeToggle) els.themeToggle.addEventListener('click', cycleTheme);
 
-        // Font toggle (Bebas Neue <-> Serif)
-        if (els.fontToggle) els.fontToggle.addEventListener('click', toggleFont);
+        // Font selection from 22 fonts
+        if (els.fontSelect) {
+            els.fontSelect.addEventListener('change', (e) => {
+                applyFont(e.target.value);
+                savePreferences();
+                const selectedOption = els.fontSelect.options[els.fontSelect.selectedIndex];
+                const fontName = selectedOption ? selectedOption.text : e.target.value;
+                showToast(currentLang === 'ru' ? `🔤 Шрифт: ${fontName}` : `🔤 Font: ${fontName}`);
+            });
+        }
 
         // Language toggle (UI)
-        els.langToggle.addEventListener('click', toggleLang);
+        if (els.langToggle) els.langToggle.addEventListener('click', toggleLang);
 
         // Mobile menu
         els.mobileMenuBtn.addEventListener('click', () => {

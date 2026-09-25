@@ -396,7 +396,12 @@ const UI_STRINGS = {
         heroSearchSubtitle: 'Более 2 000 редких слов с современными аналогами и толкованиями',
         heroSearchPlaceholder: 'Поиск слова или современного синонима (например: Шуйца, Посолонь)...',
         liveSearchSeeAll: 'Показать все результаты в словаре',
-        liveSearchNone: 'Забытых слов по такому запросу не найдено'
+        liveSearchNone: 'Забытых слов по такому запросу не найдено',
+        actionLangLabel: 'Язык',
+        actionFontLabel: 'Шрифт',
+        actionThemeLabel: 'Тема',
+        themePapyrus: 'Папирус',
+        themeDark: 'Тёмная'
     },
     en: {
         logoTitle: 'Forgotten Words',
@@ -481,6 +486,11 @@ const UI_STRINGS = {
         heroSearchSubtitle: 'Over 2,000 rare and archaic words with direct modern equivalents',
         heroSearchPlaceholder: 'Search by archaic word or modern synonym (e.g. Anon, Perchance)...',
         liveSearchSeeAll: 'View all matching words in dictionary',
-        liveSearchNone: 'No forgotten words found matching this query'
+        liveSearchNone: 'No forgotten words found matching this query',
+        actionLangLabel: 'Language',
+        actionFontLabel: 'Font',
+        actionThemeLabel: 'Theme',
+        themePapyrus: 'Papyrus',
+        themeDark: 'Dark'
     }
 };
