@@ -218,8 +218,8 @@
             currentLang = savedLang;
             filterLang = savedLang;
         } else {
-            currentLang = 'ru'; // Russian default
-            filterLang = 'ru';
+            currentLang = 'en'; // English default
+            filterLang = 'en';
         }
         const VALID_FONTS = [
             'bebas', 'playfair', 'cormorant', 'ebgaramond', 'cinzel',
