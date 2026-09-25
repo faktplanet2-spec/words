@@ -16,7 +16,8 @@
 
     <!-- Header -->
     <header class="header" id="header">
-        <div class="header-inner">
+        <!-- Row 1: Logo + Controls -->
+        <div class="header-top">
             <a href="#" class="logo" id="logo">
                 <span class="logo-icon">📜</span>
                 <div class="logo-text">
@@ -24,56 +25,46 @@
                     <span class="logo-subtitle" id="logoSubtitle">Dictionary of Lost Words</span>
                 </div>
             </a>
-            <nav class="nav" id="nav">
-                <a href="#word-of-day" class="nav-link active" data-section="word-of-day" id="navWordOfDay">Word of the Day</a>
-                <a href="#dictionary" class="nav-link" data-section="dictionary" id="navDictionary">Dictionary</a>
-                <button class="nav-link nav-btn" id="navQuizBtn"><span>🎯</span> <span id="navQuiz">Quiz</span></button>
-                <button class="nav-link nav-btn" id="navSuggestBtn"><span>✍️</span> <span id="navSuggest">Suggest Word</span></button>
-                <a href="#about" class="nav-link" data-section="about" id="navAbout">About</a>
-            </nav>
             <div class="header-actions">
-                <!-- Group 1: Language / Язык -->
-                <button class="header-pill lang-toggle" id="langToggle" title="Switch language / Сменить язык">
+                <button class="header-pill lang-toggle" id="langToggle" title="Switch language">
                     <span class="pill-icon">🌐</span>
                     <span class="pill-tag" id="langGroupLabel">Language:</span>
                     <span class="pill-val" id="langLabel">English</span>
                 </button>
 
-                <!-- Group 2: Font / Шрифт -->
                 <div class="header-pill font-pill">
                     <span class="pill-icon">🔤</span>
                     <span class="pill-tag" id="fontGroupLabel">Font:</span>
                     <div class="font-select-wrap">
-                        <select class="font-select" id="fontSelect" title="Choose font / Выбрать шрифт">
-                            <option value="bebas" style="font-family: 'Bebas Neue', sans-serif;">Bebas Neue (Default)</option>
-                            <option value="playfair" style="font-family: 'Playfair Display', serif;">Playfair Display</option>
-                            <option value="cormorant" style="font-family: 'Cormorant Garamond', serif;">Cormorant Garamond</option>
-                            <option value="ebgaramond" style="font-family: 'EB Garamond', serif;">EB Garamond</option>
-                            <option value="cinzel" style="font-family: 'Cinzel', serif;">Cinzel</option>
-                            <option value="lora" style="font-family: 'Lora', serif;">Lora</option>
-                            <option value="merriweather" style="font-family: 'Merriweather', serif;">Merriweather</option>
-                            <option value="spectral" style="font-family: 'Spectral', serif;">Spectral</option>
-                            <option value="oldstandard" style="font-family: 'Old Standard TT', serif;">Old Standard TT</option>
-                            <option value="philosopher" style="font-family: 'Philosopher', serif;">Philosopher</option>
-                            <option value="marcellus" style="font-family: 'Marcellus', serif;">Marcellus</option>
-                            <option value="montserrat" style="font-family: 'Montserrat', sans-serif;">Montserrat</option>
-                            <option value="oswald" style="font-family: 'Oswald', sans-serif;">Oswald</option>
-                            <option value="raleway" style="font-family: 'Raleway', sans-serif;">Raleway</option>
-                            <option value="robotocondensed" style="font-family: 'Roboto Condensed', sans-serif;">Roboto Condensed</option>
-                            <option value="rubik" style="font-family: 'Rubik', sans-serif;">Rubik</option>
-                            <option value="comfortaa" style="font-family: 'Comfortaa', cursive;">Comfortaa</option>
-                            <option value="unbounded" style="font-family: 'Unbounded', sans-serif;">Unbounded</option>
-                            <option value="caveat" style="font-family: 'Caveat', cursive;">Caveat</option>
-                            <option value="neucha" style="font-family: 'Neucha', cursive;">Neucha</option>
-                            <option value="amatic" style="font-family: 'Amatic SC', cursive;">Amatic SC</option>
-                            <option value="underdog" style="font-family: 'Underdog', cursive;">Underdog</option>
+                        <select class="font-select" id="fontSelect" title="Choose font">
+                            <option value="bebas">Bebas Neue</option>
+                            <option value="playfair">Playfair Display</option>
+                            <option value="cormorant">Cormorant Garamond</option>
+                            <option value="ebgaramond">EB Garamond</option>
+                            <option value="cinzel">Cinzel</option>
+                            <option value="lora">Lora</option>
+                            <option value="merriweather">Merriweather</option>
+                            <option value="spectral">Spectral</option>
+                            <option value="oldstandard">Old Standard TT</option>
+                            <option value="philosopher">Philosopher</option>
+                            <option value="marcellus">Marcellus</option>
+                            <option value="montserrat">Montserrat</option>
+                            <option value="oswald">Oswald</option>
+                            <option value="raleway">Raleway</option>
+                            <option value="robotocondensed">Roboto Condensed</option>
+                            <option value="rubik">Rubik</option>
+                            <option value="comfortaa">Comfortaa</option>
+                            <option value="unbounded">Unbounded</option>
+                            <option value="caveat">Caveat</option>
+                            <option value="neucha">Neucha</option>
+                            <option value="amatic">Amatic SC</option>
+                            <option value="underdog">Underdog</option>
                         </select>
                         <span class="font-select-arrow">▾</span>
                     </div>
                 </div>
 
-                <!-- Group 3: Theme / Тема -->
-                <button class="header-pill theme-toggle" id="themeToggle" title="Theme: Vintage Papyrus / Dark">
+                <button class="header-pill theme-toggle" id="themeToggle" title="Theme">
                     <span class="pill-icon" id="themeIcon">📜</span>
                     <span class="pill-tag" id="themeGroupLabel">Theme:</span>
                     <span class="pill-val" id="themeLabelText">Papyrus</span>
@@ -83,6 +74,16 @@
                     <span></span><span></span><span></span>
                 </button>
             </div>
+        </div>
+        <!-- Row 2: Navigation -->
+        <div class="header-bottom" id="headerNav">
+            <nav class="nav" id="nav">
+                <a href="#word-of-day" class="nav-link active" data-section="word-of-day" id="navWordOfDay">Word of the Day</a>
+                <a href="#dictionary" class="nav-link" data-section="dictionary" id="navDictionary">Dictionary</a>
+                <button class="nav-link nav-btn" id="navQuizBtn"><span>🎯</span> <span id="navQuiz">Quiz</span></button>
+                <button class="nav-link nav-btn" id="navSuggestBtn"><span>✍️</span> <span id="navSuggest">Suggest Word</span></button>
+                <a href="#about" class="nav-link" data-section="about" id="navAbout">About</a>
+            </nav>
         </div>
     </header>
 
