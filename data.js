@@ -391,7 +391,12 @@ const UI_STRINGS = {
         submitWord: 'Отправить на рассмотрение',
         themeTitle: 'Тема оформления',
         toastCopiedWord: 'Слово скопировано в буфер!',
-        toastWordAdded: 'Заявка со словом успешно отправлена автору на модерацию!'
+        toastWordAdded: 'Заявка со словом успешно отправлена автору на модерацию!',
+        heroSearchTitle: 'Поиск по словарю забытых слов',
+        heroSearchSubtitle: 'Более 2 000 редких слов с современными аналогами и толкованиями',
+        heroSearchPlaceholder: 'Поиск слова или современного синонима (например: Шуйца, Посолонь)...',
+        liveSearchSeeAll: 'Показать все результаты в словаре',
+        liveSearchNone: 'Забытых слов по такому запросу не найдено'
     },
     en: {
         logoTitle: 'Forgotten Words',
@@ -471,6 +476,11 @@ const UI_STRINGS = {
         submitWord: 'Submit for Review',
         themeTitle: 'Theme',
         toastCopiedWord: 'Word copied to clipboard!',
-        toastWordAdded: 'Word suggestion submitted for review! Thank you!'
+        toastWordAdded: 'Word suggestion submitted for review! Thank you!',
+        heroSearchTitle: 'Search the Dictionary of Lost Words',
+        heroSearchSubtitle: 'Over 2,000 rare and archaic words with direct modern equivalents',
+        heroSearchPlaceholder: 'Search by archaic word or modern synonym (e.g. Anon, Perchance)...',
+        liveSearchSeeAll: 'View all matching words in dictionary',
+        liveSearchNone: 'No forgotten words found matching this query'
     }
 };

@@ -59,6 +59,12 @@
         shareBtn: $('shareBtn'),
         statTotal: $('statTotal'),
 
+        // Top Search Bar
+        topSearchInput: $('topSearchInput'),
+        topSearchClear: $('topSearchClear'),
+        liveSearchDropdown: $('liveSearchDropdown'),
+        dictionary: $('dictionary'),
+
         // Dictionary
         searchInput: $('searchInput'),
         searchClear: $('searchClear'),
@@ -142,8 +148,7 @@
         }
         applyTheme(currentTheme);
         els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
-        if (els.tabRu) els.tabRu.classList.toggle('active', filterLang === 'ru');
-        if (els.tabEn) els.tabEn.classList.toggle('active', filterLang === 'en');
+        $$('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === filterLang));
     }
 
     function savePreferences() {
@@ -180,8 +185,7 @@
         filterLang = currentLang; // STRICT SYNCHRONIZATION!
         if (els.langLabel) els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
         
-        if (els.tabRu) els.tabRu.classList.toggle('active', currentLang === 'ru');
-        if (els.tabEn) els.tabEn.classList.toggle('active', currentLang === 'en');
+        $$('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === currentLang));
 
         updateUILanguage();
         buildTypeFilters();
@@ -227,6 +231,11 @@
         if ($('statErasLabel')) $('statErasLabel').textContent = t('eras');
         if ($('statLangsLabel')) $('statLangsLabel').textContent = t('languages');
 
+        // Top Search Header
+        if ($('heroSearchTitle')) $('heroSearchTitle').textContent = t('heroSearchTitle');
+        if ($('heroSearchSubtitle')) $('heroSearchSubtitle').textContent = t('heroSearchSubtitle');
+        if (els.topSearchInput) els.topSearchInput.placeholder = t('heroSearchPlaceholder');
+
         // Dictionary header & controls
         if ($('dictTitle')) $('dictTitle').textContent = t('dictionary');
         if ($('dictDesc')) $('dictDesc').textContent = t('dictDesc');
@@ -240,6 +249,8 @@
         // Language tabs
         if ($('tabRuLabel')) $('tabRuLabel').textContent = t('tabRu');
         if ($('tabEnLabel')) $('tabEnLabel').textContent = t('tabEn');
+        $$('.tab-ru-label').forEach(el => el.textContent = t('tabRu'));
+        $$('.tab-en-label').forEach(el => el.textContent = t('tabEn'));
 
         // About section
         if ($('aboutTitle')) $('aboutTitle').textContent = t('aboutTitle');
@@ -433,8 +444,7 @@
         filterCategory = 'all';
 
         els.langLabel.textContent = currentLang.toUpperCase();
-        if (els.tabRu) els.tabRu.classList.toggle('active', lang === 'ru');
-        if (els.tabEn) els.tabEn.classList.toggle('active', lang === 'en');
+        $$('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
 
         updateUILanguage();
         buildTypeFilters();
@@ -442,11 +452,97 @@
         buildEraFilters();
         renderWordOfDay();
         renderGrid();
+        if (searchQuery) handleLiveSearch(searchQuery);
 
         if (els.quizModalOverlay && els.quizModalOverlay.classList.contains('open')) {
             loadQuizQuestion();
         }
         savePreferences();
+    }
+
+    // === Live Search Dropdown ===
+    function handleLiveSearch(query) {
+        if (!els.liveSearchDropdown) return;
+        query = (query || '').trim().toLowerCase();
+        if (!query) {
+            els.liveSearchDropdown.classList.remove('open');
+            els.liveSearchDropdown.innerHTML = '';
+            return;
+        }
+
+        const matches = WORDS_DATABASE.filter(w => {
+            if (filterLang && w.lang !== filterLang) return false;
+            return (
+                w.word.toLowerCase().includes(query) ||
+                (w.synonym && w.synonym.toLowerCase().includes(query)) ||
+                w.meaning.toLowerCase().includes(query) ||
+                (w.tags && w.tags.some(t => t.toLowerCase().includes(query)))
+            );
+        });
+
+        if (matches.length === 0) {
+            els.liveSearchDropdown.innerHTML = `
+                <div class="live-search-empty">
+                    <span>🔍</span> ${t('liveSearchNone')}
+                </div>
+            `;
+            els.liveSearchDropdown.classList.add('open');
+            return;
+        }
+
+        const topMatches = matches.slice(0, 6);
+        let html = '<div class="live-search-list">';
+        topMatches.forEach(w => {
+            const isRu = w.lang === 'ru';
+            const typeLabel = w.wordType === 'historicism' 
+                ? (isRu ? 'Историзм' : 'Historicism')
+                : (isRu ? 'Архаизм' : 'Archaism');
+            html += `
+                <div class="live-search-item" data-word="${encodeURIComponent(w.word)}" data-lang="${w.lang}">
+                    <div class="live-item-header">
+                        <span class="live-item-word">${w.word}</span>
+                        <span class="live-item-transcription">${w.pronunciation || ''}</span>
+                        <span class="live-item-type ${w.wordType}">${typeLabel}</span>
+                        <span class="live-item-era">${w.era}</span>
+                    </div>
+                    ${w.synonym ? `<div class="live-item-synonym">✨ <strong>${w.synonym}</strong></div>` : ''}
+                    <div class="live-item-meaning">${w.meaning}</div>
+                </div>
+            `;
+        });
+        html += '</div>';
+
+        if (matches.length > 6) {
+            html += `
+                <div class="live-search-footer" id="liveSearchSeeAllBtn">
+                    <span>👉 ${t('liveSearchSeeAll')} (${matches.length}) ↓</span>
+                </div>
+            `;
+        }
+
+        els.liveSearchDropdown.innerHTML = html;
+        els.liveSearchDropdown.classList.add('open');
+
+        // Bind clicks on items
+        els.liveSearchDropdown.querySelectorAll('.live-search-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const wordName = decodeURIComponent(item.dataset.word);
+                const wordLang = item.dataset.lang;
+                const found = WORDS_DATABASE.find(w => w.word === wordName && w.lang === wordLang);
+                if (found) {
+                    openModal(found);
+                    els.liveSearchDropdown.classList.remove('open');
+                }
+            });
+        });
+
+        const seeAllBtn = els.liveSearchDropdown.querySelector('#liveSearchSeeAllBtn');
+        if (seeAllBtn) {
+            seeAllBtn.addEventListener('click', () => {
+                els.liveSearchDropdown.classList.remove('open');
+                if (els.dictionary) els.dictionary.scrollIntoView({ behavior: 'smooth' });
+            });
+        }
     }
 
     // === Filtering ===
@@ -922,25 +1018,80 @@
         els.shareBtn.addEventListener('click', copyWordOfDay);
         els.heroQuizBtn.addEventListener('click', openQuizModal);
 
-        // Search
-        els.searchInput.addEventListener('input', (e) => {
-            searchQuery = e.target.value.trim();
-            els.searchClear.classList.toggle('visible', searchQuery.length > 0);
-            renderGrid();
-        });
+        // Top Search Input
+        if (els.topSearchInput) {
+            els.topSearchInput.addEventListener('input', (e) => {
+                searchQuery = e.target.value.trim();
+                if (els.searchInput) els.searchInput.value = searchQuery;
+                if (els.topSearchClear) els.topSearchClear.classList.toggle('visible', searchQuery.length > 0);
+                if (els.searchClear) els.searchClear.classList.toggle('visible', searchQuery.length > 0);
+                handleLiveSearch(searchQuery);
+                renderGrid();
+            });
 
-        els.searchClear.addEventListener('click', () => {
-            searchQuery = '';
-            els.searchInput.value = '';
-            els.searchClear.classList.remove('visible');
-            renderGrid();
-        });
+            els.topSearchInput.addEventListener('focus', () => {
+                if (searchQuery.length > 0) {
+                    handleLiveSearch(searchQuery);
+                }
+            });
 
-        // Language tabs (RU / EN strict separation)
-        els.langTabs.addEventListener('click', (e) => {
+            els.topSearchInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    if (els.liveSearchDropdown) els.liveSearchDropdown.classList.remove('open');
+                    if (els.dictionary) els.dictionary.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        }
+
+        if (els.topSearchClear) {
+            els.topSearchClear.addEventListener('click', () => {
+                searchQuery = '';
+                if (els.topSearchInput) els.topSearchInput.value = '';
+                if (els.searchInput) els.searchInput.value = '';
+                els.topSearchClear.classList.remove('visible');
+                if (els.searchClear) els.searchClear.classList.remove('visible');
+                if (els.liveSearchDropdown) els.liveSearchDropdown.classList.remove('open');
+                renderGrid();
+            });
+        }
+
+        // Dictionary Search
+        if (els.searchInput) {
+            els.searchInput.addEventListener('input', (e) => {
+                searchQuery = e.target.value.trim();
+                if (els.topSearchInput) els.topSearchInput.value = searchQuery;
+                if (els.searchClear) els.searchClear.classList.toggle('visible', searchQuery.length > 0);
+                if (els.topSearchClear) els.topSearchClear.classList.toggle('visible', searchQuery.length > 0);
+                renderGrid();
+            });
+        }
+
+        if (els.searchClear) {
+            els.searchClear.addEventListener('click', () => {
+                searchQuery = '';
+                if (els.searchInput) els.searchInput.value = '';
+                if (els.topSearchInput) els.topSearchInput.value = '';
+                els.searchClear.classList.remove('visible');
+                if (els.topSearchClear) els.topSearchClear.classList.remove('visible');
+                if (els.liveSearchDropdown) els.liveSearchDropdown.classList.remove('open');
+                renderGrid();
+            });
+        }
+
+        // Language tabs delegation (handles both top hero tabs and dictionary tabs)
+        document.addEventListener('click', (e) => {
             const tab = e.target.closest('.lang-tab');
-            if (!tab) return;
-            switchLangTab(tab.dataset.lang);
+            if (tab && tab.dataset.lang) {
+                switchLangTab(tab.dataset.lang);
+            }
+        });
+
+        // Close live dropdown on outside click
+        document.addEventListener('click', (e) => {
+            if (els.liveSearchDropdown && !e.target.closest('.hero-search-box-wrap')) {
+                els.liveSearchDropdown.classList.remove('open');
+            }
         });
 
         // Word Type Filter (Archaisms vs Historicisms)
@@ -1013,9 +1164,10 @@
         });
         els.suggestForm.addEventListener('submit', handleSuggestWord);
 
-        // Escape key to close any open modal
+        // Escape key to close any open modal or dropdown
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
+                if (els.liveSearchDropdown) els.liveSearchDropdown.classList.remove('open');
                 closeModal();
                 closeQuizModal();
                 closeSuggestModal();
