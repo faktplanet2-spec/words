@@ -378,11 +378,25 @@
         if ($('emptyText')) $('emptyText').textContent = t('notFound');
         if ($('loadMoreLabel')) $('loadMoreLabel').textContent = t('showMore');
 
-        // Language tabs
-        if ($('tabRuLabel')) $('tabRuLabel').textContent = t('tabRu');
-        if ($('tabEnLabel')) $('tabEnLabel').textContent = t('tabEn');
-        $$('.tab-ru-label').forEach(el => el.textContent = t('tabRu'));
-        $$('.tab-en-label').forEach(el => el.textContent = t('tabEn'));
+        // Language tabs - specific words in their respective native languages
+        const NATIVE_LANG_TAB_LABELS = {
+            ru: 'Русские слова',
+            en: 'English words',
+            fr: 'Mots français',
+            de: 'Deutsche Wörter',
+            la: 'Verba Latina',
+            es: 'Palabras en español',
+            it: 'Parole italiane',
+            cu: 'Старославянские слова'
+        };
+
+        $$('.lang-tab').forEach(tab => {
+            const lang = tab.dataset.lang;
+            if (lang && NATIVE_LANG_TAB_LABELS[lang]) {
+                const label = tab.querySelector('.lang-tab-label');
+                if (label) label.textContent = NATIVE_LANG_TAB_LABELS[lang];
+            }
+        });
 
         // About section
         if ($('aboutTitle')) $('aboutTitle').textContent = t('aboutTitle');
