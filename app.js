@@ -38,6 +38,12 @@
         themeLabelText: $('themeLabelText'),
         langSelect: $('langSelect'),
         fontSelect: $('fontSelect'),
+        fontPill: $('fontPill'),
+        currentFontName: $('currentFontName'),
+        fontCustomDropdown: $('fontCustomDropdown'),
+        fontDropdownList: $('fontDropdownList'),
+        fontDropdownTitle: $('fontDropdownTitle'),
+        fontDropdownSub: $('fontDropdownSub'),
         langGroupLabel: $('langGroupLabel'),
         fontGroupLabel: $('fontGroupLabel'),
         themeGroupLabel: $('themeGroupLabel'),
@@ -192,6 +198,7 @@
     function init() {
         loadPreferences();
         createParticles();
+        buildFontDropdown();
         buildTypeFilters();
         buildCategoryFilters();
         buildEraFilters();
@@ -246,6 +253,98 @@
         localStorage.setItem('fw-font', currentFont);
     }
 
+    // === 22 Fonts Catalog with Authentic Live Previews ===
+    const FONT_CATALOG = [
+        { id: 'bebas', name: 'Bebas Neue', family: "'Bebas Neue', Impact, sans-serif", preview: 'АБВГДЕ Aa Bb — ВИНТАЖНЫЙ ТИТУЛ', tag: 'Заголовочный' },
+        { id: 'playfair', name: 'Playfair Display', family: "'Playfair Display', Georgia, serif", preview: 'Аа Bb — Классическая антиква', tag: 'Антиква' },
+        { id: 'cormorant', name: 'Cormorant Garamond', family: "'Cormorant Garamond', Garamond, serif", preview: 'Аа Bb — Старинный фолиант', tag: 'Ренессанс' },
+        { id: 'ebgaramond', name: 'EB Garamond', family: "'EB Garamond', Georgia, serif", preview: 'Аа Bb — Французский барокко', tag: 'Классика' },
+        { id: 'cinzel', name: 'Cinzel', family: "'Cinzel', Georgia, serif", preview: 'AA BB — MONUMENTALIS ANTIQUA', tag: 'Римский' },
+        { id: 'lora', name: 'Lora', family: "'Lora', Georgia, serif", preview: 'Аа Bb — Литературное слово', tag: 'Книжный' },
+        { id: 'merriweather', name: 'Merriweather', family: "'Merriweather', Georgia, serif", preview: 'Аа Bb — Приятное мягкое чтение', tag: 'Книжный' },
+        { id: 'spectral', name: 'Spectral', family: "'Spectral', Georgia, serif", preview: 'Аа Bb — Академическая статья', tag: 'Учёный' },
+        { id: 'oldstandard', name: 'Old Standard TT', family: "'Old Standard TT', Georgia, serif", preview: 'Аа Bb — Дореволюционная печать', tag: 'Исторический' },
+        { id: 'philosopher', name: 'Philosopher', family: "'Philosopher', Georgia, serif", preview: 'Аа Bb — Восточные сказания', tag: 'Философский' },
+        { id: 'marcellus', name: 'Marcellus', family: "'Marcellus', Georgia, serif", preview: 'Аа Bb — Латинское благородство', tag: 'Античный' },
+        { id: 'montserrat', name: 'Montserrat', family: "'Montserrat', sans-serif", preview: 'Аа Bb — Современный чистый стиль', tag: 'Гротеск' },
+        { id: 'oswald', name: 'Oswald', family: "'Oswald', Impact, sans-serif", preview: 'АБВГДЕ Aa Bb — Строгий плакатный', tag: 'Гротеск' },
+        { id: 'raleway', name: 'Raleway', family: "'Raleway', sans-serif", preview: 'Аа Bb — Изящные тонкие линии', tag: 'Элегантный' },
+        { id: 'robotocondensed', name: 'Roboto Condensed', family: "'Roboto Condensed', sans-serif", preview: 'Аа Bb — Плотный информационный', tag: 'Газетный' },
+        { id: 'rubik', name: 'Rubik', family: "'Rubik', sans-serif", preview: 'Аа Bb — Мягкие скруглённые углы', tag: 'Мягкий' },
+        { id: 'comfortaa', name: 'Comfortaa', family: "'Comfortaa', cursive, sans-serif", preview: 'Аа Bb — Уютный геометричный стиль', tag: 'Округлый' },
+        { id: 'unbounded', name: 'Unbounded', family: "'Unbounded', sans-serif", preview: 'Аа Bb — Смелый футуристичный', tag: 'Модерн' },
+        { id: 'caveat', name: 'Caveat', family: "'Caveat', cursive", preview: 'Аа Bb — Быстрый живой почерк', tag: 'Рукописный' },
+        { id: 'neucha', name: 'Neucha', family: "'Neucha', cursive", preview: 'Аа Bb — Сказки и тёплые былины', tag: 'Душевный' },
+        { id: 'amatic', name: 'Amatic SC', family: "'Amatic SC', cursive", preview: 'АА ББ — ВИНТАЖНЫЙ УЗКИЙ', tag: 'Рукописный' },
+        { id: 'underdog', name: 'Underdog', family: "'Underdog', cursive", preview: 'Аа Bb — Рубленый самобытный', tag: 'Крафтовый' }
+    ];
+
+    function buildFontDropdown() {
+        if (!els.fontDropdownList) return;
+        let html = '';
+        FONT_CATALOG.forEach(f => {
+            const isActive = f.id === currentFont;
+            html += `
+                <div class="font-dropdown-item ${isActive ? 'active' : ''}" data-font="${f.id}" role="option" aria-selected="${isActive}">
+                    <div class="font-item-top">
+                        <span class="font-item-name">${f.name}</span>
+                        <span class="font-item-badge">${f.tag}</span>
+                        <span class="font-item-check">${isActive ? '✓' : ''}</span>
+                    </div>
+                    <div class="font-item-preview" style="font-family: ${f.family};">${f.preview}</div>
+                </div>
+            `;
+        });
+        els.fontDropdownList.innerHTML = html;
+
+        // Bind clicks on items
+        els.fontDropdownList.querySelectorAll('.font-dropdown-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const fontId = item.dataset.font;
+                applyFont(fontId);
+                savePreferences();
+                closeFontDropdown();
+                const fontObj = FONT_CATALOG.find(f => f.id === fontId);
+                const fontName = fontObj ? fontObj.name : fontId;
+                showToast(currentLang === 'ru' ? `🔤 Шрифт: ${fontName}` : `🔤 Font: ${fontName}`);
+            });
+        });
+    }
+
+    function toggleFontDropdown(e) {
+        if (e) e.stopPropagation();
+        if (els.fontCustomDropdown) {
+            const isOpen = els.fontCustomDropdown.classList.contains('open');
+            if (isOpen) {
+                closeFontDropdown();
+            } else {
+                openFontDropdown();
+            }
+        }
+    }
+
+    function openFontDropdown() {
+        if (els.fontCustomDropdown) {
+            buildFontDropdown();
+            els.fontCustomDropdown.classList.add('open');
+            if (els.fontPill) {
+                els.fontPill.classList.add('dropdown-open');
+                els.fontPill.setAttribute('aria-expanded', 'true');
+            }
+        }
+    }
+
+    function closeFontDropdown() {
+        if (els.fontCustomDropdown) {
+            els.fontCustomDropdown.classList.remove('open');
+            if (els.fontPill) {
+                els.fontPill.classList.remove('dropdown-open');
+                els.fontPill.setAttribute('aria-expanded', 'false');
+            }
+        }
+    }
+
     // === Dynamic Font Switching (22 Fonts Supported) ===
     function applyFont(font) {
         const VALID_FONTS = [
@@ -260,6 +359,19 @@
         currentFont = font;
         if (els.fontSelect && els.fontSelect.value !== font) {
             els.fontSelect.value = font;
+        }
+        const fontObj = FONT_CATALOG.find(f => f.id === font);
+        if (els.currentFontName) {
+            els.currentFontName.textContent = fontObj ? fontObj.name : font;
+        }
+        if (els.fontDropdownList) {
+            els.fontDropdownList.querySelectorAll('.font-dropdown-item').forEach(item => {
+                const isSel = item.dataset.font === font;
+                item.classList.toggle('active', isSel);
+                item.setAttribute('aria-selected', isSel);
+                const check = item.querySelector('.font-item-check');
+                if (check) check.textContent = isSel ? '✓' : '';
+            });
         }
     }
 
@@ -337,6 +449,20 @@
         if (els.langSelect) els.langSelect.value = currentLang;
         if (els.langGroupLabel) els.langGroupLabel.textContent = t('actionLangLabel');
         if (els.fontGroupLabel) els.fontGroupLabel.textContent = t('actionFontLabel');
+        if (els.fontDropdownTitle) {
+            els.fontDropdownTitle.textContent = currentLang === 'ru' ? 'Примеры шрифтов' :
+                currentLang === 'es' ? 'Muestras de fuentes' :
+                currentLang === 'de' ? 'Schriftbeispiele' :
+                currentLang === 'fr' ? 'Exemples de polices' :
+                currentLang === 'it' ? 'Esempi di caratteri' : 'Font Previews';
+        }
+        if (els.fontDropdownSub) {
+            els.fontDropdownSub.textContent = currentLang === 'ru' ? 'Выберите начертание' :
+                currentLang === 'es' ? 'Selecciona una tipografía' :
+                currentLang === 'de' ? 'Schriftart auswählen' :
+                currentLang === 'fr' ? 'Choisir la typographie' :
+                currentLang === 'it' ? 'Scegli la tipografia' : 'Select typography style';
+        }
         if (els.themeGroupLabel) els.themeGroupLabel.textContent = t('actionThemeLabel');
         if (els.themeLabelText) els.themeLabelText.textContent = currentTheme === 'sepia' ? t('themePapyrus') : t('themeDark');
 
@@ -1388,7 +1514,29 @@
         // Theme cycle (dark -> sepia)
         if (els.themeToggle) els.themeToggle.addEventListener('click', cycleTheme);
 
-        // Font selection from 22 fonts
+        // Font pill custom dropdown trigger with live previews
+        if (els.fontPill) {
+            els.fontPill.addEventListener('click', (e) => {
+                toggleFontDropdown(e);
+            });
+            els.fontPill.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggleFontDropdown(e);
+                }
+            });
+        }
+
+        // Close font dropdown on click outside
+        document.addEventListener('click', (e) => {
+            if (els.fontCustomDropdown && els.fontCustomDropdown.classList.contains('open')) {
+                if (!els.fontCustomDropdown.contains(e.target) && !els.fontPill.contains(e.target)) {
+                    closeFontDropdown();
+                }
+            }
+        });
+
+        // Font selection from 22 fonts (native fallback)
         if (els.fontSelect) {
             els.fontSelect.addEventListener('change', (e) => {
                 applyFont(e.target.value);
@@ -1636,6 +1784,7 @@
         // Escape key to close any open modal or dropdown
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
+                closeFontDropdown();
                 if (els.liveSearchDropdown) els.liveSearchDropdown.classList.remove('open');
                 closeModal();
                 closeQuizModal();

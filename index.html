@@ -42,35 +42,46 @@
                     </div>
                 </div>
 
-                <div class="header-pill font-pill">
+                <div class="header-pill font-pill" id="fontPill" role="button" tabindex="0" title="Choose font" aria-haspopup="listbox" aria-expanded="false">
                     <span class="pill-icon">🔤</span>
                     <span class="pill-tag" id="fontGroupLabel">Font:</span>
-                    <div class="font-select-wrap">
-                        <select class="font-select" id="fontSelect" title="Choose font">
-                            <option value="bebas">Bebas Neue</option>
-                            <option value="playfair">Playfair Display</option>
-                            <option value="cormorant">Cormorant Garamond</option>
-                            <option value="ebgaramond">EB Garamond</option>
-                            <option value="cinzel">Cinzel</option>
-                            <option value="lora">Lora</option>
-                            <option value="merriweather">Merriweather</option>
-                            <option value="spectral">Spectral</option>
-                            <option value="oldstandard">Old Standard TT</option>
-                            <option value="philosopher">Philosopher</option>
-                            <option value="marcellus">Marcellus</option>
-                            <option value="montserrat">Montserrat</option>
-                            <option value="oswald">Oswald</option>
-                            <option value="raleway">Raleway</option>
-                            <option value="robotocondensed">Roboto Condensed</option>
-                            <option value="rubik">Rubik</option>
-                            <option value="comfortaa">Comfortaa</option>
-                            <option value="unbounded">Unbounded</option>
-                            <option value="caveat">Caveat</option>
-                            <option value="neucha">Neucha</option>
-                            <option value="amatic">Amatic SC</option>
-                            <option value="underdog">Underdog</option>
-                        </select>
-                        <span class="font-select-arrow">▾</span>
+                    <span class="pill-val" id="currentFontName">Bebas Neue</span>
+                    <span class="font-select-arrow" id="fontPillArrow">▾</span>
+
+                    <select class="font-select font-select-native-hidden" id="fontSelect" title="Choose font" tabindex="-1">
+                        <option value="bebas">Bebas Neue</option>
+                        <option value="playfair">Playfair Display</option>
+                        <option value="cormorant">Cormorant Garamond</option>
+                        <option value="ebgaramond">EB Garamond</option>
+                        <option value="cinzel">Cinzel</option>
+                        <option value="lora">Lora</option>
+                        <option value="merriweather">Merriweather</option>
+                        <option value="spectral">Spectral</option>
+                        <option value="oldstandard">Old Standard TT</option>
+                        <option value="philosopher">Philosopher</option>
+                        <option value="marcellus">Marcellus</option>
+                        <option value="montserrat">Montserrat</option>
+                        <option value="oswald">Oswald</option>
+                        <option value="raleway">Raleway</option>
+                        <option value="robotocondensed">Roboto Condensed</option>
+                        <option value="rubik">Rubik</option>
+                        <option value="comfortaa">Comfortaa</option>
+                        <option value="unbounded">Unbounded</option>
+                        <option value="caveat">Caveat</option>
+                        <option value="neucha">Neucha</option>
+                        <option value="amatic">Amatic SC</option>
+                        <option value="underdog">Underdog</option>
+                    </select>
+
+                    <!-- Custom Font Preview Dropdown -->
+                    <div class="font-custom-dropdown" id="fontCustomDropdown" role="listbox" aria-label="Font selection with preview">
+                        <div class="font-dropdown-header">
+                            <span class="font-dropdown-title" id="fontDropdownTitle">Примеры шрифтов</span>
+                            <span class="font-dropdown-sub" id="fontDropdownSub">Выберите начертание</span>
+                        </div>
+                        <div class="font-dropdown-list" id="fontDropdownList">
+                            <!-- Populated with font previews in app.js -->
+                        </div>
                     </div>
                 </div>
 
