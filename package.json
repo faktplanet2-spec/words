@@ -1,0 +1,18 @@
+{
+  "name": "forgotten-words",
+  "version": "1.0.0",
+  "description": "Dictionary of Forgotten Words with automated Gemini AI code reviewer",
+  "scripts": {
+    "review": "node scripts/gemini_reviewer.js --dry-run",
+    "deploy": "node scripts/gemini_reviewer.js",
+    "review:deploy": "node scripts/gemini_reviewer.js"
+  },
+  "keywords": [
+    "dictionary",
+    "words",
+    "gemini",
+    "ai-reviewer"
+  ],
+  "author": "",
+  "license": "ISC"
+}
