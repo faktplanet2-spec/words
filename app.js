@@ -11,6 +11,7 @@
     // === State ===
     let currentLang = 'en';           // UI language ('en' default, or 'ru')
     let currentTheme = 'sepia';       // 'sepia' (Papyrus default) or 'dark'
+    let currentFont = 'bebas';        // 'bebas' (Bebas Neue default) or 'serif'
     let filterLang = 'en';            // Active language tab: 'en' default
     let filterType = 'all';            // 'all', 'archaism', 'historicism'
     let filterCategory = 'all';        // 'all', 'clothing', 'professions', etc.
@@ -36,6 +37,8 @@
         themeIcon: $('themeIcon'),
         langToggle: $('langToggle'),
         langLabel: $('langLabel'),
+        fontToggle: $('fontToggle'),
+        fontLabel: $('fontLabel'),
         mobileMenuBtn: $('mobileMenuBtn'),
         nav: $('nav'),
         header: $('header'),
@@ -134,6 +137,8 @@
     function loadPreferences() {
         const savedTheme = localStorage.getItem('fw-theme');
         const savedLang = localStorage.getItem('fw-lang');
+        const savedFont = localStorage.getItem('fw-font');
+
         if (savedTheme && ['dark', 'sepia'].includes(savedTheme)) {
             currentTheme = savedTheme;
         } else {
@@ -146,7 +151,14 @@
             currentLang = 'en'; // English default
             filterLang = 'en';
         }
+        if (savedFont && ['bebas', 'serif'].includes(savedFont)) {
+            currentFont = savedFont;
+        } else {
+            currentFont = 'bebas'; // Bebas Neue default
+        }
+
         applyTheme(currentTheme);
+        applyFont(currentFont);
         els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
         $$('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === filterLang));
     }
@@ -154,6 +166,31 @@
     function savePreferences() {
         localStorage.setItem('fw-theme', currentTheme);
         localStorage.setItem('fw-lang', currentLang);
+        localStorage.setItem('fw-font', currentFont);
+    }
+
+    // === Dynamic Font Switching (Bebas Neue <-> Classic Serif) ===
+    function applyFont(font) {
+        if (font !== 'serif') font = 'bebas';
+        document.documentElement.setAttribute('data-font', font);
+        currentFont = font;
+        if (els.fontLabel) {
+            els.fontLabel.textContent = font === 'bebas' ? 'Bebas' : 'Serif';
+        }
+        if (els.fontToggle) {
+            els.fontToggle.title = currentLang === 'ru'
+                ? (font === 'bebas' ? 'Шрифт: Bebas Neue (нажмите для Serif)' : 'Шрифт: Классический Serif (нажмите для Bebas Neue)')
+                : (font === 'bebas' ? 'Font: Bebas Neue (click for Serif)' : 'Font: Classic Serif (click for Bebas Neue)');
+        }
+    }
+
+    function toggleFont() {
+        const newFont = currentFont === 'bebas' ? 'serif' : 'bebas';
+        applyFont(newFont);
+        savePreferences();
+        showToast(currentLang === 'ru'
+            ? (newFont === 'bebas' ? '🔤 Шрифт: Bebas Neue' : '🔤 Шрифт: Классический Serif')
+            : (newFont === 'bebas' ? '🔤 Font: Bebas Neue' : '🔤 Font: Classic Serif'));
     }
 
     // === Two-State Theme Toggle (Sepia <-> Dark) ===
@@ -368,7 +405,7 @@
         const catInfo = THEMATIC_CATEGORIES[w.category];
         if (catInfo) {
             els.wodCategory.textContent = catInfo[currentLang];
-            els.wodCategory.style.display = 'inline-block';
+            els.wodCategory.style.display = 'inline-flex';
         } else {
             els.wodCategory.style.display = 'none';
         }
@@ -988,8 +1025,11 @@
 
     // === Event Bindings ===
     function bindEvents() {
-        // Theme cycle (dark -> sepia -> light)
+        // Theme cycle (dark -> sepia)
         els.themeToggle.addEventListener('click', cycleTheme);
+
+        // Font toggle (Bebas Neue <-> Serif)
+        if (els.fontToggle) els.fontToggle.addEventListener('click', toggleFont);
 
         // Language toggle (UI)
         els.langToggle.addEventListener('click', toggleLang);
