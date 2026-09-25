@@ -1,5 +1,5 @@
 // =============================================
-//  FORGOTTEN WORDS - English Words Database (2732 words)
+//  FORGOTTEN WORDS - English Words Database (4531 words)
 //  Compact format: [word, pronunciation, eraKey, meaning, etymology, quote, source]
 // =============================================
 
@@ -24591,5 +24591,16196 @@ const EN_WORDS = [
     "Middle English tike",
     "The heavy blue-and-white tick held the straw securely.",
     "Household Inventory of Edward III"
+  ],
+  [
+    "Unbarbed",
+    "/ʌnˈbɑːrbt/",
+    "e",
+    "Unarmored or lacking protective plates, specifically applied to a horse without bardings or a knight without armor barbs.",
+    "From prefix un- + barbed (armored).",
+    "They rode into the lists upon unbarbed chargers.",
+    "Sir Philip Sidney"
+  ],
+  [
+    "Unbelt",
+    "/ʌnˈbɛlt/",
+    "m",
+    "To remove the sword-belt or girdle as a sign of peace, disarmament, or undressing.",
+    "Old English 'unbeltan'.",
+    "He unbelted his broadsword before entering the queen's chamber.",
+    "Chaucer, Canterbury Tales"
+  ],
+  [
+    "Unbrace",
+    "/ʌnˈbreɪs/",
+    "e",
+    "To untie, loosen, or unfasten armor straps, laces, or garments.",
+    "From Old French 'embrasser' with reverse prefix.",
+    "He sat by the fire to unbrace his heavy corselet.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Unbreeched",
+    "/ʌnˈbriːtʃt/",
+    "t",
+    "Not yet wearing breeches; referring to young boys in historical societies before their breeching ceremony.",
+    "From prefix un- + breeched.",
+    "The young heir remained unbreeched until his seventh year.",
+    "Victorian domestic memoirs"
+  ],
+  [
+    "Unburgessed",
+    "/ʌnˈbɜːrdʒəst/",
+    "m",
+    "Lacking the status or traditional civic attire of a burgess or freeman.",
+    "From prefix un- + burgess.",
+    "He stood unburgessed and stripped of his civic robes.",
+    "Municipal records of York"
+  ],
+  [
+    "Uncase",
+    "/ʌnˈkeɪs/",
+    "e",
+    "To take off or strip away an outer garment, casing, or armor plate.",
+    "From prefix un- + case.",
+    "Uncase your steel; the tournament is concluded.",
+    "Ben Jonson"
+  ],
+  [
+    "Unchaperoned",
+    "/ʌnˈtʃæpəroʊnd/",
+    "t",
+    "Without a chaperone; specifically regarding Victorian women appearing in public without proper bonneted supervision.",
+    "From French chaperone with negative prefix.",
+    "It was deemed unchaperoned to walk the promenade without a mantilla.",
+    "Lady's Magazine"
+  ],
+  [
+    "Unclasp",
+    "/ʌnˈklæsp/",
+    "e",
+    "To unfasten the clasps of a cloak, doublet, or jeweled girdle.",
+    "From prefix un- + clasp.",
+    "She hastened to unclasp his heavy velvet mantle.",
+    "Christopher Marlowe"
+  ],
+  [
+    "Unclead",
+    "/ʌnˈklɛd/",
+    "m",
+    "Unclothed, stripped of garments or vestments.",
+    "Old English 'unclǣdan'.",
+    "Found unclead upon the heath, the pilgrim shivered.",
+    "Cursor Mundi"
+  ],
+  [
+    "Uncoif",
+    "/ʌnˈkɔɪf/",
+    "e",
+    "To remove the coif, a close-fitting cap worn under helmets or by legal serjeants and women.",
+    "From prefix un- + coif.",
+    "The judge did uncoif to reveal his grey hairs.",
+    "Legal antiquities of London"
+  ],
+  [
+    "Uncorseted",
+    "/ʌnˈkɔːrsɪtɪd/",
+    "t",
+    "Free from the rigid boning of a corset; denoting relaxed Victorian reform dress.",
+    "From prefix un- + corseted.",
+    "The aesthetic movement favored uncorseted gowns of loose muslin.",
+    "The Dress Reform Gazette"
+  ],
+  [
+    "Uncrest",
+    "/ʌnˈkrɛst/",
+    "e",
+    "To strip a helmet of its crest, or to humble a proud house in heraldry.",
+    "From prefix un- + crest.",
+    "The mighty champion was uncrested in the third pass.",
+    "Michael Drayton"
+  ],
+  [
+    "Undear",
+    "/ʌnˈdɪər/",
+    "m",
+    "To lower the price of textiles, wool, or garments.",
+    "Old English 'undyran'.",
+    "The king commanded merchants to undear the Flemish cloth.",
+    "Statutes of the Realm"
+  ],
+  [
+    "Under-coat",
+    "/ˈʌndərˌkoʊt/",
+    "e",
+    "A garment worn beneath an outer coat, doublet, or gown for warmth or shape.",
+    "From under + coat.",
+    "His quilted under-coat preserved him from the dagger's point.",
+    "Holinshed Chronicles"
+  ],
+  [
+    "Under-croFT",
+    "/ˈʌndərˌkrɔːft/",
+    "m",
+    "A subterranean vault, often used by medieval merchants for storing bales of wool and silk.",
+    "Old English 'under' + 'croft'.",
+    "The wool merchants stored their fleeces in the damp undercroft.",
+    "Architectural History of London"
+  ],
+  [
+    "Under-drapery",
+    "/ˈʌndərˌdreɪpəri/",
+    "t",
+    "Undergarments or hidden layers of fabric supporting a Victorian crinoline or bustle.",
+    "From under + drapery.",
+    "The elaborate under-drapery gave the skirt its bell-like contour.",
+    "Godey's Lady's Book"
+  ],
+  [
+    "Under-gear",
+    "/ˈʌndərˌɡɪər/",
+    "m",
+    "Undergarments, smocks, or foundational layers of clothing.",
+    "Old English 'undergēara'.",
+    "She spun fine flax for her daily under-gear.",
+    "Piers Plowman"
+  ],
+  [
+    "Under-pinning",
+    "/ˈʌndərˌpɪnɪŋ/",
+    "t",
+    "The structural framework or petticoats underpinning a Victorian dress.",
+    "From under + pinning.",
+    "The crinoline steel provided firm underpinning for the silk gown.",
+    "The Englishwoman's Domestic Magazine"
+  ],
+  [
+    "Under-sleeve",
+    "/ˈʌndərˌsliːv/",
+    "e",
+    "A detachable inner sleeve, often richly embroidered, emerging from an outer slashed sleeve.",
+    "From under + sleeve.",
+    "Her silk under-sleeves matched the embroidery of her stomacher.",
+    "Elizabethan Wardrobe Accounts"
+  ],
+  [
+    "Undress",
+    "/ʌnˈdrɛs/",
+    "t",
+    "Informal or casual clothing worn at home during the Victorian era, as opposed to full court dress.",
+    "From French 'déshabillé'.",
+    "The lord received guests in morning undress.",
+    "Victorian Etiquette Book"
+  ],
+  [
+    "Unframe",
+    "/ʌnˈfreɪm/",
+    "m",
+    "To take apart a structural framework, loom, or wooden armor support.",
+    "Old English 'unframian'.",
+    "The weaver began to unframe the warp and woof.",
+    "Guild Records of Norwich"
+  ],
+  [
+    "Ungloved",
+    "/ʌnˈɡlʌvd/",
+    "e",
+    "Having removed one's gloves; bare-handed, often signifying a challenge or peaceful greeting.",
+    "From prefix un- + gloved.",
+    "He stood ungloved to clasp his rival's hand.",
+    "Shakespeare, Richard II"
+  ],
+  [
+    "Ungown",
+    "/ʌnˈɡaʊn/",
+    "m",
+    "To strip a scholar, judge, or official of his academic or civic gown.",
+    "From prefix un- + gown.",
+    "The corrupt magistrate was ungowned before the assembly.",
+    "Chronicles of St. Albans"
+  ],
+  [
+    "Unhabit",
+    "/ʌnˈhæbɪt/",
+    "e",
+    "To strip off a monk's habit or garment.",
+    "From Latin 'in-' plus 'habitus' with reverse prefix.",
+    "The renegade friar sought to unhabit himself and flee.",
+    "John Bale"
+  ],
+  [
+    "Unhelm",
+    "/ʌnˈhɛlm/",
+    "e",
+    "To remove the helmet from a knight's head.",
+    "From prefix un- + helm.",
+    "Victorious, he paused to unhelm in the sunlight.",
+    "Spenser, The Faerie Queene"
+  ],
+  [
+    "Unhood",
+    "/ʌnˈhʊd/",
+    "m",
+    "To remove a hood or falcon's hood; to uncover the head.",
+    "Old English 'unhōdian'.",
+    "She unhooded her cloak as she entered the warm hall.",
+    "Sir Gawain and the Green Knight"
+  ],
+  [
+    "Unlace",
+    "/ʌnˈleɪs/",
+    "m",
+    "To untie the laces of a bodice, doublet, or arming points of armor.",
+    "Old French 'unlasier'.",
+    "The maidservant helped to unlace her mistress's velvet bodice.",
+    "Chaucer"
+  ],
+  [
+    "Unmantle",
+    "/ʌnˈmæntəl/",
+    "e",
+    "To strip off a mantle or cloak; in heraldry, to remove mantling from a helm.",
+    "From prefix un- + mantle.",
+    "He unmantled his coat of arms before the king of arms.",
+    "Heraldic Visitation Reports"
+  ],
+  [
+    "Unmask",
+    "/ʌnˈmæsk/",
+    "e",
+    "To remove a facial mask worn at a masquerade or tournament pageant.",
+    "From French 'démasquer'.",
+    "At midnight, all the revellers were commanded to unmask.",
+    "Shakespeare, Romeo and Juliet"
+  ],
+  [
+    "Unpave",
+    "/ʌnˈpeɪv/",
+    "m",
+    "To remove paving stones, sometimes metaphorically breaking down fortifications.",
+    "From prefix un- + pave.",
+    "The battering ram threatened to unpave the fortress walls.",
+    "Medieval Siege Warfare"
+  ],
+  [
+    "Unpin",
+    "/ʌnˈpɪn/",
+    "e",
+    "To remove pins securing a ruff, veil, or gown.",
+    "From prefix un- + pin.",
+    "She reached up to unpin her stiff linen ruff.",
+    "The Diary of Henry Machyn"
+  ],
+  [
+    "Unplate",
+    "/ʌnˈpleɪt/",
+    "e",
+    "To strip armor plates from a knight or beast.",
+    "From prefix un- + plate.",
+    "The heavy blows managed to unplate his left shoulder.",
+    "Christopher Marlowe, Tamburlaine"
+  ],
+  [
+    "Unpoint",
+    "/ʌnˈpɔɪnt/",
+    "e",
+    "To unfasten the points (tagged laces connecting hose to doublets).",
+    "From prefix un- + point.",
+    "He unpointed his hose to ease his tired limbs.",
+    "Middleton, Comedies"
+  ],
+  [
+    "Unseam",
+    "/ʌnˈsiːm/",
+    "e",
+    "To rip the seams of a garment or carve open armor with a sword.",
+    "From prefix un- + seam.",
+    "He unseamed him from the nave to the chaps.",
+    "Shakespeare, Macbeth"
+  ],
+  [
+    "Unweave",
+    "/ʌnˈwiːv/",
+    "m",
+    "To unravel woven threads or undo the work of a loom.",
+    "Old English 'unwèfan'.",
+    "Penelope would weave by day and unweave by torchlight.",
+    "Caxton, Recuyell of the Historyes of Troye"
+  ],
+  [
+    "Vair",
+    "/vɛər/",
+    "m",
+    "A traditional heraldic fur pattern representing the back and belly of a species of squirrel, alternating blue and silver-white bell shapes.",
+    "From Old French vair, from Latin varius (variegated).",
+    "His shield was charged with vair of azure and argent.",
+    "Oxford English Dictionary Historical Records"
+  ],
+  [
+    "Vauntmure",
+    "/ˈvɔːntmjʊər/",
+    "m",
+    "An outwork, advanced wall, or bulwark of a fortified medieval castle or town.",
+    "From Middle English, combining avant (before) and mure (wall).",
+    "The archers took their positions atop the vauntmure.",
+    "Chancery Proceedings of Richard II"
+  ],
+  [
+    "Velvet",
+    "/ˈvɛlvɪt/",
+    "m",
+    "A closely woven silk or cotton textile featuring a dense, short, cut pile that gives it a distinctively soft texture.",
+    "From Old Italian velvettito, from Medieval Latin vellutum (shaggy).",
+    "He wore a doublet of crimson velvet slashed with gold thread.",
+    "Willian Shakespeare, Henry IV"
+  ],
+  [
+    "Verd",
+    "/vɜːd/",
+    "m",
+    "In heraldry, the tincture green, often associated with growing vegetation or the forest.",
+    "From Old French vert (green).",
+    "A field of verd charged with three golden stags.",
+    "The Boke of St Albans"
+  ],
+  [
+    "Verdure",
+    "/ˈvɜːrdjʊər/",
+    "e",
+    "A rich tapestry woven with lush green landscape designs, foliage, and pastoral scenes.",
+    "From Middle French verdure, from vert (green).",
+    "The great hall was hung with Flemish verdure depicting a stag hunt.",
+    "Invenory of Royal Wardrobe of Henry VIII"
+  ],
+  [
+    "Vamplate",
+    "/ˈvæmpleɪt/",
+    "m",
+    "A circular steel plate fixed upon a medieval jousting lance to protect the knight's hand.",
+    "From avant (before) + plate.",
+    "The splintered lance struck just above the vamplate.",
+    "Tournament Rules of the 15th Century"
+  ],
+  [
+    "Vairé",
+    "/vɛəˈreɪ/",
+    "m",
+    "A heraldic term describing a shield covered entirely in the vair fur pattern using tinctures other than the traditional blue and white.",
+    "From Old French vairé.",
+    "Arms of the barony: Vairé or and gules.",
+    "Roll of Arms of Edward I"
+  ],
+  [
+    "Velures",
+    "/vəˈljʊərz/",
+    "e",
+    "A type of velvet-like fabric used for trimmings, hats, or upholstery in Elizabethan fashion.",
+    "From French velours.",
+    "His horse with hat and velvet velures upon his head.",
+    "William Shakespeare, The Taming of the Shrew"
+  ],
+  [
+    "Verditer",
+    "/ˈvɜːrdɪtər/",
+    "e",
+    "A blue or green pigment used for dyeing textiles or painting manuscript illuminations, made from copper carbonate.",
+    "From Old French vert-de-terre (green of earth).",
+    "The banner was painted with verditer and gold leaf.",
+    "Guild Painter Records of London"
+  ],
+  [
+    "Vert",
+    "/vɜːt/",
+    "m",
+    "The heraldic tincture green, or forest rights and vegetation under forest law.",
+    "From Old French vert.",
+    "All timber and vert within the royal forest.",
+    "Manwood's Treatise of the Forest Laws"
+  ],
+  [
+    "Vair-bell",
+    "/ˈvɛər bɛl/",
+    "m",
+    "An individual bell-shaped motif making up the repeating pattern of the heraldic fur vair.",
+    "From vair + bell.",
+    "Each vair-bell was neatly drawn in alternating azure.",
+    "Heraldic Treatise of the 14th Century"
+  ],
+  [
+    "Vamfey",
+    "/ˈvæmfi/",
+    "m",
+    "An archaic term for an advanced sleeve or arm defense worn under plate armor.",
+    "From Old French.",
+    "He donned his gambeson and leather vamfey.",
+    "14th-Century Armorer Inventories"
+  ],
+  [
+    "Venge",
+    "/vɛndʒ/",
+    "m",
+    "To avenge; used in chivalric oaths and heraldic mottos regarding honor.",
+    "From Old French vengier.",
+    "To venge the foul murder of our liege lord.",
+    "Sir Thomas Malory, Le Morte d'Arthur"
+  ],
+  [
+    "Ventail",
+    "/ˈvɛnteɪl/",
+    "m",
+    "The lower movable flap or mouthpiece of a medieval helmet, or the slit in a hood for breathing.",
+    "From Old French ventaille.",
+    "The arrow struck his helm just below the ventail.",
+    "Chanson de Roland"
+  ],
+  [
+    "Vambrace-plate",
+    "/ˈvæmbreɪs pleɪt/",
+    "m",
+    "An individual forged steel segment comprising a articulated vambrace.",
+    "From vambrace + plate.",
+    "Polishing the vambrace-plates until they shone like mirrors.",
+    "Armorer Accounts of the Tower of London"
+  ],
+  [
+    "Vestiary",
+    "/ˈvɛstiəri/",
+    "e",
+    "A wardrobe, robing room, or repository for historical ecclesiastical and court garments.",
+    "From Latin vestiarium.",
+    "Stored safely within the abbey's vestiary.",
+    "Ecclesiastical Records of Ely"
+  ],
+  [
+    "Vincular",
+    "/ˈvɪŋkjʊlər/",
+    "t",
+    "Relating to a band, tie, strap, or fastening used on historical garments or armor.",
+    "From Latin vinculum (fetter, tie).",
+    "The vincular straps of the cuirass showed heavy wear.",
+    "Victorian Antiquarian Journal"
+  ],
+  [
+    "Vair-shaped",
+    "/ˈvɛər ʃeɪpt/",
+    "m",
+    "Patterned or cut in the specific bell shape characteristic of heraldic vair.",
+    "From vair + shaped.",
+    "A border of vair-shaped embroidery along the mantle.",
+    "Medieval Wardrobe Accounts"
+  ],
+  [
+    "Vervelle",
+    "/vərˈvɛl/",
+    "m",
+    "A small metal ring on a hawk's jesses inscribed with the owner's heraldic badge or name.",
+    "From Old French vervelle.",
+    "Engraved upon the silver vervelles of the falcon.",
+    "The Book of Hawking"
+  ],
+  [
+    "Vair-tail",
+    "/ˈvɛər teɪl/",
+    "m",
+    "An alternative term for the small inverted sections within a vair fur pattern.",
+    "From vair + tail.",
+    "The alternating blues of the vair-tails.",
+    "Heraldry of the Northern Marches"
+  ],
+  [
+    "Vicary",
+    "/ˈvaɪkəri/",
+    "m",
+    "An archaic term for a deputy's badge or heraldic mark of delegated authority.",
+    "From Latin vicarius.",
+    "Bearing the vicary of the Earl Marshal.",
+    "Records of the Court of Chivalry"
+  ],
+  [
+    "Vambrace-strap",
+    "/ˈvæmbreɪs stræp/",
+    "m",
+    "A leather strap and buckle system used to secure tubular arm armor.",
+    "From vambrace + strap.",
+    "Fastening the vambrace-straps with trembling fingers.",
+    "Historical Armorer Guild Records"
+  ],
+  [
+    "Vandlas",
+    "/ˈvændləs/",
+    "m",
+    "An archaic textile measure or strip of decorative border trimming.",
+    "From Middle English.",
+    "Four vandlas of gold braid upon the hem.",
+    "Exchequer Wardrobe Rolls"
+  ],
+  [
+    "Vair-counter-vair",
+    "/ˌvɛər ˈkaʊntər vɛər/",
+    "m",
+    "A complex heraldic variation of vair where the bell shapes point towards each other rather than matching base-to-base.",
+    "From vair + counter + vair.",
+    "His coat of arms was quartered with vair-counter-vair.",
+    "Treatise on Heraldry by John之"
+  ],
+  [
+    "Vestiure",
+    "/ˈvɛstʃər/",
+    "e",
+    "An Elizabethan term for clothing, apparel, or the act of robing in fine textiles.",
+    "From Latin vestitura.",
+    "Rich vestiure becoming a nobleman of his standing.",
+    "Elizabethan Court Journals"
+  ],
+  [
+    "Voidee",
+    "/vɔɪˈdiː/",
+    "m",
+    "In heraldry, an ordinary (like a cross or chevron) that has its inner area removed, leaving only a narrow border.",
+    "From Old French voidé.",
+    "A cross voidee of sable upon a field of gold.",
+    "Early Rolls of Arms"
+  ],
+  [
+    "Velvet-weaver",
+    "/ˈvɛlvɪt ˈwiːvər/",
+    "m",
+    "A master artisan specialized in the complex loom techniques required to produce pile velvet.",
+    "From velvet + weaver.",
+    "The guild of velvet-weavers petitioned the king.",
+    "London Civic Ordinances"
+  ],
+  [
+    "Vamplate-ring",
+    "/ˈvæmpleɪt rɪŋ/",
+    "m",
+    "The metal mounting ring securing a lance's hand-guard plate.",
+    "From vamplate + ring.",
+    "The vamplate-ring held firm upon impact.",
+    "Tournament Equipment Inventories"
+  ],
+  [
+    "Vamp",
+    "/væmp/",
+    "m",
+    "The upper front part of a medieval leather shoe or boot.",
+    "From Old French avant (front).",
+    "Shoes of soft cordovan leather with reinforced vamps.",
+    "Archaeological Finds from London"
+  ],
+  [
+    "Vergette",
+    "/vərˈdʒɛt/",
+    "m",
+    "A heraldic term for a very narrow vertical stripe, being one-half the width of a palet.",
+    "From French.",
+    "Three vergettes of gules upon a field of argent.",
+    "French-English Heraldic Glossary"
+  ],
+  [
+    "Verge",
+    "/vɜːdʒ/",
+    "m",
+    "The decorative border, edge, or fringe of a garment or heraldic shield.",
+    "From Old French verge.",
+    "Embroidered along the verge with seed pearls.",
+    "Royal Wardrobe Accounts"
+  ],
+  [
+    "Vestment-chest",
+    "/ˈvɛstmənt tʃɛst/",
+    "m",
+    "A heavy carved wooden trunk used in medieval churches to store liturgical garments.",
+    "From vestment + chest.",
+    "Lifting the heavy lid of the oak vestment-chest.",
+    "Churchwarden Inventories"
+  ],
+  [
+    "Vair-bellied",
+    "/ˈvɛər ˈbɛlid/",
+    "m",
+    "Describing a heraldic beast or design marked with the vair fur pattern.",
+    "From vair + bellied.",
+    "A lion rampant, vair-bellied of azure and silver.",
+    "Heraldic Manuscript Harley"
+  ],
+  [
+    "Vamfey-sleeve",
+    "/ˈvæmfi sliːv/",
+    "m",
+    "A padded or armored under-sleeve worn to cushion plate armor.",
+    "From vamfey + sleeve.",
+    "Lacing his vamfey-sleeves securely.",
+    "15th-Century Tailoring Notes"
+  ],
+  [
+    "Vair-fur",
+    "/ˈvɛər fɜːr/",
+    "m",
+    "The actual pelt of the squirrel used in medieval luxury garments before being stylized into heraldry.",
+    "From vair + fur.",
+    "A winter mantle lined with costly vair-fur.",
+    "Chronicles of the Crusades"
+  ],
+  [
+    "Vandyke",
+    "/vænˈdaɪk/",
+    "e",
+    "A small pointed beard or a decorative zigzag cut edge on Elizabethan lace collars and cuffs.",
+    "Named after Flemish painter Anthony Van Dyck.",
+    "Wearing a stiff lace ruff trimmed with vandykes.",
+    "Stuart Era Portraiture Records"
+  ],
+  [
+    "Vair-en-point",
+    "/ˌvɛər ɒn ˈpwɔːnt/",
+    "m",
+    "A heraldic arrangement where the vair bells are inverted so their points touch the base.",
+    "From French.",
+    "A shield diapered vair-en-point.",
+    "Ancient Armorial Bearings"
+  ],
+  [
+    "Vambrace-guard",
+    "/ˈvæmbreɪs ɡɑːrd/",
+    "m",
+    "An additional reinforcing plate strapped over a standard arm defense.",
+    "From vambrace + guard.",
+    "Adding extra vambrace-guards for the melee.",
+    "Tournament Regulations"
+  ],
+  [
+    "Verditer-blue",
+    "/ˈvɜːrdɪtər bluː/",
+    "e",
+    "A bright, pale blue pigment used for dyeing silks and woolens in the 16th century.",
+    "From verditer + blue.",
+    "Dyed in rich shades of verditer-blue.",
+    "Drapers' Company Archives"
+  ],
+  [
+    "Vair-barry",
+    "/ˈvɛər ˈbæri/",
+    "m",
+    "A heraldic pattern combining horizontal bars with the alternating vair fur motifs.",
+    "From vair + barry.",
+    "A shield barry-bendy of vair and gules.",
+    "Historical Rolls of Arms"
+  ],
+  [
+    "Wambais",
+    "/ˈwæmbeɪs/",
+    "m",
+    "A padded or quilted defensive garment worn under or instead of armor.",
+    "Old French wambais, from Germanic.",
+    "He wore a stout wambais beneath his hauberk for extra cushioning against blows.",
+    "Middle English romance literature"
+  ],
+  [
+    "Wardrobe",
+    "/ˈwɔːrdroʊb/",
+    "m",
+    "A private room where clothes are kept, or the royal department responsible for clothing and textiles.",
+    "Old French warderobe.",
+    "The King's wardrobe contained rich silks and furs imported from the Levant.",
+    "Medieval Household Ordinances"
+  ],
+  [
+    "Warp",
+    "/wɔːrp/",
+    "m",
+    "The lengthwise threads stretched tightly on a loom before weaving begins.",
+    "Old English wearp.",
+    "The weaver carefully threaded the warp through the heddles.",
+    "The Miller's Tale"
+  ],
+  [
+    "Watchet",
+    "/ˈwɒtʃɪt/",
+    "m",
+    "A pale blue color, or a light fabric of that shade.",
+    "Middle English watchet.",
+    "His gown was of rich watchet silk embroidered with silver thread.",
+    "Sir Gawain and the Green Knight"
+  ],
+  [
+    "Waterbouget",
+    "/ˈwɔːtərbʊdʒɪt/",
+    "m",
+    "A heraldic charge representing a pair of leather vessels used for carrying water.",
+    "Old French waterbougete.",
+    "The shield bore three waterbougets sable upon a field of gold.",
+    "Early English Heraldry Rolls"
+  ],
+  [
+    "Waymark",
+    "/ˈweɪmɑːrk/",
+    "m",
+    "A boundary marker or signpost indicating a historic path or territory.",
+    "Old English wegmearc.",
+    "They halted beside the old stone waymark at the edge of the forest.",
+    "Anglo-Saxon Charter"
+  ],
+  [
+    "Weed",
+    "/wiːd/",
+    "m",
+    "An archaic term for a garment, dress, or clothing, especially mourning attire.",
+    "Old English wēd.",
+    "She was clad in widow's weeds of heavy black serge.",
+    "Shakespeare, Coriolanus"
+  ],
+  [
+    "Weft",
+    "/wɛft/",
+    "m",
+    "The crosswise threads woven across the warp on a loom.",
+    "Old English wefta.",
+    "The colorful weft was beaten firmly against the warp.",
+    "Early English Textile Glossaries"
+  ],
+  [
+    "Welt",
+    "/wɛlt/",
+    "m",
+    "A hem, edging, or folded border sewn onto a garment or shoe for strength or ornament.",
+    "Middle English welten.",
+    "The leather boots featured a stout double welt.",
+    "Medieval Cordwainers Records"
+  ],
+  [
+    "Wharf",
+    "/wɔːrf/",
+    "m",
+    "A landing place where ships load and unload cargo, including raw wool and imported silks.",
+    "Old English hwearf.",
+    "Bales of Flemish cloth were stacked high upon the wharf.",
+    "Port Books of London"
+  ],
+  [
+    "Wharfinger",
+    "/ˈwɔːrfɪndʒər/",
+    "m",
+    "The owner or manager of a wharf who collected tolls on imported textiles and armor.",
+    "Middle English wharf + -inger.",
+    "The wharfinger inspected the imported crates of Italian velvet.",
+    "Statutes of the Realm"
+  ],
+  [
+    "Whaup",
+    "/wɔːp/",
+    "m",
+    "A curlew, sometimes used as a crest or badge in northern heraldry.",
+    "Scots origin.",
+    "The clan crest displayed a whaup rising from a bed of reeds.",
+    "Scottish Heraldic Rolls"
+  ],
+  [
+    "Wheat-ear",
+    "/ˈwiːtɪər/",
+    "t",
+    "A decorative motif resembling a head of wheat, used in Victorian embroidery.",
+    "Old English hwīte-ear.",
+    "Her bodice was embroidered with delicate wheat-ears in gold bullion.",
+    "Victorian Needlework Manual"
+  ],
+  [
+    "Wheel-farthingale",
+    "/wiːl ˈfɑːrθɪŋɡeɪl/",
+    "e",
+    "A wide, drum-shaped Elizabethan hoop skirt that held garments out rigidly.",
+    "Middle English hweol + Spanish verdugado.",
+    "She wore a stiff wheel-farthingale that required a wider doorway.",
+    "Elizabethan Court Inventories"
+  ],
+  [
+    "Whelk",
+    "/wɛlk/",
+    "m",
+    "A marine snail, historically associated with the purple dye industry in early textiles.",
+    "Old English wioloc.",
+    "The rich purple border was dyed from the juice of the sea-whelk.",
+    "Bede, Ecclesiastical History"
+  ],
+  [
+    "Whiffler",
+    "/ˈwɪflər/",
+    "e",
+    "An attendant who cleared the way for a procession, often carrying a staff or sword.",
+    "Middle English wifflen.",
+    "The whifflers cleared the street ahead of the lord mayor's heraldic pageant.",
+    "Shakespeare, Henry V"
+  ],
+  [
+    "Whimple",
+    "/ˈwɪmpəl/",
+    "m",
+    "A cloth worn round the head and neck by medieval women, and nun's attire.",
+    "Old English wimfel.",
+    "She drew her white linen whimple close about her chin.",
+    "Chaucer, Canterbury Tales"
+  ],
+  [
+    "Whistler",
+    "/ˈwɪslər/",
+    "e",
+    "An archaic term for an archer or a maker of whistling arrow shafts.",
+    "Old English hwistlere.",
+    "The master archer inspected the whistlers in his quiver.",
+    "Tudor Military Records"
+  ],
+  [
+    "White-money",
+    "/ˈwaɪt ˈmʌni/",
+    "m",
+    "Silver coins paid as wages to armorers and textile workers.",
+    "Old English hwīt + munec.",
+    "The mercenaries demanded their pay in white-money.",
+    "Chronicles of the Northern Wars"
+  ],
+  [
+    "Whittle",
+    "/ˈwɪtəl/",
+    "m",
+    "A thick woolen blanket, or a small cloak worn by country women.",
+    "Old English hwītel.",
+    "She wrapped a sturdy white whittle about her shoulders against the frost.",
+    "Middle English Dialect Survey"
+  ],
+  [
+    "Wig-block",
+    "/ˈwɪɡblɒk/",
+    "t",
+    "A wooden headform used for shaping and storing elaborate periwigs.",
+    "English, 17th century.",
+    "The perruquier placed the towering wig upon its carved wig-block.",
+    "Restoration Era Accounts"
+  ],
+  [
+    "Winchester-work",
+    "/ˈwɪntʃɛstər wɜːrk/",
+    "m",
+    "Fine medieval embroidery and metalwork associated with the workshops of Winchester.",
+    "Place name + Old English wyrcan.",
+    "The altar cloth was a magnificent example of Winchester-work.",
+    "Ecclesiastical Inventories"
+  ],
+  [
+    "Windlass",
+    "/ˈwɪndləs/",
+    "m",
+    "A cranking device used to draw the string of a heavy steel crossbow.",
+    "Old Norse vindáss.",
+    "He fitted the windlass to the heavy arbalest to span the bow.",
+    "Military Chronicles"
+  ],
+  [
+    "Wind-mace",
+    "/ˈwɪnd meɪs/",
+    "m",
+    "A specialized mace designed to slice through the air with minimal resistance.",
+    "Old English wind + Old French mace.",
+    "The knight swung his wind-mace with terrifying velocity.",
+    "Medieval Armory Treatises"
+  ],
+  [
+    "Window-peeper",
+    "/ˈwɪndoʊ ˈpiːpər/",
+    "e",
+    "A colloquial Elizabethan term for an idle onlooker at a royal procession.",
+    "Old Norse vindauga + Old English pipian.",
+    "The street was crowded with window-peepers eager to see the royal liveries.",
+    "Elizabethan Domestic Letters"
+  ],
+  [
+    "Woad",
+    "/woʊd/",
+    "m",
+    "A plant yielding a blue dye used extensively in ancient and medieval textiles.",
+    "Old English wād.",
+    "The tunic was dyed a deep, lasting blue with fermented woad.",
+    "Plant-Lore of Shakespeare"
+  ],
+  [
+    "Woad-waxen",
+    "/ˈwoʊd ˈwæksən/",
+    "m",
+    "Dyer's greenweed, a plant used to produce yellow dye for woolen cloths.",
+    "Old English wād + weaxan.",
+    "The weaver used woad-waxen to brighten the green mantle.",
+    "Medieval Herbalists' Glossaries"
+  ],
+  [
+    "Wobster",
+    "/ˈwɒbstər/",
+    "m",
+    "A northern and Scottish historical term for a weaver.",
+    "Old English webbestre.",
+    "The master wobster delivered twenty ells of tartan cloth.",
+    "Scottish Burgh Records"
+  ],
+  [
+    "Wodge",
+    "/wɒdʒ/",
+    "e",
+    "A soft mass or bundle of padding used inside doublet shoulders.",
+    "Variant of wedge.",
+    "The tailor stuffed the doublet shoulders with a wodge of wool.",
+    "Tailor's Shop Records"
+  ],
+  [
+    "Wolf-skin",
+    "/ˈwʊlfskɪn/",
+    "m",
+    "A pelt of a wolf, used as a lining for winter cloaks or military garments.",
+    "Old English wulf + skinn.",
+    "His heavy winter cloak was lined with warm wolf-skin.",
+    "Saga Literature"
+  ],
+  [
+    "Woll-man",
+    "/ˈwʊlmæn/",
+    "m",
+    "A merchant or trader who deals in raw wool fleece.",
+    "Old English wull + mann.",
+    "The woll-man brought several sacks of Cotswold fleece to market.",
+    "English Economic History"
+  ],
+  [
+    "Wood-coal",
+    "/ˈwʊdkoʊl/",
+    "m",
+    "Charcoal used by armorers and blacksmiths for forging swords and plates.",
+    "Old English wudu + col.",
+    "The armorer stoked the forge with fine wood-coal.",
+    "Medieval Smithy Accounts"
+  ],
+  [
+    "Wood-knife",
+    "/ˈwʊdnaɪf/",
+    "m",
+    "A large hunting dagger worn at the belt during the medieval and Tudor eras.",
+    "Old English wudu + cnīf.",
+    "He drew his wood-knife to cut away the brush.",
+    "Sir Gawain and the Green Knight"
+  ],
+  [
+    "Wool-driver",
+    "/ˈwʊlˈdraɪvər/",
+    "m",
+    "A dealer who buys wool in the countryside and transports it to urban textile markets.",
+    "Old English wull + drīfan.",
+    "The wool-drivers brought their wagonloads to the stapler's hall.",
+    "Tudor Trade Statutes"
+  ],
+  [
+    "Wool-pack",
+    "/ˈwʊlpæk/",
+    "m",
+    "A large bale or sack used for packing and shipping raw wool.",
+    "Old English wull + Germanic pakk.",
+    "The Lord Chancellor traditionally sits upon the wool-pack in the House of Lords.",
+    "Parliamentary History"
+  ],
+  [
+    "Wool-stapler",
+    "/ˈwʊlˌsteɪplər/",
+    "m",
+    "A merchant who grades, sorts, and deals in raw wool according to its staple length.",
+    "Old English wull + Old French estaple.",
+    "The wealthy wool-stapler built a fine timber hall in the town.",
+    "English Merchant Guild Records"
+  ],
+  [
+    "Worsted",
+    "/ˈwʊstɪd/",
+    "m",
+    "A fine smooth yarn spun from combed long-staple wool, or fabric made from it.",
+    "Worsted, Norfolk, England.",
+    "He wore a doublet of dark green worsted trimmed with braid.",
+    "Paston Letters"
+  ],
+  [
+    "Yataghan",
+    "/ˈjætəɡæn/",
+    "e",
+    "A single-edged Turkish sabre or dagger with a curved blade, adopted into Elizabethan military contexts through trade and conflict.",
+    "From Turkish yatağan.",
+    "He drew his gleaming yataghan from its velvet sheath.",
+    "Richard Hakluyt, Principal Navigations"
+  ],
+  [
+    "Yarn-winder",
+    "/ˈjɑːnˌwɪndər/",
+    "t",
+    "A mechanical device or wooden frame used by textile workers to wind spun yarn into hanks or skeins.",
+    "Middle English, combining 'yarn' and 'winder'.",
+    "She sat by the hearth operating the wooden yarn-winder.",
+    "Victorian Domestic Economy Records"
+  ],
+  [
+    "Yarwhip",
+    "/ˈjɑːrwɪp/",
+    "m",
+    "A type of leather whip or lash used in medieval riding gear and horse-trappings.",
+    "Old English compound from 'gear' (equipment) and 'whip'.",
+    "The knight grasped his yarwhip before mounting his destrier.",
+    "Middle English Livestock Inventories"
+  ],
+  [
+    "Yattend",
+    "/jæˈtɛnd/",
+    "e",
+    "An archaic or dialectal past participle meaning united, joined, or combined, often used in tailoring to describe seams.",
+    "Middle English ge- + tenden.",
+    "The velvet panels were yattend with golden thread.",
+    "Spenserian Glossaries"
+  ],
+  [
+    "Yax",
+    "/jæks/",
+    "m",
+    "An obsolete term for an axis or axle, occasionally applied to the mounting pins of heavy siege engines or chariot wheels.",
+    "Middle English variation of axis.",
+    "The heavy yax of the siege wagon snapped under the weight.",
+    "Medieval Arsenal Rolls"
+  ],
+  [
+    "Yeanling",
+    "/ˈjiːnlɪŋ/",
+    "e",
+    "A newly born sheep or lamb, whose fleece was prized for producing ultra-fine wool.",
+    "Old English eanian.",
+    "The shepherds sheared the soft fleece of the spring yeanling.",
+    "Agricultural Tracts of the Tudor Era"
+  ],
+  [
+    "Yellow-gold",
+    "/ˈjɛloʊ ɡoʊld/",
+    "t",
+    "A specific high-karat gold alloy traditionally used in Victorian mourning jewelry and heavy heraldic embroidery.",
+    "Modern English compound, established in Victorian goldsmithing.",
+    "The brooch was crafted from heavy yellow-gold set with jet.",
+    "Victorian Jeweler Trade Catalogs"
+  ],
+  [
+    "Yellow-weed",
+    "/ˈjɛloʊ wiːd/",
+    "e",
+    "Weld (Reseda luteola), a plant historically cultivated to yield a brilliant yellow dye for textiles.",
+    "Middle English usage for dye plants.",
+    "The wool was steeped in yellow-weed to achieve the golden hue.",
+    "John Gerard, Great Herball"
+  ],
+  [
+    "Yemele",
+    "/ˈjɛməl/",
+    "m",
+    "A rare Middle English term for a ring, circlet, or gem-studded band worn as headwear or jewelry.",
+    "Old French gemme / Latin gemma.",
+    "A golden yemele rested upon her braided hair.",
+    "Middle English Romance Texts"
+  ],
+  [
+    "Yeomanry",
+    "/ˈjoʊmənri/",
+    "t",
+    "A voluntary cavalry force raised from landholders and yeomen, wearing distinctive traditional military uniforms.",
+    "Middle English yeoman + -ry.",
+    "The local yeomanry paraded in scarlet tunics.",
+    "Military Gazette of 1805"
+  ],
+  [
+    "Yerk",
+    "/jɜːrk/",
+    "e",
+    "To pull, twitch, or jerk tight, as in lacing up a tightly fitted corset or doublet.",
+    "Origin uncertain, possibly imitative, 16th century.",
+    "She helped yerk the laces of his stiff leather doublet.",
+    "Elizabethan Domestic Dramas"
+  ],
+  [
+    "Yew-bow",
+    "/ˈjuː boʊ/",
+    "m",
+    "The premier medieval English longbow, crafted from the dense wood of the yew tree.",
+    "Old English īow + boga.",
+    "Every archer strung his yew-bow before the vanguard advanced.",
+    "Statutes of the Realm"
+  ],
+  [
+    "Y-fere",
+    "/ɪˈfɪər/",
+    "m",
+    "Together, in company; used in chivalric poetry to describe knights riding forth united.",
+    "Old English geferena.",
+    "The armed knights rode y-fere toward the tournament field.",
+    "Sir Gawain and the Green Knight"
+  ],
+  [
+    "Y-glased",
+    "/ɪˈɡleɪzd/",
+    "m",
+    "Finished with a lustrous, shiny coating, sometimes applied to stiffened leather armor or treated textiles.",
+    "Middle English past participle of glasen.",
+    "His leather breastplate was y-glased to repel moisture.",
+    "Medieval Guild Records"
+  ],
+  [
+    "Y-grene",
+    "/ɪˈɡriːn/",
+    "m",
+    "Dyed a bright, permanent green, highly favored for foresters' liveries and heraldic fields.",
+    "Middle English prefix y- + grene.",
+    "The outlaws were clad in mantles y-grene.",
+    "Robin Hood Ballads"
+  ],
+  [
+    "Y-hot",
+    "/ɪˈhɒt/",
+    "m",
+    "Heated or warmed; used in metallurgical contexts when tempering iron armor plates.",
+    "Old English ġe- + hātian.",
+    "The steel was y-hot within the roaring forge.",
+    "Alisaunder Romance"
+  ],
+  [
+    "Y-kad",
+    "/ɪˈkæd/",
+    "m",
+    "Stuck, fixed, or pinned; often used to describe heraldic badges affixed to garments.",
+    "Middle English dialectal.",
+    "The silver lion badge was y-kad upon his shoulder.",
+    "Heraldic Visitation Rolls"
+  ],
+  [
+    "Y-laced",
+    "/ɪˈleɪst/",
+    "m",
+    "Fastened or secured with cords or laces, as seen in medieval arming doublets.",
+    "Middle English.",
+    "His padded arming doublet was securely y-laced.",
+    "Chivalric Arming Manuals"
+  ],
+  [
+    "Y-marked",
+    "/ɪˈmɑːrkt/",
+    "m",
+    "Bearing a specific insignia, brand, or heraldic mark of ownership.",
+    "Middle English prefix y- + marken.",
+    "The wool bales were y-marked with the merchant's cipher.",
+    "London Customs Accounts"
+  ],
+  [
+    "Y-melt",
+    "/ɪˈmɛlt/",
+    "m",
+    "Melted down; used of precious metals recovered from worn-out ecclesiastical vestments or broken armor.",
+    "Old English ġemealt.",
+    "The gilt silver was y-melt to form bullion.",
+    "Monastic Exchequer Rolls"
+  ],
+  [
+    "Y-pight",
+    "/ɪˈpaɪt/",
+    "m",
+    "Placed, pitched, or firmly fixed, such as a heraldic banner or a royal tent on the field.",
+    "Middle English past participle of pighten.",
+    "The royal pavilion was y-pight upon the meadow.",
+    "Chaucer, The Knight's Tale"
+  ],
+  [
+    "Y-roched",
+    "/ɪˈrɒtʃt/",
+    "m",
+    "Pierced or notched with jagged decorative edges, a popular tailoring technique in medieval fashion known as dagging.",
+    "Old French rochier / Middle English.",
+    "The hem of his velvet tunic was y-roched into leaf shapes.",
+    "Sumptuary Law Commentary"
+  ],
+  [
+    "Y-shent",
+    "/ɪˈʃɛnt/",
+    "m",
+    "Ruined, damaged, or disgraced; applied to ruined armor or soiled garments.",
+    "Old English ġescendan.",
+    "His fine silk tabard was utterly y-shent by the mire.",
+    "Alliterative Morte Arthure"
+  ],
+  [
+    "Y-slad",
+    "/ɪˈslæd/",
+    "m",
+    "Slain or struck down, leaving armor vacant of its wearer.",
+    "Middle English.",
+    "The valiant knight lay y-slad upon the bloody grass.",
+    "Metrical Romances"
+  ],
+  [
+    "Y-stiked",
+    "/ɪˈstaɪkɪd/",
+    "m",
+    "Pierced or stabbed through with a weapon, damaging chainmail or cloth garments.",
+    "Middle English.",
+    "His iron-studded jack was y-stiked by a lance.",
+    "Medieval Battle Chronicles"
+  ],
+  [
+    "Y-wield",
+    "/ɪˈwiːld/",
+    "m",
+    "Exercised, wielded, or controlled; used of a knight's mastery over his heavy sword.",
+    "Old English ġewieldan.",
+    "The heavy broadsword was skillfully y-wield.",
+    "Northern English Verse"
+  ],
+  [
+    "Y-wrought",
+    "/ɪˈrɔːt/",
+    "m",
+    "Crafted, fashioned, or manufactured by hand; applied to exquisite needlework or plate armor.",
+    "Old English ġeworht.",
+    "A magnificent helm skillfully y-wrought by Milanese smiths.",
+    "Layamon's Brut"
+  ],
+  [
+    "Y-wunden",
+    "/ɪˈwʊndən/",
+    "m",
+    "Wrapped, intertwined, or coiled; describing twisted metallic threads in embroidery.",
+    "Old English ġewunden.",
+    "The cloak was bordered with gold wire y-wunden.",
+    "Exeter Book Inventories"
+  ],
+  [
+    "Yacht-cap",
+    "/ˈjɒt kæp/",
+    "t",
+    "A peaked headwear style worn by Victorian marine enthusiasts and yacht club members.",
+    "Dutch jacht + cap.",
+    "He wore a navy blue yacht-cap with golden insignia.",
+    "Victorian Sporting Gazette"
+  ],
+  [
+    "Yaffle",
+    "/ˈjæfəl/",
+    "e",
+    "An armful or bundled quantity of harvested flax, hemp, or straw destined for textile production.",
+    "Dialectal English, 16th century.",
+    "She gathered a yaffle of dry flax for the spinning wheel.",
+    "East Anglian Dialect Glossaries"
+  ],
+  [
+    "Yard-wand",
+    "/ˈjɑːrd wɒnd/",
+    "m",
+    "A standard measuring rod, typically exactly one yard long, used by cloth-merchants in medieval markets.",
+    "Old English gerd + wand.",
+    "The draper measured the woolen cloth with his wooden yard-wand.",
+    "Statutes of Cloth Measures"
+  ],
+  [
+    "Yarn-dyed",
+    "/ˈjɑːrn daɪd/",
+    "t",
+    "Textiles woven from threads that were dyed prior to the weaving process, ensuring deep color penetration.",
+    "Modern English textile terminology.",
+    "The tartan plaid was strictly yarn-dyed for durability.",
+    "Victorian Textile Manufacturing Reports"
+  ],
+  [
+    "Yate-ward",
+    "/ˈjeɪt wɑːrd/",
+    "m",
+    "A gatekeeper or guard stationed at the fortified entrance of a castle or walled town.",
+    "Old English ġēat + weard.",
+    "The yate-ward challenged the stranger at the portcullis.",
+    "Early English Homilies"
+  ],
+  [
+    "Yeard",
+    "/jɪərd/",
+    "e",
+    "To enclose with a fence or protective barrier, such as a sheepfold or fabric-bleaching yard.",
+    "Old English gerdian.",
+    "They yeard the meadow to protect the bleaching linens.",
+    "Scottish Exchequer Rolls"
+  ],
+  [
+    "Yearling-fleece",
+    "/ˈjɪərlɪŋ fliːs/",
+    "t",
+    "The high-grade wool sheared from a sheep that is between one and two years old.",
+    "Old English ġēarlinc + fleece.",
+    "The merchant purchased thirty bales of premier yearling-fleece.",
+    "Wool Stapler's Journal"
+  ],
+  [
+    "Yelfth",
+    "/jɛlθ/",
+    "m",
+    "An obsolete term for an old female sheep or ewe, yielding coarse wool used for heavy blankets.",
+    "Old English dialectal.",
+    "The fleece of the yelfth was reserved for rough rugs.",
+    "Medieval Husbandry Glossaries"
+  ],
+  [
+    "Yellow-ochre",
+    "/ˈjɛloʊ ˈoʊkər/",
+    "t",
+    "An earthy natural pigment used in textile printing and leather staining.",
+    "Greek ōkhros via French.",
+    "The leather jerkin was stained with rich yellow-ochre.",
+    "Victorian Dyers' Manual"
+  ],
+  [
+    "Yonder-side",
+    "/ˈjɒndər saɪd/",
+    "e",
+    "The far or opposite side; occasionally used in tailoring to refer to the reverse face of a double-faced fabric.",
+    "Old English geondan + side.",
+    "Examine the yonder-side of the brocade for loose threads.",
+    "Elizabethan Tailor Accounts"
+  ],
+  [
+    "Youth-mantle",
+    "/ˈjuːθ ˌmæntəl/",
+    "t",
+    "A ceremonial cloak worn by young debutantes or squires during formal Victorian court presentations.",
+    "Middle English youth + mantle.",
+    "She wore a white satin youth-mantle trimmed with ermine.",
+    "Court Journal of St. James"
+  ],
+  [
+    "Yux",
+    "/jʌks/",
+    "m",
+    "A hiccup or spasm, historically believed to be warded off by wearing specific protective amulets or rings.",
+    "Old English ġeocsa.",
+    "He wore a silver talisman to protect against the sudden yux.",
+    "Medical Manuscripts of the 15th Century"
+  ],
+  [
+    "Aback",
+    "/əˈbæk/",
+    "e",
+    "Situation of a square-sail when the wind presses it flat against the mast, arresting the ship's headway or driving her astern.",
+    "Middle English, from Old English onbæc (adv.), 'toward the back'.",
+    "And all the while, / Bridled with iron, branch and bit, / With iron heels, / With wood and iron they took her, / Taken aback and helpless.",
+    "John Masefield, Salt-Water Ballads"
+  ],
+  [
+    "Abeam",
+    "/əˈbiːm/",
+    "e",
+    "Directly opposite the midpoint of the ship's length, at right angles to the keel.",
+    "Combination of 'a-' (on) + 'beam' (timber of a ship), 16th century.",
+    "At two bells, a Spanish galleon hove directly abeam, flying no colors.",
+    "Log of the HMS Resolution, Elizabethan era"
+  ],
+  [
+    "Aboot",
+    "/əˈbuːt/",
+    "t",
+    "A nautical corruption or dialectal variant of about, often used in coastal pilot commands.",
+    "Early Modern English variant of about.",
+    "Bring her aboot, master, or the reef will take us before the tide turns.",
+    "Shetland Islands Maritime Glossary, Victorian Era"
+  ],
+  [
+    "About-ship",
+    "/əˈbaʊt-ʃɪp/",
+    "e",
+    "The command given to tack or put a ship about on the opposite tack.",
+    "Compound of 'about' and 'ship', common in 16th-century naval dictionaries.",
+    "The boatswain piped 'about-ship' just as the squall struck our beam.",
+    "Captain John Smith, A Sea Grammar"
+  ],
+  [
+    "Abow",
+    "/əˈbaʊ/",
+    "m",
+    "An archaic variant of 'bow', referring to the forward part of a ship.",
+    "Middle English, from Old English boga / bow.",
+    "The sea broke heavy abow, drenching the watchers on the forecastle.",
+    "The Brut Chronicles, 14th Century"
+  ],
+  [
+    "Absolute",
+    "/ˈæbsəluːt/",
+    "t",
+    "An old rating for a ship fully manned, provisioned, and cleared for combat.",
+    "Latin absolutus, adopted into naval administration during the late sailing navy.",
+    "The frigate was reported absolute and ready for foreign station by dawn.",
+    "Admiralty Dispatch Books, 1805"
+  ],
+  [
+    "Accloy",
+    "/əˈklɔɪ/",
+    "e",
+    "To choke, clog, or encumber; applied to fouled rigging or a blocked pump-well.",
+    "Old French encloyer ('to drive a nail into a horse's hoof', hence to clog).",
+    "The bilge-pump was accloyed with seaweed and gravel from the shallows.",
+    "Sir Walter Raleigh, Discovery of Guiana"
+  ],
+  [
+    "Achates",
+    "/əˈkeɪtiːz/",
+    "t",
+    "An old term for ship's provisions, sea-store, or victuals purchased in port.",
+    "Middle English achate ('purchase'), from Old French achapter.",
+    "The purser went ashore to lay in fresh achates before rounding the cape.",
+    "Naval Accounts of Henry VIII (revived in Victorian maritime glossaries)"
+  ],
+  [
+    "Ack",
+    "/æk/",
+    "m",
+    "An old regional term for a small lighter or flat-bottomed boat used in estuaries.",
+    "Middle English, possibly of Scandinavian origin.",
+    "They loaded the timber onto the ack to ferry it across the sandbar.",
+    "Port Books of Southampton, 15th Century"
+  ],
+  [
+    "Acorn",
+    "/ˈeɪkɔːrn/",
+    "e",
+    "A small piece of wood shaped like an acorn, fastened to the spindle above the vane on the masthead.",
+    "Old English æcern.",
+    "The top-gallant mast was crowned with a carved oak acorn gilt in gold leaf.",
+    "The Shipbuilder's Repository, 17th Century"
+  ],
+  [
+    "Acroast",
+    "/əˈkroʊst/",
+    "e",
+    "Pertaining to a ship driven ashore broadside by the waves.",
+    "Greek akron ('extremity') combined with nautical suffix.",
+    "The gale left the merchantman acroast upon the shingle beach.",
+    "Mariner's Dictionary, 1699"
+  ],
+  [
+    "Across",
+    "/əˈkrɒs/",
+    "e",
+    "Placed at right angles to the line of the ship's keel, as yards are across.",
+    "Middle English, from Old French a- + cross.",
+    "Brace the yards across to catch the dying breeze from the headland.",
+    "Mainwaring's Seaman's Dictionary, 1644"
+  ],
+  [
+    "Adays",
+    "/əˈdeɪz/",
+    "e",
+    "During the daytime; used in nautical watches and logbooks.",
+    "Middle English on dæges.",
+    "Adays the wind favored our course, but at night the currents set us back.",
+    "Voyage Log of the Bark Bonaventure, 1588"
+  ],
+  [
+    "Addice",
+    "/ˈædɪs/",
+    "e",
+    "An archaic spelling of 'adze', the essential curved ax used by shipwrights.",
+    "Old English adesa.",
+    "The shipwright shaped the oak knee with swift strokes of his addice.",
+    "The Common Wealth's Great Ship, 1655"
+  ],
+  [
+    "Adrift",
+    "/əˈdrɪft/",
+    "e",
+    "Floating at random; unbound, unmoored, or broken loose from fastenings.",
+    "Middle English, past participle used as adjective from on + drift.",
+    "The jolly-boat broke adrift during the midnight gale and was lost to view.",
+    "William Shakespeare, Twelfth Night"
+  ],
+  [
+    "Advance-work",
+    "/ədˈvɑːns-wɜːrk/",
+    "t",
+    "Early naval term for the forecastle superstructure.",
+    "English compound, 18th to 19th century.",
+    "The heavy seas swept clean across the advance-work, carrying away the spare spars.",
+    "The Naval Chronicle, Vol. XII"
+  ],
+  [
+    "Afloat",
+    "/əˈfloʊt/",
+    "e",
+    "Borne on the water; not aground or sunk.",
+    "Middle English a- + float (from Old English flotian).",
+    "By hard pumping, the carpenters managed to keep the battered hull afloat.",
+    "Richard Hakluyt, Voyages"
+  ],
+  [
+    "Afore",
+    "/əˈfɔːr/",
+    "m",
+    "Before; in front of, or earlier in time.",
+    "Old English on foran.",
+    "Secure the hatches afore the glass falls any lower.",
+    "The Libelle of Englysche Polyc्ये, 1436"
+  ],
+  [
+    "Aft",
+    "/ɑːft/",
+    "e",
+    "Near, toward, or at the stern of a ship.",
+    "Middle English aft, contraction of after (Old English æfter).",
+    "All hands to the quarterdeck; officers aft, seamen forward.",
+    "Admiralty Regulations, 17th Century"
+  ],
+  [
+    "After-cast",
+    "/ˈɑːftər-kɑːst/",
+    "e",
+    "A second throw or contingency plan; maneuvering to recover from a bad tack.",
+    "Middle English after- + cast.",
+    "We had no after-cast left when the rudder chain snapped in the breakers.",
+    "Seamen's Vade Mecum, 1707"
+  ],
+  [
+    "After-guard",
+    "/ˈɑːftər-ɡɑːrd/",
+    "t",
+    "That portion of a ship's crew stationed on the quarterdeck to work the sails aft.",
+    "English compound, sailing navy era.",
+    "The after-guard scrambled to brace the spanker boom as the wind shifted.",
+    "William Henry Smyth, The Sailor's Word-Book, 1867"
+  ],
+  [
+    "After-math",
+    "/ˈɑːftər-mæθ/",
+    "m",
+    "An old maritime idiom for the wake or trailing turbulence left by a ship's passage.",
+    "Old English æftermæð (originally second mowing of grass, later metaphorically applied).",
+    "The galleon rode smoothly in the after-math of the great leviathan.",
+    "Medieval Bestiary and Sea Lore"
+  ],
+  [
+    "Agal",
+    "/əˈɡæl/",
+    "e",
+    "An old trading term for a coastal anchorage or roadstead in the Levant.",
+    "Arabic/Levantine maritime loan word used by English factors.",
+    "The fleet dropped anchor in the agal of Scanderoon to wait for the caravan.",
+    "Purchas His Pilgrimes, 1625"
+  ],
+  [
+    "Agee",
+    "/əˈɡiː/",
+    "t",
+    "Off-center, twisted, or out of true alignment; said of a spar or rudder.",
+    "Scottish/Northern dialect, akin to Gaelic ghaoth ('wrong').",
+    "The mainyard hung agee after the cannon shot severed the starboard lift.",
+    "Log of a North Sea Whaler, Victorian era"
+  ],
+  [
+    "Aground",
+    "/əˈɡraʊnd/",
+    "e",
+    "resting on the bottom of shallow water.",
+    "Middle English on grounde.",
+    "The tide receded swiftly, leaving our ketch hard and fast aground on the mudflat.",
+    "Daniel Defoe, Robinson Crusoe"
+  ],
+  [
+    "Ahead",
+    "/əˈhɛd/",
+    "e",
+    "Further forward than the ship; in the direction of the vessel's bow.",
+    "Middle English a- + head.",
+    "The lookout cried 'breakers ahead!' just as the moon dipped behind the fog.",
+    "Log of the Golden Hind, 1578"
+  ],
+  [
+    "A-hull",
+    "/əˈhʌl/",
+    "e",
+    "A vessel with all sails furled and helm lashed alee, drifting before a storm.",
+    "Middle English a- + hull.",
+    "Finding the tempest too fierce for canvas, we hove her a-hull and went below.",
+    "William Shakespeare, The Tempest"
+  ],
+  [
+    "Aid-de-camp",
+    "/eɪdəˈkɒ̃/",
+    "t",
+    "In naval warfare, a midshipman detailed to carry orders from the captain to the battery decks.",
+    "French loan word adopted into Royal Navy usage.",
+    "The captain dispatched his young aid-de-camp to check the powder magazines.",
+    "Memoirs of a Naval Officer, 1812"
+  ],
+  [
+    "Ailee",
+    "/eɪˈliː/",
+    "e",
+    "Toward the lee side; an older spelling variant of 'alee'.",
+    "Middle English compound.",
+    "Put the helm hard ailee to bring the vessel about into the wind's eye.",
+    "Captain John Smith, Generall Historie"
+  ],
+  [
+    "Air-casing",
+    "/ˈɛər-ˌkeɪsɪŋ/",
+    "t",
+    "An early Victorian term for ventilation trunks running through iron steam-ships.",
+    "English technical compound, 19th century.",
+    "The heat from the boilers was drawn off through the main air-casing.",
+    "Marine Engineering Transactions, Victorian Era"
+  ],
+  [
+    "Alabandica",
+    "/ˌæləˈbændɪkə/",
+    "t",
+    "An obsolete term for a type of rough blue gem-stone carried as ballast or cargo in Levant traders.",
+    "Latin from Greek Alabandikos.",
+    "The hold was ballasted with sacks of coarse alabandica from the Asian coast.",
+    "Merchant's Manual of Sea Cargoes, 1830"
+  ],
+  [
+    "Alcalde",
+    "/ælˈkældiː/",
+    "e",
+    "A colonial port magistrate or harbor official in Spanish controlled waters.",
+    "Spanish alcalde, from Arabic al-qadi.",
+    "We sent the purser ashore to treat with the local alcalde for fresh water.",
+    "The Voyages of Sir Francis Drake, 1595"
+  ],
+  [
+    "Alcatraz",
+    "/ˈælkətræz/",
+    "e",
+    "An old name for the pelican or large sea-bird seen by early mariners in tropical latitudes.",
+    "Portuguese alcatruz, from Arabic al-qadus.",
+    "Flocks of alcatraz wheeled above the white-capped swells of the Caribbean.",
+    "Richard Hawkins, Observations, 1622"
+  ],
+  [
+    "Aldern",
+    "/ˈɔːldərn/",
+    "m",
+    "Made of alder wood; often used for small boat timbers or oar pins in medieval times.",
+    "Old English alren ('made of alder').",
+    "The rowers fitted their aldern pins into the gunwales before casting off.",
+    "Exeter Port Customs Rolls, 1350"
+  ],
+  [
+    "Aleger",
+    "/əˈliːdʒər/",
+    "e",
+    "Sour small beer or fermented liquor carried on long voyages before the general adoption of grog.",
+    "Middle English, from French aigrume or related sour brews.",
+    "The crew grumbled over their rations of flat aleger and moldy biscuit.",
+    "The Seaman's Secrets, John Davis, 1595"
+  ],
+  [
+    "Alga",
+    "/ˈæɫɡə/",
+    "m",
+    "Seaweed; found in early English botanical and medical treatises translated for mariners.",
+    "Latin alga.",
+    "The ship's bottom was choked with thick strands of green alga.",
+    "Trevisa's Translation of Bartholomaeus Anglicus, 1398"
+  ],
+  [
+    "Alish",
+    "/ˈeɪlɪʃ/",
+    "e",
+    "Resembling ale; used by Elizabethan sailors to describe the frothy, yeast-like appearance of phosphorescent sea foam.",
+    "English adjective from ale + -ish.",
+    "The wake glowed with an alish phosphorescence in the tropical night.",
+    "Narrative of the Centurion's Voyage, 1593"
+  ],
+  [
+    "All-hands",
+    "/ɔːl-hændz/",
+    "e",
+    "The universal call summoning every member of the ship's company to deck.",
+    "Middle English compound phrase.",
+    "The boatswain's whistle shrilled through the darkness, piping all-hands to shorten sail.",
+    "Log of the HMS Victory, 18th Century"
+  ],
+  [
+    "All-hallows",
+    "/ɔːl-ˈhæloʊz/",
+    "m",
+    "All Saints' Day (Nov 1), historically marking the end of the safe sailing season in northern waters.",
+    "Old English ealra halgena mæsse.",
+    "No prudent merchantman would venture past All-hallows without strong convoy.",
+    "Ordinances of the Hanseatic League in England, 14th Century"
+  ],
+  [
+    "Almains",
+    "/ˈɔːlmeɪnz/",
+    "e",
+    "An old term for German mercenaries or armorers traveling aboard English and allied fleets.",
+    "Middle French Allemands.",
+    "Several Almains were quartered on the gun deck to maintain the heavy culverins.",
+    "State Papers Relating to the Spanish Armada, 1588"
+  ],
+  [
+    "Alose",
+    "/əˈloʊz/",
+    "m",
+    "An old name for the shad, a migratory fish netted by coastal fishermen in English estuaries.",
+    "Old French alose.",
+    "The nets came up heavy with silver alose and gray mullet.",
+    "Statutes of the Realm, 14th Century"
+  ],
+  [
+    "Aloof",
+    "/əˈluːf/",
+    "e",
+    "To keep the ship's head to the wind; away from the shore or danger.",
+    "Dutch loef ('weather side'), influenced by a- + luff.",
+    "Keep her aloof from the rocks, master, or we shall never clear the headland.",
+    "Richard Hakluyt, Voyages, 1589"
+  ],
+  [
+    "Babbark",
+    "/ˈbæbˌbɑːrk/",
+    "e",
+    "A small, primitive type of boat or bark used in shallow coastal waters.",
+    "Imitative origin, combined with bark (a small ship).",
+    "He fitted out a small babbark to cross the treacherous shoals.",
+    "Hakluyt's Voyages"
+  ],
+  [
+    "Backstay",
+    "/ˈbækˌsteɪ/",
+    "e",
+    "A strong rope running from the masthead to the sides of a ship to support the mast against backward strain.",
+    "Middle English 'back' + 'stay' (support).",
+    "The gale snapped the main topmast backstay like a thread.",
+    "Captain John Smith's Sea Grammar"
+  ],
+  [
+    "Backwater",
+    "/ˈbækˌwɔːtər/",
+    "t",
+    "Water held or turned back by an obstruction, tide, or current in a river.",
+    "Compound of back and water, recorded in maritime use by the 17th century.",
+    "The pinnace drifted helplessly into a stagnant backwater.",
+    "W. H. Smyth, The Sailor's Word-Book"
+  ],
+  [
+    "Baff",
+    "/bæf/",
+    "e",
+    "To strike or buffet, particularly used of the wind striking the sails from an unpropitious angle.",
+    "Scottish and northern dialect origin, imitative.",
+    "The contrary breezes did baff our topsails until we could make no headway.",
+    "Early Modern English Naval Logs"
+  ],
+  [
+    "Baffled",
+    "/ˈbæfəld/",
+    "e",
+    "Of the wind: shifting frequently and inconsequentially, preventing steady sailing.",
+    "Past participle of baffle, from archaic nautical sense of checking a ship's progress.",
+    "We lay becalmed and baffled for three whole watches.",
+    "Diary of Henry Teonge"
+  ],
+  [
+    "Baggywrinkle",
+    "/ˈbæɡiˌrɪŋkəl/",
+    "t",
+    "A soft covering made of old rope or canvas placed around rigging to prevent chafing of the sails.",
+    "Sailor slang, 19th century.",
+    "The crew spent the afternoon winding baggywrinkle round the lower shrouds.",
+    "Richard Henry Dana Jr., Two Years Before the Mast"
+  ],
+  [
+    "Balinder",
+    "/bəˈlɪndər/",
+    "t",
+    "A heavy flat-bottomed Dutch cargo vessel used in canals and shallow coastal seas.",
+    "Dutch balijn, a type of vessel.",
+    "A clumsy balinder blocked the harbor entrance.",
+    "Maritime Lexicon of 1805"
+  ],
+  [
+    "Ballast",
+    "/ˈbæləst/",
+    "e",
+    "Heavy material such as gravel, iron, or lead placed in the hold of a ship to ensure stability.",
+    "Middle English, from Germanic roots meaning waste load.",
+    "We discharged our ballast of river stones to take on the cargo of spices.",
+    "The Mariner's Mirror archives"
+  ],
+  [
+    "Ballon",
+    "/bəˈluːn/",
+    "t",
+    "An archaic term for a light, swift sailing vessel or state barge used in the East Indies.",
+    "French ballon, ultimately from Italian ballone.",
+    "Paddling swift ballons, the natives swarmed around our anchored frigate.",
+    "Voyages of the East India Company"
+  ],
+  [
+    "Banderole",
+    "/ˈbændəˌroʊl/",
+    "e",
+    "A small narrow flag or streamer flown from the masthead or yardarms of a warship.",
+    "French banderole, diminutive of bande.",
+    "The admiral's ship flew a crimson banderole at the fore-topmast head.",
+    "Naval Instructions of Charles I"
+  ],
+  [
+    "Bandy",
+    "/ˈbændi/",
+    "e",
+    "To toss a ship back and forth between conflicting currents or waves.",
+    "Middle English bandoun, control or jurisdiction.",
+    "The tide did bandy our hull against the rocks with great violence.",
+    "Thevet's New Found World"
+  ],
+  [
+    "Banker",
+    "/ˈbæŋkər/",
+    "t",
+    "A vessel employed in the cod fisheries on the Banks of Newfoundland.",
+    "Derived from Newfoundland Banks + -er.",
+    "A battered banker limped back into port with a full cargo of salted cod.",
+    "Records of the Port of Bristol"
+  ],
+  [
+    "Barca",
+    "/ˈbɑːrkə/",
+    "e",
+    "A large, open Mediterranean sailing boat or lighter used for transport in harbors.",
+    "Late Latin barca, of Celtic origin.",
+    "We hired a stout barca to lighter our heavy chests ashore.",
+    "Fynes Moryson's Itinerary"
+  ],
+  [
+    "Barge",
+    "/bɑːrdʒ/",
+    "e",
+    "A large, flat-bottomed boat, or historically, a luxurious double-banked rowing boat used by naval officers.",
+    "Old French barge, from Late Latin barica.",
+    "The captain stepped into his barge to go aboard the flagship.",
+    "Pepys' Diary"
+  ],
+  [
+    "Bark",
+    "/bɑːrk/",
+    "e",
+    "A sailing ship with three or more masts, with the fore and main masts square-rigged and mizzen fore-and-aft rigged.",
+    "Old French barque, from Latin barca.",
+    "A triple-masted bark hove into view around the headland.",
+    "Log of the Golden Hind"
+  ],
+  [
+    "Barkentine",
+    "/ˈbɑːrkənˌtiːn/",
+    "t",
+    "A sailing vessel with three or more masts, square-rigged on the foremast and fore-and-aft rigged on the others.",
+    "Blend of bark and brigantine.",
+    "The barkentine made fast her moorings at the timber wharf.",
+    "Merchant Shipping Act Records"
+  ],
+  [
+    "Barque",
+    "/bɑːrk/",
+    "t",
+    "Alternative spelling of bark; a sailing vessel of distinct three-masted configuration.",
+    "French spelling adopted into English maritime terminology.",
+    "A heavy-laden barque weathered the equinoctial gale.",
+    "The Nautical Magazine"
+  ],
+  [
+    "Barquantine",
+    "/ˈbɑːrkənˌtiːn/",
+    "t",
+    "An alternate historical spelling of barkentine.",
+    "Variant of barkentine.",
+    "The barquantine set all her upper canvas to catch the fading breeze.",
+    "Colonial Shipping Registers"
+  ],
+  [
+    "Barrel",
+    "/ˈbærəl/",
+    "e",
+    "The cylindrical drum of a windlass or capstan around which the anchor cable is wound.",
+    "Old French baril.",
+    "The hempen cable slipped upon the greasy barrel of the capstan.",
+    "Mainwaring's Seaman's Dictionary"
+  ],
+  [
+    "Bartholomew-tide",
+    "/bərˈθɒləmjuːˌtaɪd/",
+    "e",
+    "The season around St. Bartholomew's Day (August 24), historically noted as marking the end of safe autumn sailing in northern waters.",
+    "Saint Bartholomew + tide (time/season).",
+    "Let us weigh anchor before Bartholomew-tide brings the autumn gales.",
+    "Paston Letters"
+  ],
+  [
+    "Basque",
+    "/bæsk/",
+    "t",
+    "A type of short-decked fishing boat common in the Bay of Biscay.",
+    "From the Basque people and region.",
+    "A fleet of Basque craft sheltered in the lee of the cape.",
+    "Admiralty Hydrographic Notices"
+  ],
+  [
+    "Bateaux",
+    "/bæˈtoʊ/",
+    "e",
+    "Light flat-bottomed river boats with pointed ends, used by explorers and fur traders.",
+    "French plural of bateau (boat).",
+    "Our men loaded the furs into four heavy bateaux.",
+    "Jesuit Relations"
+  ],
+  [
+    "Batler",
+    "/ˈbætlər/",
+    "e",
+    "A wooden staff or bat used by sailors to beat heavy canvas sails to soften them.",
+    "Middle English batel, from Old English batt.",
+    "The boys used a heavy batler to soften the stiff canvas of the new mainsail.",
+    "Customs of the Port of London"
+  ],
+  [
+    "Batten",
+    "/ˈbætən/",
+    "e",
+    "A long, thin strip of wood used to secure tarpons over hatches in heavy weather.",
+    "Old French batant, or Norse origin.",
+    "Batten down the hatches, for a great squall is coming off the land.",
+    "Shakespeare, The Winter's Tale"
+  ],
+  [
+    "Battery",
+    "/ˈbætəri/",
+    "e",
+    "The tier of heavy cannon mounted along the broadside of a warship.",
+    "French batterie, from battre (to beat).",
+    "The ship of the line unmasked her lower battery and delivered a broadside.",
+    "Battles of the Royal Navy"
+  ],
+  [
+    "Beacon",
+    "/ˈbiːkən/",
+    "m",
+    "A fire or light set up on a high place or coastal promontory to warn ships of shoals or rocks.",
+    "Old English bēacen (sign, token, or portent).",
+    "The warder lit the beacon upon the cliff to warn the merchantmen of the reef.",
+    "Anglo-Saxon Chronicle"
+  ],
+  [
+    "Beakhead",
+    "/ˈbiːkˌhɛd/",
+    "e",
+    "The projecting part of a ship's bow forward of the forecastle, adorned with figureheads.",
+    "Middle English beak + head.",
+    "The crew gathered upon the beakhead to haul in the flying jib.",
+    "The Shipwright's Vade Mecum"
+  ],
+  [
+    "Beam",
+    "/biːm/",
+    "m",
+    "The greatest width of a hull, or the main horizontal timber supporting a deck.",
+    "Old English bēam (tree, beam).",
+    "She measured forty feet of beam from port to starboard.",
+    "Exeter Book"
+  ],
+  [
+    "Bear",
+    "/bɛər/",
+    "e",
+    "To press or lean under sail; also, to maintain a specific compass direction from an observer.",
+    "Old English beran (to carry, endure).",
+    "The lighthouse bore three points to the north-north-west.",
+    "Logbook of the Mary Rose"
+  ],
+  [
+    "Beating",
+    "/ˈbiːtɪŋ/",
+    "e",
+    "Sailing a vessel in a zigzag course against the wind to make progress.",
+    "From the verb beat, in the nautical sense of battling the wind.",
+    "We spent three days beating against a stubborn easterly gale.",
+    "Raleigh's History of the World"
+  ],
+  [
+    "Beaufort",
+    "/ˈboʊfərt/",
+    "t",
+    "Short for the Beaufort scale, the standardized empirical measure for wind force.",
+    "Named after Admiral Sir Francis Beaufort (1774–1857).",
+    "The gale reached a heavy Beaufort 9 by midnight.",
+    "Meteorological Office Reports"
+  ],
+  [
+    "Bed",
+    "/bɛd/",
+    "m",
+    "The flat foundation or timber framework upon which a ship's anchor rests when stowed.",
+    "Old English bedd.",
+    "Secure the anchor firmly in its wooden bed before we clear the bay.",
+    "Port of Ipswich Ledger"
+  ],
+  [
+    "Bee",
+    "/biː/",
+    "t",
+    "One of two pieces of timber bolted to the outer bow of a ship through which the anchor stays pass.",
+    "Middle English bēo.",
+    "The starboard bee of the bowsprit was cracked by the strain.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Beer-hoy",
+    "/ˈbɪərˌhɔɪ/",
+    "e",
+    "A small coastal vessel specifically employed for transporting casks of beer to naval fleets.",
+    "Beer + hoy (a small sloop-rigged vessel).",
+    "A beer-hoy came alongside the flagship to supply the thirsty mariners.",
+    "State Papers Domestic, Elizabeth I"
+  ],
+  [
+    "Bell",
+    "/bɛl/",
+    "m",
+    "The traditional ship's bell used to mark the passage of watches and time at sea.",
+    "Old English belle.",
+    "The watch was changed as the eighth bell struck through the fog.",
+    "Medieval Admiralty Rolls"
+  ],
+  [
+    "Belly",
+    "/ˈbɛli/",
+    "e",
+    "The bulging, inflated part of a sail when filled with wind.",
+    "Old English belg (bag, womb).",
+    "The main course caught the wind, its deep belly driving the hull forward.",
+    "Shakespeare, Henry V"
+  ],
+  [
+    "Bermuda",
+    "/bərˈmjuːdə/",
+    "t",
+    "Pertaining to a triangular sail rig (marconi rig) pioneered in the Bermuda sloops.",
+    "Named after the island colony.",
+    "The sleek Bermuda rig allowed the sloop to point exceptionally high into the wind.",
+    "Colonial Naval Accounts"
+  ],
+  [
+    "Berth",
+    "/bɜːrθ/",
+    "e",
+    "A ship's sleeping place, or a safe distance maintained from a hazard or another vessel (give a wide berth).",
+    "Origin uncertain, possibly from bear or birth.",
+    "Keep a wide berth of that treacherous reef.",
+    "Captain Cook's Journals"
+  ],
+  [
+    "Best-bower",
+    "/ˈbɛstˌbaʊər/",
+    "e",
+    "The larger of the two main anchors carried on the bow of a sailing ship.",
+    "Best + bower (an anchor carried at the bow).",
+    "Let go the best-bower anchor, for the bottom here holds well.",
+    "Mainwaring's Seaman's Dictionary"
+  ],
+  [
+    "Bight",
+    "/baɪt/",
+    "m",
+    "A curve or bend in a coastline, river, or in the middle of a rope.",
+    "Old English byht (bend, corner).",
+    "The ship dropped anchor within the sheltered bight of the island.",
+    "Wycliffe Bible"
+  ],
+  [
+    "Cabotage",
+    "/ˈkæbətɪdʒ/",
+    "t",
+    "Trade or navigation along a coast, or the right of a country's ships to operate along its own coastal routes.",
+    "From French caboter (to coast), from Spanish cabotar.",
+    "The protectionist laws strictly restricted cabotage to vessels bearing the national flag.",
+    "Navigational Acts and Maritime Trade Regulations, 1854"
+  ],
+  [
+    "Caboose",
+    "/kəˈbuːs/",
+    "t",
+    "Formerly, the cookhouse or kitchen on the deck of a merchant ship; later adopted for the train guard's car.",
+    "From Middle Low German kabuse (hut on deck) or Dutch kombuis.",
+    "The cook worked diligently in the caboose as the gale whipped spray across the weather deck.",
+    "Richard Henry Dana Jr., Two Years Before the Mast, 1840"
+  ],
+  [
+    "Cachalot",
+    "/ˈkæʃəˌlɒt/",
+    "t",
+    "The sperm whale, highly prized during the whaling era for its oil and ambergris.",
+    "From archaic French, likely of Basque origin (kaxalot).",
+    "The lookout cried out upon sighting a massive cachalot breaching off the starboard bow.",
+    "Herman Melville, Moby-Dick, 1851"
+  ],
+  [
+    "Cackle-fruit",
+    "/ˈkækəlˌfruːt/",
+    "t",
+    "Sailor slang for a hen's egg stored aboard ship.",
+    "Coined by 19th-century British merchant sailors.",
+    "The crew grumbled when the steward served salt pork instead of their Sunday cackle-fruit.",
+    "Sailor's Slang and Sea Phraseology, 1883"
+  ],
+  [
+    "Cack-handed",
+    "/ˈkækˌhændɪd/",
+    "t",
+    "Clumsy, awkward, or left-handed; handling nautical lines incorrectly.",
+    "From dialectal cack (excrement) or Cornish cacka, meaning awkward.",
+    "He proved cack-handed when tasked with flemishing down the main topgallant sheets.",
+    "William Smyth, The Sailor's Word-Book, 1867"
+  ],
+  [
+    "Cade",
+    "/keɪd/",
+    "e",
+    "A small barrel or cask used historically for packing salt fish, particularly herrings.",
+    "From Latin cadus (jar or cask) via Old English.",
+    "The purser inspected the cade of herrings to ensure none had spoiled during the long voyage.",
+    "Maritime Provisions Ledger of the Royal Navy, 1598"
+  ],
+  [
+    "Cadge",
+    "/kædʒ/",
+    "e",
+    "To carry or peddle goods; historically, to act as a sea-peddler or bumboat man.",
+    "From Middle English cadger (a packman or hawker).",
+    "Several local bumboats attempted to cadge tobacco and fresh fruit from the anchored frigate.",
+    "Admiralty Court Records, 1604"
+  ],
+  [
+    "Calk",
+    "/kɔːk/",
+    "e",
+    "An alternative spelling of caulk; to drive oakum into the seams of a wooden ship to make her watertight.",
+    "From Old North French cauquer (to tread down), from Latin calcare.",
+    "The shipwrights worked tirelessly with mallet and iron to calk the hull before launching.",
+    "Walter Raleigh, Discourse on the Invention of Ships, 1650"
+  ],
+  [
+    "Calking-iron",
+    "/ˈkɔːkɪŋ ˈaɪərn/",
+    "e",
+    "A chisel-like tool used by shipwrights to drive oakum into the seams of a vessel.",
+    "Compound of calk and iron.",
+    "With a sharp blow of the wooden mallet upon the calking-iron, the seam was sealed tightly.",
+    "Mainwaring, The Seaman's Dictionary, 1644"
+  ],
+  [
+    "Calliper",
+    "/ˈkælɪpər/",
+    "t",
+    "An instrument with two hinged legs used by shipwrights to measure diameters of masts and spars.",
+    "Corruption of caliber, from Arabic qālib.",
+    "The master shipwright used a large wooden calliper to check the thickness of the mainmast.",
+    "Edith Fremantle, The Builder's Guide to Naval Architecture, 1812"
+  ],
+  [
+    "Camp-shooting",
+    "/ˈkæmpˌʃuːtɪŋ/",
+    "t",
+    "The protection of riverbanks or shorelines using piles and planking against erosion.",
+    "English coastal engineering term of the 18th/19th century.",
+    "Engineers employed extensive camp-shooting along the muddy estuary to secure the dockyards.",
+    "Civil Engineering and Naval Docks Journal, 1845"
+  ],
+  [
+    "Canakin",
+    "/ˈkænəkɪn/",
+    "e",
+    "A small drinking vessel or cup, typically made of wood or tin, used aboard ship.",
+    "Diminutive of can.",
+    "The boatswain raised his wooden canakin of grog in a silent toast to favorable winds.",
+    "William Shakespeare, Othello, 1603"
+  ],
+  [
+    "Candle-fish",
+    "/ˈkændəlˌfɪʃ/",
+    "t",
+    "A small, oily marine fish (eulachon) of the Pacific Northwest, historically dried and burned as a candle.",
+    "Coined by Pacific fur traders and mariners describing Native American fishing practices.",
+    "The boats provisioned themselves with dried candle-fish before navigating the northern channels.",
+    "Captain George Vancouver, A Voyage of Discovery, 1798"
+  ],
+  [
+    "Canister-shot",
+    "/ˈkænɪstər ʃɒt/",
+    "t",
+    "An anti-personnel artillery round consisting of a metal can filled with lead balls.",
+    "Compound of canister and shot.",
+    "The gunners loaded the carronades with canister-shot as the enemy boarding parties drew close.",
+    "Naval Gunnery Manual, Royal Navy, 1810"
+  ],
+  [
+    "Canker-bit",
+    "/ˈkæŋkər bɪt/",
+    "e",
+    "Corroded or damaged by rust or salt sea-air.",
+    "Compound of canker and bit.",
+    "The deck fittings were canker-bit and required immediate replacement with forged bronze.",
+    "John Smith, A Sea Grammar, 1627"
+  ],
+  [
+    "Canteen",
+    "/kænˈtiːn/",
+    "t",
+    "A small water flask or soldier/sailor's portable liquor container.",
+    "From French cantine, from Italian cantina (cellar).",
+    "He filled his tin canteen with brackish water from the shore well.",
+    "Royal Navy Victualling Regulations, 1805"
+  ],
+  [
+    "Cant-timber",
+    "/ˈkæntˌtɪmbər/",
+    "t",
+    "A timber in a ship's framing that does not stand square to the keel, used at the bow and stern.",
+    "From cant (slant) and timber.",
+    "Shaping the cant-timbers required great skill to match the sharp curvature of the clipper's bow.",
+    "The Shipwright's Repository, 1790"
+  ],
+  [
+    "Cap-square",
+    "/ˈkæp skwɛər/",
+    "t",
+    "A heavy metal plate that holds a ship's cannon trunnions securely to the carriage.",
+    "Compound of cap and square.",
+    "The gunner tightened the bolts on the cap-square to prevent the gun from jumping during recoil.",
+    "William Falconer, Universal Dictionary of the Marine, 1780"
+  ],
+  [
+    "Cape-merchant",
+    "/ˈkeɪp ˈmɜːrtʃənt/",
+    "e",
+    "A senior supercargo or principal merchant responsible for trading ventures aboard an East Indiaman.",
+    "From Dutch opperkoopman (head merchant), Anglicized.",
+    "The cape-merchant kept strict accounts of the silks and spices loaded in Batavia.",
+    "East India Company Court Minutes, 1615"
+  ],
+  [
+    "Caper",
+    "/ˈkeɪpər/",
+    "t",
+    "A small, fast-sailing privateer vessel, particularly those operating from Dutch or Flemish ports.",
+    "From Dutch kaaper (privateer or corsair).",
+    "A nimble Zeeland caper shadowed our merchantman for two days before breaking off.",
+    "State Papers Relating to the Spanish Armada and Privateering, 1588"
+  ],
+  [
+    "Capful",
+    "/ˈkæpfʊl/",
+    "t",
+    "A sudden, light gust of wind that causes a temporary ripple or cap on the water's surface.",
+    "Compound of cap (crest of a wave) and -ful.",
+    "We waited in the doldrums until a small capful of wind filled our shivering topsails.",
+    "Captain Basil Hall, Fragments of Voyages and Travels, 1831"
+  ],
+  [
+    "Capitation",
+    "/ˌkæpɪˈteɪʃən/",
+    "t",
+    "A tax or head-money historically levied on passengers embarking or disembarking at colonial ports.",
+    "From Late Latin capitatio, from Latin caput (head).",
+    "The harbor master collected the capitation fee from every emigrant stepping onto the wharf.",
+    "Colonial Shipping Acts, 1750"
+  ],
+  [
+    "Capon",
+    "/ˈkeɪpɒn/",
+    "e",
+    "A term used in old nautical menus for fowl served at the captain's table; also slang for a red herring (bloater).",
+    "From Old English capun.",
+    "The steward served smoked capon alongside hardtack for the officers' breakfast.",
+    "Naval Household Accounts of the Tudor Navy, 1550"
+  ],
+  [
+    "Cap-piece",
+    "/ˈkæp piːs/",
+    "t",
+    "A protective wooden or metal cover fitted over the top of a mast or bitt.",
+    "Compound of cap and piece.",
+    "The carpenter fitted a fresh cap-piece onto the main-topmast head to keep out the rain.",
+    "David Steel, The Elements and Practice of Rigging, 1794"
+  ],
+  [
+    "Cap-sill",
+    "/ˈkæp sɪl/",
+    "t",
+    "The uppermost horizontal timber of a slipway, lock gate, or dock structure.",
+    "Compound of cap and sill.",
+    "The spring tide rose high enough to wash over the cap-sill of the dry dock.",
+    "Engineering Journal of Maritime Docks, 1828"
+  ],
+  [
+    "Captainess",
+    "/ˈkæptɪnɪs/",
+    "e",
+    "A female captain, or the wife of a ship's captain (often used colloquially in port towns).",
+    "From captain + -ess suffix.",
+    "The formidable captainess managed the provisioning warehouse while her husband was at sea.",
+    "Bristol Port Authority Records, 1632"
+  ],
+  [
+    "Captive-bolt",
+    "/ˈkæptɪv boʊlt/",
+    "t",
+    "A heavy securing pin fastened with a chain to prevent loss during deck operations.",
+    "Compound of captive and bolt.",
+    "Every gun-carriage was secured by a captive-bolt to ensure it could not roll loose in a storm.",
+    "Royal Navy Ordnance Manual, 1800"
+  ],
+  [
+    "CarbonADO",
+    "/ˌkɑːrbəˈneɪdoʊ/",
+    "e",
+    "Meat or fish scored across and broiled over an open fire, a staple meal aboard early ships.",
+    "From Spanish carbonada.",
+    "The cook prepared a tasty carbonado of salt beef over the galley stove.",
+    "John Taylor, The Water Poet, 1630"
+  ],
+  [
+    "Carcase",
+    "/ˈkɑːrkəs/",
+    "t",
+    "An incendiary shell consisting of an iron frame filled with combustibles, fired from mortars.",
+    "Variant of carcass, from Old French carcoce.",
+    "The shore battery lobbed a burning carcase toward the wooden man-of-war.",
+    "Military and Naval Dictionary, 1815"
+  ],
+  [
+    "Card-house",
+    "/ˈkɑːrd haʊs/",
+    "t",
+    "Metaphor for a poorly constructed ship or fragile structure.",
+    "Compound of card (compass card or playing cards) and house.",
+    "Some poorly built merchantmen were mere card-houses that shattered in heavy Atlantic swells.",
+    "Samuel Plimsoll, Our Seamen, 1872"
+  ],
+  [
+    "Careen",
+    "/kəˈriːn/",
+    "e",
+    "To tilt a ship on its side on a beach or tidal gridiron to clean its hull of barnacles.",
+    "From French carène, from Latin carina (keel).",
+    "The crew beached the brigantine to careen her hull before attempting the long voyage home.",
+    "William Monson, Naval Tracts, 1625"
+  ],
+  [
+    "Carfloat",
+    "/ˈkɑːrfloʊt/",
+    "t",
+    "A specialized barge with railway tracks on deck used to transport railcars across harbors.",
+    "American maritime term of the 19th century.",
+    "The heavy steam tug towed the loaded carfloat across the choppy bay.",
+    "New York Harbor Transport Reports, 1888"
+  ],
+  [
+    "Cargoose",
+    "/ˈkɑːrɡuːs/",
+    "t",
+    "Obsolete sailor term for an untidy or clumsy person aboard ship.",
+    "Folk-etymology blend of cargo and goose.",
+    "The boatswain yelled at the lazy cargoose to haul harder on the topsail halyard.",
+    "Sailor's Dictionary of Nautical Slang, 1860"
+  ],
+  [
+    "Carling",
+    "/ˈkɑːrlɪŋ/",
+    "t",
+    "A longitudinal timber supporting the deck beams of a ship.",
+    "From Old Norse kerling or Northern French.",
+    "The shipwright bolted the thick oak carlings into place to strengthen the weather deck.",
+    "William Falconer, Universal Dictionary of the Marine, 1780"
+  ],
+  [
+    "Carmine",
+    "/ˈkɑːrmaɪn/",
+    "t",
+    "A vivid crimson pigment historically used for painting ship figureheads and cabin trim.",
+    "From French carmin, from Arabic qirmiz.",
+    "The decorative scrolls on the transom were brilliantly highlighted in carmine and gold leaf.",
+    "Ship Decorator's Handbook, 1840"
+  ],
+  [
+    "Carnelian",
+    "/kɑːrˈniːliən/",
+    "t",
+    "A reddish variety of quartz sometimes used for maritime navigational instruments or seals.",
+    "From Old French carnelian, from Latin cornu (horn).",
+    "The captain used his signet ring, set with a polished carnelian, to seal the logbook.",
+    "Log of the Merchant Vessel Morning Star, 1822"
+  ],
+  [
+    "Carpet-knight",
+    "/ˈkɑːrpɪt naɪt/",
+    "e",
+    "A derogatory term for an officer who gained rank at court rather than through genuine sea or battlefield service.",
+    "Compound of carpet and knight.",
+    "Old sea dogs had little respect for the carpet-knight sent out from London to command the squadron.",
+    "Thomas Nashe, Have with You to Saffron-Walden, 1596"
+  ],
+  [
+    "Carriage-bolt",
+    "/ˈkæɹɪdʒ boʊlt/",
+    "t",
+    "A smooth-headed threaded bolt used extensively in wooden shipbuilding and deck framing.",
+    "Compound of carriage and bolt.",
+    "The ship carpenter secured the knees using galvanized carriage-bolts.",
+    "The Practical Shipbuilder, 1848"
+  ],
+  [
+    "Carrier-pigeon",
+    "/ˈkæriər ˈpɪdʒən/",
+    "t",
+    "A homing pigeon historically carried aboard naval dispatch vessels or yachts to convey messages to shore.",
+    "Compound of carrier and pigeon.",
+    "A single carrier-pigeon was released from the cutter with news of the incoming fleet.",
+    "Maritime Intelligence Gazette, 1875"
+  ],
+  [
+    "Carronade",
+    "/ˌkærəˈneɪd/",
+    "t",
+    "A short, smoothbore, cast-iron cannon developed in the late 18th century, devastating at close range.",
+    "Named after the Carron Ironworks in Scotland.",
+    "The frigate cleared her decks and trained her heavy carronades on the approaching pirate sloop.",
+    "Royal Navy Gunnery Trials, 1782"
+  ],
+  [
+    "Cartel-ship",
+    "/kɑːrˈtɛl ʃɪp/",
+    "t",
+    "A ship bearing a flag of truce, used for exchanging prisoners of war between belligerent nations.",
+    "From French cartel, from Italian cartello.",
+    "A neutral cartel-ship sailed into Portsmouth harbor bearing paroled British sailors.",
+    "Treatise on the Law Relative to Merchant Ships and Seamen, 1802"
+  ],
+  [
+    "Carvel-built",
+    "/ˈkɑːrvəl bɪlt/",
+    "e",
+    "A method of ship construction where hull planks are laid edge-to-edge flush, rather than overlapping (clinker).",
+    "From carvel (caravel) + built.",
+    "The new pinnace was carvel-built, presenting a smooth, seamless outer hull to the water.",
+    "Sir Walter Raleigh, History of the World, 1614"
+  ],
+  [
+    "Davit",
+    "/ˈdævɪt/",
+    "e",
+    "A small crane or pair of arms on a ship's side or stern used for hoisting and lowering boats or anchors.",
+    "Middle English, from Old French daviot, diminutive of dave, of uncertain origin.",
+    "Lower the cutter from the davits and man the oars.",
+    "W. H. Smyth, The Sailor's Word-Book"
+  ],
+  [
+    "Dead-eye",
+    "/ˈdɛdˌaɪ/",
+    "t",
+    "A round, flat block of hard wood with holes through which lanyards are rove, used to set up shrouds and stays.",
+    "Compound of dead (lacking motion) and eye (circular opening), used since the 17th century.",
+    "The lanyards were hauled taut through the lower dead-eyes.",
+    "William Falconer, Universal Dictionary of the Marine"
+  ],
+  [
+    "Dead-light",
+    "/ˈdɛdˌlaɪt/",
+    "e",
+    "A strong shutter, often of wood or iron, fitted over a cabin window or porthole to protect the glass in heavy weather.",
+    "Compound of dead and light, established maritime term by the late 16th century.",
+    "Secure the dead-lights before the gale reaches its height.",
+    "John Smith, The Seaman's Grammar"
+  ],
+  [
+    "Deadeye",
+    "/ˈdɛdˌaɪ/",
+    "e",
+    "An alternative spelling of dead-eye, designating a wooden disk with three holes for a lanyard.",
+    "English maritime variant.",
+    "The rigging was secured to the deadeyes along the channels.",
+    "Mainwaring, The Seaman's Dictionary"
+  ],
+  [
+    "Dead-neap",
+    "/ˈdɛdˌniːp/",
+    "t",
+    "A tide of minimum range occurring shortly after the second quarter of the moon.",
+    "Combination of dead and neap tide terminology.",
+    "The vessel remained stranded during the dead-neap.",
+    "Admiral W. H. Smyth, The Sailor's Word-Book"
+  ],
+  [
+    "Deck-cloth",
+    "/ˈdɛkˌklɒθ/",
+    "t",
+    "A heavy painted canvas cloth spread upon a deck to protect it or keep water out.",
+    "Compound of deck and cloth.",
+    "The deck-cloths were laid across the quarterdeck.",
+    "Nautical Magazine"
+  ],
+  [
+    "Deck-house",
+    "/ˈdɛkˌhaʊs/",
+    "t",
+    "A small cabin or structure built upon a ship's deck, not extending from side to side.",
+    "Compound of deck and house.",
+    "The crew huddled inside the deck-house during the squall.",
+    "Richard Henry Dana Jr., Two Years Before the Mast"
+  ],
+  [
+    "Deep-sea",
+    "/ˈdiːpˌsiː/",
+    "m",
+    "Pertaining to the ocean remote from shallow coastal waters.",
+    "Old English deop sæ.",
+    "The ship prepared for its deep-sea voyage around the cape.",
+    "Middle English Sea Vocabularies"
+  ],
+  [
+    "Demurrage",
+    "/dɪˈmʌrɪdʒ/",
+    "e",
+    "An allowance made to the owner of a ship for detaining her in port beyond the time agreed upon.",
+    "From Old French demurrage, from demurer (to linger or delay).",
+    "The merchant was held liable for heavy demurrage charges.",
+    "Admiralty Court Records"
+  ],
+  [
+    "Depths",
+    "/dɛpθs/",
+    "m",
+    "The lower parts of the sea; specifically sounding measurements indicating deep water.",
+    "From Old English deopnes.",
+    "The leadsman cast the line to find the depths.",
+    "Naval Accounts of Henry V"
+  ],
+  [
+    "Derelict",
+    "/ˈdɛrəlɪkt/",
+    "e",
+    "A ship or other piece of property abandoned at sea, without hope of recovery.",
+    "Latin derelictus, past participle of derelinquere (to forsake utterly).",
+    "They sighted a waterlogged derelict drifting in the shipping lane.",
+    " marítima Elizabethan Reports"
+  ],
+  [
+    "Derrick",
+    "/ˈdɛrɪk/",
+    "e",
+    "A hoisting apparatus utilizing a mast and a boom or jib, originally named after a notorious Tyburn gallows hangman.",
+    "Derived from Derrick, an early 17th-century hangman at Tyburn.",
+    "Cargo was hoisted aboard using the ship's derrick.",
+    "Early 17th-Century Maritime Glossary"
+  ],
+  [
+    "Despatch",
+    "/dɪˈspætʃ/",
+    "e",
+    "Speed in the dispatch of business or loading of a vessel; also an official message sent by ship.",
+    "Spanish or Italian despachar, popularized in English maritime trade.",
+    "The captain received urgent despatches from the Admiralty.",
+    "State Papers Domestic"
+  ],
+  [
+    "Deviling",
+    "/ˈdɛvəlɪŋ/",
+    "t",
+    "A petty officer's assistant or a minor trick in rigging; also a small fire-arrow used in naval warfare.",
+    "Diminutive of devil.",
+    "The young midshipman was set to work the deviling.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Dew-drop",
+    "/ˈduːˌdrɒp/",
+    "t",
+    "An obsolete slang term among sailors for a small drop of gin or spirits taken in the morning.",
+    "Compound of dew and drop.",
+    "The boatswain called for his morning dew-drop.",
+    "Victorian Sailor Slang Lexicon"
+  ],
+  [
+    "Diarrhoea",
+    "/ˌdaɪəˈriːə/",
+    "t",
+    "A common debilitating affliction among long-voyage sailors due to foul water or bad salt meat.",
+    "Greek diarrhoea (flowing through).",
+    "Many of the crew suffered from severe diarrhoea.",
+    "Ship's Surgeon Log"
+  ],
+  [
+    "Dido",
+    "/ˈdaɪdoʊ/",
+    "e",
+    "A caper, a mischievous trick, or a piece of nautical frolic.",
+    "Origin obscure, possibly from Queen Dido of Carthage or regional slang.",
+    "The crew cut up several didos on the middle watch.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Diet",
+    "/ˈdaɪɪt/",
+    "m",
+    "The official daily allowance of victuals and provisions assigned to a mariner.",
+    "Middle English, from Old French diete.",
+    "The ship's company murmured against the scantiness of their diet.",
+    "Naval Ordinances of Edward III"
+  ],
+  [
+    "Dike",
+    "/daɪk/",
+    "m",
+    "An embankment or sea-wall constructed to prevent the sea from overflowing lowlands.",
+    "Old English dīc (ditch or trench).",
+    "The high tides breached the coastal dikes.",
+    "Chronicles of Early Drainage"
+  ],
+  [
+    "Dimension",
+    "/dɪˈmɛnʃən/",
+    "e",
+    "The measurable extent of a ship's hull, including length, beam, and depth of hold.",
+    "Latin dimensio, from metiri (to measure).",
+    "The shipbuilders laid out the exact dimensions of the galleon.",
+    "Master Shipwright Notebooks"
+  ],
+  [
+    "Dinghy",
+    "/ˈdɪŋɡi/",
+    "t",
+    "A small boat of Indian origin carried by a ship, rowed or sailed.",
+    "Hindi ḍingī, a small boat.",
+    "They lowered the dinghy to row ashore for fresh water.",
+    "East India Company Journals"
+  ],
+  [
+    "Dip",
+    "/dɪp/",
+    "e",
+    "The lowering of a flag or sail as a salute to another vessel or warship.",
+    "Old English dyppan (to immerse).",
+    "The merchantman gave a polite dip of her colors.",
+    "Naval Etiquette Manuals"
+  ],
+  [
+    "Dipt",
+    "/dɪpt/",
+    "e",
+    "Past tense of dip; specifically referring to a compass needle that tilts downwards toward the magnetic pole.",
+    "Variant of dipped.",
+    "The magnetic needle dipt heavily in southern latitudes.",
+    "Navigation Treatises"
+  ],
+  [
+    "Director",
+    "/daɪˈrɛktər/",
+    "t",
+    "An instrument used in navigation or gunnery to direct courses or sights.",
+    "Latin director.",
+    "The gunner adjusted his director for the broadside.",
+    "Royal Navy Gunnery Manuals"
+  ],
+  [
+    "Discharge",
+    "/dɪsˈtʃɑːrdʒ/",
+    "e",
+    "To unload cargo from a ship, or to pay off and dismiss a crew from service.",
+    "Old French descharger.",
+    "The hands were discharged upon the ship's return to port.",
+    "Port Customs Records"
+  ],
+  [
+    "Dismast",
+    "/dɪsˈmæst/",
+    "e",
+    "To break, cut away, or cause the loss of a ship's masts during a tempest or battle.",
+    "Dis- + mast.",
+    "The hurricane left the frigate completely dismasted.",
+    "Naval Engagement Reports"
+  ],
+  [
+    "Dispatch",
+    "/dɪˈspætʃ/",
+    "e",
+    "Alternative spelling of despatch; to send off a vessel or message hastily.",
+    "Old Italian despacciar.",
+    "Orders were given to dispatch the cutter at once.",
+    "Admiralty Letters"
+  ],
+  [
+    "Displacement",
+    "/dɪsˈpleɪsmənt/",
+    "t",
+    "The weight of water displaced by a floating ship, equal to the total weight of the vessel.",
+    "Displace + -ment.",
+    "The ironclad had a displacement of five thousand tons.",
+    "Naval Architecture Journals"
+  ],
+  [
+    "Distress",
+    "/dɪˈstrɛs/",
+    "m",
+    "A state of extreme danger or difficulty at sea, requiring immediate rescue.",
+    "Old French destresse.",
+    "The brig hoisted signals of distress after losing her rudder.",
+    "Maritime Legal Codes"
+  ],
+  [
+    "Ditty-bag",
+    "/ˈdɪtiˌbæɡ/",
+    "t",
+    "A small canvas bag used by sailors to hold sewing implements, needles, and thread.",
+    "Origin uncertain, possibly from ditty (a small item) or obsolete dit (neat).",
+    "He took out his palm and needle from his ditty-bag.",
+    "Marryat, Peter Simple"
+  ],
+  [
+    "Ditty-box",
+    "/ˈdɪtiˌbɒks/",
+    "t",
+    "A small wooden box used by sailors for personal keepsakes and sewing gear.",
+    "Compound of ditty and box.",
+    "His letters from home were kept safely in his ditty-box.",
+    "Victorian Naval Memoirs"
+  ],
+  [
+    "Dock",
+    "/dɒk/",
+    "m",
+    "An artificial basin for receiving ships for repair, loading, or unloading.",
+    "Middle English docke, of uncertain origin.",
+    "The galleon was brought into dry dock for caulking.",
+    "Port of London Records"
+  ],
+  [
+    "Dock-master",
+    "/ˈdɒkˌmɑːstər/",
+    "t",
+    "The officer in charge of a dock, regulating the entry and exit of vessels.",
+    "Compound of dock and master.",
+    "The dock-master directed the steamer into the lock.",
+    "Shipping Gazette"
+  ],
+  [
+    "Dog-vane",
+    "/ˈdɒɡˌveɪn/",
+    "t",
+    "A small, lightweight weather-vane made of cork and feathers, placed on the ship's rail to show wind direction.",
+    "Compound of dog (inferior or small) and vane.",
+    "The helmsman watched the dog-vane to keep the sails full.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Dog-watch",
+    "/ˈdɒɡˌwɒtʃ/",
+    "e",
+    "Either of two short watches of two hours each (4 to 6 PM and 6 to 8 PM) used to rotate the ship's watches daily.",
+    "Compound of dog and watch, used since the late 16th century.",
+    "During the second dog-watch, the crew enjoyed their grog.",
+    "Mainwaring, The Seaman's Dictionary"
+  ],
+  [
+    "Doldrums",
+    "/ˈdɒldrəmz/",
+    "t",
+    "The equatorial region of the Atlantic and Pacific oceans characterized by calms, light winds, and squalls.",
+    "From doldrum (dull, sluggish), derived from dolt.",
+    "The schooner lay becalmed for weeks in the doldrums.",
+    "Log of HMS Beagle"
+  ],
+  [
+    "Dolphin",
+    "/ˈdɒlfɪn/",
+    "m",
+    "A mooring post or cluster of piles in a harbor; also a carved ornament on a ship's cannon or hull.",
+    "Middle English dolphin, from Latin delphinus.",
+    "The steamer was secured to the wooden dolphins in the basin.",
+    "Port Authority Archives"
+  ],
+  [
+    "Dolphin-striker",
+    "/ˈdɒlfɪnˌstraɪkər/",
+    "t",
+    "A short spar extending downward from the bowsprit to give a better angle to the jib guys.",
+    "Compound of dolphin and striker.",
+    "A heavy sea broke over the dolphin-striker.",
+    "Dana, Two Years Before the Mast"
+  ],
+  [
+    "Dory",
+    "/ˈdɔːri/",
+    "t",
+    "A small, flat-bottomed fishing boat with high sides, traditionally used on the Grand Banks.",
+    "Americanism from 18th-century maritime use.",
+    "The fishermen launched their dories from the schooner's deck.",
+    "Cod Fisheries Reports"
+  ],
+  [
+    "Double-block",
+    "/ˈdʌbəlˌblɒk/",
+    "e",
+    "A tackle block containing two sheaves, used to increase mechanical advantage in hauling.",
+    "Compound of double and block.",
+    "Rig the double-block tackle to hoist the main yard.",
+    "The Young Sea Officer's Sheet Anchor"
+  ],
+  [
+    "Downhaul",
+    "/ˈdaʊnˌhɔːl/",
+    "t",
+    "A rope used to haul down a sail, stay, or gaff against the wind pressure.",
+    "Compound of down and haul.",
+    "Ease the sheets and pull the jib downhaul.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Ebb-tide",
+    "/ˈɛbˌtaɪd/",
+    "t",
+    "The receding tide when the water flows away from the shore.",
+    "Old English ebba (reflux) + tīd (time, period)",
+    "The ship waited in the harbor until the ebb-tide allowed safe passage over the bar.",
+    "William Falconer, 'The Shipwreck', 1762"
+  ],
+  [
+    "Earing",
+    "/ˈɪərɪŋ/",
+    "e",
+    "A small rope used to fasten the upper corners of a sail to the yard.",
+    "Middle English ering, from Old English ēaring",
+    "Pass the reef-earning through the cringle and secure it tightly to the yardarm.",
+    "Captain John Smith, 'A Sea Grammar', 1627"
+  ],
+  [
+    "Ear-spike",
+    "/ˈɪərˌspaɪk/",
+    "e",
+    "A pointed iron spike used in rigging and sailmaking.",
+    "Middle English, from ear + spike",
+    "He used the ear-spike to open the stubborn strands of the hempen cable.",
+    "Admiralty Administration Records, 1598"
+  ],
+  [
+    "Ease",
+    "/iːz/",
+    "e",
+    "To slacken, loosen, or relieve tension on a rope, tackle, or helm.",
+    "Old French aise, from Latin adjacens",
+    "Ease the mainsheet slightly as the squall hits our starboard quarter.",
+    "William Shakespeare, 'The Tempest', 1611"
+  ],
+  [
+    "Ebb",
+    "/ɛb/",
+    "m",
+    "The movement of the tide out to sea.",
+    "Old English ebba, cognate with Dutch ebb and Old Norse efja",
+    "The tide is on the ebb, so we must weigh anchor before we touch the mud.",
+    "Chaucer, 'The Canterbury Tales', c. 1387"
+  ],
+  [
+    "Ebb-cock",
+    "/ˈɛbˌkɒk/",
+    "t",
+    "A drain cock or valve used to let water out of the ship's hold or engine boilers.",
+    "English, ebb + cock (valve)",
+    "Check that the ebb-cock is firmly closed before we stoke the auxiliary boilers.",
+    "Royal Navy Engineering Manual, 1875"
+  ],
+  [
+    "Ebb-gate",
+    "/ˈɛbˌɡeɪt/",
+    "e",
+    "A sluice gate designed to release water only during the ebb tide.",
+    "Middle English, ebb + gate",
+    "Open the ebb-gate once the water level drops to flush the dry dock.",
+    "Port of London Authority Records, 1604"
+  ],
+  [
+    "Ebb-land",
+    "/ˈɛbˌlænd/",
+    "e",
+    "Land that is uncovered only at the ebb of the tide; foreshore or mudflat.",
+    "Old English ebba + land",
+    "The longboat ran aground upon the treacherous ebb-land near the river mouth.",
+    "Holinshed's Chronicles, 1577"
+  ],
+  [
+    "Ebb-mark",
+    "/ˈɛbˌmɑːrk/",
+    "t",
+    "The low-water mark left on the shore by the retreating tide.",
+    "English, ebb + mark",
+    "The seaweed hung high above the ebb-mark, showing the extreme height of the spring tides.",
+    "Charles Darwin, 'The Voyage of the Beagle', 1839"
+  ],
+  [
+    "Ebb-master",
+    "/ˈɛbˌmɑːstər/",
+    "t",
+    "An officer or harbor official who regulates ship movements according to the ebb tide.",
+    "English, ebb + master",
+    "The ebb-master signaled that no vessel might leave the basin until dawn.",
+    "Maritime Custom of the Port of Bristol, 1845"
+  ],
+  [
+    "Ebb-tide-gate",
+    "/ˈɛbˌtaɪdˌɡeɪt/",
+    "t",
+    "A tidal gate or lock that operates specifically with the falling tide.",
+    "English, ebb + tide + gate",
+    "Navigate carefully through the ebb-tide-gate or the current will sweep you against the pier.",
+    "Engineering Magazine, 1882"
+  ],
+  [
+    "Eche",
+    "/ɛtʃ/",
+    "m",
+    "To eke out, add to, or lengthen a timber or spar.",
+    "Old English ēcan (to increase)",
+    "They had to eche the mainmast with a fished spar to withstand the gale.",
+    "Naval Accounts of Henry VII, c. 1495"
+  ],
+  [
+    "Eckling",
+    "/ˈɛklɪŋ/",
+    "t",
+    "A small piece of timber used to wedge or fill a gap in shipbuilding.",
+    "German/Dutch regional nautical slang, adopted in British yards",
+    "Fit an eckling into the scarph joint to make the timber flush.",
+    "Smyth's 'Sailor's Word-Book', 1867"
+  ],
+  [
+    "Edd",
+    "/ɛd/",
+    "m",
+    "An obsolete variant spelling of eddy, a circular movement of water.",
+    "Old English ēd (whirlpool)",
+    "The ship spun helplessly in the fierce edd near the headland.",
+    "Morte Darthur, Sir Thomas Malory, 1485"
+  ],
+  [
+    "Edd-wind",
+    "/ˈɛdˌwɪnd/",
+    "e",
+    "A wind that blows in a circular direction or is deflected by a high cliff or sail.",
+    "English, edd (eddy) + wind",
+    "The tall cliffs created an edd-wind that left our sails flapping idly.",
+    "Captain Luke Foxe, 'North-West Fox', 1635"
+  ],
+  [
+    "Eddy",
+    "/ˈɛdi/",
+    "e",
+    "A circular movement of water forming a small whirlpool, dangerous to small craft.",
+    "Old English ēd + diminutive suffix",
+    "Steer clear of the eddy by the rocks lest it draw us onto the reef.",
+    "Richard Hakluyt, 'Principal Navigations', 1589"
+  ],
+  [
+    "Eddy-bolt",
+    "/ˈɛdiˌboʊlt/",
+    "t",
+    "An iron bolt placed in a specific hull position to resist swirling water stress.",
+    "English, eddy + bolt",
+    "The sternpost required an extra eddy-bolt to secure the rudder framing.",
+    "The Shipbuilder's Assistant, 1815"
+  ],
+  [
+    "Eddy-tide",
+    "/ˈɛdiˌtaɪd/",
+    "e",
+    "A tide that runs contrary to the main current, creating whirlpools.",
+    "English, eddy + tide",
+    "We lost three knots of speed when we crossed the powerful eddy-tide.",
+    "Sir Walter Raleigh, 'History of the World', 1614"
+  ],
+  [
+    "Eddy-water",
+    "/ˈɛdiˌwɔːtər/",
+    "e",
+    "The disturbed water left behind a ship's stern or a rocky obstruction.",
+    "English, eddy + water",
+    "The small boat bobbed violently in the eddy-water astern of the frigate.",
+    "William Dampier, 'A New Voyage Round the World', 1697"
+  ],
+  [
+    "Edge",
+    "/ɛdʒ/",
+    "m",
+    "The boundary line of a sail, or the side of a ship's planking.",
+    "Old English ecg (edge, sword-blade)",
+    "Seam the edge of the topsail with double canvas to prevent fraying.",
+    "Parchment Roll of the Navy, 1345"
+  ],
+  [
+    "Edge-bolt",
+    "/ˈɛdʒˌboʊlt/",
+    "t",
+    "A long iron bolt driven through the edge of overlapping deck or hull planks.",
+    "English, edge + bolt",
+    "Drive the edge-bolt deep into the carline to tie the deck beams together.",
+    "Edmond Murray, 'Treatise on Shipbuilding', 1822"
+  ],
+  [
+    "Edge-nail",
+    "/ˈɛdʒˌneɪl/",
+    "e",
+    "A nail driven obliquely through the edge of a plank.",
+    "English, edge + nail",
+    "Secure the garboard strake with copper edge-nails.",
+    "Royal Dockyard Accounts, 1620"
+  ],
+  [
+    "Edge-rail",
+    "/ˈɛdʒˌreɪl/",
+    "t",
+    "A rail fitted along the outer edge of a ship's deck or gangway for safety.",
+    "English, edge + rail",
+    "Hold fast to the edge-rail when the waves wash across the weather deck.",
+    "Merchant Navy Manual, 1860"
+  ],
+  [
+    "Edge-wise",
+    "/ˈɛdʒˌwaɪz/",
+    "e",
+    "With the edge facing forward or cutting through the water or wind.",
+    "English, edge + wise",
+    "Turn the heavy oar edgewise to slice cleanly through the crested wave.",
+    "Captain John Smith, 'Generall Historie', 1624"
+  ],
+  [
+    "Eel-pot",
+    "/ˈiːlˌpɒt/",
+    "t",
+    "A wicker basket or trap used by fishermen along coastal estuaries to catch eels.",
+    "Old English ǣl + pott",
+    "The fisherman hauled up his eel-pots before the gale warning took effect.",
+    "Maritime Folk Customs of the Thames, 1850"
+  ],
+  [
+    "Eel-skin",
+    "/ˈiːlˌskɪn/",
+    "t",
+    "A slippery leather strip occasionally used for lashing or whipping small lines.",
+    "Old English ǣl + scinn",
+    "Whip the end of the signal halyard with an eel-skin to keep it from unravelling.",
+    "Sailor's Domestic Economy, 1840"
+  ],
+  [
+    "Eel-spear",
+    "/ˈiːlˌspɪər/",
+    "m",
+    "A multi-pronged iron spear used from boats to catch eels in shallow mudflats.",
+    "Old English ǣl + spere",
+    "He stood in the bow of the skiff, brandishing his heavy iron eel-spear.",
+    "Exeter Port Books, 1420"
+  ],
+  [
+    "Eerie",
+    "/ˈɪəri/",
+    "t",
+    "Inspiring fear; applied by sailors to dead calms or strange phosphorescent seas.",
+    "Old English earg (cowardly, sluggish, miserable)",
+    "An eerie silence fell over the ocean as the phosphorescent glow lit the waves.",
+    "Captain Marryat, 'Mr. Midshipman Easy', 1836"
+  ],
+  [
+    "Effective",
+    "/ɪˈfɛktɪv/",
+    "t",
+    "Applied to a ship fully manned, armed, and ready for active naval service.",
+    "Latin effectivus, via French",
+    "The squadron counted twelve effective sail of the line ready to sortie.",
+    "Admiralty Dispatch, 1798"
+  ],
+  [
+    "Efflux",
+    "/ˈɛflʌks/",
+    "t",
+    "The flowing out of water, especially from a pump or the ship's bilges.",
+    "Latin effluxus (a flowing out)",
+    "The continuous efflux from the chain-pumps showed we were still making water.",
+    "Log of HMS Victory, 1805"
+  ],
+  [
+    "Eft-soons",
+    "/ˌɛftˈsuːnz/",
+    "e",
+    "Soon afterward, directly, or shortly.",
+    "Old English eft (again) + sōna (soon)",
+    "Eft-soons the wind shifted, filling our square sails with a favoring breeze.",
+    "Edmund Spenser, 'The Faerie Queene', 1590"
+  ],
+  [
+    "Egest",
+    "/ɪˈdʒɛst/",
+    "t",
+    "To discharge or expel water from a vessel's bilge or ballast tanks.",
+    "Latin egerere / egestus",
+    "The ballast tanks were rigged to egest their contents upon reaching open water.",
+    "Naval Architecture Quarterly, 1888"
+  ],
+  [
+    "Eigh",
+    "/eɪ/",
+    "e",
+    "An archaic exclamation or nautical cry used when hauling or spotting land.",
+    "Middle English expression",
+    "Eigh! There looms the white cliff of Dover through the morning fog!",
+    "Thomas Dekker, 'The Shoemaker's Holiday', 1600"
+  ],
+  [
+    "Eight-knot",
+    "/ˈeɪtˌnɒt/",
+    "t",
+    "A vessel capable of maintaining a speed of eight nautical miles per hour.",
+    "English, eight + knot",
+    "She was a sturdy collier, a steady eight-knot ship when heavily laden.",
+    "W. Clark Russell, 'The Wreck of the Grosvenor', 1877"
+  ],
+  [
+    "Eke",
+    "/iːk/",
+    "m",
+    "To supplement or make do with scant provisions or jury-rigged gear.",
+    "Old English ēcan",
+    "We must eke out our water rations until we reach the Cape Verde Islands.",
+    "The Libelle of Englyshe Polycye, 1436"
+  ],
+  [
+    "Elbow",
+    "/ˈɛlboʊ/",
+    "e",
+    "A sharp bend in a river channel, or an angled timber knee in ship framing.",
+    "Old English elnboga",
+    "The galleon grounded on the mudbank just inside the river's sharp elbow.",
+    "Richard Hakluyt, 'Voyages', 1599"
+  ],
+  [
+    "Elbow-room",
+    "/ˈɛlboʊˌruːm/",
+    "e",
+    "Sufficient space for sailors to work the capstan or handle heavy tackle.",
+    "English, elbow + room",
+    "Give the men at the bars some elbow-room or they cannot heave the anchor.",
+    "William Shakespeare, 'King John', 1595"
+  ],
+  [
+    "Elect",
+    "/ɪˈlɛkt/",
+    "e",
+    "Chosen or picked out, as in a ship selected for flagship duty.",
+    "Latin electus",
+    "The flagship elect raised her admiral's pennant at Spithead.",
+    "State Papers Relating to the Spanish Armada, 1588"
+  ],
+  [
+    "Element",
+    "/ˈɛlɪmɛnt/",
+    "e",
+    "The sea itself considered as the natural domain of a ship or sailor.",
+    "Latin elementum",
+    "The seasoned mariner was truly in his element when the gales began to blow.",
+    "John Florio, translation of Montaigne, 1603"
+  ],
+  [
+    "Elevate",
+    "/ˈɛlɪveɪt/",
+    "t",
+    "To raise the elevation of a ship's heavy guns or an observation mast.",
+    "Latin elevatus",
+    "Elevate the carronades by one notch to increase our firing range.",
+    "Royal Navy Gunnery Instructions, 1812"
+  ],
+  [
+    "Elk-skin",
+    "/ˈɛlkˌskɪn/",
+    "t",
+    "Tough hide sometimes used for protective chafing gear on standing rigging.",
+    "Old English eolh + scinn",
+    "Wrap the main shrouds in elk-skin where they rub against the tops.",
+    "American Whaling Logbook, 1842"
+  ],
+  [
+    "Ell",
+    "/ɛl/",
+    "m",
+    "An ancient cloth measure (typically 45 inches) used by sailmakers.",
+    "Old English eln (forearm length)",
+    "Purchase twenty ells of heavy canvas from the London sail-loft.",
+    "London Guildhall Records, 1378"
+  ],
+  [
+    "Elongate",
+    "/ˈɛlɒŋɡeɪt/",
+    "t",
+    "To lengthen a ship's hull during a refit by cutting and inserting new framing.",
+    "Latin elongatus",
+    "The shipyard commissioners voted to elongate the frigate by twenty feet.",
+    "Naval Chronicle, 1808"
+  ],
+  [
+    "Embark",
+    "/ɪmˈbɑːrk/",
+    "e",
+    "To go on board a ship for a voyage.",
+    "French embarquer, from barque",
+    "The regiment of foot soldiers prepared to embark at Portsmouth before dawn.",
+    "Richard Hakluyt, 'Principal Navigations', 1589"
+  ],
+  [
+    "Embayed",
+    "/ɪmˈbeɪd/",
+    "e",
+    "Trapped in a deep bay or inlet with the wind blowing directly onshore.",
+    "English, em- + bay",
+    "If we cannot claw off this lee shore, we shall soon be fatally embayed.",
+    "William Shakespeare, 'Othello', 1604"
+  ],
+  [
+    "Fah",
+    "/fɑː/",
+    "m",
+    "A sailing vessel with a high stem and stern, used in ancient northern waters.",
+    "Old Norse fari (a vessel or goer)",
+    "The hardy fah braved the northern swells with ease.",
+    "Norse Maritime Chronicles"
+  ],
+  [
+    "Faggot",
+    "/ˈfæɡət/",
+    "e",
+    "A bundle of iron or steel pieces bound together for forging into ship's anchors or fittings.",
+    "Middle English faggot, from Old French fagot",
+    "He brought three faggots of iron to the blacksmith for the anchor ring.",
+    "Royal Naval Dockyard Accounts"
+  ],
+  [
+    "Fair-weather",
+    "/ˈfɛərˌwɛðər/",
+    "t",
+    "Pertaining to conditions suitable only for mild sailing; sometimes used disparagingly of temporary crew.",
+    "Middle English, combining fair and weather",
+    "We must reef the topsails; this is no time for fair-weather tactics.",
+    "William Henry Smyth, The Sailor's Word-Book"
+  ],
+  [
+    "Fall-away",
+    "/ˈfɔːl əˌweɪ/",
+    "t",
+    "The movement of a ship's head to leeward when close-hauled.",
+    "Combination of fall and away",
+    "Check the helm to prevent the ship from making too much fall-away.",
+    "Naval Architecture Manual"
+  ],
+  [
+    "Fall-board",
+    "/ˈfɔːl bɔːrd/",
+    "t",
+    "A board placed across the entrance of a cabin or companionway to keep out water.",
+    "Combination of fall and board",
+    "Drop the fall-board into the grooves before the heavy sea breaks over the deck.",
+    "Merchant Navy Logbook"
+  ],
+  [
+    "Falling",
+    "/ˈfɔːlɪŋ/",
+    "e",
+    "The subsidence of the tide, or the downward plunge of a vessel in heavy troughs.",
+    "Old English feallan",
+    "The falling tide left us grounded on the shingle bar.",
+    "Admiralty Sailing Directions"
+  ],
+  [
+    "False-keel",
+    "/ˈfɔːls kiːl/",
+    "e",
+    "A second keel affixed below the main keel to protect it from damage and improve grip.",
+    "Middle English fals and Old Norse kiölr",
+    "The false-keel was torn away when we grazed the hidden reef.",
+    "Shipwright's Ledger of Portsmouth"
+  ],
+  [
+    "Fan",
+    "/fæn/",
+    "e",
+    "To spread out or cause to move, as sails filling with a light breeze.",
+    "Old English fann, from Latin vannus",
+    "The light airs began to fan the canvas gently.",
+    "Sir Walter Raleigh, Naval Discourse"
+  ],
+  [
+    "Fancy-line",
+    "/ˈfænsi laɪn/",
+    "t",
+    "A line used in various parts of the rigging for hauling up a block or clew.",
+    "Combination of fancy and line",
+    "Haul upon the fancy-line to clear the gear from the deck.",
+    "William Henry Smyth, The Sailor's Word-Book"
+  ],
+  [
+    "Fang",
+    "/fæŋ/",
+    "e",
+    "The valve of a pump, or the tines of a grapnel anchor.",
+    "Old English fang (a seizing or grasp)",
+    "The pump lost its prime because the leather of the fang had perished.",
+    "Mariner's Mirror Records"
+  ],
+  [
+    "Far-and-wide",
+    "/ˌfɑːr ən ˈwaɪd/",
+    "t",
+    "Spreading across vast ocean expanses; an extensive cruise.",
+    "Middle English phrase",
+    "The privateer cruised far-and-wide across the Western Ocean.",
+    "Log of the Privateer Revenge"
+  ],
+  [
+    "Fare",
+    "/fɛər/",
+    "e",
+    "To journey across the sea, or the progression of a voyage.",
+    "Old English faran (to go or travel)",
+    "How did the vessel fare through the great tempest off Cape Horn?",
+    "Log of the Golden Hind"
+  ],
+  [
+    "Farish",
+    "/ˈfɛərɪʃ/",
+    "t",
+    "At a considerable distance out to sea.",
+    "Variant of far with suffix -ish",
+    "The lookout reported a sail farish off the starboard beam.",
+    "Victorian Seafaring Journal"
+  ],
+  [
+    "Farrow",
+    "/ˈfæroʊ/",
+    "m",
+    "An old term for a small vessel or boat.",
+    "Old English fearh",
+    "The farrow was lowered to ferry provisions ashore.",
+    "Medieval Port Book of Southampton"
+  ],
+  [
+    "Far-sea",
+    "/ˈfɑːr siː/",
+    "t",
+    "Pertaining to the open ocean far from coastal landmarks.",
+    "Combination of far and sea",
+    "They fitted out the barque for a long far-sea voyage to the Pacific.",
+    "Maritime Gazette"
+  ],
+  [
+    "Fascine",
+    "/fæˈsiːn/",
+    "e",
+    "A bundle of brushwood used in building temporary shore fortifications or stabilizing wet ground.",
+    "French fascine, from Latin fascis",
+    "The landing party laid down fascines to cross the muddy salt marsh.",
+    "Military Engineer's Journal"
+  ],
+  [
+    "Fast",
+    "/fæst/",
+    "e",
+    "Firmly secured, made fast; tied or anchored securely.",
+    "Old English fæst (firm, secure)",
+    "Make fast the cable to the bitts before the squall strikes.",
+    "Mainwaring's Seaman's Dictionary"
+  ],
+  [
+    "Fast-bound",
+    "/ˈfæst baʊnd/",
+    "t",
+    " Immovably secured, or trapped by ice or unfavorable winds.",
+    "Combination of fast and bound",
+    "The whaler was fast-bound in the Arctic pack ice for the winter.",
+    "Whaling Log of Dundee"
+  ],
+  [
+    "Fat",
+    "/fæt/",
+    "e",
+    "A wide, broad-beamed ship design intended for maximum cargo capacity.",
+    "Old English fæt (vessel)",
+    "She was a fat fluyt, slow in stays but holding a mountain of grain.",
+    "Dutch-English Trade Chronicles"
+  ],
+  [
+    "Father-long-legs",
+    "/ˌfɑːðər lɒŋ lɛɡz/",
+    "t",
+    "A sailor's nickname for certain spindly aloft-rigging tools or long-limbed crew members.",
+    "English folklore term adapted to sea",
+    "Send up one of the boys with the reach of a father-long-legs to clear the jammed halyard.",
+    "Royal Navy Sailor Slang"
+  ],
+  [
+    "Fatigue",
+    "/fəˈtiːɡ/",
+    "t",
+    "Heavy labor tasks assigned to sailors, such as coaling or scraping decks.",
+    "French fatigue, from Latin fatigare",
+    "The crew was ordered to ship fatigue duties after dropping anchor.",
+    "Royal Navy Standing Orders"
+  ],
+  [
+    "Fathom-wood",
+    "/ˈfæðəm wʊd/",
+    "e",
+    "Firewood cut into standard lengths of six feet for ships' galleys.",
+    "Combination of fathom and wood",
+    "Take aboard twenty cords of fathom-wood before we weigh anchor.",
+    "Naval Victualling Records"
+  ],
+  [
+    "Fat-sided",
+    "/ˈfæt ˈsaɪdɪd/",
+    "e",
+    "Having full, rounded ship sides.",
+    "Combination of fat and sided",
+    "The fat-sided merchantman rolled heavily in the beam sea.",
+    "Seaman's Practical Guide"
+  ],
+  [
+    "Faulcon",
+    "/ˈfɔːlkən/",
+    "e",
+    "An ancient light cannon used on shipboard during the Tudor era.",
+    "Middle English faucon, from Latin falco",
+    "Mount the faulcon on the quarterdeck for defense against rovers.",
+    "Tudor Naval Armament Inventory"
+  ],
+  [
+    "Faulconet",
+    "/ˈfɔːlkənɛt/",
+    "e",
+    "A smaller version of the faulcon cannon, highly maneuverable.",
+    "Diminutive of faulcon",
+    "The pinnace carried a single faulconet in her bow.",
+    "State Papers Relating to the Navy"
+  ],
+  [
+    "Faute",
+    "/fɔːt/",
+    "e",
+    "A default, error in navigation, or shortcoming in seamanship.",
+    "Old French faute",
+    "He committed a grave faute in neglecting to take soundings.",
+    "Legal Proceedings of the Admiralty Court"
+  ],
+  [
+    "Favour",
+    "/ˈfeɪvər/",
+    "e",
+    "A helpful wind or weather condition aiding a vessel's course.",
+    "Old French favor, from Latin favor",
+    "With a gentle favour from the east, we rounded the headland.",
+    "Voyage Narrative of Sir Francis Drake"
+  ],
+  [
+    "Fearful",
+    "/ˈfɪərfəl/",
+    "e",
+    "Inspiring terror or awe, often applied to tempestuous seas.",
+    "Middle English fearful",
+    "We endured a fearful gale that stripped our bulwarks.",
+    "Hakluyt's Voyages"
+  ],
+  [
+    "Feast",
+    "/fiːst/",
+    "e",
+    "A special celebration meal served to the crew upon crossing the line or surviving a storm.",
+    "Middle English feste, from Latin festa",
+    "The captain provided an extra ration of grog and a feast for the men.",
+    "Ship's Log of the HMS Endeavour"
+  ],
+  [
+    "Feat",
+    "/fiːt/",
+    "e",
+    "An act of exceptional seamanship or daring navigation.",
+    "Middle English feat, from Old French feit",
+    "Clearing the treacherous shoals in the dark was a notable feat.",
+    "Naval Chronicle"
+  ],
+  [
+    "Feather",
+    "/ˈfɛðər/",
+    "e",
+    "To turn the blade of an oar parallel to the water during the recovery stroke.",
+    "Old English feðer",
+    "Feather your oars cleanly against the headwind.",
+    "Instructions for Boat Rowing in the Royal Navy"
+  ],
+  [
+    "Feather-white",
+    "/ˈfɛðər waɪt/",
+    "e",
+    "The frothy, white appearance of breaking waves or sea foam.",
+    "Combination of feather and white",
+    "The reef was marked only by a line of feather-white breakers.",
+    "Maritime Verse of the Elizabethan Age"
+  ],
+  [
+    "Fee",
+    "/fiː/",
+    "e",
+    "Pilotage dues or port charges collected upon entry to a harbor.",
+    "Old English feoh (cattle, property, money)",
+    "Pay the harbour master his due fee before casting off.",
+    "Port of London Customs Ledger"
+  ],
+  [
+    "Feeble",
+    "/ˈfiːbəl/",
+    "e",
+    "Lacking strength; said of a dying breeze or failing rigging.",
+    "Old English/Old French feble",
+    "The breeze grew feeble and died away entirely by sunset.",
+    "Journal of a Greenland Whaler"
+  ],
+  [
+    "Feize",
+    "/fiːz/",
+    "e",
+    "To drive away, chastise, or put to flight an enemy vessel.",
+    "Old English fēsian (to drive away)",
+    "Our broadside soon made the corsair feize.",
+    "Elizabethan Naval Tracts"
+  ],
+  [
+    "Felloe",
+    "/ˈfɛloʊ/",
+    "e",
+    "One of the curved pieces of wood forming the rim of a ship's steering wheel.",
+    "Old English felge",
+    "The helmsman gripped the felloes of the wheel as the sea struck.",
+    "The Sailor's Assistant"
+  ],
+  [
+    "Fellow",
+    "/ˈfɛloʊ/",
+    "m",
+    "A companion in service, shipmate, or watch-mate.",
+    "Old Norse felagi (partner in a venture)",
+    "He was a trusty fellow on the middle watch.",
+    "Medieval English Sea Code"
+  ],
+  [
+    "Fend",
+    "/fɛnd/",
+    "e",
+    "To ward off or protect a ship from collision using fenders or spars.",
+    "Shortened from defend",
+    "Fend off with your boat-hook or we will smash against the pier.",
+    "Mainwaring's Seaman's Dictionary"
+  ],
+  [
+    "Gaffle",
+    "/ˈɡæfəl/",
+    "e",
+    "An iron hook used for landing fish, or a spar used to extend the upper edge of a fore-and-aft sail.",
+    "Middle English gaffel, from Old Norse gafall.",
+    "He hauled taut the peak halyard until the gaffle bit hard against the mast.",
+    "Captain John Smith, 'A Sea Grammar', 1627"
+  ],
+  [
+    "Galyard",
+    "/ˈɡæljərd/",
+    "e",
+    "A brisk, lively, or nimble seaman; also an alternative spelling of the lively dance 'galliard'.",
+    "Middle French galiard, gallant.",
+    "The young galyard sprang into the rigging like a cat before the squall hit.",
+    "Richard Hakluyt, 'Principal Navigations', 1589"
+  ],
+  [
+    "Gasket",
+    "/ˈɡæskɪt/",
+    "e",
+    "A small line or braided cord used to secure a furled sail tightly to the yard.",
+    "French garcette, diminutive of garce.",
+    "Send the topmen aloft to pass the gaskets before the gale overtakes us.",
+    "Mainwaring's 'Seaman's Dictionary', 1644"
+  ],
+  [
+    "Gauger",
+    "/ˈɡeɪdʒər/",
+    "t",
+    "A customs officer stationed aboard merchant vessels to measure the capacity of casks and barrels.",
+    "Old Northern French gauger, from gauge.",
+    "The King's gauger boarded the brig to inspect the rum tierces.",
+    "Customs and Excise Historical Records, 1812"
+  ],
+  [
+    "Gavelock",
+    "/ˈɡævəlɒk/",
+    "m",
+    "An iron crowbar or heavy lever used aboard ship for shifting heavy ballast or stores.",
+    "Old English gafeloc, diminutive of gafel (fork or spear).",
+    "Use the gavelock to pry the shifted ballast back to the starboard bilge.",
+    "Medieval Navy Rolls, 1375"
+  ],
+  [
+    "Gear-room",
+    "/ˈɡɪərˌruːm/",
+    "t",
+    "The storeroom aboard a sailing ship where running rigging, blocks, and tackle are kept.",
+    "Old English gearwian + rum.",
+    "Fetch a double block and three fathoms of line from the gear-room.",
+    "William Smyth, 'The Sailor's Word-Book', 1867"
+  ],
+  [
+    "Geest",
+    "/ɡiːst/",
+    "m",
+    "Alluvial sand or mud deposited upon a shore or shallow by tidal currents.",
+    "Old English gēst, related to yeast or froth.",
+    "The cog ran aground upon a bank of shifting geest near the estuary.",
+    "Port Book of Southampton, 1430"
+  ],
+  [
+    "Gelt",
+    "/ɡɛlt/",
+    "e",
+    "A slang term among early mariners for money, pay, or prize bounty.",
+    "Low German or Dutch gelt (money).",
+    "The crew swore they would not loose a sail until the prize gelt was paid.",
+    "Admiralty Court Deposition, 1592"
+  ],
+  [
+    "Genol",
+    "/ˈdʒɛnəl/",
+    "m",
+    "A species of small coastal trading vessel or galley used in medieval times.",
+    "Old French genol, from Mediterranean sources.",
+    "Three genols laden with salt were sighted off the headland.",
+    "Exchequer Accounts, 1350"
+  ],
+  [
+    "Gib-cat",
+    "/ˈɡɪbˌkæt/",
+    "e",
+    "An old tomcat, sometimes used metaphorically by sailors to describe a gloomy or sullen messmate.",
+    "Gib (short for Gilbert) + cat.",
+    "He sits in the forecastle mum and melancholy as a gib-cat.",
+    "William Shakespeare, 'Henry IV, Part 1', 1597"
+  ],
+  [
+    "Gig",
+    "/ɡɪɡ/",
+    "e",
+    "A long, narrow ship's boat, light and fast, kept for the captain's personal use.",
+    "Origin uncertain, possibly related to an earlier fish-spear or nimble craft.",
+    "Lower the captain's gig; he goes ashore to the admiral's flagship.",
+    "Sir Walter Raleigh, Naval Journals, 1605"
+  ],
+  [
+    "Gigger",
+    "/ˈɡɪɡər/",
+    "t",
+    "A small tackle or tackle-system used to lift heavy weights or steady a rope aboard ship.",
+    "Agent noun derived from gig.",
+    "Rig the gigger to the mainstay to hoist the spare anchor on deck.",
+    "Admiral W.H. Smyth, 'Sailor's Word-Book', 1867"
+  ],
+  [
+    "Gimbal",
+    "/ˈɡɪmbəl/",
+    "e",
+    "A set of rings pivoting on horizontal axes, used to keep shipboard instruments level despite rolling.",
+    "Old French gemel (twin), from Latin gemellus.",
+    "The compass swung freely in its brass gimbals as the ship pitched.",
+    "Captain John Smith, 'The General History of Virginia', 1624"
+  ],
+  [
+    "Gin",
+    "/dʒɪn/",
+    "e",
+    "A mechanical engine, trap, or hoisting tackle (short for engine) used on deck.",
+    "Aphetic form of Middle English engin.",
+    "Set up the gin by the main hatch to hoist the casks of provisions.",
+    "Mainwaring, 'The Seaman's Dictionary', 1644"
+  ],
+  [
+    "Gip",
+    "/dʒɪp/",
+    "t",
+    "A sailor's term for a serving boy or mess attendant aboard a man-of-war.",
+    "University slang or dialect origin, adopted into naval vernacular.",
+    "Send the gip aft with a mug of small beer for the watch officer.",
+    "Royal Navy Logbook, 1805"
+  ],
+  [
+    "Girder",
+    "/ˈɡɜːrdər/",
+    "t",
+    "A heavy longitudinal timber or iron beam strengthening a ship's deck framing.",
+    "From gird.",
+    "The main deck girders strained heavily beneath the weight of the carronades.",
+    "Shipbuilding Specification Manual, 1845"
+  ],
+  [
+    "Girth",
+    "/ɡɜːrθ/",
+    "m",
+    "The measurement around a ship's hull at the widest point.",
+    "Old Norse giörð.",
+    "The frigate measured forty feet in girth at the main chains.",
+    "Customs Port Book, 1510"
+  ],
+  [
+    "Gizzen",
+    "/ˈɡɪzən/",
+    "t",
+    "To leak or gape through drying, said of the seams of a wooden boat exposed to the sun.",
+    "Scots and northern dialect, Old Norse gisna.",
+    "The jolly-boat's planks have gizzened in the tropical heat; she will need caulking.",
+    "Log of the whaling ship Essex, 1819"
+  ],
+  [
+    "Gleed",
+    "/ɡliːd/",
+    "m",
+    "A glowing ember or coal from the ship's galley fire.",
+    "Old English glēd.",
+    "He lit his pipe with a stray gleed from the cook's stove.",
+    "Alliterative Morte Arthure, c. 1400"
+  ],
+  [
+    "Glib",
+    "/ɡlɪb/",
+    "e",
+    "Slippery, smooth, or sliding easily; describing wet ropes or greasy deck surfaces.",
+    "German or Dutch glibberig (slippery).",
+    "The spar was made glib with tallow so the hoop would slide freely.",
+    "Captain Smith, 'Accidence for Young Seamen', 1626"
+  ],
+  [
+    "Glime",
+    "/ɡlaɪm/",
+    "t",
+    "To look sideways, squint, or cast a sidelong glance at the weather horizon.",
+    "Old Norse glíma or related Germanic roots.",
+    "The old mate glimed at the gathering clouds to windward and shook his head.",
+    "Nautical Glossary of Northern Dialects, 1850"
+  ],
+  [
+    "Glisk",
+    "/ɡlɪsk/",
+    "t",
+    "A brief, transient flash of light, such as lightning or moonlight breaking through storm clouds.",
+    "Scots and northern dialect origin.",
+    "A sudden glisk of the moon revealed the looming cliffs of the headland.",
+    "Sir Walter Scott, 'The Pirate', 1821"
+  ],
+  [
+    "Gloam",
+    "/ɡloʊm/",
+    "m",
+    "The twilight or evening dusk at sea before night watches begin.",
+    "Old English glōm.",
+    "As the ship entered the gloam, all hands were piped to evening quarters.",
+    "Gawain and the Green Knight, c. 1400"
+  ],
+  [
+    "Glout",
+    "/ɡlaʊt/",
+    "m",
+    "To look sullen, pout, or stare with dissatisfaction, common among pressed men.",
+    "Middle English glouten.",
+    "The newly impressed landsmen stood by the rail, glouting at the gray sea.",
+    "Chaucer, 'The Canterbury Tales', c. 1390"
+  ],
+  [
+    "Glyre",
+    "/ɡlaɪər/",
+    "m",
+    "An obsolete term for a stare, squint, or hostile sideways look.",
+    "Middle English origin, related to glime.",
+    "He cast a fierce glyre at the master-at-arms.",
+    "Palsgrave, 'Lesclarcolys de la langue françoyse', 1530"
+  ],
+  [
+    "Go-cart",
+    "/ˈɡoʊˌkɑːrt/",
+    "t",
+    "A derogatory sailor's nickname for a clumsy, slow-sailing merchant tub.",
+    "English colloquial.",
+    "That Dutch go-cart takes half a league to come about.",
+    "Marryat, 'Peter Simple', 1834"
+  ],
+  [
+    "Gob-line",
+    "/ˈɡɒbˌlaɪn/",
+    "t",
+    "A secondary rope or lanyard used to secure the martingale stay.",
+    "Gob (piece/rag) + line.",
+    "Check the gob-line before setting the flying jib.",
+    "Smyth's 'Sailor's Word-Book', 1867"
+  ],
+  [
+    "Goering",
+    "/ˈɡoʊrɪŋ/",
+    "t",
+    "A strip of cloth sewn into a sail to widen it at the foot or leech; a gore.",
+    "From gore (triangular piece of cloth).",
+    "The sailmaker added extra goerings to the lower course to catch more wind.",
+    "Dana, 'Two Years Before the Mast', 1840"
+  ],
+  [
+    "Goff",
+    "/ɡɒf/",
+    "e",
+    "A foolish or clumsy person; a lubberly landsman inept at sea duties.",
+    "Middle English goff (fool).",
+    "That awkward goff let go of the sheet and nearly brought down the spar.",
+    "Skelton, 'Magnyfycence', c. 1529"
+  ],
+  [
+    "Gola",
+    "/ˈɡoʊlə/",
+    "t",
+    "An architectural molding used in ship decoration, resembling an ogee curve.",
+    "Italian gola, from Latin gula.",
+    "The stern gallery was adorned with carved gola moldings highlighted in gold leaf.",
+    "Naval Architecture Compendium, 1795"
+  ],
+  [
+    "Gold-finder",
+    "/ˈɡoʊldˌfaɪndər/",
+    "e",
+    "Old slang for a nightman or the sailor tasked with clearing out shipboard bilge waste.",
+    "English colloquial irony.",
+    "The poor wretch was assigned gold-finder duty in the foulest part of the hold.",
+    "Grose, 'Dictionary of the Vulgar Tongue', 1788"
+  ],
+  [
+    "Gondola",
+    "/ˈɡɒndələ/",
+    "e",
+    "In early English travel literature, a long rowing vessel or native boat encountered in foreign ports.",
+    "Italian gondola.",
+    "We hired a native gondola to ferry us from the anchorage to the stone quay.",
+    "Coryat's Crudities, 1611"
+  ],
+  [
+    "Goose-wing",
+    "/ˈɡuːzˌwɪŋ/",
+    "e",
+    "A sail hauled out in a particular shape, or a canvas spread partially on one side when running dead before the wind.",
+    "Metaphorical from goose + wing.",
+    "The brig ran before the gale with her foresail rigged out goose-wing fashion.",
+    "Mainwaring's 'Seaman's Dictionary', 1644"
+  ],
+  [
+    "Gore",
+    "/ɡɔːr/",
+    "m",
+    "A triangular piece of canvas inserted in a sail to give it proper shape and draft.",
+    "Old English gāra (triangular piece of land or cloth).",
+    "Cut two more gores for the main-topmast staysail.",
+    "Medieval Ship Canvas Inventories, 1415"
+  ],
+  [
+    "Gorge",
+    "/ɡɔːrdʒ/",
+    "e",
+    "The throat of a ship's tackle-block through which the rope passes.",
+    "Old French gorge (throat).",
+    "The line jammed in the gorge of the block and refused to run.",
+    "Smith's 'Sea Grammar', 1627"
+  ],
+  [
+    "Gout",
+    "/ɡaʊt/",
+    "e",
+    "A drop or spot of liquid; specifically, oil or tar dripping from the rigging.",
+    "Old French goutte, from Latin gutta.",
+    "A gout of black tar fell from the main shrouds upon his fresh shirt.",
+    "Marlowe, 'Doctor Faustus', 1604"
+  ],
+  [
+    "Grab",
+    "/ɡræb/",
+    "t",
+    "A type of two- or three-masted coastal vessel used along the coast of Malabar and the Indian Ocean.",
+    "Arabic ghurāb (raven / warship).",
+    "A heavily armed pirate grab bore down upon the East India merchantman.",
+    "Logs of the British East India Company, 1750"
+  ],
+  [
+    "Grapple",
+    "/ˈɡræpəl/",
+    "m",
+    "A small iron anchor with multiple claws used for boarding or retrieving items lost overboard.",
+    "Old French grapil, diminutive of grape.",
+    "Throw the grapple across the enemy's rail so our boarders may cross.",
+    "Naval Warfare Accounts, 1340"
+  ],
+  [
+    "Grating",
+    "/ˈɡreɪtɪŋ/",
+    "e",
+    "Lattice-work of wooden bars placed over hatches to allow ventilation and light below deck.",
+    "Present participle of grate, from Old French grater.",
+    "The prisoners below peered up through the iron-bound gratings.",
+    "Raleigh, 'Discourse on the Navy', 1610"
+  ],
+  [
+    "Halse",
+    "/hɔːlz/",
+    "m",
+    "To embrace, hug, or greet someone around the neck.",
+    "From Old English healsian, from heals (neck).",
+    "He stepped forward to halse his weary comrade after the long voyage.",
+    "Middle English Dictionary compilation of texts"
+  ],
+  [
+    "Hamper",
+    "/ˈhæmpər/",
+    "t",
+    "To encumber or entangle running rigging or ship's gear, making it difficult to handle.",
+    "From Old Norse hampa or Germanic origins.",
+    "The fallen spars served to hamper the crew during the critical maneuver.",
+    "William Smyth's The Sailor's Word-Book"
+  ],
+  [
+    "Hand-over-hand",
+    "/ˌhænd ˈoʊvər ˈhænd/",
+    "t",
+    "The method of hauling a rope by passing the hands alternately above one another.",
+    "Coined from nautical labor practices in the age of sail.",
+    "The men hauled the anchor cable hand-over-hand through the hawsehole.",
+    "Richard Henry Dana Jr., Two Years Before the Mast"
+  ],
+  [
+    "Hank",
+    "/hæŋk/",
+    "t",
+    "A ring or loop of rope, cord, or twine, or a wooden ring used to secure staysails.",
+    "From Old Norse hönk (a hank or coil).",
+    "Rig the jib onto the stay with new hanks of braided hemp.",
+    "William Falconer's Universal Dictionary of the Marine"
+  ],
+  [
+    "Hap",
+    "/hæp/",
+    "m",
+    "Chance, luck, fortune, or an unexpected occurrence at sea.",
+    "From Old Norse happ (good luck, chance).",
+    "By hard hap, our rudder snapped just as we cleared the headland.",
+    "Chaucer's Canterbury Tales"
+  ],
+  [
+    "Harbor-bound",
+    "/ˈhɑːrbər baʊnd/",
+    "t",
+    "Detained in port by adverse winds, storms, or ice.",
+    "From harbor + bound (destined or restrained).",
+    "The fishing fleet remained harbor-bound for three weeks due to relentless gales.",
+    "Maritime Gazette, 1845"
+  ],
+  [
+    "Hard-a-lee",
+    "/ˌhɑːrd ə ˈliː/",
+    "t",
+    "The helm command given to put the tiller completely to the leeward side to tack the ship.",
+    "From hard + lee (the sheltered side).",
+    "Hard-a-lee! Let fly the jib sheets and bring her around!",
+    "William Falconer's Universal Dictionary of the Marine"
+  ],
+  [
+    "Hard-a-weather",
+    "/ˌhɑːrd ə ˈwɛðər/",
+    "t",
+    "The helm command to put the tiller as far as possible to the windward side.",
+    "From hard + weather (windward side).",
+    "Put the helm hard-a-weather to bear away from the dangerous reef.",
+    "William Smyth's The Sailor's Word-Book"
+  ],
+  [
+    "Hardhead",
+    "/ˈhɑːrdhɛd/",
+    "e",
+    "An old term for a heavy species of cod or a stubborn mariner.",
+    "From hard + head.",
+    "That stubborn hardhead refused to reef the topsails until the mast groaned.",
+    "Elizabethan maritime logs"
+  ],
+  [
+    "Hatchway",
+    "/ˈhætʃweɪ/",
+    "e",
+    "A large opening in the deck of a ship giving access to the cargo holds or cabins below.",
+    "From Middle English hacche + wei.",
+    "Batten down the hatchways before the green seas wash over the waist.",
+    "Captain Luke Foxe, North-West Fox"
+  ],
+  [
+    "Haul",
+    "/hɔːl/",
+    "m",
+    "To pull or draw a heavy load with force, especially ropes or sails.",
+    "From Old French haler or Germanic roots.",
+    "Haul away on the mainsheet until the boom is amidships.",
+    "The Libelle of Englysche Polycye"
+  ],
+  [
+    "Haul-about",
+    "/ˈhɔːl əˌbaʊt/",
+    "t",
+    "A fickle, shifting wind that changes direction frequently, requiring constant trimming of sails.",
+    "From haul + about.",
+    "We made little headway against such a troublesome haul-about wind.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Haul-wind",
+    "/ˈhɔːl wɪnd/",
+    "t",
+    "To sail a ship as close to the direction of the wind as possible.",
+    "From haul + wind.",
+    "The frigate attempted to haul-wind to escape the heavier enemy squadron.",
+    "Royal Navy tactical logs"
+  ],
+  [
+    "Haversack",
+    "/ˈhævərsæk/",
+    "t",
+    "A strong canvas bag used by sailors and soldiers for carrying rations.",
+    "From German Habersack (oat sack).",
+    "Each sailor packed salt beef and hardtack into his canvas haversack.",
+    "Royal Navy purser's records"
+  ],
+  [
+    "Hawse",
+    "/hɔːz/",
+    "t",
+    "The part of a ship's bow where the hawseholes are located, through which anchor cables pass.",
+    "Origin uncertain, likely Old Norse or Low German.",
+    "The anchor cables crossed each other, fouling the hawse.",
+    "Falconer's Marine Dictionary"
+  ],
+  [
+    "Hawse-hole",
+    "/ˈhɔːzhoʊl/",
+    "e",
+    "A cylindrical hole in the bow of a ship through which the anchor cable runs.",
+    "From hawse + hole.",
+    "Sea spray dashed through the hawse-holes as the ship drove into the swell.",
+    "Sir Walter Raleigh's naval treatises"
+  ],
+  [
+    "Hawser",
+    "/ˈhɔːzər/",
+    "m",
+    "A thick, heavy rope or cable used for towing, mooring, or securing a large vessel.",
+    "From Old French halser (to hoist or haul).",
+    "Pass a heavy hemp hawser ashore to secure the ship to the stone bollards.",
+    "Port of London customs rolls"
+  ],
+  [
+    "Hawse-piece",
+    "/ˈhɔːspiːs/",
+    "t",
+    "One of the heavy timbers in a ship's bow enclosing the hawseholes.",
+    "From hawse + piece.",
+    "The shipwright fitted new oak hawse-pieces into the decaying stem.",
+    "The Shipbuilder's Assistant"
+  ],
+  [
+    "Haze",
+    "/heɪz/",
+    "t",
+    "To harass, punish, or bully a crew member with excessive or grueling labor.",
+    "Origin obscure, possibly related to nautical disciplinary slang.",
+    "The brutal mate loved to haze the green hands during the middle watch.",
+    "Dana's Two Years Before the Mast"
+  ],
+  [
+    "Head-fast",
+    "/ˈhɛd fɑːst/",
+    "e",
+    "A rope or chain used to secure the bow of a vessel to a dock or anchor.",
+    "From head (bow) + fast (secure).",
+    "Cast off the head-fasts and shove her bow out into the stream.",
+    "Elizabethan harbor regulations"
+  ],
+  [
+    "Headledge",
+    "/ˈhɛdlɛdʒ/",
+    "t",
+    "The athwartships framing pieces of a hatchway.",
+    "From head + ledge.",
+    "The carpenter repaired the splintered headledge of the main hatch.",
+    "Marine architecture dictionary"
+  ],
+  [
+    "Head-sea",
+    "/ˈhɛd siː/",
+    "t",
+    "A wave motion or swell coming directly against the bow of a moving ship.",
+    "From head + sea.",
+    "The heavy head-sea slowed our progress to barely three knots.",
+    "Log of HMS Victory"
+  ],
+  [
+    "Heave",
+    "/hiːv/",
+    "m",
+    "To haul, pull, or lift with great effort, or to throw a heavy object such as a line.",
+    "From Old English hebban.",
+    "Heave the lead line to ascertain our exact depth in the shoals.",
+    "Gawain and the Green Knight"
+  ],
+  [
+    "Heave-to",
+    "/ˌhiːv ˈtuː/",
+    "t",
+    "To stop a sailing vessel's forward motion by adjusting the sails to counteract each other.",
+    "From heave + to.",
+    "We decided to heave-to until the blinding fog cleared off the bank.",
+    "Mariner's Chronicle"
+  ],
+  [
+    "Heave-hole",
+    "/ˈhiːvhoʊl/",
+    "t",
+    "An old nautical term for a depression or hollow in the ocean surface caused by heavy swells.",
+    "From heave + hole.",
+    "The hull vanished momentarily in the deep heave-hole between the waves.",
+    "Sea tales of the 19th century"
+  ],
+  [
+    "Heavy-weather",
+    "/ˈhɛvi ˈwɛðər/",
+    "t",
+    "Stormy meteorological conditions at sea characterized by violent winds and high waves.",
+    "From heavy + weather.",
+    "The ship proved exceptionally seaworthy when caught in heavy-weather off Cape Horn.",
+    "Naval court-martial records"
+  ],
+  [
+    "Heel",
+    "/hiːl/",
+    "m",
+    "The temporary lean or tilt of a vessel to one side under the force of the wind.",
+    "From Old English hēle (heel of the foot).",
+    "The sudden gust caused the galleon to heel alarmingly to starboard.",
+    "Maritime logs of the Tudor navy"
+  ],
+  [
+    "Helm",
+    "/hɛlm/",
+    "m",
+    "The steering apparatus of a ship, including the wheel, tiller, and rudder.",
+    "From Old English helma (rudder, tiller).",
+    "Steerage was lost when a rogue wave smashed the helm to pieces.",
+    "King Alfred's Orosius"
+  ],
+  [
+    "Helmsman",
+    "/ˈhɛlmsmən/",
+    "e",
+    "The crewman charged with steering the vessel via the helm.",
+    "From helm + man.",
+    "The helmsman kept his eyes fixed firmly on the compass card in the binnacle.",
+    "Richard Hakluyt's Voyages"
+  ],
+  [
+    "Hemp",
+    "/hɛmp/",
+    "m",
+    "The tough fiber of the cannabis plant used extensively to manufacture rigging, cables, and canvas.",
+    "From Old English henip.",
+    "All our running rigging is spun from the finest Riga hemp.",
+    "Mediaeval port trade records"
+  ],
+  [
+    "Hen-coop",
+    "/ˈhɛn kuːp/",
+    "t",
+    "A slatted wooden cage on the deck of a ship used to house live poultry for the officers' mess.",
+    "From hen + coop.",
+    "The gale smashed the captain's hen-coop, liberating the livestock across the deck.",
+    "Marryat, Mr. Midshipman Easy"
+  ],
+  [
+    "High-water",
+    "/ˈhaɪ ˈwɔːtər/",
+    "m",
+    "The highest level reached by the tide at a specific coastal location.",
+    "From high + water.",
+    "We must cross the bar at high-water or risk grounding on the sandbank.",
+    "Tidal tables of the English Channel"
+  ],
+  [
+    "Hike",
+    "/haɪk/",
+    "t",
+    "To haul or hoist up an object sharply, or to lean out over the side of a small boat.",
+    "Origin uncertain, dialectal English.",
+    "Hike up the mainsail so it clears the taffrail.",
+    "Nautical slang lexicon"
+  ],
+  [
+    "Hitch",
+    "/hɪtʃ/",
+    "m",
+    "A knot used to secure a rope to a post, ring, or another rope.",
+    "Origin obscure, Middle English.",
+    "Tie a timber hitch around the spar before hoisting it aloft.",
+    "Early maritime rigging manuals"
+  ],
+  [
+    "Hoist",
+    "/hɔɪst/",
+    "e",
+    "To raise or haul up something heavy, especially sails or flags, using tackle.",
+    "Derived from an erroneous back-formation of Middle English hoise.",
+    "Hoist the colors proudly as we enter the foreign port.",
+    "Shakespeare, Coriolanus"
+  ],
+  [
+    "Home",
+    "/hoʊm/",
+    "t",
+    "Said of an anchor when it is pulled completely up to the hawsehole, or an object fitted flush.",
+    "From Old English hām.",
+    "The anchor came home cleanly, dripping with dark mud from the seabed.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Hove",
+    "/hoʊv/",
+    "m",
+    "The archaic past tense and past participle of heave.",
+    "From Old English hebban.",
+    "The anchor was hove short before the tide turned against us.",
+    "Malory's Le Morte d'Arthur"
+  ],
+  [
+    "Hulk",
+    "/hʌlk/",
+    "m",
+    "A heavy, bulky old ship stripped of masts and rigging, used as a prison hulk, storehouse, or hulk.",
+    "From Old English hulc (a kind of ship), from Greek holkas.",
+    "The decaying warship was converted into a floating prison hulk in the river.",
+    "State Papers of Henry VIII"
+  ],
+  [
+    "Hull",
+    "/hʌl/",
+    "m",
+    "The main body and watertight shell of a ship, excluding masts and superstructures.",
+    "From Old English hulas (husk or covering).",
+    "The wooden hull withstood the battering of the ice floes without a single leak.",
+    "Middle English sea poems"
+  ],
+  [
+    "Hullo",
+    "/həˈloʊ/",
+    "t",
+    "A traditional nautical hail used across the water to attract attention.",
+    "Variation of holla or hollo.",
+    "A sudden hullo rang out across the misty harbor from the pilot boat.",
+    "Victorian sea logs"
+  ],
+  [
+    "Jib-boom",
+    "/dʒɪb buːm/",
+    "t",
+    "A spar run out beyond the bowsprit to extend the jib and other forward sails.",
+    "Compound of jib and boom (from Middle Dutch boom, tree).",
+    "A heavy sea carried away our jib-boom and tore the canvas to ribbons.",
+    "Richard Henry Dana Jr., Two Years Before the Mast"
+  ],
+  [
+    "Jumper",
+    "/ˈdʒʌmpər/",
+    "t",
+    "A short haul-line or tackle used to tauten a stay or prevent a spar from rising.",
+    "From jump, in the sense of causing something to leap or tighten sharply.",
+    "Hauled tight upon the jumper to keep the topmast from springing in the gale.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Jury-mast",
+    "/ˈdʒʊəri mɑːst/",
+    "e",
+    "A temporary mast erected to replace one that has been broken or carried away.",
+    "From Middle English jury, meaning relief or makeshift (perhaps from Latin adjuvare).",
+    "With our mainmast snapped, we rigged a jury-mast to limp back to port.",
+    "Captain Cook's Journal"
+  ],
+  [
+    "Jury-rudder",
+    "/ˈdʒʊəri ˈrʌdər/",
+    "t",
+    "A temporary steering apparatus constructed at sea when the original rudder is lost.",
+    "Combination of jury (makeshift) and rudder (from Old English roder).",
+    "They spent three days constructing a jury-rudder from spare spars and iron plating.",
+    "Log of HMS Victory"
+  ],
+  [
+    "Jettison",
+    "/ˈdʒɛtɪsən/",
+    "e",
+    "The throwing overboard of cargo or equipment to lighten a ship in distress.",
+    "From Old French jetaison, ultimately from Latin jactare, to throw.",
+    "We were forced to jettison twenty casks of salt beef to clear the sandbar.",
+    "Admiralty Court Records"
+  ],
+  [
+    "Jigger",
+    "/ˈdʒɪɡər/",
+    "t",
+    "A small fourth mast on a yawl or ketch, or a small tackle used for various hauling tasks on deck.",
+    "Origin obscure; possibly related to early modern dance terms or mechanical devices.",
+    "Set the jigger-mast to balance the helm as the squall approaches.",
+    "The Nautical Magazine"
+  ],
+  [
+    "Jack-stay",
+    "/ˈdʒæk steɪ/",
+    "t",
+    "A rope or iron bar stretched along a yard or mast to which sails or rigging are secured.",
+    "Compound of Jack (sailor/common) and stay (support rope).",
+    "The reef points were tied securely around the iron jack-stay on the topsail yard.",
+    "Admiral William Henry Smyth"
+  ],
+  [
+    "Jeer",
+    "/dʒɪər/",
+    "t",
+    "A heavy tackle or gear used for hoisting or lowering the lower yards of a ship.",
+    "Possibly from Dutch gieren, to yaw, or related to Old French gehir.",
+    "The jeer parted under the strain, bringing the heavy main yard crashing down.",
+    "Sea-pie: A Collection of Marine Tales"
+  ],
+  [
+    "Jib-stay",
+    "/ˈdʒɪb steɪ/",
+    "e",
+    "The rope stay upon which the jib is hoisted.",
+    "Combination of jib and stay.",
+    "Inspect the jib-stay for fraying before we round the cape.",
+    "Mainwaring's Seaman's Dictionary"
+  ],
+  [
+    "Jibing",
+    "/ˈdʒaɪbɪŋ/",
+    "e",
+    "The maneuver of swinging the stern of a vessel across the wind so that the sails shift from one side to the other.",
+    "Likely of Germanic origin, akin to Dutch gijpen.",
+    "Unintentional jibing in a heavy sea can snap the main boom in two.",
+    "The Mariner's Mirror"
+  ],
+  [
+    "Jolly-boat",
+    "/ˈdʒɒli boʊt/",
+    "e",
+    "A small ship's boat, typically used for general utility work and carrying the crew.",
+    "Corruption of the Dutch jol (yawn or yawl boat), influenced by 'jolly'.",
+    "Send the jolly-boat ashore to fetch fresh water and vegetables.",
+    "Royal Navy Regulations"
+  ],
+  [
+    "Jettied",
+    "/ˈdʒɛtɪd/",
+    "e",
+    "Projecting outward, applied to the upper decks or structures of early warships.",
+    "From Old French jeté, past participle of jeter, to throw or project.",
+    "The jettied forecastle provided a commanding platform for musketeers.",
+    "Naval Architecture Chronicles"
+  ],
+  [
+    "Judder",
+    "/ˈdʒʌdər/",
+    "t",
+    "The violent shaking or trembling of a ship's hull when driven hard into a heavy headsea.",
+    "Imitative origin, frequentative of jud.",
+    "The whole frame of the brig began to judder as she met the towering breakers.",
+    "Merchant Navy Logbook"
+  ],
+  [
+    "Jack-tar",
+    "/ˈdʒæk tɑːr/",
+    "t",
+    "A common sailor in the British Royal Navy during the age of sail.",
+    "From Jack + tar, referring to the tarred clothing and hair queues of sailors.",
+    "A merry jack-tar stood at the wheel, whistling for a fair breeze.",
+    "Sea Songs and Ballads"
+  ],
+  [
+    "Jack-block",
+    "/ˈdʒæk blɒk/",
+    "t",
+    "A specialized pulley block used in hoisting the topgallant and royal yards.",
+    "Compound of Jack and block.",
+    "The jack-block jammed just as we attempted to hoist the royal.",
+    "The Sailor's Assistant"
+  ],
+  [
+    "Jury-rigged",
+    "/ˈdʒʊəri rɪɡd/",
+    "e",
+    "Fitted with makeshift rigging or equipment after damage at sea.",
+    "From jury (temporary) + rigged (fitted with tackle).",
+    "She sailed into harbour jury-rigged after surviving the hurricane off the Bahamas.",
+    " marítima historical log"
+  ],
+  [
+    "Jigger-tackle",
+    "/ˈdʒɪɡər ˌtækəl/",
+    "t",
+    "A small tackle comprising a double and single block, used for quick hauling on ropes.",
+    "Combination of jigger and tackle.",
+    "Apply the jigger-tackle to the main tack to get it down tight.",
+    "Dana's Seaman's Manual"
+  ],
+  [
+    "Jib-sheet",
+    "/ˈdʒɪb ʃiːt/",
+    "e",
+    "The rope attached to the clew of a jib to control its angle to the wind.",
+    "Compound of jib and sheet (rope).",
+    "Tug on the jib-sheet smartly as she comes about.",
+    "Captain Smith's Seaman's Grammar"
+  ],
+  [
+    "Jib-halyard",
+    "/ˈdʒɪb ˌhæljərd/",
+    "e",
+    "The line used to hoist the jib sail up its stay.",
+    "Combination of jib and halyard (from hale + yard).",
+    "Clear the jib-halyard of the pin rail before hoisting.",
+    "Mainwaring's Dictionary"
+  ],
+  [
+    "Junk",
+    "/dʒʌŋk/",
+    "m",
+    "Old rope or cable cut up into short lengths, used for making oakum, mats, or gaskets.",
+    "From Malay juak or Portuguese junco, later applied to old cordage in English.",
+    "The boys were set to work picking old junk into oakum on the lower deck.",
+    "17th-century Naval Accounts"
+  ],
+  [
+    "Jack-ladder",
+    "/ˈdʒæk ˌlædər/",
+    "t",
+    "A rope ladder with wooden rungs, used for climbing aloft or over the side.",
+    "Compound of Jack and ladder (Old English hlædder).",
+    "Hang the jack-ladder over the side so the pilot can board easily.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Jamming",
+    "/ˈdʒæmɪŋ/",
+    "e",
+    "The act of a rope becoming stuck or wedged tightly in a block or pulleysheave.",
+    "Variant of champ or cram, established in maritime use by the 17th century.",
+    "The running gear suffered from jamming in the blocks during the squall.",
+    "Marine Practice Manual"
+  ],
+  [
+    "Jib-downhaul",
+    "/ˈdʒɪb ˌdaʊnhɔːl/",
+    "t",
+    "A rope used to haul down a jib from the deck.",
+    "Combination of jib and downhaul.",
+    "Furl the jib by hauling smartly on the jib-downhaul.",
+    "The Practical Shipbuilder"
+  ],
+  [
+    "Jack-cross-tree",
+    "/ˈdʒæk krɒs triː/",
+    "t",
+    "The spreaders at the masthead that support the topmast rigging.",
+    "Combination of jack and cross-tree.",
+    "A lookout was stationed high up at the jack-cross-tree.",
+    "Nautical Nomenclature"
+  ],
+  [
+    "Jar",
+    "/dʒɑːr/",
+    "t",
+    "A sudden harsh vibration or shock transmitted through the hull.",
+    "Imitative origin, related to Old Norse garra or medieval forms of jarring.",
+    "The ship felt a heavy jar as she struck the submerged coral reef.",
+    "Shipwreck Narratives"
+  ],
+  [
+    "Jib-net",
+    "/ˈdʒɪb nɛt/",
+    "t",
+    "A safety net rigged under the bowsprit and jib-boom to catch sailors falling from aloft.",
+    "Compound of jib and net (Old English net).",
+    "Ensure the jib-net is properly seized before the men go out on the bowsprit.",
+    "Naval Deck Procedures"
+  ],
+  [
+    "Jumbo",
+    "/ˈdʒʌmboʊ/",
+    "t",
+    "A slang term used by sailors for an unusually large staysail or jib.",
+    "Origin uncertain, possibly derived from an African language via circus nomenclature popularized in the 19th century.",
+    "Hoist the jumbo to catch the light airs astern.",
+    "Whaling Voyage Journals"
+  ],
+  [
+    "Jury-spar",
+    "/ˈdʒʊəri spɑːr/",
+    "e",
+    "Any makeshift spar used in emergency repairs at sea.",
+    "Combination of jury (makeshift) and spar.",
+    "They fashioned a sturdy jury-spar out of the spare topmast.",
+    "Log of the Royal William"
+  ],
+  [
+    "Jib-guy",
+    "/ˈdʒɪb ɡaɪ/",
+    "t",
+    "A guy-rope used to steady the jib-boom or flying jib-boom against lateral strain.",
+    "Combination of jib and guy (rope used for steadying).",
+    "Tighten the jib-guy to keep the boom steady in the heavy roll.",
+    "Seamanship Defined"
+  ],
+  [
+    "Jack-screw",
+    "/ˈdʒæk skruː/",
+    "t",
+    "A heavy mechanical screw device used for stowing dense cargo like cotton or wool in the hold.",
+    "Compound of Jack and screw.",
+    "Use the jack-screw to force the last bales of cotton into the tier.",
+    "Merchant Skipper's Handbook"
+  ],
+  [
+    "Jib-tack",
+    "/ˈdʒɪb tæk/",
+    "e",
+    "The lower forward corner or rope securing the tack of a jib sail.",
+    "Combination of jib and tack.",
+    "Secure the jib-tack tightly to the iron eye on the bowsprit.",
+    "The Mariner's Assistant"
+  ],
+  [
+    "Jib-tye",
+    "/ˈdʒɪb taɪ/",
+    "t",
+    "A rope or chain by which a jib or other sail is hoisted.",
+    "Combination of jib and tye (chain or rope for hoisting).",
+    "The jib-tye parted, letting the heavy sail drop into the water.",
+    "Nautical Dictionary"
+  ],
+  [
+    "Jolting",
+    "/ˈdʒoʊltɪŋ/",
+    "t",
+    "The rough bumping movement of a vessel pounding into short, steep waves.",
+    "From Middle English jolten, to shake or toss.",
+    "The continuous jolting of the hull made sleep impossible below decks.",
+    "Voyage to the East Indies"
+  ],
+  [
+    "Jib-halliard",
+    "/ˈdʒɪb ˌhæliərd/",
+    "e",
+    "An alternate spelling of jib-halyard, the rope for hoisting the jib.",
+    "Variant spelling of jib-halyard.",
+    "Overhaul the jib-halliard before making sail in the morning.",
+    "Early Modern Sailing Manuals"
+  ],
+  [
+    "Jury-strop",
+    "/ˈdʒʊəri strɒp/",
+    "t",
+    "A temporary loop of rope used to secure a damaged spar or block.",
+    "Combination of jury and strop (rope band).",
+    "We bound the cracked yardarm securely with a jury-strop.",
+    "The Shipwright's Guide"
+  ],
+  [
+    "Jack-block-tackle",
+    "/ˈdʒæk blɒk ˌtækəl/",
+    "t",
+    "A tackle system rigged to the jack-block for heavy lifting aloft.",
+    "Compound of jack-block and tackle.",
+    "Rig the jack-block-tackle to hoist the spare topmast into position.",
+    "Naval Rigging Practices"
+  ],
+  [
+    "Jib-boom-guy",
+    "/ˈdʒɪb buːm ɡaɪ/",
+    "t",
+    "A stay rope keeping the jib-boom centered.",
+    "Compound of jib-boom and guy.",
+    "Adjust the jib-boom-guy as the wind shifts.",
+    "Practical Seamanship"
+  ],
+  [
+    "Junction",
+    "/ˈdʒʌŋkʃən/",
+    "t",
+    "The place where two rigging lines or structural timbers meet and join.",
+    "From Latin junctionem, a joining.",
+    "Inspect the junction of the shrouds for signs of wear.",
+    "Ship Inspection Reports"
+  ],
+  [
+    "Jettisoning",
+    "/ˈdʒɛtɪsənɪŋ/",
+    "e",
+    "The act of casting overboard ship cargo or stores.",
+    "Present participle of jettison.",
+    "By jettisoning the heavy ballast stones, we managed to clear the reef.",
+    "Maritime Law Reports"
+  ],
+  [
+    "Jib-halliard-tackle",
+    "/ˈdʒɪb ˈhæliərd ˌtækəl/",
+    "t",
+    "A tackle attached to the jib halliard for extra purchase.",
+    "Compound term from nautical rigging.",
+    "Hook the jib-halliard-tackle to hoist the heavy storm jib.",
+    "The Sailor's Companion"
+  ],
+  [
+    "Jury-anchor",
+    "/ˈdʒʊəri ˈæŋkər/",
+    "t",
+    "A makeshift anchor constructed from spare timber and iron when the primary anchors are lost.",
+    "Combination of jury and anchor.",
+    "Having lost our bower anchor, we dropped a jury-anchor in the bay.",
+    "Marine Disaster Accounts"
+  ],
+  [
+    "Keelhaul",
+    "/ˈkiːlhɔːl/",
+    "t",
+    "A form of punishment practiced at sea wherein the offender was dragged underneath the bottom of the ship from one yardarm to the other.",
+    "From Dutch 'kielhalen' (kiel = keel, halen = to haul).",
+    "For minor mutiny and striking an officer, he was sentenced to be keelhauled twice beneath the frigate.",
+    "Mariner's Mirror Historical Accounts"
+  ],
+  [
+    "Keelson",
+    "/ˈkɛlsən/",
+    "m",
+    "A structural timber laid directly over the floor timbers of a ship above the keel, adding longitudinal strength.",
+    "Middle English 'kelsen', related to Old Norse 'kjölsvin'.",
+    "The mainmast stepped heavily upon the keelson, distributing the crushing downward thrust of the rig.",
+    "The Shipbuilder's Assistant"
+  ],
+  [
+    "Keeper",
+    "/ˈkiːpər/",
+    "e",
+    "A ring, pin, or shackle used to secure a bolt or prevent a block from unhooking.",
+    "From Middle English 'kepere', an agent noun from 'keepen'.",
+    "Ensure every anchor shank has its iron keeper firmly keyed in place.",
+    "Captain Smith's Sea Grammar"
+  ],
+  [
+    "Kedge",
+    "/kɛdʒ/",
+    "m",
+    "A small anchor used to haul a ship short distances, known as kedging, or to steady a vessel in a tideway.",
+    "Origin uncertain, possibly Middle English or Scandinavian related to brisk motion.",
+    "Drop the kedge astern so we may warp the vessel clear of the shoals.",
+    "Falconer's Universal Dictionary of the Marine"
+  ],
+  [
+    "Kedger",
+    "/ˈkɛdʒər/",
+    "t",
+    "An alternative term for a kedge anchor or a vessel built light for maneuvering in shallow estuaries.",
+    "Derived from 'kedge' + agent suffix '-er'.",
+    "We hove up the kedger and drifted softly on the ebb tide.",
+    "Sea Terms and Phrases"
+  ],
+  [
+    "Keelane",
+    "/ˈkiːleɪn/",
+    "e",
+    "An obsolete term denoting the parallel timbers placed alongside the main keel to protect it during grounding.",
+    "Local maritime dialect of southwestern England.",
+    "The carpenter fitted new keelanes of sturdy oak before launching the pinnace.",
+    "Devonshire Port Books"
+  ],
+  [
+    "Kemp",
+    "/kɛmp/",
+    "m",
+    "Coarse, rough hair or fiber found in raw hemp used for making coarse maritime cordage.",
+    "Old English 'cempa' or Scandinavian roots related to rough texture.",
+    "The rope was fouled with inferior kemp, making it prone to fraying in damp weather.",
+    "Ropemakers' Guild Ordinances"
+  ],
+  [
+    "Kenning",
+    "/ˈkɛnɪŋ/",
+    "m",
+    "An archaic measure of distance equal to about twenty miles, or roughly what can be seen at sea under clear weather.",
+    "From the verb 'ken', to perceive.",
+    "We were scarce two kennings off the cape when the squall broke.",
+    "The Complaynt of Scotland"
+  ],
+  [
+    "Kerf",
+    "/kɜːrf/",
+    "m",
+    "The notch or slit made in a timber by a saw when fashioning ship frames.",
+    "Old English 'cyrf', a cutting or notch.",
+    "The shipwright measured the kerf to ensure absolute precision in the futtock joints.",
+    "Medieval Shipwright Accounts"
+  ],
+  [
+    "Kibe",
+    "/kaɪb/",
+    "e",
+    "A chapped or cracked sore on the heel or foot, common among sailors enduring cold, wet watch shifts.",
+    "Middle English 'kybe', of uncertain Celtic origin.",
+    "His toes were tormented with painful kibes from standing four hours on the freezing deck.",
+    "Shakespeare's The Tempest"
+  ],
+  [
+    "Killock",
+    "/ˈkɪlək/",
+    "m",
+    "A small, primitive anchor consisting of a wooden frame holding stones, used by fishermen in small craft.",
+    "Old Norse 'kolla' or Celtic roots.",
+    "Lacking a true iron anchor, the fisherman tossed his stone-weighted killock overboard.",
+    "Scottish Maritime Folklore"
+  ],
+  [
+    "Killy",
+    "/ˈkɪli/",
+    "t",
+    "A local coastal name for small tidal inlets or mud flats where small craft seek shelter.",
+    "Irish or Scottish Gaelic origin.",
+    "We ran the yawl into the sheltered killy before the gale struck.",
+    "Irish Maritime Gazetteer"
+  ],
+  [
+    "Kilt",
+    "/kɪlt/",
+    "m",
+    "To tuck up or gather the loose folds of sails, clothing, or canvas to prevent them from dragging in water.",
+    "Scots and Northern Middle English, akin to Old Norse 'kjalta'.",
+    "Kilt up your trousers before wading through the surf to the longboat.",
+    "Border Ballads"
+  ],
+  [
+    "King",
+    "/kɪŋ/",
+    "m",
+    "Prefix used in traditional maritime terminology for major structural components, such as king-plank or king-spoke.",
+    "Old English 'cyning'.",
+    "The king-plank of the quarterdeck was laid with exceptionally straight-grained teak.",
+    "The Shipwright's Vade Mecum"
+  ],
+  [
+    "King-plank",
+    "/ˈkɪŋ plæŋk/",
+    "e",
+    "The central, wider strake of deck planking running along the centerline of a ship.",
+    "From 'king' + 'plank'.",
+    "The master carpenter fitted the king-plank snugly against the stem.",
+    "Elizabethan Shipwright Journals"
+  ],
+  [
+    "King-spoke",
+    "/ˈkɪŋ spoʊk/",
+    "t",
+    "The central spoke of a ship's steering wheel, often marked or notched so the helmsman knows when the rudder is dead center.",
+    "From 'king' + 'spoke'.",
+    "Keep your eye on the king-spoke while running before this following sea.",
+    "Dana's Two Years Before the Mast"
+  ],
+  [
+    "Kintlage",
+    "/ˈkɪntlɪdʒ/",
+    "m",
+    "Ballast consisting of pigs of iron laid upon the bottom of a ship.",
+    "A corruption of 'quintal' or related Dutch weight terms.",
+    "The ship took on fifty tons of kintlage to steady her towering upper works.",
+    "Admiralty Board Proceedings"
+  ],
+  [
+    "Kip",
+    "/kɪp/",
+    "m",
+    "The hide of a young or small beast, frequently used for leather bucket manufacture or padding rigging.",
+    "Middle English 'kippe', related to Dutch dialect words for hides.",
+    "The boatswain wrapped the chafing gear in oiled kip leather.",
+    "Purser's Stores Ledger"
+  ],
+  [
+    "Kips",
+    "/kɪps/",
+    "t",
+    "Small leather pads or protective leather sleeves sewn onto standing rigging to prevent wear from sails.",
+    "Plural of kip.",
+    "Inspect the kips on the shrouds where the maintopsail yard rubs.",
+    "Manual of Seamanship"
+  ],
+  [
+    "Kite",
+    "/kaɪt/",
+    "m",
+    "Slang for any light, flimsy sail flown high up in exceptionally fair winds to gain extra speed.",
+    "Old English 'cȳta', referring to the bird of prey, due to high soaring flight.",
+    "Set the royal kites and skysails; we must catch every breath of this dying breeze.",
+    "Clipper Ship Logs"
+  ],
+  [
+    "Kittel",
+    "/ˈkɪtəl/",
+    "e",
+    "A loose white linen coat or smock worn by early mariners and fishermen in northern waters.",
+    "Germanic origin, related to coat or tunic terms.",
+    "The fishermen donned their heavy woolen kittels against the freezing spray.",
+    "North Sea Fishery Ordinances"
+  ],
+  [
+    "Knee",
+    "/niː/",
+    "m",
+    "An L-shaped piece of timber or iron used to connect and strengthen the framing of a ship, such as where deck beams meet the side.",
+    "Old English 'cnēo', knee joint.",
+    "The hanging knees of the gun deck were through-bolted with copper fastenings.",
+    "The Shipbuilder's Repository"
+  ],
+  [
+    "Kneepan",
+    "/ˈniːpæn/",
+    "t",
+    "A protective leather pad worn on the knees by caulkers who spent hours kneeling on hard wooden decks.",
+    "From 'knee' + 'pan'.",
+    "The caulker strapped on his thick kneepans before commencing work on the main deck seams.",
+    "Dockyard Worker Reminiscences"
+  ],
+  [
+    "Knitch",
+    "/nɪtʃ/",
+    "m",
+    "A bundle or truss of faggots or brushwood used aboard ship for dunnage or galley fuel.",
+    "Middle English 'knicche', a bundle.",
+    "Stow the knitches of brushwood firmly in the hold beneath the oil casks.",
+    "Exeter Port Books"
+  ],
+  [
+    "Knittle",
+    "/ˈnɪtəl/",
+    "m",
+    "A small line or cord used for tying up the reefs of a sail; also called reef-point.",
+    "Diminutive of Middle English 'knit', from Old English 'cnyttan'.",
+    "Pass the knittles through the eyelet holes and secure them with a square knot.",
+    "Captain Smith's Seamanship"
+  ],
+  [
+    "Knob",
+    "/nɒb/",
+    "m",
+    "A rounded projection or ornamental top of a timber head or rail on an old vessel.",
+    "Middle English 'knobbe', a rounded lump or protuberance.",
+    "The bell was hung from the brass knob mounted upon the fife-rail.",
+    "Ship's Inventory List"
+  ],
+  [
+    "Knock",
+    "/nɒk/",
+    "m",
+    "To strike sail abruptly; to knock off work; or the rhythmic striking of a ship's hull against ice.",
+    "Middle English 'knokken', from Old English 'cnocian'.",
+    "Knock off hauling on that halyard and secure the pin.",
+    "Merchant Navy Dialogues"
+  ],
+  [
+    "Laggen",
+    "/ˈlæɡən/",
+    "m",
+    "The projection of the staves beyond the bottom or head of a cask, essential for the cooperage of fresh water and salt provisions aboard ship.",
+    "Middle English, from Old Norse laggynd",
+    "Ensure the butter firkins are tight at the laggen before stowing in the hold.",
+    "The Mariner's Mirror, Maritime Historical Records"
+  ],
+  [
+    "Lash-tree",
+    "/ˈlæʃtriː/",
+    "t",
+    "An obsolete term for a spar or rail used to lash spare spars or extra gear securely along the bulwarks.",
+    "Victorian nautical slang",
+    "Stow the spare topmast securely against the lash-tree before we round the Horn.",
+    "Smyth's Sailor's Word-Book, 1867"
+  ],
+  [
+    "Lateen",
+    "/ləˈtiːn/",
+    "e",
+    "A triangular sail set on a long yard angled at an approximately 45-degree angle to the mast.",
+    "French latine, meaning 'Latin (sail)'",
+    "The xebec hoisted her great lateen sail and cut swiftly across the swell.",
+    "Sir Walter Raleigh, History of the World, 1614"
+  ],
+  [
+    "Latitat",
+    "/ˈlætɪtæt/",
+    "t",
+    "A writ formerly issued in the Court of King's Bench, playfully applied by sailors to a ship that vanished unexpectedly or lurked out of sight.",
+    "Latin, 'he lies hidden'",
+    "She slipped out of Plymouth Sound like a latitat, leaving her creditors none the wiser.",
+    "Marryat, Peter Simple, 1834"
+  ],
+  [
+    "Launching",
+    "/ˈlɔːntʃɪŋ/",
+    "t",
+    "The formal operation of sliding a newly built wooden hull from the slipway into the water.",
+    "Middle English launchen, to dart or slip",
+    "The launching of the three-master drew hundreds of shipwrights and townsfolk to the dockyards.",
+    "The Shipwright's Vade-Mecum, 1822"
+  ],
+  [
+    "Laveer",
+    "/ləˈvɪər/",
+    "e",
+    "To tack or beat against the wind; to sail close-hauled in a zigzag course.",
+    "Dutch laveren, via French",
+    "We were forced to laveer against a heavy nor'easter for three days.",
+    "William Monson, Naval Tracts, 1600"
+  ],
+  [
+    "Laving",
+    "/ˈleɪvɪŋ/",
+    "t",
+    "The action of baling water out of a boat or canoe using a scoop or bucket.",
+    "Old English lafigan",
+    "Keep to the laving of the longboat, lest the bilge water swamp our stores.",
+    "Log of the H.M.S. Beagle, 1831"
+  ],
+  [
+    "Lay-day",
+    "/ˈleɪdeɪ/",
+    "t",
+    "A day agreed upon in a charter party for loading or unloading cargo without incurring demurrage charges.",
+    "English commercial maritime term",
+    "Two lay-days remain before the port authorities demand anchorage fees.",
+    "Merchant Shipping Act, 1854"
+  ],
+  [
+    "Leaching",
+    "/ˈliːtʃɪŋ/",
+    "t",
+    "The process where salt water washes through poorly stowed cargo, or the trickling of rain through old deck seams.",
+    "Old English leccan, to wet",
+    "The constant leaching of brine had ruined half the tobacco casks in the lower tier.",
+    "Customs Officer's Log, Port of London, 1845"
+  ],
+  [
+    "Leakage",
+    "/ˈliːkɪdʒ/",
+    "e",
+    "An allowance made by merchants or shipmasters for the quantity of liquid lost from casks through shipping stress.",
+    "Middle English, from leak",
+    "The bill of lading allows ten percent for leakage on the Madeira wine.",
+    "The Merchant's Map of Commerce, 1638"
+  ],
+  [
+    "Leam",
+    "/liːm/",
+    "m",
+    "An obsolete term for a gleam of light, specifically applied to the flash of a lighthouse or a beacon fire on shore.",
+    "Old English lēoma, light or ray",
+    "Keep watch for the leam of the headland fire to guide us past the reef.",
+    "Nautical Glossary of the XIV Century"
+  ],
+  [
+    "Lean-to",
+    "/ˈliːntuː/",
+    "t",
+    "A temporary canvas shelter rigged against a ship's deckhouse or bulwark for tropical protection.",
+    "English dialectal origin",
+    "The crew rigged a lean-to of spare canvas on the quarterdeck to escape the equatorial sun.",
+    "Journal of a Whaling Voyage, 1850"
+  ],
+  [
+    "Leaping-line",
+    "/ˈliːpɪŋlaɪn/",
+    "t",
+    "A safety lifeline rigged along the weather deck during violent storms to prevent men from being washed overboard.",
+    "English nautical compound",
+    "All hands must hold fast to the leaping-line when crossing the waist in a gale.",
+    "The Nautical Magazine, 1858"
+  ],
+  [
+    "Lear",
+    "/lɪər/",
+    "m",
+    "Empty, void, or unloaded; specifically applied to a ship sailing without cargo (ballast-deep).",
+    "Old English gelǣre, empty",
+    "The carrick returned from Bordeaux quite lear, having found no market for her wool.",
+    "Port Books of Southampton, 1450"
+  ],
+  [
+    "Lease-pin",
+    "/ˈliːspɪn/",
+    "t",
+    "A belaying pin used specifically for securing light running rigging lines.",
+    "English dialectal variation of belaying pin",
+    "Fasten the jib-halyard securely to the lease-pin on the fife-rail.",
+    "Practical Shipbuilding, 1878"
+  ],
+  [
+    "Leather-jacket",
+    "/ˈlɛðərdʒækɪt/",
+    "t",
+    "A protective sleeve of sewn leather wrapped around standing rigging to prevent chafing against the sails.",
+    "English compound",
+    "Renew the leather-jackets on the shrouds before they chafe through the hemp.",
+    "The Rigger's Guide, 1855"
+  ],
+  [
+    "Lee-board",
+    "/ˈliːbɔːrd/",
+    "e",
+    "A flat wooden frame lowered on the leeward side of flat-bottomed vessels to prevent leeway.",
+    "Dutch leeboord",
+    "Lower the lee-board on the starboard side as we beat up the shallow estuary.",
+    "Captain John Smith, Generall Historie, 1624"
+  ],
+  [
+    "Lee-latch",
+    "/ˈliːlætʃ/",
+    "t",
+    "The condition of a ship falling off rapidly to leeward due to insufficient canvas or a heavy beam sea.",
+    "English nautical slang",
+    "She has too much lee-latch in this swell; set the spanker at once.",
+    "The Sailor's Hornbook, 1848"
+  ],
+  [
+    "Leer-side",
+    "/ˈlɪərsaɪd/",
+    "e",
+    "The side of the ship opposite to that from which the wind blows (the leeward side).",
+    "Old English hleor, cheek or side",
+    "The galley fire was struck on the leer-side to keep the smoke clear of the helm.",
+    "Elizabethan Admiralty Records, 1598"
+  ],
+  [
+    "Leet-man",
+    "/ˈliːtmən/",
+    "m",
+    "A local harbor official or juryman responsible for resolving maritime disputes in port courts.",
+    "Old English lǣt, a man of lower jurisdiction",
+    "The leet-man inspected the damaged cargo upon the quay.",
+    "Customs Roll of the Port of Ipswich, 1380"
+  ],
+  [
+    "Leg-of-mutton",
+    "/ˌlɛɡəvˈmʌtən/",
+    "t",
+    "A triangular sail resembling a sheep's leg, commonly used on small pinnaces and ships' boats.",
+    "English descriptive idiom",
+    "Rig the leg-of-mutton sail on the cutter for our trip ashore.",
+    "Falconer's Universal Dictionary of the Marine, 1780"
+  ],
+  [
+    "Lehr",
+    "/lɪər/",
+    "m",
+    "An obsolete term for a path, channel, or fairway through a dangerous shallow or coral patch.",
+    "Old English læren, to guide",
+    "Keep the lead moving while we thread the lehr between the northern reefs.",
+    "Medieval Pilot Book of the Narrow Seas"
+  ],
+  [
+    "Lenten-fare",
+    "/ˈlɛntənfɛər/",
+    "e",
+    "The meager diet of salt cod, dried peas, and hard biscuit served aboard ship during long fast periods.",
+    "Old English lencten + fær",
+    "The crew grumbled loudly against another week of Lenten-fare in the middle of June.",
+    "Hakluyt's Voyages, 1589"
+  ],
+  [
+    "Let-be",
+    "/ˈlɛtbiː/",
+    "e",
+    "An order to cease working a tackle, halyard, or capstan instantly.",
+    "Middle English leten be",
+    "Let-be on the main-brace, or the mast will snap in the squall!",
+    "Play of the Sea, Elizabethan Drama, 1601"
+  ],
+  [
+    "Level-coil",
+    "/ˈlɛvəlkɔɪl/",
+    "t",
+    "A nautical rope-coiling method where each fake lies flat and even upon the previous one to allow fast running.",
+    "English nautical term",
+    "Cull the heavy tow-line into a neat level-coil upon the grating.",
+    "Seamanship for the Merchant Service, 1860"
+  ],
+  [
+    "Lice-tub",
+    "/ˈlaɪstʌb/",
+    "t",
+    "A tub filled with lye or saltwater mixture used by sailors for washing coarse garments and bedding.",
+    "English naval slang",
+    "Bring the lice-tub up to the main hatch for the morning's wash-day.",
+    "Journal of a British Tar, 1812"
+  ],
+  [
+    "Lid-piece",
+    "/ˈlɪdpiːs/",
+    "e",
+    "A heavy wooden shutter used to close gunports securely in heavy weather.",
+    "Middle English, lid + piece",
+    "Drop the lid-pieces and bar them tight as the gale sets in from the west.",
+    "Royal Navy Stores Inventory, 1630"
+  ],
+  [
+    "Lie-by",
+    "/ˈlaɪbaɪ/",
+    "t",
+    "A sheltered anchorage where a ship waits safely for a favorable tide or wind.",
+    "English dialectal origin",
+    "We found a quiet lie-by behind the headland while the storm blew itself out.",
+    "Coastal Pilot of Great Britain, 1872"
+  ],
+  [
+    "Life-line",
+    "/ˈlaɪflaɪn/",
+    "t",
+    "A rope stretched along a deck, yard, or boat to provide handholds for the crew in heavy weather.",
+    "English compound",
+    "Rig the life-lines along the deck before the sea begins to break over the bows.",
+    "The Mariner's Chronicle, 1825"
+  ],
+  [
+    "Lift-block",
+    "/ˈlɪftblɒk/",
+    "t",
+    "A specialized pulley block through which the yard lifts are rove to support heavy spars.",
+    "English mechanical term",
+    "The pin in the main-lift-block has sheared under the strain of the yard.",
+    "The Modern Sailor, 1875"
+  ],
+  [
+    "Light-room",
+    "/ˈlaɪtruːm/",
+    "e",
+    "A secure glass-enclosed compartment adjacent to the gunpowder magazine, housing lanterns to illuminate it safely.",
+    "English naval architecture term",
+    "Trim the oil lamps in the light-room before the evening gun is fired.",
+    "Instructions for Naval Commanders, 1690"
+  ],
+  [
+    "Lighter",
+    "/ˈlaɪtər/",
+    "e",
+    "A heavy, flat-bottomed barge used to transport cargo to and from ships moored in deep water.",
+    "Dutch lichter, fromlichten to lighten",
+    "The lighters are coming alongside to offload the timber cargo from the Baltic.",
+    "Customs Regulations of London, 1612"
+  ],
+  [
+    "Lighterage",
+    "/ˈlaɪtərɪdʒ/",
+    "t",
+    "The fee charged for transporting goods in lighters, or the business of operating such craft.",
+    "English derivative of lighter",
+    "The cost of lighterage in this harbor exceeds the freight charges from Cadiz.",
+    "Commercial Maritime Law, 1840"
+  ],
+  [
+    "Limber-board",
+    "/ˈlɪmbərbɔːrd/",
+    "t",
+    "A short plank covering the limber holes in the floor timbers, removable to allow cleaning of bilge debris.",
+    "English shipbuilding term",
+    "Lift the limber-boards and clear out the accumulation of wood shavings and scale.",
+    "The Shipbuilder's Assistant, 1755"
+  ],
+  [
+    "Limber-hole",
+    "/ˈlɪmbərhoʊl/",
+    "e",
+    "A small drainage hole cut through the lower framing timbers to allow bilge water to flow toward the pump-well.",
+    "Old French lumière, light or opening",
+    "Check that every limber-hole is clear so the bilge water reaches the pumps.",
+    "Mainwaring's Seamans Dictionary, 1644"
+  ],
+  [
+    "Line-of-battle",
+    "/ˈlaɪnəvˌbætəl/",
+    "e",
+    "The tactical formation of warships arranged in a single straight file to concentrate broadside fire against an enemy fleet.",
+    "English naval tactical term",
+    "Form the line-of-battle ahead; the enemy fleet is emerging from the fog.",
+    "Duke of York's Sailing and Fighting Instructions, 1673"
+  ],
+  [
+    "Lip-block",
+    "/ˈlɪpblɒk/",
+    "t",
+    "A specialized wooden block with an extended curved lip to prevent the rope from jamming against the cheeks.",
+    "English nautical hardware",
+    "Fit a lip-block on the topsail sheet to stop the line from binding.",
+    "Practical Rigging Manual, 1880"
+  ],
+  [
+    "Lissome",
+    "/ˈlɪsəm/",
+    "e",
+    "Supple, flexible, and agile; often used to describe nimble topmen moving through the rigging.",
+    "Middle English lithesome",
+    "The young midshipman was lissome enough to shin up the royal stay without hesitation.",
+    "Shakespeare, Pericles (variant usage), 1608"
+  ],
+  [
+    "Lister",
+    "/ˈlɪstər/",
+    "m",
+    "A barbed spear or fish-gig used by fishermen from small boats or coastal shallows.",
+    "Old Norse ljástr",
+    "The crew used listers to catch large cod from the shallow banks off Newfoundland.",
+    "Norse-English Coastal Trade Records, 1400"
+  ],
+  [
+    "Load-line",
+    "/ˈloʊdlaɪn/",
+    "t",
+    "The official legal mark painted on a ship's hull indicating the maximum safe depth to which she may be loaded.",
+    "English maritime law term",
+    "The port officer inspected the load-line before granting clearance for the West Indies.",
+    "Plimsoll Act Debates, 1876"
+  ],
+  [
+    "Maintopman",
+    "/ˈmeɪnˌtɒpmən/",
+    "t",
+    "A sailor stationed on the maintop to manage the sails, rigging, and yards of the mainmast.",
+    "English compound of maintop + man, dating to the height of the age of sail.",
+    "The maintopman worked frantically aloft to reef the main-topsail as the squall struck.",
+    "William Smyth, The Sailor's Word-Book, 1867"
+  ],
+  [
+    "Midshipmite",
+    "/ˈmɪdʃɪpˌmaɪt/",
+    "t",
+    "A colloquial, affectionate term for a midshipman, the lowest rank of naval officer in training.",
+    "English diminutive formation combining midshipman and mite (small child/thing), popular in 19th-century naval culture.",
+    "A bold little middy, a bright-eyed young mite, through wind and through weather, the young midshipmite.",
+    "W.H. Giles Kingston, True Blue, 1872"
+  ],
+  [
+    "Mizzenmast",
+    "/ˈmɪzənˌmæst/",
+    "e",
+    "The third mast from forward, or the aftermost mast, on a ship with three or more masts.",
+    "From Middle French mizaine, ultimately from Italian mezzana (middle or half-sized sail).",
+    "We lost our mizzenmast in the gale, leaving the vessel sluggish and difficult to steer.",
+    "Walter Raleigh, Discovered Guiana, 1596"
+  ],
+  [
+    "Mariner",
+    "/ˈmærɪnər/",
+    "m",
+    "A person who assists in navigating a ship or who is engaged in seamanship; a sailor.",
+    "From Middle English mariner, via Old French from Medieval Latin marinarius.",
+    "An ancient mariner meeteth three gallants bidden to a wedding-feast.",
+    "Samuel Taylor Coleridge, The Rime of the Ancient Mariner, 1798"
+  ],
+  [
+    "Martingale",
+    "/ˈmɑːrtɪŋɡeɪl/",
+    "t",
+    "A short, vertical spar under the bowsprit used to guy down the jib-stays and prevent them from lifting.",
+    "Origin uncertain; perhaps from Martigues in France, or named after a type of horse harness.",
+    "The martingale snapped under the immense strain of the plunging seas, throwing the jib-boom out of true.",
+    "Admiral William Henry Smyth, The Sailor's Word-Book, 1867"
+  ],
+  [
+    "Maintack",
+    "/ˈmeɪnˌtæk/",
+    "e",
+    "The great rope used to haul down and secure the weather lower corner of the mainsail.",
+    "English compound of main + tack, standard nautical terminology by the Elizabethan era.",
+    "Let go the mainsheet and ease off the maintack as she comes about into the wind.",
+    "John Smith, A Sea Grammar, 1627"
+  ],
+  [
+    "Mainbrace",
+    "/ˈmeɪnˌbreɪs/",
+    "e",
+    "A heavy rope attached to the yardarm of the mainsail to trim the yard or hold it steady.",
+    "English compound of main + brace, used metaphorically in the famous phrase 'splice the mainbrace'.",
+    "The shot severed the starboard mainbrace, leaving the heavy yard swinging wildly.",
+    "Captain Nathaniel Boteler, Boteler's Dialogues, 1634"
+  ],
+  [
+    "Mizzenyard",
+    "/��mɪzənˌjɑːrd/",
+    "e",
+    "The spar attached to the mizzenmast upon which the lateen or fore-and-aft sail is extended.",
+    "Middle English combination of mizzen and yard (Old English gyrd).",
+    "The mizzenyard dipped low toward the water as the vessel heeled to the gust.",
+    "William Shakespeare, Henry VI, Part 3, 1591"
+  ],
+  [
+    "Moorage",
+    "/ˈmʊrɪdʒ/",
+    "t",
+    "The charge or fee for mooring a ship, or the place where a ship is moored.",
+    "Derived from the verb moor + -age suffix, coming into common maritime use in the Victorian era.",
+    "The harbor master demanded an exorbitant moorage fee for the winter berth.",
+    "Merchant Shipping Act records, 1854"
+  ],
+  [
+    "Moor-ball",
+    "/ˈmʊərˌbɔːl/",
+    "t",
+    "A floating buoy or spherical wooden float used to mark an anchor or mooring cable.",
+    "Compound of moor and ball, used in dockyards and harbors.",
+    "Secure the small skiff to the moor-ball near the channel entrance.",
+    "Nautical Magazine, Vol. 32, 1863"
+  ],
+  [
+    "Maintop",
+    "/ˈmeɪnˌtɒp/",
+    "m",
+    "The platform surrounding the head of the mainmast, serving to spread the rigging and provide a vantage point.",
+    "Middle English main + top.",
+    "A lookout was stationed in the maintop to watch for enemy sails on the horizon.",
+    "Geoffrey Chaucer, The Canterbury Tales, c. 1400"
+  ],
+  [
+    "Mainmast",
+    "/ˈmeɪnˌmæst/",
+    "m",
+    "The principal, tallest mast of a ship, situated approximately in the middle of the vessel.",
+    "Old English mægenmæst (mægen meaning strength or main + mæst mast).",
+    "The lightning bolt struck the mainmast, splitting the timber down to the deck.",
+    "The Anglo-Saxon Chronicle, c. 1050"
+  ],
+  [
+    "Mainsail",
+    "/ˈmeɪnˌseɪl/",
+    "m",
+    "The largest and lowest sail on the mainmast of a sailing vessel.",
+    "Old English mægensegn, combining strength/main with sail.",
+    "They double-reefed the mainsail as the tempest began to howl across the bay.",
+    "The Equator Rolls, Medieval Port Records, 1378"
+  ],
+  [
+    "Mainsheet",
+    "/ˈmeɪnˌʃiːt/",
+    "m",
+    "The rope or tackle by which the mainsail is held and trimmed.",
+    "Old English mægen + scēat (corner of a sail or sheet).",
+    "Hold fast to the mainsheet lest the boom swing across and sweep the deck.",
+    "Morte Arthure, c. 1400"
+  ],
+  [
+    "Mizzen",
+    "/ˈmɪzən/",
+    "e",
+    "The lowest sail set on the mizzenmast, or the mast itself.",
+    "Middle French mizaine, from Italian mezzana.",
+    "Set the mizzen to bring her head up into the wind.",
+    "Richard Hakluyt, Principal Navigations, 1589"
+  ],
+  [
+    "Mizen-stay",
+    "/ˈmɪzənˌsteɪ/",
+    "e",
+    "A heavy rope running from the top of the mizzenmast down to the base of the mainmast to support it.",
+    "Middle English mizen + Old English stīg[an] or related stay.",
+    "The mizen-stay parted, threatening to bring down the upper spars.",
+    "Mainwaring's Seaman's Dictionary, 1644"
+  ],
+  [
+    "Moor-master",
+    "/ˈmʊərˌmɑːstər/",
+    "t",
+    "An official charged with overseeing the mooring, berthing, and placement of ships in a harbor.",
+    "Compound of moor and master.",
+    "The moor-master assigned the incoming merchantman a berth near the custom-house.",
+    "Port of London Regulations, 1812"
+  ],
+  [
+    "Manrope",
+    "/ˈmænˌroʊp/",
+    "l",
+    "A safety rope hung over the side of a ship or along a ladder, gangway, or hatchway for men to hold onto.",
+    "Middle English man + rope.",
+    "Grip the manropes tightly as you descend the Jacob's ladder in this swell.",
+    "Captain John Smith, The Seaman's Grammar, 1627"
+  ],
+  [
+    "Messenger",
+    "/ˈmɛsɪndʒər/",
+    "m",
+    "An endless line or rope used on warships to convey the power of the capstan to the heavy anchor cable.",
+    "Old French messagier, adapted into nautical terminology in the medieval period.",
+    "Pass the messenger around the capstan barrel and heave away with a will.",
+    "The Black Book of the Admiralty, c. 1330"
+  ],
+  [
+    "Midship",
+    "/ˈmɪdˌʃɪp/",
+    "e",
+    "The middle section of a ship, situated equidistant from the bow and stern.",
+    "English compound of mid and ship, dating to early modern shipbuilding.",
+    "Store the heaviest casks of provisions amidship to preserve the vessel's trim.",
+    "Sir Walter Raleigh, History of the World, 1614"
+  ],
+  [
+    "Midships",
+    "/ˈmɪdˌʃɪps/",
+    "e",
+    "Adverbial form indicating the middle of the ship, especially regarding the helm.",
+    "Genitive form of midship used adverbially in nautical steering commands.",
+    "Put the helm midships and hold her steady on that heading.",
+    "William Shakespeare, The Tempest, 1611"
+  ],
+  [
+    "Mooring",
+    "/ˈmʊərɪŋ/",
+    "m",
+    "The anchor, chains, and buoys by which a ship is secured in a particular place, or the act of securing it.",
+    "Derived from Middle English muren (to moor).",
+    "The ship dragged her mooring during the midnight gale and drifted toward the shoals.",
+    "Portsmouth Municipal Records, 1450"
+  ],
+  [
+    "Mud-hook",
+    "/ˈmʌdˌhʊk/",
+    "t",
+    "A slang term among sailors for a small anchor, particularly one used in muddy bottoms or anchorages.",
+    "Colloquial English compound of mud and hook.",
+    "Drop the mud-hook; we'll wait out the tide in this quiet cove.",
+    "Frederick Marryat, Mr. Midshipman Easy, 1836"
+  ],
+  [
+    "Mutineer",
+    "/ˌmjuːtɪˈnɪər/",
+    "e",
+    "A person who takes part in a mutiny or open rebellion against lawful maritime authority.",
+    "From French mutin, derived from mutiner (to revolt).",
+    "The captain declared the ringleaders to be mutineers and clapped them in irons.",
+    "Thomas D'Urfey, Pills to Purge Melancholy, 1719"
+  ],
+  [
+    "Mutiny",
+    "/ˈmjuːtɪni/",
+    "e",
+    "An open rebellion against the captain or officers of a ship by the crew.",
+    "From Middle French mutiner, related to Latin motus (disturbance).",
+    "Fearing mutiny among the starving crew, the master altered course for the nearest port.",
+    "Richard Hakluyt, Voyages, 1598"
+  ],
+  [
+    "Mainsail-hauling",
+    "/ˈmeɪnˌseɪl ˈhɔːlɪŋ/",
+    "t",
+    "The action of shifting the heavy mainsail and its yards during the maneuver of tacking a square-rigged ship.",
+    "Compound of mainsail and hauling.",
+    "At the cry of 'mainsail-hauling', the crew threw their weight onto the braces.",
+    "Admiral W.H. Smyth, The Sailor's Word-Book, 1867"
+  ],
+  [
+    "Mizzen-stay-sail",
+    "/ˈmɪzən steɪ seɪl/",
+    "e",
+    "A triangular sail set on the mizzen-stay between the mainmast and mizzenmast.",
+    "Compound of mizzen, stay, and sail.",
+    "Hoist the mizzen-stay-sail to help her grip the water on this reach.",
+    "Captain John Smith, A Sea Grammar, 1627"
+  ],
+  [
+    "Moor-rope",
+    "/ˈmʊərˌroʊp/",
+    "m",
+    "A stout rope or hawser used for tying a ship to a wharf, pier, or anchor buoy.",
+    "Old English mōrpāp or Middle English moor + rope.",
+    "The moor-ropes parted under the surging pressure of the high tide.",
+    "The Brut Chronicles, c. 1420"
+  ],
+  [
+    "Main-yard",
+    "/ˈmeɪnˌjɑːrd/",
+    "m",
+    "The lowest and largest yard on the mainmast, from which the mainsail is suspended.",
+    "Old English mægen + gyrd.",
+    "A sailor was sent aloft to grease the main-yard against the friction of the lifts.",
+    "Palsgrave, L'Esclarcissement, 1530"
+  ],
+  [
+    "Main-hatch",
+    "/ˈmeɪnˌhætʃ/",
+    "m",
+    "The principal and largest hatchway leading down into the hold of a merchant ship or warship.",
+    "Middle English main + hacche.",
+    "Lower the cargo slings carefully down through the main-hatch.",
+    "Customs Roll of London, 1339"
+  ],
+  [
+    "Mast-head",
+    "/ˈmɑːstˌhɛd/",
+    "m",
+    "The top of a mast, where sailors were often sent as a punishment or to keep watch.",
+    "Middle English mast + heued.",
+    "He spent four long hours at the mast-head as penance for sleeping on watch.",
+    "The Paston Letters, 1461"
+  ],
+  [
+    "Midshipman",
+    "/ˈmɪdʃɪpˌmæn/",
+    "e",
+    "A historical naval officer cadet ranking above a master's mate and below a lieutenant.",
+    "Middle English midship + man.",
+    "The young midshipman took charge of the jolly boat with youthful pride.",
+    "Samuel Pepys, Diary, 1662"
+  ],
+  [
+    "Mizzen-top",
+    "/ˈmɪzənˌtɒp/",
+    "e",
+    "The platform at the head of the mizzenmast.",
+    "Compound of mizzen and top.",
+    "A midshipman stood in the mizzen-top signalling the flagship.",
+    "Edward Barlow, Barlow's Journal of his Life at Sea, 1670"
+  ],
+  [
+    "Mizzen-topsail",
+    "/ˈmɪzənˌtɒpˌseɪl/",
+    "e",
+    "The square sail set immediately above the mizzen sail on the mizzenmast.",
+    "Compound of mizzen, top, and sail.",
+    "Reef the mizzen-topsail before the gale catches us broadside.",
+    "Bartholomew Lowe, Ordinance of the Navy, 1620"
+  ],
+  [
+    "Maintopmast",
+    "/ˈmeɪnˌtɒpˌmæst/",
+    "e",
+    "The second section of the mainmast, standing directly above the lower mainmast and below the main-topgallant mast.",
+    "Compound of main, top, and mast.",
+    "The maintopmast was sprung during the heavy squall and had to be fished with timber.",
+    "William Monson, Naval Tracts, 1610"
+  ],
+  [
+    "Maintopsail",
+    "/ˈmeɪnˌtɒpˌseɪl/",
+    "m",
+    "The square sail hoisted on the maintopmast.",
+    "Middle English main + top + sail.",
+    "The maintopsail was let fly as the ship maneuvered to avoid the reef.",
+    "War Department Records, 1417"
+  ],
+  [
+    "Marline",
+    "/ˈmɑːrlɪn/",
+    "e",
+    "A small two-stranded cord or line used for seizing the ends of larger ropes or winding around cables to prevent chafing.",
+    "Middle English marline, from marliere (to bind with twine).",
+    "Whip the frayed end of the hawser with marline to keep it from unravelling.",
+    "Captain John Smith, The Seaman's Grammar, 1627"
+  ],
+  [
+    "Marlinespike",
+    "/ˈmɑːrlɪnˌspaɪk/",
+    "e",
+    "A pointed iron tool used by sailors to separate strands of rope in splicing, or to untie tight knots.",
+    "Compound of marline and spike.",
+    "He tucked his marlinespike into his belt and climbed back out onto the yards.",
+    "Captain Nathaniel Boteler, Boteler's Dialogues, 1634"
+  ],
+  [
+    "Martnet",
+    "/ˈmɑːrtnɪt/",
+    "e",
+    "An archaic small line fastened to the leech of a sail to help haul it up to the yard for furling.",
+    "Middle French martinet.",
+    "Haul taut the martnets so the sail may be neatly furled against the yard.",
+    "Henry Mainwaring, The Seaman's Dictionary, 1644"
+  ],
+  [
+    "Mast-house",
+    "/ˈmɑːstˌhaʊs/",
+    "t",
+    "A shed or building in a dockyard where masts are manufactured, stored, or repaired.",
+    "Compound of mast and house.",
+    "The shipwrights dragged the newly shaped spar out of the mast-house to the slipway.",
+    "The Mariner's Mirror, historical compilation of dockyard terms"
+  ],
+  [
+    "Mousing",
+    "/ˈmaʊzɪŋ/",
+    "e",
+    "A small piece of spun-yarn or marline whipped across the opening of a hook to prevent it from accidentally unhooking.",
+    "Derived from the verb mouse (to bind around, resembling a mouse running across), used in rigging.",
+    "Ensure every cargo hook is properly moused before lifting the heavy ordinance.",
+    "William Falconer, Universal Dictionary of the Marine, 1769"
+  ],
+  [
+    "Mud-pilot",
+    "/ˈmʌdˌpaɪlət/",
+    "t",
+    "A derogatory or informal term for a pilot who specializes in navigating shallow rivers, estuaries, and muddy harbors.",
+    "Compound of mud and pilot.",
+    "The deep-water skipper sneered at the river pilot, calling him a mere mud-pilot.",
+    "W.H. Smyth, The Sailor's Word-Book, 1867"
+  ],
+  [
+    "Mizzen-peak",
+    "/ˈmɪzənˌpiːk/",
+    "e",
+    "The upper outer corner of a lateen or gaff-rigged mizzen sail.",
+    "Compound of mizzen and peak.",
+    "The halyards snapped at the mizzen-peak, letting the corner of the sail droop.",
+    "Log of HMS Resolution, 1776"
+  ],
+  [
+    "Midship-beam",
+    "/ˈmɪdʃɪpˌbiːm/",
+    "t",
+    "The widest timber beam crossing the hull at its midship section, dictating the vessel's maximum breadth.",
+    "Compound of midship and beam.",
+    "The ship measured thirty feet across the midship-beam, giving her excellent stability.",
+    "A Treatise on Marine Architecture, 1820"
+  ],
+  [
+    "Nautical",
+    "/ˈnɔːtɪkəl/",
+    "e",
+    "Pertaining to ships, sailors, or navigation upon the sea.",
+    "From Latin nauticus, from Greek nautikos, from naus (ship).",
+    "He was a man of singular nautical experience and skill upon the main.",
+    "Richard Hakluyt, Principal Navigations, 1589"
+  ],
+  [
+    "Navigability",
+    "/ˌnævɪɡəˈbɪlɪti/",
+    "t",
+    "The quality or state of a channel or sea being safe and deep enough for ships to pass.",
+    "From French navigabilité, from Latin navigabilis.",
+    "The severe ice blocked the navigability of the northern strait for months.",
+    "Maritimer's Gazette, 1854"
+  ],
+  [
+    "Navigation",
+    "/ˌnævɪˈɡeɪʃən/",
+    "m",
+    "The art, science, or act of conducting a ship from one place to another across the sea.",
+    "From Latin navigationem, from navigare (to sail).",
+    "By the stars and astrolabe, their navigation held true through the tempest.",
+    "Geoffrey Chaucer, The Canterbury Tales, c. 1400"
+  ],
+  [
+    "Navigator",
+    "/ˈnævɪɡeɪtər/",
+    "e",
+    "One who directs the course of a ship or charts the position at sea.",
+    "From Latin navigator, a sailor or pilot.",
+    "The expert navigator laid the course toward the distant spice islands.",
+    "William Shakespeare, Twelfth Night, 1601"
+  ],
+  [
+    "Navigatory",
+    "/ˈnævɪɡətəri/",
+    "t",
+    "Relating to navigation or the management of vessels.",
+    "From Latin navigatorius, from navigator.",
+    "Several navigatory treatises were published for the instruction of young midshipmen.",
+    "Admiralty Proceedings, 1812"
+  ],
+  [
+    "Navy",
+    "/ˈneɪvi/",
+    "m",
+    "The whole body of war-vessels belonging to a nation, together with their officers and men.",
+    "From Old French navie, from Latin navia (ship).",
+    "The king gathered a mighty navy to guard the narrow seas from foreign foes.",
+    "John Trevisa, translation of Higden's Polychronicon, 1387"
+  ],
+  [
+    "Nebule",
+    "/ˈnɛbjuːl/",
+    "t",
+    "An obsolete term for a cloud or fogbank at sea that obscures visibility for mariners.",
+    "From Latin nebula (mist, cloud, fog).",
+    "A thick nebule settled upon the waters, concealing the hidden reefs.",
+    "Sailing Directions for the Atlantic, 1845"
+  ],
+  [
+    "Neck",
+    "/nɛk/",
+    "m",
+    "The narrow part of a ship's hull near the bow or stern, or the narrow part of a spar.",
+    "From Old English hnecca (back of the neck).",
+    "Secure the main yard by the neck lest it slip in the heavy swell.",
+    "Navy Records Society, 15th-century manuscript"
+  ],
+  [
+    "Neele",
+    "/niːl/",
+    "m",
+    "An obsolete Middle English spelling of the magnetic needle used in the mariner's compass.",
+    "From Old English nǣdl.",
+    "The neele trembled within the binnacle as the vessel turned south.",
+    "The Myrrour of the World, c. 1480"
+  ],
+  [
+    "Neeld",
+    "/niːld/",
+    "e",
+    "An Elizabethan variant for the compass needle or mariner's magnetic pointer.",
+    "Variant of needle, Middle English neld.",
+    "By the trembling neeld, the helmsman steered through the pitch-black night.",
+    "William Shakespeare, A Midsummer Night's Dream, 1595"
+  ],
+  [
+    "Neoptolemic",
+    "/ˌniːəptəˈlɛmɪk/",
+    "t",
+    "Metaphorically applied by Victorian naval writers to fierce, youthful naval engagements.",
+    "From Neoptolemus, son of Achilles in Greek mythology.",
+    "The neoptolemic fury of the boarding party overwhelmed the enemy deck.",
+    "Nautical Magazine, 1872"
+  ],
+  [
+    "Nepe",
+    "/niːp/",
+    "m",
+    "Middle English spelling of neap, referring to tides of minimum range.",
+    "From Old English nēpflōd.",
+    "During the nepe, the ship remained aground in the shallows.",
+    "The Kalender of Shepherdes, 1503"
+  ],
+  [
+    "Nephogram",
+    "/ˈnɛfəɡræm/",
+    "t",
+    "A meteorological drawing or record of cloud forms observed at sea by navigators.",
+    "From Greek nephos (cloud) + gramma (drawn).",
+    "The ship's doctor entered a detailed nephogram in the meteorological log.",
+    "Transactions of the Meteorological Society, 1878"
+  ],
+  [
+    "Nephoscope",
+    "/ˈnɛfəskoʊp/",
+    "t",
+    "An instrument used by mariners to determine the altitude and motion of clouds.",
+    "From Greek nephos (cloud) + skopein (to view).",
+    "With the nephoscope, the mate predicted the oncoming squall.",
+    "Manual of Scientific Enquiry for the Royal Navy, 1871"
+  ],
+  [
+    "Nettles",
+    "/ˈnɛtəlz/",
+    "e",
+    "Small lines made of untwisted rope yarn used for tying up the reefs of a sail.",
+    "From Old English netel.",
+    "Tie the nettles securely to the yardarm to furl the mainsail.",
+    "Captain John Smith, A Sea Grammar, 1627"
+  ],
+  [
+    "Neuration",
+    "/njʊˈreɪʃən/",
+    "t",
+    "A term used in marine biology descriptions during early Victorian deep-sea dredging.",
+    "From Latin nervus (sinew, nerve).",
+    "The specimen exhibited a distinct neuration along the translucent fin.",
+    "Voyage of H.M.S. Challenger Reports, 1885"
+  ],
+  [
+    "Newel",
+    "/ˈnjuːəl/",
+    "e",
+    "The central pillar of a winding staircase, sometimes found in the stern cabins of great ships.",
+    "From Old French nucal, from Latin nux (nut).",
+    "He descended the cabin newel to reach the captain's chart room.",
+    "Sir Walter Raleigh, History of the World, 1614"
+  ],
+  [
+    "Nexible",
+    "/ˈnɛksɪbəl/",
+    "t",
+    "Flexible or capable of being tied, applied historically to maritime cordage.",
+    "From Latin nexibilis, from nectere (to bind).",
+    "The hemp rope was nexible even when soaked in freezing seawater.",
+    "Lexicon Technicum, 1704"
+  ],
+  [
+    "Nias",
+    "/ˈnaɪəs/",
+    "e",
+    "An obsolete falconry term occasionally used metaphorically by Elizabethan sailors for raw recruits.",
+    "From Old French niiais, from Latin nidax (nestling).",
+    "The captain called the newly pressed landsmen a crew of unpracticed nias.",
+    "George Turberville, Book of Falconry, 1575"
+  ],
+  [
+    "Nicely",
+    "/ˈnaɪsli/",
+    "e",
+    "Precisely, accurately, or carefully, often used in old navigation instructions.",
+    "From Middle English nicely (foolishly or delicately, shifting to precisely).",
+    "The course was nicely calculated to avoid the sunken rocks.",
+    "Richard Hakluyt, Voyages, 1599"
+  ],
+  [
+    "Nick",
+    "/nɪk/",
+    "m",
+    "A notch or tally cut into a tally stick or log line to measure speed.",
+    "From Middle English nyk.",
+    "The sailor counted every nick on the log line as it ran through his fingers.",
+    "Maritime Custom of the Narrow Seas, 14th Century"
+  ],
+  [
+    "Nidget",
+    "/ˈnɪdʒɪt/",
+    "e",
+    "An Elizabethan slang term for a coward or fool, sometimes hurled at hesitant sailors.",
+    "From Old English nīgedling (coward).",
+    "He proved no nidget when the enemy boarding hooks struck our gunwale.",
+    "Thomas Dekker, The Gull's Hornbook, 1609"
+  ],
+  [
+    "Night-head",
+    "/ˈnaɪtˌhɛd/",
+    "e",
+    "An old term for the bollards or timbers near the bow where the anchor cables are secured.",
+    "Compound of night + head.",
+    "Make fast the cable to the night-head before the tide turns.",
+    "Captain John Smith, Accidence for Young Seamen, 1626"
+  ],
+  [
+    "Night-rail",
+    "/ˈnaɪtˌreɪl/",
+    "e",
+    "A light garment worn at night, or a safety rail rigged on deck at night.",
+    "From Old English niht + hrægl (garment).",
+    "The watchman leaned against the night-rail to peer into the fog.",
+    "Elizabethan Household Accounts, 1588"
+  ],
+  [
+    "Nihility",
+    "/naɪˈhɪlɪti/",
+    "t",
+    "Nothingness; used by Victorian writers to describe the empty horizon of the open ocean.",
+    "From Latin nihilitas, from nihil (nothing).",
+    "The ship sailed on into the vast nihility of the southern Pacific.",
+    "Victorian Sea Journals, 1865"
+  ],
+  [
+    "Nimbiferous",
+    "/nɪmˈbɪfərəs/",
+    "t",
+    "Storm-bringing; producing rain or storm clouds at sea.",
+    "From Latin nimbus (rain-cloud) + ferre (to bear).",
+    "The nimbiferous sky warned the captain to shorten sail immediately.",
+    "Nautical Meteorology, 1859"
+  ],
+  [
+    "Nimbus",
+    "/ˈnɪmbəs/",
+    "t",
+    "A dark, gray rain-cloud from which precipitation falls upon the sea.",
+    "Latin nimbus (rain-storm, cloud).",
+    "A heavy nimbus gathered over the horizon, bringing wind and rain.",
+    "Admiral Robert FitzRoy, The Weather Book, 1863"
+  ],
+  [
+    "Nine-holes",
+    "/ˈnaɪnˌhoʊlz/",
+    "m",
+    "An old sailors' gambling game played with marbles or pegs on deck during calms.",
+    "From nine + holes.",
+    "The off-watch crew gathered by the mainmast to play nine-holes.",
+    "Mariner's Log and Chronicle, 15th Century"
+  ],
+  [
+    "Nipper",
+    "/ˈnɪpər/",
+    "m",
+    "A small boy on a sailing ship employed to bind the cable to the messenger during weighing anchor.",
+    "From nip.",
+    "The young nipper ran swiftly along the deck with the yarn.",
+    "Mainwaring's Seaman's Dictionary, 1644"
+  ],
+  [
+    "Nippitaty",
+    "/ˌnɪpɪˈtætvi/",
+    "e",
+    "Strong liquor or ale, highly prized by sailors when making port.",
+    "Origin uncertain, possibly a whimsical elaboration of nip.",
+    "They broached a cask of fine nippitaty to celebrate the safe voyage.",
+    "Francis Beaumont and John Fletcher, The Knight of the Burning Pestle, 1607"
+  ],
+  [
+    "Nisi",
+    "/ˈnaɪsaɪ/",
+    "t",
+    "A legal term from admiralty court meaning 'unless' (as in decree nisi).",
+    "Latin nisi (unless).",
+    "The prize court issued a decree nisi regarding the captured merchantman.",
+    "Admiralty Court Reports, 1840"
+  ],
+  [
+    "No-man's-land",
+    "/ˈnoʊ mænz lænd/",
+    "m",
+    "An old naval term for the space amidships where spare blocks, ropes, and tackle were stowed.",
+    "From no + man + land.",
+    "Stow the spare gaskets safely in no-man's-land.",
+    "Admiral William Smyth, The Sailor's Word-Book, 1867"
+  ],
+  [
+    "Nodal",
+    "/ˈnoʊdəl/",
+    "t",
+    "Pertaining to nodes, used in nineteenth-century studies of oceanic tides and wave crests.",
+    "From Latin nodus (knot).",
+    "The tide calculations centered upon the nodal points of the ocean basin.",
+    "Royal Society Transactions, 1833"
+  ],
+  [
+    "Noddy-poll",
+    "/ˈnɒdiˌpoʊl/",
+    "e",
+    "An Elizabethan derogatory term for a fool or blockhead.",
+    "From noddy + poll (head).",
+    "The master-at-arms called the clumsy landsman a noddy-poll.",
+    "Thomas Nashe, Have with You to Saffron-Walden, 1596"
+  ],
+  [
+    "Oar-lock",
+    "/ˈɔːrˌlɒk/",
+    "t",
+    "A swivel or pin serving as a fulcrum for an oar, traditionally called a rowlock.",
+    "Middle English, from oar + lock",
+    "He fitted the oar-lock with a leather washer to silence the persistent squeak.",
+    "Royal Navy Seamanship Manual"
+  ],
+  [
+    "Oarman",
+    "/ˈɔːrmən/",
+    "e",
+    "A person who rows a boat; a rower, particularly in a ship's boat's crew.",
+    "Old English, ārmann",
+    "The press-gang took three able oar-men from the merchant lugger.",
+    "Admiralty Court Records"
+  ],
+  [
+    "Oar-pin",
+    "/ˈɔːrˌpɪn/",
+    "m",
+    "A wooden peg or thole used to keep an oar in place while rowing.",
+    "Old English, from ār + pinn",
+    "With a sharp crack, the oar-pin snapped under the heavy heave of the swell.",
+    "Chronicles of the Cinque Ports"
+  ],
+  [
+    "Oathable",
+    "/oʊˈeɪθəbəl/",
+    "e",
+    "Capable of having an oath administered; bound by oath.",
+    "Late 16th century, coined by Shakespeare",
+    "The master's mate was deemed oathable and swore upon the log-book.",
+    "Shakespeare, Timon of Athens"
+  ],
+  [
+    "Obimbricate",
+    "/ɒbˈɪmbrɪkɪt/",
+    "t",
+    "Overlapping in the reverse direction of normal shingles or planking.",
+    "Latin ob- + imbricate",
+    "The damaged copper plating showed an obimbricate edge that caught the current.",
+    "Naval Architecture Quarterly"
+  ],
+  [
+    "Oblique-sail",
+    "/əˈbliːk seɪl/",
+    "t",
+    "A lateen or other triangular sail set diagonally to the mast.",
+    "Middle English, from oblique + sail",
+    "They hoisted the oblique-sail to catch the fickle offshore breath.",
+    "The Sailor's Word-Book by W.H. Smyth"
+  ],
+  [
+    "Obligation-iron",
+    "/ˌɒblɪˈɡeɪʃən ˈaɪərn/",
+    "t",
+    "An iron strap or band securing a mast or spar.",
+    "Latin obligatio + iron",
+    "The mainmast required a fresh obligation-iron to withstand the gale.",
+    "Shipwright's Practical Guide"
+  ],
+  [
+    "Oblique-rigged",
+    "/əˈbliːk rɪɡd/",
+    "t",
+    "Rigged with sails that are set diagonally rather than square.",
+    "Middle English / Dutch",
+    "The Mediterranean craft was oblique-rigged for nimble tacking.",
+    "Merchant Shipping Gazette"
+  ],
+  [
+    "Oblique-tack",
+    "/əˈbliːk tæk/",
+    "t",
+    "A zigzag course sailed across the wind by a vessel with diagonal sails.",
+    "Middle English",
+    "By an oblique-tack, the felucca clawed away from the lee shore.",
+    "Mediterranean Pilot"
+  ],
+  [
+    "Obmutescence",
+    "/ˌɒbmjʊˈtɛsəns/",
+    "t",
+    "A becoming silent or dumb; a sudden hush among a ship's crew.",
+    "Latin obmutescere",
+    "A sudden obmutescence fell upon the deck as the captain drew his spyglass.",
+    "Victorian Naval Memoir"
+  ],
+  [
+    "Obmutescent",
+    "/ˌɒbmjʊˈtɛsənt/",
+    "t",
+    "Silent, mute, or struck dumb with apprehension.",
+    "Latin obmutescent-",
+    "The crew stood obmutescent before the wrath of the commodore.",
+    "Naval Chronicle"
+  ],
+  [
+    "Obnubilate",
+    "/ɒbˈnjuːbɪleɪt/",
+    "e",
+    "To cloud, obscure, or darken, as fog upon the horizon.",
+    "Latin obnubilare",
+    "Heavy sea-mists began to obnubilate the headlands.",
+    "Early Modern English Travelogues"
+  ],
+  [
+    "Obnubilation",
+    "/ɒbˌnjuːbɪˈleɪʃən/",
+    "t",
+    "The act of clouding over or obscuring vision at sea.",
+    "Latin obnubilatio",
+    "The sudden obnubilation of the light left them blind in the channel.",
+    "Log of the HMS Beagle"
+  ],
+  [
+    "Obreption",
+    "/ɒˈbrɛpʃən/",
+    "t",
+    "A creeping upon or obtaining something by fraud or stealth.",
+    "Latin obreptio",
+    "The contraband was brought aboard by obreption under cover of night.",
+    "Customs and Excise Reports"
+  ],
+  [
+    "Obstropulous",
+    "/əbˈstrɒpjʊləs/",
+    "t",
+    "A vulgar nautical corruption of obstreperous, meaning unruly or noisy.",
+    "18th-century sailor slang",
+    "The drunken topmen grew obstropulous in the forecastle.",
+    "Marryat, Mr. Midshipman Easy"
+  ],
+  [
+    "Obtrectation",
+    "/ˌɒbtrɛkˈteɪʃən/",
+    "e",
+    "Slander, disparagement, or malicious criticism among officers.",
+    "Latin obtrectatio",
+    "He endured much obtrectation from envious lieutenants.",
+    "Naval Letters of the 17th Century"
+  ],
+  [
+    "Obumbration",
+    "/ˌɒbʌmˈbreɪʃən/",
+    "t",
+    "The act of shadowing or darkening.",
+    "Latin obumbratio",
+    "The obumbration of the moon aided their clandestine escape.",
+    "Historical Maritime Tales"
+  ],
+  [
+    "Occasion-ship",
+    "/əˈkeɪʒən ʃɪp/",
+    "t",
+    "A vessel chartered or fitted out for a specific temporary purpose.",
+    "English, occasion + ship",
+    "The Admiralty commissioned an occasion-ship to ferry despatches.",
+    "State Papers Domestic"
+  ],
+  [
+    "Ocean-goer",
+    "/ˈoʊʃən ˌɡoʊər/",
+    "t",
+    "A vessel stout enough to cross the open ocean.",
+    "English, ocean + goer",
+    "She was a true ocean-goer, copper-fastened and deep-bellied.",
+    "Lloyd's Register of British and Foreign Shipping"
+  ],
+  [
+    "Ocean-knight",
+    "/ˈoʊʃən naɪt/",
+    "e",
+    "An adventurous Elizabethan sea-captain or privateer.",
+    "English, ocean + knight",
+    "The famed ocean-knights of Devon brought home Spanish gold.",
+    "Hakluyt's Voyages"
+  ],
+  [
+    "Oceanographer",
+    "/ˌoʊʃəˈnɒɡrəfər/",
+    "t",
+    "One who charts or describes the ocean; early marine scientist.",
+    "Greek okeanos + graphos",
+    "The expedition carried an oceanographer to measure deep-sea temperatures.",
+    "Reports of the Challenger Expedition"
+  ],
+  [
+    "Ocellated",
+    "/ˈɒsɪleɪtɪd/",
+    "t",
+    "Marked with eye-like spots, sometimes applied to compass cards.",
+    "Latin ocellatus",
+    "The compass card was ocellated at the cardinal points.",
+    "Naval Instrument Maker's Catalogue"
+  ],
+  [
+    "Octant",
+    "/ˈɒktənt/",
+    "t",
+    "A navigational instrument for measuring angles, precursor to the sextant.",
+    "Latin octans",
+    "He took the midday sun with his brass octant.",
+    "The Mariner's Mirror"
+  ],
+  [
+    "Odoriferous",
+    "/ˌoʊdəˈrɪfərəs/",
+    "e",
+    "Yielding a sweet scent; used by sailors to describe spice cargoes.",
+    "Latin odorifer",
+    "The hold was laden with odoriferous cloves from the Moluccas.",
+    "East India Company Journal"
+  ],
+  [
+    "Oecist",
+    "/ˈiːsɪst/",
+    "t",
+    "The leader of a colonial expedition or founder of a colony.",
+    "Greek oikistes",
+    "He sailed as the oecist of the new settlement in Van Diemen's Land.",
+    "Colonial Office Despatches"
+  ],
+  [
+    "Oer-fraught",
+    "/ˈɔːr frɔːt/",
+    "e",
+    "Overloaded or overburdened with cargo or passengers.",
+    "Middle English, ofer- + fraught",
+    "The galleon was oer-fraught with silver and sluggish in the trough.",
+    "Spenser, Faerie Queene"
+  ],
+  [
+    "Off-ing",
+    "/ˈɒfɪŋ/",
+    "t",
+    "The sea at a distance from the shore; a safe distance off land.",
+    "English, off + -ing",
+    "They gained a good off-ing before the nor'easter struck.",
+    "Dana, Two Years Before the Mast"
+  ],
+  [
+    "Off-scour",
+    "/ˈɒfˌskaʊər/",
+    "e",
+    "Refuse, scum, or the dregs of the seaport waterfront.",
+    "English, off + scour",
+    "The press-gang swept the taverns for every off-scour of the town.",
+    "Elizabethan Playwrights"
+  ],
+  [
+    "Oft-tossed",
+    "/ˈɒft tɒst/",
+    "e",
+    "Frequently tossed about by stormy seas.",
+    "English, oft + tossed",
+    "The oft-tossed caravel finally made the haven of Plymouth.",
+    "The Principal Navigations by Hakluyt"
+  ],
+  [
+    "Oil-skin",
+    "/ˈɔɪlˌskɪn/",
+    "t",
+    "A waterproof garment made of canvas treated with oil.",
+    "English, oil + skin",
+    "He buttoned his oil-skin tight against the driving spray.",
+    "Marryat, Peter Simple"
+  ],
+  [
+    "Old-salt",
+    "/ˈoʊld sɔːlt/",
+    "t",
+    "An experienced, weathered sailor; an old tar.",
+    "English, old + salt",
+    "An old-salt spun yarns by the capstan while the anchor was weighed.",
+    "Nautical Magazine"
+  ],
+  [
+    "Ominate",
+    "/ˈɒmɪneɪt/",
+    "e",
+    "To foretoken or prognosticate, usually an evil voyage.",
+    "Latin ominari",
+    "The flight of the petrels did ominate a furious hurricane.",
+    "Early English Seamanship Tracts"
+  ],
+  [
+    "Omission",
+    "/oʊˈmɪʃən/",
+    "t",
+    "The failure to perform a nautical duty; negligence.",
+    "Latin omissio",
+    "The court-martial found the master guilty of culpable omission.",
+    "Naval Court-Martial Records"
+  ],
+  [
+    "Omnifarious",
+    "/ˌɒmnɪˈfɛəriəs/",
+    "t",
+    "Of all varieties, forms, or kinds; describing mixed cargoes.",
+    "Latin omnifarius",
+    "The hold contained an omnifarious cargo of textiles and ironmongery.",
+    "Customs Manifest of the East Indiaman"
+  ],
+  [
+    "On-set",
+    "/ˈɒnˌsɛt/",
+    "e",
+    "An attack, assault, or the beginning of a gale.",
+    "Middle English, on + set",
+    "They braced the yards at the very onset of the squall.",
+    "Battles of the British Navy"
+  ],
+  [
+    "Punt",
+    "/pʌnt/",
+    "m",
+    "A flat-bottomed boat with square ends, used for shallow water transport.",
+    "Old English 'puntt' from Latin 'ponto'.",
+    "He loaded the cargo into the punt to cross the shallow bay.",
+    "Middle English Trade Records"
+  ],
+  [
+    "Punt-gun",
+    "/ˈpʌnt ɡʌn/",
+    "t",
+    "A type of extremely large shotgun used in commercial waterfowl hunting from a punt.",
+    "Compound of 'punt' and 'gun'.",
+    "The market hunter aimed his heavy punt-gun across the misty estuary.",
+    "Victorian Sporting Gazette"
+  ],
+  [
+    "Picaroon",
+    "/ˌpɪkəˈruːn/",
+    "e",
+    "A rogue, pirate, or coastal marauder.",
+    "Spanish 'picarón', augmentative of 'pícaro'.",
+    "Several picaroons lurked near the harbor entrance waiting for merchant vessels.",
+    "William Dampier, A New Voyage Round the World"
+  ],
+  [
+    "Poop",
+    "/puːp/",
+    "m",
+    "The sterncastle or raised deck at the aft of a ship.",
+    "French 'oupe', from Latin 'puppis'.",
+    "The captain stood upon the poop deck surveying the rising storm.",
+    "Geoffrey Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Preventer",
+    "/prɪˈvɛntər/",
+    "e",
+    "An extra stay or rope rigged to support a mast or spar during heavy weather.",
+    "Derivative of 'prevent'.",
+    "Rig a preventer on the mainmast before the gale strikes.",
+    "Captain John Smith, The Sea Grammar"
+  ],
+  [
+    "Pilot",
+    "/ˈpaɪlət/",
+    "m",
+    "A person qualified to navigate a ship through difficult waters or harbors.",
+    "Middle French 'pilot', from Italian 'pilota'.",
+    "We awaited the local pilot to guide us safely through the coral reef.",
+    "Maritime Customs of Oleron"
+  ],
+  [
+    "Prow",
+    "/praʊ/",
+    "m",
+    "The bow or forward part of a ship.",
+    "Old French 'proue', from Italian 'proda'.",
+    "White foam crested against the vessel's sharp prow.",
+    "Sir Thomas Malory, Le Morte d'Arthur"
+  ],
+  [
+    "Plank",
+    "/plæŋk/",
+    "m",
+    "A heavy, thick board of timber used in ship construction.",
+    "Middle English 'planke', from Latin 'planca'.",
+    "The shipwright fastened each oak plank with iron bolts.",
+    "Naval Accounts of Henry VII"
+  ],
+  [
+    "Punt-tender",
+    "/ˈpʌnt ˌtɛndər/",
+    "t",
+    "An attendant boat or crew member managing a punt.",
+    "Compound of 'punt' and 'tender'.",
+    "The punt-tender hauled the small boat onto the muddy bank.",
+    "19th Century Thames Estuary Logs"
+  ],
+  [
+    "Pulpit",
+    "/ˈp��lpɪt/",
+    "t",
+    "A protective railing or enclosure at the bow of a modern or late-era sailing yacht.",
+    "Latin 'pulpitum' (platform).",
+    "He secured the anchor while standing firmly in the bow pulpit.",
+    "Yachting Monthly Records"
+  ],
+  [
+    "Pursser",
+    "/ˈpɜːrsər/",
+    "m",
+    "The ship's officer responsible for accounts, provisions, and administration.",
+    "Middle English, from Anglo-Norman 'porsier'.",
+    "The purser distributed weekly rations of hardtack and salt pork.",
+    "Royal Navy Victualling Records"
+  ],
+  [
+    "Pendant",
+    "/ˈpɛndənt/",
+    "m",
+    "A long, narrow triangular flag flown from the masthead of a warship.",
+    "Old French 'pendant', from Latin 'pendere'.",
+    "The commissioning pendant streamed proudly in the breeze.",
+    "Pepys' Diary"
+  ],
+  [
+    "Pintle",
+    "/ˈpɪntəl/",
+    "m",
+    "The vertical pin or bolt on which a ship's rudder hinges.",
+    "Middle English 'pintel', Old English 'pitel'.",
+    "The lower pintle sheared off during the storm, jamming the rudder.",
+    "Historic Shipwreck Excavation Reports"
+  ],
+  [
+    "Poop-royal",
+    "/ˌpuːp ˈrɔɪəl/",
+    "e",
+    "A short deck raised above the ordinary poop deck on large warships.",
+    "Compound of 'poop' and 'royal'.",
+    "The flag captain observed the fleet from the high poop-royal.",
+    "Naval Architecture Manuscripts"
+  ],
+  [
+    "Parrel",
+    "/ˈpærəl/",
+    "m",
+    "A band or rope used to fasten a yard to its mast while allowing it to be hoisted or lowered.",
+    "Old French 'parel', from Latin 'apparare'.",
+    "The parrel beads jammed on the mainmast, halting the sail's descent.",
+    "Medieval Seamanship Treatises"
+  ],
+  [
+    "Pay",
+    "/peɪ/",
+    "m",
+    "To smear or coat the seams of a wooden ship with hot pitch or tallow to make them watertight.",
+    "Old French 'peier', from Latin 'picare'.",
+    "The carpenters spent the afternoon to pay the deck seams with pitch.",
+    "Mainete Epic Poem"
+  ],
+  [
+    "Peak",
+    "/piːk/",
+    "e",
+    "The upper outer corner of a gaff sail or lateen sail.",
+    "Origin uncertain, possibly related to 'pike'.",
+    "Haul away on the peak halyard to spread the canvas fully.",
+    "Captain John Smith, A Sea Grammar"
+  ],
+  [
+    "Pricker",
+    "/ˈprɪkər/",
+    "m",
+    "A small pointed tool used by sailors for piercing canvas or untying stubborn knots.",
+    "Derivative of 'prick'.",
+    "He used his iron pricker to loosen the tightly jammed marline hitch.",
+    "Sailmaker Guild Ordinances"
+  ],
+  [
+    "Prise",
+    "/praɪz/",
+    "m",
+    "To force something open or apart using leverage.",
+    "Old French 'prise' (seizure).",
+    "Use the iron bar to prise open the stuck hatch cover.",
+    "Middle English Maritime Glossaries"
+  ],
+  [
+    "Provisions",
+    "/prəˈvɪʒənz/",
+    "m",
+    "Stock of food and other supplies accumulated for a voyage.",
+    "Old French 'provision', from Latin 'provisio'.",
+    "Our provisions are running low; we must make port within the week.",
+    "Hakluyt's Voyages"
+  ],
+  [
+    "Pudding",
+    "/ˈpʊdɪŋ/",
+    "m",
+    "A thick layer of old rope or canvas wound around a spar or anchor ring to prevent chafing.",
+    "Origin uncertain, likely related to sausage casings.",
+    "Wrap the anchor ring in a heavy pudding to protect the wooden hull.",
+    "The Mariner's Mirror Archives"
+  ],
+  [
+    "Punt-pole",
+    "/ˈpʌnt poʊl/",
+    "t",
+    "A long pole used to push a punt along shallow river bottoms or coastal mudflats.",
+    "Compound of 'punt' and 'pole'.",
+    "He shoved the heavy punt-pole into the riverbed to drive the boat forward.",
+    "Victorian River Navigation Guides"
+  ],
+  [
+    "Plimsoll",
+    "/ˈplɪmsəl/",
+    "t",
+    "The official load line marked on the hull of a merchant vessel.",
+    "Named after Samuel Plimsoll, British politician.",
+    "The water lapped dangerously close to the ship's Plimsoll line.",
+    "Merchant Shipping Act Records"
+  ],
+  [
+    "Pontoon",
+    "/pɒnˈtuːn/",
+    "e",
+    "A flat-bottomed boat or float used to support a temporary bridge or raise a sunken vessel.",
+    "French 'ponton', from Latin 'ponto'.",
+    "They lashed several pontoons together to lift the wrecked hull from the harbor floor.",
+    "Military Engineer Reports"
+  ],
+  [
+    "Puggy",
+    "/ˈpʌɡi/",
+    "t",
+    "Slang term for a small cargo vessel or harbor tug.",
+    "Origin uncertain, possibly dialectal.",
+    "The little puggy towed the massive East Indiaman into the dock.",
+    "Dockworker Slang Lexicon"
+  ],
+  [
+    "Picarooning",
+    "/ˌpɪkəˈruːnɪŋ/",
+    "e",
+    "Engaging in piracy or coastal plundering.",
+    "Derivative of 'picaroon'.",
+    "The crew was suspected of picarooning along the Spanish Main.",
+    "Colonial Admiralty Court Records"
+  ],
+  [
+    "Painter",
+    "/ˈpeɪntər/",
+    "m",
+    "A rope attached to the bow of a small boat used for towing or securing it.",
+    "Middle English 'payntour', origin obscure.",
+    "Tie the dinghy's painter securely to the pier piling.",
+    "Medieval Port Books"
+  ],
+  [
+    "Paunch",
+    "/pɔːntʃ/",
+    "m",
+    "A protective mat of woven rope placed around a mast or spar to prevent wear.",
+    "Old French 'panance', from Latin 'pantex'.",
+    "The yard rubbed constantly against the mast, requiring a sturdy paunch.",
+    "Early Modern Rigging Manuals"
+  ],
+  [
+    "Port",
+    "/pɔːrt/",
+    "m",
+    "The left-hand side of a ship when facing forward.",
+    "Old English 'port' or influenced by Dutch 'poorte' (harbor).",
+    "Hard a-port! Bring the vessel around before we strike the reef.",
+    "Naval Signal Logs"
+  ],
+  [
+    "Port-hole",
+    "/ˈpɔːrt hoʊl/",
+    "e",
+    "A circular opening in the ship's side for light, ventilation, or cannon fire.",
+    "Compound of 'port' and 'hole'.",
+    "Latch the port-hole tightly before the heavy seas wash over the deck.",
+    "Elizabethan Shipwright Journals"
+  ],
+  [
+    "Poop-lantern",
+    "/ˈpuːp ˌlæntərn/",
+    "e",
+    "A large, ornate lantern displayed on the stern of a flagship.",
+    "Compound of 'poop' and 'lantern'.",
+    "The admiral's flagship was identified at night by its glowing poop-lantern.",
+    "Spanish Armada Chronicles"
+  ],
+  [
+    "Pry",
+    "/praɪ/",
+    "m",
+    "Variant of prise, to use leverage to open something.",
+    "Old French 'prisier'.",
+    "Try to pry the chest open with an iron marlinspike.",
+    "Early English Sea Tales"
+  ],
+  [
+    "Punt-house",
+    "/ˈpʌnt haʊs/",
+    "t",
+    "A small shelter or boathouse built near the water for storing punts and gear.",
+    "Compound of 'punt' and 'house'.",
+    "He stored his paddles and oars inside the old riverbank punt-house.",
+    "Victorian Thames Journals"
+  ],
+  [
+    "Privilege",
+    "/ˈprɪvɪlɪdʒ/",
+    "m",
+    "A merchant seaman's right to carry a small amount of private cargo free of freight charges.",
+    "Old French 'privilege', from Latin 'privilegium'.",
+    "The master granted each able seaman a small trading privilege.",
+    "Merchant Shipping Charters"
+  ],
+  [
+    "Puggaree",
+    "/ˈpʌɡəri/",
+    "t",
+    "A light scarf or cloth wound around a sailor's hat to protect against the tropical sun.",
+    "Hindi 'pagrī' (turban).",
+    "The crew adjusted their white puggarees as the ship entered the tropics.",
+    "Victorian Royal Navy Memoirs"
+  ],
+  [
+    "Pound",
+    "/paʊnd/",
+    "m",
+    "An enclosure or pound net used for coastal fishing.",
+    "Old English 'pund' (enclosure).",
+    "The fishermen checked their fish pound at dawn for the daily catch.",
+    "Medieval Fishing Statutes"
+  ],
+  [
+    "Pratique",
+    "/ˈprætɪk/",
+    "e",
+    "A license granted to a ship to communicate with a port after proving freedom from contagious disease.",
+    "French 'pratique', from Italian 'pratica'.",
+    "The health officer finally granted pratique, and the crew went ashore.",
+    "Port Quarantine Records"
+  ],
+  [
+    "Proa",
+    "/ˈproʊə/",
+    "e",
+    "A type of outrigger canoe used in Southeast Asia and the Pacific, adapted by early traders.",
+    "Malay 'prahu'.",
+    "A swift native proa sped past our lumbering merchant vessel.",
+    "Voyages of William Dampier"
+  ],
+  [
+    "Puttana",
+    "/pʊˈtɑːnə/",
+    "e",
+    "A type of small Mediterranean trading vessel or barge.",
+    "Italian dialect term.",
+    "Several small puttana loaded wine casks at the quay.",
+    "Mediterranean Trade Documents"
+  ],
+  [
+    "Prow-line",
+    "/ˈpraʊ laɪn/",
+    "m",
+    "A mooring line attached specifically to the bow of a boat.",
+    "Compound of 'prow' and 'line'.",
+    "Make fast the prow-line to the wooden bollard on the dock.",
+    "Port of London Custom Rolls"
+  ],
+  [
+    "Preventer-stay",
+    "/prɪˈvɛntər steɪ/",
+    "e",
+    "An additional stay rigged as a backup to the primary rigging.",
+    "Compound of 'preventer' and 'stay'.",
+    "The ship survived the typhoon because the carpenter rigged a preventer-stay.",
+    "Main-deck Logbooks of the Royal Navy"
+  ],
+  [
+    "Punt-ferry",
+    "/ˈpʌnt ˌfɛri/",
+    "t",
+    "A flat-bottomed vessel used to ferry passengers and livestock across rivers.",
+    "Compound of 'punt' and 'ferry'.",
+    "The heavy punt-ferry carried three wagons across the swollen river.",
+    "Victorian County Histories"
+  ],
+  [
+    "Picarooner",
+    "/ˌpɪkəˈruːnər/",
+    "e",
+    "A pirate or person engaged in petty coastal raiding.",
+    "Derivative of 'picaroon'.",
+    "The notorious picarooner was captured near the Leeward Islands.",
+    "Old Bailey Trial Reports"
+  ],
+  [
+    "Quab",
+    "/kwæb/",
+    "e",
+    "To quake, shake, or beat, as the pulse or heart; also used to describe something soft, unformed, or immature.",
+    "Middle English 'quabben', of imitative origin related to quake.",
+    "His heart did quab within his trembling breast.",
+    "Spenser, Edmund"
+  ],
+  [
+    "Quabbe",
+    "/kwæb/",
+    "m",
+    "A quagmire, bog, or soft muddy depression in the earth.",
+    "Middle English origin, descriptive of shaky, unstable ground.",
+    "The heavy cart sank deep into the foul quabbe near the marsh.",
+    "Middle English Local Rolls"
+  ],
+  [
+    "Quach",
+    "/kwætʃ/",
+    "m",
+    "To quake or tremble with fear or cold.",
+    "Old English 'cwacian', variant of quake.",
+    "The shivering mariners did quach upon the frost-bound deck.",
+    "Cursor Mundi"
+  ],
+  [
+    "Quackle",
+    "/ˈkwækəl/",
+    "e",
+    "To choke, suffocate, or throttle, especially from swallowing too hastily or breathing foul air.",
+    "Frequentative of quack or archaic dialectal form related to suffocation.",
+    "The foul bilge air threatened to quackle the men below decks.",
+    "Huloet's Abcedarium"
+  ],
+  [
+    "Quad",
+    "/kwæd/",
+    "/",
+    "A square or rectangular enclosure aboard a ship, or an archaic term for a prison cell.",
+    "Shortened form of quadrangle.",
+    "They locked the mutineer within the after quad.",
+    "Naval Logbooks of the Restoration"
+  ],
+  [
+    "Quadrature",
+    "/ˈkwɒdrətʃʊər/",
+    "e",
+    "The position of a heavenly body when its elongation is 90 degrees from the sun, crucial for lunar distance navigation.",
+    "Latin 'quadratura', a squaring.",
+    "By observing the moon at quadrature, the master calculated the ship's longitude.",
+    "Navigator's Guide to the Stars"
+  ],
+  [
+    "Quadrel",
+    "/ˈkwɒdrəl/",
+    "m",
+    "A square block of stone or ballast material used to weight the hold of a vessel.",
+    "Old French 'quadrel', a square tile or stone.",
+    "The ballast master loaded heavy quadrels into the ship's bottom.",
+    "Port of London Customs Rolls"
+  ],
+  [
+    "Quaere",
+    "/ˈkwɪəri/",
+    "e",
+    "A query, doubt, or point requiring investigation in maritime law or navigation.",
+    "Latin 'quaere', imperative of quaerere, to seek.",
+    "Here ariseth a great quaere touching the rights of salvage upon the high seas.",
+    "Admiralty Court Records"
+  ],
+  [
+    "Quaestor",
+    "/ˈkwiːstɔːr/",
+    "m",
+    "A public treasurer or financial officer aboard royal fleets.",
+    "Latin 'quaestor', an investigator of accounts.",
+    "The royal quaestor demanded the tally of victuals for the voyage.",
+    "Exchequer Rolls"
+  ],
+  [
+    "Quaffer",
+    "/ˈkwɑːfər/",
+    "e",
+    "One who drinks deeply; a heavy drinker.",
+    "Derivative of quaff.",
+    "He was known throughout the port as a mighty quaffer of sack.",
+    "Greene, Robert"
+  ],
+  [
+    "Quaggy",
+    "/ˈkwæɡi/",
+    "e",
+    "Yielding to the tread, soft, boggy, and marshy like wet sand.",
+    "From quag.",
+    "The shore proved too quaggy to land the heavy ordnance.",
+    "Carew, Richard"
+  ],
+  [
+    "Quaile",
+    "/kweɪl/",
+    "e",
+    "An obsolete spelling of quail, meaning to fade, wither, or lose strength.",
+    "Variant spelling used in Elizabethan maritime verse.",
+    "The wind did quaile as the sun dipped beneath the horizon.",
+    "Spenser, Edmund"
+  ],
+  [
+    "Quaintise",
+    "/ˈkweɪntaɪz/",
+    "m",
+    "Cleverness, cunning workmanship, or fine ornament upon a ship's figurehead.",
+    "Old French 'cointise', elegance.",
+    "The galley was adorned with much quaintise of gold leaf.",
+    "Alliterative Morte Arthure"
+  ],
+  [
+    "Quake",
+    "/kweɪk/",
+    "m",
+    "To tremble violently, shake, or vibrate under the force of heavy cannon fire or high seas.",
+    "Old English 'cwacian'.",
+    "The timbers of the hulk did quake beneath the broadside.",
+    "Wycliffe Bible"
+  ],
+  [
+    "Quaker",
+    "/ˈkweɪkər/",
+    "t",
+    "A colloquial term for a heavy iron carronade or false cannon used to deceive enemies.",
+    "From the religious sect, extended to mock defensive armament that 'quaked' only in appearance.",
+    "The merchantman mounted wooden quakers to frighten off privateers.",
+    "Marryat, Frederick"
+  ],
+  [
+    "Qualify",
+    "/ˈkwɒlɪfaɪ/",
+    "e",
+    "To moderate, temper, or reduce the intensity of something, such as wind or liquor.",
+    "French 'qualifier', Medieval Latin 'qualificare'.",
+    "Water was poured into the rum to qualify its fiery strength.",
+    "Shakespeare, William"
+  ],
+  [
+    "Qualimeter",
+    "/kwɒˈlɪmɪtər/",
+    "t",
+    "An instrument for measuring quality, degree, or intensity, sometimes applied to early navigational sensors.",
+    "Latin 'qualis' (of what kind) + Greek 'metron' (measure).",
+    "The officer tested the sea water's salinity with the qualimeter.",
+    "Victorian Scientific Instruments Catalogue"
+  ],
+  [
+    "Qualmish",
+    "/ˈkwɑːmɪʃ/",
+    "e",
+    "Nauseated, faint, or inclined to sea-sickness.",
+    "From qualm.",
+    "The greenhorns felt mighty qualmish after passing the headland.",
+    "Dekker, Thomas"
+  ],
+  [
+    "Quantative",
+    "/ˈkwɒntətɪv/",
+    "e",
+    "Pertaining to quantity or measurement; measured in amount.",
+    "Medieval Latin 'quantativus'.",
+    "A quantative record of gunpowder was entered in the log.",
+    "Naval Ordnance Reports"
+  ],
+  [
+    "Quantum",
+    "/ˈkwɒntəm/",
+    "e",
+    "An aliquot part, share, or specific amount, such as a sailor's daily ration of water.",
+    "Latin 'quantum', how much.",
+    "Each man received his exact quantum of small beer.",
+    "State Papers Relating to the Navy"
+  ],
+  [
+    "Quarreller",
+    "/ˈkwɒrələr/",
+    "m",
+    "A crossbowman stationed in the fighting top of a ship.",
+    "Derivative of quarrel.",
+    "The quarrellers took aim from the mainmast shrouds.",
+    "Froissart's Chronicles"
+  ],
+  [
+    "Quarter-deck",
+    "/ˈkwɔːrtərdɛk/",
+    "e",
+    "The elevated deck of a ship aft of the mainmast, reserved for officers.",
+    "From quarter + deck.",
+    "No common sailor dared set foot upon the quarter-deck without leave.",
+    "Mainwaring, Henry"
+  ],
+  [
+    "Quarter-master",
+    "/ˈkwɔːrtərmæstər/",
+    "e",
+    "A petty officer responsible for steering, stowing cargo, and attending to the ship's compass.",
+    "From quarter + master.",
+    "The quarter-master held the helm steady through the squall.",
+    "Smith, John"
+  ],
+  [
+    "Quartz",
+    "/kwɔːrts/",
+    "t",
+    "A hard mineral crystal used in early optical lenses and scientific instruments.",
+    "German 'quarz'.",
+    "The navigator cleaned the quartz lens of his sextant.",
+    "Nautical Magazine"
+  ],
+  [
+    "Quassation",
+    "/kwɒˈseɪʃən/",
+    "e",
+    "The act of shaking, tossing, or concussing, especially the violent motion of a ship in heavy seas.",
+    "Latin 'quassatio', from quassare.",
+    "The continuous quassation of the ship left the passengers exhausted.",
+    "Cockeram, Henry"
+  ],
+  [
+    "Rabanator",
+    "/ˌræbəˈneɪtər/",
+    "e",
+    "A disturber of the peace, destroyer, or one who causes uproar.",
+    "Latinate coinage from 'rabanare' (to rage or riot), found in late Middle English and early Tudor glossaries.",
+    "He proved himself a turbulent rabanator upon the harbor quays, inciting the press-gangs to riot.",
+    "Tudor Admiralty Court Records"
+  ],
+  [
+    "Rabato",
+    "/rəˈbɑːtoʊ/",
+    "e",
+    "A type of stiff collar or ruff supported by wire, worn in the 16th and 17th centuries by both landsmen and seafarers of high rank.",
+    "Italian 'rabattino', from French 'rabat'.",
+    "Upon his neck he wore a starched rabato stiffened with whalebone against the salt spray.",
+    "Thomas Dekker, The Gull's Hornbook"
+  ],
+  [
+    "Rack-rent",
+    "/ˈrækˌrɛnt/",
+    "t",
+    "Extortionate rent charged by ship-owners or landlords for miserable maritime berths or waterfront shacks.",
+    "From 'rack' (to stretch/torture) + 'rent'.",
+    "The fishermen were driven to poverty by the exorbitant rack-rent demanded for their net-houses.",
+    "Parliamentary Reports on Merchant Shipping"
+  ],
+  [
+    "Raddle",
+    "/ˈrædəl/",
+    "e",
+    "To intertwine branches or cordage to make a rough fence, hurdle, or makeshift shipboard barricade.",
+    "Frequentative of Old English 'rædan' or related to 'wattle'.",
+    "They set to raddling willow switches to reinforce the bulwarks against boarding parties.",
+    "Captain John Smith, Generall Historie"
+  ],
+  [
+    "Radix",
+    "/ˈreɪdɪks/",
+    "e",
+    "The fundamental root, origin, or bottommost part of a ship's structure.",
+    "Latin 'radix' (root).",
+    "The oak timber formed the very radix of the vessel's massive keel.",
+    "William Bourne, Inventions or Devices"
+  ],
+  [
+    "Raff",
+    "/ræf/",
+    "e",
+    "A confused heap, rabble, or refuse swept from the decks; also low-class sailors.",
+    "Old Norse 'hrafn' or Germanic roots meaning sweeping together.",
+    "The captain cleared the deck of the morning's raff before entering port.",
+    "Richard Hakluyt, Principal Navigations"
+  ],
+  [
+    "Raffling",
+    "/ˈræf-lɪŋ/",
+    "e",
+    "The act of casting lots or playing a dice game aboard ship to divide captured prize goods.",
+    "Old French 'raffle'.",
+    "The crew spent the evening in raffling for the silk bolts taken from the Spanish caravel.",
+    "State Papers Relating to the Spanish Armada"
+  ],
+  [
+    "Raft-port",
+    "/ˈræftˌpɔːrt/",
+    "t",
+    "A square hole cut in the stern or bow of a timber-ship to load long logs or spars.",
+    "Scandinavian 'raptr' + English 'port'.",
+    "Pass the mainmast spar through the raft-port with great care.",
+    "William Henry Smyth, The Sailor's Word-Book"
+  ],
+  [
+    "Rafter",
+    "/ˈræftər/",
+    "m",
+    "A timber used in ship framing, or a collection of logs floated together (a raft).",
+    "Old English 'ræfter'.",
+    "The shipwright hewed the rafter to fit the curve of the main deck beam.",
+    "Bury St. Edmunds Wills"
+  ],
+  [
+    "Ragabrash",
+    "/ˈræɡəˌbræʃ/",
+    "t",
+    "A disorderly, disreputable crew of low-ranking seamen or beachcombers.",
+    "Scots and northern dialect, a compound of 'rag' and 'brash' (brash/refuse).",
+    "A ragged ragabrash of mutineers swarmed over the abandoned hull.",
+    "Sir Walter Scott, The Pirate"
+  ],
+  [
+    "Rageful",
+    "/ˈreɪdʒfʊl/",
+    "e",
+    "Full of furious passion, descriptive of a violent storm or tempestuous sea.",
+    "From 'rage' + '-ful'.",
+    "The vessel tossed helplessly upon the rageful swells of the Bay of Biscay.",
+    "Arthur Golding, Translation of Ovid"
+  ],
+  [
+    "Ragman",
+    "/ˈræɡmən/",
+    "m",
+    "A medieval document with many seals appended; or an official roll of ship levies and taxes.",
+    "Origin uncertain, possibly from 'rag' (scroll).",
+    "The king's clerk unrolled the ragman to check the tally of impressed mariners.",
+    "Records of the Exchequer"
+  ],
+  [
+    "Rag-o-muffin",
+    "/ˈræɡoʊˌmʌfɪn/",
+    "e",
+    "A ragged, unkempt sailor or beggar; originally the name of a demon in mystery plays.",
+    "From 'rag' + obsolete 'muffion' (muffled/poor wretch).",
+    "The press-gang hauled a crew of rag-o-muffins out of the waterfront tavern.",
+    "William Shakespeare, Henry V"
+  ],
+  [
+    "Rail-bird",
+    "/ˈreɪlˌbɜːrd/",
+    "t",
+    "A migratory marsh bird frequently spotted by sailors making landfall near estuaries.",
+    "From 'rail' (the bird family Rallidae) + 'bird'.",
+    "A flock of rail-birds flew low over the rigging, signaling land ahead.",
+    "Ornithological Journal of the Voyage of the Beagle"
+  ],
+  [
+    "Raiment",
+    "/ˈreɪmənt/",
+    "e",
+    "Clothing, garments, or sea-attire worn by mariners.",
+    "Shortened from 'arrayment'.",
+    "His sea-raiment was crusted with dried salt and tar.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Raimove",
+    "/ˈreɪˌmuːv/",
+    "e",
+    "To remove, alter, or displace an anchor mark or boundary buoy.",
+    "Prefix 're-' + 'move'.",
+    "Severe penalties awaited any master who should raimove the channel markers.",
+    "Trinity House Maritime Ordinances"
+  ],
+  [
+    "Rain-beaten",
+    "/ˈreɪnˌbiːtən/",
+    "m",
+    "Weathered, worn, and soaked by continuous storms at sea.",
+    "From 'rain' + 'beaten'.",
+    "The rain-beaten sails flapped miserably against the wet spars.",
+    "Sir Thomas Malory, Le Morte d'Arthur"
+  ],
+  [
+    "Raise",
+    "/reɪz/",
+    "e",
+    "To cause land, a sail, or a beacon to rise above the horizon from a lookout's perspective.",
+    "Old Norse 'reisa'.",
+    "At the dawn watch, the topmast lookout did raise the white cliffs of Dover.",
+    "Logbook of the Mary Rose"
+  ],
+  [
+    "Raisin-wine",
+    "/ˈreɪzɪnˌwaɪn/",
+    "e",
+    "A heavy, sweet wine carried on long voyages as a substitute for spoiled fresh water.",
+    "From 'raisin' + 'wine'.",
+    "The purser doled out a small ration of raisin-wine to quell the scurvy.",
+    "Diaries of English Voyagers"
+  ],
+  [
+    "Rake-hell",
+    "/ˈreɪkˌhɛl/",
+    "e",
+    "A dissolute, reckless scoundrel, often applied to lawless privateers or pirates.",
+    "Altered from 'rakel' (rash) + 'hell'.",
+    "A crew of rake-hells pillaged the undefended fishing villages along the coast.",
+    "Raphael Holinshed, Chronicles"
+  ],
+  [
+    "Rakish",
+    "/ˈreɪkɪʃ/",
+    "t",
+    "Having a smart, swift appearance characterized by a leaning mast and low hull.",
+    "From 'rake' + '-ish'.",
+    "She was a rakish brigantine that flew no honest colors.",
+    "Captain Frederick Marryat, Mr. Midshipman Easy"
+  ],
+  [
+    "Ram",
+    "/ræm/",
+    "m",
+    "An underwater iron beak fitted to warships to puncture enemy hulls; also a heavy battering ram used in siege ships.",
+    "Old English 'ramm'.",
+    "The galley drove its brazen ram deep into the timber of the enemy flagship.",
+    "Medieval Naval Warfare Accounts"
+  ],
+  [
+    "Ramage",
+    "/ˈræmɪdʒ/",
+    "m",
+    "Wild, untamed behavior, or the scrambling through wild thickets and rigging.",
+    "Old French 'ramage', from 'ramus' (branch).",
+    "The wild apprentices showed their ramage ways aboard the transport ship.",
+    "The Paston Letters"
+  ],
+  [
+    "Ram-head",
+    "/ˈræmˌhɛd/",
+    "e",
+    "A block with three sheaves used in ship rigging, resembling a ram's head.",
+    "From 'ram' + 'head'.",
+    "Rig the main lift through the ram-head block with double-braided hemp.",
+    "Mainwaring's Seaman's Dictionary"
+  ],
+  [
+    "Ramp",
+    "/ræmp/",
+    "m",
+    "To leap, bound, or surge aggressively, used of ocean waves or attacking boarders.",
+    "Old French 'ramper' (to climb or crawl).",
+    "The gray billows did ramp against the high forecastle of the carrack.",
+    "John Gower, Confessio Amantis"
+  ],
+  [
+    "Ram-shackle",
+    "/ˈræmˌʃækəl/",
+    "t",
+    "Loose, rickety, poorly maintained; applied to old, leaking merchant vessels.",
+    "Variant of 'ramshackled', possibly from Old Norse 'hrammr' (paw) + 'shackle'.",
+    "They abandoned the ram-shackle schooner before she sank at her moorings.",
+    "Herman Melville, Redburn"
+  ],
+  [
+    "Rance",
+    "/ræns/",
+    "m",
+    "A bar, rail, or prop used to support cargo or keep things in place in a ship's hold.",
+    "Old French 'ranc' (row or line).",
+    "Secure the wine casks with sturdy wooden rances against the rolling sea.",
+    "Port of London Customs Rolls"
+  ],
+  [
+    "Random",
+    "/ˈrændəm/",
+    "m",
+    "At great speed, with great force, or at random flight (originally an archer's or gunner's arc).",
+    "Old French 'randon' (impetus, galloping).",
+    "The falconet fired its shot at random across the harbor entrance.",
+    "Barbour's Bruce"
+  ],
+  [
+    "Rank",
+    "/ræŋk/",
+    "m",
+    "Growing too thick, foul-smelling, or rotten; descriptive of stagnant bilge water in a ship's hold.",
+    "Old English 'ranc' (proud, tall, overgrown).",
+    "The bilge water grew rank and pestilential in the sweltering tropical heat.",
+    "Medical Accounts of the Royal Navy"
+  ],
+  [
+    "Rann",
+    "/ræn/",
+    "t",
+    "A coarse, strong grass found on sand dunes, used for thatching or packing cargo.",
+    "Irish/Gaelic origin, or dialectal variant.",
+    "The cargo of earthenware was stowed carefully in layers of dried rann.",
+    "Maritime Trade of the Irish Sea"
+  ],
+  [
+    "Ransome",
+    "/ˈrænsəm/",
+    "m",
+    "To pay money to free a captured ship or crew from privateers.",
+    "Old French 'ransom', from Latin 'redemptio'.",
+    "The merchantmen had to pay a heavy ransome to the Barbary corsairs.",
+    "Statutes of the Realm"
+  ],
+  [
+    "Rant",
+    "/rænt/",
+    "e",
+    "To talk boisterously and wildly, a common pastime for sailors drinking in dockside taverns.",
+    "Dutch 'ranten' (to rave).",
+    "The drunken boatswain began to rant about his adventures in the Indies.",
+    "Thomas Dekker, The Honest Whore"
+  ],
+  [
+    "Rant-pole",
+    "/ˈræntˌpoʊl/",
+    "t",
+    "A wild, restless person; a roamer of the high seas.",
+    "From 'rant' + 'pole' (a tall staff or wanderer).",
+    "That old rant-pole had sailed every ocean from Bristol to Canton.",
+    "Cornish Maritime Folklore"
+  ],
+  [
+    "Rap",
+    "/ræp/",
+    "e",
+    "To strike sharply; or a counterfeit coin of little value used by dishonest port merchants.",
+    "Middle English 'rappen'.",
+    "He tossed a brass rap onto the counter in payment for watered ale.",
+    "Dramatists of the Elizabethan Era"
+  ],
+  [
+    "Raparee",
+    "/ˌræpəˈriː/",
+    "e",
+    "An Irish plunderer or irregular soldier, later applied to coastal pirates and wreckers.",
+    "Irish 'rapaire' (half-pike, weapons carried by such marauders).",
+    "The coastal folk watched for the raparees who lit false beacons to lure ships ashore.",
+    "Historical Reports on Ireland"
+  ],
+  [
+    "Rape",
+    "/reɪp/",
+    "m",
+    "An administrative division of a county, especially in Sussex, historically used for naval levies.",
+    "Old Norse 'hreppr' (communal district).",
+    "The coastal rape was commanded to provide two fully armed cogs for the king's fleet.",
+    "Domesday Book Supplements"
+  ],
+  [
+    "Rapine",
+    "/ˈræpaɪn/",
+    "e",
+    "The violent seizure of property, piracy, or plundering on the high seas.",
+    "Latin 'rapina'.",
+    "The commission was issued to suppress all acts of rapine in the Narrow Seas.",
+    "Tudor Admiralty Proclamations"
+  ],
+  [
+    "Rapt",
+    "/ræpt/",
+    "e",
+    "Carried away with emotion, deeply absorbed, or snatched away by force.",
+    "Latin 'raptus'.",
+    "He stood in rapt amazement watching the great galleon pass under full sail.",
+    "John Milton, Comus"
+  ],
+  [
+    "Sacker",
+    "/ˈsæk.ər/",
+    "e",
+    "An ancient cannon of the medium size, used especially during the 16th and 17th centuries on warships.",
+    "From French sacre (a type of falcon, used metaphorically for a gun), from Arabic saqr.",
+    "Our great sacker and culverin did play upon their flank until the galleons broke formation.",
+    "A. Fletcher, Naval Gunnery of the Elizabethan Wars"
+  ],
+  [
+    "Salinometer",
+    "/ˌsæl.ɪˈnɒm.ɪ.tər/",
+    "t",
+    "An instrument for measuring the amount of salt dissolved in marine boiler water during steam navigation.",
+    "Coined in the 19th century from Latin sal (salt) + Greek metron (measure).",
+    "The engineer checked the salinometer hourly to prevent salt incrustation in the boilers.",
+    "Royal Navy Steam Engineering Manual"
+  ],
+  [
+    "Saltee",
+    "/ˈsɔːl.ti/",
+    "t",
+    "Sailor's slang or pidgin for a shilling, common in maritime trade ports.",
+    "From Lingua Franca and Mediterranean trade jargon, derived from Italian soldi.",
+    "He paid the bumboat man two saltee for a basket of fresh oranges.",
+    "Mariner's Pocket Vocabulary"
+  ],
+  [
+    "Samson-post",
+    "/ˈsæm.sənˌpoʊst/",
+    "t",
+    "A strong wooden or iron post fitted vertically to support a ship's deck, cargo boom, or windlass.",
+    "Named after Samson, symbolizing great strength.",
+    "The heavy cargo strained the forward samson-post during the heavy lurch.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Sandbagger",
+    "/ˈsændˌbæɡ.ər/",
+    "t",
+    "A small, heavily ballasted racing sailboat designed for shallow coastal waters.",
+    "From the use of loose sandbags as shifting ballast.",
+    "The sandbagger tacked sharply across the harbor, her crew shifting the ballast bags with practiced speed.",
+    "Yachting Magazine, Victorian Era"
+  ],
+  [
+    "Scandalize",
+    "/ˈskæn.də.laɪz/",
+    "e",
+    "To reduce the area of a sail hastily by temporarily letting it fly or peak it up without furling.",
+    "From Late Latin scandalizare, nautical usage developed in the 17th century.",
+    "Order was given to scandalize the mainsail as the sudden squall struck from the headland.",
+    "Mainwaring's Seaman's Dictionary"
+  ],
+  [
+    "Scarph",
+    "/skɑːrf/",
+    "m",
+    "A joint made by tapering and overlapping the ends of two timbers or metal pieces so they form a continuous piece of uniform thickness.",
+    "From Old Norse skarfr (scarf of a bird, or joint).",
+    "The master carpenter prepared a strong scarph to join the broken keelson.",
+    "Medieval Shipwright Accounts"
+  ],
+  [
+    "Schooner-rigged",
+    "/ˈskuː.nər.rɪɡd/",
+    "t",
+    "Equipped with fore-and-aft sails on two or more masts.",
+    "Derived from 'scoon', to skip over the water, coined in 18th-century New England.",
+    "A sleek, schooner-rigged vessel was sighted running before the trade winds.",
+    "Log of the Clipper Ship Lightning"
+  ],
+  [
+    "Scoop-net",
+    "/ˈskuːp.nɛt/",
+    "e",
+    "A hand-net used from a boat for catching fish near the surface.",
+    "From Middle English scoop + net.",
+    "The fishermen used a scoop-net to land the school of mackerel alongside.",
+    "Elizabethan Coastal Fisheries Report"
+  ],
+  [
+    "Scorse",
+    "/skɔːrs/",
+    "e",
+    "To barter, exchange, or trade, especially goods between sailors and merchants.",
+    "From Old Italian scorza or Spanish escorzar.",
+    "The crew set ashore to scorse their surplus salt pork for fresh water and fruit.",
+    "Hakluyt's Voyages"
+  ],
+  [
+    "Scout",
+    "/skaʊt/",
+    "m",
+    "A small, fast-sailing vessel employed for reconnaissance and dispatch carrying.",
+    "From Old French escouter (to listen), via Old Norse skutr.",
+    "The fleet detached a fast scout to ascertain the enemy's strength in the bay.",
+    "Chronicles of the Northern Seas"
+  ],
+  [
+    "Scow",
+    "/skaʊ/",
+    "e",
+    "A flat-bottomed, rectangular boat used for heavy transport in harbors and rivers.",
+    "From Dutch schouw (ferry boat, barge).",
+    "They loaded the ballast stone into a heavy scow to carry it out to the moored frigate.",
+    "Port of London Customs Records"
+  ],
+  [
+    "Scull",
+    "/skʌl/",
+    "m",
+    "A small oar used over the stern of a boat to propel it by a sculling motion.",
+    "Origin uncertain, possibly Scandinavian or Middle English.",
+    "The boatman took up his single scull to ferry the passengers across the harbor.",
+    "Medieval Port Books"
+  ],
+  [
+    "Scuppet",
+    "/ˈskʌp.ɪt/",
+    "t",
+    "A kind of shovel or scoop used for moving grain, salt, or ballast in a ship's hold.",
+    "Variant of scoop or spade.",
+    "The hands cleared the damp sand from the bilge using wooden scuppuppets.",
+    "Merchant Navy Deckhand's Guide"
+  ],
+  [
+    "Sea-dog",
+    "/ˈsiː.dɒɡ/",
+    "e",
+    "An experienced, hardy, and weathered old sailor.",
+    "Compound of sea + dog (metaphor for tenacious character).",
+    "An old sea-dog stood at the wheel, steering the galleon through the fog.",
+    "Thomas Dekker, Elizabethan Pamphlets"
+  ],
+  [
+    "Sea-holm",
+    "/ˈsiː.hoʊm/",
+    "m",
+    "An old term for a small island, skerry, or rock in the sea.",
+    "From Old English sǣholmw.",
+    "The longships took shelter behind a rocky sea-holm against the gale.",
+    "Anglo-Saxon Chronicle"
+  ],
+  [
+    "Seam-rent",
+    "/ˈsiːm.rɛnt/",
+    "m",
+    "The condition of a wooden ship when the caulking has fallen out of the seams.",
+    "From seam + rent (torn open).",
+    "The hull became seam-rent after striking the submerged reef.",
+    "Medieval Maritime Law"
+  ],
+  [
+    "Searcher",
+    "/ˈsɜːr.tʃər/",
+    "e",
+    "A customs officer appointed to inspect ships for smuggled goods or prohibited cargo.",
+    "From Old French cercier (to search).",
+    "The King's searcher boarded the cog before she could cast off her moorings.",
+    "Tudor Exchequer Rolls"
+  ],
+  [
+    "Seasick",
+    "/ˈsiː.sɪk/",
+    "m",
+    "Nauseated by the rolling or pitching motion of a vessel at sea.",
+    "From Old English sǣsic.",
+    "Many landsmen among the recruits were presently seasick as the cog cleared the bar.",
+    "Gervase of Tilbury"
+  ],
+  [
+    "Seat-rope",
+    "/ˈsiːt.roʊp/",
+    "t",
+    "A rope attached to a bosun's chair upon which a sailor sits when working aloft.",
+    "From seat + rope.",
+    "He secured his seat-rope carefully before hauling himself up to grease the maintopmast.",
+    "Dana, Two Years Before the Mast"
+  ],
+  [
+    "Seaze",
+    "/siːz/",
+    "e",
+    "An archaic spelling of seize, meaning to bind two ropes together with smaller line (seizin).",
+    "From Old French seisir.",
+    "Directly seaze the standing rigging with spunyarn to prevent chafing.",
+    "Captain John Smith, The Seaman's Grammar"
+  ],
+  [
+    "Second-rater",
+    "/ˈsɛk.əndˌreɪ.tər/",
+    "t",
+    "A British Royal Navy ship of the line carrying between 90 and 98 guns on three decks.",
+    "From second + rate (naval classification).",
+    "A majestic second-rater led the lee column into the line of battle.",
+    "Admiral Nelson's Dispatches"
+  ],
+  [
+    "Section",
+    "/ˈsɛk.ʃən/",
+    "t",
+    "A drawing showing the interior structure of a ship as if cut through vertically.",
+    "From Latin sectio (a cutting).",
+    "The naval architect studied the transverse section of the hull timbers.",
+    "Treatise on Naval Architecture"
+  ],
+  [
+    "Secure",
+    "/sɪˈkjʊər/",
+    "e",
+    "To make fast, lash down, or batten an object or part of the ship.",
+    "From Latin securus.",
+    "Secure the guns against the bulwarks before the gale hits us.",
+    "Ralegh's Naval Tracts"
+  ],
+  [
+    "Selvage",
+    "/ˈsɛl.vɪdʒ/",
+    "t",
+    "A flexible braided strap made of untwisted yarn, used for slinging spars or lifting weights.",
+    "From self + edge (salvedge).",
+    "They rigged a selvage strop around the mainmast yard to hoist the new sail.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Senhouse",
+    "/ˈsɛn.haʊs/",
+    "t",
+    "A type of slip-hook used for instantly releasing anchor chains or cargo lashings under tension.",
+    "Named after its inventor, Captain Senhouse, RN.",
+    "The crew tripped the senhouse slip to let go the emergency sea-anchor.",
+    "Royal Navy Gunnery Manual"
+  ],
+  [
+    "Sennit",
+    "/ˈsɛn.ɪt/",
+    "m",
+    "A braided cord or flat rope made by plaiting rope yarns together.",
+    "From Old English seonot (sin tendon, or braided cord).",
+    "The bosun sat on the deck, weaving sennit to make a chafing mat.",
+    "Medieval Ship Log"
+  ],
+  [
+    "Set-bolt",
+    "/ˈsɛt.boʊlt/",
+    "t",
+    "An iron bolt used by shipwrights to drive bolts or drift pins into timber holes.",
+    "From set + bolt.",
+    "The shipwright used a heavy set-bolt to drive the trunnel home.",
+    "The Shipbuilder's Assistant"
+  ],
+  [
+    "Shank-painter",
+    "/ˈʃæŋˌpeɪn.tər/",
+    "t",
+    "A short chain or rope that secures the shank of an anchor to the ship's side when hove up.",
+    "From shank (of an anchor) + painter (rope).",
+    "Release the shank-painter and let the anchor drop by the run!",
+    "Dana, Two Years Before the Mast"
+  ],
+  [
+    "Shear-hulk",
+    "/ˈʃɪər.hʌlk/",
+    "t",
+    "An old decommissioned ship fitted with tall shear-legs on deck for stepping and unstepping masts.",
+    "From shear (masting poles) + hulk.",
+    "The damaged frigate was towed alongside the shear-hulk to have her mainmast replaced.",
+    "Navy Records Society"
+  ],
+  [
+    "Sheave",
+    "/ʃiːv/",
+    "m",
+    "The grooved wheel inside a block or pulley over which the rope runs.",
+    "From Middle English sheve, probably of Germanic origin.",
+    "The line jammed because the wooden sheave had swollen in the damp air.",
+    "Medieval Inventory of the Navy"
+  ],
+  [
+    "Sheer",
+    "/ʃɪər/",
+    "m",
+    "The upward curve of a ship's deck or hull lines from the middle toward the bow and stern.",
+    "From Middle English scheren (to cut or curve).",
+    "A vessel with a graceful sheer was considered the mark of a master shipwright.",
+    "Ordnance Survey of Ship Design"
+  ],
+  [
+    "Shift",
+    "/ʃɪft/",
+    "m",
+    "To change the position of sails, cargo, or ballast to trim the ship.",
+    "From Old English sciftan (to divide or apportion).",
+    "The captain ordered the crew to shift the ballast to port to correct the list.",
+    "Maritime Customs Rolls"
+  ],
+  [
+    "Ship-shape",
+    "/ˈʃɪp.ʃeɪp/",
+    "t",
+    "Neat, orderly, and properly arranged, in the manner of a well-run vessel.",
+    "From ship + shape.",
+    "Everything on deck was made ship-shape before the harbor inspection.",
+    "Marryat, Mr. Midshipman Easy"
+  ],
+  [
+    "Shoal",
+    "/ʃoʊl/",
+    "m",
+    "A shallow place in a body of water, or a sandbank dangerous to navigation.",
+    "From Old English sceol (crowd or shallow, related to shoal of fish).",
+    "The lead-line sounded three fathoms just before the ship struck the hidden shoal.",
+    "The Brut Chronicles"
+  ],
+  [
+    "Shore",
+    "/ʃɔːr/",
+    "m",
+    "A strong timber prop or brace used to support a ship while in drydock or on the slipway.",
+    "From Middle English schoren, of Germanic origin.",
+    "The shipwright adjusted the port side shores as the tide ebbed from the dock.",
+    "Portsmouth Dockyard Accounts"
+  ],
+  [
+    "Shroud",
+    "/ʃraʊd/",
+    "m",
+    "One of the heavy ropes or wire cables leading from the masthead to the sides of a ship to support the mast laterally.",
+    "From Old English scrūd (garment or covering).",
+    "The gale snapped the starboard weather shroud like a brittle twig.",
+    "Gawain and the Green Knight"
+  ],
+  [
+    "Sighting",
+    "/ˈsaɪ.tɪŋ/",
+    "t",
+    "The taking of an astronomical measurement with a sextant to determine a ship's position.",
+    "From sight + -ing.",
+    "The master obtained a clear sighting of the sun at noon despite the rolling swell.",
+    "The Mariner's Mirror"
+  ],
+  [
+    "Skeg",
+    "/skɛɡ/",
+    "t",
+    "The downward projection of the keel at the stern, supporting the rudder post in wooden boats.",
+    "From Old Norse skegg (beard).",
+    "The longboat scraped her skeg upon the coral head as she entered the lagoon.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Skiff",
+    "/skɪf/",
+    "e",
+    "Any of various small boats, typically small enough for sailing or rowing by a single person.",
+    "From Old Italian schiffo, of Germanic origin.",
+    "He rowed ashore in a small wooden skiff to fetch the harbor pilot.",
+    "Shakespeare, The Tempest (implied usage)"
+  ],
+  [
+    "Sling",
+    "/slɪŋ/",
+    "m",
+    "A rope or chain arrangement used for hoisting cargo, spars, or injured men aboard ship.",
+    "From Old English slincan or Old Norse slyngva.",
+    "They secured the casks of wine in slings to hoist them safely into the hold.",
+    "Medieval Port Customs"
+  ],
+  [
+    "Sloop",
+    "/sluːp/",
+    "e",
+    "A single-masted sailing vessel with a fore-and-aft rig.",
+    "From Dutch sloep.",
+    "A fast-sailing royal sloop intercepted the merchantman off the cape.",
+    "State Papers, Domestic Series"
+  ],
+  [
+    "Smack",
+    "/smæk/",
+    "e",
+    "A traditional decked or half-decked sailing vessel used primarily for fishing.",
+    "From Dutch smak.",
+    "A fleet of fishing smacks left the estuary at dawn with the outgoing tide.",
+    "Tudor Admiralty Records"
+  ],
+  [
+    "Topmast",
+    "/ˈtɒpˌmɑːst/",
+    "e",
+    "The second mast above the deck, next above the lower mast.",
+    "Middle English, from top + mast",
+    "The topmast cracked under the force of the sudden gale.",
+    "Captain John Smith's Sea Grammar"
+  ],
+  [
+    "Tack",
+    "/tæk/",
+    "m",
+    "To alter the course of a vessel by turning her head into the wind and bringing the other side to bear.",
+    "Middle English taken, of Scandinavian origin",
+    "We must tack ship immediately to clear the rocky headland.",
+    "The Libelle of Englyshe Polycye"
+  ],
+  [
+    "Tackle",
+    "/ˈtækəl/",
+    "m",
+    "An assembly of ropes and pulley-blocks used for lifting heavy weights.",
+    "Middle English, probably from Low German takel",
+    "Rig the tackle carefully to hoist the heavy ordnance aboard.",
+    "Naval Accounts of Henry VII"
+  ],
+  [
+    "Taffrail",
+    "/ˈtæfreɪl/",
+    "t",
+    "The upper part of a ship's stern, traditionally carved and ornamented.",
+    "Dutch tafereel, panel",
+    "The captain stood leaning against the taffrail, watching the wake.",
+    "Richard Henry Dana Jr., Two Years Before the Mast"
+  ],
+  [
+    "Tiller",
+    "/ˈtɪlər/",
+    "m",
+    "A lever used to turn the rudder of a boat.",
+    "Old English tilre, from tilian (to strive or work)",
+    "Hold the tiller steady while I adjust the mainsail.",
+    "Wycliffe Bible"
+  ],
+  [
+    "Topmast-head",
+    "/ˈtɒpˌmɑːstˌhɛd/",
+    "t",
+    "The platform or summit of the topmast where lookouts were stationed.",
+    "Middle English compound",
+    "The lookout scanned the horizon from the topmast-head.",
+    "William Falconer, Universal Dictionary of the Marine"
+  ],
+  [
+    "Telltale",
+    "/ˈtɛlˌteɪl/",
+    "t",
+    "A small piece of yarn or bunting placed on the shrouds or stay to show the direction of the wind.",
+    "Middle English tellen + tale",
+    "Watch the telltale to see how closely we are hauled to the wind.",
+    "Admiral William Henry Smyth, The Sailor's Word-Book"
+  ],
+  [
+    "Topman",
+    "/ˈtɒpmən/",
+    "e",
+    "A sailor stationed in the tops to manage the sails and rigging.",
+    "Middle English compound",
+    "The topmen scrambled aloft to reef the top-sail.",
+    "Shakespeare, The Tempest"
+  ],
+  [
+    "Topsail",
+    "/ˈtɒpˌseɪl/",
+    "m",
+    "The sail set next above the lowest sail on a mast.",
+    "Middle English toppesail",
+    "Set the topsail and let her catch the offshore breeze.",
+    "The Paston Letters"
+  ],
+  [
+    "Tricing-line",
+    "/ˈtraɪsɪŋ laɪn/",
+    "t",
+    "A small cord used for hoisting up and fastening an object.",
+    "Middle English and Dutch nautical term",
+    "Fasten the canvas with the tricing-line.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Tack-knot",
+    "/ˈtæk nɒt/",
+    "t",
+    "A complex knot used in securing rigging lines.",
+    "Middle English compound",
+    "Tie a secure tack-knot to hold the spar in place.",
+    "Practical Shipbuilding Manual"
+  ],
+  [
+    "Tack-tackle",
+    "/ˈtæk ˌtækəl/",
+    "t",
+    "The tackle used for hauling down the tack of a sail.",
+    "Middle English compound",
+    "Haul upon the tack-tackle to stretch the foot of the mainsail.",
+    "Falconer's Marine Dictionary"
+  ],
+  [
+    "Tack-rope",
+    "/ˈtæk roʊp/",
+    "t",
+    "A rope employed to pass the tack of a sail.",
+    "Middle English compound",
+    "Pass the tack-rope through the deck block.",
+    "Dana, Two Years Before the Mast"
+  ],
+  [
+    "Trailboard",
+    "/ˈtreɪlˌbɔːrd/",
+    "t",
+    "Carved wooden boards running along the side of the bow from the figurehead.",
+    "Middle English trail + board",
+    "The gilt work on the trailboard shone brightly in the morning light.",
+    "C. L. Marquardt, Ship Design"
+  ],
+  [
+    "Transom",
+    "/ˈtrænsəm/",
+    "m",
+    "A timber bolted across the sternpost to form the stern of the vessel.",
+    "Old French transenna, crossbar",
+    "The ship's name was carved neatly across the transom.",
+    "Naval Architecture Records"
+  ],
+  [
+    "Treenail",
+    "/ˈtriːˌneɪl/",
+    "m",
+    "A cylindrical wooden pin used to fasten ship timbers together.",
+    "Middle English trene (wooden) + nail",
+    "Drive the treenail deep into the frame to secure the planking.",
+    "The Black Book of the Admiralty"
+  ],
+  [
+    "Trick",
+    "/trɪk/",
+    "t",
+    "A turn of duty at the helm.",
+    "Middle English, from Old French trique",
+    "It is my trick at the wheel through the midnight watch.",
+    "Marryat, Mr. Midshipman Easy"
+  ],
+  [
+    "Trim",
+    "/trɪm/",
+    "m",
+    "The posture or balance of a ship in the water regarding her draft forward and aft.",
+    "Old English trymian, to strengthen or prepare",
+    "Adjust the cargo to bring the vessel into proper trim.",
+    "Sir Walter Raleigh, Discourse on Shipping"
+  ],
+  [
+    "Trip",
+    "/trɪp/",
+    "m",
+    "To cause an anchor to break out from the sea bottom.",
+    "Middle English trippen",
+    "Trip the anchor before the tide turns against us.",
+    "Captain Smith's Accidence for Young Seamen"
+  ],
+  [
+    "Trophy",
+    "/ˈtroʊfi/",
+    "e",
+    "Captured enemy flags, arms, or goods taken at sea.",
+    "Greek tropaion, via French",
+    "They sailed into port with three captured enemy vessels as trophies.",
+    "State Papers of Elizabeth I"
+  ],
+  [
+    "Truck",
+    "/trʌk/",
+    "t",
+    "A small circular piece of wood at the top of a mast, containing sheaves for signal halyards.",
+    "French troque, pulley wheel",
+    "Hoist the signal flags up to the truck.",
+    "Smyth's Sailor's Word-Book"
+  ],
+  [
+    "Trunk",
+    "/trʌŋk/",
+    "t",
+    "A vertical passage through the deck or hull, such as for a centerboard.",
+    "Latin truncus",
+    "Water began to seep through the trunk of the centerboard.",
+    "Nautical Magazine"
+  ],
+  [
+    "Trunnion",
+    "/ˈtrʌnjən/",
+    "m",
+    "One of the two cylindrical projections on a cannon used to mount it on a carriage.",
+    "Old French trunhon",
+    "Inspect the trunnions of the carronades for any fracture.",
+    "Ordnance Records of Henry VIII"
+  ],
+  [
+    "Truss",
+    "/trʌs/",
+    "m",
+    "A rope or iron fitting used to keep the center of a yard pressed against the mast.",
+    "Old French trusser, to pack",
+    "Tighten the truss so the yardarm remains secure.",
+    "Mainwaring's Seaman's Dictionary"
+  ],
+  [
+    "Tumblehome",
+    "/ˈtʌmbəlˌhoʊm/",
+    "t",
+    "The inward curve of a ship's sides above the waterline.",
+    "English dialect tumble + home",
+    "The severe tumblehome of the hull made her design distinctive.",
+    "The Shipbuilder's Assistant"
+  ],
+  [
+    "Turn",
+    "/tɜːrn/",
+    "m",
+    "A single loop of a rope around a pin, cleat, or bitt.",
+    "Old English tyrnan",
+    "Take a turn with the hawser around the mooring bitt.",
+    "Medieval Shipping Contracts"
+  ],
+  [
+    "Turn-to",
+    "/ˈtɜːrn tuː/",
+    "t",
+    "An order for the crew to begin work.",
+    "Nautical phrasal verb",
+    "All hands turn-to at the pipe of the boatswain's whistle.",
+    "Dana, Two Years Before the Mast"
+  ],
+  [
+    "Tusker",
+    "/ˈtʌskər/",
+    "t",
+    "A large, heavy sea wave.",
+    "English regional dialect",
+    "A massive tusker broke over the weather bow and flooded the deck.",
+    "Sea Folklore and Slang"
+  ],
+  [
+    "Twin-screw",
+    "/ˈtwɪn skruː/",
+    "t",
+    "A vessel propelled by two separate screw propellers.",
+    "Modern English technical term",
+    "The new steamer was a twin-screw vessel of great power.",
+    "Jane's Fighting Ships"
+  ],
+  [
+    "Twine",
+    "/twaɪn/",
+    "m",
+    "Strong thread used for sailmaking and whipping rope ends.",
+    "Old English twīnan, to twist",
+    "Bring more waxed twine for mending the jib.",
+    "Guild Records of London"
+  ],
+  [
+    "Typhoon",
+    "/taɪˈfuːn/",
+    "e",
+    "A violent tropical hurricane occurring in the western Pacific.",
+    "Chinese dialect tai fung (great wind), via Portuguese",
+    "The fleet was scattered by a sudden typhoon off the coast of China.",
+    "Purchas His Pilgrimes"
+  ],
+  [
+    "Top-heavy",
+    "/ˈtɒpˌhɛvi/",
+    "e",
+    "Having too much weight aloft, threatening stability.",
+    "Middle English compound",
+    "The excessive cargo on deck made the carack dangerously top-heavy.",
+    "Raleigh's History of the World"
+  ],
+  [
+    "Top-mast-stay",
+    "/ˈtɒpˌmɑːstˌsteɪ/",
+    "m",
+    "A heavy rope supporting the topmast from forward.",
+    "Middle English compound",
+    "Straining against the gale, the top-mast-stay held firm.",
+    "Maritime Roll of Arms"
+  ],
+  [
+    "Topsail-sheet",
+    "/ˈtɒpˌseɪl ʃiːt/",
+    "m",
+    "The rope used to extend the lower corners of a topsail.",
+    "Middle English compound",
+    "Haul aft the topsail-sheet before the wind shifts.",
+    "Medieval Port Books"
+  ],
+  [
+    "Towline",
+    "/ˈtoʊlaɪn/",
+    "t",
+    "A strong rope or cable used to pull a vessel.",
+    "Middle English togen + line",
+    "Pass the towline to the disabled brig.",
+    "The Mariner's Mirror"
+  ],
+  [
+    "Tranship",
+    "/trænˈʃɪp/",
+    "t",
+    "To transfer cargo from one ship to another.",
+    "Latin trans- + ship",
+    "The spices were transhipped onto a lighter vessel for the river voyage.",
+    "East India Company Records"
+  ],
+  [
+    "Transom-plate",
+    "/ˈtrænsəm pleɪt/",
+    "t",
+    "A heavy metal plate reinforcing the transom stern.",
+    "Middle English compound",
+    "Bolt the transom-plate securely to the stern frame.",
+    "Naval Engineering Journal"
+  ],
+  [
+    "Traverse-board",
+    "/ˈtrævərs bɔːrd/",
+    "e",
+    "An instrument used in early navigation to record the speed and courses sailed during a watch.",
+    "Middle English traverse + board",
+    "The master marked the hourly progress upon the traverse-board.",
+    "John Davis, The Seaman's Secrets"
+  ],
+  [
+    "Treenail-wedge",
+    "/ˈtriːneɪl wɛdʒ/",
+    "m",
+    "A small wooden wedge driven into a treenail to expand it within its hole.",
+    "Middle English compound",
+    "Drive the treenail-wedge home to ensure a watertight fit.",
+    "Shipwright's Guild Ordinances"
+  ],
+  [
+    "Trial",
+    "/ˈtraɪəl/",
+    "m",
+    "A test of a ship's sailing qualities or gunnery performance.",
+    "Old French trier",
+    "The new galleon underwent a rigorous trial in the open sea.",
+    "State Papers, Henry VIII"
+  ],
+  [
+    "Trice-block",
+    "/ˈtraɪs blɒk/",
+    "t",
+    "A pulley block used in tricing up rigging or gear.",
+    "Middle English compound",
+    "Grease the trice-block so the line runs smooth.",
+    "Nautical Dictionary"
+  ],
+  [
+    "Turnbuckle",
+    "/ˈtɜːrnˌbʌkəl/",
+    "t",
+    "A coupling device with a screw thread used for tightening stays and rigging.",
+    "English turn + buckle",
+    "Adjust the turnbuckle to take the slack out of the shroud.",
+    "Modern Rigging Practice"
+  ],
+  [
+    "Umpirage",
+    "/ˈʌmpərɪdʒ/",
+    "e",
+    "The judgment or arbitration of an umpire, especially in maritime prize disputes or salvage claims.",
+    "From Middle English umpillage, derived from Old French umpeir.",
+    "The captain submitted the dispute regarding the salvage rights to the umpirage of the port admiral.",
+    "Admiralty Court Records"
+  ],
+  [
+    "Unballast",
+    "/ʌnˈbæləst/",
+    "e",
+    "To discharge ballast from a ship, or to render a vessel unstable by removing its ballast.",
+    "From un- (prefix of reversal) + ballast (Middle Dutch balast).",
+    "The crew began to unballast the hold before entering the shallow estuary.",
+    "John Smith, 'A Sea Grammar'"
+  ],
+  [
+    "Unberth",
+    "/ʌnˈbɜːrθ/",
+    "t",
+    "To remove a ship from its berth or mooring; to cast off from a dock.",
+    "From un- + berth (origin uncertain, possibly related to bear).",
+    "The pilot signaled that it was time to unberth and catch the morning ebb.",
+    "The Mariner's Chronicle"
+  ],
+  [
+    "Unbitt",
+    "/ʌnˈbɪt/",
+    "t",
+    "To remove a cable, rope, or chain from the bitts (the heavy posts on a ship's deck used for securing lines).",
+    "From un- + bitt (Old English bite or Old Norse bitill).",
+    "Orderly haste was required to unbitt the anchor cable as the tide turned.",
+    "William Henry Smyth, 'The Sailor's Word-Book'"
+  ],
+  [
+    "Unbome",
+    "/ʌnˈboʊm/",
+    "m",
+    "Unprotected by beams or timbers; structurally unreinforced (referring to early hull construction).",
+    "From Old English un- + beam.",
+    "The ancient hulk lay unbome upon the mudflats, its ribs exposed to the elements.",
+    "Anglo-Saxon Chronicle records"
+  ],
+  [
+    "Unbow",
+    "/ʌnˈbaʊ/",
+    "e",
+    "To unbend a sail from its yard, or to straighten a curved spar.",
+    "From un- + bow (Old English boga).",
+    "The boatswain ordered the hands to unbow the topsails ahead of the coming gale.",
+    "Mainwaring, 'The Seaman's Dictionary'"
+  ],
+  [
+    "Unbreech",
+    "/ʌnˈbriːtʃ/",
+    "e",
+    "To remove the breeching (the heavy rope securing a ship's cannon to the bulwark) from a gun.",
+    "From un- + breech (Old English brēc).",
+    "They had to unbreech the carronades before shifting them to the port battery.",
+    "Naval Ordnance Manual"
+  ],
+  [
+    "Uncaper",
+    "/ʌnˈkeɪpər/",
+    "t",
+    "To unfasten or release a caper, a type of privateer ship or fast-sailing vessel.",
+    "From un- + caper (Dutch kaper, privateer).",
+    "The harbor master commanded the Dutch crew to uncaper their vessel and move out of the fairway.",
+    "Port of London Shipping Gazette"
+  ],
+  [
+    "Uncapstan",
+    "/ʌnˈkæpstən/",
+    "t",
+    "To unship the bars of a capstan or dismantle the capstan mechanism.",
+    "From un- + capstan (Old Provençal cabestan).",
+    "Once the anchor was aweigh, the men moved to uncapstan the heavy wooden drum.",
+    "Merchant Navy Log"
+  ],
+  [
+    "Uncareen",
+    "/ʌn.kəˈriːn/",
+    "t",
+    "To right a vessel after it has been careened (tipped on its side for cleaning or hull repair).",
+    "From un- + careen (French carène, from Latin carina).",
+    "With the copper plating fully inspected, the carpenters prepared to uncareen the frigate.",
+    "Shipwright's Journal"
+  ],
+  [
+    "Uncast",
+    "/ʌnˈkæst/",
+    "m",
+    "To release or let go of a cast anchor or sounding lead.",
+    "From un- + cast (Old Norse kasta).",
+    "The leadman could uncast his line only when the ship dropped below four knots.",
+    "Medieval Seamanship Treatise"
+  ],
+  [
+    "Uncatch",
+    "/ʌnˈkætʃ/",
+    "e",
+    "To release a latch, dog, or dog-shore holding a ship on the launching ways.",
+    "From un- + catch (Old Northern French cachier).",
+    "The shipwright raised his maul to uncatch the final block as the bottle smashed against the bow.",
+    "Royal Dockyard Records"
+  ],
+  [
+    "Uncharge",
+    "/ʌnˈtʃɑːrdʒ/",
+    "e",
+    "To discharge cargo from a vessel; to unload.",
+    "From Old French un- + chargier.",
+    "The merchants gathered at the wharf to uncharge the spice ships from the Levant.",
+    "Customs House Archives"
+  ],
+  [
+    "Unchart",
+    "/ʌnˈtʃɑːrt/",
+    "t",
+    "To remove from a chart, or to denote an area as unmapped and perilous.",
+    "From un- + chart (Latin carta).",
+    "Reefs previously unknown forced the hydrographer to unchart the eastern bay.",
+    "Admiralty Survey Reports"
+  ],
+  [
+    "Unclinch",
+    "/ʌnˈklɪntʃ/",
+    "t",
+    "To undo the clinched or flattened end of a nail, rivet, or bolt in wooden ship construction.",
+    "From un- + clinch (variant of clench, Old English clencan).",
+    "The shipwrights had to unclinch the rusted iron bolts before replacing the rotten garboard strake.",
+    "Treatise on Naval Architecture"
+  ],
+  [
+    "Unclothe",
+    "/ʌnˈkloʊð/",
+    "e",
+    "To strip a ship of its sails or rigging; to unrig.",
+    "From Old English unclāðian.",
+    "Winter having arrived, the master ordered the crew to unclothe the masts entirely.",
+    "Elizabethan Admiralty Papers"
+  ],
+  [
+    "Uncord",
+    "/ʌnˈkɔːrd/",
+    "e",
+    "To cut or remove the cords or lashings securing cargo packages in the hold.",
+    "From un- + cord (Latin chorda).",
+    "The stevedores set to work to uncord the bales of tobacco brought up from Virginia.",
+    "Port Book of Southampton"
+  ],
+  [
+    "Uncradled",
+    "/ʌnˈkreɪd.əld/",
+    "t",
+    "Launched from the building cradle; having slid down the slipway into the water.",
+    "From un- + cradle (Old English cradol).",
+    "Once uncradled, the great ironclad floated high and steady in the basin.",
+    "The Times Maritime Section"
+  ],
+  [
+    "Uncramp",
+    "/ʌnˈkræmp/",
+    "t",
+    "To release a metal cramp, iron dog, or timber clamp used in ship joinery.",
+    "From un- + cramp (Middle Dutch crampe).",
+    "The joiner used a heavy iron bar to uncramp the deck planking after the glue had set.",
+    "Shipbuilder's Hand-Book"
+  ],
+  [
+    "Uncrowd",
+    "/ʌnˈkraʊd/",
+    "t",
+    "To reduce the number of passengers or crew on an overcrowded vessel; to clear deck space.",
+    "From un- + crowd (Old English crūdan).",
+    "The harbor master insisted they uncrowd the immigrant ship before issuing clearance.",
+    "Emigration Commission Report"
+  ],
+  [
+    "Undamn",
+    "/ʌnˈdæm/",
+    "m",
+    "To open a lock gate or sluice, allowing water to flow into or out of a drydock.",
+    "From un- + dam (Middle Dutch dam).",
+    "The tide being full, the dockmaster prepared to undamn the basin and float the carrack.",
+    "Port of Bristol Records"
+  ],
+  [
+    "Undated",
+    "/ʌnˈdeɪtɪd/",
+    "t",
+    "Lacking a date of entry in the ship's logbook or customs manifest.",
+    "From un- + date (Latin datum).",
+    "The customs officer set aside the undated cargo manifest for further inquiry.",
+    "Customs Inspection Log"
+  ],
+  [
+    "Under-beam",
+    "/ˈʌndər biːm/",
+    "t",
+    "Situated beneath the main deck beams; used to describe cargo stowed in the lower hold.",
+    "From under- + beam.",
+    "The heavy iron shot was stowed securely under-beam.",
+    "Naval Storekeeper's Ledger"
+  ],
+  [
+    "Under-course",
+    "/ˈʌndər kɔːrs/",
+    "e",
+    "The lowest sail on a mast, typically the mainsail or foresail.",
+    "From under- + course (Old French course).",
+    "The squall tore the under-course from its bolt-ropes before they could clew it up.",
+    "Sir Walter Raleigh's Maritime Papers"
+  ],
+  [
+    "Under-deck",
+    "/ˈʌndər dɛk/",
+    "t",
+    "Located underneath the upper deck of a ship.",
+    "From under- + deck (Middle Dutch decke).",
+    "The boatswain inspected the under-deck spaces for signs of bilge water accumulation.",
+    "Royal Navy Inspection Report"
+  ],
+  [
+    "Under-drift",
+    "/ˈʌndər drɪft/",
+    "t",
+    "The underwater current that pulls a vessel or diver in a direction contrary to the surface wind.",
+    "From under- + drift (Old English drīfan).",
+    "The strong under-drift swept the anchor cable round the submerged pinnacle.",
+    "Hydrographic Survey Journal"
+  ],
+  [
+    "Under-foot",
+    "/ˈʌndər fʊt/",
+    "t",
+    "Said of an anchor when it is directly beneath the ship's hawsepipe during weighing.",
+    "From under- + foot.",
+    "The mate shouted from the forecastle that the anchor was now dead under-foot.",
+    "Dana, 'Two Years Before the Mast'"
+  ],
+  [
+    "Under-girth",
+    "/ˈʌndər ɡɜːrθ/",
+    "e",
+    "A rope or chain passed underneath the hull of a vessel to secure a cargo or mend a leak.",
+    "From under- + girth (Old Norse gjörð).",
+    "They passed an under-girth of heavy canvas beneath the keel to stop the leak.",
+    "Mainwaring's Seaman's Dictionary"
+  ],
+  [
+    "Under-haul",
+    "/ˌʌndərˈhɔːl/",
+    "t",
+    "To haul a rope or cable from underneath, or to examine a fishing net from a boat.",
+    "From under- + haul (Old English halgian).",
+    "The fishermen rowed out at dawn to under-haul their drift nets.",
+    "Maritime Folk Customs of Cornwall"
+  ],
+  [
+    "Under-hold",
+    "/ˈʌndər hoʊld/",
+    "t",
+    "The lowest compartment of a ship's hold.",
+    "From under- + hold (Old English hold).",
+    "Ballast stone was packed tight in the under-hold to ensure proper trim.",
+    "Shipbuilder's Specifications"
+  ],
+  [
+    "Under-mast",
+    "/ˈʌndər mæst/",
+    "t",
+    "A lower mast, as distinguished from topmasts and topgallant masts.",
+    "From under- + mast (Old English mæst).",
+    "The force of the typhoon cracked the main under-mast right above the deck.",
+    "Loss of the HMS Wager Account"
+  ],
+  [
+    "Under-reach",
+    "/ˌʌndərˈriːtʃ/",
+    "t",
+    "To sail faster than another vessel and pass it to leeward; to maneuver under another ship's stern.",
+    "From under- + reach (Old English rǣcan).",
+    "The clipper ship managed to under-reach the slower merchant brig in the light breeze.",
+    "The Nautical Magazine"
+  ],
+  [
+    "Under-run",
+    "/ˌʌndərˈrʌn/",
+    "t",
+    "To pass a boat along underneath a cable, anchor line, or fishing net to inspect or haul it.",
+    "From under- + run (Old English rinnan).",
+    "The crew had to under-run the mooring cable to check for wear against the rocks.",
+    "Admiralty Manual of Seamanship"
+  ],
+  [
+    "Under-sail",
+    "/ˌʌndərˈseɪl/",
+    "t",
+    "Under sail; underway with canvas set.",
+    "From under- + sail (Old English segl).",
+    "By noon all ships of the squadron were under-sail and heading out to sea.",
+    "Naval Dispatch, 1805"
+  ],
+  [
+    "Under-shove",
+    "/ˈʌndər ʃʌv/",
+    "m",
+    "To slide or push a timber or wedge beneath a vessel's keel during drydocking.",
+    "From under- + shove (Old English scufan).",
+    "The shipwrights worked quickly to under-shove the oak blocks as the tide receded.",
+    "Medieval Shipwright Guild Records"
+  ],
+  [
+    "Under-tow",
+    "/ˈʌndər toʊ/",
+    "t",
+    "A subsurface current pulling in a direction opposite to the surface waves, hazardous to boats and swimmers.",
+    "From under- + tow (Old English tōian).",
+    "The longboat struggled against the powerful under-tow near the rocky headland.",
+    "Coastal Survey Report"
+  ],
+  [
+    "Under-way",
+    "/ˈʌndər weɪ/",
+    "t",
+    "Moving through the water; having broken anchor and started a voyage.",
+    "From under- + way (Old English weg).",
+    "With the pilot aboard, the steamship got under-way for New York.",
+    "Shipping News of the Port"
+  ],
+  [
+    "Under-wind",
+    "/ˈʌndər wɪnd/",
+    "e",
+    "Sheltered from the wind; situated to the leeward.",
+    "From under- + wind (Old English wind).",
+    "They brought the pinnace under-wind of the cliff while the storm raged.",
+    "Hakluyt's Voyages"
+  ],
+  [
+    "Undocked",
+    "/ʌnˈdɒkt/",
+    "t",
+    "Moved out of a dock or basin into the open water.",
+    "From un- + dock (Middle Dutch docke).",
+    "The steam packet undocked precisely at high water to catch the river current.",
+    "Mersey Docks Board Records"
+  ],
+  [
+    "Vane-master",
+    "/veɪnˈmæstər/",
+    "t",
+    "An officer or petty officer responsible for the care and adjustment of the ship's wind vanes and flags.",
+    "English compound of vane and master, Victorian naval terminology.",
+    "The vane-master reported a sudden shift in the breeze.",
+    "Royal Navy Manual of Seamanship, 1878"
+  ],
+  [
+    "Vang",
+    "/væŋ/",
+    "t",
+    "A rope leading from the peak of a gaff to the deck to steady it.",
+    "Dutch or Low German origin, adopted into English nautical jargon.",
+    "Haul taut the peak vangs before we come about.",
+    "Smyth's Sailor's Word-Book, 1867"
+  ],
+  [
+    "Vang-trench",
+    "/væŋ trɛntʃ/",
+    "t",
+    "A groove or channel designed to guide a vang rope.",
+    "Compound of vang and trench.",
+    "Clear the line from the vang-trench.",
+    "Naval Architecture Glossary, 1845"
+  ],
+  [
+    "Vane-staff",
+    "/veɪn stɑːf/",
+    "t",
+    "A small staff at the masthead carrying the wind vane.",
+    "Compound of vane and staff.",
+    "The wind vane-staff snapped in the heavy gale.",
+    "Log of HMS Victory, 1805"
+  ],
+  [
+    "Vanguardian",
+    "/væŋˈɡɑːrdiən/",
+    "t",
+    "A sailor serving aboard the vanguard ship of a fleet.",
+    "Derivative of vanguard.",
+    "Every vanguardian stood ready at his gun.",
+    "Maritime Times, 1852"
+  ],
+  [
+    "Vang-bit",
+    "/væŋ bɪt/",
+    "t",
+    "A strong timber post used to belay a heavy vang.",
+    "Compound of vang and bit.",
+    "Secure the main gaff to the vang-bit.",
+    "Dictionary of Sea Terms, 1883"
+  ],
+  [
+    "Vane-plate",
+    "/veɪn pleɪt/",
+    "t",
+    "A brass plate supporting the rotating spindle of a wind vane.",
+    "Compound of vane and plate.",
+    "The salt had rusted the vane-plate solid.",
+    "The Marine Engineer, 1879"
+  ],
+  [
+    "Vanner",
+    "/ˈvænər/",
+    "t",
+    "A small vessel or boat used for carrying goods in coastal waters.",
+    "Derived from van (a transport wagon or boat).",
+    "A fleet of small vanners brought provisions to the anchorage.",
+    "Customs Records of Portsmouth, 1820"
+  ],
+  [
+    "Vane-truck",
+    "/veɪn trʌk/",
+    "t",
+    "The rounded wooden cap at the very top of a mast that holds the vane.",
+    "Compound of vane and truck.",
+    "Paint the vane-truck white before stepping the mast.",
+    "The Sailor's Assistant, 1840"
+  ],
+  [
+    "Vang-purchase",
+    "/væŋ ˈpɜːrtʃəs/",
+    "t",
+    "A tackle system applied to a gaff vang for extra mechanical advantage.",
+    "Compound of vang and purchase (tackle).",
+    "Rig a vang-purchase to hold the heavy spanker boom.",
+    "Dana, The Seaman's Friend, 1841"
+  ],
+  [
+    "Vane-line",
+    "/veɪn laɪn/",
+    "t",
+    "A small halyard used to haul down or adjust a masthead vane.",
+    "Compound of vane and line.",
+    "Haul on the vane-line to clear the fouled pennant.",
+    "Royal Navy Rigging Instructions, 1815"
+  ],
+  [
+    "Vanguardry",
+    "/ˈvæŋɡɑːrdri/",
+    "e",
+    "The collective force forming the vanguard of a fleet.",
+    "Elizabethan coinage from vanguard.",
+    "The entire vanguardry pressed forward with high courage.",
+    "Sir Walter Raleigh, History of the World, 1614"
+  ],
+  [
+    "Vane-socket",
+    "/veɪn ˈsɒkɪt/",
+    "t",
+    "The metal socket into which the spindle of a wind vane is stepped.",
+    "Compound of vane and socket.",
+    "Grease the vane-socket so it turns freely in light winds.",
+    "The Shipwright's Vade-Mecum, 1822"
+  ],
+  [
+    "Vang-bolt",
+    "/væŋ boʊlt/",
+    "t",
+    "An eyebolt on the ship's side or deck to which a vang is secured.",
+    "Compound of vang and bolt.",
+    "The deck vang-bolt pulled out under the strain.",
+    "Practical Shipbuilding, 1860"
+  ],
+  [
+    "Varvel",
+    "/ˈvɑːrvəl/",
+    "t",
+    "A small brass ring or loop, occasionally used in marine fittings and falconry.",
+    "Old French varvelle.",
+    "Fasten the small tackle using a brass varvel.",
+    "Old Nautical Lexicon, 1850"
+  ],
+  [
+    "Vaughan",
+    "/vɔːn/",
+    "t",
+    "An obsolete regional term for a heavy landing craft or lighter.",
+    "Welsh surname adopted into local maritime slang.",
+    "Unload the timber into the vaughan.",
+    "Bristol Channel Port Records, 1810"
+  ],
+  [
+    "Vassal-ship",
+    "/ˈvæsəl ʃɪp/",
+    "e",
+    "A tributary or subordinate vessel required to pay homage or service to a flagship.",
+    "Compound of vassal and ship.",
+    "The vassal-ship lowered its topsails in salute.",
+    "Naval Ordinances of Elizabeth I, 1575"
+  ],
+  [
+    "Vane-gasket",
+    "/veɪn ˈɡæskɪt/",
+    "t",
+    "A small tie used to secure a loose wind vane during heavy weather.",
+    "Compound of vane and gasket.",
+    "Tie down the vane with a vane-gasket.",
+    "Sailor's Pocket Book, 1870"
+  ],
+  [
+    "Vang-tackle",
+    "/væŋ ˈtækəl/",
+    "t",
+    "A block and tackle arrangement used as a vang.",
+    "Compound of vang and tackle.",
+    "Set up the vang-tackle on the port side.",
+    "Smyth's Sailor's Word-Book, 1867"
+  ],
+  [
+    "Veer",
+    "/vɪər/",
+    "m",
+    "To pay out rope, cable, or chain; also used of the wind changing direction clockwise.",
+    "Middle English veren, from Old French virer.",
+    "Veer away more cable on the bower anchor!",
+    "The Book of Examinations and Depositions, 1590"
+  ],
+  [
+    "Veering",
+    "/ˈvɪərɪŋ/",
+    "m",
+    "The act of paying out cable or the shifting of the wind in a clockwise direction.",
+    "Present participle of veer.",
+    "The veering wind allowed us to clear the headland.",
+    "Mainwaring, The Seaman's Dictionary, 1644"
+  ],
+  [
+    "Velivolant",
+    "/vɪˈlɪvələnt/",
+    "t",
+    "Winged with sails, moving swiftly under sail.",
+    "Latin velivolus (flying with sails).",
+    "The velivolant armada swept across the horizon.",
+    "Carlyle, Latter-Day Pamphlets, 1850"
+  ],
+  [
+    "Velivolous",
+    "/vɪˈlɪvələs/",
+    "t",
+    "Navigated by ships, full of ships under sail.",
+    "Latin velivolus.",
+    "The velivolous ocean bustled with merchantmen.",
+    "De Quincey, Miscellaneous Essays, 1859"
+  ],
+  [
+    "Vell",
+    "/vɛl/",
+    "t",
+    "A skin or membrane, sometimes used metaphorically for a thin sail or awning.",
+    "Variant of vellum or dialectal English.",
+    "The sun beat down through the canvas vell.",
+    "Maritime Glossary of the West Country, 1840"
+  ],
+  [
+    "Vellum-book",
+    "/ˈvɛləm bʊk/",
+    "t",
+    "The primary logbook bound in vellum kept by the ship's master.",
+    "Compound of vellum and book.",
+    "Record the noon position in the vellum-book.",
+    "Admiralty Regulations, 1731"
+  ],
+  [
+    "Veloutier",
+    "/vɛluːˈtjeɪ/",
+    "t",
+    "A specialized craft or merchant vessel trading in velvet and textiles.",
+    "French nautical term used in British trade reports.",
+    "A Dutch veloutier arrived at the docks laden with silks.",
+    "London Shipping Gazette, 1845"
+  ],
+  [
+    "Velvet-runner",
+    "/ˈvɛlvɪt ˈrʌnər/",
+    "t",
+    "A smooth wooden spar or batten used to prevent chafing of delicate cargo lines.",
+    "Compound of velvet and runner.",
+    "Fit the velvet-runner beneath the standing rigging.",
+    "Merchant Navy Manual, 1888"
+  ],
+  [
+    "Venation",
+    "/vɪˈneɪʃən/",
+    "t",
+    "The patterned arrangement of ribs in a specialized canvas sail or awning.",
+    "Latin venatio (hunting), applied poetically to rigging lines.",
+    "The complex venation of the ancient lateen sail.",
+    "Nautical Aesthetics, 1862"
+  ],
+  [
+    "Vendage",
+    "/ˈvɛndɪdʒ/",
+    "e",
+    "The cargo of wine brought by merchant vintners from France or Spain.",
+    "Middle English, from Old French.",
+    "The hold was packed tight with the season's vendage.",
+    "Customs Rolls of London, 1540"
+  ],
+  [
+    "Vender",
+    "/ˈvɛndər/",
+    "t",
+    "A ship-chandler or merchant who sells goods to visiting ships.",
+    "Latin vendere.",
+    "The port vender supplied salt beef and fresh water.",
+    "Port of Liverpool Records, 1805"
+  ],
+  [
+    "Veneer",
+    "/vɪˈnɪər/",
+    "t",
+    "A thin outer layer of fine wood applied to ship's cabin paneling.",
+    "German furnieren, via French.",
+    "The captain's cabin was finished in mahogany veneer.",
+    "Shipwright's Guide, 1835"
+  ],
+  [
+    "Vengeance",
+    "/ˈvɛndʒəns/",
+    "e",
+    "A common historical name for a heavy warship (HMS Vengeance).",
+    "Old French vengance.",
+    "The Vengeance fired a broadside that shook the bay.",
+    "Naval Dispatch, 1798"
+  ],
+  [
+    "Venire",
+    "/vɪˈnaɪəri/",
+    "t",
+    "A writ summoning a marine court or jury of inquiry in admiralty law.",
+    "Latin venire (to come).",
+    "The court issued a venire for the mutinous crew.",
+    "Admiralty Court Proceedings, 1755"
+  ],
+  [
+    "Vent",
+    "/vɛnt/",
+    "m",
+    "The touchhole of a ship's cannon through which the priming is fired.",
+    "Old French vente / vent.",
+    "Spike the vent of the carronade before abandoning the deck.",
+    "Gunner's Vade-Mecum, 1776"
+  ],
+  [
+    "Ventre",
+    "/ˈvɒntrə/",
+    "e",
+    "The belly or lowest curved part of a ship's hull underwater.",
+    "Old French ventre.",
+    "The barnacles clung thick to the ventre of the galleon.",
+    "Minsheu, The Guide into Tongues, 1617"
+  ],
+  [
+    "Vent-punch",
+    "/ˈvɛnt pʌntʃ/",
+    "t",
+    "A metal tool used to clear residue from the cannon vent.",
+    "Compound of vent and punch.",
+    "Hand the gunner the vent-punch and priming iron.",
+    "Royal Artillery Manual, 1800"
+  ],
+  [
+    "Vent-wire",
+    "/ˈvɛnt waɪər/",
+    "t",
+    "A thin wire used to pierce the powder cartridge inside a cannon's vent.",
+    "Compound of vent and wire.",
+    "Clear the charge with the vent-wire.",
+    "Naval Gunnery Practice, 1830"
+  ],
+  [
+    "Veranda",
+    "/vəˈrændə/",
+    "t",
+    "A covered gallery or deck extension built on large passenger sailing ships.",
+    "Hindi varanda, via Anglo-Indian trade.",
+    "Passengers strolled along the stern veranda during the calm.",
+    "Journal of an Indian Voyager, 1848"
+  ],
+  [
+    "Verbena",
+    "/vərˈbiːnə/",
+    "t",
+    "A fragrant herb carried in ships' medicine chests to ward off foul odors.",
+    "Latin verbena (sacred boughs).",
+    "Burn dried verbena in the berth deck to freshen the air.",
+    "The Surgeon's Mate at Sea, 1824"
+  ],
+  [
+    "Verify",
+    "/ˈvɛrɪfaɪ/",
+    "m",
+    "To check the accuracy of navigational reckonings or ship's stores.",
+    "Latin verificare.",
+    "The master used his astrolabe to verify the latitude.",
+    "Navigation Log of the Golden Hind, 1578"
+  ],
+  [
+    "Vernier",
+    "/ˈvɜːrniər/",
+    "t",
+    "A small auxiliary scale on sextants and quadrants for precise fractional readings.",
+    "Named after Pierre Vernier (1580–1637).",
+    "Read the minutes on the vernier of the sextant.",
+    "Bowditch, The New American Practical Navigator, 1802"
+  ],
+  [
+    "Vert-galant",
+    "/ˌvɛər ɡəˈlɒnt/",
+    "e",
+    "A fast, lively vessel; literally 'green and gallant'.",
+    "French phrase adopted into Elizabethan maritime slang.",
+    "She was a vert-galant pinnace, fast and clean-limbed.",
+    "Dekker, The Honest Whore, 1604"
+  ],
+  [
+    "Waftage",
+    "/ˈwɑːftɪdʒ/",
+    "e",
+    "The act of conveying or transporting something over water; passage by water or air.",
+    "From 'waft' + '-age', ultimately from Dutch or Low German 'wachten'.",
+    "\"More than we count could swim to the north-populus, if they could have any waftage.\"",
+    "Richard Hakluyt, 'The Principal Navigations'"
+  ],
+  [
+    "Wapp",
+    "/wæp/",
+    "e",
+    "A rope used to shroud a boat or to secure rigging temporarily.",
+    "Middle English origin, related to nautical terms for cordage and wrapping.",
+    "\"Fasten the lower wapps securely before the gale strikes the mainmast.\"",
+    "Captain John Smith, 'The Sea Grammar'"
+  ],
+  [
+    "Warder",
+    "/ˈwɔːrdər/",
+    "m",
+    "A watchman or guard stationed at a port or coastal defense point.",
+    "Old English 'weardere', from Proto-Germanic.",
+    "\"The warders on the cliff top spotted the foreign sails approaching at dawn.\"",
+    "14th-century Port Books of Southampton"
+  ],
+  [
+    "Wash-strake",
+    "/wɒʃ streɪk/",
+    "t",
+    "An extra plank added to the upper edge of a boat's side to prevent water from splashing in.",
+    "Compound of 'wash' and 'strake' (a line of planking on a ship).",
+    "\"Raise the wash-strakes higher to keep the heavy breaking seas out of the jolly-boat.\"",
+    "William Henry Smyth, 'The Sailor's Word-Book'"
+  ],
+  [
+    "Water-ail",
+    "/ˈwɔːtər eɪl/",
+    "m",
+    "An old term for scurvy or other ailments traditionally associated with long sea voyages.",
+    "Old English 'wæter-adl', meaning water-sickness.",
+    "\"Many of the crew fell victim to the water-ail after three months without fresh provisions.\"",
+    "Medieval maritime medical rolls"
+  ],
+  [
+    "Water-gaw",
+    "/ˈwɔːtər ɡɔː/",
+    "t",
+    "A secondary or broken rainbow, or a watery atmospheric appearance portending bad weather at sea.",
+    "Old English 'wæter-gāw', of uncertain ultimate etymology.",
+    "\"A water-gaw appeared in the west, and within the hour the squall was upon us.\"",
+    "Traditional British nautical folklore"
+  ],
+  [
+    "Water-rug",
+    "/ˈwɔːtər rʌɡ/",
+    "e",
+    "A heavy, rough woolen garment worn by sailors for protection against wet weather.",
+    "Compound of 'water' and 'rug' (a coarse, heavy woolen fabric).",
+    "\"Issue each man a water-rug and leather mittens before rounding Cape Horn.\"",
+    "Royal Navy victualling records"
+  ],
+  [
+    "Wave-coffer",
+    "/ˈweɪv ˈkɒfər/",
+    "t",
+    "A hollow trough or depression between heavy ocean waves.",
+    "Compound of 'wave' and 'coffer' (a chest or hollow vessel).",
+    "Tossed deep within the wave-coffer, the small cutter was momentarily lost from sight.",
+    "Mariner's meteorological log"
+  ],
+  [
+    "Wave-worn",
+    "/ˈweɪv wɔːrn/",
+    "m",
+    "Damaged, battered, or weathered by the constant action of sea waves.",
+    "Compound of 'wave' and 'worn', found in early Germanic verse.",
+    "\"The wave-worn timbers of the stranded hulk were stripped for salvage.\"",
+    "Middle English chronicle"
+  ],
+  [
+    "Way-maker",
+    "/ˈweɪ ˈmeɪkər/",
+    "e",
+    "A leading ship that breaks the path through ice or a crowded fleet.",
+    "Compound of 'way' and 'maker'.",
+    "\"Our flagship acted as the way-maker through the treacherous northern pack ice.\"",
+    "Arctic exploration journals"
+  ],
+  [
+    "Way-wis",
+    "/ˈweɪ wɪs/",
+    "m",
+    "Knowing the proper nautical routes or navigational channels; experienced at sea.",
+    "Old English 'weg-wīs', meaning way-wise or guiding.",
+    "\"Hire a way-wis pilot who knows the shifting shoals of the Thames estuary.\"",
+    "Seafaring legal statutes"
+  ],
+  [
+    "Weather-bite",
+    "/ˈwɛðər baɪt/",
+    "t",
+    "The corrosion or damage inflicted on ships' fittings by prolonged exposure to harsh weather.",
+    "Compound of 'weather' and 'bite'.",
+    "\"The brass fittings showed severe weather-bite after six months on the Atlantic patrol.\"",
+    "Royal Naval dockyard report"
+  ],
+  [
+    "Weather-fend",
+    "/ˈwɛðər fɛnd/",
+    "e",
+    "To defend or shelter a ship from the wind and weather.",
+    "Compound of 'weather' and 'fend'.",
+    "\"We sought to weather-fend the ship behind the lee of the high island.\"",
+    "Richard Hakluyt, 'Voyages'"
+  ],
+  [
+    "Weather-glass",
+    "/ˈwɛðər ɡlɑːs/",
+    "t",
+    "An early term for a marine barometer used to forecast weather changes.",
+    "Compound of 'weather' and 'glass'.",
+    "\"The captain tapped the weather-glass anxiously as the mercury began to fall.\"",
+    "19th-century naval memoir"
+  ],
+  [
+    "Weather-gleam",
+    "/ˈwɛðər ɡliːm/",
+    "t",
+    "A bright streak of light on the horizon indicating clearing weather after a storm at sea.",
+    "Scots and northern English nautical dialect.",
+    "\"A weather-gleam appeared low in the north, promising an end to the gale.\"",
+    "Shetland maritime lexicon"
+  ],
+  [
+    "Weather-shore",
+    "/ˈwɛðər ʃɔːr/",
+    "t",
+    "The shore that lies to windward of a ship.",
+    "Compound of 'weather' (windward) and 'shore'.",
+    "\"Keep a sharp lookout, for we are drifting dangerously close to the weather-shore.\"",
+    "Admiralty sailing directions"
+  ],
+  [
+    "Weather-stay",
+    "/ˈwɛðər steɪ/",
+    "t",
+    "A stay on the windward side of a mast, subject to greater tension.",
+    "Compound of 'weather' and 'stay' (nautical rigging).",
+    "\"Inspect the weather-stays for fraying before we put about in the heavy gale.\"",
+    "Practical seamanship manual"
+  ],
+  [
+    "Weave-anchor",
+    "/ˈwiːv ˈæŋkər/",
+    "t",
+    "To maneuver a ship using anchors to change position in a confined harbor.",
+    "Combination of 'weave' and 'anchor'.",
+    "\"They managed to weave-anchor the frigate out of the narrow basin.\"",
+    "Naval tactical treatise"
+  ],
+  [
+    "Weed-grown",
+    "/ˈwiːd ɡroʊn/",
+    "t",
+    "Fouled with marine vegetation and barnacles on the underwater hull.",
+    "Compound of 'weed' and 'grown'.",
+    "\"The heavily weed-grown hull severely reduced the speed of the merchantman.\"",
+    "Drydock surveyor's report"
+  ],
+  [
+    "Weigh-balk",
+    "/ˈweɪ bɔːk/",
+    "m",
+    "A heavy timber structure used for hoisting cargo or heavy ship components.",
+    "Middle English origin.",
+    "\"Use the weigh-balk on the wharf to lift the replacement anchor aboard.\"",
+    "Port of London records"
+  ],
+  [
+    "Well-head",
+    "/ˈwɛl hɛd/",
+    "t",
+    "The pump or protective casing over a ship's bilge pump well.",
+    "Compound of 'well' (bilge well) and 'head'.",
+    "\"Keep the well-head clear so the men can sound the bilge regularly.\"",
+    "Shipboard routine orders"
+  ],
+  [
+    "Well-room",
+    "/ˈwɛl ruːm/",
+    "t",
+    "The compartment in a fishing smack or cutter where live fish are kept in sea water.",
+    "Compound of 'well' and 'room'.",
+    "\"Clear out the well-room before we set out for the Dogger Bank fisheries.\"",
+    "North Sea fishing customs"
+  ],
+  [
+    "Welt-rope",
+    "/ˈwɛlt roʊp/",
+    "t",
+    "A specialized boltrope sewn into the edges of sails or canvas covers to reinforce them.",
+    "Compound of 'welt' and 'rope'.",
+    "\"Stitch the welt-rope firmly into the bolt of the new topsaiI.\"",
+    "Sailmaker's handbook"
+  ],
+  [
+    "Wharf-inger",
+    "/ˈhwɔːrfɪndʒər/",
+    "e",
+    "The owner, manager, or keeper of a wharf or dock.",
+    "From 'wharf' + suffix '-inger'.",
+    "\"Speak with the wharfinger to secure a berth for the arriving brigantine.\"",
+    "Legal documents of the Port of London"
+  ],
+  [
+    "Whelm",
+    "/wɛlm/",
+    "m",
+    "To capsize, submerge, or engulf a vessel by heavy waves.",
+    "Middle English 'whelmen', from Old English origin.",
+    "\"A monstrous breaker struck the stern and whelmed the skiff in an instant.\"",
+    "Sir Walter Raleigh, 'History of the World'"
+  ],
+  [
+    "Whelp",
+    "/wɛlp/",
+    "t",
+    "One of the short vertical wooden or iron bars on a capstan barrel around which the cable turns.",
+    "Etymologically related to the animal term, applied by analogy.",
+    "\"The anchor cable slipped because the capstan whelps were worn smooth.\"",
+    "Naval architecture dictionary"
+  ],
+  [
+    "Whiffle",
+    "/ˈhwɪfəl/",
+    "e",
+    "To veer about unpredictably, like a shifting wind; to blow in gusts.",
+    "Frequentative of 'whiff'.",
+    "\"The wind began to whiffle from the east to the south without warning.\"",
+    "Logbook of the East India Company"
+  ],
+  [
+    "Whift",
+    "/hwɪft/",
+    "e",
+    "A sudden puff or gust of wind.",
+    "Variant of 'whiff'.",
+    "\"A sudden whift of air shook the slack sails before the calm settled again.\"",
+    "Maritime diary of an Elizabethan navigator"
+  ],
+  [
+    "Whipping",
+    "/ˈhwɪpɪŋ/",
+    "t",
+    "The process of binding the end of a rope with twine to prevent it from fraying.",
+    "From the verb 'whip' in the nautical sense of binding.",
+    "\"Apply a neat whipping of waxed twine to every loose line on deck.\"",
+    "Manual of Seamanship"
+  ],
+  [
+    "Whirl-blast",
+    "/ˈhwɜːrl blæst/",
+    "e",
+    "A sudden swirling gust of wind or waterspout at sea.",
+    "Compound of 'whirl' and 'blast'.",
+    "\"The pinnace was nearly capsized by a violent whirl-blast in the bay.\"",
+    "Travels of John Davis"
+  ],
+  [
+    "Whirl-pit",
+    "/ˈhwɜːrl pɪt/",
+    "m",
+    "An archaic term for a whirlpool or vortex in the sea.",
+    "Middle English 'whirle-pit'.",
+    "\"The ship steered wide of the dangerous whirl-pit near the northern coast.\"",
+    "Middle English sea-voyage romance"
+  ],
+  [
+    "White-water",
+    "/ˈhwaɪt ˈwɔːtər/",
+    "t",
+    "Foaming water found in rapids, over dangerous shoals, or in heavy surf.",
+    "Compound of 'white' and 'water'.",
+    "\"The pilot warned of white-water where the reef rose sharply near the surface.\"",
+    "Hydrographic surveyor's notes"
+  ],
+  [
+    "Whittle-gate",
+    "/ˈhwɪtəl ɡeɪt/",
+    "t",
+    "An old maritime coastal privilege granting the right to timber or driftwood.",
+    "Northern dialect term of ancient origin.",
+    "\"The local fishermen claimed their traditional whittle-gate along the strand.\"",
+    "Coastal parish records"
+  ],
+  [
+    "Wide-sea",
+    "/ˈwaɪd siː/",
+    "m",
+    "The open ocean far away from any coast or land.",
+    "Old English 'wīd-sǣ'.",
+    "\"They ventured out upon the wide-sea with only compass and astrolabe.\"",
+    "Old English translation of Orosius"
+  ],
+  [
+    "Wind-bound",
+    "/ˈwaɪnd baʊnd/",
+    "e",
+    "Delayed or unable to leave port because of contrary or adverse winds.",
+    "Compound of 'wind' and 'bound' (restrained).",
+    "\"The fleet lay wind-bound in Plymouth Sound for upwards of three weeks.\"",
+    "State Papers, Reign of Elizabeth I"
+  ],
+  [
+    "Wind-egg",
+    "/ˈwaɪnd ɛɡ/",
+    "t",
+    "A slang term among sailors for an empty or useless promise, or a barren venture.",
+    "Metaphorical nautical usage.",
+    "\"Do not rely on their promises; they will prove mere wind-eggs.\"",
+    "Sailor's slang lexicon"
+  ],
+  [
+    "Wind-gall",
+    "/ˈwaɪnd ɡɔːl/",
+    "t",
+    "A luminous spot or halo around the sun or moon, considered by sailors to presage wind.",
+    "Compound of 'wind' and 'gall'.",
+    "\"A distinct wind-gall showed in the evening sky, warning of a gale by morning.\"",
+    "Merchant skipper's journal"
+  ],
+  [
+    "Wind-hover",
+    "/ˈwaɪnd ˈhʌvər/",
+    "t",
+    "To remain stationary relative to the ground by flying or drifting into the wind.",
+    "Compound of 'wind' and 'hover'.",
+    "\"The gulls wind-hovered effortlessly above the crests of the rolling waves.\"",
+    "Naturalist's sea voyage observations"
+  ],
+  [
+    "Wind-rode",
+    "/ˈwaɪnd roʊd/",
+    "t",
+    "Said of an anchored ship when the wind's force keeps her heading into the wind despite the tide.",
+    "Compound of 'wind' and 'rode' (past of ride).",
+    "\"The ketch stayed wind-rode all night, straining fiercely at her hempen cable.\"",
+    "Nautical Dictionary of Marine Terms"
+  ],
+  [
+    "Wind-shake",
+    "/ˈwaɪnd ʃeɪk/",
+    "t",
+    "A crack or split in timber caused by the violent action of wind on growing trees, making it poor for shipbuilding.",
+    "Compound of 'wind' and 'shake'.",
+    "\"Reject those oak planks; they are full of wind-shake and will rot at sea.\"",
+    "Shipwright's specifications"
+  ],
+  [
+    "Wind-sucker",
+    "/ˈwaɪnd ˈsʌkər/",
+    "e",
+    "An early term for a ventilator or sail canvas funnel used to force fresh air below decks.",
+    "Compound of 'wind' and 'sucker'.",
+    "\"Rig the wind-suckers down the main hatch to clear the foul air from the orlop.\"",
+    "Naval hygiene tract"
+  ],
+  [
+    "Wreck-free",
+    "/ˈrɛk friː/",
+    "m",
+    "Exempt from the forfeiture of shipwrecks to the Crown or local lord.",
+    "Old English legal term.",
+    "\"The charter granted the monastery wreck-free rights along the entire coastline.\"",
+    "Medieval royal charter"
+  ],
+  [
+    "Yacht",
+    "/jɒt/",
+    "t",
+    "A light, fast sailing vessel used by royalty or pleasure-seekers, historically armed or outfitted for swift pursuit.",
+    "Dutch jaght, short for jaghtschip meaning 'hunting ship'.",
+    "The king's yacht outsailed the entire squadron in the choppy North Sea.",
+    "Samuel Pepys' Diary"
+  ],
+  [
+    "Yachter",
+    "/ˈjɒtər/",
+    "t",
+    "One who engages in sailing or racing yachts.",
+    "Derived from yacht + -er.",
+    "A wealthy yachter anchored his cutter in the sheltered cove.",
+    "Nautical Magazine, 1855"
+  ],
+  [
+    "Yachting",
+    "/ˈjɒtɪŋ/",
+    "t",
+    "The sport or practice of racing or cruising in yachts.",
+    "Derived from yacht + -ing.",
+    "Yachting became the favorite summer pastime of the British aristocracy.",
+    "The Times, 1872"
+  ],
+  [
+    "Yacht-master",
+    "/ˈjɒtˌmɑːstər/",
+    "t",
+    "A certified commander or captain of a private yacht.",
+    "Compound of yacht + master.",
+    "The veteran yacht-master navigated the treacherous reefs with ease.",
+    "Royal Yacht Squadron Records"
+  ],
+  [
+    "Yacht-club",
+    "/ˈjɒtˌklʌb/",
+    "t",
+    "An association or club of individuals interested in sailing and racing yachts.",
+    "Compound of yacht + club.",
+    "The royal yacht-club hosted the annual regatta off the Isle of Wight.",
+    "Hunt's Yacht Magazine"
+  ],
+  [
+    "Yaff",
+    "/jæf/",
+    "e",
+    "To bark sharply like a small dog, often used metaphorically for a noisy, complaining sailor.",
+    "Old English gellan or giefan, variant of yelp.",
+    "The quarrelsome boatswain continued to yaff at the green hands.",
+    "Maritime Glossary of Northern Dialects"
+  ],
+  [
+    "Yagger",
+    "/ˈjæɡər/",
+    "t",
+    "A peddler or hawker who supplies small stores to ships along the coast.",
+    "Northern dialect variant of jawger or hawker.",
+    "The coastal yagger brought fresh tobacco and biscuits to the anchored brig.",
+    "Smugglers and Smuggling Records"
+  ],
+  [
+    "Yager",
+    "/ˈjɑːɡər/",
+    "t",
+    "A light infantryman, sometimes serving as marine sharpshooters aboard naval vessels.",
+    "German Jäger, meaning hunter.",
+    "A detachment of yagers was stationed on the poop deck for close-range musketry.",
+    "Naval Warfare Chronicles"
+  ],
+  [
+    "Yald",
+    "/jɔːld/",
+    "m",
+    "Nimble, active, or brisk in movement, describing a nimble sailor aloft.",
+    "Middle English yalde, from Old English geald.",
+    "Be yald upon the yards before the squall strikes the mainsail.",
+    "Middle English Naval Verse"
+  ],
+  [
+    "Yalev",
+    "/jəˈlɛv/",
+    "m",
+    "An old term for a specific type of river craft or lighter.",
+    "Middle English origin of uncertain Celtic roots.",
+    "The yalev laden with timber drifted slowly down the Thames.",
+    "London Port Customs Rolls"
+  ],
+  [
+    "Yallow",
+    "/ˈjæloʊ/",
+    "e",
+    "Archaic spelling of yellow, frequently used in logs to describe weathered brass or sickly sea-fog.",
+    "Middle English yelwe, Old English geolu.",
+    "A thick, yallow fog settled over the anchorage at dawn.",
+    "Elizabethan Logbook of the Sea Venture"
+  ],
+  [
+    "YAM",
+    "/jæm/",
+    "t",
+    "An old navy acronym or slang for a junior officer from a specific maritime academy.",
+    "Naval slang derivation.",
+    "The new yam fumbled his knots during the morning watch.",
+    "Royal Navy Slang Dictionary"
+  ],
+  [
+    "Yammer",
+    "/ˈjæmər/",
+    "e",
+    "To make a loud, repetitive, discontented noise, akin to the creaking of strained timbers.",
+    "Old English geomorian, to lament.",
+    "The strained mainmast began to yammer under the heavy press of canvas.",
+    "Voyages of Elizabethan Seamen"
+  ],
+  [
+    "Yanker",
+    "/ˈjæŋkər/",
+    "t",
+    "A heavy or forceful tug on a rope; also a small hauling tackle.",
+    "Derived from yank + -er.",
+    "With a final yanker, the stubborn sail was finally hoisted.",
+    "Practical Seamanship"
+  ],
+  [
+    "Yap",
+    "/jæp/",
+    "e",
+    "To yelp or talk idly; sailors talking back to the master-at-arms.",
+    "Imitative origin, 16th century.",
+    "Let no man yap on deck while the captain takes observations.",
+    "Shipboard Discipline Rules"
+  ],
+  [
+    "Yarely",
+    "/ˈjɛərli/",
+    "m",
+    "Quickly, nimbly, or briskly; moving with alacrity upon the rigging.",
+    "Derived from yare + -ly.",
+    "Do you not hear him? Yarely, frame the maintopsail.",
+    "William Shakespeare, The Tempest"
+  ],
+  [
+    "Yarness",
+    "/ˈjɛərnəs/",
+    "e",
+    "The quality of being yare; agility, quickness, or responsiveness of a ship.",
+    "Derived from yare + -ness.",
+    "The remarkable yarness of the cutter saved her from the lee shore.",
+    "Naval Architecture Tracts"
+  ],
+  [
+    "Yarn",
+    "/jɑːrn/",
+    "m",
+    "Spun fibers of hemp or flax used for making rope, or a sailor's tall tale told during the watch.",
+    "Old English gearn.",
+    "The old gunner spun a long yarn of encounters with Spanish galleons.",
+    "Richard Henry Dana Jr., Two Years Before the Mast"
+  ],
+  [
+    "Yarn-windle",
+    "/ˈjɑːrnˌwɪndəl/",
+    "t",
+    "A reel or device used aboard ship for winding cordage and hemp yarn.",
+    "Compound of yarn + windle.",
+    "The bosun set the apprentices to work at the yarn-windle.",
+    "Sailmaker's Manual"
+  ],
+  [
+    "Yat",
+    "/jæt/",
+    "m",
+    "An obsolete regional variant of gate, referring to the water-gate or lock of a tidal basin.",
+    "Old English geat.",
+    "Secure the barge before the tide falls past the inner yat.",
+    "Medieval Port Records"
+  ],
+  [
+    "Yaw-line",
+    "/ˈjɔːˌlaɪn/",
+    "t",
+    "A guideline or line used to control the wandering movement of a towed boat.",
+    "Compound of yaw + line.",
+    "Rig a yaw-line on the pinnace so she follows straight in the surf.",
+    "Boatswain's Mate Handbook"
+  ],
+  [
+    "Yawner",
+    "/ˈjɔːnər/",
+    "t",
+    "A wide chasm or trough of a wave that causes a ship to yaw.",
+    "Derived from yaw + -er.",
+    "She dropped into a great yawner between the Atlantic rollers.",
+    "Victorian Sea Tales"
+  ],
+  [
+    "Yaw-weed",
+    "/ˈjɔːˌwiːd/",
+    "t",
+    "A species of marine seaweed encountered drifting in calm latitudes.",
+    "Compound of yaw + weed.",
+    "The hull was fouled with thick clusters of yaw-weed.",
+    "Botanical Logs of Pacific Voyages"
+  ],
+  [
+    "Yead",
+    "/jiːd/",
+    "m",
+    "To go, proceed, or advance forward, often used in medieval naval poetry.",
+    "Old English gēan or gān.",
+    "The galleys yead swiftly across the calm Mediterranean waters.",
+    "Chaucerian Maritime Glosses"
+  ],
+  [
+    "Yealing",
+    "/ˈjiːlɪŋ/",
+    "m",
+    "A contemporary or companion of the same age, often applied to shipmates.",
+    "Old English gielda.",
+    "He and his yealing shared a berth on the gundeck.",
+    "Historical Naval Records"
+  ],
+  [
+    "Yearling",
+    "/ˈjɪərlɪŋ/",
+    "t",
+    "A naval cadet or midshipman in his second year at the academy or afloat.",
+    "Old English gearling.",
+    "The yearling midshipman took his first sights of the sun with a sextant.",
+    "Naval Academy Memoirs"
+  ],
+  [
+    "Yeller",
+    "/ˈjɛlər/",
+    "t",
+    "A loud-shouting officer or boatswain who gives orders at the top of his voice.",
+    "Derived from yell + -er.",
+    "The old yeller drove the topmen aloft with curses and threats.",
+    "Life Aboard a Man-of-War"
+  ],
+  [
+    "Yellow-boy",
+    "/ˈjɛloʊˌbɔɪ/",
+    "t",
+    "Slang term for a gold sovereign coin used by sailors and captains to pay port fees.",
+    "Compound of yellow + boy.",
+    "The captain paid the harbor master in heavy yellow-boys.",
+    "Treasure Island by Robert Louis Stevenson"
+  ],
+  [
+    "Yellow-hammer",
+    "/ˈjɛloʊˌhæmər/",
+    "t",
+    "Nickname for a colonial trading vessel or coastal craft.",
+    "Named after the bird, referring to painted yellow hulls.",
+    "A fleet of yellow-hammers lay anchored off the spice islands.",
+    "East India Company Log"
+  ],
+  [
+    "Yeman",
+    "/ˈjɛmən/",
+    "m",
+    "Early spelling of yeoman, a petty officer or attendant in royal ships.",
+    "Middle English yeman.",
+    "The yeman of the powder room inspected the barrels for dampness.",
+    "Navy Accounts of Henry VIII"
+  ],
+  [
+    "Yemet",
+    "/ˈjɛmɛt/",
+    "m",
+    "An ancient measurement or boundary marker along a navigable river.",
+    "Old English gemate.",
+    "The river pilot steered carefully past the royal yemet.",
+    "River Thames Custom Rolls"
+  ],
+  [
+    "Yew-block",
+    "/ˈjuːˌblɒk/",
+    "e",
+    "A wooden pulley block carved from tough yew wood for ship rigging.",
+    "Compound of yew + block.",
+    "The rigger fitted strong yew-blocks to the main braces.",
+    "Elizabethan Shipwright's Notebook"
+  ],
+  [
+    "Yoke",
+    "/joʊk/",
+    "m",
+    "A crosspiece fitted to the head of a boat's rudder, to the ends of which steering lines are attached.",
+    "Old English geoc.",
+    "The helmsman held the steering lines attached to the boat's yoke.",
+    "The Mariner's Mirror"
+  ],
+  [
+    "Yoke-line",
+    "/ˈjoʊkˌlaɪn/",
+    "t",
+    "A rope leading from the ends of a boat's yoke to the steersman's position.",
+    "Compound of yoke + line.",
+    "He pulled the starboard yoke-line to bring the cutter's head around.",
+    "Sailing Directions for the Channel"
+  ],
+  [
+    "Yote",
+    "/joʊt/",
+    "m",
+    "To soak or steep, particularly used in preparing hemp or flax for cordage.",
+    "Old English geotan, to pour.",
+    "The flax must yote in the tidal pool before it is spun into yarn.",
+    "English Husbandry and Maritime Crafts"
+  ],
+  [
+    "Abarcy",
+    "/əˈbɑːrsi/",
+    "e",
+    "Insatiableness; greediness or excessive abundance.",
+    "From Late Latin abarsit-, derived from Greek.",
+    "His abarcy in the trade guild knew no bounds, hoarding every ounce of wool.",
+    "T. Blount, Glossographia"
+  ],
+  [
+    "Abbatize",
+    "/ˈæbətaɪz/",
+    "m",
+    "To hold the office or dignity of an abbot, or to rule over a monastery.",
+    "From Medieval Latin abbatizare.",
+    "He was chosen to abbatize the northern priory during the winter synod.",
+    "Monasticon Anglicanum"
+  ],
+  [
+    "Abbrochment",
+    "/əˈbrɒtʃmənt/",
+    "m",
+    "The act of forestalling goods, or buying up wholesale to sell retail privately outside the guild market.",
+    "From Anglo-Norman abrochament.",
+    "The bailiff fined the merchant heavily for his illegal abbrochment of the grain supply.",
+    "Statutes of the Realm"
+  ],
+  [
+    "Abditive",
+    "/ˈæbdɪtɪv/",
+    "e",
+    "Having the quality of hiding or concealing; secret.",
+    "From Latin abditus (hidden).",
+    "They kept their guild recipes in an abditive chest beneath the floorboards.",
+    "R. Cawdrey, A Table Alphabeticall"
+  ],
+  [
+    "Abearance",
+    "/əˈbɛərəns/",
+    "t",
+    "Behavior, deportment, or manner of conducting oneself in public or within a company.",
+    "From obsolete abear + -ance.",
+    "The apprentice was reprimanded for his unseemly abearance before the master weaver.",
+    "Victorian Court Rolls"
+  ],
+  [
+    "Abigeus",
+    "/əˈbɪdʒiəs/",
+    "m",
+    "A cattle thief; one who steals herds on a large scale.",
+    "From Latin abigeus (cattle rustler).",
+    "The shire court issued a warrant for the notorious abigeus who raided the pasturelands.",
+    "Legal Latin Lexicon"
+  ],
+  [
+    "Abominable-trade",
+    "/əˈbɒmɪnəbəl treɪd/",
+    "e",
+    "A derogatory term used historically among competing guilds for disreputable manufacturing.",
+    "Coined from Middle English and trade terminology.",
+    "They accused their rivals of practicing an abominable-trade by adulterating the dyes.",
+    "Guild Ordinances of London"
+  ],
+  [
+    "Abusion",
+    "/əˈbjuːʒən/",
+    "m",
+    "Deception, deceit, or an abuse of office or guild privileges.",
+    "From Old French abusion, from Latin abusio.",
+    "The aldermen investigated the abusion of weights within the bakers' guild.",
+    "Chaucer, The Parson's Tale"
+  ],
+  [
+    "Acater",
+    "/əˈkeɪtər/",
+    "m",
+    "A purveyor, caterer, or buyer of provisions for a household or guild feast.",
+    "From Old French acatour (buyer).",
+    "The acater returned from the market with fresh capons and sea-fish for the banquet.",
+    "Household Ordinances of Edward III"
+  ],
+  [
+    "Acoinage",
+    "/əˈkɔɪnɪdʒ/",
+    "e",
+    "The act or process of minting money or inventing new words/customs.",
+    "From ad- + coinage.",
+    "The royal mint supervised the acoinage of new silver groats for the realm.",
+    "State Papers of Henry VIII"
+  ],
+  [
+    "Actitation",
+    "/ˌæktɪˈteɪʃən/",
+    "t",
+    "Vexation; repeated debate or restless moving to and fro.",
+    "From Latin actitatio.",
+    "The endless actitation between the merchants and the guild council wearied the magistrates.",
+    "Bailey's Dictionary"
+  ],
+  [
+    "Adactyl",
+    "/əˈdæktɪl/",
+    "t",
+    "Lacking fingers or toes; applied metaphorically to clumsy handicraft.",
+    "From Greek adaktylos.",
+    "The adactyl apprentice dropped the delicate glassware onto the stone floor.",
+    "Technical Trades Journal"
+  ],
+  [
+    "Adermine",
+    "/əˈdɜːrmaɪn/",
+    "t",
+    "A rare historical trade term for a high-grade fur resembling ermine.",
+    "From ad- + ermine.",
+    "The furrier displayed a cloak lined with adermine for the visiting dignitary.",
+    "Mercer's Gazette"
+  ],
+  [
+    "Adfluxion",
+    "/ædˈflʌkʃən/",
+    "e",
+    "A flow of humors or fluids to a particular part of the body.",
+    "From Latin adfluxio.",
+    "The apothecary prepared a poultice to draw out the painful adfluxion in the artisan's wrist.",
+    "John Gerard, Herball"
+  ],
+  [
+    "Adichalcum",
+    "/ˌædɪˈkælkəm/",
+    "m",
+    "A base alloy passed off as precious metal; counterfeit coinage.",
+    "From Greek chalkos.",
+    "The goldsmith detected adichalcum mixed into the merchant's payment.",
+    "Assize of Weights and Measures"
+  ],
+  [
+    "Adnichilate",
+    "/ædˈnɪkɪleɪt/",
+    "e",
+    "To bring to nothing, annul, or cancel a contract or guild charter.",
+    "From Medieval Latin adnichilare.",
+    "The king threatened to adnichilate the monopoly of the merchant adventurers.",
+    "Tudor Acts of Parliament"
+  ],
+  [
+    "Adoul",
+    "/əˈduːl/",
+    "m",
+    "An obsolete term for a toll or custom duty levied at a bridge or gate.",
+    "From Anglo-Norman adoul.",
+    "The carter paid his adoul at the city gate before bringing timber to the carpenter's yard.",
+    "Customs Roll of Southampton"
+  ],
+  [
+    "Adstellar",
+    "/ædˈstɛlər/",
+    "t",
+    "Marked with stars or related to stellar observations used by navigators and guild astrologers.",
+    "From Latin ad- + stella.",
+    "The pilot used adstellar charts to guide the merchant cog safely into harbor.",
+    "Naval Trade Annals"
+  ],
+  [
+    "Aduncity",
+    "/əˈdʌnsɪti/",
+    "e",
+    "Hookedness; a curved or bent shape like an eagle's beak.",
+    "From Latin aduncitas.",
+    "The toolmaker checked the aduncity of the pruning knife before sharpening the edge.",
+    "17th-Century Hardware Catalog"
+  ],
+  [
+    "Adust",
+    "/əˈdʌst/",
+    "e",
+    "Burned, scorched, or dried with fire; melancholic in humoral theory.",
+    "From Latin adustus.",
+    "The smith's skin was adust from years of tending the roaring forge fires.",
+    "Robert Burton, The Anatomy of Melancholy"
+  ],
+  [
+    "Adventicious",
+    "/ˌædvənˈtɪʃəs/",
+    "e",
+    "Accidental, foreign, or coming from outside rather than native to the guild.",
+    "From Latin adventicius.",
+    "Adventicious traders were barred from selling wares on market days without a license.",
+    "London Guild Ordinances"
+  ],
+  [
+    "Aedile",
+    "/ˈiːdaɪl/",
+    "m",
+    "A Roman municipal officer, occasionally used in Renaissance civic titles for market overseers.",
+    "From Latin aedilis.",
+    "The city aedile inspected the bread loaves for correct weight in the public square.",
+    "Civic Records of Bristol"
+  ],
+  [
+    "Ael",
+    "/eɪl/",
+    "m",
+    "An old variant of ale; a fermented malt beverage brewed by historical ale-wives.",
+    "From Old English ealu.",
+    "The guild members gathered at the tavern to share a stoup of strong ael.",
+    "Piers Plowman"
+  ],
+  [
+    "Aemia",
+    "/ˈiːmiə/",
+    "t",
+    "A deficiency of blood; an archaic medical condition noted by apothecaries.",
+    "From Greekhaima.",
+    "The apothecary recommended iron tonics for the seamstress suffering from aemia.",
+    "Medical Lexicon of the 19th Century"
+  ],
+  [
+    "Afforse",
+    "/əˈfɔːrs/",
+    "m",
+    "To reinforce, strengthen, or augment a court or guild council with additional members.",
+    "From Old French afforcer.",
+    "The mayor decided to afforse the committee to deal with the weavers' strike.",
+    "Legal Records of the Eyre"
+  ],
+  [
+    "Agistage",
+    "/əˈdʒɪstɪdʒ/",
+    "m",
+    "The feeding of cattle in a royal forest, or the fee charged for this privilege.",
+    "From Anglo-Norman agistage.",
+    "The drover paid his agistage to the forest warden before letting his sheep graze.",
+    "Forest Laws of England"
+  ],
+  [
+    "Aiglette",
+    "/ˈeɪɡlɛt/",
+    "e",
+    "A tag of a lace, ribbon, or point, often made of precious metal and crafted by jewelers.",
+    "From French aiguillette.",
+    "The tailor sewed silk doublets adorned with silver aiglettes for the courtier.",
+    "Elizabethan Sumptuary Records"
+  ],
+  [
+    "Airer",
+    "/ˈɛərər/",
+    "t",
+    "A frame or rack for drying freshly washed linen or dyed wool in a workshop.",
+    "From air + -er.",
+    "The laundress hung the damp linens upon the wooden airer near the hearth.",
+    "Victorian Domestic Economy Manual"
+  ],
+  [
+    "Alar",
+    "/ˈeɪlɑːr/",
+    "t",
+    "Pertaining to wings; winged, or situated in the armpit in anatomical trade terminology.",
+    "From Latin ala (wing).",
+    "The falconer fitted the alar leather straps to the hunting bird.",
+    "Ornithologist's Handbook"
+  ],
+  [
+    "Alberator",
+    "/ˌælbəˈreɪtər/",
+    "m",
+    "A medieval officer who bore a standard or coat of arms.",
+    "From Medieval Latin.",
+    "The alberator led the guild procession through the cobbled streets on feast day.",
+    "Civic Pageantry Rolls"
+  ],
+  [
+    "Alcoran",
+    "/ˈælkəræn/",
+    "e",
+    "An archaic spelling of the Quran, frequently referenced in early trade and travel literature.",
+    "From Arabic al-qur'ān.",
+    "The Levantine merchant carried an English translation of the Alcoran in his chest.",
+    "Hakluyt's Voyages"
+  ],
+  [
+    "Alectory",
+    "/əˈlɛktəri/",
+    "e",
+    "A magic stone supposedly found in the gizzards of capons or roosters, traded by apothecaries.",
+    "From Greek alektor (rooster).",
+    "The cunning man sold an alectory said to grant eloquence and courage.",
+    "Topsed's History of Serpents"
+  ],
+  [
+    "Alembic",
+    "/əˈlɛmbɪk/",
+    "e",
+    "An apparatus formerly used for distillation, essential to alchemists and early apothecaries.",
+    "From Arabic al-inbīq.",
+    "The alchemist watched the green liquid bubble through the glass alembic.",
+    "Ben Jonson, The Alchemist"
+  ],
+  [
+    "Alewife",
+    "/ˈeɪlwaɪf/",
+    "m",
+    "A woman who kept an alehouse or brewed and sold ale commercially.",
+    "From Old English ealu + wīf.",
+    "The alewife was fined by the guild bailiff for selling short measure in her jacks.",
+    "Manor Court Rolls of Wakefield"
+  ],
+  [
+    "Babbel",
+    "/ˈbæbəl/",
+    "m",
+    "To murmur, chatter incoherently, or speak without sense.",
+    "Middle English, from Old French baber",
+    "He sat by the fire, to babbel of green fields and old times.",
+    "Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Bachelry",
+    "/ˈbætʃəlrɪ/",
+    "m",
+    "The state or condition of being an unmarried man, or a guild of young knights.",
+    "Middle English, from Old French bachelerie",
+    "The young men of the guild lived in fellowship and bachelry.",
+    "Piers Plowman"
+  ],
+  [
+    "Backberend",
+    "/ˈbækˌb��rənd/",
+    "m",
+    "Caught in the act of carrying stolen goods upon one's back.",
+    "Old English legal term, bæk + beran",
+    "The thief was taken backberend with the stolen wool-sack.",
+    "Laws of Canute"
+  ],
+  [
+    "Backside",
+    "/ˈbækˌsaɪd/",
+    "e",
+    "The rear courtyard or outbuildings of a merchant's shop or tenement.",
+    "Early Modern English compound",
+    "The carman unloaded the timber in the backside of the draper's shop.",
+    "London Guildhall Records"
+  ],
+  [
+    "Baffet",
+    "/ˈbæfɪt/",
+    "e",
+    "A blow, cuff, or slap given with the open hand.",
+    "Scots and Northern English dialect, Middle French buffet",
+    "He gave the unruly apprentice a sharp baffet upon the ear.",
+    "The Complaynt of Scotland"
+  ],
+  [
+    "Bagging",
+    "/ˈbæɡɪŋ/",
+    "t",
+    "Coarse hempen or jute cloth used by merchants for sacks and packing.",
+    "Victorian trade slang, from bag",
+    "The factor ordered ten bales of bagging for the grain shipment.",
+    "Manchester Cotton Merchant Ledgers"
+  ],
+  [
+    "Baggot",
+    "/ˈbæɡət/",
+    "m",
+    "An old or barren ewe, or a term for inferior grade wool.",
+    "Middle English agricultural term",
+    "The shearer sorted the fleece, casting the baggot wool aside.",
+    "Monastic Wool Rolls"
+  ],
+  [
+    "Bailie",
+    "/ˈbeɪli/",
+    "m",
+    "A municipal magistrate or alderman in Scottish burghs.",
+    "Middle English, from Old French bailli",
+    "The bailie inspected the bakers' weights at the morning market.",
+    "Edinburgh Burgh Records"
+  ],
+  [
+    "Bairn-team",
+    "/ˈbɛərnˌtiːm/",
+    "m",
+    "A brood of children or a family lineage.",
+    "Old English bearnteam",
+    "He left his entire craft and homestead to his whole bairn-team.",
+    "Wessex Chronicles"
+  ],
+  [
+    "Balister",
+    "/ˈbælɪstər/",
+    "m",
+    "A crossbowman or military engineer who operated siege engines.",
+    "Middle English, from Latin ballistarius",
+    "The city walls were manned by archers and trusty balisters.",
+    "Chronicles of the Crusades"
+  ],
+  [
+    "Balk",
+    "/bɔːk/",
+    "m",
+    "A thick heavy beam of timber used in shipbuilding or scaffolding.",
+    "Old English balca",
+    "The carpenters squared the great oak balk for the keel.",
+    "Shipwrights' Guild Ordinances"
+  ],
+  [
+    "Ballinger",
+    "/ˈbælɪndʒər/",
+    "m",
+    "A small, fast-sailing merchant or war vessel of the 15th century.",
+    "Middle English, of uncertain origin",
+    "Two ballingers laden with salt put into the harbor at dawn.",
+    "Rotuli Parliamentorum"
+  ],
+  [
+    "Balsam",
+    "/ˈbɔːlsəm/",
+    "m",
+    "A fragrant resin traded by apothecary guilds for medicines and unguents.",
+    "Middle English, from Latin balsamum",
+    "The apothecary sold precious balsam imported from the Levant.",
+    "Guild of Grocers Records"
+  ],
+  [
+    "Bamette",
+    "/bæˈmɛt/",
+    "m",
+    "A small cap or coif worn by tradesmen or scholars.",
+    "Middle English diminutive",
+    "He doffed his bamette to the visiting alderman.",
+    "York Mystery Plays"
+  ],
+  [
+    "Band-dog",
+    "/ˈbændˌdɔːɡ/",
+    "e",
+    "A large, fierce dog kept tied up, used for guarding merchant yards.",
+    "16th-century compound",
+    "The tanner unchained his band-dog when night fell upon the yard.",
+    "Shakespeare, Henry VI"
+  ],
+  [
+    "Bandelet",
+    "/ˈbændəlɪt/",
+    "e",
+    "A small flat molding or ornamental ribbon used in tailoring and architecture.",
+    "Middle French bandelette",
+    "The doublet was trimmed with a fine gold bandelet.",
+    "Tailors' Guild Pattern Book"
+  ],
+  [
+    "Banneret",
+    "/ˈbænərɛt/",
+    "m",
+    "A knight who led his men under his own square banner.",
+    "Middle English, from Old French baneret",
+    "The king rewarded the brave captain by raising him to a banneret.",
+    "Froissart's Chronicles"
+  ],
+  [
+    "Bannister",
+    "/ˈbænɪstər/",
+    "e",
+    "A corruption of baluster, the upright post supporting a stair rail.",
+    "Early Modern English",
+    "The joiner carved the oak bannisters with intricate vine leaves.",
+    "Carpenters' Company Archives"
+  ],
+  [
+    "Bare-head",
+    "/ˈbɛərˌhɛd/",
+    "m",
+    "Having the head uncovered as a sign of respect to superiors.",
+    "Middle English idiom",
+    "The apprentices stood bare-head before the master of the guild.",
+    "London Ordinances"
+  ],
+  [
+    "Bargeman",
+    "/ˈbɑːrdʒmən/",
+    "m",
+    "A waterman who navigated cargo barges on rivers like the Thames.",
+    "Middle English",
+    "The bargeman hauled his craft against the swift tide.",
+    "Statutes of the Realm"
+  ],
+  [
+    "Barker",
+    "/ˈbɑːrkər/",
+    "m",
+    "A tanner who used tree bark for curing, or a loud-mouthed market hawker.",
+    "Middle English",
+    "The barker stirred the great vat of oak liquor.",
+    "Piers Plowman"
+  ],
+  [
+    "Barle-break",
+    "/ˈbɑːrlɪˌbreɪk/",
+    "e",
+    "An Elizabethan rural tag game played by youths.",
+    "16th-century English",
+    "The village lads gathered on the green to play barle-break.",
+    "Sir Philip Sidney"
+  ],
+  [
+    "Barm-cloth",
+    "/ˈbɑːrmˌklɔːθ/",
+    "m",
+    "An apron worn by working people or bakers.",
+    "Old English bearmclæð",
+    "She wiped her flour-dusted hands upon her barm-cloth.",
+    "Chaucer, The Miller's Tale"
+  ],
+  [
+    "Barnet",
+    "/ˈbɑːrnɪt/",
+    "m",
+    "A fire, conflagration, or burning building.",
+    "Old English bærnet",
+    "The town watch sounded the horn upon the barnet.",
+    "Anglo-Saxon Chronicle"
+  ],
+  [
+    "Barrator",
+    "/ˈbærətər/",
+    "m",
+    "A vexatious litigant or one who stirs up lawsuits and guild disputes.",
+    "Middle English, from Anglo-Norman barator",
+    "The merchant was fined heavily for being a common barrator.",
+    "Court of Piepowder Records"
+  ],
+  [
+    "Barrowman",
+    "/ˈbærəʊmən/",
+    "m",
+    "A laborer who pushed a handcart or wheelbarrow in markets or docks.",
+    "Middle English",
+    "The barrowman transported the sacks of grain to the granary.",
+    "Exeter City Archives"
+  ],
+  [
+    "Bashaw",
+    "/bəˈʃɔː/",
+    "e",
+    "An archaic English spelling of pasha; a haughty person of authority.",
+    "16th-century English, from Turkish başa",
+    "The trading factor behaved like a grand bashaw in the colony.",
+    "Richard Hakluyt"
+  ],
+  [
+    "Bass-viol",
+    "/ˈbeɪsˌvaɪəl/",
+    "e",
+    "An early bowed stringed instrument, ancestor of the cello.",
+    "Early Modern English",
+    "The musician tuned his bass-viol for the guild feast.",
+    "Shakespearean Stage Directions"
+  ],
+  [
+    "Bastard",
+    "/ˈbæstərd/",
+    "m",
+    "In trade terminology, a grade of sugar, silk, or paper of inferior quality.",
+    "Middle English",
+    "The merchant sold bastard paper at a lower price to students.",
+    "Stationers' Company Records"
+  ],
+  [
+    "Bat-fowling",
+    "/ˈbætˌfaʊlɪŋ/",
+    "e",
+    "The practice of catching birds at night by flashing lights into bushes.",
+    "16th-century sporting term",
+    "They went bat-fowling in the thickets behind the manor.",
+    "Shakespeare, The Winter's Tale"
+  ],
+  [
+    "Bath-metal",
+    "/ˈbɑːθˌmɛtəl/",
+    "t",
+    "An alloy of copper and zinc resembling brass, used in buttons and buckles.",
+    "18th-to-19th-century trade term",
+    "The haberdasher sold waistcoats fastened with bath-metal buttons.",
+    "Birmingham Trade Catalogues"
+  ],
+  [
+    "Batlet",
+    "/ˈbætlɪt/",
+    "e",
+    "A small wooden bat used by laundresses to beat wet linen.",
+    "Early Modern English diminutive",
+    "She smoothed the linen with a carved wooden batlet.",
+    "Shakespeare, As You Like It"
+  ],
+  [
+    "Battlement",
+    "/ˈbætəlmənt/",
+    "m",
+    "A parapet with alternating indentations and raised portions on a wall.",
+    "Middle English, from Old French batailement",
+    "The archers took their positions behind the stone battlement.",
+    "Froissart's Chronicles"
+  ],
+  [
+    "Caim",
+    "/keɪm/",
+    "m",
+    "A crooked person, or something bent or twisted out of shape.",
+    "Middle English, from Old Norse kveikr or related Celtic roots.",
+    "He was a caim fellow, untrustworthy in both body and trade.",
+    "The York Mystery Plays"
+  ],
+  [
+    "Callet",
+    "/ˈkæl��t/",
+    "e",
+    "A lewd woman, scold, or gossiping drudge.",
+    "Late Middle English, of unknown origin.",
+    "A bad tongue dooms a callet to the stocks.",
+    "John Skelton, The Tunning of Elinor Rumming"
+  ],
+  [
+    "Caloyer",
+    "/kəˈlɔɪər/",
+    "e",
+    "A Greek or Eastern Christian monk.",
+    "Late 16th century, via French from modern Greek kalogeros.",
+    "The caloyers of Mount Athos kept silent vigils.",
+    "Richard Hakluyt, Principal Navigations"
+  ],
+  [
+    "Calp",
+    "/kælp/",
+    "m",
+    "A dark limestone or calcareous shale common in Ireland.",
+    "Irish Gaelic origin, used in early geological and mining surveys.",
+    "The miners struck a vein of stubborn calp.",
+    "Irish Mining Records"
+  ],
+  [
+    "Cank",
+    "/kæŋk/",
+    "m",
+    "Dumb, silent, or mute; refusing to speak.",
+    "Old English/Middle English dialectal variant of chank.",
+    "He stood as cank as a stone when questioned by the bailiff.",
+    "Cursor Mundi"
+  ],
+  [
+    "Cantel",
+    "/ˈkæntəl/",
+    "e",
+    "A slice, piece, or corner cut from a larger thing, especially bread or land.",
+    "Middle English, from Old French cantel.",
+    "Not so fast, he hath ta'en a cantel out of my share.",
+    "William Shakespeare, Henry IV, Part 1"
+  ],
+  [
+    "Cant-timbers",
+    "/ˈkæntˌtɪmbərz/",
+    "t",
+    "Timbers in a ship's framing that lie obliquely to the keel.",
+    "Shipbuilding terminology of the 18th and 19th centuries.",
+    "The shipwright adjusted the cant-timbers near the bow.",
+    "William Falconer, Universal Dictionary of the Marine"
+  ],
+  [
+    "Capias",
+    "/ˈkeɪpiəs/",
+    "e",
+    "A writ requiring an officer to arrest a named person.",
+    "Latin, 'you may take', used as a legal term in common law.",
+    "The sheriff issued a capias for the delinquent merchant.",
+    "Sir Edward Coke, Institutes of the Laws of England"
+  ],
+  [
+    "Capistrum",
+    "/kəˈpɪstrəm/",
+    "m",
+    "A surgical bandage for the head or jaw, resembling a halter.",
+    "Medieval Latin, from Latin capistrum (halter).",
+    "The apothecary applied a capistrum to mend his broken jaw.",
+    "John of Arderne, Treatises of Fistula in Arte"
+  ],
+  [
+    "Capitulum",
+    "/kəˈpɪtjʊləm/",
+    "m",
+    "A chapter heading in a guild statute or manuscript.",
+    "Latin capitulum, diminutive of caput.",
+    "Read the second capitulum of our craft's ordinances aloud.",
+    "Guild Ordinances of Lincoln"
+  ],
+  [
+    "Capouch",
+    "/kəˈpuːtʃ/",
+    "e",
+    "A hood or cowl, such as that worn by a monk.",
+    "Late 16th century, from French capuce.",
+    "He drew his woollen capouch low against the driving sleet.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Carfax",
+    "/ˈkɑːrfæks/",
+    "e",
+    "A place where four roads meet; a public crossroads.",
+    "Middle English, from Old French carrefour.",
+    "They met at the carfax near the cross of stone.",
+    "Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Carline",
+    "/ˈkɑːrlɪn/",
+    "e",
+    "An old woman, crone, or witch.",
+    "Middle English, from Old Norse kerling.",
+    "The carline brewed her simples in a cracked iron pot.",
+    "Sir David Lindsay, Ane Satyre of the Thrie Estaitis"
+  ],
+  [
+    "Carnauba",
+    "/kɑːrˈnɔːbə/",
+    "t",
+    "A waxy substance obtained from the leaves of a Brazilian palm, used in early trades for polishing.",
+    "Portuguese, from an indigenous Tupi-Guarani term.",
+    "The cabinet maker applied carnauba to seal the mahogany tabletop.",
+    "Victorian Trades and Manufactures Journal"
+  ],
+  [
+    "Carpmeal",
+    "/ˈkɑːrpmil/",
+    "m",
+    "A coarse, cheap kind of northern English woollen cloth.",
+    "16th century trade term, perhaps from carp and meal.",
+    "The merchant loaded packhorses with bales of gray carpmeal.",
+    "Statutes of the Realm, Henry VIII"
+  ],
+  [
+    "Carriage",
+    "/ˈkærɪdʒ/",
+    "m",
+    "The cost or price of transporting goods; freight charges.",
+    "Middle English, from Anglo-Norman French.",
+    "The carriage of the timber from the forest proved exorbitant.",
+    "Exeter Port Books"
+  ],
+  [
+    "Carriage-master",
+    "/ˈkærɪdʒˌmɑːstər/",
+    "t",
+    "One who managed public transport wagons or commercial carts.",
+    "19th century trade designation.",
+    "He contracted the carriage-master to move the heavy iron machinery.",
+    "London Commercial Directory"
+  ],
+  [
+    "Carrow",
+    "/ˈkæroʊ/",
+    "m",
+    "An itinerant Irish gambler or card-player of low repute.",
+    "Irish Gaelic carramach.",
+    "Beware the carrow who wagers his very shirt on the dice.",
+    "Edmund Campion, A History of Ireland"
+  ],
+  [
+    "Cartwright",
+    "/ˈkɑːrtraɪt/",
+    "m",
+    "An artisan who builds and repairs carts and wagons.",
+    "Old English cræt-wyrhta.",
+    "The cartwright fashioned a sturdy axle of seasoned ash wood.",
+    "Medieval Guild Rolls of London"
+  ],
+  [
+    "Casamat",
+    "/ˈkæsəmæt/",
+    "e",
+    "A vaulted chamber built within a fortification wall for defense.",
+    "16th century, from Italian casamatta.",
+    "The gunners took shelter within the stone casamat.",
+    "Richard Eden, Decades of the New World"
+  ],
+  [
+    "Castel-ward",
+    "/ˈkæstəl wɔːrd/",
+    "m",
+    "A feudal service or tax paid for the upkeep and guarding of a castle.",
+    "Anglo-Norman medieval law.",
+    "He defaulted on his annual castel-ward payment to the lord.",
+    "Pipe Rolls of Henry II"
+  ],
+  [
+    "Catling",
+    "/ˈkætlɪŋ/",
+    "e",
+    "A lute string made of catgut, or a narrow-bladed surgeon's knife.",
+    "Late 16th century, diminutive of cat.",
+    "The surgeon reached swiftly for his catling during the amputation.",
+    "John Woodall, The Surgeon's Mate"
+  ],
+  [
+    "Cauf",
+    "/kɔːf/",
+    "m",
+    "A chest or basket used for keeping fish alive in water, or a coal-corf.",
+    "Middle English, perhaps of Scandinavian origin.",
+    "The fishermen lowered the cauf into the river current.",
+    "Northumberland Household Book"
+  ],
+  [
+    "Cazimi",
+    "/kəˈziːmi/",
+    "e",
+    "An astrological term for a planet situated in the heart of the sun.",
+    "Medieval Arabic, via Latin.",
+    "The astrologer declared the royal birth auspicious while the sun was cazimi.",
+    "William Lilly, Christian Astrology"
+  ],
+  [
+    "Celerer",
+    "/ˈsɛlərər/",
+    "m",
+    "The monastic official in charge of provisions, cellars, and victuals; a cellarer.",
+    "Middle English, from Anglo-Norman French.",
+    "The celerer brought forth the best hypocras for the visiting abbot.",
+    "Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Cerement",
+    "/ˈsɪərəmənt/",
+    "e",
+    "Waxed cloth used for wrapping a corpse for burial.",
+    "Late Middle English, from Latin cera (wax).",
+    "They wrapped the noble corpse in sturdy cerements.",
+    "William Shakespeare, Hamlet"
+  ],
+  [
+    "Cess",
+    "/sɛs/",
+    "e",
+    "An official tax, assessment, or levy imposed by a local authority.",
+    "16th century, abbreviation of assess.",
+    "The town council levied a heavy cess to repair the stone bridge.",
+    "State Papers of Queen Elizabeth I"
+  ],
+  [
+    "Chalcography",
+    "/kælˈkɒɡrəfi/",
+    "e",
+    "The art of engraving on copper or brass plates.",
+    "Late 16th century, from Greek chalkos (copper) + graphe.",
+    "He learned chalcography from a master printmaker in Antwerp.",
+    "John Evelyn, Sculptura"
+  ],
+  [
+    "Chalon",
+    "/ˈtʃælən/",
+    "m",
+    "A fine quality blanket or coverlet, originally made at Châlons in France.",
+    "Middle English, from Old French chalons.",
+    "The bed was laid with clean linen and a warm chalon.",
+    "Will of Bishop Bokingham"
+  ],
+  [
+    "Chapman",
+    "/ˈtʃæpmən/",
+    "m",
+    "An itinerant merchant, peddler, or trading agent.",
+    "Old English cēapmann.",
+    "A wandering chapman brought ribbons and needles to the remote village.",
+    "Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Chasuble",
+    "/ˈtʃæzjʊbəl/",
+    "m",
+    "The outermost liturgical vestment worn by a priest celebrating mass.",
+    "Middle English, from Late Latin casula.",
+    "The priest donned a velvet chasuble embroidered with golden lilies.",
+    "Medieval Church Inventories"
+  ],
+  [
+    "Cheven",
+    "/ˈtʃɛvən/",
+    "m",
+    "The chub fish, formerly caught for food in clear rivers.",
+    "Middle English, from Old French cheven.",
+    "He brought home a basket of fresh cheven from the millstream.",
+    "The Master of Game"
+  ],
+  [
+    "Chimney-man",
+    "/ˈtʃɪmni mæn/",
+    "e",
+    "A tax collector who gathered the hearth tax.",
+    "17th-century English colloquialism.",
+    "The villagers barred their doors when the chimney-man rode into town.",
+    "Political Ballads of the Restoration"
+  ],
+  [
+    "Clerk-ale",
+    "/ˈklɜːrk eɪl/",
+    "e",
+    "A parish festival or feast organized by the parish clerk to raise funds.",
+    "16th-century English social custom.",
+    "The villagers gathered on Whitsun Monday for the annual clerk-ale.",
+    "John Aubrey, Remaines of Gentilisme and Judaisme"
+  ],
+  [
+    "Ealhouse",
+    "/ˈeːlhuːs/",
+    "m",
+    "A medieval establishment where ale was brewed and sold; a primitive tavern or taproom.",
+    "Old English 'ealhūs', from 'ealu' (ale) + 'hūs' (house).",
+    "Several guild members were fined for lingering too long in the local ealhouse past curfew.",
+    "Manorial Rolls of Wakefield"
+  ],
+  [
+    "Earthpot",
+    "/ˈɜːrθpɒt/",
+    "e",
+    "An earthenware vessel or pot used by apothecaries, alchemists, or merchants for storing powders and unguents.",
+    "Middle English, from 'eorthe' (earth) + 'pot'.",
+    "The apothecary measured three drams of dried valerian root from the glazed earthpot.",
+    "The Guild of Grocers Inventory"
+  ],
+  [
+    "Easting",
+    "/ˈiːstɪŋ/",
+    "t",
+    "The distance traveled eastward by a ship, calculated during navigation in the merchant trade.",
+    "English maritime slang, from 'east' + '-ing'.",
+    "Having made good easting, the merchant carrack caught the favorable trade winds toward Flanders.",
+    "Hakluyt's Voyages"
+  ],
+  [
+    "Echtman",
+    "/ˈɛxtmən/",
+    "m",
+    "A sworn appraiser or truthful expert witness in medieval borough trade disputes.",
+    "Middle English, from Low German/Frisian 'echt' (genuine, legal) + 'man'.",
+    "The echtman inspected the damaged bolts of cloth to determine the true loss of value.",
+    "Lex Mercatoria"
+  ],
+  [
+    "Efenwork",
+    "/ˈɛvənwɜːrk/",
+    "m",
+    "Work of equal value, weight, or craftsmanship; a fair trade exchange.",
+    "Old English 'efenweorc', from 'efen' (even, equal) + 'weorc' (work).",
+    "The blacksmiths agreed upon an efenwork of iron shares for two bushels of malt.",
+    "Guild Ordinances of London"
+  ],
+  [
+    "Eft",
+    "/ɛft/",
+    "e",
+    "Again, afterwards, or in return; a common Elizabethan adverb used in commercial correspondence.",
+    "Old English 'eft' (again, back).",
+    "Send the remaining bills of lading eft by the next mounted courier.",
+    "State Papers, Reign of Elizabeth I"
+  ],
+  [
+    "Eger",
+    "/ˈiːɡər/",
+    "e",
+    "A tidal bore or sudden rush of water up an estuary, hazardous to river trade and shipping.",
+    "Likely of Old Norse origin, related to Ægir, the sea god.",
+    "The bargemen secured their vessels tightly against the violent eger surging up the Severn.",
+    "Drayton, Poly-Olbion"
+  ],
+  [
+    "Eggment",
+    "/ˈɛɡmənt/",
+    "m",
+    "Incitement, instigation, or urging, often used in legal contexts regarding unlawful guild interference.",
+    "Middle English 'eggement', from Old Norse 'eggja' (to egg on).",
+    "The riot among the weavers was caused by the secret eggment of rival drapers.",
+    "York Mystery Plays"
+  ],
+  [
+    "Eld",
+    "/ɛld/",
+    "m",
+    "Old age, antiquity, or the condition of being old; also historical times.",
+    "Old English 'ieldo' (age, antiquity).",
+    "By the wisdom of his eld, the master mason directed the vaulting of the chapter house.",
+    "Cursor Mundi"
+  ],
+  [
+    "Eldven",
+    "/ˈɛldvɛn/",
+    "m",
+    "A furnace or kiln used by metalworkers, glassblowers, or potters.",
+    "Old English 'ofen' influenced by 'eld' (fire).",
+    "The potter stoked the eldven with dry brushwood until the clay vessels glowed white.",
+    "Monastic Accounts of Durham"
+  ],
+  [
+    "Elections",
+    "/ɪˈlɛkʃənz/",
+    "e",
+    "Choice goods; the best quality items sorted out from a bulk cargo by a merchant.",
+    "Late Middle English, from Latin 'electionem' (choosing).",
+    "The factor set aside the elections of Spanish wool for the royal wardrobe.",
+    "Customs Roll of the Port of London"
+  ],
+  [
+    "Embase",
+    "/ɛmˈbeɪs/",
+    "e",
+    "To debase, lower the quality of, or adulterate coin, metal, or trade goods.",
+    "Middle English 'embasen', from Old French 'en-' + 'bas' (low).",
+    "Any goldsmith found to embase the coinage shall forfeit his guild membership and goods.",
+    "Statutes of the Realm, Henry VII"
+  ],
+  [
+    "Emboss",
+    "/ɪmˈbɒs/",
+    "e",
+    "To raise ornamental figures or designs in relief upon metal, leather, or velvet.",
+    "Old French 'embosser', from 'en-' + 'bosse' (hump, protuberance).",
+    "The master cutler embossed the silver pommel with the guild's heraldic crest.",
+    "Shakespeare, The Taming of the Shrew"
+  ],
+  [
+    "Embroiderer",
+    "/ɪmˈbrɔɪdərər/",
+    "e",
+    "A guild artisan who decorates fabric with needlework using gold, silver, or silk threads.",
+    "Anglo-Norman 'embroer', from Old French.",
+    "The master embroiderer delivered the crimson banner adorned with stitched lions.",
+    "Company of Broderers Records"
+  ],
+  [
+    "Empale",
+    "/ɪmˈpeɪl/",
+    "e",
+    "To fence in, enclose with stakes, or surround a property or market stall with a barrier.",
+    "Middle English, from Latin 'impalare'.",
+    "The merchants empaled their temporary timber booths around the cathedral square.",
+    "Municipal Records of Bristol"
+  ],
+  [
+    "Empight",
+    "/ɪmˈpaɪt/",
+    "e",
+    "Fixed, planted, pitched, or firmly set up, as a tent, standard, or foundation.",
+    "Middle English past participle of 'empychen' or 'im-'.",
+    "The royal pavilions were empight upon the meadow outside the city walls for the fair.",
+    "Spenser, The Faerie Queene"
+  ],
+  [
+    "Empressment",
+    "/ɪmˈprɛsmənt/",
+    "t",
+    "The historical naval practice of forcibly compelling civilian merchant seamen into naval service.",
+    "Variant of 'impressment', from Old French 'empresser'.",
+    "Trade suffered greatly in the port as the press gang carried out the empressment of able-bodied sailors.",
+    "Admiralty Court Records"
+  ],
+  [
+    "Emprizing",
+    "/ɛmˈpraɪzɪŋ/",
+    "m",
+    "An enterprise, adventurous undertaking, or commercial venture requiring daring.",
+    "Old French 'emprise', from 'emprendre' (to undertake).",
+    "The merchant syndicate funded the costly emprizing to open trade routes through the Levant.",
+    "Gower, Confessio Amantis"
+  ],
+  [
+    "Enchase",
+    "/ɪnˈtʃeɪs/",
+    "e",
+    "To set a gemstone into a metal setting, or to ornament metalwork by hammering or engraving.",
+    "Old French 'enchasser', from 'en-' + 'chasse' (case, frame).",
+    "The jeweler spent three weeks to enchase the sapphire into the heavy gold signet ring.",
+    "Inventory of the Jewel House"
+  ],
+  [
+    "Encheason",
+    "/ɛnˈtʃiːzən/",
+    "m",
+    "A cause, occasion, motive, or legal reason for an action or grievance.",
+    "Old French 'encheison', from Late Latin 'occasionem'.",
+    "The bailiff demanded to know the encheason for the blocking of the common highway.",
+    "Piers Plowman"
+  ],
+  [
+    "Encomber",
+    "/ɪnˈkʌmbər/",
+    "m",
+    "To encumber, hinder, burden, or impede movement, particularly of heavy cargo or carts.",
+    "Old French 'encombrer', from 'combre' (dam, barrier).",
+    "Heavy mud and broken axles did encomber the wool-wains upon the road to Winchester.",
+    "Chaucer, The Parson's Tale"
+  ],
+  [
+    "Endart",
+    "/ɛnˈdɑːrt/",
+    "e",
+    "To shoot an arrow or dart into; to pierce with a projectile weapon.",
+    "Middle English 'en-' + 'dart'.",
+    "The archer made ready to endart the fleeing stag as it broke from the royal thicket.",
+    "Shakespeare, Romeo and Juliet"
+  ],
+  [
+    "Endlong",
+    "/ˈɛndlɒŋ/",
+    "m",
+    "Straight forward, lengthwise, or along the entire length of an object or property.",
+    "Old English 'andlang', Middle English 'endlong'.",
+    "The surveyor measured the strip of arable land endlong from the stream to the stone wall.",
+    "Sir Gawain and the Green Knight"
+  ],
+  [
+    "Endmost",
+    "/ˈɛndmoʊst/",
+    "t",
+    "Situated at the very end or extremity; furthest away in a line of cargo or storage bins.",
+    "Middle English, from 'end' + superlative suffix '-most'.",
+    "The warehouse clerk found the endmost bale of cotton damp from the leaky roof.",
+    "Liverpool Docks Ledger"
+  ],
+  [
+    "Enfeoff",
+    "/ɪnˈfɛf/",
+    "m",
+    "To grant a freehold estate in land to a feudal vassal or guild corporation.",
+    "Anglo-Norman 'enfeoffer', from Old French 'en-' + 'fief'.",
+    "The abbot did enfeoff the guild of weavers with three acres of meadow by the mill.",
+    "Charter Rolls of Edward III"
+  ],
+  [
+    "Engaol",
+    "/ɛnˈdʒeɪl/",
+    "e",
+    "To throw into jail, imprison, or confine a debtor or lawbreaker.",
+    "Middle English 'engaulen', from Old French 'en-' + 'gaole' (jail).",
+    "The merchant threatened to engaol his defaulting factor unless the debt was paid in full.",
+    "London Mayor's Court Depositions"
+  ],
+  [
+    "Engild",
+    "/ɛnˈɡɪld/",
+    "e",
+    "To gild, cover with gold leaf, or brighten with a golden sheen.",
+    "Middle English 'engilden', from 'en-' + 'gild'.",
+    "The guild master hired an artisan to engild the sign hanging above the draper's shop.",
+    "Henslowe's Diary"
+  ],
+  [
+    "Engrosser",
+    "/ɪnˈɡroʊsər/",
+    "e",
+    "A forestaller or middleman who bought up whole supplies of a commodity to control the market price; an illegal monopolist.",
+    "Anglo-Norman 'engrossour', from 'en gross' (in wholesale).",
+    "The magistrates summoned the grain engrosser for hoarding corn during the scarcity.",
+    "Acts of the Privy Council"
+  ],
+  [
+    "Enker",
+    "/ˈɛŋkər/",
+    "m",
+    "Sharp, keen, fierce, or severe; used to describe cold weather, critical inspectors, or strict laws.",
+    "Middle English 'enker', of uncertain origin, possibly Scandinavian.",
+    "An enker frost settled over the fenlands, freezing the mill-wheels solid.",
+    "Sir Gawain and the Green Knight"
+  ],
+  [
+    "Enlumine",
+    "/ɛnˈluːmɪn/",
+    "m",
+    "To illuminate, adorn, or decorate manuscripts with gold and bright colors.",
+    "Old French 'enluminer', from Latin 'illuminare'.",
+    "The monastic scribe worked daily to enlumine the capital letters of the liturgical psalter.",
+    "Lydgate, The Fall of Princes"
+  ],
+  [
+    "Ensue",
+    "/ɪnˈsuː/",
+    "e",
+    "To follow, pursue, or come afterward as a consequence in trade or law.",
+    "Old French 'ensuivre', from Latin 'insequi'.",
+    "Heavy fines shall ensue for any merchant who trades outside the chartered borough.",
+    "Book of Common Prayer"
+  ],
+  [
+    "Entame",
+    "/ɪnˈteɪm/",
+    "e",
+    "To tame, subdue, soften, or break the spirit of a wild creature or person.",
+    "Old French 'entamer' (to cut into, broach), later confused with 'tame'.",
+    "The falconer worked patiently to entame the wild goshawk captured in the northern forest.",
+    "Shakespeare, Cymbeline"
+  ],
+  [
+    "Erach",
+    "/ˈɛræk/",
+    "m",
+    "A scent-hound or hunting dog used in medieval forests.",
+    "Old English 'ræscche' or Old Norse 'rakki'.",
+    "The huntsman unleashed a pack of swift erachs to flush the boar from the thicket.",
+    "The Parlement of the Thre Ages"
+  ],
+  [
+    "Ernd",
+    "/ɜːrnd/",
+    "m",
+    "An errand, message, business commission, or task carried out for another.",
+    "Old English 'ǣrende' (message, errand).",
+    "The apprentice was sent on an ernd to the blacksmith to collect the fresh-sharpened shears.",
+    "Cursor Mundi"
+  ],
+  [
+    "Espial",
+    "/ɪˈspaɪəl/",
+    "e",
+    "Observation, spying, exploration, or a scout sent out to gather intelligence.",
+    "Old French 'espial', from 'espier' (to spy).",
+    "The merchant placed an espial at the rival port to report on the arrival of foreign galleys.",
+    "Shakespeare, 1 Henry VI"
+  ],
+  [
+    "Fabor",
+    "/ˈfeɪbər/",
+    "m",
+    "A maker of broadcloth or specialized woolen fabric; a weaver.",
+    "Middle English, from Anglo-Norman and Old French fabreur, from Latin faber (workman, artisan).",
+    "The guild decreed that every fabor must mark his cloth with a leaden seal.",
+    "Records of the Worshipful Company of Weavers, 1378"
+  ],
+  [
+    "Fabricator",
+    "/ˈfæbrɪkeɪtər/",
+    "e",
+    "In 16th-century guild terminology, a master builder, constructor, or stonemason who frames large wooden or stone structures.",
+    "Latin fabricator, adopted into English during the late 16th century.",
+    "He employed a master fabricator to raise the great timber gable of the guildhall.",
+    "Statutes of the City of London, 1582"
+  ],
+  [
+    "Factor",
+    "/ˈfæktər/",
+    "e",
+    "A commercial agent, merchant's factor, or factor-general who transacts business on commission for foreign merchants.",
+    "Latin factor (doer, maker), via Middle French and mercantile usage.",
+    "The foreign factor arrived at the docks with bills of lading for the Flemish wool.",
+    "Richard Hakluyt, Principal Navigations, 1589"
+  ],
+  [
+    "Faetor",
+    "/ˈfiːtɔːr/",
+    "e",
+    "An offensive smell, stench, or putrid odor arising from decaying goods in warehouses.",
+    "Latin foetor, sometimes spelled faetor in Renaissance medical and sanitary texts.",
+    "The inspector condemned the cargo of hides due to the intolerable faetor.",
+    "Municipal Sanitary Ordinances of York, 1604"
+  ],
+  [
+    "Fag-end",
+    "/ˈfæɡ.ɛnd/",
+    "t",
+    "The inferior, frayed, or remnant end of a bolt of cloth, rope, or cargo left unsold.",
+    "English dialectal and nautical origin, 17th century, becoming prominent in Victorian trade slang.",
+    "He bought the fag-end of the calico shipment at a heavy discount.",
+    "Henry Mayhew, London Labour and the London Poor, 1851"
+  ],
+  [
+    "Faldage",
+    "/ˈfɔːldɪdʒ/",
+    "m",
+    "A feudal right allowing a lord to fold his tenants' sheep on his own land to manure it.",
+    "Medieval Latin faldagium, from Old English fald (fold).",
+    "The tenant disputed the customary payment for faldage demanded by the bailiff.",
+    "Manorial Court Rolls of Wakefield, 1307"
+  ],
+  [
+    "Falernian",
+    "/fəˈlɜːrniən/",
+    "e",
+    "A prized ancient white wine imported and traded by wealthy London vintners.",
+    "Latin Falernum, via Elizabethan poetic and merchant trade lists.",
+    "The tavern keeper tapped a cask of choice Falernian for the visiting alderman.",
+    "Ben Jonson, Every Man Out of His Humour, 1599"
+  ],
+  [
+    "Fallowing",
+    "/ˈfæloʊɪŋ/",
+    "m",
+    "The agricultural practice of ploughing land and leaving it unseeded to recover fertility.",
+    "Old English fealgian (to plough land for a second time).",
+    "The bailiff noted that the north acre must undergo fallowing before the winter rye.",
+    "Walter of Henley, Le Dite de Hosebondrie, c. 1250"
+  ],
+  [
+    "Falter",
+    "/ˈfɔːltər/",
+    "m",
+    "To stumble, hesitate, or fail in financial accounts or payment obligations.",
+    "Middle English falteren, related to Old Norse faltrast (to be hindered).",
+    "Should any merchant falter in his quarterly dues, his shop shall be shuttered.",
+    "Guild Ordinances of Bristol, 1421"
+  ],
+  [
+    "Familist",
+    "/ˈfæməlɪst/",
+    "e",
+    "A member of the 16th-century mystical sect 'Family of Love', often scrutinized by trade guilds for nonconformity.",
+    "English coinage from 'Family of Love', active in Elizabethan England.",
+    "The master carpenter was accused before the wardens of harboring a Familist.",
+    "Records of the Privy Council of England, 1580"
+  ],
+  [
+    "Famulus",
+    "/ˈfæmjʊləs/",
+    "m",
+    "An assistant, servant, or apprentice to an alchemist, scholar, or master artisan.",
+    "Latin famulus (servant, domestic).",
+    "The master alchemist bade his famulus blow the bellows until the crucible glowed.",
+    "Chaucerian Scholastic Lexicon, c. 1400"
+  ],
+  [
+    "Fan-man",
+    "/ˈfæn.mæn/",
+    "t",
+    "A Victorian street seller or artisan who manufactured and traded hand-fans or winnowing fans.",
+    "English compound, Victorian urban slang and trade description.",
+    "The fan-man hawked his wicker winnowing baskets to the corn-chandlers.",
+    "The Morning Chronicle Survey of Labour, 1849"
+  ],
+  [
+    "Fang-tooth",
+    "/ˈfæŋtuːθ/",
+    "m",
+    "A specialized tool or cog in early mechanical looms and fulling mills.",
+    "Old English fang (that which catches) + tōð.",
+    "The millwright replaced a broken fang-tooth in the fulling stock.",
+    "Monastic Account Books of Durham Priory, 1395"
+  ],
+  [
+    "Farandman",
+    "/ˈfærəndmæn/",
+    "m",
+    "A traveling merchant, stranger, or pilgrim who had special legal standing in medieval borough courts.",
+    "Northern Middle English, from Old Norse fari (traveler) + man.",
+    "The court expedited the plea of the farandman, for he must depart with the morning tide.",
+    "Burgh Laws of Scotland, c. 1300"
+  ],
+  [
+    "Farcin",
+    "/ˈfɑːrsɪn/",
+    "e",
+    "A contagious disease of horses, highly feared by carters, coachmen, and stable guilds.",
+    "Middle French farcin, from Late Latin farcimen (sausage, stuffing).",
+    "The farrier quarantined three dray horses suspected of carrying the farcin.",
+    "Leonard Mascall, First Booke of Cattell, 1587"
+  ],
+  [
+    "Fasces",
+    "/ˈfæsiːz/",
+    "e",
+    "A ceremonial bundle of wooden rods bound together, used metaphorically in civic heraldry and guild pageants.",
+    "Latin fasces (bundle).",
+    "The guild procession was led by an officer bearing gilded fasces.",
+    "Civic Pageants of Thomas Middleton, 1613"
+  ],
+  [
+    "Fat-hen",
+    "/ˈfæt.hɛn/",
+    "e",
+    "A common weed (Chenopodium album) gathered historically as a wild potherb by agrarian laborers.",
+    "Traditional English botanical and agricultural name, recorded since the 16th century.",
+    "The cottager's wife boiled fat-hen with salt for the midday pottage.",
+    "John Gerard, Herball, 1597"
+  ],
+  [
+    "Fat-mutton",
+    "/ˈfætˌmʌtən/",
+    "m",
+    "A medieval market term for prime sheep bred specifically for tallow and heavy wool fleece.",
+    "Middle English trade nomenclature.",
+    "The butcher purchased twelve head of fat-mutton at the Smithfield market.",
+    "London Assize of Bread and Ale, 1312"
+  ],
+  [
+    "Faucillon",
+    "/ˈfɔːsɪlɒn/",
+    "m",
+    "A short curved pruning bill or reaping hook used by agricultural laborers.",
+    "Old French faucillon, diminutive of faucille (sickle).",
+    "The reaper whetted his faucillon upon a smooth river stone.",
+    "Manorial Inventory of Essex, 1388"
+  ],
+  [
+    "Fauconer",
+    "/ˈfɔːkənər/",
+    "m",
+    "A keeper, trainer, and handler of hunting hawks, a prestigious medieval retainer profession.",
+    "Middle English fauconer, from Old French fauconnier.",
+    "The lord's master fauconer carried a tiercel upon his gloved fist.",
+    "The Book of Saint Albans, 1486"
+  ],
+  [
+    "Faveolate",
+    "/ˈfæviəleɪt/",
+    "t",
+    "Honeycomb-textured, applied in Victorian architecture and textile weaving descriptions.",
+    "Latin faveolatus (honeycombed), from favus (honeycomb).",
+    "The cast-iron balcony rail featured a delicate faveolate pattern.",
+    "The Builder Architectural Journal, 1865"
+  ],
+  [
+    "Feague",
+    "/fiːɡ/",
+    "e",
+    "To whip, beat, or urge on lazy apprentices; also used by horse dealers to make an old horse look lively.",
+    "German fegen (to scour, polish), entering English cant and trade slang.",
+    "The master threatened to feague the lazy boy if he botched another thread.",
+    "Thomas Dekker, The Gull's Hornbook, 1609"
+  ],
+  [
+    "Feal",
+    "/fiːl/",
+    "m",
+    "A turf, sod, or peat cut for fuel or for building rough agricultural dykes.",
+    "Northern Middle English and Older Scots, from Old Norse fífli.",
+    "The cottars spent the autumn cutting feals for winter hearth fires.",
+    "Scottish Exchequer Rolls, 1478"
+  ],
+  [
+    "Fear-babe",
+    "/ˈfɪər.beɪb/",
+    "e",
+    "An Elizabethan term for a scarecrow, bogie, or object designed to frighten children.",
+    "English compound (fear + babe), 16th century.",
+    "The gardener set up an old coat and hat to serve as a fear-babe in the orchard.",
+    "John Florio, A Worlde of Words, 1598"
+  ],
+  [
+    "Feather-few",
+    "/ˈfðɛðər.fjuː/",
+    "e",
+    "An older herbal name for feverfew, widely cultivated by apothecaries and herbalists.",
+    "Middle English corruption of Latin febrifuga.",
+    "The apothecary ground dried feather-few to cure the merchant's ague.",
+    "Nicholas Culpeper, The English Physician, 1652"
+  ],
+  [
+    "Featously",
+    "/ˈfiːtəsli/",
+    "e",
+    "Neatly, adroitly, or with great skill, describing fine craftsmanship.",
+    "Adverbial form of featous (neat, elegant).",
+    "The embroiderer worked the gold threads featously upon the velvet border.",
+    "Edmund Spenser, The Faerie Queene, 1590"
+  ],
+  [
+    "Febricitate",
+    "/fɪˈbrɪsɪteɪt/",
+    "e",
+    "To suffer from a fever or ague, a term used in Renaissance medical treatises.",
+    "Latin febricitare (to have a fever).",
+    "The journeyman could not work the forge because he did febricitate.",
+    "Medical Casebooks of Simon Forman, 1598"
+  ],
+  [
+    "Fecund",
+    "/ˈfɛkənd/",
+    "m",
+    "Fertile, productive, applied to agricultural soil, livestock breeding, or rich land.",
+    "Middle English, from Latin fecundus.",
+    "The fecund meadows along the river yielded three heavy crops of hay.",
+    "Polychronicon of Ranulf Higden, trans. 1387"
+  ],
+  [
+    "Fedity",
+    "/ˈfɛdɪti/",
+    "e",
+    "Foulness, filthiness, or moral and physical loathsomeness.",
+    "Latin foeditas, adopted into scholarly English in the 16th century.",
+    "The sanitary commissioners cleared the alley of its accumulated fedity.",
+    "Sir Thomas Browne, Pseudodoxia Epidemica, 1646"
+  ],
+  [
+    "Fee-farm",
+    "/ˈfiːˌfɑːrm/",
+    "m",
+    "A tenure where an estate is held in fee-simple by a fixed yearly rent paid in perpetuity.",
+    "Anglo-French feodi firma, medieval legal term.",
+    "The merchant purchased a tenement in London at a perpetual fee-farm.",
+    "Calendar of Close Rolls, Edward III, 1340"
+  ],
+  [
+    "Feerin",
+    "/ˈfiːrɪn/",
+    "t",
+    "A Scottish and northern English agricultural term for the first furrow plowed in a field.",
+    "Scots dialectal, from fear (to mark out a ridge in ploughed land).",
+    "The plowman drew a straight feerin across the stubble field at dawn.",
+    "John Jamieson, Etymological Dictionary of the Scottish Language, 1808"
+  ],
+  [
+    "Gabelle",
+    "/ɡəˈbɛl/",
+    "e",
+    "A tax on salt, levied in France until 1790, widely considered one of the most hated and inequitable taxes of the ancien régime.",
+    "Old Provençal gabela, from Arabic gabāla (tax, tribute)",
+    "The heavy gabelle drove many honest peasants into the perilous trade of salt smuggling.",
+    "John Evelyn's Diary"
+  ],
+  [
+    "Gabber",
+    "/ˈɡæbər/",
+    "m",
+    "To chatter idly, prate, or speak deceitfully; a gossip or idle talker.",
+    "Middle English gabben, from Old Norse gabba (to mock) and Old French gaber",
+    "He spent his market hours in idle gabber with the wool-mongers rather than tending his stall.",
+    "Chaucer's Canterbury Tales"
+  ],
+  [
+    "Gae",
+    "/ɡeɪ/",
+    "m",
+    "An old Northern and Scottish form meaning to go, walk, or proceed.",
+    "Old English gān (to go)",
+    "Let ilk true guildman gae straight to the mayoral court.",
+    "York Mystery Plays"
+  ],
+  [
+    "Gaffer",
+    "/ˈɡæfər/",
+    "t",
+    "Originally a title of respect for an elderly or low-status man, later applied to a foreman, master craftsman, or guild overseer.",
+    "Contraction of godfather",
+    "The old gaffer inspected the glassblowing furnace to ensure the heat was true.",
+    "Thomas Hardy's Under the Greenwood Tree"
+  ],
+  [
+    "Gage",
+    "/ɡeɪdʒ/",
+    "m",
+    "A pledge, pawn, or token deposited as a security for a guarantee, or a glove thrown down as a challenge to combat.",
+    "Old French gage, from Germanic origin (compare Old English wadi)",
+    "He threw down his iron gauntlet as a gage of battle before the guild assembly.",
+    "Shakespeare's Richard II"
+  ],
+  [
+    "Gainage",
+    "/ˈɡeɪnɪdʒ/",
+    "m",
+    "The cultivated land held by a tenant farmer, or the draft cattle and implements used in husbandry.",
+    "Anglo-Norman gainage, from Old French gagner (to till, gain)",
+    "The royal bailiff seized the plowman's gainage for unpaid tithes.",
+    "Magna Carta (Historical context)"
+  ],
+  [
+    "Galloway",
+    "/ˈɡæləweɪ/",
+    "t",
+    "A small, sturdy breed of horse native to Scotland, highly prized by packmen and merchants for rough terrain.",
+    "Named after the Galloway region in Scotland",
+    "The merchant loaded his packs upon a stout Galloway before crossing the border hills.",
+    "Sir Walter Scott's Rob Roy"
+  ],
+  [
+    "Galoche",
+    "/ɡəˈlɒʃ/",
+    "m",
+    "A heavy wooden shoe, clog, or protective overshoe worn in medieval muddy streets.",
+    "Old French galoche, likely from Late Latin galopida",
+    "His loud galoches clacked against the cobblestones as he hurried to the weavers' guild.",
+    "The Paston Letters"
+  ],
+  [
+    "Galravitch",
+    "/ɡælˈrævɪtʃ/",
+    "t",
+    "A noisy feast, merrymaking, or riotous merry-making among peers.",
+    "Scots origin, possibly related to Old French galer (to make merry)",
+    "The master masons held a noisy galravitch to celebrate the completion of the spire.",
+    "Sir Walter Scott's The Heart of Midlothian"
+  ],
+  [
+    "Gamel",
+    "/ˈɡæməl/",
+    "m",
+    "Old, aged, or antiquated.",
+    "Old English gamol (old, ancient)",
+    "The gamol charter granted the weavers perpetual rights to the river commons.",
+    "Anglo-Saxon Chronicle"
+  ],
+  [
+    "Gangrel",
+    "/ˈɡæŋɡrəl/",
+    "m",
+    "A vagrant, tramp, or someone who wanders idly about; also used adjecitvely for gangling.",
+    "Scots and northern English variant of gang-rail",
+    "A ragged gangrel begged for stale crusts outside the baker's guild house.",
+    "Gavin Douglas's Eneados"
+  ],
+  [
+    "Ganymede",
+    "/ˈɡænɪmiːd/",
+    "e",
+    "A cant term or general name for a male cupbearer, page, or male paramour.",
+    "From the mythological Ganymede, cupbearer to the gods",
+    "The tavern keeper called upon his young ganymede to fetch another flagon of sack.",
+    "Ben Jonson's Every Man Out of His Humor"
+  ],
+  [
+    "Garble",
+    "/ˈɡɑːrbəl/",
+    "m",
+    "Originally, to sort, cleanse, and sift spices or crude drugs to remove refuse and inferior goods.",
+    "Medieval Latin garbellare, from Arabic ghirbāl (sieve)",
+    "The guild wardens came to garble the imported pepper and cloves in the merchant's warehouse.",
+    "Statutes of the Realm (1495)"
+  ],
+  [
+    "Garbler",
+    "/ˈɡɑːrblər/",
+    "m",
+    "An official appointed by a guild or municipality to inspect, sift, and clean spices and drugs.",
+    "Derivative of garble",
+    "He swore an oath before the mayor to serve faithfully as the city's chief garbler.",
+    "City of London Letter-Books"
+  ],
+  [
+    "Garish",
+    "/ˈɡɛərɪʃ/",
+    "e",
+    "Dazzling, showy, excessively bright, or uncomfortably gaudy in apparel.",
+    "Origin uncertain, possibly related to Middle English garen (to stare) or gare (to gaze)",
+    "The upstart courtier wore garish silks that offended the sober taste of the old merchants.",
+    "Shakespeare's Romeo and Juliet"
+  ],
+  [
+    "Garnish",
+    "/ˈɡɑːrnɪʃ/",
+    "m",
+    "To furnish, adorn, or equip; historically, a fee paid by prisoners to jailers for fetters or amenities.",
+    "Old French garnir (to warn, equip, provide)",
+    "The new inmate was forced to pay his garnish before receiving a clean straw mat.",
+    "Historical records of Newgate Prison"
+  ],
+  [
+    "Gate-ward",
+    "/ˈɡeɪt.wɔːrd/",
+    "m",
+    "The guard, sentinel, or watchman stationed at a city or castle gate.",
+    "Old English geat-weard",
+    "The gate-ward challenged the stranger before lowering the portcullis.",
+    "Sir Gawain and the Green Knight"
+  ],
+  [
+    "Gaudsman",
+    "/ˈɡɔːdzmən/",
+    "m",
+    "A plowman who drives oxen with a gaud (a long pointed stick or goad).",
+    "Middle English gaud + man",
+    "The weary gaudsman rested his goad against the cart-tail at midday.",
+    "John Gower's Confessio Amantis"
+  ],
+  [
+    "Gemot",
+    "/ɡɪˈmoʊt/",
+    "m",
+    "An assembly, meeting, or council, such as the folk-moot or witenagemot of Anglo-Saxon times.",
+    "Old English gemōt (assembly)",
+    "All freemen were summoned to attend the shire-gemot at the ancient oak.",
+    "Laws of King Athelstan"
+  ],
+  [
+    "Gentil",
+    "/dʒɛnˈtiːl/",
+    "m",
+    "Noble in birth, courteous, well-mannered, or belonging to gentlefolk.",
+    "Old French gentil, from Latin gentilis",
+    "A gentil merchant should keep his word as strictly as any belted knight.",
+    "Chaucer's Clerk's Tale"
+  ],
+  [
+    "Gentry",
+    "/ˈdʒɛntri/",
+    "e",
+    "The class of people just below the nobility; good breeding or courtesy.",
+    "Old French genterie",
+    "The county gentry gathered at the inn to discuss wool export tariffs.",
+    "Shakespeare's The Winter's Tale"
+  ],
+  [
+    "Gersum",
+    "/ˈɡɜːrsəm/",
+    "m",
+    "A fine, premium, or upfront sum paid to a lord for the lease of land or a guild privilege.",
+    "Old English gersum (treasure, gift, sum)",
+    "He paid a heavy gersum to secure the lease of the water-mill.",
+    "Domesday Book records"
+  ],
+  [
+    "Gest",
+    "/dʒɛst/",
+    "m",
+    "A deed, exploit, or a romantic tale of heroic adventure; also a royal lodging-place on a journey.",
+    "Latin gesta (things done)",
+    "The minstrel sang a merry gest of the outlaws in the greenwood.",
+    "Chaucer's Sir Thopas"
+  ],
+  [
+    "Get",
+    "/ɡɛt/",
+    "m",
+    "Offspring, progeny, or lineage.",
+    "Old English getan (to beget)",
+    "He was an honest craftsman, the true get of a master blacksmith.",
+    "Cursor Mundi"
+  ],
+  [
+    "Gib",
+    "/ɡɪb/",
+    "m",
+    "A castrated male cat, often used as a familiar term for an old tomcat.",
+    "Shortened form of Gilbert",
+    "The lazy old gib slept by the warm embers of the blacksmith's forge.",
+    "Shakespeare's Hamlet"
+  ],
+  [
+    "Giff-gaff",
+    "/ˌɡɪfˈɡæf/",
+    "t",
+    "Mutual obligation, give and take, or reciprocal trading favors.",
+    "Reduplication of give",
+    "Business in the cloth market is all a matter of giff-gaff between buyer and seller.",
+    "Sir Walter Scott's The Antiquary"
+  ],
+  [
+    "Gild",
+    "/ɡɪld/",
+    "m",
+    "An association of men of the same trade or craft, banded together for mutual aid and monopoly.",
+    "Old English gild (payment, tribute, association)",
+    "The merchant gild regulated prices and protected members from foreign interlopers.",
+    "Charter of the Goldsmiths' Company"
+  ],
+  [
+    "Gilled",
+    "/ɡɪld/",
+    "t",
+    "Over-reached, duped, or tricked in a bargain.",
+    "Origin obscure, possibly related to gill (a measure) or dialectal terms",
+    "The young wool-buyer found himself heavily gilled by the cunning horse-trader.",
+    "Victorian Slang Dictionary"
+  ],
+  [
+    "Gipser",
+    "/ˈdʒɪpsər/",
+    "m",
+    "A pouch, purse, or small bag hung from the girdle to carry coin and small tools.",
+    "Old French gibecière (game bag, pouch)",
+    "The merchant felt for his leather gipser to pay the toll-collector.",
+    "Chaucer's Canterbury Tales"
+  ],
+  [
+    "Girdler",
+    "/ˈɡɜːrdlər/",
+    "m",
+    "A craftsman who makes girdles (belts), waistbands, or harnesses.",
+    "Old English gyrdelere",
+    "The Company of Girdlers marched in the Lord Mayor's procession wearing their livery.",
+    "London Guild Ordinances"
+  ],
+  [
+    "Haft",
+    "/hæft/",
+    "m",
+    "The handle of a cutting tool, dagger, spear, or axe, traditionally shaped by guild cutlers.",
+    "Old English hæft, from Proto-Germanic.",
+    "He fitted a polished bone haft to the iron blade of the broadaxe.",
+    "Beowulf"
+  ],
+  [
+    "Haggler",
+    "/ˈhæɡlər/",
+    "t",
+    "A petty trader or street merchant who persistently bartered over the price of provisions.",
+    "Frequentative of dialect haggle, to chop or mangle.",
+    "The market was crowded with hagglers disputing the cost of tallow.",
+    "Mayhew, London Labour and the London Poor"
+  ],
+  [
+    "Hake",
+    "/heɪk/",
+    "m",
+    "A wooden rack or frame used by craftsmen for drying skins, salt fish, or wool.",
+    "Middle English hake, related to hook.",
+    "The salted cod were laid out upon the hake to dry in the sea breeze.",
+    "East Anglian Guild Records"
+  ],
+  [
+    "Halberdier",
+    "/ˌhælbərˈdɪər/",
+    "e",
+    "A foot soldier or guard armed with a halberd, a combined spear and battleaxe.",
+    "German Hellebarde via French hallebarde.",
+    "The royal gate was guarded by two stalwart halberdiers in livery.",
+    "Shakespeare, Richard III"
+  ],
+  [
+    "Halfpenny",
+    "/ˈheɪpni/",
+    "m",
+    "An ancient British coin worth half of a penny, standard currency for guild laborers.",
+    "Old English healfpenig.",
+    "He paid a halfpenny for a horn mug of small beer.",
+    "Liber Albus"
+  ],
+  [
+    "Hall-mark",
+    "/ˈhɔːlˌmɑːrk/",
+    "t",
+    "An official stamp applied by the Goldsmiths' Company to certify the purity of precious metals.",
+    "From Goldsmiths' Hall in London.",
+    "The silversmith carefully examined the hall-mark upon the silver tankard.",
+    "Statutes of the Realm"
+  ],
+  [
+    "Hamel",
+    "/ˈhæməl/",
+    "m",
+    "To dock, maim, or hamstring cattle, a medieval offense often judged in manorial courts.",
+    "Old English hamelian.",
+    "He was fined heavily in the manor court for having hameled his neighbor's ox.",
+    "Manorial Court Rolls of Wakefield"
+  ],
+  [
+    "Hand-barrow",
+    "/ˈhændˌbæroʊ/",
+    "m",
+    "A flat wooden frame with handles at both ends, carried by two laborers to move heavy freight.",
+    "Old English handberend.",
+    "The masons loaded the squared limestone blocks onto the hand-barrow.",
+    "Building Accounts of St. Stephen's"
+  ],
+  [
+    "Hand-fast",
+    "/ˈhændˌfæst/",
+    "m",
+    "A pledge or contract sealed by the joining of hands, common in guild apprenticeships and betrothals.",
+    "Old English handfæstian.",
+    "The apprentice was bound by a strict hand-fast to serve seven years.",
+    "Scottish Burgh Records"
+  ],
+  [
+    "Handicraft",
+    "/ˈhændikræft/",
+    "m",
+    "Manual skill, or an occupation requiring specialized manual dexterity and guild training.",
+    "Old English handcræft.",
+    "He earned his livelihood through the honest handicraft of joinery.",
+    "Wycliffe Bible"
+  ],
+  [
+    "Hangers",
+    "/ˈhæŋərz/",
+    "t",
+    "Small leather straps or loops on a belt from which a sword or artisan's tool-case was suspended.",
+    "Middle English hangen.",
+    "His leather shears hung securely from the hangers at his belt.",
+    "Guild Inventories of London"
+  ],
+  [
+    "Hantle",
+    "/ˈhæntəl/",
+    "t",
+    "A considerable quantity, number, or mass of goods, coin, or material.",
+    "Scots variant of handful.",
+    "The weaver had sold a hantle of woolen yardage at the autumn fair.",
+    "Sir Walter Scott, The Antiquary"
+  ],
+  [
+    "Haquebut",
+    "/ˈhækwəbʌt/",
+    "e",
+    "An early portable matchlock firearm used by city guards and guild mercenaries.",
+    "Middle Dutch hakenbus.",
+    "The night watch patrolled the city walls carrying heavy haquebuts.",
+    "Tudor Military Ordinances"
+  ],
+  [
+    "Harness",
+    "/ˈhɑːrnɪs/",
+    "m",
+    "Full suit of iron or steel armor for a knight or man-at-arms.",
+    "Old French harneis.",
+    "The armorer polished the steel harness until it shone like mirror glass.",
+    "Malory, Le Morte d'Arthur"
+  ],
+  [
+    "Harpire",
+    "/ˈhɑːrpaɪər/",
+    "m",
+    "A harp maker or repairer, an obscure medieval specialist guild trade.",
+    "Old French harpeur.",
+    "The harpire fitted new gut strings to the bard's instrument.",
+    "London Letter Books"
+  ],
+  [
+    "Hassock",
+    "/ˈhæsək/",
+    "m",
+    "A thick tuft of coarse grass, or a compacted mass of sedge used for making primitive mats.",
+    "Old English hassuc.",
+    "The basket-weaver gathered dried hassocks from the fenland marsh.",
+    "Earthy Topography of the Fens"
+  ],
+  [
+    "Hat-brush",
+    "/ˈhætˌbrʌʃ/",
+    "t",
+    "A small, stiff-bristled brush used by gentlemen and hatters to maintain beaver-fur hats.",
+    "Compound of hat and brush.",
+    "He smoothed the nap of his topper with a fine velvet hat-brush.",
+    "Victorian Etiquette Manual"
+  ],
+  [
+    "Hatcheler",
+    "/ˈhætʃələr/",
+    "m",
+    "A flax dresser who combed flax or hemp fibers using an iron-toothed comb called a hatchel.",
+    "Derivative of Middle English hathelen.",
+    "The hatcheler cleared the woody stalks from the raw flax fibers.",
+    "Guild Ordinances of Lincoln"
+  ],
+  [
+    "Hatchment",
+    "/ˈhætʃmənt/",
+    "e",
+    "A square or diamond-shaped tablet displaying the coat of arms of a deceased person.",
+    "Corruption of achievement.",
+    "A black-bordered hatchment was nailed above the merchant's townhouse door.",
+    "Shakespeare, Hamlet"
+  ],
+  [
+    "Haurient",
+    "/ˈhɔːriənt/",
+    "m",
+    "Heraldic term describing a fish depicted vertically with its head pointing upward.",
+    "Latin haurire, to draw up.",
+    "The fish on the fishmonger guild's banner was emblazoned haurient.",
+    "Book of St. Albans"
+  ],
+  [
+    "Hawker",
+    "/ˈhɔːkər/",
+    "m",
+    "An itinerant merchant who carried goods about for sale, distinct from a fixed shopkeeper.",
+    "Middle German hoker.",
+    "The street hawker cried his fresh herrings through the cobblestone alleys.",
+    "Statute of Edward VI"
+  ],
+  [
+    "Headborough",
+    "/ˈhɛdˌbʌroʊ/",
+    "m",
+    "A parish officer subordinate to the high constable, heading a tithing or ward.",
+    "Old English heafodburh.",
+    "The headborough inspected the weights and measures in the town market.",
+    "Lambarde, Eirenarcha"
+  ],
+  [
+    "Heald",
+    "/hiːld/",
+    "m",
+    "One of the looped vertical threads in a weaver's loom through which warp threads pass.",
+    "Old English hebban.",
+    "The weaver carefully threaded each warp yarn through the iron heald.",
+    "Weavers' Guild Ordinances"
+  ],
+  [
+    "Hearled",
+    "/ˈhɜːrlɪd/",
+    "m",
+    "Marked with concentric circles or whorls, a term used in medieval timber grading.",
+    "Middle English.",
+    "The carpenter rejected the oak plank because it was too hearled.",
+    "Carpenter Guild Records"
+  ],
+  [
+    "Hedge-priest",
+    "/ˈhɛdʒˌpriːst/",
+    "e",
+    "An illiterate, itinerant, or unlicensed priest who performed clandestine marriages.",
+    "Compound of hedge and priest.",
+    "He was married hastily by a wandering hedge-priest behind the tavern.",
+    "Shakespeare, Henry VI"
+  ],
+  [
+    "Heddle",
+    "/ˈhɛdəl/",
+    "m",
+    "An alternative term for the heald, part of the harness that separates warp threads.",
+    "Variant of heald.",
+    "The master weaver repaired a broken heddle on his wooden loom.",
+    "York Memorandum Book"
+  ],
+  [
+    "Hemp-beater",
+    "/ˈhɛmpˌbiːtər/",
+    "m",
+    "A laborer who pounded raw hemp stalks to break the fibers for cordage and sailcloth.",
+    "Compound of hemp and beater.",
+    "The hemp-beater worked strenuously at the public retting pit.",
+    "London Trade Guild Rolls"
+  ],
+  [
+    "Herborizer",
+    "/ˈhɜːrbəˌraɪzər/",
+    "t",
+    "A botanist or apothecary who searches the countryside for medicinal herbs and simples.",
+    "French herboriser.",
+    "The local apothecary set forth as an eager herborizer into the hills.",
+    "Botanical Gazette"
+  ],
+  [
+    "Hillion",
+    "/ˈhɪljən/",
+    "m",
+    "To earth up potatoes, celery, or other crops with a hoe during cultivation.",
+    "Dialectal variant of hilling.",
+    "The farmhand spent the afternoon hillion the winter cabbages.",
+    "Agricultural Husbandry Manual"
+  ],
+  [
+    "Hogshead",
+    "/ˈhɒɡzˌhɛd/",
+    "m",
+    "A large cask or barrel used in trade, standardized to hold 63 gallons of wine or ale.",
+    "Middle English hogshed.",
+    "The merchant purchased three hogsheads of French claret at the docks.",
+    "Customs Accounts of London"
+  ],
+  [
+    "Hoker",
+    "/ˈhoʊkər/",
+    "m",
+    "A small, single-masted fishing vessel or coastal cargo boat used in Irish and English waters.",
+    "Dutch hoeker.",
+    "The coastal hoker delivered turf baskets to the river port.",
+    "Maritime Trade Records"
+  ],
+  [
+    "House-bote",
+    "/ˈhaʊsˌboʊt/",
+    "m",
+    "A tenant's legal right under feudal law to cut wood from an estate for building repairs.",
+    "Old English hūsbōt.",
+    "The tenant claimed his traditional house-bote to repair the thatched roof.",
+    "Coke upon Littleton"
+  ],
+  [
+    "Jagger",
+    "/ˈdʒæɡər/",
+    "e",
+    "A hawker, peddler, or one who carries goods on horseback for hire.",
+    "Dialectal English, related to 'jag' meaning a load or parcel.",
+    "The jagger brought salt and iron from the coast to our remote moorland village.",
+    "Yorkshire Parish Records"
+  ],
+  [
+    "Jilt",
+    "/dʒɪlt/",
+    "e",
+    "Originally a contemptuous term for a woman; later, a deceptive trick or betrayal.",
+    "Etymology uncertain, perhaps a variant of 'gillot', a diminutive of Gillian.",
+    "He suffered a bitter jilt in trade when his partner fled with the wool dues.",
+    "A Collection of English Proverbs"
+  ],
+  [
+    "Jobbernowl",
+    "/ˈdʒɒbərˌnaʊl/",
+    "e",
+    "A blockhead, dolt, or person with a thick head.",
+    "From 'jobol' (head or poll) + 'nowl' (head/skull).",
+    "That lazy jobbernowl could not reckon the simplest tally of timber.",
+    "Thomas Dekker, The Shoemaker's Holiday"
+  ],
+  [
+    "Jumble",
+    "/ˈdʒʌmbəl/",
+    "e",
+    "A thin, crisp, sweet cake or biscuit, often ring-shaped and flavored with aniseed.",
+    "Middle English 'jomble', probably from Old French.",
+    "The baker's wife laid out hot spiced jumbles upon the trestle table for the feast.",
+    "Household Books of Thomas Howard"
+  ],
+  [
+    "Jurdan",
+    "/ˈdʒɜːrdən/",
+    "m",
+    "A chamber pot, specifically one used by apothecaries or alchemists for testing urine.",
+    "Old French 'jurdain', of uncertain origin.",
+    "The apothecary peered closely into the jurdan to diagnose the merchant's distemper.",
+    "Chaucer, The Pardoner's Prologue"
+  ],
+  [
+    "Joss-house",
+    "/ˈdʒɒsˌhaʊs/",
+    "t",
+    "A Chinese temple or place of worship, particularly in trading ports.",
+    "Pidgin English from Portuguese 'deus' (god) + house.",
+    "The English sailors traded spices near the great joss-house by the river.",
+    "Marryat, Poor Jack"
+  ],
+  [
+    "Jaud",
+    "/dʒɔːd/",
+    "t",
+    "A worn-out, worthless horse or jade.",
+    "Scots variant of 'jade'.",
+    "The carter lashed his poor old jaud up the steep incline of the wynd.",
+    "Sir Walter Scott, Rob Roy"
+  ],
+  [
+    "Journeyman",
+    "/ˈdʒɜːrniˌmæn/",
+    "m",
+    "A qualified artisan who works for another by the day, having completed his apprenticeship.",
+    "From French 'journée' (day) + man.",
+    "The skilled journeyman earned two groats a day for carving the choir stalls.",
+    "Statutes of the Realm, Henry VII"
+  ],
+  [
+    "Jeopart",
+    "/ˈdʒɛpɑːrt/",
+    "m",
+    "To risk, hazard, or put in jeopardy.",
+    "Old French 'jeu parti' (a divided game, a drawn match).",
+    "He would not jeopart his cargo by sailing through the pirate-infested strait.",
+    "Caxton, The Recuyell of the Historyes of Troye"
+  ],
+  [
+    "Jann",
+    "/dʒæn/",
+    "e",
+    "An obsolete measure of capacity or weight used in regional grain trade.",
+    "Origin uncertain, likely Celtic or regional trade slang.",
+    "The miller demanded three janns of wheat for the grinding toll.",
+    "Exchequer Tallies and Accounts"
+  ],
+  [
+    "Jigamaree",
+    "/ˌdʒɪɡəˈmɑːri/",
+    "t",
+    "A whimsical contrivance, trick, or unstable piece of machinery.",
+    "American and British dialect, 19th-century elaboration of 'jig'.",
+    "The weaver tinkered with the strange jigamaree until the shuttle flew true.",
+    "The Dialect Dictionary"
+  ],
+  [
+    "Jimcrack",
+    "/ˈdʒɪmˌkræk/",
+    "e",
+    "A flimsy, showy, or cheap mechanical device or ornament.",
+    "Origin unknown, possibly a corruption of 'gimcrack'.",
+    "The market stall was laden with brass jimcracks that tarnished in the damp air.",
+    "Beaumont and Fletcher, The Knight of the Burning Pestle"
+  ],
+  [
+    "Jasp",
+    "/dʒæsp/",
+    "m",
+    "An archaic spelling of jasper, a precious opaque quartz used by lapidaries.",
+    "Old French 'jaspe', from Greek.",
+    "The ring-maker set a polished green jasp within the heavy signet ring.",
+    "Guild Inventories of London"
+  ],
+  [
+    "Jaund",
+    "/dʒɔːnd/",
+    "m",
+    "Jaundice, a yellowing of the skin formerly thought to stem from diseased humors.",
+    "Old French 'jaunisse', from 'jaune' (yellow).",
+    "The physician prescribed a draught of herbs to purge the dyer of his jaund.",
+    "The Private Diary of a Tudor Surgeon"
+  ],
+  [
+    "Joll",
+    "/dʒɒl/",
+    "e",
+    "To strike, bump, or knock against something.",
+    "Middle English 'jollen', perhaps imitative.",
+    "The waves did joll the small fishing bark against the stone pier.",
+    "Richard Hakluyt, Principal Navigations"
+  ],
+  [
+    "Jorum",
+    "/ˈdʒoʊrəm/",
+    "t",
+    "A large drinking bowl or the liquor contained within it.",
+    "Origin obscure, possibly derived from Joram in the Bible (2 Samuel viii. 10).",
+    "The innkeeper brought forth a steaming jorum of punch for the weary carters.",
+    "Charles Dickens, Pickwick Papers"
+  ],
+  [
+    "Judicial",
+    "/dʒuːˈdɪʃəl/",
+    "e",
+    "Pertaining to astrology, specifically the art of judging future events by the stars.",
+    "Latin 'judicialis'.",
+    "The merchant consulted a wise astronomer skilled in judicial astrology before setting sail.",
+    "Robert Burton, The Anatomy of Melancholy"
+  ],
+  [
+    "Juggle",
+    "/ˈdʒʌɡəl/",
+    "m",
+    "To practice trickery, deception, or sleight of hand.",
+    "Middle English 'jogulen', from Old French.",
+    "The wandering minstrel could juggle knives and coins to amuse the market crowd.",
+    "Piers Plowman"
+  ],
+  [
+    "Juke",
+    "/dʒuːk/",
+    "m",
+    "To bend the neck or body; to stoop or make obeisance.",
+    "Old French 'juker', to roost.",
+    "He had to juke low to enter the low-beamed doorway of the weaver's cottage.",
+    "Cursor Mundi"
+  ],
+  [
+    "Julien",
+    "/ˈdʒuːliən/",
+    "m",
+    "A medieval broth or thick soup made with various herbs and roots.",
+    "Old French, possibly related to July or a master cook named Julian.",
+    "The monastery kitchen prepared a hearty julien for the traveling pilgrims.",
+    "The Forme of Cury"
+  ],
+  [
+    "Jury",
+    "/ˈdʒʊəri/",
+    "m",
+    "Temporary; a term applied by tradesmen to a makeshift tool or temporary repair.",
+    "Shortened from 'ajury', from Old French 'ajuer' (to aid).",
+    "They rigged a jury mast after the gale snapped the main yard.",
+    "Naval Logbooks of the Elizabethan Era"
+  ],
+  [
+    "Jus",
+    "/dʒʌs/",
+    "m",
+    "A legal right, law, or customary due belonging to a guild or manor.",
+    "Latin 'jus' (right, law).",
+    "The blacksmith paid his annual jus to the lord of the manor for the forge-land.",
+    "Black Book of the Exchequer"
+  ],
+  [
+    "Jut",
+    "/dʒʌt/",
+    "e",
+    "To project or stick out beyond a surface, as timber in an overhanging story.",
+    "Variant of 'jet'.",
+    "The upper chambers of the timber-framed shop did jut out over the narrow street.",
+    "John Stow, Survey of London"
+  ],
+  [
+    "Jupon-maker",
+    "/dʒuːˈpɒnˌmeɪkər/",
+    "m",
+    "A specialized tailor who crafted padded armor-surcoats and quilted garments.",
+    "From 'jupon' + 'maker'.",
+    "The master jupon-maker fitted the young squire with a stout quilted gambeson.",
+    "London Guild Rolls"
+  ],
+  [
+    "Jargouel",
+    "/ˈdʒɑːrɡuːɛl/",
+    "m",
+    "Confused chatter or meaningless noise; bird-song.",
+    "Old French variant of jargon.",
+    "The marketplace was filled with the jargouel of foreign merchants haggling over silk.",
+    "Medieval Anglo-Norman Dictionary"
+  ],
+  [
+    "Jack-weight",
+    "/ˈdʒækˌweɪt/",
+    "e",
+    "A small or standard weight used in weighing goods in markets.",
+    "From 'jack' (small) + 'weight'.",
+    "The market inspector tested the butter tubs against the royal jack-weight.",
+    "Assize of Bread and Ale Records"
+  ],
+  [
+    "Jaud-keeper",
+    "/ˈdʒɔːdˌkiːpər/",
+    "t",
+    "One who keeps old or worn-out horses for hire or scrap.",
+    "From 'jaud' + 'keeper'.",
+    "The shady jaud-keeper offered the traveler a lame cob for a silver coin.",
+    "Victorian Street Trades Lexicon"
+  ],
+  [
+    "Jargoneer",
+    "/ˌdʒɑːrɡəˈnɪər/",
+    "t",
+    "One who uses technical slang, trade jargon, or unintelligible speech.",
+    "From 'jargon' + suffix '-eer'.",
+    "The old legal clerk was a notorious jargoneer whom no layman could understand.",
+    "19th Century Occupational Satire"
+  ],
+  [
+    "Kaama",
+    "/ˈkɑːmʌ/",
+    "t",
+    "An obsolete South African term for the red hartebeest antelope, used in colonial trade and hunting.",
+    "Khoekhoe origin, adopted into 19th-century English travel and trade literature.",
+    "We sighted a large herd of kaama grazing near the dry riverbed.",
+    "William Cornwallis Harris, 'Wild Sports of Southern Africa', 1839"
+  ],
+  [
+    "Kabob",
+    "/kəˈbɒb/",
+    "e",
+    "An early modern English spelling variant for skewered and roasted meat, brought via Levantine trade routes.",
+    "Arabic kabāb via Persian.",
+    "He ordered a dish of spiced kabob from the traveling merchant.",
+    "John Cartwright, 'The Preacher's Travels', 1611"
+  ],
+  [
+    "Kachina",
+    "/kəˈtʃiːnʌ/",
+    "t",
+    "A carved ritual doll or spirit figure of the Pueblo peoples, collected by Victorian-era ethnographers.",
+    "Hopi origin.",
+    "The trader displayed a brightly painted kachina upon his wooden shelf.",
+    "John Bourke, 'The Snake-Dance of the Moquis of Arizona', 1884"
+  ],
+  [
+    "Kaffle",
+    "/ˈkæfəl/",
+    "m",
+    "A Middle English dialect term meaning to wrangle, haggle, or dispute over guild prices in a market.",
+    "Imitative of vocal contention; Old Norse influence.",
+    "The weavers began to kaffle over the cost of imported Flemish wool.",
+    "York Mystery Plays, c. 1440"
+  ],
+  [
+    "Kaie",
+    "/keɪ/",
+    "m",
+    "An obsolete spelling of key, referring to a wharf or quay used by medieval guild merchants for cargo.",
+    "Old French cai.",
+    "The merchant unloaded his casks of wine upon the municipal kaie.",
+    "London Custom House Rolls, 1388"
+  ],
+  [
+    "Kain",
+    "/keɪn/",
+    "m",
+    "A feudal duty or tribute paid in kind, such as poultry, grain, or livestock, to a lord or guild master.",
+    "Gaelic cain or Old Norse kenna.",
+    "The tenant delivered his annual kain of six fat capons to the manor.",
+    "Scottish Exchequer Rolls, 1450"
+  ],
+  [
+    "Kaland",
+    "/ˈkælənd/",
+    "m",
+    "A medieval religious fraternity or merchant guild associated with the first day of the month.",
+    "Latin calendae.",
+    "The brethren of the Kaland gathered to settle debts and pray for members.",
+    "Ecclesiastical Records of Northern Europe, 1421"
+  ],
+  [
+    "Kaleidophon",
+    "/kəˈlaɪdəfɒn/",
+    "t",
+    "An acoustic optical instrument invented in the 19th century to visualize sound vibrations.",
+    "Greek kalos (beautiful) + eidos (form) + phone (sound).",
+    "The natural philosopher demonstrated the kaleidophon before the scientific society.",
+    "Charles Wheatstone, 'Quarterly Journal of Science', 1827"
+  ],
+  [
+    "Kaloyer",
+    "/kəˈlɔɪər/",
+    "e",
+    "An archaic term for a Greek Orthodox monk, often encountered by English Levant merchants.",
+    "Modern Greek kalogeros (good old man).",
+    "We conversed with a learned kaloyer within the monastery walls.",
+    "George Sandys, 'Relation of a Journey begun An. Dom. 1610', 1615"
+  ],
+  [
+    "Kam",
+    "/kæm/",
+    "m",
+    "An obsolete Middle English adjective meaning crooked, twisted, or awry, often used in textile work.",
+    "Welsh cam (crooked).",
+    "The spun yarn ran kam upon the wooden spindle.",
+    "John Skelton, 'Magnyfycence', c. 1519"
+  ],
+  [
+    "Kampong",
+    "/kæmˈpɒŋ/",
+    "t",
+    "A fenced village or enclosed settlement in maritime Southeast Asia, documented by East India Company traders.",
+    "Malay kampung.",
+    "The trading party moored their boats near the coastal kampong.",
+    "Thomas Stamford Raffles, 'History of Java', 1817"
+  ],
+  [
+    "Kan",
+    "/kæn/",
+    "m",
+    "An obsolete liquid measure used in northern Europe and by Hanseatic merchants.",
+    "Dutch and Low German kan.",
+    "The tavern keeper filled the pewter kan with bitter ale.",
+    "Hanseatic Trade Documents, 1390"
+  ],
+  [
+    "Kantar",
+    "/ˈkæntɑːr/",
+    "e",
+    "A traditional unit of weight used in the Levant and Mediterranean spice trade, roughly equivalent to 100-150 pounds.",
+    "Arabic qintār.",
+    "The merchant purchased three kantars of raw Syrian cotton.",
+    "Richard Hakluyt, 'Principal Navigations', 1599"
+  ],
+  [
+    "Kapo",
+    "/ˈkeɪpoʊ/",
+    "t",
+    "An overseer or foreman in certain 19th-century colonial operations and mining camps.",
+    "Italian capo or Afrikaans derivation.",
+    "The kapo directed the laborers to stack the timber logs.",
+    "Cape Colony Colonial Reports, 1865"
+  ],
+  [
+    "Kascrom",
+    "/ˈkæskrɒm/",
+    "t",
+    "A large foot-plough used in the Scottish Highlands for turning rocky soil before modern agricultural machinery.",
+    "Gaelic cas-chrom (crooked foot).",
+    "The crofter tilled the steep hillside using his traditional kascrom.",
+    "John Ramsay, 'Scotland and Scotsmen in the 18th Century', 1888"
+  ],
+  [
+    "Kat",
+    "/kæt/",
+    "t",
+    "An alternate 19th-century spelling of khat, the stimulant leaf traded in East Africa and Arabia.",
+    "Arabic qāt.",
+    "The local porters chewed kat to sustain their energy along the caravan route.",
+    "Richard Burton, 'First Footsteps in East Africa', 1856"
+  ],
+  [
+    "Katchina",
+    "/kəˈtʃiːnʌ/",
+    "t",
+    "An alternate Victorian spelling of kachina, representing tribal ancestral spirits.",
+    "Hopi origin.",
+    "The museum curator cataloged the sacred wooden katchina figures.",
+    "Bureau of American Ethnology Report, 1894"
+  ],
+  [
+    "Kaur",
+    "/kaʊər/",
+    "m",
+    "An obsolete northern dialect term to cower, shrink, or crouch down in fear or labor.",
+    "Old Norse quira.",
+    "The frightened apprentice kaur'd behind the guild workbench.",
+    "Cursor Mundi, c. 1300"
+  ],
+  [
+    "Kauri",
+    "/ˈkaʊri/",
+    "t",
+    "A massive New Zealand evergreen tree yielding valuable timber and resin for Victorian varnish trade.",
+    "Maori kauri.",
+    "The carpenters shaped the hull planking from durable kauri wood.",
+    "J.S. Polack, 'New Zealand', 1838"
+  ],
+  [
+    "Kaw",
+    "/kɔː/",
+    "e",
+    "To croak like a raven or crow; also used colloquially by Elizabethan dramatists to mock harsh speech.",
+    "Imitative origin.",
+    "The old witch stood upon the wall to kaw like a carrion bird.",
+    "William Shakespeare, 'Coriolanus' (variant glosses), 1623"
+  ],
+  [
+    "Kaye",
+    "/keɪ/",
+    "m",
+    "A medieval roll, list, or register of guild members and taxable assets.",
+    "Old French quaier.",
+    "The bailiff checked the names inscribed upon the parchment kaye.",
+    "Exchequer Memoranda Rolls, 1355"
+  ],
+  [
+    "Keach",
+    "/kiːtʃ/",
+    "e",
+    "To ladle, scoop, or clear out water from a boat or vat, common among dyers and river traders.",
+    "Middle English kechen.",
+    "The dyer used a wooden bowl to keach the surplus liquor from the vat.",
+    "Tudor Guild Ordinances, 1560"
+  ],
+  [
+    "Keage",
+    "/kiːdʒ/",
+    "m",
+    "A wharfage fee or harbor tax levied on merchant ships using a municipal quay.",
+    "From kay + -age suffix.",
+    "The captain paid his keage to the port reeve before unloading wool.",
+    "Port Books of Southampton, 1470"
+  ],
+  [
+    "Keaki",
+    "/kiˈɑːki/",
+    "t",
+    "An obsolete term for the Japanese zelkova tree, valued for fine cabinet-making in international trade.",
+    "Japanese keyaki.",
+    "The merchant imported fine chests crafted from polished keaki wood.",
+    "The Japan Weekly Mail, 1878"
+  ],
+  [
+    "Kear",
+    "/kɪər/",
+    "m",
+    "To clear or cleanse, specifically used in textile bleaching and scouring trades.",
+    "Dialectal variant of clear.",
+    "The apprentices labored to kear the coarse linen cloth in alkaline lye.",
+    "Statutes of the Realm (Textiles), 1512"
+  ],
+  [
+    "Keeler",
+    "/ˈkiːlər/",
+    "m",
+    "A shallow tub or vessel used by brewers, dyers, and dairy workers for cooling liquids.",
+    "From keel (vessel).",
+    "The brewer poured the hot wort into the wooden keeler to cool.",
+    "Household Ordinances of the 15th Century, 1477"
+  ],
+  [
+    "Keelsolve",
+    "/ˈkiːlsɒlv/",
+    "m",
+    "A medieval guild term for the bottom framework or structural joint of a ship's keel.",
+    "Keel + solve (fastening/joint).",
+    "The shipwright inspected the keelsolve for signs of rot.",
+    "Naval Accounts of Henry V, 1415"
+  ],
+  [
+    "Keep-net",
+    "/ˈkiːpˌnɛt/",
+    "t",
+    "A mesh bag used by Victorian anglers to keep captured fish alive in the water.",
+    "Keep + net.",
+    "He placed the fine trout carefully inside his woven keep-net.",
+    "Thomas Westwood, 'The Chronicle of the Compleat Angler', 1864"
+  ],
+  [
+    "Keesar",
+    "/ˈkiːzɑːr/",
+    "e",
+    "An archaic spelling of kaiser or emperor, frequently used in Elizabethan political tracts and merchant dispatches.",
+    "German Kaiser via Latin Caesar.",
+    "The ambassadors negotiated terms with the western keesar.",
+    "Richard Knolles, 'Generall Historie of the Turks', 1603"
+  ],
+  [
+    "Kef",
+    "/kɛf/",
+    "kɛf/",
+    "t",
+    "A state of drowsy tranquility or daydreaming, introduced by travelers returning from North Africa.",
+    "Arabic kayf.",
+    "The merchant sat upon the porch, sinking into a quiet state of kef."
+  ],
+  [
+    "Keir",
+    "/kɪər/",
+    "m",
+    "A large vat or boiling kier used by linen bleachers and textile guilds.",
+    "Scottish and northern English variant of cover or copper.",
+    "The master bleacher stoked the fire beneath the great wooden keir.",
+    "Edinburgh Burgh Records, 1582"
+  ],
+  [
+    "Kelch",
+    "/kɛltʃ/",
+    "m",
+    "An obsolete term for a cup, chalice, or drinking vessel produced by medieval goldsmiths.",
+    "Old English celic via Latin calix.",
+    "The silversmith hammered out a fine silver kelch for the parish church.",
+    "Lincoln Diocese Inventories, 1436"
+  ],
+  [
+    "Kemb",
+    "/kɛmb/",
+    "m",
+    "To comb wool, flax, or hair; a standard preparatory trade process for spinners and weavers.",
+    "Old English cemban.",
+    "The guild apprentice spent the morning hours to kemb the raw fleece.",
+    "Promptorium Parvulorum, c. 1440"
+  ],
+  [
+    "Laverock",
+    "/ˈlævərək/",
+    "m",
+    "A lark; specifically the skylark, often hunted or snared for food in medieval England.",
+    "Old English 'lāwerce', from Proto-Germanic.",
+    "The merry laverock goes up on high, to greet the morrow's light.",
+    "Middle English poetry"
+  ],
+  [
+    "Lollard",
+    "/ˈlɒlərd/",
+    "m",
+    "A derogatory term for a follower of John Wycliffe's religious reform movement in the 14th and 15th centuries.",
+    "Middle Dutch 'lollaerd' (mutterer, mumbler of prayers).",
+    "He was accused before the bishop of harboring dangerous Lollard heresy in his workshop.",
+    "Knighton's Chronicle"
+  ],
+  [
+    "Lopper",
+    "/ˈlɒpər/",
+    "e",
+    "One who prunes or lops off branches from trees; a woodman or forester.",
+    "From Middle English 'loppen' (to cut branches).",
+    "The lopper cleared the deadwood to provide timber for the cooperage.",
+    "Tudor Forest Court Rolls"
+  ],
+  [
+    "Larderner",
+    "/ˈlɑːrdərnər/",
+    "m",
+    "An officer or servant in charge of a noble household's larder or meat-store.",
+    "Anglo-Norman 'larderner', from Latin 'lardarium'.",
+    "The larderner portioned out the salt pork for the winter feast.",
+    "Household Ordinances of Edward II"
+  ],
+  [
+    "Lappster",
+    "/ˈlæpstər/",
+    "e",
+    "A fisherman who catches lobsters, or a dealer in lobsters.",
+    "From 'lobster' + agent suffix '-ster'.",
+    "The lappster brought his creels ashore laden with the day's catch.",
+    "Statutes of the Realm (Elizabeth I)"
+  ],
+  [
+    "Lutist",
+    "/ˈluːtɪst/",
+    "e",
+    "A professional player of the lute, commonly employed in royal courts and guild pageants.",
+    "Derived from 'lute' + '-ist', popularized in the 16th century.",
+    "The master lutist tuned his instrument before the queen's banquet.",
+    "Thomas Morley, A Plain and Easy Introduction to Practical Music"
+  ],
+  [
+    "Longbowman",
+    "/ˈlɒŋboʊmən/",
+    "m",
+    "A foot soldier armed with the English longbow, a premier military profession of the Hundred Years' War.",
+    "From 'longbow' + 'man'.",
+    "Every skilled longbowman was required to practice archery on the village green.",
+    "Statute of Winchester (1285)"
+  ],
+  [
+    "Locksmith",
+    "/ˈlɒksmɪθ/",
+    "m",
+    "An artisan who forges and repairs locks, keys, and intricate iron mechanisms.",
+    "Old English 'locsmið'.",
+    "The locksmith crafted a complex iron ward that could not be easily picked.",
+    "London Guild Assize of 1300"
+  ],
+  [
+    "Latener",
+    "/ˈlætənər/",
+    "m",
+    "A worker in latten, a mixed yellow metal similar to brass used for monumental brasses and church vessels.",
+    "From Middle English 'laton' (brass-like alloy).",
+    "The latener hammered out the memorial plate for the fallen knight.",
+    "Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Leather-seller",
+    "/ˈlɛðərˌsɛlər/",
+    "m",
+    "A merchant who trades in dressed hides, skins, and finished leather goods.",
+    "Middle English compound of 'leather' and 'seller'.",
+    "He was made a freeman of the Worshipful Company of Leather-sellers.",
+    "Medieval London Letter-Books"
+  ],
+  [
+    "Linchpin",
+    "/ˈlɪntʃpɪn/",
+    "m",
+    "A pin passed through the axle of a wheel to keep it from slipping off, crucial for trade wagons.",
+    "Middle English 'linspin'.",
+    "The cartwright checked every linchpin before the heavy wagon set off for the market.",
+    "Manorial Court Rolls"
+  ],
+  [
+    "Loriner",
+    "/ˈlɒrɪnər/",
+    "m",
+    "A maker of horse-bits, spurs, stirrups, and metal harness fittings.",
+    "Old French 'lorinier', from Latin 'lorum' (thong/reins).",
+    "The loriner polished the silvered bridle-bits for the royal procession.",
+    "Charter of the Loriners' Company"
+  ],
+  [
+    "Lansquenet",
+    "/ˈlænskəˌnɛt/",
+    "e",
+    "A German mercenary foot soldier armed with a pike, or a popular gambling card game.",
+    "French, from German 'Landsknecht'.",
+    "A company of unruly lansquenets marched through the plundered village.",
+    "Dekker, The Gull's Hornbook"
+  ],
+  [
+    "Limb-meal",
+    "/ˈlɪmˌmiːl/",
+    "e",
+    "Piece by piece; limb by limb; torn apart.",
+    "Old English 'limmælum' ('lim' limb + 'mælum' at times/parts).",
+    "O, I will tear him limb-meal in the market-place!",
+    "Shakespeare, Cymbeline"
+  ],
+  [
+    "Leaguer-lass",
+    "/ˈliːɡərˌlæs/",
+    "e",
+    "A camp-follower; a woman who accompanied a military encampment.",
+    "From 'leaguer' (camp) + 'lass'.",
+    "The leaguer-lasses tended the campfires and washed the soldiers' woolens.",
+    "Beaumont and Fletcher"
+  ],
+  [
+    "Logman",
+    "/ˈlɒɡmən/",
+    "e",
+    "A woodcutter or laborer whose job is to fell and haul logs.",
+    "From 'log' + 'man'.",
+    "He was reduced to a logman, hauling timber through the muddy forest tracks.",
+    "Shakespeare, The Tempest"
+  ],
+  [
+    "Lazar-house",
+    "/ˈleɪzərˌhaʊs/",
+    "m",
+    "A hospital or lazaretto for the segregation and care of lepers.",
+    "From 'lazar' + 'house'.",
+    "The city fathers established a lazar-house outside the northern gates.",
+    "Civic Records of Norwich"
+  ],
+  [
+    "Lave",
+    "/leɪv/",
+    "m",
+    "To bale out water from a boat, or to wash and cleanse.",
+    "Old English 'lafian' or Latin 'lavare'.",
+    "The crew had to lave the bilge water continuously to keep the cog afloat.",
+    "Morte Darthur"
+  ],
+  [
+    "Lording",
+    "/ˈlɔːrdɪŋ/",
+    "m",
+    "A little lord; a term of condescending or familiar address to men of rank.",
+    "Middle English diminutive of 'lord'.",
+    "Hearken to me, lordings, and I shall tell you a wondrous tale.",
+    "Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Lock-ram",
+    "/ˈlɒkˌræm/",
+    "e",
+    "A coarse, cheap linen cloth used for workmen's shirts and rough trade goods.",
+    "Derivation uncertain, possibly from Locronan in Brittany.",
+    "The servants were dressed in doublets of rough lock-ram.",
+    "Beaumont and Fletcher, The Spanish Curate"
+  ],
+  [
+    "Lubber",
+    "/ˈlʌbər/",
+    "m",
+    "An awkward, lazy, or clumsy person; a clumsy sailor (land-lubber).",
+    "Middle English 'lobbe' (lout/buffoon).",
+    "The captain cursed the lazy lubber who let the halyard slip.",
+    "Promptorium Parvulorum"
+  ],
+  [
+    "Lunt",
+    "/lʌnt/",
+    "e",
+    "A slow match used for firing cannons or matchlock muskets.",
+    "Dutch 'lont' (match/fuse).",
+    "The gunner held the burning lunt, waiting for the captain's command.",
+    "Military Ordinances of Henry VIII"
+  ],
+  [
+    "Lurcher",
+    "/ˈlɜːrtʃər/",
+    "m",
+    "A poacher's dog trained to hunt silently, or a person who lurks about stealthily.",
+    "From 'lurch' (to steal or skulk).",
+    "The keeper seized the lurcher that was ranging across the lord's warren.",
+    "Forest Laws of Edward III"
+  ],
+  [
+    "Lyam",
+    "/ˈlaɪæm/",
+    "m",
+    "A leash or hound-string used for holding hunting dogs like greyhounds or bloodhounds.",
+    "Old French 'liem', from Latin 'ligamen'.",
+    "He held the fierce hound firmly by the lyam.",
+    "The Master of Game"
+  ],
+  [
+    "Lath-render",
+    "/ˈlæθˌrɛndər/",
+    "m",
+    "An artisan who splits timber into thin laths used for plastering walls and ceilings.",
+    "From 'lath' + 'render' (to split).",
+    "The lath-render stacked his split oak laths ready for the builders.",
+    "Building Accounts of Westminster Abbey"
+  ],
+  [
+    "Lighterman",
+    "/ˈlaɪtərmən/",
+    "e",
+    "A boatman who works a lighter, a flat-bottomed barge used to load and unload ships on a river.",
+    "From 'lighter' (barge) + 'man'.",
+    "The lighterman ferried wool bales from the anchored carrick to the wharf.",
+    "London Port Custom Records"
+  ],
+  [
+    "Lansprise",
+    "/ˈlænzpraɪz/",
+    "e",
+    "Free quarters or pillage exacted by soldiers in occupied territory.",
+    "German 'Lanzpreis' or Dutch equivalent.",
+    "The citizens begged the captain to spare their town from lansprise.",
+    "Holinshed's Chronicles"
+  ],
+  [
+    "Lodemanage",
+    "/ˈloʊdmənɪdʒ/",
+    "m",
+    "The skill, business, or fee of a lodeman (pilot); pilotage.",
+    "Middle English, from 'lodeman'.",
+    "The master paid the customary fee for lodemanage at the mouth of the Thames.",
+    "Black Book of the Admiralty"
+  ],
+  [
+    "Loom-shop",
+    "/ˈluːmˌʃɒp/",
+    "t",
+    "A workshop containing handlooms for weaving textile fabrics before mass factory mechanization.",
+    "From 'loom' + 'shop'.",
+    "The weaver labored from dawn till dusk within his cramped loom-shop.",
+    "Victorian Working-Class Memoirs"
+  ],
+  [
+    "Lignum-vitae",
+    "/ˈlɪɡnəm ˈviːtiː/",
+    "e",
+    "An extremely heavy, dense tropical hardwood traded for making pulleys, bowls, and machinery bearings.",
+    "New Latin 'tree of life'.",
+    "The shipwright turned the pulley block from solid lignum-vitae.",
+    "Naval Stores Ledger, Elizabeth I"
+  ],
+  [
+    "Lyger",
+    "/ˈlaɪɡər/",
+    "m",
+    "A ledger, account book, or register kept by merchants and guild wardens.",
+    "Variant of 'ledger', from Middle English 'legren' (to lie fixed).",
+    "The merchant entered the shipment of Flemish broadcloth into his lyger.",
+    "Mercer's Company Ledger"
+  ],
+  [
+    "Long-bow",
+    "/ˈlɒŋboʊ/",
+    "m",
+    "The formidable English weapon of yew wood that revolutionized medieval warfare.",
+    "Old English 'langboga'.",
+    "He strung his long-bow with care before the muster at Agincourt.",
+    "Gesta Henrici Quinti"
+  ],
+  [
+    "Lazar-cote",
+    "/ˈleɪzərˌkoʊt/",
+    "m",
+    "A rough garment worn by lepers to signify their station and warn others away.",
+    "From 'lazar' + 'cote' (coat).",
+    "The beggar was clad in the mandated grey lazar-cote.",
+    "Ecclesiastical Court Depositions"
+  ],
+  [
+    "Machetoc",
+    "/ˈmætʃətɒk/",
+    "m",
+    "A small billhook or pruning knife used in forestry and estate management.",
+    "Old French machete",
+    "He carried his machetoc to trim the underbrush near the abbey wall.",
+    "Forestry Rolls of Essex"
+  ],
+  [
+    "Macquerel",
+    "/ˈmækərəl/",
+    "m",
+    "A pimp or procuress; a historical term for a broker of illicit affairs.",
+    "Middle French macquerel",
+    "The city magistrate cast out the notorious macquerel from the ward.",
+    "London Letter Books"
+  ],
+  [
+    "Mader",
+    "/ˈmeɪdər/",
+    "m",
+    "A mower or harvester of grass and crops.",
+    "Old English mædere",
+    "The mader whetted his scythe as the morning mist cleared.",
+    "Manorial Roll of Wakefield"
+  ],
+  [
+    "Mador",
+    "/ˈmeɪdɔːr/",
+    "m",
+    "A maker of matting or coarse woven floor coverings.",
+    "Middle English matour",
+    "The guild of madores supplied rushes for the great hall floor.",
+    "Guild Ordinances of Lincoln"
+  ],
+  [
+    "Maftiff",
+    "/ˈmæstɪf/",
+    "e",
+    "An obsolete spelling variant of mastiff, a heavy guard dog used by night watchmen.",
+    "Middle English mastyf",
+    "Release the maftiff to patrol the brewery yard.",
+    "Elizabethan Watchman's Log"
+  ],
+  [
+    "Magbote",
+    "/ˈmæɡboʊt/",
+    "m",
+    "A financial compensation paid to a kinsman of a murdered person.",
+    "Old English mægbot",
+    "The offender paid his magbote to the bereaved family in silver pennies.",
+    "Laws of King Cnut"
+  ],
+  [
+    "Magnificoe",
+    "/mæɡˈnɪfiˌkoʊ/",
+    "e",
+    "A grandee, nobleman, or high-ranking Venetian merchant prince.",
+    "Italian magnifico",
+    "Several Venetian magnificoes attended the launching of the merchant galley.",
+    "Shakespeare, The Merchant of Venice"
+  ],
+  [
+    "Mahemet",
+    "/məˈhɛmɪt/",
+    "m",
+    "An archaic English term once used generically for an idol or false god.",
+    "Old French Mahomet",
+    "They renounced every mahemet and returned to the true faith.",
+    "Cursor Mundi"
+  ],
+  [
+    "Mainmortable",
+    "/ˌmeɪnˈmɔːrtəbəl/",
+    "m",
+    "Subject to the feudal condition of mainmort, where a lord inherits a serf's property.",
+    "Old French mainmortable",
+    "The villein remained mainmortable under the abbot's harsh jurisdiction.",
+    "Feudal Tenures of Normandy"
+  ],
+  [
+    "Malyse",
+    "/ˈmælaɪz/",
+    "m",
+    "Ill will, malice, or a chronic state of physical sickness.",
+    "Middle English malis",
+    "He suffered from a lingering malyse that baffled the village apothecary.",
+    "Medical Receipt Book of the XV Century"
+  ],
+  [
+    "Malmag",
+    "/ˈmælˌmæɡ/",
+    "e",
+    "A heavy hammer or mallet used in stonemasonry.",
+    "Middle English malmagen",
+    "The mason struck the ashlar cleanly with his malmag.",
+    "Masons' Guild Accounts of York"
+  ],
+  [
+    "Maltman",
+    "/ˈmɔːltmən/",
+    "m",
+    "A tradesman who prepares and trades malt for brewing ale and beer.",
+    "Middle English maltman",
+    "The maltman delivered twenty quarters of barley grain to the tavern.",
+    "Records of the City of Norwich"
+  ],
+  [
+    "Manciple",
+    "/ˈmænsɪpəl/",
+    "m",
+    "A purchaser of provisions for an institution, monastery, or college.",
+    "Latin mancipium",
+    "The wise manciple excelled in buying victuals ahead of the market rise.",
+    "Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Mandilion",
+    "/mænˈdɪliən/",
+    "e",
+    "A loose sleeveless jacket or cassock worn by soldiers and gallants over armor.",
+    "Italian mandiglione",
+    "He threw his mandilion over his shoulder to ward off the evening chill.",
+    "Nashe, The Unfortunate Traveller"
+  ],
+  [
+    "Manerel",
+    "/ˈmænərəl/",
+    "m",
+    "A petty landowner or the lord of a small manor.",
+    "Old French manerel",
+    "The humble manerel sat at the lower end of the banquet bench.",
+    "Assize Rolls of Warwickshire"
+  ],
+  [
+    "Manbote",
+    "/ˈmænboʊt/",
+    "m",
+    "A fine paid to the lord of a slain man as compensation for the loss of his vassal.",
+    "Old English manbōt",
+    "The killer's kinsmen gathered enough coin to discharge the manbote.",
+    "Laws of Alfred"
+  ],
+  [
+    "Manner-Gilt",
+    "/ˈmænər ɡɪlt/",
+    "m",
+    "Guilty of an offense caught in the very act or with undeniable evidence.",
+    "Old English hand-gyld",
+    "The poacher was found manner-gilt with a carcass in his net.",
+    "Forest Eyre of Pickering"
+  ],
+  [
+    "Mansket",
+    "/ˈmænskɪt/",
+    "t",
+    "A small tray or basket used for holding papers or delicate pastry.",
+    "Obscure British dialect",
+    "The housekeeper placed the fresh biscuits upon the wicker mansket.",
+    "Dorset Dialect Glossary"
+  ],
+  [
+    "Manteler",
+    "/ˈmæntələr/",
+    "m",
+    "A maker or seller of cloaks, capes, and mantles.",
+    "Middle English mantel",
+    "The manteler stitched a heavy wool lining into the winter cloak.",
+    "London Tailors' Guild Records"
+  ],
+  [
+    "Marbler",
+    "/ˈmɑːrbələr/",
+    "m",
+    "A craftsman who cuts, polishes, and works with marble or limestone.",
+    "Middle English marbler",
+    "The master marbler engraved the ledger stone for the merchant's tomb.",
+    "Corfe Castle Quarry Records"
+  ],
+  [
+    "Marchal",
+    "/ˈmɑːrʃəl/",
+    "m",
+    "An archaic form of marshal, an officer of arms or keeper of horses.",
+    "Old French maréchal",
+    "The royal marchal inspected the knight's destrier before the tournament.",
+    "Wardrobe Accounts of Edward I"
+  ],
+  [
+    "Marches",
+    "/ˈmɑːrtʃɪz/",
+    "m",
+    "The disputed borderlands between England and Scotland or Wales.",
+    "Middle English marche",
+    "Reiver bands raided constantly across the turbulent western marches.",
+    "Border Laws and Ordinances"
+  ],
+  [
+    "Mare-schalk",
+    "/ˈmɛər ʃɔːlk/",
+    "m",
+    "An old keeper or master of royal horses.",
+    "Old English mearh-scealc",
+    "The mare-schalk tended the King's breeding mares in the royal forest.",
+    "Anglo-Saxon Chronicle"
+  ],
+  [
+    "Marlion",
+    "/ˈmɑːrliən/",
+    "m",
+    "A small species of falcon used in medieval hawking.",
+    "Old French merillon",
+    "The falconer carried a trained marlion upon his leather-gloved fist.",
+    "The Boke of St. Albans"
+  ],
+  [
+    "Marque",
+    "/mɑːrk/",
+    "e",
+    "A license or commission granted to seize enemy vessels or goods at sea.",
+    "Middle French lettre de marque",
+    "The captain sailed under letters of marque issued by the Lord Admiral.",
+    "Admiralty Court Records"
+  ],
+  [
+    "Martel",
+    "/mɑːrˈtɛl/",
+    "m",
+    "A heavy war hammer used by knights in close combat.",
+    "Old French martel",
+    "He shattered the enemy's iron shield with a single stroke of his martel.",
+    "Chanson de Roland translation"
+  ],
+  [
+    "Martliner",
+    "/ˈmɑːrtlɪnər/",
+    "e",
+    "A traditional pen or stylus used by clerks and scriveners.",
+    "Middle English martline",
+    "The clerk dipped his martliner into the inkhorn to draft the writ.",
+    "Exchequer Memoranda Rolls"
+  ],
+  [
+    "Mass-monger",
+    "/ˈmæs ˌmʌŋɡər/",
+    "e",
+    "A derogatory Protestant term for a Roman Catholic priest during the Reformation.",
+    "Native English compound",
+    "The zealots accused the quiet chaplain of being a secret mass-monger.",
+    "Foxe's Book of Martyrs"
+  ],
+  [
+    "Masticator",
+    "/ˈmæstɪkeɪtər/",
+    "t",
+    "A machine or heavy industrial roller used for softening rubber or processing hide.",
+    "Latin masticare",
+    "The factory worker fed the crude latex into the steam-powered masticator.",
+    "Victorian Industrial Gazette"
+  ],
+  [
+    "Mately",
+    "/ˈmeɪtli/",
+    "m",
+    "Companionable, friendly, or acting in a comradely manner.",
+    "Middle English mate",
+    "The apprentices were mately and shared their ale after the workshop closed.",
+    "London Guild Ordinances"
+  ],
+  [
+    "Maudlin",
+    "/ˈmɔːdlɪn/",
+    "e",
+    "Drank, weeping, or overly sentimental, derived from depictions of Mary Magdalene.",
+    "Middle English Maudeleyn",
+    "He grew maudlin and wept into his tankard of sack as the night wore on.",
+    "Dekker, The Gull's Hornbook"
+  ],
+  [
+    "Maulkin",
+    "/ˈmɔːlkɪn/",
+    "e",
+    "A scarecrow, a mop made of rags, or a slatternly woman.",
+    "Diminutive of Mary",
+    "She swept the hearth with an old rag maulkin.",
+    "Spenser, The Shepheardes Calender"
+  ],
+  [
+    "Maund",
+    "/mɔːnd/",
+    "m",
+    "A large wicker basket used for carrying grain, fish, or wool.",
+    "Old English mand",
+    "The fishmonger brought a heavy maund of herrings to the market stall.",
+    "Piers Plowman"
+  ],
+  [
+    "Mauther",
+    "/ˈmɔːðər/",
+    "e",
+    "A dialect term for a young girl, wench, or awkward female youth.",
+    "Old Norse mær",
+    "The country mauther drove the geese toward the common green.",
+    "Ben Jonson, Bartholomew Fair"
+  ],
+  [
+    "May-game",
+    "/ˈmeɪ ɡeɪm/",
+    "e",
+    "A springtime rural sport, dance, or theatrical revel.",
+    "Native English compound",
+    "The villagers gathered around the maypole to join the traditional may-game.",
+    "Stubbes, The Anatomie of Abuses"
+  ],
+  [
+    "Meacock",
+    "/ˈmiːkɒk/",
+    "e",
+    "A cowardly, effeminate, or spiritless man.",
+    "Middle English mecock",
+    "Will you let that meacock take the prize without a contest?",
+    "Shakespeare, The Taming of the Shrew"
+  ],
+  [
+    "Meddler",
+    "/ˈmɛdlər/",
+    "m",
+    "One who interferes in guild business or trades without proper authorization.",
+    "Old French medler",
+    "The wardens fined the unauthorized meddler for selling cloth in secret.",
+    "London Drapers' Ordinances"
+  ],
+  [
+    "Meiny",
+    "/ˈmeɪni/",
+    "m",
+    "A nobleman's household retinue, attendants, or followers.",
+    "Old French meinie",
+    "The baron traveled with a large meiny of armed squires and footmen.",
+    "Chaucer, The Knight's Tale"
+  ],
+  [
+    "Melder",
+    "/ˈmɛldər/",
+    "m",
+    "The quantity of grain sent to a mill to be ground at one time.",
+    "Old Norse meldr",
+    "The crofter carried his weekly melder upon his pony's back.",
+    "Scottish Exchequer Rolls"
+  ],
+  [
+    "Nacket",
+    "/ˈnækɪt/",
+    "m",
+    "A light midday meal or snack, particularly eaten by laborers or tradesmen.",
+    "Middle English, perhaps related to dialectal 'nak' meaning a bite.",
+    "Take ye your nacket before the noon bell rings, lest the heavy timbering tire your arms.",
+    "Yorkshire Guild Records"
+  ],
+  [
+    "Nare",
+    "/nɛər/",
+    "e",
+    "A nostril or nasal passage.",
+    "Latin 'naris'.",
+    "The pungent smoke of the blacksmith's coal did sting the nares of every apprentice.",
+    "Ben Jonson, The Alchemist"
+  ],
+  [
+    "Naunt",
+    "/nɔːnt/",
+    "e",
+    "An affectionate archaic term for an aunt or female elder of a trade guild family.",
+    "Aphetic form of 'mine aunt'.",
+    "Good naunt, send me the recipe for the spiced tallow used in the leather-dressing trade.",
+    "Paston Letters"
+  ],
+  [
+    "Navel-string",
+    "/ˈneɪvəl strɪŋ/",
+    "e",
+    "The umbilical cord; metaphorically used in trade to denote the vital supply line of a port or guild.",
+    "Old English 'nafela' + 'streng'.",
+    "The river is the navel-string through which all wealth flows to our merchant city.",
+    "Richard Hakluyt, Voyages"
+  ],
+  [
+    "Navet",
+    "/ˈnævɪt/",
+    "e",
+    "A variety of turnip or root vegetable cultivated in medieval market gardens.",
+    "Old French, from Latin 'napus'.",
+    "The market gardeners loaded their carts with navets and parsnips for the dawn trade.",
+    "Tusser, Five Hundred Points of Good Husbandry"
+  ],
+  [
+    "Nay-word",
+    "/ˈneɪwɜːrd/",
+    "e",
+    "A watchword, a byword, or a denial.",
+    "From 'nay' + 'word'.",
+    "Make that phrase the nay-word of our guild, that none outside our mystery may pass.",
+    "Shakespeare, Twelfth Night"
+  ],
+  [
+    "Neaf",
+    "/niːf/",
+    "e",
+    "A fist; specifically the heavy, calloused fist of a working craftsman or laborer.",
+    "Old Norse 'hfi'.",
+    "Give me your neaf, honest smith, and let our trade bargain be struck before the anvil.",
+    "Shakespeare, A Midsummer Night's Dream"
+  ],
+  [
+    "Neat",
+    "/niːt/",
+    "e",
+    "Bovine cattle, an ox or cow; foundational to the medieval leather and butcher guilds.",
+    "Old English 'nēat' (cattle, beast).",
+    "The drovers brought a great herd of neat to the autumn fair outside the city walls.",
+    "Wycliffe Bible"
+  ],
+  [
+    "Neb",
+    "/nɛb/",
+    "e",
+    "The beak of a bird, or the snout/nose of an animal; also the point of a tool or nib of a pen.",
+    "Old English 'nebb' (face, beak).",
+    "The scribe sharpened the neb of his goose-quill with a small pearl-handled penknife.",
+    "Gawain and the Green Knight"
+  ],
+  [
+    "Need-fire",
+    "/ˈniːdˌfaɪr/",
+    "m",
+    "A ceremonial fire kindled by friction in times of plague or cattle murrain, managed by village elders.",
+    "Old English 'nīdfȳr'.",
+    "The herdsmen rubbed dry oak timbers together until they struck the need-fire to protect the neat.",
+    "Anglo-Saxon Chronicles (variant glosses)"
+  ],
+  [
+    "Needful",
+    "/ˈniːdfʊl/",
+    "e",
+    "Necessary, requisite; specifically applied to the raw materials required for a craft.",
+    "From Old English 'nēd' + '-full'.",
+    "The master carpenter sent his boy to the timber-yard for all needful spars and pegs.",
+    "Spenser, The Faerie Queene"
+  ],
+  [
+    "Neirst",
+    "/ˈnɪərst/",
+    "m",
+    "Nearest; closest in proximity or kin.",
+    "Old English 'nēhst' (superlative of 'nēah').",
+    "The neirst guild-brother shall take the apprentice under his direct tutelage.",
+    "Lincoln Guild Statutes"
+  ],
+  [
+    "Nempt",
+    "/nɛmpt/",
+    "e",
+    "Named, called, or designated.",
+    "Old English 'nemnan' (to name).",
+    "That master mason nempt in the charter shall oversee the vaulting of the choir.",
+    "Spenser, The Faerie Queene"
+  ],
+  [
+    "Nerb",
+    "/nɜːrb/",
+    "m",
+    "A rare dialectal term for the pith or inner core of a plant stem used in basketry.",
+    "Middle English origin.",
+    "Strip the nerb from the willow wand before you weave the rim of the hamper.",
+    "Craftsman's Manual of the Fenlands"
+  ],
+  [
+    "Nesh",
+    "/nɛʃ/",
+    "m",
+    "Soft, tender, delicate, or easily fatigued; applied to soft metals or delicate apprentices.",
+    "Old English 'nesc' (soft, tender).",
+    "He is too nesh for the blacksmith's forge; put him rather to the goldsmith's bench.",
+    "Ancrene Wisse"
+  ],
+  [
+    "Nett-house",
+    "/ˈnɛtˌhaʊs/",
+    "m",
+    "A shed or workshop where fishermen and net-makers mend and store their hempen nets.",
+    "Old English 'net' + 'hūs'.",
+    "The salt-stained net-makers sat in the nett-house, twisting strong cord into deep trawls.",
+    "Maritime Customs of the Cinque Ports"
+  ],
+  [
+    "Nether-stock",
+    "/ˈnɛðər stɒk/",
+    "e",
+    "A stocking or hose covering the lower leg, distinct from upper-stocks or breeches.",
+    "Middle English 'nether' + 'stock'.",
+    "The hosiery-weaver sold fine wool nether-stocks at fourpence the pair.",
+    "Stubbes, Anatomie of Abuses"
+  ],
+  [
+    "Neume",
+    "/njuːm/",
+    "m",
+    "A musical note or group of notes forming a single symbol in medieval plainchant notation.",
+    "Middle French, from Greek 'pneuma' (breath).",
+    "The cantor pointed with his ivory rod to every neume upon the vellum antiphonary.",
+    "Music Guild Chronicles"
+  ],
+  [
+    "New-fangleness",
+    "/ˈnjuːˌfæŋɡəlnɪs/",
+    "e",
+    "The love of or obsession with new things, fashions, or untried trade methods.",
+    "From 'newfangle' + '-ness'.",
+    "Our guild forbids such new-fangleness, lest the quality of our ancient mystery be decayed.",
+    "Sir Thomas More, Utopia"
+  ],
+  [
+    "Niderling",
+    "/ˈnaɪdərlɪŋ/",
+    "m",
+    "A vile, cowardly person; an outlaw stripped of guild and civic rights.",
+    "Old Norse 'níðingr', Old English 'niþling'.",
+    "Let that niderling be cast out from the fellowship of merchants for breaking his oath of weight.",
+    "Laws of Cnut"
+  ],
+  [
+    "Niff",
+    "/nɪf/",
+    "m",
+    "A petty quarrel, dispute, or ill humor among trade partners.",
+    "Imitative origin.",
+    "The partners fell into a niff over the division of the wool-weight profits.",
+    "East Anglian Guild Court Rolls"
+  ],
+  [
+    "Niffy-naffy",
+    "/ˈnɪfi ˈnæfi/",
+    "t",
+    "Trivial, fussy, or dilatory behavior; wasting time on minute, unimportant details.",
+    "Reduplication of 'niff'.",
+    "Away with your niffy-naffy measuring; cut the timber to the true mark and be done.",
+    "Victorian Tradesman's Slang"
+  ],
+  [
+    "Niggle",
+    "/ˈnɪɡəl/",
+    "t",
+    "To work in a picky, over-scrupulous, or trifling manner; to bargain pettily over small coins.",
+    "Diminutive of dialectal 'nigg' (to grudge).",
+    "The old factor would niggle over every farthing on the freight invoice.",
+    "19th-Century Merchant Accounts"
+  ],
+  [
+    "Nitid",
+    "/ˈnɪtɪd/",
+    "e",
+    "Bright, shining, lustrous, or neat; descriptive of polished metals or fine parchment.",
+    "Latin 'nitidus', from 'nitere' (to shine).",
+    "The cutler polished the steel blades until they were clear and nitid.",
+    "Philemon Holland, Pliny's Natural History"
+  ],
+  [
+    "Nitty",
+    "/ˈnɪti/",
+    "m",
+    "Infested with nits (louse eggs); also used metaphorically for a messy, tangled fleece.",
+    "Old English 'hnittig'.",
+    "The wool-sorter rejected the fleece because it was nitty and matted with burrs.",
+    "Guild Inspector's Report on Wool"
+  ],
+  [
+    "Nix",
+    "/nɪks/",
+    "m",
+    "A water sprite or mermaid of Germanic folklore, feared by river-boatmen and bargemen.",
+    "German 'Nix', Old High German 'nihhus'.",
+    "The bargemen swore they heard the nix singing among the reeds by the weir.",
+    "Germanic Folklore in Britain"
+  ],
+  [
+    "Nob",
+    "/nɒb/",
+    "e",
+    "The head; also the ornamental top or knob of a walking-staff or tool handle.",
+    "Variant of 'knob'.",
+    "The joiner turned a fine hardwood nob for the head of the bailiff's staff.",
+    "Middle English Dictionary Citations"
+  ],
+  [
+    "Noll",
+    "/nɒl/",
+    "e",
+    "The head or pate; a contraction of 'nole'.",
+    "Old English 'hnol' (crown of the head).",
+    "He scratched his noll in puzzlement over the master mason's blueprint.",
+    "Shakespeare, A Midsummer Night's Dream"
+  ],
+  [
+    "Obol",
+    "/ˈɒbəl/",
+    "m",
+    "A small medieval coin of low value, typically worth half a penny.",
+    "Old French obole, from Latin obolus, from Greek obolos (spit or metal bar)",
+    "He paid the ferryman a single obol for his passage across the swollen river.",
+    "Records of the Exchequer, 1311"
+  ],
+  [
+    "Obfirmate",
+    "/əbˈfɜːrdeɪt/",
+    "e",
+    "To harden, resolutely persist, or make firm in opinion or stubborn purpose.",
+    "Latin obfirmatus, past participle of obfirmare (to hold fast)",
+    "He did obfirmate his heart against the pleas of the bankrupt merchant.",
+    "Thomas Elyot, The Book Named the Governor, 1531"
+  ],
+  [
+    "Occasioner",
+    "/əˈkeɪʒənər/",
+    "e",
+    "One who brings about, causes, or provides the occasion for an event or transaction.",
+    "Middle English, from occasion + -er",
+    "The master weaver was named chief occasioner of the dispute over wool tariffs.",
+    "John Foxe, Actes and Monuments, 1563"
+  ],
+  [
+    "Ochymy",
+    "/ˈɒkɪmi/",
+    "e",
+    "A base alloy used by fraudulent metalworkers to imitate gold or silver; counterfeit metal.",
+    "Obsolete French alchimie, altered by confusion with ochre",
+    "The dishonest tinker was pilloried for selling spoons made of base ochymy.",
+    "Robert Greene, A Notable Discovery of Coosenage, 1591"
+  ],
+  [
+    "Odible",
+    "/ˈɒdɪbəl/",
+    "m",
+    "Hateful, deserving of being hated, or abhorrent.",
+    "Middle English, from Latin odibilis, from odire (to hate)",
+    "His dishonest trade practices made him odible among the honest mercers.",
+    "John Wycliffe, Wycliffite Bible, 1382"
+  ],
+  [
+    "Oeconomy",
+    "/ɪˈkɒnəmi/",
+    "e",
+    "The management of a household, estate, or guild; thrifty administration.",
+    "Greek oikonomia (household management)",
+    "Good oeconomy is required to keep the workshop solvent through the winter months.",
+    "Francis Bacon, Essays, 1625"
+  ],
+  [
+    "Oenopolist",
+    "/ɪˈnɒpəlɪst/",
+    "t",
+    "A wine merchant, vintner, or wine seller.",
+    "Greek oinopolēs, from oinos (wine) + polein (to sell)",
+    "The oenopolist imported fine sack from the ports of southern Spain.",
+    "John Cockerill, English Dictionary, 1704"
+  ],
+  [
+    "Off-come",
+    "/ˈɒfˌkʌm/",
+    "m",
+    "An outcome, result, or the manner of finishing a piece of work or bargain.",
+    "Old English ofcuman (to come off or escape)",
+    "They awaited the off-come of the arbitration before paying the guild fine.",
+    "York Mystery Plays, c. 1440"
+  ],
+  [
+    "Office-man",
+    "/ˈɒfɪsˌmæn/",
+    "e",
+    "A functionary, clerk, or person holding a public or guild office.",
+    "Middle English, from office + man",
+    "The office-man recorded the weight of wool brought to the staple.",
+    "Ben Jonson, The Staple of News, 1626"
+  ],
+  [
+    "Officialty",
+    "/əˈfɪʃəlti/",
+    "e",
+    "The court or jurisdiction of an official, or the body of officials collectively.",
+    "Medieval Latin officialitas, from officialis",
+    "The ecclesiastical officialty summoned the weaver for working on a holy day.",
+    "Geoffrey Chaucer, The Friar's Tale, c. 1395"
+  ],
+  [
+    "Oftentimes",
+    "/ˈɒfəntaɪmz/",
+    "e",
+    "Frequently, on many occasions.",
+    "Middle English ofttimes, with adverbial genitive -es",
+    "Oftentimes the apprentice would flee his master before his term was ended.",
+    "William Shakespeare, Julius Caesar, 1599"
+  ],
+  [
+    "Old-father",
+    "/ˈoʊldˌfɑːðər/",
+    "m",
+    "A grandfather or male ancestor.",
+    "Old English eald-fæder",
+    "His old-father had left him the ancient blacksmith forge in his will.",
+    "Layamon, Brut, c. 1200"
+  ],
+  [
+    "Olympe",
+    "/əˈlɪmp/",
+    "e",
+    "An obsolete term for a high mountain or metaphorically a lofty state.",
+    "French Olympe, from Latin Olympus",
+    "The master craftsman sat on his guild olympe, dispensing judgment.",
+    "Edmund Spenser, The Faerie Queene, 1590"
+  ],
+  [
+    "Omnipercipient",
+    "/ˌɒmnɪpərˈsɪpiənt/",
+    "t",
+    "Perceiving everything; possessing universal insight.",
+    "Latin omnis (all) + percipiens (perceiving)",
+    "The master watchmaker possessed an omnipercipient eye for tiny flaws.",
+    "George Eliot, Middlemarch, 1871"
+  ],
+  [
+    "Onerate",
+    "/ˈɒnəreɪt/",
+    "e",
+    "To load, burden, or encumber with debt or taxes.",
+    "Latin oneratus, past participle of onerare (to load)",
+    "Heavy guild dues did onerate the struggling young shoemaker.",
+    "Thomas Elyot, The Castle of Health, 1534"
+  ],
+  [
+    "Onerousness",
+    "/ˈɒnərəsnəs/",
+    "e",
+    "The quality of being burdensome, troublesome, or oppressive.",
+    "From onerous + -ness",
+    "They petitioned the aldermen regarding the onerousness of the night-watch tax.",
+    "State Papers Domestic, Elizabeth I, 1588"
+  ],
+  [
+    "On-fall",
+    "/ˈɒnˌfɔːl/",
+    "m",
+    "An attack, onset, or the falling on of evening or winter weather.",
+    "Old English onfeall",
+    "The shepherds hurried their flocks homeward at the on-fall of night.",
+    "Cursor Mundi, c. 1300"
+  ],
+  [
+    "Onhanger",
+    "/ˈɒnˌhæŋər/",
+    "m",
+    "A hanger-on, parasite, or dependent follower of a great household.",
+    "Middle English on + hanger",
+    "The castle gate was crowded with idle onhangers begging for scraps.",
+    "Piers Plowman, c. 1370"
+  ],
+  [
+    "Onionskin",
+    "/ˈʌnjənˌskɪn/",
+    "t",
+    "A very thin, lightweight, translucent paper used for legal records and manifolding.",
+    "From onion + skin",
+    "The clerk drafted the shipping manifest upon crisp onionskin paper.",
+    "Victorian Stationers' Catalogues, 1875"
+  ],
+  [
+    "Onyx",
+    "/ˈɒnɪks/",
+    "e",
+    "A semiprecious gemstone with parallel bands of alternating colors, used by gem-engravers.",
+    "Latin onyx, from Greek onux (fingernail, claw, onyx)",
+    "The master lapidary carved a fine crest into the black and white onyx.",
+    "John Gerard, The Herball, 1597"
+  ],
+  [
+    "Ope-tide",
+    "/ˈoʊpˌtaɪd/",
+    "m",
+    "Springtime, when the flowers and buds open up.",
+    "Old English open + tid (time)",
+    "During ope-tide, the wool-staplers brought their flocks down to the washing pools.",
+    "Ancrene Wisse, c. 1230"
+  ],
+  [
+    "Opinator",
+    "/ˈɒpɪneɪtər/",
+    "e",
+    "One who is stubborn in his opinions; a dogmatist.",
+    "Latin opinator, from opinari (to think, suppose)",
+    "The old apothecary was a stubborn opinator regarding herbal remedies.",
+    "Jeremy Taylor, Ductor Dubitantium, 1660"
+  ],
+  [
+    "Opitulation",
+    "/əˌpɪtjʊˈleɪʃən/",
+    "e",
+    "An aiding, helping, or succoring; relief given in distress.",
+    "Latin opitulatio, from opitulari (to bring aid)",
+    "The guild benevolent fund provided opitulation to disabled weavers.",
+    "John Bullokar, An English Expositor, 1616"
+  ],
+  [
+    "Oppignorate",
+    "/əˈpɪɡnəreɪt/",
+    "e",
+    "To pledge, pawn, or mortgage goods for a loan.",
+    "Latin oppignoratus, past participle of oppignorare (to pledge)",
+    "He had to oppignorate his silver guild cup to pay his tax arrears.",
+    "Henry Cockeram, English Dictionary, 1623"
+  ],
+  [
+    "Oppilate",
+    "/ˈɒpɪleɪt/",
+    "e",
+    "To crowd, clog, obstruct, or block up passages in the body or trade routes.",
+    "Latin oppilatus, past participle of oppilare (to crowd against, stop up)",
+    "Fallen snow did oppilate the mountain pass, halting the wool caravans.",
+    "Andrew Boorde, The Breviary of Health, 1547"
+  ],
+  [
+    "Oppositeness",
+    "/ˈɒpəzɪtnəs/",
+    "e",
+    "The quality of being opposite; direct opposition or appropriateness.",
+    "From opposite + -ness",
+    "The oppositeness of their trade marks led to a lawsuit in the guild court.",
+    "John Locke, An Essay Concerning Human Understanding, 1690"
+  ],
+  [
+    "Optate",
+    "/ˈɒpteɪt/",
+    "e",
+    "To wish for, desire, or choose.",
+    "Latin optatus, past participle of optare (to choose, wish)",
+    "The apprentice did optate to finish his training in the London workshop.",
+    "Thomas Elyot, The Book Named the Governor, 1531"
+  ],
+  [
+    "Opulency",
+    "/ˈɒpjʊlənsi/",
+    "e",
+    "Wealth, affluence, or riches, especially displayed lavishly.",
+    "Latin opulentia, from opulentus (wealthy)",
+    "The opulency of the guild master was visible in his fur-lined gown.",
+    "Sir Walter Raleigh, History of the World, 1614"
+  ],
+  [
+    "Ordain",
+    "/ɔːrˈdeɪn/",
+    "m",
+    "To decree, establish, or appoint by authority, particularly guild rules.",
+    "Old French ordener, from Latin ordinare (to arrange)",
+    "The wardens did ordain that no craftsman work after dark on Saturdays.",
+    "London Guild Ordinances, 1345"
+  ],
+  [
+    "Pabular",
+    "/ˈpæbjʊlər/",
+    "e",
+    "Relating to food, fodder, or nourishment; providing sustenance.",
+    "From Latin pābulum (fodder, food).",
+    "The barren land offered little pabular relief for the weary livestock.",
+    "Topsell, History of Four-Footed Beasts"
+  ],
+  [
+    "Pace-maker",
+    "/ˈpeɪsˌmeɪkər/",
+    "t",
+    "In historical weaving, a worker who sets the rate of production on the loom.",
+    "Compound of pace and maker, Victorian textile terminology.",
+    "The new pace-maker increased the daily yardage by twenty spans.",
+    "Lancashire Factory Inspector Reports"
+  ],
+  [
+    "Pachider",
+    "/ˈpækɪdər/",
+    "e",
+    "A heavy-handed artisan or clumsy craftsman.",
+    "From Greek pachydermos (thick-skinned).",
+    "He handled the delicate spun glass like a common pachider.",
+    "Ben Jonson, Epigrams"
+  ],
+  [
+    "Pack-wax",
+    "/ˈpækˌwæks/",
+    "m",
+    "The strong ligament at the back of the neck in quadrupeds, valued by leather-dressers.",
+    "Old English pācwyx.",
+    "The tanner carefully separated the pack-wax from the prime hide.",
+    "Guild of Skinners Records"
+  ],
+  [
+    "Paddock-ride",
+    "/ˈpædəkˌraɪd/",
+    "t",
+    "A path or lane through a pasture used for driving livestock to market.",
+    "Dialectal English compound.",
+    "Drive the sheep swiftly down the paddock-ride before dusk.",
+    "Agricultural Gazette"
+  ],
+  [
+    "Pad-sheler",
+    "/ˈpædˌʃɛlər/",
+    "e",
+    "A petty thief who steals by cutting open traveler's saddlebags.",
+    "Slang from 'pad' (road) and 'shell' (to strip).",
+    "Beware the pad-shelers that lurk near the crossroads.",
+    "Thomas Harman, Caveat for Common Cursitors"
+  ],
+  [
+    "Paillard",
+    "/ˈpæjɑːrd/",
+    "e",
+    "A vagabond, beggar, or licentious person; historically a rogue who lived by begging in a patched cloak.",
+    "French paillard (lewd, dissolute), from Old French.",
+    "A company of sturdy paillards demanded alms at the abbey gate.",
+    "Robert Greene, The Groundwork of Conny-Catching"
+  ],
+  [
+    "Pail-man",
+    "/ˈpeɪlˌmæn/",
+    "m",
+    "A medieval cooper or guild member who manufactured wooden buckets and vessels.",
+    "Middle English compound.",
+    "The pail-man delivered three fresh firkins to the ale-house.",
+    "London Letter Books"
+  ],
+  [
+    "Paimen",
+    "/ˈpeɪmən/",
+    "m",
+    "A shepherd or herdsman; occasionally used in northern dialect trade guilds.",
+    "Old Norse / Northern Middle English paimen.",
+    "The paimen counted his flock before sealing the wool-sack.",
+    "York Mystery Plays"
+  ],
+  [
+    "Palazzo-line",
+    "/pəˈlætsoʊˌlaɪn/",
+    "t",
+    "A heavy silk fabric imported from Italy for upholstery and vestments.",
+    "Trade name combining palazzo and line (linen/thread).",
+    "The merchant displayed a bolt of crimson palazzo-line.",
+    "London Drapery Inventories"
+  ],
+  [
+    "Pale-eyed",
+    "/ˈpeɪlˌaɪd/",
+    "e",
+    "Having dim, weak, or watery vision; often applied to old scriveners and copyists.",
+    "Elizabethan descriptive compound.",
+    "The pale-eyed clerk strained to read the Latin parchment by candlelight.",
+    "William Shakespeare, A Midsummer Night's Dream"
+  ],
+  [
+    "Palico",
+    "/ˈpælɪkoʊ/",
+    "t",
+    "A coarse woolen cloth manufactured in the West Country of England.",
+    "Derived from trade corruption of a foreign place name.",
+    "The bailiff purchased plain palico to clothe the farm laborers.",
+    "Devonshire Quarter Sessions Records"
+  ],
+  [
+    "Palification",
+    "/ˌpælɪfɪˈkeɪʃən/",
+    "e",
+    "The ancient art or process of driving stakes or piles into marshy ground to build foundations.",
+    "From Latin palificatio.",
+    "The master builder ordered thorough palification before laying the wharf stone.",
+    "Sir Henry Wotton, Elements of Architecture"
+  ],
+  [
+    "Palingman",
+    "/ˈpeɪlɪŋmæn/",
+    "m",
+    "A fishmonger or merchant licensed to sell salt-fish under official regulations.",
+    "From Middle English paling (paling/regulation) and man.",
+    "The palingman was fined for selling underweight barrels of herrings.",
+    "Statutes of the Realm, Edward III"
+  ],
+  [
+    "Palirrhea",
+    "/ˌpælɪˈriːə/",
+    "e",
+    "An ebb or backward flow of tide, water, or fortune.",
+    "From Greek palirrhoia.",
+    "The ship awaited the palirrhea to clear the treacherous harbor bar.",
+    "Philemon Holland, translation of Pliny"
+  ],
+  [
+    "Palliardize",
+    "/ˈpæljərˌdaɪz/",
+    "e",
+    "To lead a life of debauchery or vagrancy; to beg while feigning infirmity.",
+    "Derivative of paillard.",
+    "He was whipped through the parish for his persistent palliardize.",
+    "Aydan's Elizabethan Underworld"
+  ],
+  [
+    "Palma-christi",
+    "/ˌpɑːlməˈkrɪsti/",
+    "e",
+    "The castor-oil plant or its extracted medicinal oil, traded by early apothecaries.",
+    "Latin 'palm of Christ'.",
+    "The apothecary dispensed palma-christi to soothe the traveler's stomach.",
+    "John Gerard, Great Herball"
+  ],
+  [
+    "Palmett",
+    "/pælˈmɛt/",
+    "m",
+    "A medieval measure of length, roughly equivalent to a handbreadth or palm.",
+    "From Old French palmette.",
+    "The timber must measure at least three palmetts in thickness.",
+    "Medieval Architectural Guild Rolls"
+  ],
+  [
+    "Palmistre",
+    "/ˈpælmɪstər/",
+    "m",
+    "A medieval palm reader or fortune-teller, often viewed with suspicion by church guilds.",
+    "Middle English from Old French.",
+    "A wandering palmistre was questioned by the bailiff at the fair.",
+    "Chaucer, Canterbury Tales (variant context)"
+  ],
+  [
+    "Paltock",
+    "/ˈpæltək/",
+    "m",
+    "A short doublet, jacket, or close-fitting garment worn by men in the 14th and 15th centuries.",
+    "Middle English paltok.",
+    "He wore a green paltock trimmed with squirrel fur.",
+    "Piers Plowman"
+  ],
+  [
+    "Panade",
+    "/pəˈnɑːd/",
+    "m",
+    "A medieval culinary dish made by boiling bread in water, broth, or milk.",
+    "Old French panade.",
+    "The cook prepared a warm panade for the convalescent monk.",
+    "The Forme of Cury"
+  ],
+  [
+    "Panderess",
+    "/ˈpændərəs/",
+    "e",
+    "A female procuress or go-between in illicit affairs.",
+    "Derivative of pander.",
+    "She acted as a vile panderess in the noble court.",
+    "Shakespeare, Troilus and Cressida"
+  ],
+  [
+    "Pandiculation",
+    "/pænˌdɪkjʊˈleɪʃən/",
+    "t",
+    "The act of stretching oneself, especially upon waking or yawning.",
+    "From Latin pandiculatio.",
+    "After his morning pandiculation, the weaver sat down at his bench.",
+    "The Lancet (medical reporting style)"
+  ],
+  [
+    "Panel-beater",
+    "/ˈpænəlˌbiːtər/",
+    "t",
+    "Historically, a craftsman who shaped thin wooden panels for coachbuilding or furniture.",
+    "Compound of panel and beater.",
+    "The panel-beater fitted the ash boards to the carriage door.",
+    "Coachmakers' Journal"
+  ],
+  [
+    "Paneter",
+    "/ˈpænɪtər/",
+    "m",
+    "A high-ranking household officer in charge of the pantry, bread stores, and table service.",
+    "Old French panetier.",
+    "The paneter presented the white loaf to the lord.",
+    "Household Ordinances of Edward II"
+  ],
+  [
+    "Panification",
+    "/ˌpænɪfɪˈkeɪʃən/",
+    "e",
+    "The scientific or commercial process of making bread from flour.",
+    "From Medieval Latin panificatio.",
+    "The bakers' guild closely regulated the panification of rye flour.",
+    "Bacon, Sylva Sylvarum"
+  ],
+  [
+    "Pannier-man",
+    "/ˈpænjərˌmæn/",
+    "m",
+    "A servant or carrier who transports goods using panniers (large baskets strapped to pack animals).",
+    "Compound of pannier and man.",
+    "The pannier-man brought fresh butter from the country dairy.",
+    "Monastic Accounts of Durham"
+  ],
+  [
+    "Pantable",
+    "/ˈpæntəbəl/",
+    "e",
+    "A high-heeled shoe, slipper, or patten, often worn to keep feet out of mud.",
+    "From Italian pantofola.",
+    "She walked with difficulty in her heavy velvet pantables.",
+    "John Florio, Worlde of Wordes"
+  ],
+  [
+    "Pantaloon",
+    "/ˌpæntəˈluːn/",
+    "e",
+    "A type of long trousers, or a foolish old man character in traditional comedy.",
+    "From Italian Pantalone.",
+    "The merchant dressed like a theatrical pantaloon for the masque.",
+    "Shakespeare, As You Like It"
+  ],
+  [
+    "Papyroplastics",
+    "/pəˌpaɪroʊˈplæstɪks/",
+    "t",
+    "The Victorian craft of making decorative objects and models out of paper.",
+    "From Greek papyros + plastics.",
+    "She excelled in papyroplastics, crafting miniature castles from card.",
+    "Victorian Ladies' Treasury"
+  ],
+  [
+    "Parasangs",
+    "/ˈpærəˌsæŋz/",
+    "e",
+    "An ancient Persian measure of distance, used by Elizabethan geographers and traders.",
+    "From Greek parasangēs.",
+    "They traveled thirty parasangs across the barren desert trade route.",
+    "Richard Hakluyt, Principal Navigations"
+  ],
+  [
+    "Parbreak",
+    "/ˈpɑːrbreɪk/",
+    "e",
+    "To vomit, spew, or eject violently; also used as a noun for vomit.",
+    "Middle English parbreken.",
+    "The foul ale caused him to parbreak upon the tavern floor.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Parbuckle",
+    "/ˈpɑːrˌbʌkəl/",
+    "t",
+    "A nautical and trade method of lifting or lowering heavy cylindrical objects like barrels using ropes.",
+    "Etymology uncertain, maritime trade term.",
+    "Use a parbuckle to roll the molasses cask up the wharf ramp.",
+    "William Smyth, The Sailor's Word-Book"
+  ],
+  [
+    "Paritor",
+    "/ˈpærɪtər/",
+    "e",
+    "A summoner or beadle who served citations for an ecclesiastical court.",
+    "Shortened form of apparitor.",
+    "The paritor served a writ upon the recalcitrant miller.",
+    "Conventions of the Diocese of London"
+  ],
+  [
+    "Parlesy",
+    "/ˈpɑːrlɪzi/",
+    "m",
+    "An obsolete spelling and variant of paralysis or palsy.",
+    "Old French paralysie.",
+    "His right arm was smitten with a sudden parlesy.",
+    "Wycliffe Bible"
+  ],
+  [
+    "Parlour-knight",
+    "/ˈpɑːrlər naɪt/",
+    "e",
+    "A derogatory term for a soldier or knight who stays indoors and avoids real battlefield danger.",
+    "Compound of parlour and knight.",
+    "He boasts of wars he never saw, a mere parlour-knight.",
+    "Thomas Nashe, Pierce Penniless"
+  ],
+  [
+    "Parochian",
+    "/pəˈroʊkiən/",
+    "e",
+    "A parishioner; an inhabitant of a specific church parish.",
+    "From Latin parochianus.",
+    "Every parochian was assessed a groat for bridge repair.",
+    "Churchwardens' Accounts"
+  ],
+  [
+    "Parvise",
+    "/ˈpɑːrvaɪz/",
+    "m",
+    "An enclosed area or porch in front of a church door, historically used for legal consultations and trade contracts.",
+    "Old French parvis.",
+    "The merchants met in the parvise to conclude the wool bargain.",
+    "Chaucer, Canterbury Tales"
+  ],
+  [
+    "Paschal-egg",
+    "/ˈpæskəl ɛɡ/",
+    "m",
+    "A dyed or ornamented egg traditionally exchanged or traded during Eastertide.",
+    "From Hebrew/Latin Pascha + egg.",
+    "The children brought their brightly colored paschal-eggs to the market cross.",
+    "Medieval Church Customs Roll"
+  ],
+  [
+    "Pass-measure",
+    "/ˈpæs ˈmɛʒər/",
+    "e",
+    "A slow, stately court dance of the 16th century (passe-mesure); also a fencing step.",
+    "From Italian passo e mezzo.",
+    "They danced a grave pass-measure at the royal wedding.",
+    "John Florio, Second Frutes"
+  ],
+  [
+    "Pastisser",
+    "/pæˈtɪsər/",
+    "m",
+    "A medieval pastry-cook or maker of pies, regulated by municipal food guilds.",
+    "Old French pastissier.",
+    "The pastisser was fined for using stale lard in his meat pies.",
+    "Assize of Bread and Ale"
+  ],
+  [
+    "Quacksalver",
+    "/ˈkwækˌsælvər/",
+    "e",
+    "An itinerant, fraudulent hawker of fake medicines and unproven ointments.",
+    "Dutch 'kwakzalver', from 'kwacken' (to prattle) and 'salven' (to apply salve).",
+    "The market was overrun with brazen quacksalvers selling elixirs that cured neither pox nor sorrow.",
+    "Thomas Nashe, 'The Terrors of the Night', 1594"
+  ],
+  [
+    "Quadrant",
+    "/ˈkwɒdrənt/",
+    "m",
+    "An early navigational and astronomical instrument used by mariners and master masons to measure angles.",
+    "Latin 'quadrantem' (a fourth part), via Old French.",
+    "The shipman raised his quadrant to take the height of the pole star above the dark horizon.",
+    "Geoffrey Chaucer, 'A Treatise on the Astrolabe', 1391"
+  ],
+  [
+    "Quadrivial",
+    "/kwɒˈdrɪviəl/",
+    "m",
+    "Relating to the four advanced liberal arts of the medieval university curriculum: arithmetic, geometry, music, and astronomy.",
+    "Medieval Latin 'quadrivialis', from 'quadrivium' (place where four roads meet).",
+    "Master Hugh proved himself a scholar well-versed in the quadrivial arts before the guild examiners.",
+    "John of Salisbury, 'Metalogicon', c. 1159"
+  ],
+  [
+    "Quadrivium",
+    "/kwɒˈdrɪviəm/",
+    "m",
+    "The higher division of the seven liberal arts in medieval universities, comprising arithmetic, geometry, music, and astronomy.",
+    "Latin, literally 'a place where four roads meet'.",
+    "After mastering the trivium, the apprentice advanced to the rigorous studies of the quadrivium.",
+    "Roger Bacon, 'Opus Majus', 1267"
+  ],
+  [
+    "Quam",
+    "/kwæm/",
+    "m",
+    "An archaic dialect term for a squeeze, press, or narrow pass.",
+    "Old English regional variant related to 'quash' and 'squeeze'.",
+    "They squeezed through the quam of the city gate just as the portcullis fell.",
+    "Yorkshire Guild Records, 1422"
+  ],
+  [
+    "Quarterage",
+    "/ˈkwɔːrtərɪdʒ/",
+    "m",
+    "A quarterly due, tax, or membership fee paid by guild artisans to maintain their trade privileges.",
+    "Middle English, from 'quarter' + '-age'.",
+    "Every journeyman blacksmith was required to pay his quarterage to the master of the ironmongers.",
+    "Ordinances of the Grocers' Company, 1348"
+  ],
+  [
+    "Quarterman",
+    "/ˈkwɔːrtərmæn/",
+    "m",
+    "A senior artisan or overseer who superintended a quarter of a workshop or a specific crew of laborers.",
+    "English compound ('quarter' + 'man').",
+    "The quarterman reported to the master mason that the upper scaffolding was secure.",
+    "Exeter Cathedral Fabric Rolls, 1399"
+  ],
+  [
+    "Quartpot",
+    "/ˈkwɔːrtpɒt/",
+    "m",
+    "A large drinking vessel made of pewter or earthenware holding precisely one quart.",
+    "English compound ('quart' + 'pot').",
+    "The thirsty apprentices slammed their quartpots upon the oaken tavern table.",
+    "Chaucer, 'The Canterbury Tales', c. 1395"
+  ],
+  [
+    "Quatain",
+    "/ˈkwɒteɪn/",
+    "m",
+    "A medieval jousting post or target consisting of a pivoting arm with a shield and a bag of sand.",
+    "Old French 'gastne' or 'quintaine', corrupted in various dialect forms.",
+    "The squires practiced their lance charges against the spinning quatain in the tilting yard.",
+    "Chivalric Romance of Lancelot, c. 1400"
+  ],
+  [
+    "Quayside",
+    "/ˈkiːsaɪd/",
+    "e",
+    "The land immediately adjacent to a quay or wharf where merchants displayed their wares.",
+    "English compound ('quay' + 'side').",
+    "A crowd of curious onlookers gathered along the quayside to inspect the strange spices from the Indies.",
+    "Thomas Dekker, 'The Shoemaker's Holiday', 1600"
+  ],
+  [
+    "Queest",
+    "/kwiːst/",
+    "e",
+    "An archaic dialect name for the ring-dove or wood pigeon.",
+    "Old English 'cwihst' or imitative of its cooing call.",
+    "The fowler set his nets in the beechwoods to catch fat queests for the guild banquet.",
+    "County records of Gloucestershire, 1592"
+  ],
+  [
+    "Quicksilver",
+    "/ˈkwɪkˌsɪlvər/",
+    "m",
+    "The liquid metal mercury, used by alchemists, gilders, and mirror-makers.",
+    "Old English 'cwicsylfor' (living silver).",
+    "The master gilder mixed quicksilver with gold leaf to coat the church's altar vessels.",
+    "Theophilus Presbyter, 'On Divers Arts', c. 1125"
+  ],
+  [
+    "Quidder",
+    "/ˈkwɪdər/",
+    "e",
+    "A horse or farm animal that drops its food from its mouth half-chewed due to bad teeth.",
+    "Derivation from 'quid' (to chew).",
+    "The horse-dealer warned the buyer that the old mare was a quidder and hard to keep fat.",
+    "Markham's Masterpiece Concerning Husbandry, 1610"
+  ],
+  [
+    "Ragemonger",
+    "/ˈreɪdʒˌmʌŋɡər/",
+    "e",
+    "A person who incites anger, fury, or violent disputes among citizens or guilds.",
+    "Middle English 'rage' + 'monger' (seller/dealer)",
+    "He proved himself a turbulent ragemonger within the weavers' quarter.",
+    "Thomas Dekker, The Seven Deadly Sins of London"
+  ],
+  [
+    "Rampallian",
+    "/ræmˈpæliən/",
+    "e",
+    "A ruffian, scoundrel, or low-class disorderly person.",
+    "Origin uncertain, likely Elizabethan coinage from 'ramp'",
+    "Away, you scullion! You rampallian! You fustilarian!",
+    "William Shakespeare, King Henry IV, Part 2"
+  ],
+  [
+    "Ramper",
+    "/ˈræmpər/",
+    "t",
+    "A highway, major road, or raised causeway across marshy trading lands.",
+    "Dialectal variant of 'rampart' or 'ramp' (to climb/stride)",
+    "They hauled the heavy wagons along the old Roman ramper.",
+    "Charles Dickens, Great Expectations"
+  ],
+  [
+    "Ramsack",
+    "/ˈræmsæk/",
+    "m",
+    "An older variant of ransack; to plunder, search thoroughly, or pillage.",
+    "Old Norse 'rannsaka' (to search a house)",
+    "The rebellious peasantry did ramsack the manor house for grain.",
+    "The Brut Chronicle"
+  ],
+  [
+    "Rancidate",
+    "/ˈrænsɪdeɪt/",
+    "t",
+    "To cause or become rancid, typically applied to stored oils, lard, and provisions.",
+    "Latin 'rancidus' (stinking)",
+    "Improper storage in the cellar did rancidate the merchant's tallow.",
+    "The Domestic Economist"
+  ],
+  [
+    "Rangifer",
+    "/ˈrændʒɪfər/",
+    "t",
+    "An archaic or taxonomic term for the reindeer, valuable for northern pelt trade.",
+    "Medieval Latin 'rangifer'",
+    "The fur-trader bartered for fine rangifer hides from the Laplanders.",
+    "Transactions of the Royal Society"
+  ],
+  [
+    "Raset",
+    "/ˈreɪsɛt/",
+    "m",
+    "To tear down, demolish, or erase a building, wall, or legal document.",
+    "Old French 'raser' / Latin 'radere'",
+    "The bailiff threatened to raset the encroaching timber sheds.",
+    "English Guild Records"
+  ],
+  [
+    "Rash",
+    "/ræʃ/",
+    "m",
+    "A delicate, lustrous silk fabric or crape used for linings and garments.",
+    "French 'ras' (smooth, shorn)",
+    "His doublet was lined with fine Florentine rash.",
+    "The Book of Customs"
+  ],
+  [
+    "Ratable",
+    "/ˈreɪtəbəl/",
+    "e",
+    "Subject to taxation, assessment, or valuation by guild or municipal authorities.",
+    "Middle English 'rate' + '-able'",
+    "All merchant warehouses in the ward are ratable for the town wall.",
+    "Municipal Ordinances of London"
+  ],
+  [
+    "Rateen",
+    "/rəˈtiːn/",
+    "t",
+    "A thick, durable woolen cloth, often friezed or napped, used for winter wear.",
+    "French 'ratine'",
+    "He purchased six yards of brown rateen for his winter riding cloak.",
+    "Defoe, Complete English Tradesman"
+  ],
+  [
+    "Ratiger",
+    "/ˈrætɪdʒər/",
+    "m",
+    "An obsolete occupational term for a catcher or exterminator of rats.",
+    "Middle English 'rat' + 'iger' (agent suffix)",
+    "The ratiger cleared the grain storehouse of a hundred pests.",
+    "Household Ordinances of Edward III"
+  ],
+  [
+    "Rationable",
+    "/ˈræʃənəbəl/",
+    "m",
+    "Endowed with reason, rational, or logical in trade calculations.",
+    "Latin 'rationalis'",
+    "The factor made a rationable price for the cargo of spices.",
+    "Reginald Pecock, The Repressor"
+  ],
+  [
+    "Raught",
+    "/rɔːt/",
+    "m",
+    "The archaic past tense and past participle of 'reach'; reached, seized, or handed.",
+    "Old English 'ræcan' (past tense 'rhte')",
+    "He raught the heavy ledger down from the high oak shelf.",
+    "Geoffrey Chaucer, The Canterbury Tales"
+  ],
+  [
+    "Raveled",
+    "/ˈrævəld/",
+    "e",
+    "Entangled, twisted together, or frayed, as threads or yarn in a loom.",
+    "Dutch 'ravelen' (to fray)",
+    "The weaver struggled with a raveled skein of crimson silk.",
+    "William Shakespeare, Macbeth"
+  ],
+  [
+    "Ravenousness",
+    "/ˈrævənəsnəs/",
+    "e",
+    "The quality of being extremely greedy, predatory, or voracious in trade.",
+    "Old French 'ravineux'",
+    "The ravenousness of the corn-mongers caused a bread riot.",
+    "Raphael Holinshed, Chronicles"
+  ],
+  [
+    "Ravin",
+    "/ˈrævɪn/",
+    "m",
+    "Plunder, prey, or the act of seizing food or goods by violence.",
+    "Old French 'ravine' (rush of water, pillage)",
+    "The mercenary troop lived entirely upon ravin and extortion.",
+    "John Wycliffe, Bible Translation"
+  ],
+  [
+    "Rawbone",
+    "/ˈrɔːboʊn/",
+    "e",
+    "Bony, lean, or emaciated, applied to overworked draught horses or laborers.",
+    "Middle English 'raw' + 'bone'",
+    "A rawbone nag pulled the heavy timber dray through the mud.",
+    "Thomas Nashe, Pierce Penniless"
+  ],
+  [
+    "Rayet",
+    "/ˈreɪjɛt/",
+    "m",
+    "A narrow stripe or lightweight striped fabric worn by commoners.",
+    "Diminutive of 'ray'",
+    "His tunic was made of coarse gray rayet.",
+    "Manorial Court Rolls"
+  ],
+  [
+    "Reaver",
+    "/ˈriːvər/",
+    "m",
+    "A plunderer, raider, or robber, particularly along the borderlands.",
+    "Old English 'rēafere' (plunderer)",
+    "The Scottish reaver descended upon the northern cattle farms.",
+    "Border Laws and Ordinances"
+  ],
+  [
+    "Reck",
+    "/rɛk/",
+    "m",
+    "To care, heed, or take thought for something.",
+    "Old English 'recan' (to care)",
+    "The old merchant did reck little of fashionable novelties.",
+    "Geoffrey Chaucer, Troilus and Criseyde"
+  ],
+  [
+    "Reclaim",
+    "/rɪˈkleɪm/",
+    "e",
+    "To tame a hawk or falcon, or to reform an unruly apprentice.",
+    "Latin 'reclamare' (to cry out against)",
+    "It took three months of patience to reclaim the tiercel falcon.",
+    "George Turbervile, Book of Falconry"
+  ],
+  [
+    "Redd",
+    "/rɛd/",
+    "m",
+    "To clear, put in order, tidy, or settle a dispute.",
+    "Old Norse 'hreidra' (to put in order)",
+    "The guild elders met to redd the quarrel between the dyers and weavers.",
+    "Scottish Guild Records"
+  ],
+  [
+    "Redres",
+    "/rɪˈdrɛs/",
+    "m",
+    "Satisfaction, remedy, or compensation for a wrong or faulty trade measure.",
+    "Old French 'redresser'",
+    "The baker sought redres for the false weights of the market inspector.",
+    "London Letter Books"
+  ],
+  [
+    "Refection",
+    "/rɪˈfɛkʃən/",
+    "m",
+    "Refreshment, a meal, or repast, especially after labor or travel.",
+    "Latin 'refectio' (rest, refreshment)",
+    "The guild brothers gathered in the hall for their midday refection.",
+    "Monastic Rule of St. Benedict"
+  ],
+  [
+    "Regrate",
+    "/rɪˈɡreɪt/",
+    "m",
+    "To buy up commodities in a market only to sell them again at a higher price in the same market.",
+    "Old French 'regrater' (to haggle, hoard)",
+    "It was strictly forbidden by law to regrate the daily supply of corn.",
+    "Statutes of the Realm"
+  ],
+  [
+    "Regrater",
+    "/rɪˈɡreɪtər/",
+    "m",
+    "A forestaller or merchant who buys up goods to resell them at extortionate rates.",
+    "Medieval Anglo-French 'regrateor'",
+    "The bailiff seized the hidden tallow from the greedy regrater.",
+    "Liber Albus"
+  ],
+  [
+    "Regrating",
+    "/rɪˈɡreɪtɪŋ/",
+    "m",
+    "The illegal trade practice of buying victuals to sell them dearer in the same vicinity.",
+    "Gerund of regrate",
+    "He was fined heavily in the borough court for regrating salt fish.",
+    "Leet Jurisdiction in the City of Norwich"
+  ],
+  [
+    "Relique",
+    "/ˈrɛlɪk/",
+    "m",
+    "An archaic spelling of relic; a surviving memorial, object of trade reverence, or saint's remain.",
+    "Old French 'relique'",
+    "The merchant claimed his vial contained a genuine holy relique.",
+    "Geoffrey Chaucer, The Pardoner's Tale"
+  ],
+  [
+    "Remembrane",
+    "/rɪˈmɛmbrən/",
+    "m",
+    "A memorandum, memorial, or written record of a transaction.",
+    "Old French 'remembrance'",
+    "He entered the debt into the official town remembrane.",
+    "Exchequer Records"
+  ],
+  [
+    "Remora",
+    "/ˈrɛmərə/",
+    "e",
+    "A hindrance, delay, or obstacle in commercial ventures or legal suits.",
+    "Latin 'remora' (delay, the sucker-fish)",
+    "The shortage of coin proved a serious remora to the shipping trade.",
+    "Francis Bacon, Essays"
+  ],
+  [
+    "Renably",
+    "/ˈrɛnəbli/",
+    "m",
+    "Reasonably, fluently, or intelligibly in speech or bargaining.",
+    "Old French 'raisnable'",
+    "The apprentice could speak French renably enough for trade.",
+    "John Trevisa, translation of Higden"
+  ],
+  [
+    "Renders",
+    "/ˈrɛndərz/",
+    "m",
+    "Yields, returns, or payments of dues, rent, or services to a lord or guild.",
+    "Old French 'rendre'",
+    "The tenants brought their annual renders of poultry and grain.",
+    "Manorial Extents"
+  ],
+  [
+    "Sadhe",
+    "/sɑːd/",
+    "m",
+    "An obsolete measure of land or distance.",
+    "From Old English sǣd.",
+    "He measured out three sadhes of arable ground.",
+    "Domesday Book records"
+  ],
+  [
+    "Saick",
+    "/seɪk/",
+    "t",
+    "A kind of vessel used in the Levant, with one mast and a bowsprit.",
+    "From Turkish saika via Italian.",
+    "A French saick laden with grain anchored in the bay.",
+    "William Falconer, Universal Dictionary of the Marine"
+  ],
+  [
+    "Sail-foot",
+    "/seɪl fʊt/",
+    "e",
+    "The bottom edge of a sail.",
+    "Native English compound from Middle English.",
+    "The gale caught the sail-foot and tore the canvas.",
+    "John Smith, The Sea-man's Grammar"
+  ],
+  [
+    "Saim",
+    "/seɪm/",
+    "m",
+    "Lard or grease, especially rendered pig fat.",
+    "From Old Norse sámr or Old French saim.",
+    "Rub the leather thoroughly with warm saim to keep it supple.",
+    "The Forme of Cury"
+  ],
+  [
+    "Sake",
+    "/seɪk/",
+    "m",
+    "A civil dispute, cause, or lawsuit in medieval jurisprudence.",
+    "From Old English sacu.",
+    "The bailiff heard the sake between the two millers.",
+    "Laws of Alfred"
+  ],
+  [
+    "Sakristan",
+    "/ˈsækrɪstən/",
+    "m",
+    "A sexton or custodian of the sacristy and church vessels.",
+    "From Medieval Latin sacristanus.",
+    "The sakristan rang the compline bell with great haste.",
+    "Monastic records of Durham"
+  ],
+  [
+    "Saladero",
+    "/sæləˈdɛroʊ/",
+    "t",
+    "A place where cattle are slaughtered and their meat salted for trade.",
+    "From Spanish saladero.",
+    "The hides were shipped directly from the riverside saladero.",
+    "Travels in South America"
+  ],
+  [
+    "Sald",
+    "/sɔːld/",
+    "m",
+    "Grey-haired or hoary with age.",
+    "From Old English salh or related Germanic roots.",
+    "The sald merchant recounted tales of distant ports.",
+    "Cursor Mundi"
+  ],
+  [
+    "Salet",
+    "/ˈsælɪt/",
+    "m",
+    "A light, hemispherical steel helmet worn by foot soldiers and archers in the 15th century.",
+    "From Old French salade.",
+    "He adjusted his salet before entering the melee.",
+    "Paston Letters"
+  ],
+  [
+    "Salimeter",
+    "/səˈlɪmɪtər/",
+    "t",
+    "An instrument for measuring the amount of salt in solution, used in brine trade.",
+    "Coinage from Latin sal + Greek metron.",
+    "The cooper tested the brine density with a salimeter.",
+    "Technological Dictionary of Arts and Trades"
+  ],
+  [
+    "Salinator",
+    "/ˈsælɪneɪtər/",
+    "m",
+    "A salt-maker or salt-merchant.",
+    "From Medieval Latin salinator.",
+    "The salinator delivered ten sacks of white salt to the fishmonger.",
+    "Exchequer Rolls of Scotland"
+  ],
+  [
+    "Sallow-smith",
+    "/ˈsæloʊ smɪθ/",
+    "m",
+    "A craftsman who works with willow or sallow wood for baskets and hurdles.",
+    "From Old English sealh + smið.",
+    "The sallow-smith wove sturdy hampers for the harvest.",
+    "Guild Ordinances of London"
+  ],
+  [
+    "Salmagundi",
+    "/sælməˈɡʌndi/",
+    "e",
+    "A culinary dish made of chopped meat, anchovies, eggs, onions, and spices.",
+    "From French salmagondis.",
+    "They served a rich salmagundi at the guild feast.",
+    "Gervase Markham, The English Housewife"
+  ],
+  [
+    "Salp",
+    "/sælp/",
+    "t",
+    "A tunicate harvested in maritime trades for bait or oil.",
+    "From French salpe.",
+    "The nets were choked with translucent salps.",
+    "Natural History of the Sea"
+  ],
+  [
+    "Salsify",
+    "/ˈsælsɪfi/",
+    "e",
+    "A cultivated plant with an edible root tasting like oyster, grown in medieval herb gardens.",
+    "From French salsefi.",
+    "The kitchener ordered roots of salsify for the potage.",
+    "John Gerard, Great Herball"
+  ],
+  [
+    "Salt-man",
+    "/ˈsɔːlt mæn/",
+    "m",
+    "A trader who transports and sells salt.",
+    "From Old English sealt + mann.",
+    "The salt-man brought his carts from the Cheshire pans.",
+    "Records of the Borough of Leicester"
+  ],
+  [
+    "Salt-pit",
+    "/ˈsɔːlt pɪt/",
+    "m",
+    "A pan or pit where salt is evaporated from brine.",
+    "From Old English sealtpytt.",
+    "Several salt-pits were granted to the abbey.",
+    "Domesday Survey"
+  ],
+  [
+    "Salt-rent",
+    "/ˈsɔːlt rɛnt/",
+    "m",
+    "A feudal tax or rent paid in salt.",
+    "From Old English sealt + rent.",
+    "The tenants paid their annual salt-rent at Michaelmas.",
+    "Manorial Rolls"
+  ],
+  [
+    "Salve-maker",
+    "/sæv ˈmeɪkər/",
+    "m",
+    "An apothecary or herbalist who compounds healing ointments.",
+    "From Old English sealf + macere.",
+    "The salve-maker prepared an ointment of yarrow and lard.",
+    "Medical Receipt Book of Lincoln"
+  ],
+  [
+    "Samars",
+    "/səˈmɑːrz/",
+    "e",
+    "Long, loose-fitting women's gowns or jackets worn in the 17th century.",
+    "From Turkish samur (sable fur).",
+    "She wore a velvet samars trimmed with ermine.",
+    "Randle Holme, Academy of Armory"
+  ],
+  [
+    "Sampman",
+    "/ˈsæmpmən/",
+    "t",
+    "A trader dealing in samp, a coarse cornmeal food common in colonial trade.",
+    "From Narragansett nasamp + English man.",
+    "The sampman traded corn to the coastal sloops.",
+    "Colonial American Shipping Records"
+  ],
+  [
+    "Sand-blind",
+    "/ˈsænd blaɪnd/",
+    "e",
+    "Half-blind, dim-sighted, or purblind.",
+    "Alteration of Old English sam-blind (semi-blind).",
+    "Jest aside, he is a kind of sand-blind as to the truth.",
+    "William Shakespeare, The Merchant of Venice"
+  ],
+  [
+    "Sandman",
+    "/ˈsændmən/",
+    "t",
+    "A street vendor who sold sand for scouring floors and whitening hearthstones.",
+    "Native English compound.",
+    "The sandman cried his wares along the cobblestone lane.",
+    "Henry Mayhew, London Labour and the London Poor"
+  ],
+  [
+    "Sarpler",
+    "/ˈsɑːrplər/",
+    "m",
+    "A large canvas bag or bale used for packing wool for transport and trade.",
+    "From Old French sarpler.",
+    "Each sarpler of Cotswold wool weighed upwards of a pack.",
+    "Statute of the Staple"
+  ],
+  [
+    "Sarsenet",
+    "/ˈsɑːrsənɛt/",
+    "m",
+    "A fine, soft, plain-woven silk fabric used for linings and banners.",
+    "From Medieval French sarazin.",
+    "The banner was made of blue sarsenet fringed with gold.",
+    "Chaucer, Canterbury Tales"
+  ],
+  [
+    "Sattire",
+    "/ˈsætɪər/",
+    "m",
+    "An obsolete variant spelling of satin, a smooth silk fabric.",
+    "From Middle French satin.",
+    "Gowns of rich sattire were forbidden to lower guildsmen.",
+    "Sumptuary Laws of Edward III"
+  ],
+  [
+    "Sauce-pan",
+    "/ˈsɔːspæn/",
+    "e",
+    "A small metal cooking vessel with a handle, originally used for sauces.",
+    "Native English compound from sauce + pan.",
+    "The scullion tinned the copper sauce-pan.",
+    "Household Inventories of the Earl of Northumberland"
+  ],
+  [
+    "Saw-filer",
+    "/ˈsɔː ˌfaɪlər/",
+    "t",
+    "A specialist artisan who sharpens saws for carpenters and loggers.",
+    "Native English trade term.",
+    "The saw-filer worked in his shed with a row of fine files.",
+    "Victorian Trade Directories"
+  ],
+  [
+    "Saw-pit",
+    "/ˈsɔː pɪt/",
+    "m",
+    "A trench where timber is sawed into planks by two men using a long pit-saw.",
+    "From Old English sage + pytt.",
+    "The saw-pit was busy with the framing of new ship timbers.",
+    "Guild Records of Norwich"
+  ],
+  [
+    "Scabber",
+    "/ˈskæbər/",
+    "m",
+    "A maker or seller of scabbards for swords and daggers.",
+    "From Old French escabrier.",
+    "The scabber fitted the blade with a tooled leather sheath.",
+    "London Tax Assessment Rolls"
+  ],
+  [
+    "Scaffold-man",
+    "/ˈskæfəld mæn/",
+    "e",
+    "A builder's laborer who erects timber scaffolding.",
+    "Native English trade term.",
+    "The scaffold-man secured the putlogs with hempen ropes.",
+    "Building Accounts of Hampton Court"
+  ],
+  [
+    "Scag",
+    "/skæɡ/",
+    "t",
+    "A kind of coarse tobacco or refuse tobacco leaves.",
+    "Origin obscure, possibly regional trade slang.",
+    "The sailors traded cheap scag at the anchorage.",
+    "Maritime Slang Dictionary"
+  ],
+  [
+    "Scale-board",
+    "/ˈskeɪl bɔːrd/",
+    "t",
+    "A thin strip of wood used for making small boxes or hat boxes.",
+    "Native English trade term.",
+    "The box-maker ordered a gross of scale-boards from the mill.",
+    "The Mechanic's Magazine"
+  ],
+  [
+    "Scall",
+    "/skɔːl/",
+    "m",
+    "A scabby skin disease, or a scabby person.",
+    "From Old Norse skalli or Old English.",
+    "He treated the poor beggar's head of the scall.",
+    "Medical Recipe MS, Royal Library"
+  ],
+  [
+    "Scarce-corn",
+    "/ˈskɛərs kɔːrn/",
+    "m",
+    "Grain that is in short supply during a famine or poor harvest.",
+    "From Old French escars + Old English corn.",
+    "The bailiff hoarded the scarce-corn in the granary.",
+    "Chronicles of the White Friars"
+  ],
+  [
+    "Scarf-skin",
+    "/ˈskɑːrf skɪn/",
+    "e",
+    "The epidermis or outermost layer of the skin.",
+    "From Old Norse skarfr + skinn.",
+    "The blister raised only the scarf-skin.",
+    "Ambroise Paré, The Workes of that Famous Chirurgion"
+  ],
+  [
+    "Tackman",
+    "/ˈtækmən/",
+    "t",
+    "A leaseholder or tenant farmer who held a sub-lease of land in Scottish agricultural tradition.",
+    "Scots law and English agrarian terminology",
+    "The tackman negotiated the annual rent of the grazing fields with the factor.",
+    "Scottish Exchequer Rolls"
+  ],
+  [
+    "Taint",
+    "/teɪnt/",
+    "e",
+    "To corrupt, contaminate, or spoil provisions, especially applied to spoiled grain or tainted meat in markets.",
+    "Middle English, from Old French teint",
+    "The master warden condemned the barrels of flour lest they taint the town's bread.",
+    "Assize of Bread and Ale"
+  ],
+  [
+    "Takel",
+    "/ˈtɑːkəl/",
+    "m",
+    "The rigging, ropes, and pulley blocks of a ship used by medieval merchants and mariners.",
+    "Middle English, from Low German tackle",
+    "The sailors hauled upon the takel to hoist the heavy cargo from the hold.",
+    "The Libelle of Englyshe Polycye"
+  ],
+  [
+    "Talbot",
+    "/ˈtælbət/",
+    "m",
+    "An extinct breed of heavy hunting hound with white or cream fur, frequently depicted in heraldry.",
+    "Middle English, of uncertain origin",
+    "The nobleman unleashed his swiftest talbot to track the deer through the dense oak forest.",
+    "Master of Game by Edward of Norwich"
+  ],
+  [
+    "Tale-bearer",
+    "/ˈteɪlˌbɛrər/",
+    "e",
+    "A malicious gossip or informer who spreads rumors within a guild or town community.",
+    "Middle English compound of tale and bearer",
+    "The guild expelled the tale-bearer for sowing discord among the apprentice weavers.",
+    "Shakespeare, Henry VI, Part II"
+  ],
+  [
+    "Talent",
+    "/ˈtælənt/",
+    "m",
+    "An ancient weight and denomination of money used in medieval Mediterranean trade accounting.",
+    "Old English and Old French, from Greek talanton",
+    "The merchant paid a talent of silver for the rare spices of the Levant.",
+    "Wycliffe Bible"
+  ],
+  [
+    "Tally",
+    "/ˈtæli/",
+    "m",
+    "A notched stick used as a primitive accounting device to record debts and trade transactions.",
+    "Middle English, from Old French taille",
+    "The baker notched the tally to mark the loaves delivered to the manor house.",
+    "Exchequer Receipt Rolls"
+  ],
+  [
+    "Tallyman",
+    "/ˈtælimən/",
+    "t",
+    "A draper's agent or traveling salesman who sold goods on credit, paid by weekly installments.",
+    "Victorian slang and trade terminology",
+    "The tallyman called at the cottage every Saturday to collect his shilling for the shawl.",
+    "Henry Mayhew, London Labour and the London Poor"
+  ],
+  [
+    "Tamkin",
+    "/ˈtæmkɪn/",
+    "e",
+    "A wooden plug or tampion used to stop the muzzle of a cannon or barrel.",
+    "Variant of tampion, Middle French tampon",
+    "The artilleryman fitted the tamkin securely into the cannon before crossing the marsh.",
+    "Elizabethan Ordnance Papers"
+  ],
+  [
+    "Tanistry",
+    "/ˈtænɪstri/",
+    "m",
+    "An ancient Celtic system of land tenure and royal succession where the successor was elected.",
+    "Irish Gaelic tánaiste",
+    "The clan chiefs assembled under the ancient oak to debate the laws of tanistry.",
+    "State Papers of Henry VIII"
+  ],
+  [
+    "Tankard",
+    "/ˈtæŋkərd/",
+    "m",
+    "A large, tall drinking vessel with a single handle, typically made of pewter, wood, or leather.",
+    "Middle English, of uncertain origin",
+    "The tired blacksmith lifted his heavy pewter tankard of ale to quench his thirst.",
+    "Piers Plowman by William Langland"
+  ],
+  [
+    "Tanner",
+    "/ˈtænər/",
+    "m",
+    "A craftsman who treats animal hides and skins to produce leather in foul-smelling vats.",
+    "Old English tannere",
+    "The tanner worked from dawn until dusk scraping hair from the ox hides.",
+    "The Chester Mystery Plays"
+  ],
+  [
+    "Tapiser",
+    "/ˈtæpɪzər/",
+    "m",
+    "A maker or weaver of heavy tapestries, carpets, and wall hangings.",
+    "Middle English, from Old French tapissier",
+    "The skilled tapiser wove intricate threads of gold into the grand wall hanging.",
+    "Chaucer, The General Prologue"
+  ],
+  [
+    "Tappet",
+    "/ˈtæpɪt/",
+    "t",
+    "A mechanical lever or projection in textile machinery that converts rotary motion into linear motion.",
+    "Industrial Revolution terminology",
+    "The millwright adjusted the tappet to ensure the power loom operated without jamming.",
+    "Mechanics' Magazine"
+  ],
+  [
+    "Tarbox",
+    "/ˈtɑːrbɒks/",
+    "e",
+    "A small wooden box carried by shepherds containing an ointment of tar used to heal sheep rot.",
+    "Middle English compound",
+    "The shepherd hung his tarbox from his belt alongside his crook.",
+    "Spenser, The Shepheardes Calender"
+  ],
+  [
+    "Tardation",
+    "/tɑːrˈdeɪʃən/",
+    "e",
+    "The act of delaying, slowing down, or hindering progress or trade transport.",
+    "Late Middle English, from Latin tardatio",
+    "The heavy snowfalls caused a great tardation in the delivery of the wool wagons.",
+    "Tudor State Correspondence"
+  ],
+  [
+    "Tariff",
+    "/ˈtærɪf/",
+    "e",
+    "A published list of taxes or customs duties levied on imports and exports by the guild or state.",
+    "Italian tariffa, from Arabic ta'rif",
+    "The harbor master consulted the tariff to calculate the dues on the Spanish wine.",
+    "Merchant Guild Charters"
+  ],
+  [
+    "Tartaryn",
+    "/ˈtɑːrtərɪn/",
+    "m",
+    "A costly medieval fabric imported from the East, similar to silk or damask.",
+    "Middle English, from Tartary",
+    "Her gown was fashioned of rich green tartaryn trimmed with ermine fur.",
+    "Sir Gawain and the Green Knight"
+  ],
+  [
+    "Tasker",
+    "/ˈtæskər/",
+    "m",
+    "An agricultural laborer paid by the task, particularly one who threshed corn with a flail.",
+    "Middle English taske",
+    "The sturdy tasker swung his flail rhythmically upon the threshing floor.",
+    "John Paston Letters"
+  ],
+  [
+    "Tass",
+    "/tæs/",
+    "m",
+    "A cup, goblet, or small bowl used for drinking wine or ale at guild feasts.",
+    "Middle French tasse",
+    "The aldermen raised every tass in a toast to the royal charter.",
+    "Medieval Civic Records"
+  ],
+  [
+    "Tattler",
+    "/ˈtætlər/",
+    "e",
+    "An idle talker, gossip, or person who divulges trade secrets.",
+    "Middle English tatelen",
+    "Beware the tattler in the marketplace who sells secrets to rival merchants.",
+    "Shakespeare, The Winter's Tale"
+  ],
+  [
+    "Taverner",
+    "/ˈtævərnər/",
+    "m",
+    "The keeper or owner of a tavern who sold wine and victuals to travelers and guildsmen.",
+    "Old English and Old French taverner",
+    "The taverner welcomed the tired merchants with a brimming pitcher of claret.",
+    "The Book of Margery Kempe"
+  ],
+  [
+    "Taw",
+    "/tɔː/",
+    "m",
+    "To dress and prepare white leather using alum and salt rather than oak bark.",
+    "Old English tawian",
+    "The master tanner taught the apprentice how best to taw the fine lambskins.",
+    "Guild Ordinances of Lincoln"
+  ],
+  [
+    "Tawdry",
+    "/ˈtɔːdri/",
+    "e",
+    "Cheap, showy, and of poor quality, originally referring to cheap lace sold at St. Audrey's fair.",
+    "Derived from St. Audrey lace",
+    "The merchant refused to sell such tawdry ribbons in his respectable drapery shop.",
+    "Robert Nares Glossary"
+  ],
+  [
+    "Tawer",
+    "/ˈtɔːər/",
+    "m",
+    "A leather dresser who specialized in softening white leather for gloves and parchment.",
+    "Middle English tawier",
+    "The tawer stretched the kidskin carefully across his wooden beam.",
+    "London Tax Assessment Rolls"
+  ],
+  [
+    "Taxer",
+    "/ˈtæksər/",
+    "m",
+    "An official appointed in medieval universities or towns to assess rents, prices, and taxes.",
+    "Anglo-Norman taxour",
+    "The university taxer inspected the lodging houses to ensure fair rents for scholars.",
+    "Cambridge University Archives"
+  ],
+  [
+    "Team",
+    "/tiːm/",
+    "m",
+    "A set of draft animals harnessed together to pull a plow, wagon, or barge.",
+    "Old English team",
+    "The carter drove his team of six oxen through the muddy village lane.",
+    "Domesday Book"
+  ],
+  [
+    "Teem",
+    "/tiːm/",
+    "m",
+    "To pour out liquid, empty a vessel, or overflow with abundance.",
+    "Old English tēman",
+    "She bade the servant teem the ale into the earthenware pitchers.",
+    "Cursor Mundi"
+  ],
+  [
+    "Teind",
+    "/tiːnd/",
+    "m",
+    "The traditional Scottish tithe or tenth part of agricultural produce paid to the church.",
+    "Scots law, from Old French tende",
+    "The parish priest collected the annual teind in barley and oats from the farmers.",
+    "Scottish Ecclesiastical Records"
+  ],
+  [
+    "Teler",
+    "/ˈtɛlər/",
+    "m",
+    "A maker of crossbows, a specialized medieval weapon craftsman.",
+    "Old French teleor",
+    "The teler carefully fitted the steel bowstring into the wooden stock.",
+    "Mediaeval Military Accounts"
+  ],
+  [
+    "Teller",
+    "/ˈtɛlər/",
+    "m",
+    "An officer of the Exchequer or bank who counts, receives, and pays out money.",
+    "Middle English tellen",
+    "The royal teller checked the bags of gold coin before sealing the treasury chest.",
+    "Dialogus de Scaccario"
+  ],
+  [
+    "Templer",
+    "/ˈtɛmplər/",
+    "m",
+    "A knight belonging to the military order of the Temple of Solomon.",
+    "Middle English, from Old French templier",
+    "The brave templer rode into battle bearing the red cross upon his white mantle.",
+    "Chronicles of the Crusades"
+  ],
+  [
+    "Tendril",
+    "/ˈtɛndrəl/",
+    "e",
+    "A slender, spiraling threadlike climbing organ of a vine used for attaching to supports.",
+    "Middle French tendrillon",
+    "The grape vine wrapped its tender tendril around the wooden trellis.",
+    "Gerard's Herbal"
+  ],
+  [
+    "Tenement",
+    "/ˈtɛnəmənt/",
+    "m",
+    "A house or building held by a tenant; in medieval legal terms, any landed property held of a lord.",
+    "Middle English, from Old French tenement",
+    "He bequeathed his townhouse tenement to the weavers' guild in perpetuity.",
+    "London Hustings Court Wills"
+  ],
+  [
+    "Termer",
+    "/ˈtɜːrmər/",
+    "e",
+    "A barrister or litigant who frequented London law courts only during the legal terms.",
+    "Middle English term",
+    "The bustling inns of Chancery Lane were filled with country termers seeking legal counsel.",
+    "Ben Jonson, The Alchemist"
+  ],
+  [
+    "Unaccostable",
+    "/ˌʌnəˈkʌstəbəl/",
+    "e",
+    "Not to be approached or solicited for trade; aloof or unfriendly in business.",
+    "Late 16th century, from un- + accost",
+    "The master merchant remained unaccostable until his morning ledger was balanced.",
+    "Thomas Dekker, The Gull's Hornbook, 1609"
+  ],
+  [
+    "Unapparent",
+    "/ˌʌnəˈpærənt/",
+    "e",
+    "Hidden from sight; not manifest in the quality of manufactured goods.",
+    "Latin un- + apparere",
+    "The flaw in the timber was unapparent until the carpenter planed the surface.",
+    "Piso's Art of Carpentry, 1585"
+  ],
+  [
+    "Unau",
+    "/ˈʌnoʊ/",
+    "t",
+    "An archaic term for a two-toed sloth, whose pelt was occasionally traded by furriers.",
+    "French unau, from an indigenous South American language",
+    "The furrier displayed a curious unau skin brought from the New World.",
+    "A Naturalist's Voyage, 1850"
+  ],
+  [
+    "Unbeseen",
+    "/ˌʌnbɪˈsiːn/",
+    "m",
+    "Unbecoming, improper, or unseemly for a member of a respectable guild.",
+    "Middle English un- + beseen",
+    "Such loud haggling in the marketplace was deemed unbeseen for a master draper.",
+    "The Book of Margery Kempe, c. 1438"
+  ],
+  [
+    "Unbitten",
+    "/ʌnˈbɪtən/",
+    "t",
+    "Unhurt by frost; describing vines or crops spared by early winter freezes.",
+    "Old English unbiten",
+    "The autumn grapes hung unbitten upon the trellis, promising sweet wine.",
+    "Horticultural Journal, 1845"
+  ],
+  [
+    "Unbolt",
+    "/ʌnˈboʊlt/",
+    "e",
+    "To disclose, explain, or reveal trade secrets; literally to open a bolted warehouse door.",
+    "Middle English unbolten",
+    "He did unbolt the very secrets of his dye-vat recipes to the stranger.",
+    "Richard Hakluyt, Principal Navigations, 1599"
+  ],
+  [
+    "Unbookish",
+    "/ʌnˈbʊkɪʃ/",
+    "e",
+    "Unversed in written records, bookkeeping, or commercial accounts.",
+    "Late 16th century, un- + bookish",
+    "An unbookish carter who could not tally his own cartloads of coal.",
+    "William Shakespeare, Othello, 1603"
+  ],
+  [
+    "Unboy",
+    "/ʌnˈbɔɪ/",
+    "e",
+    "To deprive of boyhood; to force an apprentice boy into premature adult labor.",
+    "Coinage by Shakespeare, un- + boy",
+    "To unboy him, they set the lad to heavy blacksmithing before his fourteenth year.",
+    "William Shakespeare, Coriolanus, c. 1608"
+  ],
+  [
+    "Unbrained",
+    "/ʌnˈbreɪnd/",
+    "e",
+    "Deprived of understanding, sense, or shrewd commercial judgment.",
+    "Late 16th century, un- + brain",
+    "An unbrained factor who traded good wool for worthless tin.",
+    "Sir Walter Raleigh, History of the World, 1614"
+  ],
+  [
+    "Unbridle",
+    "/ʌnˈbraɪdəl/",
+    "e",
+    "To remove a bridle; to act without commercial restraint or regulation.",
+    "Middle English unbridlen",
+    "The rogue trader did unbridle his greed in the unregulated ports.",
+    "Barnaby Rich, The Fruites of Long Experience, 1596"
+  ],
+  [
+    "Uncharioted",
+    "/ʌnˈtʃæriətɪd/",
+    "t",
+    "Not conveyed in a chariot or cart; left stranded without transport for goods.",
+    "Romantic/Victorian poetic coinage, un- + chariot",
+    "The bales of wool lay uncharioted upon the muddy riverbank.",
+    "Percy Bysshe Shelley, Prometheus Unbound, 1820"
+  ],
+  [
+    "Unchartered",
+    "/ʌnˈtʃɑːrtərd/",
+    "t",
+    "Not restricted by a royal charter or official guild monopoly.",
+    "18th century, un- + chartered",
+    "Unchartered traders poached upon the monopoly waters of the Merchant Adventurers.",
+    "Adam Smith, The Wealth of Nations, 1776"
+  ],
+  [
+    "Uncrease",
+    "/ʌnˈkriːs/",
+    "t",
+    "To smooth out folds in fine parchment, linens, or traded documents.",
+    "17th century, un- + crease",
+    "The clerk worked carefully to uncrease the damp bill of lading.",
+    "Victorian Stationers' Manual, 1875"
+  ],
+  [
+    "Uncrown",
+    "/ʌnˈkraʊn/",
+    "m",
+    "To depose a monarch, or to strip a master craftsman of his guild leadership.",
+    "Middle English uncrounen",
+    "The wardens threatened to uncrown the dishonest master of the Goldsmiths.",
+    "London Guild Ordinances, 1421"
+  ],
+  [
+    "Undamp",
+    "/ʌnˈdæmp/",
+    "e",
+    "To dry out damp goods, such as sodden grain or wet gunpowder.",
+    "16th century, un- + damp",
+    "The factors spread the ruined corn in the sun to undamp the harvest.",
+    "Merchant's Daily Log, 1572"
+  ],
+  [
+    "Undeaf",
+    "/ʌnˈdɛf/",
+    "e",
+    "To restore hearing, or to make someone heedful of trade warnings.",
+    "Middle English undefen",
+    "No price reduction could undeaf the stubborn purchaser.",
+    "John Heywood, Proverbs, 1546"
+  ],
+  [
+    "Undefaced",
+    "/ˌʌndɪˈfeɪst/",
+    "e",
+    "Not marred, spoiled, or altered; preserving original maker marks on coinage.",
+    "Middle English un- + deface",
+    "The gold coins remained undefaced by clipping or sweating.",
+    "Proclamation on Coinage, 1560"
+  ],
+  [
+    "Under-meler",
+    "/ˈʌndərˌmɛlər/",
+    "m",
+    "An archaic agricultural or trade worker who labored during the mid-morning hours.",
+    "Old English undermǣl",
+    "The under-melers ceased their plowing when the church bell tolled noon.",
+    "Agrarian Customals of the Midlands, 1310"
+  ],
+  [
+    "Underman",
+    "/ˈʌndərmæn/",
+    "m",
+    "An assistant, journeyman, or subordinate laborer within a guild workshop.",
+    "Middle English underman",
+    "The master carpenter took on an underman to help saw the massive oak beams.",
+    "Guild of Carpenters Ordinances, 1450"
+  ],
+  [
+    "Undern-tide",
+    "/ˈʌndərnˌtaɪd/",
+    "m",
+    "The time of morning around 9 AM when morning markets officially opened.",
+    "Old English underntīd",
+    "The fishmongers brought their fresh catches to the wharf by undern-tide.",
+    "The Ancrene Wisse, c. 1225"
+  ],
+  [
+    "Undersong",
+    "/ˈʌndərsɔːŋ/",
+    "m",
+    "The burden or refrain of a guild song sung during cooperative labor.",
+    "Middle English undersong",
+    "The spinners kept rhythm at their wheels with a merry undersong.",
+    "Chaucer, The Legend of Good Women, c. 1385"
+  ],
+  [
+    "Undertrade",
+    "/ˈʌndərtrad/",
+    "e",
+    "To trade secretly, below board, or to undercut the legal prices of a guild.",
+    "Late 16th century, under- + trade",
+    "Certain foreign factors were found to undertrade in the forbidden wool markets.",
+    "Acts of the Privy Council, 1588"
+  ],
+  [
+    "Undertime",
+    "/ˈʌndərtaɪm/",
+    "m",
+    "The period around noon or mid-afternoon when guild work slowed down.",
+    "Middle English undertime",
+    "The weavers rested in the shade during the heat of the undertime.",
+    "Gawain and the Green Knight, c. 1400"
+  ],
+  [
+    "Undid",
+    "/ʌnˈdɪd/",
+    "m",
+    "To untie, unpick, or dismantle a manufactured article; past tense of undo.",
+    "Middle English undyd",
+    "The tailor undid the seams of the doublet to alter the fitting.",
+    "London Tailors' Court Book, 1475"
+  ],
+  [
+    "Undraped",
+    "/ʌnˈdreɪpt/",
+    "t",
+    "Stripped of drapery or hanging fabrics; exposing unfinished shop interiors.",
+    "18th century, un- + drape",
+    "The shop window remained undraped while the new stock was cleared.",
+    "Shopkeeper's Journal, 1812"
+  ],
+  [
+    "Unearth",
+    "/ʌnˈɜːrθ/",
+    "m",
+    "To dig up mineral ores, buried treasure, or hidden hoards of contraband goods.",
+    "Middle English unerthen",
+    "The miners did unearth a rich vein of tin in the Cornwall hills.",
+    "Cornish Stannary Records, 1490"
+  ],
+  [
+    "Unhouseled",
+    "/ʌnˈhaʊzəld/",
+    "e",
+    "Without having received the sacrament before death; unprepared in business or soul.",
+    "Old English unhūslod",
+    "Unshriven, unhouseled, he was cast out from the guild fellowship.",
+    "William Shakespeare, Hamlet, 1603"
+  ],
+  [
+    "Vacatur",
+    "/vəˈkeɪtər/",
+    "e",
+    "A legal writ or order by which a proceeding is vacated, annulled, or set aside.",
+    "Latin, third-person singular present passive subjunctive of vacare (to be empty/free).",
+    "The clerk entered the vacatur upon the rolls, rendering the previous judgment null.",
+    "Legal register of the Court of Common Pleas, 1592"
+  ],
+  [
+    "Vaccary",
+    "/ˈvækəri/",
+    "m",
+    "A dairy farm or a cattle-pasture, specifically one maintained by a monastery or large estate.",
+    "Medieval Latin vaccaria, from Latin vacca (cow).",
+    "The abbey's vaccary yielded twenty kilderkins of butter for the winter market.",
+    "Monastic records of Fountains Abbey, 1341"
+  ],
+  [
+    "Vagabondage",
+    "/ˈvæɡəbɒndɪdʒ/",
+    "e",
+    "The state or practice of wandering from place to place without any settled home or lawful occupation.",
+    "French, from vagabond + suffix -age.",
+    "He was brought before the magistrate on suspicion of vagabondage and lack of trade.",
+    "Statutes of the Realm, 39 Elizabeth I, 1597"
+  ],
+  [
+    "Vagary",
+    "/vəˈɡɛəri/",
+    "e",
+    "An erratic, unpredictable, or whimsical notion, action, or course.",
+    "Latin vagari (to wander about).",
+    "The merchant's sudden purchase of the bankrupt shipyard was mere vagary.",
+    "William Shakespeare, The Second Part of King Henry VI, 1591"
+  ],
+  [
+    "Valediction",
+    "/ˌvælɪˈdɪkʃən/",
+    "e",
+    "The action of saying farewell, or a formal parting speech.",
+    "Latin valedictio, from valedicere (to say farewell).",
+    "With a brief valediction, the master mason handed the ledger to his apprentice.",
+    "John Donne, Songs and Sonnets, 1633"
+  ],
+  [
+    "Valetudinarian",
+    "/ˌvælɪˌtjuːdɪˈnɛəriən/",
+    "t",
+    "A person of a sickly constitution, or one preoccupied with their own ill health.",
+    "Latin valetudinarius (sickly), from valetudo (state of health).",
+    "The wealthy merchant retired early, living the life of a nervous valetudinarian.",
+    "Charles Dickens, Dombey and Son, 1848"
+  ],
+  [
+    "Vallation",
+    "/vəˈleɪʃən/",
+    "e",
+    "An earthwork, rampart, or fortification constructed for defense.",
+    "Latin vallatio, from vallare (to wall or entrench).",
+    "The mercenary troops hastily threw up a vallation around their winter encampment.",
+    "Sir Walter Raleigh, The History of the World, 1614"
+  ],
+  [
+    "Valorous",
+    "/ˈvælərəs/",
+    "e",
+    "Possessing or exhibiting brave courage; valiant in enterprise.",
+    "Old French valoros, from Medieval Latin valorosus.",
+    "The valorous guildsman defended the city gates against the rioting mob.",
+    "Richard Hakluyt, Principal Navigations, 1589"
+  ],
+  [
+    "Vant",
+    "/vænt/",
+    "m",
+    "An obsolete dialect or variant form of front, vault, or the font in a church.",
+    "Middle English, aphetic form of avant.",
+    "The child was brought to the vant for holy baptism.",
+    "Churchwardens' Accounts of St. Martin le Grand, 1520"
+  ],
+  [
+    "Vaporish",
+    "/ˈveɪpərɪʃ/",
+    "t",
+    "Suffering from nervous depression, melancholy, or hypochondria, attributed to bodily vapors.",
+    "From vapor + -ish, reflecting early medical theories.",
+    "The lady of the house was feeling vaporish and kept to her chamber.",
+    "Jane Austen, Northanger Abbey, 1818"
+  ],
+  [
+    "Vaudeville",
+    "/ˈvɔːdvɪl/",
+    "t",
+    "Originally a light satirical song, later a theatrical variety entertainment.",
+    "French, from Vireux in Normandy (vau de Vire).",
+    "The tavern crowd joined in singing the popular vaudeville of the season.",
+    "London theatrical broadsheet, 1825"
+  ],
+  [
+    "Vaultage",
+    "/ˈvɔːltɪdʒ/",
+    "e",
+    "Architectural arched cellars, subterranean passages, or vaults collectively.",
+    "French vaultage, from vault + -age.",
+    "The conspirators met in the dark vaultage beneath the parliament house.",
+    "Shakespeare, Troilus and Cressida, 1602"
+  ],
+  [
+    "Vaunt",
+    "/vɔːnt/",
+    "m",
+    "To boast, brag, or make an ostentatious display of one's achievements or wares.",
+    "Old French vanter, from Late Latin vanitare (to boast).",
+    "The weaver did vaunt the superior fastness of his scarlet dyes.",
+    "Gower, Confessio Amantis, 1390"
+  ],
+  [
+    "Vecchia",
+    "/ˈvɛkiə/",
+    "t",
+    "An old woman; a term used in historical travel writing concerning Italy.",
+    "Italian vecchia (old woman).",
+    "A wrinkled vecchia sold roasted chestnuts outside the cathedral doors.",
+    "Lord Byron, Childe Harold's Pilgrimage, 1818"
+  ],
+  [
+    "Vedette",
+    "/vɪˈdɛt/",
+    "e",
+    "A mounted soldier stationed as a sentinel at an outpost to watch the enemy.",
+    "Italian vedetta, from vedere (to see).",
+    "The scouting party captured an enemy vedette near the river crossing.",
+    "Military dispatches of the Earl of Essex, 1599"
+  ],
+  [
+    "Velhed",
+    "/ˈvɛlhɛd/",
+    "m",
+    "An obsolete term for old age, seniority, or antiquity.",
+    "Middle English, from old + -hed (hood/ness).",
+    "He sought counsel from men of great velhed and wisdom.",
+    "Wycliffe Bible, Genesis, 1382"
+  ],
+  [
+    "Vellum",
+    "/ˈvɛləm/",
+    "m",
+    "Fine parchment made from calfskin, used for luxury manuscripts and legal deeds.",
+    "Old French velin, from Latin vitulinus (of a calf).",
+    "The scrivener drew up the guild charter upon a fresh sheet of white vellum.",
+    "City of London Letter-Book, 1405"
+  ],
+  [
+    "Velutinous",
+    "/vɪˈluːtɪnəs/",
+    "t",
+    "Having a velvety texture, soft and covered with a fine down.",
+    "New Latin velutinus, from Medieval Latin velutus (velvet).",
+    "The fabric was of a deep, velutinous crimson that caught the candlelight.",
+    "Textile merchant's catalog, Manchester, 1855"
+  ],
+  [
+    "Venality",
+    "/vɪˈnæləti/",
+    "e",
+    "The condition of being susceptible to bribery or corrupt financial influence.",
+    "French venalité, from Latin venalis (for sale).",
+    "The integrity of the customs officer was compromised by institutional venality.",
+    "Francis Bacon, Essays, 1625"
+  ],
+  [
+    "Vendible",
+    "/ˈvɛndɪbəl/",
+    "m",
+    "Fit or suitable for sale; marketable goods or wares.",
+    "Latin vendibilis, from vendere (to sell).",
+    "The market bailiff inspected the grain to ensure it was clean and vendible.",
+    "Assize of Bread and Ale, 1302"
+  ],
+  [
+    "Venew",
+    "/ˈvɛnjuː/",
+    "e",
+    "A bout, hit, or thrust in fencing; later, a neighborhood or venue.",
+    "French venue (an arrival or coming), adapted in fencing schools.",
+    "The master at arms scored a clean venew upon his opponent's doublet.",
+    "Shakespeare, The Merry Wives of Windsor, 1602"
+  ],
+  [
+    "Venial",
+    "/ˈviːniəl/",
+    "m",
+    "Pardonable, slight, or excusable, especially in reference to minor sins.",
+    "Latin venialis, from venia (pardon).",
+    "The priest declared the merchant's sharp bargain to be merely a venial transgression.",
+    "Piers Plowman, c. 1380"
+  ],
+  [
+    "Vesicate",
+    "/ˈvɛsɪkeɪt/",
+    "t",
+    "To blister the skin, a common practice in nineteenth-century medical treatments.",
+    "Latin vesicatus, from vesica (bladder/blister).",
+    "The apothecary applied a plaster to vesicate the patient's chest.",
+    "The Lancet, medical journal, 1838"
+  ],
+  [
+    "Vespere",
+    "/ˈvɛspəri/",
+    "m",
+    "Evening prayer or vespers; the time of evening.",
+    "Latin vesperae, from vesper (evening).",
+    "The monks gathered in the choir as the bell rang for vespere.",
+    "Monastic ordinal of Barking Abbey, c. 1404"
+  ],
+  [
+    "Vicarage",
+    "/ˈvɪkərɪdʒ/",
+    "m",
+    "The benefice, residence, or office of a vicar.",
+    "Anglo-Norman vicarage, from vicar.",
+    "The poor vicarage was augmented by a tithe of wool and honey.",
+    "Episcopal register of Diocese of Lincoln, 1422"
+  ],
+  [
+    "Vintner",
+    "/ˈvɪntnər/",
+    "m",
+    "A merchant who deals in wine; a member of the Vintners' Company guild.",
+    "Anglo-Norman vintaner, from Late Latin vinetarius.",
+    "The master vintner imported fine wines from Gascony in casks.",
+    "London Letter-Book H, 1378"
+  ],
+  [
+    "Wadmal",
+    "/ˈwædməl/",
+    "m",
+    "A coarse, heavy woolen fabric used historically for peasant clothing and rough garments.",
+    "Old Norse vaðmál (measured cloth)",
+    "He wore a doublet made of coarse wadmal to ward off the biting northern frost.",
+    "Statute of the Realm (1397)"
+  ],
+  [
+    "Wain",
+    "/weɪn/",
+    "m",
+    "A large, heavy four-wheeled farm wagon used for hauling crops, timber, or heavy trade goods.",
+    "Old English wægn",
+    "The heavy wain groaned under the towering stack of harvested wheat.",
+    "Chaucer, The Friar's Tale"
+  ],
+  [
+    "Wainman",
+    "/ˈweɪnmən/",
+    "m",
+    "A wagoner, carter, or transport driver who operated a wain for commerce and guild freight.",
+    "Old English wægnmann",
+    "The wainman halted his oxen at the guildhall gate to pay the municipal toll.",
+    "York Mystery Plays"
+  ],
+  [
+    "Waitet",
+    "/ˈweɪtɪt/",
+    "m",
+    "A municipal watchman, town musician, or minstrel employed to sound the hours and guard the walls.",
+    "Old French waite",
+    "The waitet blew his horn from the gatehouse tower as the midnight watch commenced.",
+    "Household Ordinances of Edward IV"
+  ],
+  [
+    "Wakeman",
+    "/ˈweɪkmən/",
+    "m",
+    "The chief magistrate or municipal officer of certain towns, such as Ripon, historically responsible for night watch.",
+    "Old English wæcman",
+    "The wakeman summoned the burgesses to discuss the fortification of the town ditch.",
+    "Records of the Borough of Ripon"
+  ],
+  [
+    "Wald",
+    "/wɔːld/",
+    "m",
+    "A wild, uncultivated woodland, forest, or high moorland tract.",
+    "Old English weald",
+    "Outlaws and timber-thieves lurked deep within the royal wald.",
+    "Gawain and the Green Knight"
+  ],
+  [
+    "Walman",
+    "/ˈwɔːlmən/",
+    "m",
+    "A woodsman, forester, or gatherer of timber within a municipal or royal forest.",
+    "Old English wealdman",
+    "The walman brought cartloads of seasoned oak to the carpenter's guild.",
+    "Assize of the Forest"
+  ],
+  [
+    "Wappened",
+    "/ˈwæpənd/",
+    "e",
+    "Worn, fatigued, stale, or crusted over with dirt or age.",
+    "Etymology obscure, possibly from 'wap' or Germanic roots",
+    "This wappened widow and her kin would never endure the rigors of the journey.",
+    "Shakespeare, Timon of Athens"
+  ],
+  [
+    "Wappenschaw",
+    "/ˈwæpənʃɔː/",
+    "m",
+    "A periodic muster or military review of able-bodied citizens and their weapons in Scotland.",
+    "Scots wapinschawe (weapon show)",
+    "Every guildsman was required to present his pike and bow at the annual wappenschaw.",
+    "Acts of the Parliament of Scotland"
+  ],
+  [
+    "Warison",
+    "/ˈwærɪsən/",
+    "m",
+    "Reward, recompense, or defensive armor and gear.",
+    "Old French warison",
+    "The merchant offered a rich warison for the safe recovery of his stolen wool bales.",
+    "Sir Walter Scott, The Lay of the Last Minstrel (historical usage)"
+  ],
+  [
+    "Wark",
+    "/wɑːrk/",
+    "m",
+    "Work, labor, or a structure such as a building or fortification.",
+    "Old English weorc",
+    "The masons labored daily upon the great stone wark of the cathedral choir.",
+    "Cursor Mundi"
+  ],
+  [
+    "Warkloom",
+    "/ˈwɑːrkluːm/",
+    "m",
+    "A tool, instrument, or implement used in a trade or craft; a loom for weaving.",
+    "Old English weorcloma",
+    "The weaver carefully oiled every warkloom before the morning shift began.",
+    "Piers Plowman"
+  ],
+  [
+    "Warrant",
+    "/ˈwɒrənt/",
+    "m",
+    "A guarantee, authorization, or official charter granted to a guild or merchant.",
+    "Old French garant",
+    "The guild master produced his royal warrant to prove his monopoly on dyeing cloth.",
+    "Patent Rolls"
+  ],
+  [
+    "Waster",
+    "/ˈwæstər/",
+    "m",
+    "A wooden practice sword used by fencing guilds and apprentices.",
+    "Old French wastel",
+    "The young apprentices traded blows with wooden wasters behind the tanner's yard.",
+    "Chronicles of London"
+  ],
+  [
+    "Watch-bell",
+    "/ˈwɒtʃbɛl/",
+    "e",
+    "A bell rung to signal the changing of the guard or the curfew in a walled town.",
+    "Middle English watche + belle",
+    "The heavy watch-bell tolled eight times, signaling the closing of the city gates.",
+    "Shakespeare, Othello"
+  ],
+  [
+    "Water-bailiff",
+    "/ˈwɔːtərbeɪlɪf/",
+    "m",
+    "A municipal officer charged with supervising river traffic, fisheries, and harbor dues.",
+    "Middle English water + bailif",
+    "The water-bailiff boarded the cog to inspect the cargo of imported wine casks.",
+    "London Letter Books"
+  ],
+  [
+    "Water-lead",
+    "/ˈwɔːtərlɛd/",
+    "m",
+    "A leaden pipe or conduit used for supplying water to urban fountains or guild halls.",
+    "Old English wæter + læd",
+    "The plumbers mended the leaking water-lead that fed the public cistern.",
+    "Historical Records of Bristol"
+  ],
+  [
+    "Way-man",
+    "/ˈweɪmən/",
+    "m",
+    "A highwayman, carrier, or surveyor of roads and public thoroughfares.",
+    "Old English wegmann",
+    "The way-man demanded a toll from every drover passing through the mountain pass.",
+    "Statute of Winchester"
+  ],
+  [
+    "Wayve",
+    "/weɪv/",
+    "m",
+    "A stray chattel, unclaimed property, or a woman outlawed from the protection of the law (waif).",
+    "Anglo-Norman waif",
+    "Unclaimed bales left on the wharf were declared a wayve and seized by the bailiff.",
+    "Legal Year Books"
+  ],
+  [
+    "Weat",
+    "/wiːt/",
+    "m",
+    "To dry, season, or cure wood, grain, or hides.",
+    "Old English wētan",
+    "The cooper left the staves in the sun to weat before binding the ale-tubs.",
+    "Promptorium Parvulorum"
+  ],
+  [
+    "Weave-house",
+    "/ˈwiːvhaʊs/",
+    "m",
+    "A workshop or guild hall dedicated to the weaving of cloth.",
+    "Old English wefan + hūs",
+    "The clatter of fifty handlooms echoed from within the municipal weave-house.",
+    "Exeter Borough Records"
+  ],
+  [
+    "Weigh-house",
+    "/ˈweɪhaʊs/",
+    "m",
+    "A public building containing standard scales where taxable goods were weighed for merchants.",
+    "Old English wegän + hūs",
+    "The merchant paid his customs duty after the wool sacks were checked at the weigh-house.",
+    "Liber Albus"
+  ],
+  [
+    "Weigh-master",
+    "/ˈweɪmæstər/",
+    "m",
+    "The official in charge of the public scales who certified weights for trade commodities.",
+    "Old English wegän + Latin magister",
+    "The weigh-master stamped the lead seal upon the cask to certify its exact tonnage.",
+    "Municipal Charters of Norwich"
+  ],
+  [
+    "Weir",
+    "/wɪər/",
+    "m",
+    "A low dam built across a river to raise the water level or catch fish for the guild market.",
+    "Old English wer",
+    "Salmon leaped against the rushing current below the miller's stone weir.",
+    "Cartulary of Oseney Abbey"
+  ],
+  [
+    "Wem",
+    "/wɛm/",
+    "m",
+    "A stain, blemish, spot, or moral flaw.",
+    "Old English wamm",
+    "The inspector rejected the fleece because it bore a dark wem in the wool.",
+    "Ancrene Wisse"
+  ],
+  [
+    "Wench-lock",
+    "/ˈwɛntʃlɒk/",
+    "e",
+    "A curl of hair worn by fashionable youths in Elizabethan times.",
+    "Middle English wenche + loc",
+    "The young apprentice affected a dandyish wench-lock to imitate the court courtiers.",
+    "Dekker, The Gull's Hornbook"
+  ],
+  [
+    "Wether",
+    "/ˈwɛðər/",
+    "m",
+    "A castrated ram, highly prized for its heavy fleece and mutton in medieval trade.",
+    "Old English weder",
+    "The shepherd sheared fifty heavy fleeces from his flock of prime wethers.",
+    "Manorial Roll of Wakefield"
+  ],
+  [
+    "Wheedle",
+    "/ˈhwiːdəl/",
+    "t",
+    "To coax, flatter, or persuade by smooth words, often in commercial bargaining.",
+    "Origin uncertain, possibly German wedeln",
+    "The cunning merchant tried to wheedle the customer into paying above the fixed market price.",
+    "Defoe, Moll Flanders"
+  ],
+  [
+    "Wherry",
+    "/ˈhwɛri/",
+    "m",
+    "A light, swift river boat used for carrying passengers and light cargo across waterways.",
+    "Etymology obscure, possibly Old Norse",
+    "They hired a wherry at the river stairs to cross the Thames to Southwark.",
+    "Stow, Survey of London"
+  ],
+  [
+    "Wherryman",
+    "/ˈhwɛrimən/",
+    "m",
+    "A boatman who operated a wherry for hire on rivers or harbors.",
+    "Middle English wherry + man",
+    "The wherryman pulled hard against the tide to reach the landing stage.",
+    "Statutes of the Realm"
+  ],
+  [
+    "Whilk",
+    "/hwɪlk/",
+    "m",
+    "A shellfish, specifically a whelk, gathered for food and purple dye extraction.",
+    "Old English wioloc",
+    "Fishermen boiled baskets of fresh whilk collected along the rocky tidal pools.",
+    "Northumbrian Glosses"
+  ],
+  [
+    "Whin",
+    "/hwɪn/",
+    "m",
+    "Gorse or furze; a spiny evergreen shrub used for kindling and baking ovens.",
+    "Middle English whin",
+    "The baker gathered dry whin from the common moor to heat his brick oven.",
+    "Promptorium Parvulorum"
+  ],
+  [
+    "White-smith",
+    "/ˈwaɪtˌsmɪθ/",
+    "m",
+    "A metalsmith who works with tin, iron plate, or pewter, as opposed to a black-smith.",
+    "Old English hwīt + smið",
+    "The white-smith hammered out bright pewter flagons for the tavern trade.",
+    "Guild Ordinances of Newcastle"
+  ],
+  [
+    "Yacche",
+    "/jætʃ/",
+    "m",
+    "To cough or clear the throat noisily; a common Middle English laboring term.",
+    "Middle English 'yachchen', imitative of the sound.",
+    "He stood at the threshold and began to yacche before entering the guildhall.",
+    "The Guild Records of York, 1394"
+  ],
+  [
+    "Yagger-man",
+    "/ˈjæɡər-mæn/",
+    "t",
+    "A middleman or itinerant merchant who bought goods in bulk to retail in smaller markets.",
+    "Compound of 'yagger' and 'man', common in northern English trade guilds.",
+    "The guild fined the yagger-man for trading outside the authorized market cross.",
+    "Records of the Merchant Adventurers of Newcastle, 1621"
+  ],
+  [
+    "Yand",
+    "/jænd/",
+    "t",
+    "To walk to and fro; to wander restlessly about the marketplace.",
+    "Dialectal variant of 'go' or 'yand', related to Old English 'gangan'.",
+    "He spent the afternoon yanding about the wool-staple hoping for a buyer.",
+    "Exmoor Scolding and Courtship, 1746"
+  ],
+  [
+    "Yant",
+    "/jænt/",
+    "t",
+    "To toss or throw lightly; a term used by dockworkers handling light cargo.",
+    "Obsolete provincial dialect variant of 'vent' or 'tant'.",
+    "Yant the sack of malt across the tailboard of the wagon.",
+    "Lancashire Glossary, 1815"
+  ],
+  [
+    "Yape",
+    "/jeɪp/",
+    "m",
+    "A trick, jest, or deceitful practice used in mercantile bargaining.",
+    "Middle English, possibly of Scandinavian origin.",
+    "He won the fleece through a cunning yape at the auctioneer's block.",
+    "Chaucer, The Reeve's Tale, c. 1387"
+  ],
+  [
+    "Yar",
+    "/jɑːr/",
+    "e",
+    "Nimble, agile, quick, or easily handled; used extensively by shipwrights and sailors.",
+    "Old English 'ġearu', ready or prepared.",
+    "She is a yar vessel, tight-built and swift upon the tack.",
+    "William Shakespeare, Antony and Cleopatra, c. 1606"
+  ],
+  [
+    "Yard-land",
+    "/ˈjɑːrd-lænd/",
+    "m",
+    "A traditional unit of land area varying from 15 to 30 acres, held by a tenant farmer.",
+    "Old English 'gyrdland', referring to the rod used for measurement.",
+    "He held two yard-lands from the abbot by feudal service and a tithe of wheat.",
+    "Domesday Book Terminology, c. 1086"
+  ],
+  [
+    "Yarrish",
+    "/ˈjærɪʃ/",
+    "t",
+    "Having a rough, harsh, or dry taste, like unrefined cider or sour malt liquor.",
+    "From 'yarr', rough or harsh, with adjectival suffix.",
+    "This ale is yarrish upon the tongue and ill-suited for the hall.",
+    "Exmoor-Scolding, 1739"
+  ],
+  [
+    "Yarte",
+    "/jɑːrt/",
+    "m",
+    "To grant, permit, or accord a privilege or guild franchise.",
+    "Middle English variant of 'earth' or more likely 'yete/grant'.",
+    "The mayor did yarte the guildsman freedom of the port.",
+    "Liber Albus: The White Book of the City of London, c. 1419"
+  ],
+  [
+    "Yatman",
+    "/ˈjætmæn/",
+    "m",
+    "A gatekeeper, warder, or toll-collector stationed at a town yate.",
+    "Compound of 'yate' and 'man'.",
+    "The yatman demanded a penny toll for every cartload of charcoal.",
+    "Civic Ordinances of Coventry, 1421"
+  ],
+  [
+    "Yawney",
+    "/ˈjɔːni/",
+    "t",
+    "A lazy, foolish, or awkward lout; an incompetent apprentice.",
+    "Provincial northern English, related to 'yawn'.",
+    "That clumsy yawney dropped the crate of stoneware in the mud.",
+    "Brockett's Glossary of North Country Words, 1825"
+  ],
+  [
+    "Yeldrin",
+    "/ˈjɛldrɪn/",
+    "t",
+    "The yellowhammer bird, or a small yellow coin (slang).",
+    "Old English 'yellow' root with diminutive suffix.",
+    "He paid the ostler a yeldrin for watering his nag.",
+    "Forby, Vocabulary of East Anglia, 1830"
+  ],
+  [
+    "Yeld",
+    "/jiːld/",
+    "m",
+    "Yielding, productive, or fertile; also applied to a cow yielding no milk (barren).",
+    "Old English 'ielde' or 'gieldan'.",
+    "A yeld beast is of little service to the dairymaid.",
+    "Promptorium Parvulorum, c. 1440"
+  ],
+  [
+    "Yelking",
+    "/ˈjɛlkɪŋ/",
+    "t",
+    "Yelling, screaming, or crying out shrilly in pain or anger.",
+    "Dialectal variant of 'yelp' with continuous suffix.",
+    "The cur set up a great yelking when the carter kicked it.",
+    "The Dialect of Craven, 1828"
+  ],
+  [
+    "Yell-house",
+    "/ˈjɛl-haʊs/",
+    "m",
+    "An unlicensed tavern, alehouse, or noisy drinking den.",
+    "Compound of 'yell' and 'house', denoting a disorderly establishment.",
+    "The bailiff raided the yell-house and seized several casks of illicit ale.",
+    "Manorial Court Rolls of Wakefield, 1348"
+  ],
+  [
+    "Yelper",
+    "/ˈjɛlpər/",
+    "e",
+    "A boaster, braggart, or loud-mouthed petitioner at the guild court.",
+    "Middle English 'yelpen', to boast.",
+    "Pay no heed to that legal yelper; his case lacks substance.",
+    "John Heywood, Proverbs, 1546"
+  ],
+  [
+    "Yender",
+    "/ˈjɛndər/",
+    "t",
+    "Yonder; situated at a distance, over there.",
+    "Dialectal contraction of 'yonder'.",
+    "Take those timber logs down to yender wharf.",
+    "Wiltshire Glossary, 1853"
+  ],
+  [
+    "Yenned",
+    "/jɛnd/",
+    "t",
+    "Opened widely; stretched out, as a door or a window shutter.",
+    "Dialectal past participle, possibly from 'yawn'.",
+    "The warehouse door stood yenned all morning to let the smoke clear.",
+    "Shropshire Word-Book, 1879"
+  ],
+  [
+    "Yer",
+    "/jɜːr/",
+    "m",
+    "Ear; a variant spelling common in medieval regional records.",
+    "Middle English 'ere'.",
+    "He whispered a secret into the bailiff's yer.",
+    "The Brut Chronicles, c. 1400"
+  ],
+  [
+    "Yerd",
+    "/jɜːrd/",
+    "m",
+    "A rod, stick, or staff of office carried by a guild warden.",
+    "Old English 'gyrd', rod or measure.",
+    "The alderman struck the counter with his yerd to demand silence.",
+    "Guild Ordinances of Norwich, 1389"
+  ],
+  [
+    "Yepsen",
+    "/ˈjɛpsən/",
+    "t",
+    "As much as can be held in both hands cupped together; a double handful.",
+    "Old English 'gēap', wide or cupped.",
+    "She scooped up a yepsen of oatmeal for the porridge pot.",
+    "Jamieson's Scottish Dictionary, 1808"
+  ],
+  [
+    "Yere",
+    "/jɪər/",
+    "e",
+    "Year; an Elizabethan spelling variant reflecting contemporary pronunciation.",
+    "Middle English 'jer', Old English 'gēar'.",
+    "He bound the apprentice for the term of seven yere.",
+    "Statutes of the Realm, 1563"
+  ],
+  [
+    "Yetk",
+    "/jɛtʃ/",
+    "m",
+    "To itch, prick, or irritate the skin.",
+    "Middle English variant of 'itch' or 'yick'.",
+    "Handling the raw wool makes a spinner's palms yetk sorely.",
+    "Medical Recipe MS, Royal Library, c. 1450"
+  ],
+  [
+    "Yex",
+    "/jɛks/",
+    "m",
+    "To hiccup, sob, or heave; a spasmodic catch in the breath.",
+    "Old English 'ġeocsa', hiccup.",
+    "The apprentice took to the yex after drinking too much small beer.",
+    "John Withals, A Little Dictionary for Children, 1556"
+  ],
+  [
+    "Yinter",
+    "/ˈjɪntər/",
+    "t",
+    "A yearling beast, specifically a calf or foal between one and two years old.",
+    "Contraction of 'year-inter' or 'yearling'.",
+    "The drover drove three yinters into the livestock fair.",
+    "Agricultural Gazette of England, 1858"
+  ],
+  [
+    "Yode",
+    "/joʊd/",
+    "m",
+    "Went; the archaic past tense of the verb 'to go'.",
+    "Old English 'eode'.",
+    "He yode to the magistrate to lodge his complaint against the baker.",
+    "Gower, Confessio Amantis, c. 1390"
+  ],
+  [
+    "Yoke-fellow",
+    "/ˈjoʊk-ˌfɛloʊ/",
+    "e",
+    "A partner, associate, or co-worker bound by the same occupational harness.",
+    "Compound of 'yoke' and 'fellow'.",
+    "He and his yoke-fellow shared the lease of the fulling mill.",
+    "Richard Hooker, Of the Laws of Ecclesiastical Polity, 1594"
+  ],
+  [
+    "Abbroach",
+    "/əˈbroʊtʃ/",
+    "e",
+    "To broach a cask, or to set afloat and spread abroad evil or a rumor.",
+    "From Old French 'abroachier', to pierce or tap.",
+    "They sought to abbroach new slander through the market square.",
+    "Nicholas Udall, Translation of Erasmus"
+  ],
+  [
+    "Abetment",
+    "/əˈbɛtmənt/",
+    "e",
+    "The act of encouraging, instigating, or supporting, especially in a crime.",
+    "From Old French 'abeter' to incite.",
+    "Without the abetment of his fellows, the plot would have failed.",
+    "Richard Hooker, Of the Lawes of Ecclesiasticall Politie"
+  ],
+  [
+    "Abjudicate",
+    "/æbˈdʒuːdɪkeɪt/",
+    "e",
+    "To reject or cast away by judicial sentence.",
+    "From Latin 'abjudicare', to take away by judgment.",
+    "The magistrate did abjudicate his false claim to the estate.",
+    "Sir Thomas Elyot, The Boke Named The Governour"
+  ],
+  [
+    "Aby",
+    "/əˈbaɪ/",
+    "e",
+    "To pay for, suffer, or atone for an offense.",
+    "From Old English 'ābycgan', to buy back, pay for.",
+    "Thou shalt aby this insolence dearly on the field.",
+    "William Shakespeare, A Midsummer Night's Dream"
+  ],
+  [
+    "Accursedness",
+    "/əˈkɜːrsɪdnəs/",
+    "e",
+    "The state of being under a curse or thoroughly wicked.",
+    "From Middle English 'acursed' plus '-ness'.",
+    "The accursedness of the ruined abbey deterred all travelers.",
+    "The Geneva Bible"
+  ],
+  [
+    "Achedoke",
+    "/ˈeɪkdoke/",
+    "m",
+    "An old herbal name for a plant, possibly hemlock or parsley.",
+    "Middle English compound of 'ache' (parsley) and 'doke'.",
+    "She brewed a poultice from the achedoke to ease the joint pain.",
+    "Middle English Herbarium"
+  ],
+  [
+    "Acidulate",
+    "/əˈsɪdjʊleɪt/",
+    "t",
+    "To make slightly sour or acid.",
+    "From Latin 'acidulus', somewhat sour.",
+    "He used lemon to acidulate the broth before serving.",
+    "John Florio, Queen Anna's New World of Words"
+  ],
+  [
+    "Acquest",
+    "/əˈkwɛst/",
+    "e",
+    "Acquisition; property gained by purchase or effort rather than inheritance.",
+    "From French 'acquest' or Latin 'acquaesitum'.",
+    "The noble estate was an acquest of his own hard valor.",
+    "Sir Walter Raleigh, History of the World"
+  ],
+  [
+    "Actitate",
+    "/ˈæktɪteɪt/",
+    "e",
+    "To agitate, debate, or discuss repeatedly.",
+    "From Latin 'actitare', frequentative of 'agere'.",
+    "The council continued to actitate the treaty terms until dawn.",
+    "Philemon Holland, Translation of Livy"
+  ],
+  [
+    "Admire",
+    "/ədˈmaɪər/",
+    "e",
+    "To regard with wonder, astonishment, or surprise (often without positive praise).",
+    "From Latin 'admirari', to wonder at.",
+    "The strange apparition caused all men to admire and tremble.",
+    "William Shakespeare, Henry VIII"
+  ],
+  [
+    "Adpress",
+    "/æˈprɛs/",
+    "e",
+    "To press against or urge strongly.",
+    "From Latin 'adprimere'.",
+    "She tried to adpress her petition upon the busy chancellor.",
+    "Thomas Dekker, The Honest Whore"
+  ],
+  [
+    "Adularescent",
+    "/ˌædjʊləˈrɛsənt/",
+    "t",
+    "Flattering, cringing, or fawning like a sycophant.",
+    "From Latin 'adulari', to flatter.",
+    "His adularescent manners did not deceive the wise statesman.",
+    "Robert Burton, The Anatomy of Melancholy"
+  ],
+  [
+    "Advesperate",
+    "/ædˈvɛspəreɪt/",
+    "t",
+    "To draw toward evening or grow late.",
+    "From Latin 'advesperascere', to become evening.",
+    "As the day began to advesperate, the pilgrims sought shelter.",
+    "Thomas Blount, Glossographia"
+  ],
+  [
+    "Afeard",
+    "/əˈfɪərd/",
+    "e",
+    "Afraid, frightened, or terrified.",
+    "From Old English 'āfǣran', to frighten.",
+    "Be not afeard; the isle is full of noises.",
+    "William Shakespeare, The Tempest"
+  ],
+  [
+    "Affear",
+    "/əˈfɪər/",
+    "e",
+    "To frighten, terrify, or put in fear.",
+    "From Old English 'āfǣran'.",
+    "The sudden thunder did affear the grazing cattle.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Affiance",
+    "/əˈfaɪəns/",
+    "e",
+    "Trust, faith, troth, or a marriage betrothal.",
+    "From Old French 'affiance', trust.",
+    "They sealed their affiance with a ring and a solemn oath.",
+    "William Shakespeare, 2 Henry VI"
+  ],
+  [
+    "Afflux",
+    "/ˈæflʌks/",
+    "e",
+    "A flowing toward a particular place, especially of humors or fluids in the body.",
+    "From Latin 'affluxus', a flowing to.",
+    "An afflux of blood to the brain caused his sudden swoon.",
+    "Ambroise Paré, Translated by Thomas Johnson"
+  ],
+  [
+    "Affrap",
+    "/əˈfræp/",
+    "e",
+    "To strike fiercely or encounter violently.",
+    "From Old French 'affrapper', to strike.",
+    "The knights did affrap upon each other's shields with great fury.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Affrightment",
+    "/əˈfraɪtmənt/",
+    "e",
+    "Terror, fright, or the state of being suddenly alarmed.",
+    "From 'affright' plus '-ment'.",
+    "She woke from the nightmare in a great affrightment.",
+    "Sir Philip Sidney, The Countess of Pembroke's Arcadia"
+  ],
+  [
+    "Affront",
+    "/əˈfrʌnt/",
+    "e",
+    "To meet face to face, confront directly, or encounter boldly.",
+    "From Old French 'affronter', to face.",
+    "We will affront the enemy at the narrow bridge.",
+    "William Shakespeare, Hamlet"
+  ],
+  [
+    "Agamous",
+    "/ˈæɡəməs/",
+    "t",
+    "Wedless, unmarried, or lacking sexual reproduction.",
+    "From Greek 'agamos', unmarried.",
+    "The ascetic lived an agamous life of quiet contemplation.",
+    "Henry Cockeram, English Dictionarie"
+  ],
+  [
+    "Agasp",
+    "/əˈɡæsp/",
+    "e",
+    "Gasping for breath, panting, or in a state of wonder.",
+    "From prefix 'a-' plus 'gasp'.",
+    "He stood agasp at the magnificent sight of the cathedral.",
+    "Arthur Golding, Translation of Ovid's Metamorphoses"
+  ],
+  [
+    "Agaze",
+    "/əˈɡeɪz/",
+    "e",
+    "Staring intently, fixed in wonder or amazement.",
+    "From prefix 'a-' plus 'gaze'.",
+    "The crowd remained agaze as the royal procession passed.",
+    "Christopher Marlowe, Tamburlaine"
+  ],
+  [
+    "Agnate",
+    "/ˈæɡneɪt/",
+    "e",
+    "Related on the father's side; a male kinsman through paternal lineage.",
+    "From Latin 'agnatus', related by male descent.",
+    "The succession was disputed by the nearest agnate of the king.",
+    "Sir John Hayward, The Lives of the III Normans"
+  ],
+  [
+    "Agnize",
+    "/æɡˈnaɪz/",
+    "e",
+    "To recognize, acknowledge, confess, or admit.",
+    "From Latin 'agnoscere', to recognize.",
+    "He did agnize his grievous fault before the assembly.",
+    "William Shakespeare, Othello"
+  ],
+  [
+    "Agood",
+    "/əˈɡʊd/",
+    "e",
+    "In earnest, heartily, heavily, or continuously.",
+    "From prefix 'a-' plus 'good'.",
+    "She wept agood when the tragic tale was told.",
+    "The Two Gentlemen of Verona"
+  ],
+  [
+    "A-height",
+    "/əˈhaɪt/",
+    "e",
+    "At a great height, aloft, or upward.",
+    "From prefix 'a-' plus 'height'.",
+    "The seabird soared a-height above the crashing waves.",
+    "William Shakespeare, King Lear"
+  ],
+  [
+    "Akehorn",
+    "/ˈeɪkhɔːrn/",
+    "m",
+    "An acorn, the fruit of the oak tree.",
+    "From Old English 'æcern'.",
+    "The swine rooted through the forest leaf-mold for akehorn.",
+    "Promptorium Parvulorum"
+  ],
+  [
+    "Alastor",
+    "/əˈlæstər/",
+    "e",
+    "An evil spirit, an avenging demon, or a tormentor.",
+    "From Greek 'Alastor', an epithet of Zeus as an avenger.",
+    "It seemed some alastor had possessed his mind with madness.",
+    "Robert Burton, The Anatomy of Melancholy"
+  ],
+  [
+    "Allective",
+    "/əˈlɛktɪv/",
+    "e",
+    "Alluring, inviting, or serving as an enticement.",
+    "From Latin 'allicere', to entice.",
+    "Wealth and honors are strong allective powers to ambition.",
+    "Sir Thomas Elyot, The Boke Named The Governour"
+  ],
+  [
+    "Amate",
+    "/əˈmeɪt/",
+    "e",
+    "To dishearten, daunt, dismay, or confound.",
+    "From Old French 'amatir', to subdue or kill.",
+    "The sudden defeat did completely amate the rebel forces.",
+    "Edmund Spenser, The Faerie Queene"
+  ],
+  [
+    "Amazedness",
+    "/əˈmeɪzdnəs/",
+    "e",
+    "Great perplexity, astonishment, or bewilderment.",
+    "From 'amazed' plus '-ness'.",
+    "He stood in deep amazedness as the ghost vanished into thin air.",
+    "The Bible, Authorized King James Version"
+  ],
+  [
+    "Bacciberous",
+    "/bækˈsɪbərəs/",
+    "e",
+    "Bearing berries.",
+    "From Latin 'bacca' (berry) + 'gerere' (to bear).",
+    "The wild shrub is bacciberous, yielding dark and poisonous globes.",
+    "John Gerard, 'The Herball or General Historie of Plantes', 1597"
+  ],
+  [
+    "Backfriend",
+    "/ˈbækfrend/",
+    "e",
+    "A secret enemy; a false friend who pretends friendship while harboring malice.",
+    "From 'back' + 'friend', coined in the 16th century.",
+    "Trust not a backfriend whose smile is sweeter than honey.",
+    "John Florio, 'Queen Anna's New World of Words', 1611"
+  ],
+  [
+    "Baffoule",
+    "/ˈbæfuːl/",
+    "e",
+    "To treat with ignominy, mock, disgrace, or baffle.",
+    "From Old French 'bafouer' (to treat with contempt).",
+    "An he be proud, yet let him keep his rank lest he be baffouled.",
+    "Edmund Spenser, 'A View of the Present State of Ireland', 1596"
+  ],
+  [
+    "Bagge",
+    "/bæɡ/",
+    "m",
+    "To swell out, puff up, or bulge like a bag.",
+    "From Old Norse or Middle Dutch roots related to a pouch.",
+    "His cheeks do bagge with pride and vain conceit.",
+    "John Gower, 'Confessio Amantis', 1390"
+  ],
+  [
+    "Baggage",
+    "/ˈbæɡɪdʒ/",
+    "e",
+    "A worthless woman; a strumpet or jade (used as a term of abuse).",
+    "From Old French 'bagasse' (prostitute).",
+    "Away, you baggage, you ox-eyed baggage!",
+    "William Shakespeare, 'The Taming of the Shrew', 1590"
+  ],
+  [
+    "Bail",
+    "/beɪl/",
+    "m",
+    "A bucket or vessel used for bailing water from a boat.",
+    "From Old French 'baille' (bucket, tub).",
+    "Reach me the bail that we may cast the rising bilge forth.",
+    "The Chester Mystery Cycle, c. 1425"
+  ],
+  [
+    "Bain",
+    "/beɪn/",
+    "e",
+    "Ready, willing, or prompt to do something.",
+    "From Old Norse 'beinn' (straight, ready, helpful).",
+    "He was bain to serve his master at any hour.",
+    "Gawain and the Green Knight, c. 1400"
+  ],
+  [
+    "Bairn",
+    "/bɛrn/",
+    "m",
+    "A child or infant.",
+    "From Old English 'bearn', of Germanic origin.",
+    "God bless the bonny bairn sleeping in the cradle.",
+    "York Mystery Plays, c. 1440"
+  ],
+  [
+    "Baite",
+    "/beɪt/",
+    "e",
+    "To stop for food or refreshment during a journey; to feed horses.",
+    "Shortened form of 'abate' or from Old Norse 'beita'.",
+    "Let us baite our horses at the sign of the Red Lion.",
+    "William Harrison, 'Description of England', 1587"
+  ],
+  [
+    "Balductum",
+    "/bælˈdʌktəm/",
+    "e",
+    "A frothy, worthless mixture; nonsense or foolish talk.",
+    "Origin obscure, coined in the late 16th century, often associated with a drink or recipe.",
+    "Out upon thee for a purveyor of balductum and idle fancies.",
+    "Thomas Nash, 'Lenten Stuffe', 1599"
+  ],
+  [
+    "Bale-full",
+    "/ˈbeɪlˌfʊl/",
+    "e",
+    "Causing ruin or destruction.",
+    "From Middle English 'balful'.",
+    "The bale-full star portended plague and civil war.",
+    "Barnabe Googe, 'The Zodiak of Life', 1565"
+  ],
+  [
+    "Ballace",
+    "/ˈbæləs/",
+    "e",
+    "Ballast; heavy material placed in the hold of a ship to stabilize it.",
+    "Variant spelling of ballast, common in Tudor maritime records.",
+    "The carack took on gravel ballace ere she weighed anchor.",
+    "Richard Hakluyt, 'Principal Navigations', 1589"
+  ],
+  [
+    "Ballette",
+    "/bæˈlɛt/",
+    "e",
+    "A short song or poem, typically of a light or romantic nature.",
+    "From Old French 'ballette', diminutive of 'balle'.",
+    "He penned a pretty ballette to his mistress's eyebrows.",
+    "William Shakespeare, 'Much Ado About Nothing', 1598"
+  ],
+  [
+    "Baly",
+    "/ˈbæli/",
+    "m",
+    "A bailiff, magistrate, or officer of the law.",
+    "Variant of bailiff, from Old French 'baillif'.",
+    "The town baly came with a writ of attachment.",
+    "Piers Plowman, c. 1370"
+  ],
+  [
+    "Bambalio",
+    "/bæmˈbeɪliˌoʊ/",
+    "e",
+    "A stammerer or stutterer.",
+    "From Latin 'bambalio', derived from the sound of stuttering.",
+    "He spoke like a very bambalio when brought before the judge.",
+    "Ben Jonson, 'Every Man Out of His Humor', 1599"
+  ],
+  [
+    "Ban",
+    "/bæn/",
+    "m",
+    "A proclamation, curse, or edict of outlawry.",
+    "From Old English 'bannan' (to summon, proclaim).",
+    "The church pronounced a heavy ban upon the sacrilegious thief.",
+    "Robert Mannyng, 'Chronicle', 1338"
+  ],
+  [
+    "Bandog",
+    "/ˈbænˌdɔːɡ/",
+    "e",
+    "A large, fierce dog kept tied up or chained, often a mastiff.",
+    "From 'band' + 'dog'.",
+    "Let slip the furious bandogs upon the fleeing trespassers.",
+    "William Shakespeare, 'Henry VI, Part 2', 1591"
+  ],
+  [
+    "Bandolier",
+    "/ˌbændəˈlɪər/",
+    "e",
+    "A shoulder belt with small attached loops or cases for carrying musket charges.",
+    "From French 'bandolière', Spanish 'bandolera'.",
+    "Each musketeer adjusted his leather bandolier laden with powder.",
+    "Barnaby Rich, 'A Path-way to Military Practice', 1587"
+  ],
+  [
+    "Ban-dog",
+    "/ˈbænˌdɔːɡ/",
+    "e",
+    "Alternative spelling of bandog; a chained mastiff.",
+    "From 'band' + 'dog'.",
+    "The savage ban-dog barked fiercely at the gate.",
+    "Raphael Holinshed, 'Chronicles of England, Scotland, and Ireland', 1577"
+  ],
+  [
+    "Bannition",
+    "/bæˈnɪʃən/",
+    "e",
+    "Expulsion, banishment, or exile.",
+    "From Late Latin 'bannitio' (excommunication or exile).",
+    "His sentence was eternal bannition from the realm.",
+    "John Foxe, 'Actes and Monuments', 1563"
+  ],
+  [
+    "Banquet",
+    "/ˈbæŋkwɪt/",
+    "e",
+    "A course of sweetmeats, dessert, or fruit served after the main meal.",
+    "From French 'banquet', Italian 'banchetto'.",
+    "After the feast, a sumptuous banquet of marchpane and wine was served.",
+    "William Shakespeare, 'The Taming of the Shrew', 1590"
+  ],
+  [
+    "Banyan",
+    "/ˈbænjən/",
+    "e",
+    "An Indian fig tree; also a loose gown worn by men in the 17th century.",
+    "From Portuguese 'banian', from Gujarati 'vāṇiyō' (merchant).",
+    "He sat in his study wrapped in a silken banyan from the East.",
+    "Thomas Herbert, 'Some Yeares Travels into Africa & Asia Minor', 1634"
+  ],
+  [
+    "Barbed",
+    "/bɑːrbt/",
+    "e",
+    "Armed or protected with armor, specifically said of warhorses (barded).",
+    "Corruption of 'barded', from French 'barde'.",
+    "The knights rode forth on barbed steeds caparisoned for war.",
+    "Edmund Spenser, 'The Faerie Queene', 1590"
+  ],
+  [
+    "Barbel",
+    "/ˈbɑːrbəl/",
+    "m",
+    "A freshwater fish with barbels around its mouth, of the carp family.",
+    "From Old French 'barbel', from Latin 'barbus'.",
+    "He caught a heavy barbel in the swift river near the mill.",
+    "The Master of Game, c. 1410"
+  ],
+  [
+    "Bargaret",
+    "/ˈbɑːrɡərət/",
+    "e",
+    "A pastoral song or dance; a bergerette.",
+    "From Old French 'bergerette' (shepherdess's song).",
+    "They danced a merry bargaret upon the village green.",
+    "William Warner, 'Albions England', 1586"
+  ],
+  [
+    "Baricade",
+    "/ˈbærɪˌkeɪd/",
+    "e",
+    "A hastily constructed defensive barrier; a barricade.",
+    "From French 'barricade', from Italian 'barricata'.",
+    "They raised a strong baricade across the narrow street.",
+    "Sir Walter Raleigh, 'History of the World', 1614"
+  ],
+  [
+    "Barn",
+    "/bɑːrn/",
+    "m",
+    "A building for storing grain, hay, or agricultural produce.",
+    "From Old English 'bereern' (barley-house).",
+    "The rich harvest was safely housed within the great barn.",
+    "William Langland, 'Piers Plowman', c. 1370"
+  ],
+  [
+    "Barret",
+    "/ˈbærɪt/",
+    "e",
+    "A flat-topped cap worn by lawyers, scholars, or churchmen.",
+    "From Old French 'barret', diminutive of 'barre'.",
+    "He doffed his academic barret to the dean.",
+    "Thomas Overbury, 'Characters', 1614"
+  ],
+  [
+    "Basan",
+    "/ˈbæsən/",
+    "m",
+    "Sheepskin leather dressed and dyed, often yellowish-brown.",
+    "From Old French 'baset' or Spanish 'badana'.",
+    "The book was bound in soft basan with gilded edges.",
+    "Medieval Craft Guild Records, 1450"
   ]
 ];

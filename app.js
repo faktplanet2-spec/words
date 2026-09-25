@@ -577,6 +577,28 @@
         }
     }
 
+    function cleanTextForCompare(str) {
+        if (!str) return '';
+        return str
+            .toLowerCase()
+            .replace(/[«»""''.,\/#!$%\^&\*;:{}=\-_`~()]/g, '')
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
+
+    function isRedundantSynonym(synonym, meaning) {
+        if (!synonym || !meaning) return true;
+        const s = cleanTextForCompare(synonym);
+        const m = cleanTextForCompare(meaning);
+        if (!s || !m) return true;
+        if (s === m) return true;
+        if (m.startsWith(s)) return true;
+        if (s.startsWith(m)) return true;
+        if (m.includes(s) && (s.length > 10 || s.split(' ').length >= 2)) return true;
+        if (s.includes(m)) return true;
+        return false;
+    }
+
     // === Word of the Day (Strictly by Language Tab) ===
     function getWordOfDay() {
         const pool = WORDS_DATABASE.filter(w => w.lang === filterLang);
@@ -629,11 +651,13 @@
             els.wodCategory.style.display = 'none';
         }
 
-        // Modern synonym pill highlight in active language
+        // Modern synonym pill highlight (hidden if redundant with meaning)
         const synonym = getWordSynonym(w, currentLang);
-        if (synonym || w.synonym) {
+        const rawSyn = synonym || w.synonym;
+        const showSynonym = rawSyn && !isRedundantSynonym(rawSyn, meaning);
+        if (showSynonym) {
             els.wodSynonymWrap.style.display = 'inline-flex';
-            els.wodSynonym.textContent = synonym || w.synonym;
+            els.wodSynonym.textContent = rawSyn;
             els.wodSynonym.dataset.origText = w.synonym;
             if (!hasNativeTranslation(w, 'synonym', currentLang) && w.synonym) {
                 adaptElementText(els.wodSynonym, w.synonym, currentLang, 'synonym');
@@ -916,7 +940,9 @@
             : '';
 
         const meaning = getWordMeaning(w, currentLang);
-        const synonym = getWordSynonym(w, currentLang);
+        const rawSynonym = getWordSynonym(w, currentLang) || w.synonym;
+        const showSynonym = rawSynonym && !isRedundantSynonym(rawSynonym, meaning);
+        const synonym = showSynonym ? rawSynonym : '';
         const synLabelPrefix = currentLang === 'ru' ? 'Аналог: ' : (currentLang === 'de' ? 'Entsprechung: ' : (currentLang === 'es' ? 'Equivalente: ' : (currentLang === 'fr' ? 'Équivalent : ' : (currentLang === 'it' ? 'Equivalente: ' : 'Equivalent: '))));
 
         card.innerHTML = `
@@ -936,10 +962,10 @@
 
             <p class="word-card-pronunciation">${w.pronunciation}</p>
 
-            ${(synonym || w.synonym) ? `
+            ${synonym ? `
             <div class="word-card-synonym">
                 <span>🔄</span>
-                <span>${synLabelPrefix}<strong class="card-synonym-text" data-orig-text="${w.synonym}">${synonym || w.synonym}</strong></span>
+                <span>${synLabelPrefix}<strong class="card-synonym-text" data-orig-text="${w.synonym}">${synonym}</strong></span>
             </div>` : ''}
 
             <p class="word-card-meaning" data-orig-text="${w.meaning}">${meaning}</p>
@@ -954,7 +980,7 @@
             const mEl = card.querySelector('.word-card-meaning');
             if (mEl) adaptElementText(mEl, w.meaning, currentLang, 'meaning');
         }
-        if (!hasNativeTranslation(w, 'synonym', currentLang) && w.synonym) {
+        if (synonym && !hasNativeTranslation(w, 'synonym', currentLang) && w.synonym) {
             const sEl = card.querySelector('.card-synonym-text');
             if (sEl) adaptElementText(sEl, w.synonym, currentLang, 'synonym');
         }
@@ -983,7 +1009,9 @@
         const typeDesc = currentLang === 'ru' ? typeInfo.descRu : (typeInfo['desc' + currentLang.toUpperCase()] || typeInfo.descEn);
 
         const meaning = getWordMeaning(w, currentLang);
-        const synonym = getWordSynonym(w, currentLang);
+        const rawSynonym = getWordSynonym(w, currentLang) || w.synonym;
+        const showSynonym = rawSynonym && !isRedundantSynonym(rawSynonym, meaning);
+        const synonym = showSynonym ? rawSynonym : '';
         const etymology = getWordEtymology(w, currentLang);
 
         els.modalContent.innerHTML = `
@@ -1002,12 +1030,12 @@
 
             <p class="word-transcription">${w.pronunciation}</p>
 
-            ${(synonym || w.synonym) ? `
+            ${synonym ? `
             <div class="modal-synonym-box">
                 <span style="font-size: 1.5rem;">✨</span>
                 <div>
                     <div class="modal-synonym-title">${t('synonymLabel')}</div>
-                    <div class="modal-synonym-text" data-orig-text="${w.synonym}">${synonym || w.synonym}</div>
+                    <div class="modal-synonym-text" data-orig-text="${w.synonym}">${synonym}</div>
                     <small style="color: var(--text-muted); font-size: 0.8rem;">${typeDesc}</small>
                 </div>
             </div>` : ''}
@@ -1116,7 +1144,13 @@
         // Build 4 choices with localized text
         const getChoiceText = (item) => {
             if (quizMode === 'synonym') {
-                return getWordSynonym(item, currentLang) || item.synonym;
+                const s = getWordSynonym(item, currentLang) || item.synonym;
+                if (s && !isRedundantSynonym(s, getWordMeaning(item, currentLang))) return s;
+                // If synonym is redundant with meaning or empty, extract concise first segment
+                const m = getWordMeaning(item, currentLang) || item.meaning;
+                const splitClause = /,\s*(?:а\s+также|также|то\s+есть|тож|который|которая|которое|которые|что\s+и|служивший|ведавший|предназначенный|представляющий|в\s+отличие|особенно|чаще\s+всего|в\s+знач)/i;
+                const subParts = m.split(/[;(\-—]/)[0].split(splitClause);
+                return (subParts[0] || m).trim();
             }
             return getWordMeaning(item, currentLang) || item.meaning;
         };
@@ -1179,14 +1213,15 @@
         els.quizScore.textContent = quizScore;
         els.quizStreak.textContent = quizStreak;
 
-        // Explanation reveal in active language
+        // Explanation reveal in active language (strictly never repeats the explanation twice)
         const wordMeaning = getWordMeaning(word, currentLang);
-        const wordSynonym = getWordSynonym(word, currentLang);
+        const rawSynonym = getWordSynonym(word, currentLang) || word.synonym;
+        const showSynonym = rawSynonym && !isRedundantSynonym(rawSynonym, wordMeaning);
         const synLabelPrefix = currentLang === 'ru' ? 'Современный аналог' : (currentLang === 'de' ? 'Moderne Entsprechung' : (currentLang === 'es' ? 'Equivalente moderno' : (currentLang === 'fr' ? 'Équivalent moderne' : (currentLang === 'it' ? 'Equivalente moderno' : 'Modern equivalent'))));
 
         els.quizExplanation.innerHTML = `
             <p><strong>${word.word}</strong> - ${wordMeaning}</p>
-            ${(wordSynonym || word.synonym) ? `<p>✨ <em>${synLabelPrefix}:</em> <strong>${wordSynonym || word.synonym}</strong></p>` : ''}
+            ${showSynonym ? `<p>✨ <em>${synLabelPrefix}:</em> <strong>${rawSynonym}</strong></p>` : ''}
             <blockquote style="margin-top: 8px; font-style: italic; color: var(--text-muted); font-size: 0.88rem;">${word.quote} (${word.source})</blockquote>
         `;
 

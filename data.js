@@ -260,30 +260,7 @@ function analyzeWord(word, pronunciation, eraKey, meaning, lang) {
     const wLow = word.toLowerCase().trim();
     const mLow = meaning.toLowerCase();
 
-    // 1. Synonym extraction
-    let synonym = '';
-    if (lang === 'ru' && RU_CURATED_SYNONYMS[wLow]) {
-        synonym = RU_CURATED_SYNONYMS[wLow];
-    } else if (lang === 'en' && EN_CURATED_SYNONYMS[wLow]) {
-        synonym = EN_CURATED_SYNONYMS[wLow];
-    } else {
-        // Extract natural first segment or full meaning
-        let firstClause = meaning.split(/[;(\-—]/)[0].trim();
-        if (firstClause.endsWith('.')) {
-            firstClause = firstClause.slice(0, -1).trim();
-        }
-        if (lang === 'en') {
-            synonym = firstClause.replace(/^(a|an|the|to)\s+/i, '');
-        } else {
-            synonym = firstClause.replace(/^(один из|одна из|вид|род)\s+/i, '');
-        }
-        // NEVER truncate or cut off: full designation is preserved
-        if (synonym.length > 0) {
-            synonym = synonym.charAt(0).toLowerCase() + synonym.slice(1);
-        }
-    }
-
-    // 2. Classify word type: Archaism vs Historicism
+    // 1. Classify word type: Archaism vs Historicism
     // Historicisms: specific extinct items, ranks, ancient money, medieval arms/vessels
     let wordType = 'archaism';
     const historicismKeywords = [
@@ -297,6 +274,42 @@ function analyzeWord(word, pronunciation, eraKey, meaning, lang) {
     ];
     if (historicismKeywords.some(kw => mLow.includes(kw) || wLow.includes(kw))) {
         wordType = 'historicism';
+    }
+
+    // 2. Synonym extraction (ensures concise modern equivalents without repeating the definition)
+    let synonym = '';
+    if (lang === 'ru' && RU_CURATED_SYNONYMS[wLow]) {
+        synonym = RU_CURATED_SYNONYMS[wLow];
+    } else if (lang === 'en' && EN_CURATED_SYNONYMS[wLow]) {
+        synonym = EN_CURATED_SYNONYMS[wLow];
+    } else if (wordType === 'historicism') {
+        // Historicisms describe extinct realities with no 1-to-1 modern synonym
+        synonym = '';
+    } else {
+        // Extract natural first segment
+        let firstClause = meaning.split(/[;(\-—]/)[0].trim();
+        if (firstClause.endsWith('.')) {
+            firstClause = firstClause.slice(0, -1).trim();
+        }
+        if (lang === 'en') {
+            firstClause = firstClause.replace(/^(a|an|the|to)\s+/i, '');
+        } else {
+            firstClause = firstClause.replace(/^(один из|одна из|вид|род)\s+/i, '');
+        }
+
+        // Split on explanatory subordinate clauses to get genuine headword synonyms
+        const splitClause = /,\s*(?:а\s+также|также|то\s+есть|тож|который|которая|которое|которые|что\s+и|служивший|ведавший|предназначенный|представляющий|в\s+отличие|особенно|чаще\s+всего|в\s+знач|as\s+well\s+as|especially|such\s+as|specifically|which\s+is|who\s+is)/i;
+        const subParts = firstClause.split(splitClause);
+        let synCandidate = subParts[0].trim();
+        if (synCandidate.endsWith('.')) synCandidate = synCandidate.slice(0, -1).trim();
+
+        const cSyn = synCandidate.toLowerCase().replace(/[.,!?;:«»"' ]/g, '');
+        const cMean = meaning.toLowerCase().replace(/[.,!?;:«»"' ]/g, '');
+
+        // If candidate is identical to meaning or covers the full meaning, it is the explanation itself, NOT a distinct synonym
+        if (cSyn && cMean && cSyn !== cMean && cMean.length - cSyn.length >= 8) {
+            synonym = synCandidate.charAt(0).toLowerCase() + synCandidate.slice(1);
+        }
     }
 
     // 3. Classify category
