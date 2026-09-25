@@ -122,6 +122,66 @@
         particles: $('particles')
     };
 
+    // === Supabase Database Integration ===
+    const SUPABASE_URL = 'https://lqqpdmyfmamhnjdeggfu.supabase.co';
+    const SUPABASE_KEY = 'sb_publishable_Q93ZriksOP7lIa0Ibut1jw_8YJQa2AE';
+    let supabaseClient = null;
+
+    try {
+        if (window.supabase && typeof window.supabase.createClient === 'function') {
+            supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+        }
+    } catch (e) {
+        console.warn('Supabase initialization note:', e);
+    }
+
+    async function syncWordsFromSupabase() {
+        if (!supabaseClient) return;
+        try {
+            const { data, error } = await supabaseClient
+                .from('words')
+                .select('*')
+                .order('id', { ascending: false })
+                .limit(200);
+
+            if (!error && Array.isArray(data) && data.length > 0) {
+                let addedCount = 0;
+                data.forEach(dbWord => {
+                    const exists = WORDS_DATABASE.some(w => 
+                        w.word.toLowerCase() === dbWord.word.toLowerCase() && 
+                        w.lang === dbWord.lang
+                    );
+                    if (!exists) {
+                        WORDS_DATABASE.unshift({
+                            word: dbWord.word,
+                            transcription: dbWord.transcription || '',
+                            meaning: dbWord.meaning,
+                            modernSynonym: dbWord.modern_synonym || '',
+                            era: dbWord.era || '',
+                            eraName: dbWord.era_name || '',
+                            type: dbWord.type || '',
+                            category: dbWord.category || '',
+                            categoryName: dbWord.category_name || '',
+                            source: dbWord.source || '',
+                            lang: dbWord.lang || 'ru'
+                        });
+                        addedCount++;
+                    }
+                });
+
+                if (addedCount > 0) {
+                    console.log(`📥 Synced ${addedCount} new words from Supabase!`);
+                    buildCategoryFilters();
+                    buildEraFilters();
+                    renderGrid();
+                    if (els.statTotal) els.statTotal.textContent = WORDS_DATABASE.length;
+                }
+            }
+        } catch (e) {
+            console.warn('Supabase sync note:', e);
+        }
+    }
+
     // === Init ===
     function init() {
         loadPreferences();
@@ -134,6 +194,7 @@
         bindEvents();
         updateUILanguage();
         animateStats();
+        syncWordsFromSupabase();
     }
 
     // === Preferences (localStorage) ===
@@ -988,6 +1049,26 @@
                     'Время отправки': new Date().toLocaleString()
                 })
             });
+
+            // Also save directly to Supabase suggested_words table
+            if (supabaseClient) {
+                try {
+                    await supabaseClient.from('suggested_words').insert([{
+                        word: wordInput,
+                        lang: langInput,
+                        modern_synonym: synonymInput,
+                        type: typeInput,
+                        category: categoryInput,
+                        meaning: meaningInput,
+                        source: sourceInput,
+                        author: authorInput,
+                        status: 'pending'
+                    }]);
+                    console.log('Word proposal saved to Supabase!');
+                } catch (sbErr) {
+                    console.warn('Supabase proposal save note:', sbErr);
+                }
+            }
 
             // Reset form & close modal
             els.suggestForm.reset();
