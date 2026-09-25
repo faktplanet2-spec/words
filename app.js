@@ -117,6 +117,12 @@
         footerSuggestBtn: $('footerSuggestBtn'),
         suggestForm: $('suggestForm'),
 
+        // Donate / Support Author Modal
+        donateModalOverlay: $('donateModalOverlay'),
+        donateModalClose: $('donateModalClose'),
+        navDonateBtn: $('navDonateBtn'),
+        footerDonateBtn: $('footerDonateBtn'),
+
         // Toast & Effects
         toast: $('toast'),
         particles: $('particles')
@@ -409,6 +415,17 @@
         if ($('suggestAuthorInput')) $('suggestAuthorInput').placeholder = t('suggestAuthorPlaceholder');
         if ($('submitWordLabel')) $('submitWordLabel').textContent = t('submitWord');
 
+        // Donate / Support strings
+        if ($('navDonate')) $('navDonate').textContent = t('navDonate');
+        if ($('footerDonateBtn')) $('footerDonateBtn').textContent = t('footerDonate');
+        if ($('donateTitle')) $('donateTitle').textContent = t('donateTitle');
+        if ($('donateDesc')) $('donateDesc').textContent = t('donateDesc');
+        if ($('boostySub')) $('boostySub').textContent = t('boostySub');
+        if ($('cloudtipsSub')) $('cloudtipsSub').textContent = t('cloudtipsSub');
+        if ($('donattySub')) $('donattySub').textContent = t('donattySub');
+        if ($('donateNote')) $('donateNote').textContent = t('donateNote');
+        if ($('statLangsLabel')) $('statLangsLabel').textContent = t('statLangsLabel') || 'языков';
+
         // Suggest modal category options
         if ($('optCatNature')) $('optCatNature').textContent = THEMATIC_CATEGORIES['nature_body'][currentLang];
         if ($('optCatHousehold')) $('optCatHousehold').textContent = THEMATIC_CATEGORIES['household'][currentLang];
@@ -441,7 +458,8 @@
     // === Word of the Day (Strictly by Language Tab) ===
     function getWordOfDay() {
         const pool = WORDS_DATABASE.filter(w => w.lang === filterLang);
-        const list = pool.length > 0 ? pool : WORDS_DATABASE;
+        const list = pool.length > 0 ? pool : (WORDS_DATABASE.filter(w => w.lang === 'ru').length > 0 ? WORDS_DATABASE.filter(w => w.lang === 'ru') : WORDS_DATABASE);
+        if (!list || list.length === 0) return null;
         const today = new Date();
         const dayIndex = today.getFullYear() * 366 + today.getMonth() * 31 + today.getDate();
         return list[dayIndex % list.length];
@@ -452,6 +470,7 @@
         if (!w || w.lang !== filterLang) {
             w = getWordOfDay();
         }
+        if (!w) return;
         currentHeroWord = w;
         const today = new Date();
         els.heroDate.textContent = today.toLocaleDateString(currentLang === 'ru' ? 'ru-RU' : 'en-US', {
@@ -544,13 +563,15 @@
 
     // === Language Tabs (Strict Separation & Synchronization) ===
     function switchLangTab(lang) {
-        currentLang = lang;
+        if (lang === 'ru' || lang === 'en') {
+            currentLang = lang;
+            if (els.langLabel) els.langLabel.textContent = currentLang === 'ru' ? 'Русский' : 'English';
+        }
         filterLang = lang;
         filterEra = 'all';
         filterType = 'all';
         filterCategory = 'all';
 
-        els.langLabel.textContent = currentLang.toUpperCase();
         $$('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
 
         updateUILanguage();
@@ -1004,6 +1025,23 @@
         document.body.style.overflow = '';
     }
 
+    // ==========================================
+    // === Donate / Support Modal Engine ===
+    // ==========================================
+    function openDonateModal() {
+        if (els.donateModalOverlay) {
+            els.donateModalOverlay.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    function closeDonateModal() {
+        if (els.donateModalOverlay) {
+            els.donateModalOverlay.classList.remove('open');
+            document.body.style.overflow = '';
+        }
+    }
+
     async function handleSuggestWord(e) {
         e.preventDefault();
         const wordInput = $('suggestWordInput').value.trim();
@@ -1302,6 +1340,16 @@
         });
         els.suggestForm.addEventListener('submit', handleSuggestWord);
 
+        // Donate Modal
+        if (els.navDonateBtn) els.navDonateBtn.addEventListener('click', openDonateModal);
+        if (els.footerDonateBtn) els.footerDonateBtn.addEventListener('click', openDonateModal);
+        if (els.donateModalClose) els.donateModalClose.addEventListener('click', closeDonateModal);
+        if (els.donateModalOverlay) {
+            els.donateModalOverlay.addEventListener('click', (e) => {
+                if (e.target === els.donateModalOverlay) closeDonateModal();
+            });
+        }
+
         // Escape key to close any open modal or dropdown
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
@@ -1309,6 +1357,7 @@
                 closeModal();
                 closeQuizModal();
                 closeSuggestModal();
+                closeDonateModal();
             }
         });
     }

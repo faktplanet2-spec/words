@@ -11,6 +11,7 @@ function loadWordsDatabase() {
     const rootDir = path.join(__dirname, '..');
     const ruCode = fs.readFileSync(path.join(rootDir, 'words_ru.js'), 'utf8');
     const enCode = fs.readFileSync(path.join(rootDir, 'words_en.js'), 'utf8');
+    const extraCode = fs.existsSync(path.join(rootDir, 'words_extra.js')) ? fs.readFileSync(path.join(rootDir, 'words_extra.js'), 'utf8') : '';
     const dataCode = fs.readFileSync(path.join(rootDir, 'data.js'), 'utf8');
 
     const context = {
@@ -22,6 +23,7 @@ function loadWordsDatabase() {
     const evalFn = new Function('ctx', `
       ${ruCode}
       ${enCode}
+      ${extraCode}
       ${dataCode}
       ctx.WORDS_DATABASE = WORDS_DATABASE;
     `);

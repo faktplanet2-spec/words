@@ -289,6 +289,31 @@ if (typeof EN_WORDS !== 'undefined' && Array.isArray(EN_WORDS)) {
     });
 }
 
+// Ingest Extra Languages (fr, de, la, es, it, cu)
+if (typeof EXTRA_WORDS !== 'undefined' && Array.isArray(EXTRA_WORDS)) {
+    EXTRA_WORDS.forEach((item, index) => {
+        if (item && item.word && item.lang) {
+            WORDS_DATABASE.push({
+                id: (item.lang || 'ext') + '_' + (index + 1),
+                word: item.word,
+                lang: item.lang,
+                pronunciation: item.pronunciation || `[${item.word}]`,
+                era: item.era || 'Историческая эпоха',
+                eraKey: item.eraKey || 'renaissance',
+                meaning: item.meaning,
+                synonym: item.synonym || '',
+                wordType: item.wordType || 'archaism',
+                category: item.category || 'speech_mind',
+                etymology: item.etymology || 'Старинное слово.',
+                usage: item.usage || 'Встречается в классических памятниках литературы.',
+                quote: item.quote || `«${item.word}»`,
+                source: item.source || 'Классический словарь',
+                tags: [item.word.toLowerCase(), item.eraKey || '', item.wordType || '', item.category || '', (item.synonym || '').toLowerCase()]
+            });
+        }
+    });
+}
+
 // Load user-contributed words from localStorage if in browser
 if (typeof window !== 'undefined' && window.localStorage) {
     try {
@@ -303,12 +328,18 @@ if (typeof window !== 'undefined' && window.localStorage) {
 
 // Era labels for filters (bilingual)
 const ERA_LABELS = {
-    'ancient-rus':  { ru: 'Древняя Русь', en: 'Ancient Rus' },
-    'xv-xvii':      { ru: 'XV-XVII век', en: '15th-17th Century' },
-    'xviii-xix':    { ru: 'XVIII-XIX век', en: '18th-19th Century' },
-    'medieval':     { ru: 'Средневековье', en: 'Medieval England' },
-    'elizabethan':  { ru: 'Елизаветинская эпоха', en: 'Elizabethan Era' },
-    'victorian':    { ru: 'Викторианская эпоха', en: 'Victorian Era' }
+    'ancient-rus':          { ru: 'Древняя Русь', en: 'Ancient Rus' },
+    'xv-xvii':              { ru: 'XV-XVII век', en: '15th-17th Century' },
+    'xviii-xix':            { ru: 'XVIII-XIX век', en: '18th-19th Century' },
+    'medieval':             { ru: 'Средневековье', en: 'Medieval England' },
+    'elizabethan':          { ru: 'Елизаветинская эпоха', en: 'Elizabethan Era' },
+    'victorian':            { ru: 'Викторианская эпоха', en: 'Victorian Era' },
+    'classical-antiquity':  { ru: 'Античность (Древний Рим)', en: 'Classical Antiquity' },
+    'renaissance':          { ru: 'Эпоха Возрождения', en: 'Renaissance' },
+    'golden-age':           { ru: 'Золотой век', en: 'Golden Age (Siglo de Oro)' },
+    'enlightenment':        { ru: 'Эпоха Просвещения', en: 'Age of Enlightenment' },
+    'middle-ages':          { ru: 'Средние века', en: 'Middle Ages' },
+    'church-slavonic':      { ru: 'Церковнославянский', en: 'Old Church Slavonic' }
 };
 
 // UI translation strings
@@ -401,7 +432,16 @@ const UI_STRINGS = {
         actionFontLabel: 'Шрифт:',
         actionThemeLabel: 'Тема:',
         themePapyrus: 'Папирус',
-        themeDark: 'Тёмная'
+        themeDark: 'Тёмная',
+        navDonate: 'Поддержать',
+        footerDonate: '☕ Поддержать автора',
+        donateTitle: 'Поддержка автора и проекта',
+        donateDesc: 'Forgotten Words — независимый некоммерческий проект по спасению и сохранению редких старинных слов. Ваше пожертвование помогает оплачивать сервера, расширять базу и развивать словарь!',
+        boostySub: 'Подписка или разовый донат с любой карты',
+        cloudtipsSub: 'Быстрый перевод через СБП и карты РФ',
+        donattySub: 'Удобные донаты в пару кликов',
+        donateNote: 'Спасибо каждому, кто ценит историю и красоту языка! ❤️',
+        statLangsLabel: 'языков'
     },
     en: {
         logoTitle: 'Forgotten Words',
@@ -491,6 +531,15 @@ const UI_STRINGS = {
         actionFontLabel: 'Font:',
         actionThemeLabel: 'Theme:',
         themePapyrus: 'Papyrus',
-        themeDark: 'Dark'
+        themeDark: 'Dark',
+        navDonate: 'Support',
+        footerDonate: '☕ Support the Author',
+        donateTitle: 'Support the Author & Project',
+        donateDesc: 'Forgotten Words is an independent non-profit project dedicated to preserving rare and archaic words. Your donation helps pay for servers, expand the lexicon, and develop new features!',
+        boostySub: 'Subscription or one-time donation via card',
+        cloudtipsSub: 'Quick transfer via card & payment apps',
+        donattySub: 'Convenient tip in a few clicks',
+        donateNote: 'Thank you to everyone who cherishes the history and beauty of language! ❤️',
+        statLangsLabel: 'languages'
     }
 };

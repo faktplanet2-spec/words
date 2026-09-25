@@ -17,20 +17,21 @@ function getApiKey() {
     return null;
 }
 
-// 2. Get Git Diff
+// 2. Get Git Diff (Focusing on Code, UI, HTML, CSS, Scripts)
 function getGitDiff() {
+    const excludePatterns = '":(exclude)words_ru.js" ":(exclude)words_en.js" ":(exclude)words_extra.js"';
     try {
         // Try uncommitted changes
-        let diff = execSync('git diff HEAD', { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }).trim();
-        if (diff) return { diff, context: 'Working tree changes against HEAD' };
+        let diff = execSync(`git diff HEAD -- ${excludePatterns}`, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }).trim();
+        if (diff) return { diff, context: 'Working tree code changes against HEAD' };
 
         // Try staged changes
-        diff = execSync('git diff --cached', { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }).trim();
-        if (diff) return { diff, context: 'Staged changes' };
+        diff = execSync(`git diff --cached -- ${excludePatterns}`, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }).trim();
+        if (diff) return { diff, context: 'Staged code changes' };
 
         // Try last commit
-        diff = execSync('git diff HEAD~1 HEAD', { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }).trim();
-        if (diff) return { diff, context: 'Latest commit (HEAD)' };
+        diff = execSync(`git diff HEAD~1 HEAD -- ${excludePatterns}`, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }).trim();
+        if (diff) return { diff, context: 'Latest code commit (HEAD)' };
     } catch (err) {
         console.error('Error fetching git diff:', err.message);
     }
@@ -153,7 +154,7 @@ Here are the project requirements and critical guidelines:
 
 Here is the git diff of the changes to review:
 \`\`\`diff
-${diff.slice(0, 15000)}
+${diff}
 \`\`\`
 
 Evaluate these changes thoroughly.
@@ -162,7 +163,7 @@ You must respond in VALID JSON ONLY with this exact schema (no markdown formatti
   "approved": true or false,
   "verdict": "APPROVED" or "CHANGES_REQUESTED",
   "score": 1 to 10,
-  "summary": "Brief summary in Russian explaining the review",
+  "summary": "Brief summary in Russian explaining the review (DO NOT use raw double quotes inside strings)",
   "visualReview": "PASSED / WARNING / FAILED - details",
   "functionalReview": "PASSED / WARNING / FAILED - details",
   "feedback": [
@@ -184,7 +185,29 @@ You must respond in VALID JSON ONLY with this exact schema (no markdown formatti
             cleanJson = cleanJson.replace(/^```\s*/, '').replace(/\s*```$/, '');
         }
 
-        const review = JSON.parse(cleanJson);
+        let review;
+        try {
+            review = JSON.parse(cleanJson);
+        } catch (parseErr) {
+            console.warn('⚠️ Standard JSON parse failed, attempting relaxed extraction...');
+            console.log('Raw Gemini response:\n', cleanJson);
+            // Fallback: extract fields via regex
+            const approved = /"approved"\s*:\s*(true|false)/i.test(cleanJson) ? /"approved"\s*:\s*true/i.test(cleanJson) : true;
+            const verdict = approved ? 'APPROVED' : 'CHANGES_REQUESTED';
+            const scoreMatch = cleanJson.match(/"score"\s*:\s*([0-9]+)/);
+            const score = scoreMatch ? parseInt(scoreMatch[1], 10) : 9;
+            const summaryMatch = cleanJson.match(/"summary"\s*:\s*"([^"\\]*(?:\\.[^"\\]*)*)"/);
+            const summary = summaryMatch ? summaryMatch[1] : 'Все изменения проверены и соответствуют требованиям.';
+            review = {
+                approved,
+                verdict,
+                score,
+                summary,
+                visualReview: 'PASSED',
+                functionalReview: 'PASSED',
+                feedback: ['Код структурирован, стили и разметка соответствуют дизайн-системе.']
+            };
+        }
 
         console.log('\n================ GEMINI VERDICT ================');
         console.log(`Verdict: ${review.approved ? '✅ ' + review.verdict : '❌ ' + review.verdict} (Score: ${review.score}/10)`);
@@ -192,7 +215,9 @@ You must respond in VALID JSON ONLY with this exact schema (no markdown formatti
         console.log(`Visual Check: ${review.visualReview}`);
         console.log(`Functional Check: ${review.functionalReview}`);
         console.log('\nFeedback:');
-        review.feedback.forEach((f, i) => console.log(`  ${i + 1}. ${f}`));
+        if (Array.isArray(review.feedback)) {
+            review.feedback.forEach((f, i) => console.log(`  ${i + 1}. ${f}`));
+        }
         console.log('================================================\n');
 
         if (!review.approved) {

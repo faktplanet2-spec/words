@@ -82,6 +82,7 @@
                 <a href="#dictionary" class="nav-link" data-section="dictionary" id="navDictionary">Dictionary</a>
                 <button class="nav-link nav-btn" id="navQuizBtn"><span>🎯</span> <span id="navQuiz">Quiz</span></button>
                 <button class="nav-link nav-btn" id="navSuggestBtn"><span>✍️</span> <span id="navSuggest">Suggest Word</span></button>
+                <button class="nav-link nav-btn nav-donate-btn" id="navDonateBtn"><span>☕</span> <span id="navDonate">Support</span></button>
                 <a href="#about" class="nav-link" data-section="about" id="navAbout">About</a>
             </nav>
         </div>
@@ -106,13 +107,31 @@
                     <div class="live-search-dropdown" id="liveSearchDropdown"></div>
                 </div>
 
-                <!-- Language Tabs (English words / Russian words) -->
+                <!-- Language Tabs (8 Ancient & Classical Languages) -->
                 <div class="lang-tabs hero-lang-tabs" id="heroLangTabs">
                     <button class="lang-tab" data-lang="ru">
-                        <span class="lang-tab-label tab-ru-label">Russian words</span>
+                        <span class="lang-tab-label tab-ru-label">🇷🇺 Русский</span>
                     </button>
                     <button class="lang-tab active" data-lang="en">
-                        <span class="lang-tab-label tab-en-label">English words</span>
+                        <span class="lang-tab-label tab-en-label">🇬🇧 English</span>
+                    </button>
+                    <button class="lang-tab" data-lang="fr">
+                        <span class="lang-tab-label">🇫🇷 Français</span>
+                    </button>
+                    <button class="lang-tab" data-lang="de">
+                        <span class="lang-tab-label">🇩🇪 Deutsch</span>
+                    </button>
+                    <button class="lang-tab" data-lang="la">
+                        <span class="lang-tab-label">🏛️ Latina</span>
+                    </button>
+                    <button class="lang-tab" data-lang="es">
+                        <span class="lang-tab-label">🇪🇸 Español</span>
+                    </button>
+                    <button class="lang-tab" data-lang="it">
+                        <span class="lang-tab-label">🇮🇹 Italiano</span>
+                    </button>
+                    <button class="lang-tab" data-lang="cu">
+                        <span class="lang-tab-label">📜 Старославянский</span>
                     </button>
                 </div>
             </div>
@@ -167,8 +186,8 @@
                     <span class="stat-label" id="statErasLabel">эпох</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-number">2</span>
-                    <span class="stat-label" id="statLangsLabel">языка</span>
+                    <span class="stat-number">8</span>
+                    <span class="stat-label" id="statLangsLabel">языков</span>
                 </div>
             </div>
         </div>
@@ -182,13 +201,31 @@
                 <p class="section-desc" id="dictDesc">Исследуйте слова, которые когда-то звучали в каждом доме</p>
             </div>
 
-            <!-- Language Tabs -->
+            <!-- Language Tabs (8 Ancient & Classical Languages) -->
             <div class="lang-tabs" id="langTabs">
                 <button class="lang-tab" data-lang="ru" id="tabRu">
-                    <span class="lang-tab-label" id="tabRuLabel">Russian words</span>
+                    <span class="lang-tab-label" id="tabRuLabel">🇷🇺 Русский</span>
                 </button>
                 <button class="lang-tab active" data-lang="en" id="tabEn">
-                    <span class="lang-tab-label" id="tabEnLabel">English words</span>
+                    <span class="lang-tab-label" id="tabEnLabel">🇬🇧 English</span>
+                </button>
+                <button class="lang-tab" data-lang="fr">
+                    <span class="lang-tab-label">🇫🇷 Français</span>
+                </button>
+                <button class="lang-tab" data-lang="de">
+                    <span class="lang-tab-label">🇩🇪 Deutsch</span>
+                </button>
+                <button class="lang-tab" data-lang="la">
+                    <span class="lang-tab-label">🏛️ Latina</span>
+                </button>
+                <button class="lang-tab" data-lang="es">
+                    <span class="lang-tab-label">🇪🇸 Español</span>
+                </button>
+                <button class="lang-tab" data-lang="it">
+                    <span class="lang-tab-label">🇮🇹 Italiano</span>
+                </button>
+                <button class="lang-tab" data-lang="cu">
+                    <span class="lang-tab-label">📜 Старославянский</span>
                 </button>
             </div>
 
@@ -304,6 +341,7 @@
                 <div class="footer-links">
                     <button class="footer-btn" id="footerSuggestBtn">✍️ Предложить своё слово</button>
                     <button class="footer-btn" id="footerQuizBtn">🎯 Пройти викторину</button>
+                    <button class="footer-btn footer-donate-btn" id="footerDonateBtn">☕ Поддержать автора</button>
                 </div>
                 <p class="footer-made" id="footerMade">Сделано с ❤️ для любителей словесности</p>
             </div>
@@ -381,6 +419,12 @@
                             <select id="suggestLangSelect">
                                 <option value="en" id="optLangEn">English</option>
                                 <option value="ru" id="optLangRu">Русский язык</option>
+                                <option value="fr">Français (Французский)</option>
+                                <option value="de">Deutsch (Немецкий)</option>
+                                <option value="la">Lingua Latina (Латынь)</option>
+                                <option value="es">Español (Испанский)</option>
+                                <option value="it">Italiano (Итальянский)</option>
+                                <option value="cu">Старославянский</option>
                             </select>
                         </div>
                     </div>
@@ -435,6 +479,56 @@
         </div>
     </div>
 
+    <!-- Donate / Support Author Modal -->
+    <div class="modal-overlay" id="donateModalOverlay">
+        <div class="modal donate-modal" id="donateModal">
+            <button class="modal-close" id="donateModalClose">&times;</button>
+            <div class="donate-container">
+                <div class="donate-header">
+                    <div class="donate-icon">☕</div>
+                    <h2 class="donate-title" id="donateTitle">Поддержка автора и проекта</h2>
+                    <p class="donate-desc" id="donateDesc">Forgotten Words — независимый некоммерческий проект по спасению и сохранению редких старинных слов. Ваше пожертвование помогает оплачивать сервера, расширять базу и развивать словарь!</p>
+                </div>
+
+                <div class="donate-options">
+                    <!-- Boosty Card -->
+                    <a href="https://boosty.to" target="_blank" rel="noopener noreferrer" class="donate-card boosty-card">
+                        <div class="donate-card-icon">🚀</div>
+                        <div class="donate-card-info">
+                            <span class="donate-card-name">Boosty</span>
+                            <span class="donate-card-sub" id="boostySub">Подписка или разовый донат с любой карты</span>
+                        </div>
+                        <span class="donate-card-arrow">↗</span>
+                    </a>
+
+                    <!-- CloudTips Card -->
+                    <a href="https://pay.cloudtips.ru" target="_blank" rel="noopener noreferrer" class="donate-card cloudtips-card">
+                        <div class="donate-card-icon">💳</div>
+                        <div class="donate-card-info">
+                            <span class="donate-card-name">CloudTips (Тинькофф)</span>
+                            <span class="donate-card-sub" id="cloudtipsSub">Быстрый перевод через СБП и карты РФ</span>
+                        </div>
+                        <span class="donate-card-arrow">↗</span>
+                    </a>
+
+                    <!-- Donatty Card -->
+                    <a href="https://donatty.com" target="_blank" rel="noopener noreferrer" class="donate-card donatty-card">
+                        <div class="donate-card-icon">✨</div>
+                        <div class="donate-card-info">
+                            <span class="donate-card-name">Donatty</span>
+                            <span class="donate-card-sub" id="donattySub">Удобные донаты в пару кликов</span>
+                        </div>
+                        <span class="donate-card-arrow">↗</span>
+                    </a>
+                </div>
+
+                <div class="donate-custom-wrap">
+                    <p class="donate-note" id="donateNote">Спасибо каждому, кто ценит историю и красоту языка! ❤️</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Toast Notification -->
     <div class="toast" id="toast"></div>
 
@@ -443,6 +537,7 @@
 
     <script src="words_ru.js"></script>
     <script src="words_en.js"></script>
+    <script src="words_extra.js"></script>
     <script src="data.js"></script>
     <script src="app.js"></script>
 </body>
