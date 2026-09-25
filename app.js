@@ -439,9 +439,11 @@
         if ($('footerDonateBtn')) $('footerDonateBtn').textContent = t('footerDonate');
         if ($('donateTitle')) $('donateTitle').textContent = t('donateTitle');
         if ($('donateDesc')) $('donateDesc').textContent = t('donateDesc');
-        if ($('boostySub')) $('boostySub').textContent = t('boostySub');
-        if ($('cloudtipsSub')) $('cloudtipsSub').textContent = t('cloudtipsSub');
-        if ($('donattySub')) $('donattySub').textContent = t('donattySub');
+        if ($('monobankTitle')) $('monobankTitle').textContent = t('monobankTitle');
+        if ($('monobankSub')) $('monobankSub').textContent = t('monobankSub');
+        if ($('cryptoTitle')) $('cryptoTitle').textContent = t('cryptoTitle');
+        if ($('cryptoSub')) $('cryptoSub').textContent = t('cryptoSub');
+        if ($('cryptoCopyLabel')) $('cryptoCopyLabel').textContent = t('cryptoCopy');
         if ($('donateNote')) $('donateNote').textContent = t('donateNote');
         if ($('statLangsLabel')) $('statLangsLabel').textContent = t('statLangsLabel') || 'языков';
 
@@ -1567,6 +1569,53 @@
         if (els.donateModalOverlay) {
             els.donateModalOverlay.addEventListener('click', (e) => {
                 if (e.target === els.donateModalOverlay) closeDonateModal();
+            });
+        }
+
+        // Crypto Wallet Copy Handler
+        const cryptoCard = $('cryptoDonateCard');
+        const cryptoCopyBtn = $('cryptoCopyBtn');
+        const CRYPTO_ADDR = '0x433328E8Dc1E726A3F802fF916f09277932491F7';
+
+        function copyCryptoAddress(e) {
+            if (e) e.stopPropagation();
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(CRYPTO_ADDR).then(() => {
+                    showToast(t('cryptoCopied') || 'Адрес криптокошелька скопирован!');
+                }).catch(() => {
+                    fallbackCopyCrypto();
+                });
+            } else {
+                fallbackCopyCrypto();
+            }
+        }
+
+        function fallbackCopyCrypto() {
+            const ta = document.createElement('textarea');
+            ta.value = CRYPTO_ADDR;
+            ta.style.position = 'fixed';
+            ta.style.left = '-9999px';
+            document.body.appendChild(ta);
+            ta.select();
+            try {
+                document.execCommand('copy');
+                showToast(t('cryptoCopied') || 'Адрес криптокошелька скопирован!');
+            } catch (err) {
+                showToast(CRYPTO_ADDR);
+            }
+            document.body.removeChild(ta);
+        }
+
+        if (cryptoCopyBtn) {
+            cryptoCopyBtn.addEventListener('click', copyCryptoAddress);
+        }
+        if (cryptoCard) {
+            cryptoCard.addEventListener('click', copyCryptoAddress);
+            cryptoCard.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    copyCryptoAddress();
+                }
             });
         }
 

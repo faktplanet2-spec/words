@@ -501,35 +501,34 @@
                 </div>
 
                 <div class="donate-options">
-                    <!-- Boosty Card -->
-                    <a href="https://boosty.to" target="_blank" rel="noopener noreferrer" class="donate-card boosty-card">
-                        <div class="donate-card-icon">🚀</div>
+                    <!-- Monobank Jar Card -->
+                    <a href="https://send.monobank.ua/jar/84CjdaKndk" target="_blank" rel="noopener noreferrer" class="donate-card monobank-card">
+                        <div class="donate-card-icon">🏦</div>
                         <div class="donate-card-info">
-                            <span class="donate-card-name">Boosty</span>
-                            <span class="donate-card-sub" id="boostySub">Подписка или разовый донат с любой карты</span>
+                            <span class="donate-card-name" id="monobankTitle">Банка Monobank</span>
+                            <span class="donate-card-sub" id="monobankSub">Apple Pay, Google Pay, Visa & Mastercard со всего мира</span>
                         </div>
                         <span class="donate-card-arrow">↗</span>
                     </a>
 
-                    <!-- CloudTips Card -->
-                    <a href="https://pay.cloudtips.ru" target="_blank" rel="noopener noreferrer" class="donate-card cloudtips-card">
-                        <div class="donate-card-icon">💳</div>
+                    <!-- Crypto Wallet Card (Click to Copy) -->
+                    <div class="donate-card crypto-card" id="cryptoDonateCard" role="button" tabindex="0" title="Нажмите, чтобы скопировать адрес">
+                        <div class="donate-card-icon">💎</div>
                         <div class="donate-card-info">
-                            <span class="donate-card-name">CloudTips (Тинькофф)</span>
-                            <span class="donate-card-sub" id="cloudtipsSub">Быстрый перевод через СБП и карты РФ</span>
+                            <div class="crypto-header-line">
+                                <span class="donate-card-name" id="cryptoTitle">Криптовалюта (USDT / ETH / BNB)</span>
+                                <span class="crypto-badge">EVM</span>
+                            </div>
+                            <span class="donate-card-sub" id="cryptoSub">Сети: USDT (BEP-20 / ERC-20 / Polygon), ETH, BNB</span>
+                            <div class="crypto-address-row">
+                                <code class="crypto-address" id="cryptoWalletAddress">0x433328E8Dc1E726A3F802fF916f09277932491F7</code>
+                                <button type="button" class="crypto-copy-btn" id="cryptoCopyBtn">
+                                    <span id="cryptoCopyLabel">Копировать</span>
+                                    <span>📋</span>
+                                </button>
+                            </div>
                         </div>
-                        <span class="donate-card-arrow">↗</span>
-                    </a>
-
-                    <!-- Donatty Card -->
-                    <a href="https://donatty.com" target="_blank" rel="noopener noreferrer" class="donate-card donatty-card">
-                        <div class="donate-card-icon">✨</div>
-                        <div class="donate-card-info">
-                            <span class="donate-card-name">Donatty</span>
-                            <span class="donate-card-sub" id="donattySub">Удобные донаты в пару кликов</span>
-                        </div>
-                        <span class="donate-card-arrow">↗</span>
-                    </a>
+                    </div>
                 </div>
 
                 <div class="donate-custom-wrap">
