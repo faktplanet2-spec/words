@@ -249,7 +249,7 @@ You must respond in VALID JSON ONLY with this exact schema (no markdown formatti
 
         // Deploy to Vercel
         console.log('🌐 Deploying to Vercel production...');
-        const deployOut = execSync('cmd /c "npx --yes vercel --prod --yes"', { encoding: 'utf8' });
+        const deployOut = execSync('npx.cmd --yes vercel --prod --yes', { encoding: 'utf8' });
         console.log(deployOut);
 
         console.log('🎉 DEPLOYMENT COMPLETED SUCCESSFULLY!');
