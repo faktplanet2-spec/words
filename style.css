@@ -148,6 +148,23 @@
     --particle-color: rgba(212, 168, 83, 0.06);
 
     --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
+
+    /* Custom Font Dropdown Tokens (100% Opaque Solid Surfaces) */
+    --font-dropdown-bg: #141422;
+    --font-dropdown-border: rgba(212, 168, 83, 0.38);
+    --font-dropdown-header-bg: #1c1c2e;
+    --font-dropdown-header-title: #f5f2ea;
+    --font-dropdown-header-sub: #a89f91;
+    --font-dropdown-header-border: rgba(255, 255, 255, 0.08);
+    --font-dropdown-item-bg: rgba(255, 255, 255, 0.035);
+    --font-dropdown-item-hover: rgba(212, 168, 83, 0.14);
+    --font-dropdown-item-active: rgba(212, 168, 83, 0.22);
+    --font-dropdown-item-name: #f7f4ee;
+    --font-dropdown-badge-bg: rgba(255, 255, 255, 0.07);
+    --font-dropdown-badge-text: #c4b9a7;
+    --font-dropdown-badge-border: rgba(255, 255, 255, 0.1);
+    --font-dropdown-preview-color: #d4a853;
+    --font-dropdown-shadow: 0 24px 70px rgba(0, 0, 0, 0.85);
 }
 
 
@@ -188,6 +205,23 @@
 
     --shadow-card: 0 4px 20px rgba(60, 38, 15, 0.08), 0 1px 3px rgba(60, 38, 15, 0.06);
     --shadow-card-hover: 0 10px 35px rgba(149, 69, 16, 0.18), 0 2px 6px rgba(60, 38, 15, 0.08);
+
+    /* Custom Font Dropdown Tokens (100% Opaque Solid Surfaces) */
+    --font-dropdown-bg: #fbf5e8;
+    --font-dropdown-border: rgba(135, 85, 40, 0.45);
+    --font-dropdown-header-bg: #ebdcc0;
+    --font-dropdown-header-title: #3b2210;
+    --font-dropdown-header-sub: #7a5839;
+    --font-dropdown-header-border: rgba(110, 68, 30, 0.22);
+    --font-dropdown-item-bg: rgba(110, 68, 30, 0.045);
+    --font-dropdown-item-hover: rgba(149, 69, 16, 0.12);
+    --font-dropdown-item-active: rgba(149, 69, 16, 0.18);
+    --font-dropdown-item-name: #2b180d;
+    --font-dropdown-badge-bg: rgba(110, 68, 30, 0.08);
+    --font-dropdown-badge-text: #6b4522;
+    --font-dropdown-badge-border: rgba(110, 68, 30, 0.18);
+    --font-dropdown-preview-color: #954510;
+    --font-dropdown-shadow: 0 24px 70px rgba(45, 25, 10, 0.35);
 }
 
 /* === Reset & Base === */
@@ -270,6 +304,8 @@ body {
 
 /* Two-row header */
 .header-top {
+    position: relative;
+    z-index: 1200;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--space-lg);
@@ -281,6 +317,8 @@ body {
 }
 
 .header-bottom {
+    position: relative;
+    z-index: 10;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--space-lg);
@@ -459,24 +497,26 @@ body {
 }
 
 /* Custom Font Preview Dropdown */
+.font-pill.dropdown-open {
+    z-index: 20;
+}
+
 .font-custom-dropdown {
     position: absolute;
-    top: calc(100% + 8px);
+    top: calc(100% + 10px);
     right: 0;
-    width: 340px;
-    max-width: 92vw;
-    max-height: 440px;
-    background: var(--bg-card);
-    border: 1.5px solid var(--border-color);
+    width: 380px;
+    max-width: calc(100vw - 28px);
+    max-height: 480px;
+    background: var(--font-dropdown-bg);
+    border: 1.5px solid var(--font-dropdown-border);
     border-radius: var(--radius-lg);
-    box-shadow: 0 16px 45px rgba(0, 0, 0, 0.22);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    z-index: 500;
+    box-shadow: var(--font-dropdown-shadow);
+    z-index: 50;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px) scale(0.98);
-    transition: all var(--transition-fast);
+    transition: opacity var(--transition-fast), transform var(--transition-fast), visibility var(--transition-fast);
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -489,60 +529,62 @@ body {
 }
 
 .font-dropdown-header {
-    padding: 10px 14px;
-    border-bottom: 1px solid var(--border-subtle);
+    padding: 12px 16px;
+    background: var(--font-dropdown-header-bg);
+    border-bottom: 1.5px solid var(--font-dropdown-header-border);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--bg-secondary);
     flex-shrink: 0;
+    user-select: none;
 }
 
 .font-dropdown-title {
-    font-size: 0.8rem;
+    font-size: 0.82rem;
     font-weight: 700;
-    color: var(--text-primary);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.06em;
     font-family: var(--font-body);
+    color: var(--font-dropdown-header-title);
 }
 
 .font-dropdown-sub {
     font-size: 0.72rem;
-    color: var(--text-muted);
     font-family: var(--font-body);
+    color: var(--font-dropdown-header-sub);
 }
 
 .font-dropdown-list {
     overflow-y: auto;
-    max-height: 380px;
-    padding: 6px;
+    max-height: 400px;
+    padding: 8px;
+    background: var(--font-dropdown-bg);
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 6px;
 }
 
 .font-dropdown-item {
     display: flex;
     flex-direction: column;
-    padding: 9px 12px;
+    padding: 10px 14px;
     border-radius: var(--radius-md);
     cursor: pointer;
     transition: all var(--transition-fast);
-    border: 1px solid transparent;
+    background: var(--font-dropdown-item-bg);
+    border: 1.5px solid transparent;
     text-align: left;
-    background: transparent;
     width: 100%;
 }
 
 .font-dropdown-item:hover {
-    background: var(--accent-glow);
-    border-color: var(--border-subtle);
-    transform: translateX(2px);
+    background: var(--font-dropdown-item-hover);
+    border-color: var(--font-dropdown-border);
+    transform: translateX(3px);
 }
 
 .font-dropdown-item.active {
-    background: var(--accent-glow);
+    background: var(--font-dropdown-item-active);
     border-color: var(--accent);
 }
 
@@ -555,21 +597,21 @@ body {
 }
 
 .font-item-name {
-    font-size: 0.95rem;
+    font-size: 0.96rem;
     font-weight: 700;
-    color: var(--text-primary);
     font-family: var(--font-body);
+    color: var(--font-dropdown-item-name);
 }
 
 .font-item-badge {
     font-size: 0.68rem;
     font-weight: 600;
-    padding: 2px 6px;
+    padding: 2px 7px;
     border-radius: 4px;
-    background: var(--bg-secondary);
-    color: var(--text-muted);
-    border: 1px solid var(--border-subtle);
     font-family: var(--font-body);
+    background: var(--font-dropdown-badge-bg);
+    color: var(--font-dropdown-badge-text);
+    border: 1px solid var(--font-dropdown-badge-border);
 }
 
 .font-item-check {
@@ -580,10 +622,10 @@ body {
 }
 
 .font-item-preview {
-    font-size: 1.05rem;
-    color: var(--text-accent);
-    margin-top: 3px;
-    line-height: 1.3;
+    font-size: 1.08rem;
+    color: var(--font-dropdown-preview-color);
+    margin-top: 4px;
+    line-height: 1.35;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1944,6 +1986,16 @@ section {
         max-width: 105px;
         font-size: 0.8rem;
         padding: 0 14px 0 2px;
+    }
+
+    .font-custom-dropdown {
+        position: fixed;
+        top: 60px;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        max-width: none;
+        max-height: 75vh;
     }
 
     .nav {
