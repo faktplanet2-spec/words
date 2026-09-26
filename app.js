@@ -655,7 +655,7 @@
         // About section
         if ($('aboutTitle')) $('aboutTitle').textContent = t('aboutTitle');
         if ($('aboutP1')) $('aboutP1').innerHTML = t('aboutP1');
-        if ($('aboutP2')) $('aboutP2').textContent = t('aboutP2');
+        if ($('aboutP2')) $('aboutP2').innerHTML = t('aboutP2');
         if ($('aboutP3')) $('aboutP3').textContent = t('aboutP3');
         if ($('feat1Title')) $('feat1Title').textContent = t('feat1Title');
         if ($('feat1Desc')) $('feat1Desc').textContent = t('feat1Desc');
@@ -1719,14 +1719,17 @@
             playPaperRustle();
         }
         showToast(soundEnabled 
-            ? (currentLang === 'ru' ? '🔊 Звук пергамента включён' : '🔊 Parchment sounds enabled')
-            : (currentLang === 'ru' ? '🔇 Звук пергамента выключен' : '🔇 Parchment sounds muted'));
+            ? (currentLang === 'ru' ? '🔊 Звук: Вкл' : '🔊 Sound: On')
+            : (currentLang === 'ru' ? '🔇 Звук: Выкл' : '🔇 Sound: Off'));
     }
 
     function updateSoundUI() {
         if (els.soundToggle) {
             els.soundToggle.classList.toggle('muted', !soundEnabled);
             els.soundToggle.setAttribute('aria-pressed', soundEnabled ? 'true' : 'false');
+            els.soundToggle.title = currentLang === 'ru' 
+                ? (soundEnabled ? 'Звук: Вкл' : 'Звук: Выкл')
+                : (soundEnabled ? 'Sound: On' : 'Sound: Off');
         }
         if (els.soundIcon) {
             els.soundIcon.textContent = soundEnabled ? '🔊' : '🔇';
