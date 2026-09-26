@@ -150,10 +150,7 @@
     --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
 
     /* Atmospheric Dark Antique Parchment Texture */
-    --bg-ambient: radial-gradient(ellipse 90% 60% at 50% -5%, rgba(212, 168, 83, 0.12) 0%, transparent 70%),
-                  radial-gradient(circle at 10% 30%, rgba(35, 25, 15, 0.45) 0%, transparent 50%),
-                  radial-gradient(circle at 90% 70%, rgba(30, 20, 10, 0.4) 0%, transparent 60%),
-                  url("assets/parchment-dark.jpg");
+    --bg-ambient: url("assets/parchment-dark.jpg");
 
     /* Custom Font Dropdown Tokens (100% Opaque Solid Surfaces) */
     --font-dropdown-bg: #141422;
@@ -212,10 +209,8 @@
     --shadow-card: 0 4px 20px rgba(60, 38, 15, 0.1), 0 1px 3px rgba(60, 38, 15, 0.08);
     --shadow-card-hover: 0 10px 35px rgba(149, 69, 16, 0.22), 0 2px 6px rgba(60, 38, 15, 0.1);
 
-    /* Real Authentic Aged Parchment Background with Micro-Fibers */
-    --bg-ambient: radial-gradient(ellipse 90% 45% at 50% 0%, rgba(255, 252, 245, 0.35) 0%, transparent 75%),
-                  radial-gradient(ellipse at 50% 100%, rgba(135, 85, 40, 0.24) 0%, transparent 70%),
-                  url("assets/parchment-light.jpg");
+    /* Real Authentic Aged Parchment Background */
+    --bg-ambient: url("assets/parchment-light.jpg");
 
     /* Custom Font Dropdown Tokens (100% Opaque Solid Surfaces) */
     --font-dropdown-bg: #fbf5e8;
@@ -3033,13 +3028,21 @@ section {
    === AUTHENTIC PAPYRUS & ANCIENT PARCHMENT DESIGN SYSTEM ===
    ========================================================= */
 [data-theme="sepia"] body {
-    background-color: var(--bg-primary);
-    background-image: 
-        radial-gradient(circle at 50% 0%, rgba(255, 252, 242, 0.85) 0%, transparent 55%),
-        radial-gradient(ellipse at 100% 100%, rgba(215, 190, 150, 0.4) 0%, transparent 60%),
-        radial-gradient(ellipse at 0% 100%, rgba(210, 185, 145, 0.4) 0%, transparent 60%),
-        linear-gradient(180deg, #f8f1e2 0%, #f4ebd6 50%, #ede0c2 100%);
-    box-shadow: inset 0 0 140px rgba(110, 70, 25, 0.14);
+    background-color: #ecd8b4;
+    background-image: url("assets/parchment-light.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+[data-theme="dark"] body {
+    background-color: #1a1008;
+    background-image: url("assets/parchment-dark.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 [data-theme="sepia"] .header {
