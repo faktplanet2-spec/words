@@ -26,19 +26,30 @@
                 </div>
             </a>
             <div class="header-actions">
-                <div class="header-pill lang-pill">
+                <div class="header-pill lang-pill" id="langPill" role="button" tabindex="0" title="Choose language" aria-haspopup="listbox" aria-expanded="false">
                     <span class="pill-icon">🌐</span>
                     <span class="pill-tag" id="langGroupLabel">Language:</span>
-                    <div class="font-select-wrap lang-select-wrap">
-                        <select class="font-select lang-select" id="langSelect" title="Choose language">
-                            <option value="ru">Русский</option>
-                            <option value="en" selected>English</option>
-                            <option value="es">Español</option>
-                            <option value="de">Deutsch</option>
-                            <option value="it">Italiano</option>
-                            <option value="fr">Français</option>
-                        </select>
-                        <span class="font-select-arrow">▾</span>
+                    <span class="pill-val" id="currentLangName">English</span>
+                    <span class="font-select-arrow" id="langPillArrow">▾</span>
+
+                    <select class="font-select font-select-native-hidden" id="langSelect" title="Choose language" tabindex="-1">
+                        <option value="ru">Русский</option>
+                        <option value="en" selected>English</option>
+                        <option value="es">Español</option>
+                        <option value="de">Deutsch</option>
+                        <option value="it">Italiano</option>
+                        <option value="fr">Français</option>
+                    </select>
+
+                    <!-- Custom Language Dropdown -->
+                    <div class="lang-custom-dropdown font-custom-dropdown" id="langCustomDropdown" role="listbox" aria-label="Language selection">
+                        <div class="font-dropdown-header">
+                            <span class="font-dropdown-title" id="langDropdownTitle">Language</span>
+                            <span class="font-dropdown-sub" id="langDropdownSub">Choose language</span>
+                        </div>
+                        <div class="font-dropdown-list" id="langDropdownList">
+                            <!-- Populated in app.js -->
+                        </div>
                     </div>
                 </div>
 

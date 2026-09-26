@@ -37,6 +37,12 @@
         themeIcon: $('themeIcon'),
         themeLabelText: $('themeLabelText'),
         langSelect: $('langSelect'),
+        langPill: $('langPill'),
+        currentLangName: $('currentLangName'),
+        langCustomDropdown: $('langCustomDropdown'),
+        langDropdownList: $('langDropdownList'),
+        langDropdownTitle: $('langDropdownTitle'),
+        langDropdownSub: $('langDropdownSub'),
         fontSelect: $('fontSelect'),
         fontPill: $('fontPill'),
         currentFontName: $('currentFontName'),
@@ -198,6 +204,7 @@
     function init() {
         loadPreferences();
         createParticles();
+        buildLangDropdown();
         buildFontDropdown();
         buildTypeFilters();
         buildCategoryFilters();
@@ -244,6 +251,8 @@
         applyTheme(currentTheme);
         applyFont(currentFont);
         if (els.langSelect) els.langSelect.value = currentLang;
+        const langObj = LANG_CATALOG.find(l => l.id === currentLang);
+        if (els.currentLangName) els.currentLangName.textContent = langObj ? langObj.name : currentLang;
         $$('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === filterLang));
     }
 
@@ -325,6 +334,7 @@
     }
 
     function openFontDropdown() {
+        closeLangDropdown();
         if (els.fontCustomDropdown) {
             buildFontDropdown();
             els.fontCustomDropdown.classList.add('open');
@@ -341,6 +351,77 @@
             if (els.fontPill) {
                 els.fontPill.classList.remove('dropdown-open');
                 els.fontPill.setAttribute('aria-expanded', 'false');
+            }
+        }
+    }
+
+    // === 6 Supported Languages Catalog ===
+    const LANG_CATALOG = [
+        { id: 'en', name: 'English', desc: 'Over 15,000 archaic words' },
+        { id: 'ru', name: 'Русский', desc: 'Более 15 000 старинных слов' },
+        { id: 'es', name: 'Español', desc: 'Palabras antiguas en español' },
+        { id: 'de', name: 'Deutsch', desc: 'Alte und seltene deutsche Wörter' },
+        { id: 'it', name: 'Italiano', desc: 'Parole arcaiche italiane' },
+        { id: 'fr', name: 'Français', desc: 'Vocabulaire français ancien' }
+    ];
+
+    function buildLangDropdown() {
+        if (!els.langDropdownList) return;
+        let html = '';
+        LANG_CATALOG.forEach(l => {
+            const isActive = l.id === currentLang;
+            html += `
+                <div class="font-dropdown-item ${isActive ? 'active' : ''}" data-lang="${l.id}" role="option" aria-selected="${isActive}">
+                    <div class="font-item-top">
+                        <span class="font-item-name">${l.name}</span>
+                        <span class="font-item-check">${isActive ? '✓' : ''}</span>
+                    </div>
+                    <div class="font-item-preview" style="font-size: 0.82rem; opacity: 0.85;">${l.desc}</div>
+                </div>
+            `;
+        });
+        els.langDropdownList.innerHTML = html;
+
+        els.langDropdownList.querySelectorAll('.font-dropdown-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const langId = item.dataset.lang;
+                setLanguage(langId);
+                closeLangDropdown();
+            });
+        });
+    }
+
+    function toggleLangDropdown(e) {
+        if (e) e.stopPropagation();
+        if (els.langCustomDropdown) {
+            const isOpen = els.langCustomDropdown.classList.contains('open');
+            if (isOpen) {
+                closeLangDropdown();
+            } else {
+                openLangDropdown();
+            }
+        }
+    }
+
+    function openLangDropdown() {
+        closeFontDropdown();
+        if (els.langCustomDropdown) {
+            buildLangDropdown();
+            els.langCustomDropdown.classList.add('open');
+            if (els.langPill) {
+                els.langPill.classList.add('dropdown-open');
+                els.langPill.setAttribute('aria-expanded', 'true');
+            }
+        }
+    }
+
+    function closeLangDropdown() {
+        if (els.langCustomDropdown) {
+            els.langCustomDropdown.classList.remove('open');
+            if (els.langPill) {
+                els.langPill.classList.remove('dropdown-open');
+                els.langPill.setAttribute('aria-expanded', 'false');
             }
         }
     }
@@ -413,6 +494,19 @@
         }
 
         if (els.langSelect) els.langSelect.value = currentLang;
+        const langObj = LANG_CATALOG.find(l => l.id === currentLang);
+        if (els.currentLangName) {
+            els.currentLangName.textContent = langObj ? langObj.name : currentLang;
+        }
+        if (els.langDropdownList) {
+            els.langDropdownList.querySelectorAll('.font-dropdown-item').forEach(item => {
+                const isSel = item.dataset.lang === currentLang;
+                item.classList.toggle('active', isSel);
+                item.setAttribute('aria-selected', isSel);
+                const check = item.querySelector('.font-item-check');
+                if (check) check.textContent = isSel ? '✓' : '';
+            });
+        }
 
         updateUILanguage();
         buildTypeFilters();
@@ -426,9 +520,7 @@
         }
         savePreferences();
 
-        const langName = els.langSelect && els.langSelect.options[els.langSelect.selectedIndex] 
-            ? els.langSelect.options[els.langSelect.selectedIndex].text 
-            : currentLang;
+        const langName = langObj ? langObj.name : currentLang;
         showToast((t('actionLangLabel') || 'Language:') + ' ' + langName);
     }
 
@@ -447,7 +539,23 @@
 
     function updateUILanguage() {
         if (els.langSelect) els.langSelect.value = currentLang;
+        const currentLangObj = LANG_CATALOG.find(l => l.id === currentLang);
+        if (els.currentLangName) els.currentLangName.textContent = currentLangObj ? currentLangObj.name : currentLang;
         if (els.langGroupLabel) els.langGroupLabel.textContent = t('actionLangLabel');
+        if (els.langDropdownTitle) {
+            els.langDropdownTitle.textContent = currentLang === 'ru' ? 'Язык' :
+                currentLang === 'es' ? 'Idioma' :
+                currentLang === 'de' ? 'Sprache' :
+                currentLang === 'fr' ? 'Langue' :
+                currentLang === 'it' ? 'Lingua' : 'Language';
+        }
+        if (els.langDropdownSub) {
+            els.langDropdownSub.textContent = currentLang === 'ru' ? 'Выберите язык интерфейса' :
+                currentLang === 'es' ? 'Selecciona el idioma del sitio' :
+                currentLang === 'de' ? 'Sprache der Website wählen' :
+                currentLang === 'fr' ? 'Choisir la langue du site' :
+                currentLang === 'it' ? 'Scegli la lingua del sitio' : 'Choose website language';
+        }
         if (els.fontGroupLabel) els.fontGroupLabel.textContent = t('actionFontLabel');
         if (els.fontDropdownTitle) {
             els.fontDropdownTitle.textContent = currentLang === 'ru' ? 'Примеры шрифтов' :
@@ -1514,6 +1622,19 @@
         // Theme cycle (dark -> sepia)
         if (els.themeToggle) els.themeToggle.addEventListener('click', cycleTheme);
 
+        // Language pill custom dropdown trigger
+        if (els.langPill) {
+            els.langPill.addEventListener('click', (e) => {
+                toggleLangDropdown(e);
+            });
+            els.langPill.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggleLangDropdown(e);
+                }
+            });
+        }
+
         // Font pill custom dropdown trigger with live previews
         if (els.fontPill) {
             els.fontPill.addEventListener('click', (e) => {
@@ -1527,11 +1648,16 @@
             });
         }
 
-        // Close font dropdown on click outside
+        // Close dropdowns on click outside
         document.addEventListener('click', (e) => {
             if (els.fontCustomDropdown && els.fontCustomDropdown.classList.contains('open')) {
                 if (!els.fontCustomDropdown.contains(e.target) && !els.fontPill.contains(e.target)) {
                     closeFontDropdown();
+                }
+            }
+            if (els.langCustomDropdown && els.langCustomDropdown.classList.contains('open')) {
+                if (!els.langCustomDropdown.contains(e.target) && !els.langPill.contains(e.target)) {
+                    closeLangDropdown();
                 }
             }
         });
@@ -1547,7 +1673,7 @@
             });
         }
 
-        // Language selection (like fonts)
+        // Language selection (native fallback)
         if (els.langSelect) {
             els.langSelect.addEventListener('change', (e) => {
                 setLanguage(e.target.value);
@@ -1784,6 +1910,7 @@
         // Escape key to close any open modal or dropdown
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
+                closeLangDropdown();
                 closeFontDropdown();
                 if (els.liveSearchDropdown) els.liveSearchDropdown.classList.remove('open');
                 closeModal();
