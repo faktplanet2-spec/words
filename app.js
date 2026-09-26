@@ -28,6 +28,10 @@
     let currentQuizWord = null;
     let quizAnswered = false;
 
+    // === Sound & Audio State ===
+    let soundEnabled = true;
+    let audioCtx = null;
+
     // === DOM Refs ===
     const $ = id => document.getElementById(id);
     const $$ = sel => document.querySelectorAll(sel);
@@ -53,6 +57,10 @@
         langGroupLabel: $('langGroupLabel'),
         fontGroupLabel: $('fontGroupLabel'),
         themeGroupLabel: $('themeGroupLabel'),
+        soundToggle: $('soundToggle'),
+        soundIcon: $('soundIcon'),
+        soundGroupLabel: $('soundGroupLabel'),
+        soundLabelText: $('soundLabelText'),
         mobileMenuBtn: $('mobileMenuBtn'),
         nav: $('nav'),
         header: $('header'),
@@ -88,6 +96,10 @@
         typeFilter: $('typeFilter'),
         categoryFilter: $('categoryFilter'),
         eraFilter: $('eraFilter'),
+        eraTimelineBox: $('eraTimelineBox'),
+        eraTimelineTrack: $('eraTimelineTrack'),
+        timelineTitle: $('timelineTitle'),
+        timelineHint: $('timelineHint'),
         wordsGrid: $('wordsGrid'),
         emptyState: $('emptyState'),
         loadMoreWrap: $('loadMoreWrap'),
@@ -209,11 +221,13 @@
         buildTypeFilters();
         buildCategoryFilters();
         buildEraFilters();
+        buildEraTimeline();
         renderWordOfDay();
         renderGrid();
         bindEvents();
         updateUILanguage();
         animateStats();
+        initAllCardTilts();
         syncWordsFromSupabase();
     }
 
@@ -250,6 +264,9 @@
 
         applyTheme(currentTheme);
         applyFont(currentFont);
+        const savedSound = localStorage.getItem('fw-sound');
+        soundEnabled = savedSound !== '0';
+        updateSoundUI();
         if (els.langSelect) els.langSelect.value = currentLang;
         const langObj = LANG_CATALOG.find(l => l.id === currentLang);
         if (els.currentLangName) els.currentLangName.textContent = langObj ? langObj.name : currentLang;
@@ -476,6 +493,7 @@
         let newTheme = currentTheme === 'sepia' ? 'dark' : 'sepia';
         applyTheme(newTheme);
         savePreferences();
+        playPaperRustle();
         showToast(currentLang === 'ru' 
             ? (newTheme === 'sepia' ? '📜 Винтажный папирус' : '🌙 Тёмная тема')
             : (newTheme === 'sepia' ? '📜 Vintage Papyrus' : '🌙 Dark theme'));
@@ -512,8 +530,10 @@
         buildTypeFilters();
         buildCategoryFilters();
         buildEraFilters();
+        buildEraTimeline();
         renderWordOfDay();
         renderGrid();
+        playPaperRustle();
 
         if (els.quizModalOverlay && els.quizModalOverlay.classList.contains('open')) {
             loadQuizQuestion();
@@ -703,6 +723,12 @@
         if ($('optCatMilitary')) $('optCatMilitary').textContent = THEMATIC_CATEGORIES['military'][currentLang];
         if ($('optCatMoney')) $('optCatMoney').textContent = THEMATIC_CATEGORIES['measures_money'][currentLang];
         if ($('optCatSpeech')) $('optCatSpeech').textContent = THEMATIC_CATEGORIES['speech_mind'][currentLang];
+
+        // Sound & Era Timeline labels
+        if (els.soundGroupLabel) els.soundGroupLabel.textContent = t('soundLabel');
+        if (els.soundLabelText) els.soundLabelText.textContent = soundEnabled ? t('soundOn') : t('soundOff');
+        if (els.timelineTitle) els.timelineTitle.textContent = t('timelineTitle');
+        if (els.timelineHint) els.timelineHint.textContent = t('timelineHint');
 
         // Apply theme title
         applyTheme(currentTheme);
@@ -984,8 +1010,10 @@
         buildTypeFilters();
         buildCategoryFilters();
         buildEraFilters();
+        buildEraTimeline();
         renderWordOfDay();
         renderGrid();
+        playPaperRustle();
         if (searchQuery) handleLiveSearch(searchQuery);
 
         if (els.quizModalOverlay && els.quizModalOverlay.classList.contains('open')) {
@@ -1169,6 +1197,7 @@
         els.emptyState.classList.toggle('hidden', filtered.length > 0);
         els.loadMoreWrap.classList.toggle('hidden', displayedCount >= filtered.length);
         els.statTotal.textContent = WORDS_DATABASE.length;
+        initAllCardTilts();
     }
 
     function createWordCard(w, index) {
@@ -1196,6 +1225,7 @@
         const synLabelPrefix = currentLang === 'ru' ? 'Аналог: ' : (currentLang === 'de' ? 'Entsprechung: ' : (currentLang === 'es' ? 'Equivalente: ' : (currentLang === 'fr' ? 'Équivalent : ' : (currentLang === 'it' ? 'Equivalente: ' : 'Equivalent: '))));
 
         card.innerHTML = `
+            <div class="card-sheen"></div>
             <div class="word-card-header">
                 <h3 class="word-card-title">${w.word}</h3>
                 <div class="word-card-badges">
@@ -1244,7 +1274,10 @@
             });
         }
 
-        card.addEventListener('click', () => openModal(w));
+        card.addEventListener('click', () => {
+            playPaperRustle();
+            openModal(w);
+        });
         return card;
     }
 
@@ -1617,8 +1650,243 @@
         }, 35);
     }
 
+    // ==============================================================
+    // === Sound Engine (Procedural Web Audio API Paper Rustle) =====
+    // ==============================================================
+    function getAudioContext() {
+        if (!audioCtx) {
+            const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+            if (AudioContextClass) {
+                audioCtx = new AudioContextClass();
+            }
+        }
+        if (audioCtx && audioCtx.state === 'suspended') {
+            audioCtx.resume().catch(() => {});
+        }
+        return audioCtx;
+    }
+
+    function playPaperRustle() {
+        if (!soundEnabled) return;
+        try {
+            const ctx = getAudioContext();
+            if (!ctx) return;
+
+            const duration = 0.26;
+            const bufferSize = Math.floor(ctx.sampleRate * duration);
+            const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+            const data = buffer.getChannelData(0);
+
+            let b0 = 0, b1 = 0, b2 = 0;
+            for (let i = 0; i < bufferSize; i++) {
+                const white = Math.random() * 2 - 1;
+                b0 = 0.99 * b0 + white * 0.05;
+                b1 = 0.96 * b1 + white * 0.11;
+                b2 = 0.86 * b2 + white * 0.25;
+                const modulation = Math.sin(i / 150) * 0.25 + 0.75;
+                data[i] = (b0 + b1 + b2 + white * 0.15) * modulation * 0.35;
+            }
+
+            const source = ctx.createBufferSource();
+            source.buffer = buffer;
+
+            const filter = ctx.createBiquadFilter();
+            filter.type = 'bandpass';
+            filter.frequency.setValueAtTime(1500, ctx.currentTime);
+            filter.Q.setValueAtTime(1.6, ctx.currentTime);
+
+            const gainNode = ctx.createGain();
+            gainNode.gain.setValueAtTime(0.001, ctx.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.2, ctx.currentTime + 0.04);
+            gainNode.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + duration);
+
+            source.connect(filter);
+            filter.connect(gainNode);
+            gainNode.connect(ctx.destination);
+
+            source.start();
+            source.stop(ctx.currentTime + duration);
+        } catch (e) {
+            // Passive fallback
+        }
+    }
+
+    function toggleSound() {
+        soundEnabled = !soundEnabled;
+        localStorage.setItem('fw-sound', soundEnabled ? '1' : '0');
+        updateSoundUI();
+        if (soundEnabled) {
+            playPaperRustle();
+        }
+        showToast(soundEnabled 
+            ? (currentLang === 'ru' ? '🔊 Звук пергамента включён' : '🔊 Parchment sounds enabled')
+            : (currentLang === 'ru' ? '🔇 Звук пергамента выключен' : '🔇 Parchment sounds muted'));
+    }
+
+    function updateSoundUI() {
+        if (els.soundToggle) {
+            els.soundToggle.classList.toggle('muted', !soundEnabled);
+            els.soundToggle.setAttribute('aria-pressed', soundEnabled ? 'true' : 'false');
+        }
+        if (els.soundIcon) {
+            els.soundIcon.textContent = soundEnabled ? '🔊' : '🔇';
+        }
+        if (els.soundLabelText) {
+            els.soundLabelText.textContent = soundEnabled ? t('soundOn') : t('soundOff');
+        }
+    }
+
+    // ==============================================================
+    // === 3D Card Tilt & Dynamic Sheen Engine ======================
+    // ==============================================================
+    function attachCardTilt(el) {
+        if (!el || el._hasTilt) return;
+        el._hasTilt = true;
+
+        if (window.matchMedia('(hover: none)').matches) return;
+
+        let sheen = el.querySelector('.card-sheen');
+        if (!sheen) {
+            sheen = document.createElement('div');
+            sheen.className = 'card-sheen';
+            el.prepend(sheen);
+        }
+
+        let isHovered = false;
+        let targetX = 0, targetY = 0;
+        let currentX = 0, currentY = 0;
+        let rafId = null;
+
+        function update() {
+            if (!isHovered) {
+                currentX += (0 - currentX) * 0.15;
+                currentY += (0 - currentY) * 0.15;
+                el.style.transform = `perspective(1000px) rotateX(${currentX.toFixed(2)}deg) rotateY(${currentY.toFixed(2)}deg) scale3d(1, 1, 1)`;
+                if (Math.abs(currentX) > 0.05 || Math.abs(currentY) > 0.05) {
+                    rafId = requestAnimationFrame(update);
+                } else {
+                    el.style.transform = '';
+                    rafId = null;
+                }
+                return;
+            }
+
+            currentX += (targetX - currentX) * 0.18;
+            currentY += (targetY - currentY) * 0.18;
+            el.style.transform = `perspective(1000px) rotateX(${currentX.toFixed(2)}deg) rotateY(${currentY.toFixed(2)}deg) translateY(-4px)`;
+            rafId = requestAnimationFrame(update);
+        }
+
+        el.addEventListener('mouseenter', () => {
+            isHovered = true;
+            if (!rafId) rafId = requestAnimationFrame(update);
+        });
+
+        el.addEventListener('mousemove', (e) => {
+            const rect = el.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+
+            const maxTilt = 8;
+            targetX = -((y - centerY) / centerY) * maxTilt;
+            targetY = ((x - centerX) / centerX) * maxTilt;
+
+            el.style.setProperty('--mouse-x', `${x}px`);
+            el.style.setProperty('--mouse-y', `${y}px`);
+        });
+
+        el.addEventListener('mouseleave', () => {
+            isHovered = false;
+        });
+    }
+
+    function initAllCardTilts() {
+        $$('.word-card, .word-card-hero-inner, .feature-card').forEach(el => attachCardTilt(el));
+    }
+
+    // ==============================================================
+    // === Historical Era Timeline Engine ===========================
+    // ==============================================================
+    const ERA_META = {
+        'ancient-rus': { tag: 'X–XIV вв.', icon: '⚔️' },
+        'xv-xvii': { tag: 'XV–XVII вв.', icon: '📜' },
+        'xviii-xix': { tag: 'XVIII–XIX вв.', icon: '🕯️' },
+        'medieval': { tag: '500–1500', icon: '🏰' },
+        'elizabethan': { tag: '1558–1603', icon: '👑' },
+        'victorian': { tag: '1837–1901', icon: '🎩' },
+        'classical-antiquity': { tag: '800 BC–500 AD', icon: '🏛️' },
+        'renaissance': { tag: 'XIV–XVII', icon: '🎨' },
+        'golden-age': { tag: '1492–1650', icon: '⛵' },
+        'enlightenment': { tag: 'XVII–XVIII', icon: '🔭' },
+        'middle-ages': { tag: 'V–XV', icon: '🛡️' },
+        'church-slavonic': { tag: 'IX–XX', icon: '🪶' }
+    };
+
+    function buildEraTimeline() {
+        if (!els.eraTimelineTrack) return;
+        const wordsForLang = WORDS_DATABASE.filter(w => w.lang === filterLang);
+        const uniqueEras = [...new Set(wordsForLang.map(w => w.eraKey))];
+
+        let html = `
+            <div class="era-timeline-node ${filterEra === 'all' ? 'active' : ''}" data-era="all" role="button" tabindex="0">
+                <div class="era-seal">✨</div>
+                <div class="era-info">
+                    <span class="era-century">${t('allEras')}</span>
+                    <span class="era-name">${wordsForLang.length} ${t('wordsInDict')}</span>
+                </div>
+            </div>
+        `;
+
+        uniqueEras.forEach(eraKey => {
+            const eraObj = ERA_LABELS[eraKey];
+            const label = eraObj ? (eraObj[currentLang] || eraObj['en'] || eraObj['ru']) : eraKey;
+            const meta = ERA_META[eraKey] || { tag: 'Эпоха', icon: '📜' };
+            const count = wordsForLang.filter(w => w.eraKey === eraKey).length;
+            const isActive = filterEra === eraKey;
+
+            html += `
+                <div class="era-timeline-node ${isActive ? 'active' : ''}" data-era="${eraKey}" role="button" tabindex="0">
+                    <div class="era-seal">${meta.icon}</div>
+                    <div class="era-info">
+                        <span class="era-century">${meta.tag}</span>
+                        <span class="era-name">${label}</span>
+                    </div>
+                    <span class="era-count">${count}</span>
+                </div>
+            `;
+        });
+
+        els.eraTimelineTrack.innerHTML = html;
+
+        els.eraTimelineTrack.querySelectorAll('.era-timeline-node').forEach(node => {
+            node.addEventListener('click', () => {
+                const era = node.dataset.era;
+                filterEra = era;
+                playPaperRustle();
+
+                if (els.eraFilter) {
+                    els.eraFilter.querySelectorAll('.chip').forEach(c => {
+                        c.classList.toggle('active', c.dataset.era === era);
+                    });
+                }
+
+                els.eraTimelineTrack.querySelectorAll('.era-timeline-node').forEach(n => {
+                    n.classList.toggle('active', n.dataset.era === era);
+                });
+
+                renderGrid();
+            });
+        });
+    }
+
     // === Event Bindings ===
     function bindEvents() {
+        // Sound toggle
+        if (els.soundToggle) {
+            els.soundToggle.addEventListener('click', toggleSound);
+        }
         // Theme cycle (dark -> sepia)
         if (els.themeToggle) els.themeToggle.addEventListener('click', cycleTheme);
 
@@ -1807,6 +2075,12 @@
             filterEra = chip.dataset.era;
             els.eraFilter.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
             chip.classList.add('active');
+            if (els.eraTimelineTrack) {
+                els.eraTimelineTrack.querySelectorAll('.era-timeline-node').forEach(n => {
+                    n.classList.toggle('active', n.dataset.era === filterEra);
+                });
+            }
+            playPaperRustle();
             renderGrid();
         });
 

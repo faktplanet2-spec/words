@@ -102,6 +102,12 @@
                     <span class="pill-val" id="themeLabelText">Papyrus</span>
                 </button>
 
+                <button class="header-pill sound-toggle" id="soundToggle" title="Sound Effects" aria-pressed="true">
+                    <span class="pill-icon" id="soundIcon">🔊</span>
+                    <span class="pill-tag" id="soundGroupLabel">Sound:</span>
+                    <span class="pill-val" id="soundLabelText">On</span>
+                </button>
+
                 <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Меню">
                     <span></span><span></span><span></span>
                 </button>
@@ -175,6 +181,7 @@
             </div>
             <div class="word-card-hero" id="wordOfDayCard">
                 <div class="word-card-hero-inner">
+                    <div class="card-sheen"></div>
                     <div class="word-meta-badges">
                         <span class="word-era-badge" id="wodEra"></span>
                         <span class="word-type-badge" id="wodType"></span>
@@ -225,12 +232,38 @@
         </div>
     </section>
 
+    <!-- Ornate Flourish Divider -->
+    <div class="flourish-divider" aria-hidden="true">
+        <svg viewBox="0 0 500 28" class="flourish-svg" preserveAspectRatio="xMidYMid meet">
+            <path d="M 10,14 Q 150,14 210,14 C 225,14 235,5 242,1 C 246,9 248,12 250,14 C 252,12 254,9 258,1 C 265,5 275,14 290,14 Q 350,14 490,14" fill="none" stroke="currentColor" stroke-width="1.2"/>
+            <polygon points="250,9 254,14 250,19 246,14" fill="currentColor"/>
+            <circle cx="232" cy="14" r="2.5" fill="currentColor"/>
+            <circle cx="268" cy="14" r="2.5" fill="currentColor"/>
+            <circle cx="218" cy="14" r="1.5" fill="currentColor" opacity="0.6"/>
+            <circle cx="282" cy="14" r="1.5" fill="currentColor" opacity="0.6"/>
+        </svg>
+    </div>
+
     <!-- Dictionary Section -->
     <section class="dictionary-section" id="dictionary">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title" id="dictTitle">Словарь</h2>
                 <p class="section-desc" id="dictDesc">Исследуйте слова, которые когда-то звучали в каждом доме</p>
+            </div>
+
+            <!-- Interactive Era Timeline -->
+            <div class="era-timeline-box" id="eraTimelineBox">
+                <div class="era-timeline-header">
+                    <div class="era-timeline-title-wrap">
+                        <span class="era-timeline-icon">⏳</span>
+                        <span class="era-timeline-title" id="timelineTitle">Хронологическая лента эпох</span>
+                    </div>
+                    <span class="era-timeline-hint" id="timelineHint">Нажмите на эпоху, чтобы переместиться во времени</span>
+                </div>
+                <div class="era-timeline-track" id="eraTimelineTrack" role="tablist" aria-label="Шкала исторических эпох">
+                    <!-- Dynamically generated in app.js -->
+                </div>
             </div>
 
             <!-- Language Tabs (8 Ancient & Classical Languages) -->
@@ -364,6 +397,16 @@
             </div>
         </div>
     </section>
+
+    <!-- Ornate Flourish Divider -->
+    <div class="flourish-divider flourish-footer" aria-hidden="true">
+        <svg viewBox="0 0 500 28" class="flourish-svg" preserveAspectRatio="xMidYMid meet">
+            <path d="M 10,14 Q 150,14 210,14 C 225,14 235,5 242,1 C 246,9 248,12 250,14 C 252,12 254,9 258,1 C 265,5 275,14 290,14 Q 350,14 490,14" fill="none" stroke="currentColor" stroke-width="1.2"/>
+            <polygon points="250,9 254,14 250,19 246,14" fill="currentColor"/>
+            <circle cx="232" cy="14" r="2.5" fill="currentColor"/>
+            <circle cx="268" cy="14" r="2.5" fill="currentColor"/>
+        </svg>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">

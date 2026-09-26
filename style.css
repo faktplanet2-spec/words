@@ -149,6 +149,11 @@
 
     --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
 
+    /* Atmospheric Ambient Texture */
+    --bg-ambient: radial-gradient(ellipse 90% 60% at 50% -5%, rgba(212, 168, 83, 0.09) 0%, transparent 70%),
+                  radial-gradient(circle at 10% 30%, rgba(25, 20, 45, 0.4) 0%, transparent 50%),
+                  radial-gradient(circle at 90% 70%, rgba(20, 25, 50, 0.3) 0%, transparent 60%);
+
     /* Custom Font Dropdown Tokens (100% Opaque Solid Surfaces) */
     --font-dropdown-bg: #141422;
     --font-dropdown-border: rgba(212, 168, 83, 0.38);
@@ -206,6 +211,11 @@
     --shadow-card: 0 4px 20px rgba(60, 38, 15, 0.08), 0 1px 3px rgba(60, 38, 15, 0.06);
     --shadow-card-hover: 0 10px 35px rgba(149, 69, 16, 0.18), 0 2px 6px rgba(60, 38, 15, 0.08);
 
+    /* Atmospheric Aged Parchment Texture with Micro-Fibers */
+    --bg-ambient: radial-gradient(ellipse 90% 45% at 50% 0%, rgba(255, 252, 245, 0.92) 0%, transparent 75%),
+                  radial-gradient(ellipse at 50% 100%, rgba(135, 85, 40, 0.12) 0%, transparent 70%),
+                  url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.038'/%3E%3C/svg%3E");
+
     /* Custom Font Dropdown Tokens (100% Opaque Solid Surfaces) */
     --font-dropdown-bg: #fbf5e8;
     --font-dropdown-border: rgba(135, 85, 40, 0.45);
@@ -238,11 +248,13 @@ html {
 
 body {
     font-family: var(--font-body);
-    background: var(--bg-primary);
+    background-color: var(--bg-primary);
+    background-image: var(--bg-ambient);
+    background-attachment: fixed;
     color: var(--text-primary);
     line-height: 1.7;
     overflow-x: hidden;
-    transition: background var(--transition-slow), color var(--transition-slow);
+    transition: background-color var(--transition-slow), color var(--transition-slow);
     min-height: 100vh;
 }
 
@@ -664,6 +676,18 @@ body {
     transform: rotate(20deg);
 }
 
+.sound-toggle:hover .pill-icon {
+    transform: scale(1.18);
+}
+
+.sound-toggle[aria-pressed="false"] {
+    opacity: 0.72;
+}
+
+.sound-toggle[aria-pressed="false"] .pill-icon {
+    filter: grayscale(1);
+}
+
 /* Theme accent highlights for pill tags */
 [data-theme="sepia"] .pill-tag {
     color: #8c5324;
@@ -671,6 +695,195 @@ body {
 
 [data-theme="dark"] .pill-tag {
     color: #df9e38;
+}
+
+/* === Ornate Calligraphic Flourish Dividers === */
+.flourish-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 440px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+    color: var(--accent);
+    opacity: 0.68;
+    pointer-events: none;
+    user-select: none;
+    filter: drop-shadow(0 2px 8px var(--accent-glow));
+}
+
+.flourish-svg {
+    width: 100%;
+    height: 28px;
+    overflow: visible;
+}
+
+.flourish-footer {
+    margin: 3.5rem auto 1.5rem;
+}
+
+/* === Interactive Historical Era Timeline === */
+.era-timeline-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+    padding: 1.25rem 1.6rem;
+    margin: 0 auto 2.2rem;
+    box-shadow: var(--shadow-sm);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    position: relative;
+    overflow: hidden;
+}
+
+.era-timeline-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--accent-gradient);
+    opacity: 0.5;
+}
+
+.era-timeline-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.9rem;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.era-timeline-title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.era-timeline-icon {
+    font-size: 1.15rem;
+}
+
+.era-timeline-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: 0.02em;
+    font-family: var(--font-body);
+}
+
+.era-timeline-hint {
+    font-size: 0.76rem;
+    color: var(--text-muted);
+    font-family: var(--font-body);
+}
+
+.era-timeline-track {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 4px 2px 8px;
+    scrollbar-width: thin;
+    position: relative;
+}
+
+.era-timeline-node {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: var(--radius-full);
+    border: 1px solid var(--border-color);
+    background: var(--bg-input);
+    color: var(--text-secondary);
+    font-size: 0.84rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all var(--transition-fast);
+    flex-shrink: 0;
+    user-select: none;
+    font-family: var(--font-body);
+}
+
+.era-timeline-node:hover {
+    border-color: var(--accent);
+    background: var(--accent-glow);
+    color: var(--text-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px var(--accent-glow);
+}
+
+.era-timeline-node.active {
+    background: var(--accent-gradient);
+    color: #ffffff;
+    border-color: transparent;
+    box-shadow: 0 4px 18px var(--accent-glow);
+    transform: translateY(-2px);
+}
+
+[data-theme="sepia"] .era-timeline-node.active {
+    color: #ffffff;
+}
+
+.node-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: currentColor;
+    display: inline-block;
+    transition: transform var(--transition-fast);
+}
+
+.era-timeline-node.active .node-dot {
+    transform: scale(1.35);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.9);
+}
+
+.node-count {
+    font-size: 0.7rem;
+    padding: 1px 7px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.16);
+    color: inherit;
+    font-weight: 700;
+}
+
+/* === 3D Tilt & Dynamic Golden Sheen on Cards === */
+.word-card,
+.word-card-hero-inner,
+.feature-card {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    will-change: transform, box-shadow;
+    transition: transform 0.16s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.25s ease-out, border-color 0.25s ease-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-sheen {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    mix-blend-mode: overlay;
+    background: radial-gradient(circle 320px at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(212, 168, 83, 0.35) 0%, transparent 65%);
+    z-index: 2;
+}
+
+[data-theme="sepia"] .card-sheen {
+    background: radial-gradient(circle 320px at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(149, 69, 16, 0.25) 0%, transparent 65%);
+}
+
+.word-card:hover .card-sheen,
+.word-card-hero-inner:hover .card-sheen,
+.feature-card:hover .card-sheen {
+    opacity: 1;
 }
 
 .lang-label {

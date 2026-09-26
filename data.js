@@ -631,7 +631,12 @@ const UI_STRINGS = {
         "cryptoCopy": "Копировать",
         "cryptoCopied": "Адрес криптокошелька скопирован!",
         "donateNote": "Спасибо каждому, кто ценит историю и красоту языка! ❤️",
-        "statLangsLabel": "языков"
+        "statLangsLabel": "языков",
+        "timelineTitle": "Лента Эпох",
+        "timelineHint": "Выберите эпоху для моментальной фильтрации слов фолианта",
+        "soundOn": "Шелест пергамента: Вкл",
+        "soundOff": "Шелест пергамента: Выкл",
+        "soundLabel": "Звук:"
     },
     "en": {
         "logoTitle": "Forgotten Words",
@@ -739,7 +744,12 @@ const UI_STRINGS = {
         "cryptoCopy": "Copy",
         "cryptoCopied": "Wallet address copied!",
         "donateNote": "Thank you to everyone who cherishes the history and beauty of language! ❤️",
-        "statLangsLabel": "languages"
+        "statLangsLabel": "languages",
+        "timelineTitle": "Historical Era Timeline",
+        "timelineHint": "Select an era to instantly filter words from the tome",
+        "soundOn": "Parchment sounds: On",
+        "soundOff": "Parchment sounds: Off",
+        "soundLabel": "Sound:"
     },
     "es": {
         "logoTitle": "Forgotten Words",
@@ -847,7 +857,12 @@ const UI_STRINGS = {
         "cryptoCopy": "Copiar",
         "cryptoCopied": "¡Dirección del monedero copiada!",
         "donateNote": "¡Gracias a todos los que atesoran la historia y la belleza del lenguaje! ❤️",
-        "statLangsLabel": "idiomas"
+        "statLangsLabel": "idiomas",
+        "timelineTitle": "Cronología de Épocas",
+        "timelineHint": "Selecciona una época para filtrar al instante",
+        "soundOn": "Sonido de pergamino: Activo",
+        "soundOff": "Sonido de pergamino: Mudo",
+        "soundLabel": "Sonido:"
     },
     "de": {
         "logoTitle": "Forgotten Words",
@@ -955,7 +970,12 @@ const UI_STRINGS = {
         "cryptoCopy": "Kopieren",
         "cryptoCopied": "Wallet-Adresse kopiert!",
         "donateNote": "Wir danken allen, die die Geschichte und Schönheit der Sprache schätzen! ❤️",
-        "statLangsLabel": "Sprachen"
+        "statLangsLabel": "Sprachen",
+        "timelineTitle": "Epochen-Zeitleiste",
+        "timelineHint": "Wählen Sie eine Epoche, um Wörter sofort zu filtern",
+        "soundOn": "Pergamentklang: Ein",
+        "soundOff": "Pergamentklang: Aus",
+        "soundLabel": "Klang:"
     },
     "it": {
         "logoTitle": "Forgotten Words",
@@ -1063,7 +1083,12 @@ const UI_STRINGS = {
         "cryptoCopy": "Copia",
         "cryptoCopied": "Indirizzo del wallet copiato!",
         "donateNote": "Grazie di cuore a tutti coloro che custodiscono la storia e la bellezza della lingua! ❤️",
-        "statLangsLabel": "lingue"
+        "statLangsLabel": "lingue",
+        "timelineTitle": "Cronologia delle Epoche",
+        "timelineHint": "Seleziona un'epoca per filtrare istantaneamente",
+        "soundOn": "Suono pergamena: Attivo",
+        "soundOff": "Suono pergamena: Muto",
+        "soundLabel": "Suono:"
     },
     "fr": {
         "logoTitle": "Mots Oubliés",
@@ -1171,6 +1196,11 @@ const UI_STRINGS = {
         "cryptoCopy": "Copier",
         "cryptoCopied": "Adresse du portefeuille copiée !",
         "donateNote": "Merci à tous ceux qui chérissent l'histoire et la beauté de la langue ! ❤️",
-        "statLangsLabel": "langues"
+        "statLangsLabel": "langues",
+        "timelineTitle": "Chronologie des Époques",
+        "timelineHint": "Sélectionnez une époque pour filtrer instantanément",
+        "soundOn": "Son du parchemin : Actif",
+        "soundOff": "Son du parchemin : Muet",
+        "soundLabel": "Son :"
     }
 };
