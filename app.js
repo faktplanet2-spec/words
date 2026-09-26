@@ -233,13 +233,14 @@
 
     // === Preferences (localStorage) ===
     function loadPreferences() {
-        const savedThemeV3 = localStorage.getItem('fw-theme-v3');
-        if (savedThemeV3 && ['dark', 'sepia'].includes(savedThemeV3)) {
-            currentTheme = savedThemeV3;
+        const savedTheme = localStorage.getItem('fw-theme');
+        const savedLang = localStorage.getItem('fw-lang');
+        const savedFont = localStorage.getItem('fw-font');
+
+        if (savedTheme && ['dark', 'sepia'].includes(savedTheme)) {
+            currentTheme = savedTheme;
         } else {
-            currentTheme = 'sepia'; // Authentic Parchment default
-            localStorage.setItem('fw-theme-v3', 'sepia');
-            localStorage.setItem('fw-theme', 'sepia');
+            currentTheme = 'sepia'; // Authentic Papyrus default
         }
         if (savedLang && ['ru', 'en', 'es', 'de', 'it', 'fr'].includes(savedLang)) {
             currentLang = savedLang;
@@ -273,7 +274,6 @@
     }
 
     function savePreferences() {
-        localStorage.setItem('fw-theme-v3', currentTheme);
         localStorage.setItem('fw-theme', currentTheme);
         localStorage.setItem('fw-lang', currentLang);
         localStorage.setItem('fw-font', currentFont);
@@ -473,7 +473,7 @@
         }
     }
 
-    // === Two-State Theme Toggle (Parchment <-> Dark Parchment) ===
+    // === Two-State Theme Toggle (Papyrus <-> Dark) ===
     function applyTheme(theme) {
         if (theme !== 'dark') theme = 'sepia';
         document.documentElement.setAttribute('data-theme', theme);
@@ -481,11 +481,11 @@
         if (theme === 'sepia') {
             if (els.themeIcon) els.themeIcon.textContent = '📜';
             if (els.themeLabelText) els.themeLabelText.textContent = t('themePapyrus');
-            if (els.themeToggle) els.themeToggle.title = currentLang === 'ru' ? 'Тема: Пергамент (нажмите для тёмного)' : 'Theme: Parchment (click for Dark mode)';
+            if (els.themeToggle) els.themeToggle.title = currentLang === 'ru' ? 'Тема: Винтажный папирус (нажмите для тёмной)' : 'Theme: Vintage Papyrus (click for Dark mode)';
         } else {
             if (els.themeIcon) els.themeIcon.textContent = '🌙';
             if (els.themeLabelText) els.themeLabelText.textContent = t('themeDark');
-            if (els.themeToggle) els.themeToggle.title = currentLang === 'ru' ? 'Тема: Тёмный пергамент (нажмите для светлого)' : 'Theme: Dark Parchment (click for Parchment)';
+            if (els.themeToggle) els.themeToggle.title = currentLang === 'ru' ? 'Тема: Тёмная (нажмите для папируса)' : 'Theme: Dark mode (click for Papyrus)';
         }
     }
 
@@ -495,8 +495,8 @@
         savePreferences();
         playPaperRustle();
         showToast(currentLang === 'ru' 
-            ? (newTheme === 'sepia' ? '📜 Пергамент' : '🌙 Тёмный пергамент')
-            : (newTheme === 'sepia' ? '📜 Parchment' : '🌙 Dark Parchment'));
+            ? (newTheme === 'sepia' ? '📜 Винтажный папирус' : '🌙 Тёмная тема')
+            : (newTheme === 'sepia' ? '📜 Vintage Papyrus' : '🌙 Dark theme'));
     }
 
     // === Language Selector: 100% TRANSLATION OF ENTIRE APP ===

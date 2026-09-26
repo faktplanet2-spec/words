@@ -149,8 +149,10 @@
 
     --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
 
-    /* Atmospheric Dark Antique Parchment Texture */
-    --bg-ambient: url("assets/parchment-dark.jpg");
+    /* Atmospheric Ambient Texture */
+    --bg-ambient: radial-gradient(ellipse 90% 60% at 50% -5%, rgba(212, 168, 83, 0.09) 0%, transparent 70%),
+                  radial-gradient(circle at 10% 30%, rgba(25, 20, 45, 0.4) 0%, transparent 50%),
+                  radial-gradient(circle at 90% 70%, rgba(20, 25, 50, 0.3) 0%, transparent 60%);
 
     /* Custom Font Dropdown Tokens (100% Opaque Solid Surfaces) */
     --font-dropdown-bg: #141422;
@@ -174,13 +176,13 @@
 
 /* === Vintage Sepia / Old Parchment & Papyrus Theme === */
 [data-theme="sepia"] {
-    --bg-primary: #ecd8b4;
-    --bg-secondary: #e2cca2;
-    --bg-tertiary: #d4b886;
-    --bg-card: rgba(253, 248, 237, 0.90);
-    --bg-card-hover: rgba(255, 252, 246, 0.96);
-    --bg-glass: rgba(245, 230, 204, 0.86);
-    --bg-input: rgba(65, 40, 15, 0.08);
+    --bg-primary: #f5ecd8;
+    --bg-secondary: #ebdcc0;
+    --bg-tertiary: #dec9a4;
+    --bg-card: rgba(251, 246, 235, 0.95);
+    --bg-card-hover: rgba(255, 252, 246, 0.98);
+    --bg-glass: rgba(245, 236, 216, 0.92);
+    --bg-input: rgba(65, 40, 15, 0.07);
 
     --text-primary: #29180c;
     --text-secondary: #543922;
@@ -189,11 +191,11 @@
 
     --accent: #954510;
     --accent-light: #b45618;
-    --accent-glow: rgba(149, 69, 16, 0.16);
+    --accent-glow: rgba(149, 69, 16, 0.14);
     --accent-gradient: linear-gradient(135deg, #954510 0%, #723105 50%, #954510 100%);
 
-    --border-color: rgba(135, 85, 40, 0.32);
-    --border-subtle: rgba(110, 68, 30, 0.18);
+    --border-color: rgba(135, 85, 40, 0.28);
+    --border-subtle: rgba(110, 68, 30, 0.15);
 
     --era-badge-bg: rgba(149, 69, 16, 0.12);
     --era-badge-text: #783105;
@@ -201,16 +203,18 @@
     --quote-bg: rgba(149, 69, 16, 0.06);
     --quote-border: rgba(149, 69, 16, 0.45);
 
-    --header-bg: rgba(242, 226, 198, 0.94);
+    --header-bg: rgba(245, 236, 216, 0.96);
     --modal-bg: rgba(251, 246, 235, 0.98);
 
     --particle-color: rgba(149, 69, 16, 0.16);
 
-    --shadow-card: 0 4px 20px rgba(60, 38, 15, 0.1), 0 1px 3px rgba(60, 38, 15, 0.08);
-    --shadow-card-hover: 0 10px 35px rgba(149, 69, 16, 0.22), 0 2px 6px rgba(60, 38, 15, 0.1);
+    --shadow-card: 0 4px 20px rgba(60, 38, 15, 0.08), 0 1px 3px rgba(60, 38, 15, 0.06);
+    --shadow-card-hover: 0 10px 35px rgba(149, 69, 16, 0.18), 0 2px 6px rgba(60, 38, 15, 0.08);
 
-    /* Real Authentic Aged Parchment Background */
-    --bg-ambient: url("assets/parchment-light.jpg");
+    /* Atmospheric Aged Parchment Texture with Micro-Fibers */
+    --bg-ambient: radial-gradient(ellipse 90% 45% at 50% 0%, rgba(255, 252, 245, 0.92) 0%, transparent 75%),
+                  radial-gradient(ellipse at 50% 100%, rgba(135, 85, 40, 0.12) 0%, transparent 70%),
+                  url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.038'/%3E%3C/svg%3E");
 
     /* Custom Font Dropdown Tokens (100% Opaque Solid Surfaces) */
     --font-dropdown-bg: #fbf5e8;
@@ -246,30 +250,12 @@ body {
     font-family: var(--font-body);
     background-color: var(--bg-primary);
     background-image: var(--bg-ambient);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     color: var(--text-primary);
     line-height: 1.7;
     overflow-x: hidden;
     transition: background-color var(--transition-slow), color var(--transition-slow);
     min-height: 100vh;
-    position: relative;
-}
-
-/* Antique edge vignette across entire viewport */
-body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    z-index: 1;
-    box-shadow: inset 0 0 100px rgba(90, 50, 15, 0.22), inset 0 0 35px rgba(90, 50, 15, 0.14);
-}
-
-[data-theme="dark"] body::before {
-    box-shadow: inset 0 0 140px rgba(0, 0, 0, 0.75), inset 0 0 50px rgba(0, 0, 0, 0.5);
 }
 
 ::selection {
@@ -3028,21 +3014,13 @@ section {
    === AUTHENTIC PAPYRUS & ANCIENT PARCHMENT DESIGN SYSTEM ===
    ========================================================= */
 [data-theme="sepia"] body {
-    background-color: #ecd8b4;
-    background-image: url("assets/parchment-light.jpg");
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-[data-theme="dark"] body {
-    background-color: #1a1008;
-    background-image: url("assets/parchment-dark.jpg");
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: var(--bg-primary);
+    background-image: 
+        radial-gradient(circle at 50% 0%, rgba(255, 252, 242, 0.85) 0%, transparent 55%),
+        radial-gradient(ellipse at 100% 100%, rgba(215, 190, 150, 0.4) 0%, transparent 60%),
+        radial-gradient(ellipse at 0% 100%, rgba(210, 185, 145, 0.4) 0%, transparent 60%),
+        linear-gradient(180deg, #f8f1e2 0%, #f4ebd6 50%, #ede0c2 100%);
+    box-shadow: inset 0 0 140px rgba(110, 70, 25, 0.14);
 }
 
 [data-theme="sepia"] .header {
